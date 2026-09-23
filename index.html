@@ -1,2 +1,59 @@
 <!doctype html>
-<!-- Updated IMPERIA 360 catalog: 692 references / 29 categories with WhatsApp quote actions. Full content generated from the master catalog. -->
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IMPERIA 360 | Ferretería y Construcción</title>
+<meta name="description" content="IMPERIA 360 — Todo para construir. Ferretería, herramientas, electricidad, plomería, construcción, compras por volumen e importaciones.">
+<style>
+:root{--navy:#10243a;--blue:#0b5d7a;--gold:#f5b51b;--green:#12805a;--bg:#f5f7fa;--card:#fff;--text:#172033;--muted:#617084}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 20px}
+header{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;box-shadow:0 3px 15px #0002}.nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:25px;font-weight:900}.logo b{color:var(--gold)}.links{display:flex;gap:18px;font-weight:700;font-size:14px}.links a:hover{color:var(--gold)}.btn{display:inline-block;padding:13px 18px;border-radius:10px;font-weight:800;border:0;cursor:pointer}.gold{background:var(--gold);color:#18212d}.green{background:var(--green);color:#fff}.outline{border:1px solid #ffffff55;color:#fff}
+.hero{background:linear-gradient(135deg,var(--navy),#145c68);color:#fff;padding:72px 0}.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.02;margin:0 0 18px;max-width:820px}.hero p{font-size:20px;line-height:1.55;max-width:760px;color:#e7eef4}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+section{padding:58px 0}h2{font-size:34px;margin:0 0 12px}h3{margin:8px 0}.lead{color:var(--muted);max-width:800px;line-height:1.55}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:25px}.card{background:var(--card);padding:22px;border-radius:15px;box-shadow:0 6px 22px #10243a12;border:1px solid #e7ebf0}.num{font-size:12px;color:var(--blue);font-weight:900}.pill{display:inline-block;margin-top:12px;background:#edf7f2;color:var(--green);padding:6px 9px;border-radius:999px;font-size:12px;font-weight:800}
+.searchbox{display:flex;gap:10px;margin-top:25px;max-width:760px}.searchbox input{flex:1;padding:15px;border:1px solid #d6dde5;border-radius:10px;font-size:16px}.status{margin-top:20px;color:var(--muted);font-size:14px}.product{display:none}.product.show{display:block}.product h3{font-size:19px}.price{font-weight:900;margin:12px 0;color:var(--blue)}
+.band{background:#e9f6f1}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{background:#fff;border-radius:14px;padding:22px}.step strong{font-size:30px;color:var(--green)}
+footer{background:var(--navy);color:#fff;padding:42px 0}.footergrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.muted{color:#b9c7d4}.wa{position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;padding:15px 19px;border-radius:50px;font-weight:900;box-shadow:0 8px 25px #0004;z-index:30}
+@media(max-width:800px){.links{display:none}.steps{grid-template-columns:1fr 1fr}.footergrid{grid-template-columns:1fr}.hero{padding:55px 0}}
+@media(max-width:520px){.steps{grid-template-columns:1fr}.searchbox{flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#">IMPERIA <b>360</b></a><nav class="links"><a href="#catalogo">Catálogo</a><a href="#contratistas">Contratistas</a><a href="#mayoristas">Mayoristas</a><a href="#importaciones">Importaciones</a><a href="#contacto">Contacto</a></nav><a class="btn gold" href="https://wa.me/573229667868?text=Hola%20IMPERIA%20360%2C%20quiero%20cotizar." target="_blank">WhatsApp</a></div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+<h1>Todo para construir, reparar y transformar.</h1>
+<p>Ferretería y construcción con atención por WhatsApp, cotizaciones, compras por volumen, soluciones para contratistas y búsqueda de productos especiales.</p>
+<div class="actions"><a class="btn gold" href="#catalogo">Comprar ahora</a><a class="btn green" href="https://wa.me/573229667868?text=Hola%20IMPERIA%20360%2C%20necesito%20una%20cotizaci%C3%B3n." target="_blank">Cotizar</a><a class="btn outline" href="https://wa.me/573229667868?text=Hola%20IMPERIA%20360%2C%20quiero%20enviar%20una%20foto%20de%20un%20producto." target="_blank">Enviar foto</a></div>
+</div></section>
+
+<section id="catalogo"><div class="wrap">
+<h2>Catálogo IMPERIA 360</h2><p class="lead">29 líneas comerciales para encontrar lo que necesitas. Los precios y disponibilidad se confirman antes de cerrar la compra.</p>
+<div class="searchbox"><input id="q" placeholder="¿Qué estás buscando? Nombre, categoría o referencia"><button class="btn gold" onclick="buscar()">Buscar</button></div>
+<div id="status" class="status">692 productos base organizados para el catálogo comercial.</div>
+<div class="grid" id="cats"></div>
+</div></section>
+
+<section class="band" id="contratistas"><div class="wrap"><h2>Soluciones para contratistas</h2><p class="lead">Kits y cotizaciones para electricistas, plomeros, pintores, constructores, drywall, soldadores, jardineros y mantenimiento.</p><a class="btn green" href="https://wa.me/573229667868?text=Hola%20IMPERIA%20360%2C%20soy%20contratista%20y%20quiero%20armar%20un%20kit." target="_blank">Solicitar kit</a></div></section>
+
+<section id="mayoristas"><div class="wrap"><h2>Línea mayorista</h2><p class="lead">Atención por unidad, paquete, caja y volumen. Las condiciones mayoristas se calculan con referencia a costo y operación vigentes.</p><a class="btn gold" href="https://wa.me/573229667868?text=Hola%20IMPERIA%20360%2C%20quiero%20ser%20cliente%20mayorista." target="_blank">Quiero ser mayorista</a></div></section>
+
+<section class="band" id="importaciones"><div class="wrap"><h2>¿No lo encuentras en Colombia?</h2><p class="lead">Envíanos foto, referencia o descripción. Buscamos opciones y calculamos el costo puesto en Colombia antes de confirmar.</p><a class="btn green" href="https://wa.me/573229667868?text=Hola%20IMPERIA%20360%2C%20tengo%20un%20producto%20especial%20para%20buscar." target="_blank">Buscar producto especial</a></div></section>
+
+<section><div class="wrap"><h2>¿Cómo funciona?</h2><div class="steps"><div class="step"><strong>1</strong><h3>Busca</h3><p>Encuentra el producto o envía una foto.</p></div><div class="step"><strong>2</strong><h3>Verificamos</h3><p>Confirmamos proveedor, disponibilidad y condiciones.</p></div><div class="step"><strong>3</strong><h3>Cotizamos</h3><p>Recibes el precio confirmado antes de comprar.</p></div><div class="step"><strong>4</strong><h3>Coordinamos</h3><p>Gestionamos compra, despacho y entrega.</p></div></div></div></section>
+</main>
+
+<footer id="contacto"><div class="wrap footergrid"><div><div class="logo">IMPERIA <b>360</b></div><p class="muted">Ferretería y Construcción · Todo para construir.</p></div><div><strong>WhatsApp</strong><p class="muted">+57 322 966 7868</p></div><div><strong>Entrega</strong><p class="muted">Domicilio gratis — aplican condiciones según zona, pedido, peso y volumen.</p></div></div><div class="wrap"><p class="muted">Los precios, existencias, marcas, garantías y tiempos de entrega deben confirmarse antes de finalizar la compra.</p></div></footer>
+<a class="wa" href="https://wa.me/573229667868?text=Hola%20IMPERIA%20360%2C%20necesito%20ayuda." target="_blank">WhatsApp</a>
+
+<script>
+const categorias=[
+"Tornillería y fijaciones","Electricidad","Iluminación","Plomería y PVC","Grifería y baños","Herramienta manual","Herramienta eléctrica","Accesorios para herramientas","Abrasivos y soldadura","Construcción","Drywall y sistemas livianos","Pinturas y acabados","Pegantes, adhesivos y selladores","Seguridad industrial","Cerrajería","Herrajes","Gas","Jardín y agrícola","Aseo y limpieza","Organización y almacenamiento","Automotriz","Bombas y equipos hidráulicos","Maquinaria y equipos","Medición y trazado","Repuestos y accesorios","Ferretería general","Línea para contratistas","Línea mayorista para ferreterías","Importación y productos especiales"];
+const cats=document.getElementById('cats');
+categorias.forEach((c,i)=>{const d=document.createElement('div');d.className='card product show';d.dataset.search=c.toLowerCase();d.innerHTML='<div class="num">'+String(i+1).padStart(2,'0')+'</div><h3>'+c+'</h3><p class="lead">Productos, presentaciones, disponibilidad y cotización.</p><span class="pill">Consultar precio</span>';cats.appendChild(d)});
+function buscar(){const q=document.getElementById('q').value.toLowerCase().trim();let n=0;document.querySelectorAll('.product').forEach(el=>{const ok=!q||el.dataset.search.includes(q);el.classList.toggle('show',ok);if(ok)n++});document.getElementById('status').textContent=q?(n+' categoría(s) relacionada(s) encontrada(s).'):'692 productos base organizados para el catálogo comercial.'}
+document.getElementById('q').addEventListener('keydown',e=>{if(e.key==='Enter')buscar()});
+</script>
+</body>
+</html>
