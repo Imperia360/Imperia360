@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://imperia360.github.io/Imperia360/schemas/product.schema.json",
+  "title": "Producto del catálogo IMPERIA 360",
+  "description": "Estructura de validación para productos reales. Este esquema no contiene productos ni datos comerciales.",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/product"
+  },
+  "$defs": {
+    "nullableString": {
+      "type": ["string", "null"]
+    },
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "product": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "status",
+        "name",
+        "slug",
+        "identification",
+        "category",
+        "subcategory",
+        "brand",
+        "description",
+        "measurements",
+        "specifications",
+        "variants",
+        "presentations",
+        "images",
+        "pricing",
+        "availability",
+        "supplier",
+        "relatedProductIds",
+        "tags",
+        "dataQuality"
+      ],
+      "properties": {
+        "id": { "type": ["string", "null"] },
+        "status": {
+          "type": "string",
+          "enum": ["draft", "review", "active", "inactive", "archived"]
+        },
+        "name": { "$ref": "#/$defs/nullableString" },
+        "slug": { "$ref": "#/$defs/nullableString" },
+        "identification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["sku", "manufacturerReference", "supplierReference", "alternativeReferences"],
+          "properties": {
+            "sku": { "$ref": "#/$defs/nullableString" },
+            "manufacturerReference": { "$ref": "#/$defs/nullableString" },
+            "supplierReference": { "$ref": "#/$defs/nullableString" },
+            "alternativeReferences": { "$ref": "#/$defs/stringList" }
+          }
+        },
+        "category": { "$ref": "#/$defs/classification" },
+        "subcategory": { "$ref": "#/$defs/classification" },
+        "brand": { "$ref": "#/$defs/namedStatus" },
+        "description": { "$ref": "#/$defs/nullableString" },
+        "measurements": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["diameter", "length", "width", "height", "thickness", "gauge", "capacity", "unit", "originalText"],
+          "properties": {
+            "diameter": { "$ref": "#/$defs/nullableString" },
+            "length": { "$ref": "#/$defs/nullableString" },
+            "width": { "$ref": "#/$defs/nullableString" },
+            "height": { "$ref": "#/$defs/nullableString" },
+            "thickness": { "$ref": "#/$defs/nullableString" },
+            "gauge": { "$ref": "#/$defs/nullableString" },
+            "capacity": { "$ref": "#/$defs/nullableString" },
+            "unit": { "$ref": "#/$defs/nullableString" },
+            "originalText": { "$ref": "#/$defs/nullableString" }
+          }
+        },
+        "specifications": { "type": "object" },
+        "variants": { "type": "array", "items": { "$ref": "#/$defs/variant" } },
+        "presentations": { "type": "array", "items": { "$ref": "#/$defs/presentation" } },
+        "images": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["primary", "gallery", "alt"],
+          "properties": {
+            "primary": { "$ref": "#/$defs/nullableString" },
+            "gallery": { "$ref": "#/$defs/stringList" },
+            "alt": { "$ref": "#/$defs/nullableString" }
+          }
+        },
+        "pricing": { "$ref": "#/$defs/pricing" },
+        "availability": { "$ref": "#/$defs/availability" },
+        "supplier": { "$ref": "#/$defs/namedStatus" },
+        "relatedProductIds": { "$ref": "#/$defs/stringList" },
+        "tags": { "$ref": "#/$defs/stringList" },
+        "dataQuality": { "$ref": "#/$defs/dataQuality" }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/nullableString" },
+        "name": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "namedStatus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "status"],
+      "properties": {
+        "name": { "$ref": "#/$defs/nullableString" },
+        "status": {
+          "type": "string",
+          "enum": ["confirmed", "unconfirmed", "not_provided", "not_applicable"]
+        }
+      }
+    },
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "reference", "attributes", "measurements", "images", "presentationIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/nullableString" },
+        "name": { "$ref": "#/$defs/nullableString" },
+        "reference": { "$ref": "#/$defs/nullableString" },
+        "attributes": { "type": "object" },
+        "measurements": { "type": "object" },
+        "images": { "$ref": "#/$defs/stringList" },
+        "presentationIds": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "presentation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "quantity", "unit", "salesUnit", "sku", "reference", "pricing", "availability", "isDefault"],
+      "properties": {
+        "id": { "$ref": "#/$defs/nullableString" },
+        "label": { "$ref": "#/$defs/nullableString" },
+        "quantity": { "type": ["number", "null"] },
+        "unit": { "$ref": "#/$defs/nullableString" },
+        "salesUnit": { "$ref": "#/$defs/nullableString" },
+        "sku": { "$ref": "#/$defs/nullableString" },
+        "reference": { "$ref": "#/$defs/nullableString" },
+        "pricing": { "$ref": "#/$defs/presentationPricing" },
+        "availability": { "$ref": "#/$defs/presentationAvailability" },
+        "isDefault": { "type": "boolean" }
+      }
+    },
+    "pricing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "currency", "publicPrice", "wholesalePrice", "lastVerifiedAt", "source"],
+      "properties": {
+        "status": { "type": "string", "enum": ["unvalidated", "validated", "quote_only", "not_available"] },
+        "currency": { "type": ["string", "null"] },
+        "publicPrice": { "type": ["number", "null"] },
+        "wholesalePrice": { "type": ["number", "null"] },
+        "lastVerifiedAt": { "$ref": "#/$defs/nullableString" },
+        "source": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "presentationPricing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "publicPrice", "wholesalePrice"],
+      "properties": {
+        "status": { "type": "string", "enum": ["unvalidated", "validated", "quote_only", "not_available"] },
+        "publicPrice": { "type": ["number", "null"] },
+        "wholesalePrice": { "type": ["number", "null"] }
+      }
+    },
+    "availability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "stock", "unit", "lastVerifiedAt", "source"],
+      "properties": {
+        "status": { "type": "string", "enum": ["unverified", "available", "unavailable", "on_request", "discontinued"] },
+        "stock": { "type": ["number", "null"] },
+        "unit": { "$ref": "#/$defs/nullableString" },
+        "lastVerifiedAt": { "$ref": "#/$defs/nullableString" },
+        "source": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "presentationAvailability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "stock"],
+      "properties": {
+        "status": { "type": "string", "enum": ["unverified", "available", "unavailable", "on_request", "discontinued"] },
+        "stock": { "type": ["number", "null"] }
+      }
+    },
+    "dataQuality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "verified", "missingFields", "duplicateStatus", "lastReviewedAt"],
+      "properties": {
+        "source": { "$ref": "#/$defs/nullableString" },
+        "verified": { "type": "boolean" },
+        "missingFields": { "$ref": "#/$defs/stringList" },
+        "duplicateStatus": { "type": "string", "enum": ["pending", "clear", "possible_duplicate", "duplicate"] },
+        "lastReviewedAt": { "$ref": "#/$defs/nullableString" }
+      }
+    }
+  }
+}
