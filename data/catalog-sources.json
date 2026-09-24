@@ -1,106 +1,23 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
   "sourcePolicy": {
-    "priority": [
-      "fabricante",
-      "importador",
-      "mayorista_distribuidor",
-      "tienda_especializada",
-      "retail"
-    ],
+    "priority": ["fabricante","importador","mayorista_distribuidor","tienda_especializada","retail"],
     "verification": "Cada registro debe conservar fuente, fecha de consulta y referencia original.",
     "pricePolicy": "No se inventan precios. Si no existe precio verificable, se registra quote_only.",
     "imagePolicy": "Solo se aceptan imágenes verificadas y asociadas a la referencia correcta.",
     "availabilityPolicy": "La existencia se conserva como dato de la fuente y no se presenta como inventario propio de IMPERIA 360."
   },
   "sources": [
-    {
-      "id": "src-roxvan",
-      "supplierId": "sup-roxvan",
-      "name": "Roxvan catálogo B2B",
-      "url": "https://roxvan.com/",
-      "status": "active",
-      "priceAccess": "public",
-      "stockAccess": "public",
-      "searchQueries": ["site:roxvan.com ferreteria productos herramientas tornillos precio Colombia"]
-    },
-    {
-      "id": "src-sofalca",
-      "supplierId": "sup-sofalca",
-      "name": "Sofalca catálogo online",
-      "url": "https://sofalca.com/",
-      "status": "active",
-      "priceAccess": "public",
-      "stockAccess": "public",
-      "searchQueries": ["site:sofalca.com ferreteria herramientas productos precio Colombia"]
-    },
-    {
-      "id": "src-mundial",
-      "supplierId": "sup-mundial",
-      "name": "Mundial de Tornillos",
-      "url": "https://mundialdetornillos.com/",
-      "status": "active",
-      "priceAccess": "partial",
-      "stockAccess": "partial",
-      "searchQueries": [
-        "site:mundialdetornillos.com producto tornillo herramienta precio",
-        "site:mundialdetornillos.com catalogo herramienta manual tornilleria"
-      ]
-    },
-    {
-      "id": "src-777",
-      "supplierId": "sup-777",
-      "name": "Tornillos y Herramientas 777",
-      "url": "https://tornillos777.com/",
-      "status": "active",
-      "priceAccess": "partial",
-      "stockAccess": "partial",
-      "searchQueries": ["site:tornillos777.com productos tornillos herramientas precio"]
-    },
-    {
-      "id": "src-tyt",
-      "supplierId": "sup-tyt",
-      "name": "Tornillos y Tuercas Co.",
-      "url": "https://www.tornillosytuercas.co/",
-      "status": "active",
-      "priceAccess": "public",
-      "stockAccess": "public",
-      "searchQueries": ["site:tornillosytuercas.co tornillos tuercas arandelas precio"]
-    },
-    {
-      "id": "src-fercar",
-      "supplierId": "sup-fercar",
-      "name": "Tornillos Fercar",
-      "url": "https://tornillosfercar.com/",
-      "status": "active",
-      "priceAccess": "partial",
-      "stockAccess": "partial",
-      "searchQueries": ["site:tornillosfercar.com tornillos herramientas precio Colombia"]
-    },
-    {
-      "id": "src-corbeta",
-      "supplierId": "sup-corbeta",
-      "name": "Corbeta",
-      "url": "https://www.corbeta.com.co/",
-      "status": "active",
-      "priceAccess": "partial",
-      "stockAccess": "partial",
-      "searchQueries": [
-        "site:corbeta.com.co/ferreteria herramientas manuales herramientas electricas",
-        "site:corbeta.com.co/ferreteria materiales industriales adhesivos abrasivos pinturas",
-        "site:corbeta.com.co/ferreteria griferia plomeria tuberia"
-      ]
-    },
-    {
-      "id": "src-coval",
-      "supplierId": "sup-coval",
-      "name": "Coval",
-      "url": "https://coval.com.co/",
-      "status": "active",
-      "priceAccess": "partial",
-      "stockAccess": "partial",
-      "searchQueries": ["site:coval.com.co ferreteria herramientas productos precio Colombia"]
-    }
+    {"id":"src-roxvan","supplierId":"sup-roxvan","name":"Roxvan catálogo B2B","url":"https://roxvan.com/","status":"active","priceAccess":"public","stockAccess":"public","searchQueries":["site:roxvan.com ferreteria productos herramientas tornillos precio Colombia"]},
+    {"id":"src-sofalca","supplierId":"sup-sofalca","name":"Sofalca catálogo online","url":"https://sofalca.com/","status":"active","priceAccess":"public","stockAccess":"public","searchQueries":["site:sofalca.com ferreteria herramientas productos precio Colombia"]},
+    {"id":"src-mundial","supplierId":"sup-mundial","name":"Mundial de Tornillos","url":"https://mundialdetornillos.com/","status":"active","priceAccess":"partial","stockAccess":"partial","searchQueries":["site:mundialdetornillos.com producto tornillo herramienta precio","site:mundialdetornillos.com catalogo herramienta manual tornilleria"]},
+    {"id":"src-777","supplierId":"sup-777","name":"Tornillos y Herramientas 777","url":"https://tornillos777.com/","status":"active","priceAccess":"partial","stockAccess":"partial","searchQueries":["site:tornillos777.com productos tornillos herramientas precio"]},
+    {"id":"src-tyt","supplierId":"sup-tyt","name":"Tornillos y Tuercas Co.","url":"https://www.tornillosytuercas.co/","status":"active","priceAccess":"public","stockAccess":"public","searchQueries":["site:tornillosytuercas.co tornillos tuercas arandelas precio"]},
+    {"id":"src-fercar","supplierId":"sup-fercar","name":"Tornillos Fercar","url":"https://tornillosfercar.com/","status":"active","priceAccess":"partial","stockAccess":"partial","searchQueries":["site:tornillosfercar.com tornillos herramientas precio Colombia"]},
+    {"id":"src-corbeta","supplierId":"sup-corbeta","name":"Corbeta","url":"https://www.corbeta.com.co/","status":"active","priceAccess":"partial","stockAccess":"partial","searchQueries":["site:corbeta.com.co/ferreteria herramientas manuales herramientas electricas","site:corbeta.com.co/ferreteria materiales industriales adhesivos abrasivos pinturas","site:corbeta.com.co/ferreteria griferia plomeria tuberia"]},
+    {"id":"src-coval","supplierId":"sup-coval","name":"Coval","url":"https://coval.com.co/","status":"active","priceAccess":"partial","stockAccess":"partial","searchQueries":["site:coval.com.co ferreteria herramientas productos precio Colombia"]},
+    {"id":"src-homecenter","supplierId":"retail-homecenter","name":"Homecenter Colombia","url":"https://www.homecenter.com.co/","status":"reference_only","priceAccess":"public","stockAccess":"public","searchQueries":["site:homecenter.com.co ferreteria herramientas tornillos precio"]},
+    {"id":"src-ferreterias-bogota","supplierId":"market-bogota","name":"Ferreterías especializadas Bogotá","url":"","status":"discovery","priceAccess":"variable","stockAccess":"variable","searchQueries":["ferreteria mayorista Bogota herramientas tornillos precios","ferreteria industrial Bogota proveedor herramientas"]}
   ]
 }
