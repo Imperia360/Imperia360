@@ -14771,5 +14771,3176 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0141",
+    "status": "review",
+    "name": "Ducha monocontrol Aluvia Grival AV4150001",
+    "slug": "ducha-monocontrol-aluvia-grival-av4150001",
+    "identification": {
+      "sku": "B4B19722",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-05",
+      "name": "Grifería y baños"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Grifería y duchas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Ducha monocontrol Aluvia Grival AV4150001"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0141-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B19722",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 196420,
+          "wholesalePrice": 140300
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Ducha monocontrol Aluvia Grival AV4150001"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 196420,
+      "wholesalePrice": 140300,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "ducha",
+      "monocontrol",
+      "aluvia",
+      "grival",
+      "av4150001"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0142",
+    "status": "review",
+    "name": "Juego destornilladores x6 piezas 3/16x4 punta imantada DYLLU",
+    "slug": "juego-destornilladores-x6-piezas-3-16x4-punta-imantada-dyllu",
+    "identification": {
+      "sku": "B4B22719",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Destornilladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Juego destornilladores x6 piezas 3/16x4 punta imantada DYLLU"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0142-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22719",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 14980,
+          "wholesalePrice": 10700
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego destornilladores x6 piezas 3/16x4 punta imantada DYLLU"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 14980,
+      "wholesalePrice": 10700,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "destornilladores",
+      "piezas",
+      "16x4",
+      "punta",
+      "imantada",
+      "dyllu"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0143",
+    "status": "review",
+    "name": "Rz reflector LED Eco 50W 6500K Apache KL-2513",
+    "slug": "rz-reflector-led-eco-50w-6500k-apache-kl-2513",
+    "identification": {
+      "sku": "RO5804",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-03",
+      "name": "Iluminación"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Reflectores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Rz reflector LED Eco 50W 6500K Apache KL-2513"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0143-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5804",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 20900,
+          "wholesalePrice": 18402
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Rz reflector LED Eco 50W 6500K Apache KL-2513"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 20900,
+      "wholesalePrice": 18402,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "reflector",
+      "led",
+      "eco",
+      "50w",
+      "6500k",
+      "apache",
+      "2513"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0144",
+    "status": "review",
+    "name": "Panel LED 18W redondo incrustar luz día Titanium 6500K",
+    "slug": "panel-led-18w-redondo-incrustar-luz-dia-titanium-6500k",
+    "identification": {
+      "sku": "RO5785",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-03",
+      "name": "Iluminación"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Paneles LED"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Panel LED 18W redondo incrustar luz día Titanium 6500K"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0144-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5785",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7500,
+          "wholesalePrice": 6600
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Panel LED 18W redondo incrustar luz día Titanium 6500K"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7500,
+      "wholesalePrice": 6600,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "panel",
+      "led",
+      "18w",
+      "redondo",
+      "incrustar",
+      "luz",
+      "dia",
+      "titanium",
+      "6500k"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0145",
+    "status": "review",
+    "name": "Panel LED 18W redondo sin marco luz día 6400K",
+    "slug": "panel-led-18w-redondo-sin-marco-luz-dia-6400k",
+    "identification": {
+      "sku": "RO5774",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-03",
+      "name": "Iluminación"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Paneles LED"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Panel LED 18W redondo sin marco luz día 6400K"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0145-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5774",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 11340,
+          "wholesalePrice": 8100
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Panel LED 18W redondo sin marco luz día 6400K"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 11340,
+      "wholesalePrice": 8100,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "panel",
+      "led",
+      "18w",
+      "redondo",
+      "sin",
+      "marco",
+      "luz",
+      "dia",
+      "6400k"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0146",
+    "status": "review",
+    "name": "Amarra plástica UDUKE negra 2.5x100mm x100 unidades",
+    "slug": "amarra-plastica-uduke-negra-2-5x100mm-x100-unidades",
+    "identification": {
+      "sku": "RO5724",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Amarras y sujeción"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Amarra plástica UDUKE negra 2.5x100mm x100 unidades"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0146-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5724",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1508,
+          "wholesalePrice": 1178
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Amarra plástica UDUKE negra 2.5x100mm x100 unidades"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1508,
+      "wholesalePrice": 1178,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "amarra",
+      "plastica",
+      "uduke",
+      "negra",
+      "5x100mm",
+      "x100",
+      "unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0147",
+    "status": "review",
+    "name": "Bombillo LED 30W UDUKE luz día E27 multivoltaje 6500K",
+    "slug": "bombillo-led-30w-uduke-luz-dia-e27-multivoltaje-6500k",
+    "identification": {
+      "sku": "RO5709",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-03",
+      "name": "Iluminación"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Bombillos LED"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Bombillo LED 30W UDUKE luz día E27 multivoltaje 6500K"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0147-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5709",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 10010,
+          "wholesalePrice": 7150
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Bombillo LED 30W UDUKE luz día E27 multivoltaje 6500K"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 10010,
+      "wholesalePrice": 7150,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "bombillo",
+      "led",
+      "30w",
+      "uduke",
+      "luz",
+      "dia",
+      "e27",
+      "multivoltaje",
+      "6500k"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0148",
+    "status": "review",
+    "name": "Reflector LED 100W 6500K ultra delgado 100-240V",
+    "slug": "reflector-led-100w-6500k-ultra-delgado-100-240v",
+    "identification": {
+      "sku": "RO5703",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-03",
+      "name": "Iluminación"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Reflectores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Reflector LED 100W 6500K ultra delgado 100-240V"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0148-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5703",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 42560,
+          "wholesalePrice": 30400
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Reflector LED 100W 6500K ultra delgado 100-240V"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 42560,
+      "wholesalePrice": 30400,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "reflector",
+      "led",
+      "100w",
+      "6500k",
+      "ultra",
+      "delgado",
+      "100",
+      "240v"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0149",
+    "status": "review",
+    "name": "Panel LED 12W redondo incrustar luz día Vatio 6400K",
+    "slug": "panel-led-12w-redondo-incrustar-luz-dia-vatio-6400k",
+    "identification": {
+      "sku": "B4B8381A",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-03",
+      "name": "Iluminación"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Paneles LED"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Panel LED 12W redondo incrustar luz día Vatio 6400K"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0149-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B8381A",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 8050,
+          "wholesalePrice": 5750
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Panel LED 12W redondo incrustar luz día Vatio 6400K"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 8050,
+      "wholesalePrice": 5750,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "panel",
+      "led",
+      "12w",
+      "redondo",
+      "incrustar",
+      "luz",
+      "dia",
+      "vatio",
+      "6400k"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0150",
+    "status": "review",
+    "name": "Tapa plástica toma doble blanca cuadrada RETIE",
+    "slug": "tapa-plastica-toma-doble-blanca-cuadrada-retie",
+    "identification": {
+      "sku": "RO5660",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios eléctricos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tapa plástica toma doble blanca cuadrada RETIE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0150-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5660",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 560,
+          "wholesalePrice": 400
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tapa plástica toma doble blanca cuadrada RETIE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 560,
+      "wholesalePrice": 400,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tapa",
+      "plastica",
+      "toma",
+      "doble",
+      "blanca",
+      "cuadrada",
+      "retie"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0151",
+    "status": "review",
+    "name": "Breaker Duke Energy L7 2 polos 60A 120/240V 10KA",
+    "slug": "breaker-duke-energy-l7-2-polos-60a-120-240v-10ka",
+    "identification": {
+      "sku": "B4B23589",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Breakers"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Breaker Duke Energy L7 2 polos 60A 120/240V 10KA"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0151-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23589",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 28000,
+          "wholesalePrice": 20000
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Breaker Duke Energy L7 2 polos 60A 120/240V 10KA"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 28000,
+      "wholesalePrice": 20000,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "breaker",
+      "duke",
+      "energy",
+      "polos",
+      "60a",
+      "120",
+      "240v",
+      "10ka"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0152",
+    "status": "review",
+    "name": "Pintura vinilo Premium Tipo 1 blanco hueso cuñete",
+    "slug": "pintura-vinilo-premium-tipo-1-blanco-hueso-cunete",
+    "identification": {
+      "sku": "99400505",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-12",
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pinturas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pintura vinilo Premium Tipo 1 blanco hueso cuñete"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0152-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "99400505",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 362998,
+          "wholesalePrice": 315650
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pintura vinilo Premium Tipo 1 blanco hueso cuñete"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 362998,
+      "wholesalePrice": 315650,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pintura",
+      "vinilo",
+      "premium",
+      "tipo",
+      "blanco",
+      "hueso",
+      "cunete"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0153",
+    "status": "review",
+    "name": "Manguera nivel 5/16 x 100 m calibre 40",
+    "slug": "manguera-nivel-5-16-x-100-m-calibre-40",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-26",
+      "name": "Ferretería general"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Ferretería general"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Manguera nivel 5/16 x 100 m calibre 40"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0153-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 122689,
+          "wholesalePrice": 103100
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Manguera nivel 5/16 x 100 m calibre 40"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 122689,
+      "wholesalePrice": 103100,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "manguera",
+      "nivel",
+      "100",
+      "calibre"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0154",
+    "status": "review",
+    "name": "Juego destornilladores 6 piezas DYLLU DTSS2206",
+    "slug": "juego-destornilladores-6-piezas-dyllu-dtss2206",
+    "identification": {
+      "sku": "B4B22719",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Destornilladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Juego destornilladores 6 piezas DYLLU DTSS2206"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0154-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22719",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 14980,
+          "wholesalePrice": 10700
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego destornilladores 6 piezas DYLLU DTSS2206"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 14980,
+      "wholesalePrice": 10700,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "destornilladores",
+      "piezas",
+      "dyllu",
+      "dtss2206"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0155",
+    "status": "review",
+    "name": "Codo sanitario Gerfor 90° 1/4° 3 pulgadas",
+    "slug": "codo-sanitario-gerfor-90-1-4-3-pulgadas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios sanitarios"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Codo sanitario Gerfor 90° 1/4° 3 pulgadas"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0155-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo sanitario Gerfor 90° 1/4° 3 pulgadas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "sanitario",
+      "gerfor",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0156",
+    "status": "review",
+    "name": "Tee sanitario Gerfor 2 pulgadas",
+    "slug": "tee-sanitario-gerfor-2-pulgadas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios sanitarios"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tee sanitario Gerfor 2 pulgadas"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0156-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tee sanitario Gerfor 2 pulgadas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tee",
+      "sanitario",
+      "gerfor",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0157",
+    "status": "review",
+    "name": "Tee sanitario Gerfor 3 pulgadas",
+    "slug": "tee-sanitario-gerfor-3-pulgadas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios sanitarios"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tee sanitario Gerfor 3 pulgadas"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0157-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tee sanitario Gerfor 3 pulgadas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tee",
+      "sanitario",
+      "gerfor",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0158",
+    "status": "review",
+    "name": "Conduit tubo Gerfor 1/2 pulgada",
+    "slug": "conduit-tubo-gerfor-1-2-pulgada",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tubería conduit"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Conduit tubo Gerfor 1/2 pulgada"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0158-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Conduit tubo Gerfor 1/2 pulgada"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "conduit",
+      "tubo",
+      "gerfor",
+      "pulgada"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0159",
+    "status": "review",
+    "name": "Tubo presión Gerfor RDE 13.5 1/2 pulgada",
+    "slug": "tubo-presion-gerfor-rde-13-5-1-2-pulgada",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tubería presión"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tubo presión Gerfor RDE 13.5 1/2 pulgada"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0159-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubo presión Gerfor RDE 13.5 1/2 pulgada"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tubo",
+      "presion",
+      "gerfor",
+      "rde",
+      "pulgada"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0160",
+    "status": "review",
+    "name": "Codo Gerfor presión 90° x100",
+    "slug": "codo-gerfor-presion-90-x100",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios presión"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Codo Gerfor presión 90° x100"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0160-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo Gerfor presión 90° x100"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "gerfor",
+      "presion",
+      "x100"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0161",
+    "status": "review",
+    "name": "Adaptador macho Gerfor 1/2 x100",
+    "slug": "adaptador-macho-gerfor-1-2-x100",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios presión"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Adaptador macho Gerfor 1/2 x100"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0161-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Adaptador macho Gerfor 1/2 x100"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "adaptador",
+      "macho",
+      "gerfor",
+      "x100"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0162",
+    "status": "review",
+    "name": "Tubo Gerfor presión 1 pulgada RDE 13.5",
+    "slug": "tubo-gerfor-presion-1-pulgada-rde-13-5",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tubería presión"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tubo Gerfor presión 1 pulgada RDE 13.5"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0162-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubo Gerfor presión 1 pulgada RDE 13.5"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tubo",
+      "gerfor",
+      "presion",
+      "pulgada",
+      "rde"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0163",
+    "status": "review",
+    "name": "Codo sanitario Gerfor CxC 1 1/2 pulgadas",
+    "slug": "codo-sanitario-gerfor-cxc-1-1-2-pulgadas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios sanitarios"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Codo sanitario Gerfor CxC 1 1/2 pulgadas"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0163-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo sanitario Gerfor CxC 1 1/2 pulgadas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "sanitario",
+      "gerfor",
+      "cxc",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0164",
+    "status": "review",
+    "name": "Universal Gerfor 1 1/2 pulgadas",
+    "slug": "universal-gerfor-1-1-2-pulgadas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios presión"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Universal Gerfor 1 1/2 pulgadas"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0164-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Universal Gerfor 1 1/2 pulgadas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "universal",
+      "gerfor",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0165",
+    "status": "review",
+    "name": "Esmeriladora angular 4 1/2 pulgadas 800W",
+    "slug": "esmeriladora-angular-4-1-2-pulgadas-800w",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta eléctrica"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Esmeriladora angular 4 1/2 pulgadas 800W"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0165-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Esmeriladora angular 4 1/2 pulgadas 800W"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "esmeriladora",
+      "angular",
+      "pulgadas",
+      "800w"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0166",
+    "status": "review",
+    "name": "Hidrolavadora eléctrica 1700W 1600 PSI",
+    "slug": "hidrolavadora-electrica-1700w-1600-psi",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-23",
+      "name": "Maquinaria y equipos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Equipos hidráulicos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Hidrolavadora eléctrica 1700W 1600 PSI"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0166-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Hidrolavadora eléctrica 1700W 1600 PSI"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "hidrolavadora",
+      "electrica",
+      "1700w",
+      "1600",
+      "psi"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0167",
+    "status": "review",
+    "name": "Compresor Furius 25L 115PSI 7CFM",
+    "slug": "compresor-furius-25l-115psi-7cfm",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-23",
+      "name": "Maquinaria y equipos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Compresores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Compresor Furius 25L 115PSI 7CFM"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0167-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Compresor Furius 25L 115PSI 7CFM"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "compresor",
+      "furius",
+      "25l",
+      "115psi",
+      "7cfm"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0168",
+    "status": "review",
+    "name": "Taladro inalámbrico Kalley 18 velocidades",
+    "slug": "taladro-inalambrico-kalley-18-velocidades",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Taladros"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Taladro inalámbrico Kalley 18 velocidades"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0168-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Taladro inalámbrico Kalley 18 velocidades"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "taladro",
+      "inalambrico",
+      "kalley",
+      "velocidades"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0169",
+    "status": "review",
+    "name": "Hidrolavadora eléctrica 1500W 1450 PSI",
+    "slug": "hidrolavadora-electrica-1500w-1450-psi",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-23",
+      "name": "Maquinaria y equipos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Equipos hidráulicos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Hidrolavadora eléctrica 1500W 1450 PSI"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0169-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Hidrolavadora eléctrica 1500W 1450 PSI"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "hidrolavadora",
+      "electrica",
+      "1500w",
+      "1450",
+      "psi"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0170",
+    "status": "review",
+    "name": "Careta fotosensible Furius Fenix 330",
+    "slug": "careta-fotosensible-furius-fenix-330",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Protección soldadura"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia identificada en el catálogo público de Corbeta.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Careta fotosensible Furius Fenix 330"
+    },
+    "specifications": {
+      "marketSource": "Corbeta"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0170-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Careta fotosensible Furius Fenix 330"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "careta",
+      "fotosensible",
+      "furius",
+      "fenix",
+      "330"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
