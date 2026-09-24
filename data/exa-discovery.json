@@ -2,7 +2,7 @@
   "version": "1.3.0",
   "consultedAt": "2026-09-24",
   "status": "IN_CHAT_RESEARCH_BATCH_APPENDED",
-  "sourcesQueried": 24,
+  "sourcesQueried": 29,
   "results": [
     {
       "sourceId": "corbeta",
@@ -1777,7 +1777,853 @@
         "reference",
         "price"
       ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "title": "Pistola Soplar y Aspirar 500w 1 Velocidad Stanley",
+      "productName": "Pistola Soplar y Aspirar 500w 1 Velocidad Stanley",
+      "brand": "Stanley",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 179900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "title": "Caladora 600w + Ruteadora 1200w Stanley",
+      "productName": "Caladora 600w + Ruteadora 1200w Stanley",
+      "brand": "Stanley",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 569900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "title": "Kit Taladro Percutor 1/2 pulgada 20V Max Brushless con 1 Batería 2ah + Cargador + Bolso Dewalt",
+      "productName": "Kit Taladro Percutor 1/2 pulgada 20V Max Brushless con 1 Batería 2ah + Cargador + Bolso Dewalt",
+      "brand": "Dewalt",
+      "reference": null,
+      "presentation": "kit",
+      "price": 384900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "title": "Set Herramientas Auto Y Moto 51 Piezas Bauker",
+      "productName": "Set Herramientas Auto Y Moto 51 Piezas Bauker",
+      "brand": "Bauker",
+      "reference": null,
+      "presentation": "set 51 piezas",
+      "price": 99900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "title": "Juego de Herramientas para Mecánico 192 Piezas Dewalt",
+      "productName": "Juego de Herramientas para Mecánico 192 Piezas Dewalt",
+      "brand": "Dewalt",
+      "reference": null,
+      "presentation": "juego 192 piezas",
+      "price": 949900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "title": "Kit Taladro Percutor 1/2pg 20V 2 Baterías + 100 Accesorios + Caja Plástica Stanley",
+      "productName": "Kit Taladro Percutor 1/2pg 20V 2 Baterías + 100 Accesorios + Caja Plástica Stanley",
+      "brand": "Stanley",
+      "reference": null,
+      "presentation": "kit",
+      "price": 559900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "title": "Taladro Percutor Sin Escobillas 18v Xrp 13mm 169nm + 1 Batería Li-ion 8ah Dewalt",
+      "productName": "Taladro Percutor Sin Escobillas 18v Xrp 13mm 169nm + 1 Batería Li-ion 8ah Dewalt",
+      "brand": "Dewalt",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 2199900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "title": "Set Llave Universal Ubermann",
+      "productName": "Set Llave Universal Ubermann",
+      "brand": "Ubermann",
+      "reference": null,
+      "presentation": "set",
+      "price": 49900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "title": "Set 92 Piezas Herramientas Hogar Bauker",
+      "productName": "Set 92 Piezas Herramientas Hogar Bauker",
+      "brand": "Bauker",
+      "reference": null,
+      "presentation": "set 92 piezas",
+      "price": 439900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "title": "Set 10 Piezas Herramientas Bauker",
+      "productName": "Set 10 Piezas Herramientas Bauker",
+      "brand": "Bauker",
+      "reference": null,
+      "presentation": "set 10 piezas",
+      "price": 59900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "title": "Juego Herramientas Manual 7 Piezas",
+      "productName": "Juego Herramientas Manual 7 Piezas",
+      "brand": "Bauker",
+      "reference": null,
+      "presentation": "juego 7 piezas",
+      "price": 69900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "title": "Prensa Tipo C Hierro Nodular 1 Pulgadas Profesional Surtek",
+      "productName": "Prensa Tipo C Hierro Nodular 1 Pulgadas Profesional Surtek",
+      "brand": "Surtek",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 24900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "title": "Set 5 Herramientas Manuales Stanley",
+      "productName": "Set 5 Herramientas Manuales Stanley",
+      "brand": "Stanley",
+      "reference": null,
+      "presentation": "set 5 piezas",
+      "price": 99900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "title": "Prensa Tipo C Hierro Nodular 6 Pulgadas Profesional Surtek",
+      "productName": "Prensa Tipo C Hierro Nodular 6 Pulgadas Profesional Surtek",
+      "brand": "Surtek",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 72900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "title": "Juego de Herramientas 6 Piezas Hogar Oficinas y Carro Truper",
+      "productName": "Juego de Herramientas 6 Piezas Hogar Oficinas y Carro Truper",
+      "brand": "Truper",
+      "reference": null,
+      "presentation": "juego 6 piezas",
+      "price": 121900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "title": "Prensa en C 2 Pulgadas Ref 83-502 Stanley",
+      "productName": "Prensa en C 2 Pulgadas Ref 83-502 Stanley",
+      "brand": "Stanley",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 31900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "title": "Bisturí Profesion. Con Alma Metalica Grip 18Mm",
+      "productName": "Bisturí Profesion. Con Alma Metalica Grip 18Mm",
+      "brand": "Truper",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 29900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "title": "Cuchilla Retráctil Profesional Hi Vis Stanley",
+      "productName": "Cuchilla Retráctil Profesional Hi Vis Stanley",
+      "brand": "Stanley",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 46900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "title": "Paquete X 4 Unidades Casco Eco Azul",
+      "productName": "Paquete X 4 Unidades Casco Eco Azul",
+      "brand": "Steelpro",
+      "reference": null,
+      "presentation": "paquete x4",
+      "price": 60900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "title": "Bisturi TRAPEZOIDAL+ 4 cuchillas acero SK4 Industrial 18 mm",
+      "productName": "Bisturi TRAPEZOIDAL+ 4 cuchillas acero SK4 Industrial 18 mm",
+      "brand": "Discover",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 44900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "title": "Tubo 4X6 Metros Sanitaria",
+      "productName": "Tubo 4X6 Metros Sanitaria",
+      "brand": "Durman",
+      "reference": null,
+      "presentation": "6 metros",
+      "price": 89900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "title": "Codo 22.1/2 X 3 CxE Sanitaria",
+      "productName": "Codo 22.1/2 X 3 CxE Sanitaria",
+      "brand": "Pavco Wavin",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 16900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "title": "Tubo 3 Pulgadas X 3 Metros Sanitaria",
+      "productName": "Tubo 3 Pulgadas X 3 Metros Sanitaria",
+      "brand": "Durman",
+      "reference": null,
+      "presentation": "3 metros",
+      "price": 37900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "title": "Buje Soldado 4X2 Sanitaria",
+      "productName": "Buje Soldado 4X2 Sanitaria",
+      "brand": "Pavco Wavin",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 13900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_ya",
+      "url": "https://ferreteriaya.com.co/",
+      "title": "Vinilo Tipo 1 Blanco Viniltex Pintuco Cuñete",
+      "productName": "Vinilo Tipo 1 Blanco Viniltex Pintuco Cuñete",
+      "brand": "Pintuco",
+      "reference": null,
+      "presentation": "cuñete",
+      "price": 399900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_ya",
+      "url": "https://ferreteriaya.com.co/",
+      "title": "Viniltex Baños y Cocinas Galon Blanco",
+      "productName": "Viniltex Baños y Cocinas Galon Blanco",
+      "brand": "Pintuco",
+      "reference": null,
+      "presentation": "galón",
+      "price": 129900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_ya",
+      "url": "https://ferreteriaya.com.co/",
+      "title": "Aerosol Blanco Mate 400ml",
+      "productName": "Aerosol Blanco Mate 400ml",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "price": 10000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_ya",
+      "url": "https://ferreteriaya.com.co/",
+      "title": "Brocha Mona 1/2 Eco",
+      "productName": "Brocha Mona 1/2 Eco",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "price": 2500,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_ya",
+      "url": "https://ferreteriaya.com.co/",
+      "title": "Casco de Seguridad Blanco Pretul 25038",
+      "productName": "Casco de Seguridad Blanco Pretul 25038",
+      "brand": "Pretul",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 22900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_ya",
+      "url": "https://ferreteriaya.com.co/",
+      "title": "Nivel Laser 10m con Forro Truper 17079",
+      "productName": "Nivel Laser 10m con Forro Truper 17079",
+      "brand": "Truper",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 169900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rojo_ferreterias",
+      "url": "https://www.rojo.com.co/",
+      "title": "Kit taladro/destornillador Inalámbrico 1/2, 20V, 32 accesorios y maletín",
+      "productName": "Kit taladro/destornillador Inalámbrico 1/2, 20V, 32 accesorios y maletín",
+      "brand": "Pretul",
+      "reference": null,
+      "presentation": "kit",
+      "price": 319000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rojo_ferreterias",
+      "url": "https://www.rojo.com.co/",
+      "title": "Pulidora Esmeriladora Inalámbrica 4-1/2, 20V, 1 batería 4Ah, cargador y maleta",
+      "productName": "Pulidora Esmeriladora Inalámbrica 4-1/2, 20V, 1 batería 4Ah, cargador y maleta",
+      "brand": "Truper MAX",
+      "reference": null,
+      "presentation": "kit",
+      "price": 649999,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rojo_ferreterias",
+      "url": "https://www.rojo.com.co/",
+      "title": "Sierra circular inalámbrica 6-1/2, 20V, 1 batería 4Ah, cargador y Maleta",
+      "productName": "Sierra circular inalámbrica 6-1/2, 20V, 1 batería 4Ah, cargador y Maleta",
+      "brand": "Truper MAX",
+      "reference": null,
+      "presentation": "kit",
+      "price": 707999,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rojo_ferreterias",
+      "url": "https://www.rojo.com.co/",
+      "title": "Destornillador de impacto Inalámbrico 1/4, 20V, 2 baterías 2Ah, Maleta",
+      "productName": "Destornillador de impacto Inalámbrico 1/4, 20V, 2 baterías 2Ah, Maleta",
+      "brand": "Truper MAX",
+      "reference": null,
+      "presentation": "kit",
+      "price": 760000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/marca/stanley/",
+      "title": "Alicate Hombresolo Curvo",
+      "productName": "Alicate Hombresolo Curvo",
+      "brand": "Stanley",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 39078,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/marca/stanley/",
+      "title": "Alicate Hombresolo Hojalatero 8 Ref. 84398",
+      "productName": "Alicate Hombresolo Hojalatero 8 Ref. 84398",
+      "brand": "Stanley",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 47970,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "global_tools",
+      "url": "https://globaltoolscompaniaferretera.com/collections/all",
+      "title": "Codo 90° En Hierro Dúctil Extremo Liso",
+      "productName": "Codo 90° En Hierro Dúctil Extremo Liso",
+      "brand": "Apolo",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 79900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "global_tools",
+      "url": "https://globaltoolscompaniaferretera.com/collections/all",
+      "title": "Colector de polvo Truper 1 HP, 600 CFM, bolsa de 57 L",
+      "productName": "Colector de polvo Truper 1 HP, 600 CFM, bolsa de 57 L",
+      "brand": "Truper",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 1973020,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "global_tools",
+      "url": "https://globaltoolscompaniaferretera.com/collections/all",
+      "title": "Colector de polvo Truper 2 HP, 1500 CFM, bolsa de 154 L",
+      "productName": "Colector de polvo Truper 2 HP, 1500 CFM, bolsa de 154 L",
+      "brand": "Truper",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 2676310,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "global_tools",
+      "url": "https://globaltoolscompaniaferretera.com/collections/all",
+      "title": "Combo Truper MAX 20 V: rotomartillo inalámbrico y destornillador de impacto",
+      "productName": "Combo Truper MAX 20 V: rotomartillo inalámbrico y destornillador de impacto",
+      "brand": "Truper MAX",
+      "reference": null,
+      "presentation": "combo",
+      "price": 1457750,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/productos/",
+      "title": "Acondicionador de correas CRC Belt Dressing 430 ml",
+      "productName": "Acondicionador de correas CRC Belt Dressing 430 ml",
+      "brand": "CRC",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 71280,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/productos/",
+      "title": "Adhesivo Instantáneo Loctite 401",
+      "productName": "Adhesivo Instantáneo Loctite 401",
+      "brand": "Loctite",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 136500,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/productos/",
+      "title": "Adhesivo instantáneo LOCTITE 495 Super Bonder 20 g",
+      "productName": "Adhesivo instantáneo LOCTITE 495 Super Bonder 20 g",
+      "brand": "Loctite",
+      "reference": null,
+      "presentation": "20 g",
+      "price": 78000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/productos/",
+      "title": "Adhesivo Superbonder LOCTITE 451",
+      "productName": "Adhesivo Superbonder LOCTITE 451",
+      "brand": "Loctite",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 9590,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/productos/",
+      "title": "Afilador electrico de brocas c/punta 118° TRUPER 101684",
+      "productName": "Afilador electrico de brocas c/punta 118° TRUPER 101684",
+      "brand": "Truper",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 125000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/productos/",
+      "title": "Alicate 8 elect universal SATA 70303",
+      "productName": "Alicate 8 elect universal SATA 70303",
+      "brand": "Sata",
+      "reference": null,
+      "presentation": "8 pulgadas",
+      "price": 49900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/productos/",
+      "title": "Alicate para electricista 8 STANLEY 84-023",
+      "productName": "Alicate para electricista 8 STANLEY 84-023",
+      "brand": "Stanley",
+      "reference": null,
+      "presentation": "8 pulgadas",
+      "price": 36223,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
     }
   ],
-  "lastAttemptAt": "2026-09-24T13:40:00Z"
+  "lastAttemptAt": "2026-09-24T13:45:00Z"
 }
