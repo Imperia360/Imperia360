@@ -73,3 +73,15 @@ Solo pueden avanzar automáticamente los casos que cumplan las reglas de reconci
 - Duplicar productos.
 - Confundir presentación con producto.
 - Convertir un resultado de buscador en una oferta verificada sin comprobar la fuente.
+
+
+## LOTE PRIORITARIO ACTIVO — 2026-09-24
+
+1. Auditoría: clasificar los 12 IDs duplicados y los 173 posibles duplicados; no borrar automáticamente.
+2. Reconciliación: cruzar cada candidato con referencia, marca, medida y presentación.
+3. Investigación: ampliar Corbeta, Mundial de Tornillos, Coval y las demás fuentes por categorías.
+4. Precios: verificar públicamente solo precios sustentados; separar cotización de precio verificable.
+5. Evidencia: conservar URL, fecha, fuente, nombre y presentación.
+6. CI: ejecutar y corregir cada fallo antes de declarar el lote terminado.
+7. Publicación: incorporar únicamente candidatos que superen las reglas; nunca sobreescribir el maestro de forma insegura.
+8. Reporte: entregar métricas del lote y dejar explícito todo lo que requiera revisión humana.
