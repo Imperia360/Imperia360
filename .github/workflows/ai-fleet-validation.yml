@@ -1,0 +1,91 @@
+name: Flota IA - auditoria paralela
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 5 * * 1-5'
+
+permissions:
+  contents: read
+
+jobs:
+  exa_discovery:
+    name: Investigacion Exa
+    runs-on: ubuntu-latest
+    if: ${{ secrets.EXA_API_KEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Descubrir fuentes
+        env:
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+        run: node .github/scripts/exa-discovery.mjs
+
+  catalog_integrity:
+    name: Auditoria de integridad
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar JSON y estructura
+        run: |
+          node -e "JSON.parse(require('fs').readFileSync('data/products.json','utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('data/catalog-control.json','utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('data/product-schema.json','utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('data/catalog-sources.json','utf8'))"
+
+  duplicate_audit:
+    name: Auditoria de duplicados
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Detectar IDs repetidos
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('data/products.json','utf8'));
+          const products = Array.isArray(data) ? data : (data.products || []);
+          const ids = products.map(p => p.id).filter(Boolean);
+          const duplicates = ids.filter((v,i,a)=>a.indexOf(v)!==i);
+          if (duplicates.length) {
+            console.error('IDs duplicados:', [...new Set(duplicates)]);
+            process.exit(1);
+          }
+          console.log('IDs sin duplicados:', ids.length);
+          NODE
+
+  schema_audit:
+    name: Auditoria de campos comerciales
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Revisar campos críticos
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('data/products.json','utf8'));
+          const products = Array.isArray(data) ? data : (data.products || []);
+          const missing = [];
+          for (const p of products) {
+            if (!p.id) missing.push({id:null, field:'id'});
+            if (!p.name) missing.push({id:p.id, field:'name'});
+            if (!p.category) missing.push({id:p.id, field:'category'});
+          }
+          console.log(JSON.stringify({products:products.length, missingFields:missing.length}, null, 2));
+          if (missing.length > 0) {
+            console.error('Hay campos críticos faltantes.');
+            process.exit(1);
+          }
+          NODE
+
+  report:
+    name: Informe de flota
+    needs: [catalog_integrity, duplicate_audit, schema_audit]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resultado
+        run: echo "Auditorias paralelas completadas correctamente."
