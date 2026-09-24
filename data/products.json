@@ -37829,5 +37829,4975 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0380",
+    "status": "review",
+    "name": "Tubería presión agua fría PVC 1/2 RDE 13.5 Gerfor",
+    "slug": "tuberia-presion-agua-fria-pvc-1-2-rde-13-5-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería presión agua fría PVC 1/2 RDE 13.5 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0380-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería presión agua fría PVC 1/2 RDE 13.5 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "presion",
+      "agua",
+      "fria",
+      "pvc",
+      "rde",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0381",
+    "status": "review",
+    "name": "Tubería presión agua fría PVC 3/4 RDE 13.5 Gerfor",
+    "slug": "tuberia-presion-agua-fria-pvc-3-4-rde-13-5-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería presión agua fría PVC 3/4 RDE 13.5 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0381-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería presión agua fría PVC 3/4 RDE 13.5 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "presion",
+      "agua",
+      "fria",
+      "pvc",
+      "rde",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0382",
+    "status": "review",
+    "name": "Tubería presión agua fría PVC 1 RDE 13.5 Gerfor",
+    "slug": "tuberia-presion-agua-fria-pvc-1-rde-13-5-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería presión agua fría PVC 1 RDE 13.5 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0382-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería presión agua fría PVC 1 RDE 13.5 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "presion",
+      "agua",
+      "fria",
+      "pvc",
+      "rde",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0383",
+    "status": "review",
+    "name": "Tubería presión agua fría PVC 1 1/4 RDE 13.5 Gerfor",
+    "slug": "tuberia-presion-agua-fria-pvc-1-1-4-rde-13-5-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería presión agua fría PVC 1 1/4 RDE 13.5 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0383-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería presión agua fría PVC 1 1/4 RDE 13.5 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "presion",
+      "agua",
+      "fria",
+      "pvc",
+      "rde",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0384",
+    "status": "review",
+    "name": "Tubería presión agua fría PVC 1 1/2 RDE 13.5 Gerfor",
+    "slug": "tuberia-presion-agua-fria-pvc-1-1-2-rde-13-5-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería presión agua fría PVC 1 1/2 RDE 13.5 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0384-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería presión agua fría PVC 1 1/2 RDE 13.5 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "presion",
+      "agua",
+      "fria",
+      "pvc",
+      "rde",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0385",
+    "status": "review",
+    "name": "Tubería presión agua fría PVC 2 RDE 13.5 Gerfor",
+    "slug": "tuberia-presion-agua-fria-pvc-2-rde-13-5-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería presión agua fría PVC 2 RDE 13.5 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0385-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería presión agua fría PVC 2 RDE 13.5 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "presion",
+      "agua",
+      "fria",
+      "pvc",
+      "rde",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0386",
+    "status": "review",
+    "name": "Tubería presión agua fría PVC 3 RDE 13.5 Gerfor",
+    "slug": "tuberia-presion-agua-fria-pvc-3-rde-13-5-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería presión agua fría PVC 3 RDE 13.5 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0386-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería presión agua fría PVC 3 RDE 13.5 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "presion",
+      "agua",
+      "fria",
+      "pvc",
+      "rde",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0387",
+    "status": "review",
+    "name": "Tubería presión agua fría PVC 4 RDE 13.5 Gerfor",
+    "slug": "tuberia-presion-agua-fria-pvc-4-rde-13-5-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería presión agua fría PVC 4 RDE 13.5 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0387-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería presión agua fría PVC 4 RDE 13.5 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "presion",
+      "agua",
+      "fria",
+      "pvc",
+      "rde",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0388",
+    "status": "review",
+    "name": "Tubería sanitaria PVC 2 pulgadas Gerfor",
+    "slug": "tuberia-sanitaria-pvc-2-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería sanitaria PVC 2 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0388-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería sanitaria PVC 2 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "sanitaria",
+      "pvc",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0389",
+    "status": "review",
+    "name": "Tubería sanitaria PVC 3 pulgadas Gerfor",
+    "slug": "tuberia-sanitaria-pvc-3-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería sanitaria PVC 3 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0389-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería sanitaria PVC 3 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "sanitaria",
+      "pvc",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0390",
+    "status": "review",
+    "name": "Tubería sanitaria PVC 4 pulgadas Gerfor",
+    "slug": "tuberia-sanitaria-pvc-4-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería sanitaria PVC 4 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0390-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería sanitaria PVC 4 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "sanitaria",
+      "pvc",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0391",
+    "status": "review",
+    "name": "Tubería sanitaria PVC 6 pulgadas Gerfor",
+    "slug": "tuberia-sanitaria-pvc-6-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería sanitaria PVC 6 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0391-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería sanitaria PVC 6 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "sanitaria",
+      "pvc",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0392",
+    "status": "review",
+    "name": "Tubería CPVC agua caliente 1/2 Gerfor",
+    "slug": "tuberia-cpvc-agua-caliente-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería CPVC agua caliente 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0392-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería CPVC agua caliente 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "cpvc",
+      "agua",
+      "caliente",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0393",
+    "status": "review",
+    "name": "Tubería CPVC agua caliente 3/4 Gerfor",
+    "slug": "tuberia-cpvc-agua-caliente-3-4-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería CPVC agua caliente 3/4 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0393-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería CPVC agua caliente 3/4 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "cpvc",
+      "agua",
+      "caliente",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0394",
+    "status": "review",
+    "name": "Tubería CPVC agua caliente 1 Gerfor",
+    "slug": "tuberia-cpvc-agua-caliente-1-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería CPVC agua caliente 1 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0394-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería CPVC agua caliente 1 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "cpvc",
+      "agua",
+      "caliente",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0395",
+    "status": "review",
+    "name": "Codo CPVC 1/2 90 grados Gerfor",
+    "slug": "codo-cpvc-1-2-90-grados-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Codo CPVC 1/2 90 grados Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0395-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo CPVC 1/2 90 grados Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "cpvc",
+      "grados",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0396",
+    "status": "review",
+    "name": "Tee CPVC 1/2 Gerfor",
+    "slug": "tee-cpvc-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tee CPVC 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0396-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tee CPVC 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tee",
+      "cpvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0397",
+    "status": "review",
+    "name": "Unión CPVC 1/2 Gerfor",
+    "slug": "union-cpvc-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Unión CPVC 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0397-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión CPVC 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "cpvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0398",
+    "status": "review",
+    "name": "Adaptador macho CPVC 1/2 Gerfor",
+    "slug": "adaptador-macho-cpvc-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Adaptador macho CPVC 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0398-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Adaptador macho CPVC 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "adaptador",
+      "macho",
+      "cpvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0399",
+    "status": "review",
+    "name": "Adaptador hembra CPVC 1/2 Gerfor",
+    "slug": "adaptador-hembra-cpvc-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Adaptador hembra CPVC 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0399-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Adaptador hembra CPVC 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "adaptador",
+      "hembra",
+      "cpvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0400",
+    "status": "review",
+    "name": "Codo sanitario 2 pulgadas 90 grados Gerfor",
+    "slug": "codo-sanitario-2-pulgadas-90-grados-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Codo sanitario 2 pulgadas 90 grados Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0400-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo sanitario 2 pulgadas 90 grados Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "sanitario",
+      "pulgadas",
+      "grados",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0401",
+    "status": "review",
+    "name": "Codo sanitario 3 pulgadas 90 grados Gerfor",
+    "slug": "codo-sanitario-3-pulgadas-90-grados-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Codo sanitario 3 pulgadas 90 grados Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0401-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo sanitario 3 pulgadas 90 grados Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "sanitario",
+      "pulgadas",
+      "grados",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0402",
+    "status": "review",
+    "name": "Codo sanitario 4 pulgadas 90 grados Gerfor",
+    "slug": "codo-sanitario-4-pulgadas-90-grados-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Codo sanitario 4 pulgadas 90 grados Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0402-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo sanitario 4 pulgadas 90 grados Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "sanitario",
+      "pulgadas",
+      "grados",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0403",
+    "status": "review",
+    "name": "Tee sanitaria 2 pulgadas Gerfor",
+    "slug": "tee-sanitaria-2-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tee sanitaria 2 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0403-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tee sanitaria 2 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tee",
+      "sanitaria",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0404",
+    "status": "review",
+    "name": "Tee sanitaria 3 pulgadas Gerfor",
+    "slug": "tee-sanitaria-3-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tee sanitaria 3 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0404-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tee sanitaria 3 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tee",
+      "sanitaria",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0405",
+    "status": "review",
+    "name": "Tee sanitaria 4 pulgadas Gerfor",
+    "slug": "tee-sanitaria-4-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tee sanitaria 4 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0405-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tee sanitaria 4 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tee",
+      "sanitaria",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0406",
+    "status": "review",
+    "name": "Y sanitaria 2 pulgadas Gerfor",
+    "slug": "y-sanitaria-2-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Y sanitaria 2 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0406-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Y sanitaria 2 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "sanitaria",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0407",
+    "status": "review",
+    "name": "Y sanitaria 3 pulgadas Gerfor",
+    "slug": "y-sanitaria-3-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Y sanitaria 3 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0407-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Y sanitaria 3 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "sanitaria",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0408",
+    "status": "review",
+    "name": "Y sanitaria 4 pulgadas Gerfor",
+    "slug": "y-sanitaria-4-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Y sanitaria 4 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0408-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Y sanitaria 4 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "sanitaria",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0409",
+    "status": "review",
+    "name": "Tapón sanitario 2 pulgadas Gerfor",
+    "slug": "tapon-sanitario-2-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tapón sanitario 2 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0409-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tapón sanitario 2 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tapon",
+      "sanitario",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0410",
+    "status": "review",
+    "name": "Tapón sanitario 3 pulgadas Gerfor",
+    "slug": "tapon-sanitario-3-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tapón sanitario 3 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0410-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tapón sanitario 3 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tapon",
+      "sanitario",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0411",
+    "status": "review",
+    "name": "Tapón sanitario 4 pulgadas Gerfor",
+    "slug": "tapon-sanitario-4-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tapón sanitario 4 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0411-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tapón sanitario 4 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tapon",
+      "sanitario",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0412",
+    "status": "review",
+    "name": "Reducción sanitaria 3 x 2 Gerfor",
+    "slug": "reduccion-sanitaria-3-x-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Reducción sanitaria 3 x 2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0412-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Reducción sanitaria 3 x 2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "reduccion",
+      "sanitaria",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0413",
+    "status": "review",
+    "name": "Reducción sanitaria 4 x 2 Gerfor",
+    "slug": "reduccion-sanitaria-4-x-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Reducción sanitaria 4 x 2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0413-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Reducción sanitaria 4 x 2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "reduccion",
+      "sanitaria",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0414",
+    "status": "review",
+    "name": "Reducción sanitaria 4 x 3 Gerfor",
+    "slug": "reduccion-sanitaria-4-x-3-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Reducción sanitaria 4 x 3 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0414-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Reducción sanitaria 4 x 3 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "reduccion",
+      "sanitaria",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0415",
+    "status": "review",
+    "name": "Sifón sanitario 1 1/2 Gerfor",
+    "slug": "sifon-sanitario-1-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Sifón sanitario 1 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0415-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Sifón sanitario 1 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "sifon",
+      "sanitario",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0416",
+    "status": "review",
+    "name": "Sifón sanitario 2 Gerfor",
+    "slug": "sifon-sanitario-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Sifón sanitario 2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0416-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Sifón sanitario 2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "sifon",
+      "sanitario",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0417",
+    "status": "review",
+    "name": "Caja sifónica 4 x 4 Gerfor",
+    "slug": "caja-sifonica-4-x-4-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Caja sifónica 4 x 4 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0417-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Caja sifónica 4 x 4 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "caja",
+      "sifonica",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0418",
+    "status": "review",
+    "name": "Rejilla sifón 2 pulgadas Gerfor",
+    "slug": "rejilla-sifon-2-pulgadas-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Rejilla sifón 2 pulgadas Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0418-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Rejilla sifón 2 pulgadas Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "rejilla",
+      "sifon",
+      "pulgadas",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0419",
+    "status": "review",
+    "name": "Tubería conduit eléctrica PVC 1/2 Gerfor",
+    "slug": "tuberia-conduit-electrica-pvc-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería conduit eléctrica PVC 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0419-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería conduit eléctrica PVC 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "conduit",
+      "electrica",
+      "pvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0420",
+    "status": "review",
+    "name": "Tubería conduit eléctrica PVC 3/4 Gerfor",
+    "slug": "tuberia-conduit-electrica-pvc-3-4-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería conduit eléctrica PVC 3/4 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0420-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería conduit eléctrica PVC 3/4 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "conduit",
+      "electrica",
+      "pvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0421",
+    "status": "review",
+    "name": "Tubería conduit eléctrica PVC 1 Gerfor",
+    "slug": "tuberia-conduit-electrica-pvc-1-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería conduit eléctrica PVC 1 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0421-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería conduit eléctrica PVC 1 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "conduit",
+      "electrica",
+      "pvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0422",
+    "status": "review",
+    "name": "Tubería conduit eléctrica PVC 1 1/4 Gerfor",
+    "slug": "tuberia-conduit-electrica-pvc-1-1-4-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería conduit eléctrica PVC 1 1/4 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0422-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería conduit eléctrica PVC 1 1/4 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "conduit",
+      "electrica",
+      "pvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0423",
+    "status": "review",
+    "name": "Tubería conduit eléctrica PVC 1 1/2 Gerfor",
+    "slug": "tuberia-conduit-electrica-pvc-1-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería conduit eléctrica PVC 1 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0423-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería conduit eléctrica PVC 1 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "conduit",
+      "electrica",
+      "pvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0424",
+    "status": "review",
+    "name": "Tubería conduit eléctrica PVC 2 Gerfor",
+    "slug": "tuberia-conduit-electrica-pvc-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Tubería conduit eléctrica PVC 2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0424-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubería conduit eléctrica PVC 2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuberia",
+      "conduit",
+      "electrica",
+      "pvc",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0425",
+    "status": "review",
+    "name": "Codo conduit 1/2 Gerfor",
+    "slug": "codo-conduit-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Codo conduit 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0425-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo conduit 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "conduit",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0426",
+    "status": "review",
+    "name": "Codo conduit 3/4 Gerfor",
+    "slug": "codo-conduit-3-4-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Codo conduit 3/4 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0426-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo conduit 3/4 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "conduit",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0427",
+    "status": "review",
+    "name": "Codo conduit 1 Gerfor",
+    "slug": "codo-conduit-1-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Codo conduit 1 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0427-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Codo conduit 1 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "codo",
+      "conduit",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0428",
+    "status": "review",
+    "name": "Unión conduit 1/2 Gerfor",
+    "slug": "union-conduit-1-2-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Unión conduit 1/2 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0428-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión conduit 1/2 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "conduit",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0429",
+    "status": "review",
+    "name": "Unión conduit 3/4 Gerfor",
+    "slug": "union-conduit-3-4-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Unión conduit 3/4 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0429-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión conduit 3/4 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "conduit",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0430",
+    "status": "review",
+    "name": "Unión conduit 1 Gerfor",
+    "slug": "union-conduit-1-gerfor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuberías y accesorios"
+    },
+    "brand": {
+      "name": "Gerfor",
+      "status": "provided"
+    },
+    "description": "Producto identificado en catálogo técnico de Gerfor; precio pendiente de cotización.",
+    "measurements": {
+      "originalText": "Unión conduit 1 Gerfor"
+    },
+    "specifications": {
+      "source": "Coval / Gerfor",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0430-default",
+        "label": "Presentación de catálogo",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión conduit 1 Gerfor"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / Gerfor"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "conduit",
+      "gerfor"
+    ],
+    "dataQuality": {
+      "source": "Coval / Gerfor",
+      "verified": true,
+      "missingFields": [
+        "SKU",
+        "precio",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
