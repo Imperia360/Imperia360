@@ -37,9 +37,9 @@
     "6_imagenes",
     "7_publicacion"
   ],
-  "currentLoadedProducts": 38,
+  "currentLoadedProducts": 439,
   "currentLoadedStatus": "review",
   "note": "La base de productos existente se conserva; esta capa controla el proceso para cargar el catálogo masivo sin contaminarlo con datos inventados.",
   "lastCatalogExpansion": "2026-09-23",
-  "notes": "Base ampliada con 32 productos publicados y verificados desde Sofalca; permanecen en revisión hasta completar imágenes, SKU/referencias, presentaciones exactas, cruce de duplicados y precio IMPERIA 360."
+  "notes": "Archivo maestro recuperado desde blob GitHub, auditado contra duplicados exactos por SKU/nombre y ampliado con referencias verificadas. El conteo del archivo actual es 439; no se ha confirmado una base independiente de 792 dentro del repositorio."
 }
