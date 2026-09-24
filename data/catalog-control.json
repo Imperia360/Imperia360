@@ -38,7 +38,7 @@
     "7_imagenes",
     "8_publicacion"
   ],
-  "currentLoadedProducts": 475,
+  "currentLoadedProducts": 488,
   "currentLoadedStatus": "review",
   "historicalCatalogClaims": [
     {
@@ -56,5 +56,5 @@
   ],
   "note": "Existe una sola base maestra para IMPERIA 360. Las fuentes históricas se conservan como fuentes de reconciliación y no se cuentan como productos activos hasta deduplicarlas y verificarlas.",
   "lastCatalogExpansion": "2026-09-24",
-  "notes": "Base maestra unificada: 475 registros. Se añadieron 10 fijaciones Fixser verificadas en Homecenter Colombia, sin duplicar nombres+medidas/presentaciones existentes. Los precios incorporados son precios publicados por una fuente minorista y no se presentan como promedio de mercado ni como precio IMPERIA 360."
+  "notes": "Base maestra unificada: 488 registros. En esta expansión se incorporaron 13 referencias de fijaciones/tornillería verificadas en fuentes comerciales (Fixser/Homecenter, Mundial de Tornillos y Corbeta), sin duplicar referencias ya presentes. Los precios solo se registran cuando la fuente los publica; cuando la fuente muestra $0 o exige cotización, el registro queda quote_only. No se calculan precios IMPERIA 360 automáticamente."
 }
