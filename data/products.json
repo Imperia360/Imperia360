@@ -45598,7 +45598,14 @@
     },
     "specifications": {
       "source": "Roxvan",
-      "catalogVerified": true
+      "catalogVerified": true,
+      "features": [
+        "punta aguda",
+        "rosca fina",
+        "cabeza trompeta",
+        "acero",
+        "zincado"
+      ]
     },
     "variants": [],
     "presentations": [
