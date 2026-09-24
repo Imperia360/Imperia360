@@ -1,5 +1,16 @@
 {
-  "version": "1.0.0",
-  "lastRun": null,
+  "version": "2.0.0",
+  "generatedAt": "2026-09-24T11:51:23.959Z",
+  "masterProducts": 488,
+  "discoveriesReviewed": 0,
+  "rules": {
+    "exact": "referencia/SKU coincidente con evidencia",
+    "equivalent": "alta similitud semántica con marca compatible y sin contradicción de referencia",
+    "possible": "similitud parcial; requiere revisión",
+    "needsReview": "sin evidencia suficiente o campos ambiguos",
+    "differentProduct": "debe asignarse manualmente cuando se confirme que no corresponde",
+    "neverInvent": true,
+    "neverWriteMasterAutomatically": true
+  },
   "matches": []
 }

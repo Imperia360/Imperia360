@@ -1,0 +1,1296 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-09-24T11:51:24.004Z",
+  "masterProducts": 488,
+  "configuredLoadedProducts": 488,
+  "issuesCount": 185,
+  "duplicateIds": 12,
+  "possibleDuplicates": 173,
+  "missingRequiredIdentity": 0,
+  "zeroPrices": 0,
+  "issues": [
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1,
+      "id": "imp-0002",
+      "name": "Chazo plástico con tornillo 5/16 x 50 unidades",
+      "previousIndex": 0
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 2,
+      "id": "imp-0003",
+      "name": "Chazo plástico con tornillo 3/8 x 50 unidades",
+      "previousIndex": 0
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 4,
+      "id": "imp-0005",
+      "name": "Chazo con tornillo 5/16 plástico paquete x 10 UDUKE",
+      "previousIndex": 3
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 5,
+      "id": "imp-0006",
+      "name": "Chazo con tornillo 3/8 plástico paquete x 10 UDUKE",
+      "previousIndex": 3
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 12,
+      "id": "imp-0013",
+      "name": "Chazo plastico 5/16",
+      "previousIndex": 9
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 14,
+      "id": "imp-0015",
+      "name": "Chazo puntilla nylon 1/4 X 2.1/4",
+      "previousIndex": 10
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 18,
+      "id": "imp-0019",
+      "name": "Chazo puntilla nylon 5/16 X 4",
+      "previousIndex": 10
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 19,
+      "id": "imp-0020",
+      "name": "Tornillo lamina cabeza pan phills zincado 10 X 1.1/2",
+      "previousIndex": 6
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 27,
+      "id": "imp-0028",
+      "name": "Chazo puntilla nylon 1/4 X 1.5/8",
+      "previousIndex": 10
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 48,
+      "id": "imp-0049",
+      "name": "Palustre 12 pulgadas mango plástico industrial TOTAL",
+      "previousIndex": 47
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 53,
+      "id": "imp-0054",
+      "name": "Polea de gancho 2 toneladas 6 pulgadas RANGER",
+      "previousIndex": 52
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 56,
+      "id": "imp-0057",
+      "name": "Espátula mango plástico 5 pulgadas VHARBOR",
+      "previousIndex": 55
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 57,
+      "id": "imp-0058",
+      "name": "Espátula mango plástico 6 pulgadas VHARBOR",
+      "previousIndex": 55
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 78,
+      "id": "imp-0080",
+      "name": "Pasador 3 pulgadas latonado Dyllu",
+      "previousIndex": 76
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 79,
+      "id": "imp-0081",
+      "name": "Pasador 3 pulgadas galvanizado Dyllu",
+      "previousIndex": 77
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 80,
+      "id": "imp-0082",
+      "name": "Pasador 2 1/2 pulgadas latonado Dyllu",
+      "previousIndex": 76
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 81,
+      "id": "imp-0083",
+      "name": "Pasador 2 1/2 pulgadas galvanizado Dyllu",
+      "previousIndex": 77
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 84,
+      "id": "imp-0086",
+      "name": "Lija 3M grano 150 331Q",
+      "previousIndex": 83
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 130,
+      "id": "imp-0132",
+      "name": "Llave mixta Stanley 8 pulgadas",
+      "previousIndex": 62
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 152,
+      "id": "imp-0157",
+      "name": "Tee sanitario Gerfor 3 pulgadas",
+      "previousIndex": 151
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 164,
+      "id": "imp-0169",
+      "name": "Hidrolavadora eléctrica 1500W 1450 PSI",
+      "previousIndex": 161
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 186,
+      "id": "imp-0193",
+      "name": "Check anti-retorno 6 pulgadas PCP",
+      "previousIndex": 184
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 187,
+      "id": "imp-0194",
+      "name": "Check anti-retorno 160mm PCP",
+      "previousIndex": 185
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 188,
+      "id": "imp-0195",
+      "name": "Check anti-retorno 4 pulgadas ECO PCP",
+      "previousIndex": 184
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 189,
+      "id": "imp-0196",
+      "name": "Check anti-retorno 6 pulgadas ECO PCP",
+      "previousIndex": 184
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 200,
+      "id": "imp-0207",
+      "name": "Válvula de bola PVC riego/químicos 2 soldar PCP",
+      "previousIndex": 198
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 201,
+      "id": "imp-0208",
+      "name": "Válvula de bola PVC riego/químicos 2 roscar PCP",
+      "previousIndex": 199
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 204,
+      "id": "imp-0211",
+      "name": "Válvula de bola PVC pesada 1 1/4 roscar",
+      "previousIndex": 203
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 205,
+      "id": "imp-0212",
+      "name": "Válvula de bola PVC pesada 1 1/2 roscar",
+      "previousIndex": 203
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 206,
+      "id": "imp-0213",
+      "name": "Válvula de bola PVC pesada 2 roscar",
+      "previousIndex": 203
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 207,
+      "id": "imp-0214",
+      "name": "Válvula de bola PVC pesada 3/4 roscar",
+      "previousIndex": 203
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 209,
+      "id": "imp-0216",
+      "name": "Válvula de bola PVC manija larga 1 soldar",
+      "previousIndex": 208
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 210,
+      "id": "imp-0217",
+      "name": "Válvula de bola PVC manija larga 2 soldar",
+      "previousIndex": 208
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 211,
+      "id": "imp-0218",
+      "name": "Válvula de bola PVC manija larga 3/4 soldar",
+      "previousIndex": 208
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 213,
+      "id": "imp-0220",
+      "name": "Válvula de bola PVC manija larga 1 roscar",
+      "previousIndex": 212
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 214,
+      "id": "imp-0221",
+      "name": "Válvula de bola PVC manija larga 1 1/2 roscar",
+      "previousIndex": 212
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 215,
+      "id": "imp-0222",
+      "name": "Válvula de bola PVC manija larga 3/4 roscar",
+      "previousIndex": 212
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 216,
+      "id": "imp-0223",
+      "name": "Válvula de bola PVC manija larga 2 roscar",
+      "previousIndex": 212
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 218,
+      "id": "imp-0225",
+      "name": "Unión universal PVC 1 soldar",
+      "previousIndex": 217
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 219,
+      "id": "imp-0226",
+      "name": "Unión universal PVC 1 1/4 soldar",
+      "previousIndex": 217
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 220,
+      "id": "imp-0227",
+      "name": "Unión universal PVC 1 1/2 soldar",
+      "previousIndex": 217
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 221,
+      "id": "imp-0228",
+      "name": "Unión universal PVC 2 soldar",
+      "previousIndex": 217
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 222,
+      "id": "imp-0229",
+      "name": "Unión universal PVC 3 soldar",
+      "previousIndex": 217
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 223,
+      "id": "imp-0230",
+      "name": "Unión universal PVC 4 soldar",
+      "previousIndex": 217
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 224,
+      "id": "imp-0231",
+      "name": "Unión universal PVC 3/4 soldar",
+      "previousIndex": 217
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 226,
+      "id": "imp-0233",
+      "name": "Unión universal PVC 1 roscar",
+      "previousIndex": 225
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 227,
+      "id": "imp-0234",
+      "name": "Unión universal PVC 1 1/4 roscar",
+      "previousIndex": 225
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 228,
+      "id": "imp-0235",
+      "name": "Unión universal PVC 1 1/2 roscar",
+      "previousIndex": 225
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 229,
+      "id": "imp-0236",
+      "name": "Unión universal PVC 2 roscar",
+      "previousIndex": 225
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 230,
+      "id": "imp-0237",
+      "name": "Unión universal PVC 3 roscar",
+      "previousIndex": 225
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 231,
+      "id": "imp-0238",
+      "name": "Unión universal PVC 4 roscar",
+      "previousIndex": 225
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 232,
+      "id": "imp-0239",
+      "name": "Unión universal PVC 3/4 roscar",
+      "previousIndex": 225
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 240,
+      "id": "imp-0247",
+      "name": "Válvula de bola PVC liviana 3/4 soldar",
+      "previousIndex": 239
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 241,
+      "id": "imp-0248",
+      "name": "Válvula de bola PVC liviana 1 soldar",
+      "previousIndex": 239
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 242,
+      "id": "imp-0249",
+      "name": "Válvula de bola PVC liviana 1 1/4 soldar",
+      "previousIndex": 239
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 243,
+      "id": "imp-0250",
+      "name": "Válvula de bola PVC liviana 1 1/2 soldar",
+      "previousIndex": 239
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 244,
+      "id": "imp-0251",
+      "name": "Válvula de bola PVC liviana 2 soldar",
+      "previousIndex": 239
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 245,
+      "id": "imp-0252",
+      "name": "Válvula de bola PVC liviana 3 soldar",
+      "previousIndex": 239
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 247,
+      "id": "imp-0254",
+      "name": "Válvula de bola PVC liviana 3/4 roscar",
+      "previousIndex": 246
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 248,
+      "id": "imp-0255",
+      "name": "Válvula de bola PVC liviana 1 roscar",
+      "previousIndex": 246
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 249,
+      "id": "imp-0256",
+      "name": "Válvula de bola PVC liviana 1 1/4 roscar",
+      "previousIndex": 246
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 250,
+      "id": "imp-0257",
+      "name": "Válvula de bola PVC liviana 1 1/2 roscar",
+      "previousIndex": 246
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 251,
+      "id": "imp-0258",
+      "name": "Válvula de bola PVC liviana 2 roscar",
+      "previousIndex": 246
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 252,
+      "id": "imp-0259",
+      "name": "Válvula de bola PVC liviana 3 roscar",
+      "previousIndex": 246
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 254,
+      "id": "imp-0261",
+      "name": "Check anti-retorno PVC 3/4 roscar",
+      "previousIndex": 253
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 255,
+      "id": "imp-0262",
+      "name": "Check anti-retorno PVC 1 roscar",
+      "previousIndex": 253
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 257,
+      "id": "imp-0264",
+      "name": "Válvula de bola CPVC 3/4 soldar",
+      "previousIndex": 256
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 258,
+      "id": "imp-0265",
+      "name": "Válvula de bola CPVC 1 soldar",
+      "previousIndex": 256
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 260,
+      "id": "imp-0267",
+      "name": "Acople lavamanos/lavaplatos 60 cm",
+      "previousIndex": 259
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 265,
+      "id": "imp-0272",
+      "name": "Válvula de bola polipropileno 25 mm",
+      "previousIndex": 264
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 266,
+      "id": "imp-0273",
+      "name": "Válvula de bola polipropileno 32 mm",
+      "previousIndex": 264
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 268,
+      "id": "imp-0275",
+      "name": "Purga de aire PVC 3/4 pulgada PCP",
+      "previousIndex": 267
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 269,
+      "id": "imp-0276",
+      "name": "Purga de aire PVC 1 pulgada PCP",
+      "previousIndex": 267
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 271,
+      "id": "imp-0278",
+      "name": "Purga de aire PVC 1 1/2 pulgadas PCP",
+      "previousIndex": 270
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 272,
+      "id": "imp-0279",
+      "name": "Purga de aire PVC 2 pulgadas PCP",
+      "previousIndex": 270
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 273,
+      "id": "imp-0280",
+      "name": "Purga de aire PVC 3 pulgadas PCP",
+      "previousIndex": 270
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 284,
+      "id": "imp-0296",
+      "name": "Válvula de bola ultrapesada PVC DZR 3/4 x 3/4",
+      "previousIndex": 283
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 286,
+      "id": "imp-0298",
+      "name": "Válvula de bola macho PVC DZR 1/2 x PE 20 mm",
+      "previousIndex": 285
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 292,
+      "id": "imp-0304",
+      "name": "Check anti-retorno PVC DZR 3/4",
+      "previousIndex": 291
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 294,
+      "id": "imp-0306",
+      "name": "Conector PVC DZR hembra 1/2 x PE 20 mm",
+      "previousIndex": 293
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 296,
+      "id": "imp-0308",
+      "name": "Conector PVC DZR macho 1/2 x PE 20 mm",
+      "previousIndex": 295
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 303,
+      "id": "imp-0315",
+      "name": "Brida PVC 3 pulgadas Van Stone soldar",
+      "previousIndex": 302
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 304,
+      "id": "imp-0316",
+      "name": "Brida PVC 4 pulgadas Van Stone soldar",
+      "previousIndex": 302
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 305,
+      "id": "imp-0317",
+      "name": "Brida PVC 6 pulgadas Van Stone soldar",
+      "previousIndex": 302
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 306,
+      "id": "imp-0318",
+      "name": "Brida PVC 8 pulgadas Van Stone soldar",
+      "previousIndex": 302
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 309,
+      "id": "imp-0321",
+      "name": "Brida PVC 3 pulgadas Van Stone roscar",
+      "previousIndex": 308
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 310,
+      "id": "imp-0322",
+      "name": "Brida PVC 4 pulgadas Van Stone roscar",
+      "previousIndex": 308
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 311,
+      "id": "imp-0323",
+      "name": "Brida PVC 6 pulgadas Van Stone roscar",
+      "previousIndex": 308
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 315,
+      "id": "imp-0327",
+      "name": "Unión transición Dresser 20 mm PE a 20 mm PE",
+      "previousIndex": 314
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 318,
+      "id": "imp-0330",
+      "name": "Unión universal PVC liviana 3/4 soldar",
+      "previousIndex": 317
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 324,
+      "id": "imp-0336",
+      "name": "Aspersor de rosca 3/4 a 23°",
+      "previousIndex": 321
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 326,
+      "id": "imp-0338",
+      "name": "Válvula radial PVC dos universales 3/4 soldar",
+      "previousIndex": 325
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 327,
+      "id": "imp-0339",
+      "name": "Válvula radial PVC dos universales 1 soldar",
+      "previousIndex": 325
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 328,
+      "id": "imp-0340",
+      "name": "Válvula radial PVC dos universales 1 1/2 soldar",
+      "previousIndex": 325
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 329,
+      "id": "imp-0341",
+      "name": "Válvula radial PVC dos universales 2 soldar",
+      "previousIndex": 325
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 330,
+      "id": "imp-0342",
+      "name": "Válvula radial PVC dos universales 3 soldar",
+      "previousIndex": 325
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 331,
+      "id": "imp-0343",
+      "name": "Válvula radial PVC dos universales 4 soldar",
+      "previousIndex": 325
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 333,
+      "id": "imp-0345",
+      "name": "Válvula radial PVC dos universales 3/4 roscar",
+      "previousIndex": 332
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 334,
+      "id": "imp-0346",
+      "name": "Válvula radial PVC dos universales 1 roscar",
+      "previousIndex": 332
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 335,
+      "id": "imp-0347",
+      "name": "Válvula radial PVC dos universales 1 1/2 roscar",
+      "previousIndex": 332
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 336,
+      "id": "imp-0348",
+      "name": "Válvula radial PVC dos universales 2 roscar",
+      "previousIndex": 332
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 337,
+      "id": "imp-0349",
+      "name": "Válvula radial PVC dos universales 3 roscar",
+      "previousIndex": 332
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 339,
+      "id": "imp-0351",
+      "name": "Válvula mariposa PVC 4 pulgadas",
+      "previousIndex": 338
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 340,
+      "id": "imp-0352",
+      "name": "Válvula mariposa PVC 6 pulgadas",
+      "previousIndex": 338
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 343,
+      "id": "imp-0355",
+      "name": "Soldadura líquida PCP 1/8",
+      "previousIndex": 342
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 344,
+      "id": "imp-0356",
+      "name": "Soldadura líquida PCP 1/16",
+      "previousIndex": 342
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 345,
+      "id": "imp-0357",
+      "name": "Soldadura líquida PCP 1/32",
+      "previousIndex": 342
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 346,
+      "id": "imp-0358",
+      "name": "Soldadura líquida PCP 1/64",
+      "previousIndex": 342
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 347,
+      "id": "imp-0359",
+      "name": "Soldadura líquida PCP 1/128",
+      "previousIndex": 342
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 350,
+      "id": "imp-0362",
+      "name": "Limpiador PCP 1/32",
+      "previousIndex": 348
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 351,
+      "id": "imp-0363",
+      "name": "Limpiador PCP 1/64",
+      "previousIndex": 348
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 352,
+      "id": "imp-0364",
+      "name": "Limpiador PCP 1/128",
+      "previousIndex": 348
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 354,
+      "id": "imp-0366",
+      "name": "Soldadura pegado en húmedo PCP 1/8",
+      "previousIndex": 353
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 355,
+      "id": "imp-0367",
+      "name": "Soldadura pegado en húmedo PCP 1/16",
+      "previousIndex": 353
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 356,
+      "id": "imp-0368",
+      "name": "Soldadura pegado en húmedo PCP 1/32",
+      "previousIndex": 353
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 357,
+      "id": "imp-0369",
+      "name": "Soldadura pegado en húmedo PCP 1/64",
+      "previousIndex": 353
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 358,
+      "id": "imp-0370",
+      "name": "Soldadura pegado en húmedo PCP 1/128",
+      "previousIndex": 353
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 361,
+      "id": "imp-0373",
+      "name": "Cemento solvente pega húmedo PCP Weld On 1/8",
+      "previousIndex": 360
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 362,
+      "id": "imp-0374",
+      "name": "Cemento solvente pega húmedo PCP Weld On 1/16",
+      "previousIndex": 360
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 363,
+      "id": "imp-0375",
+      "name": "Cemento solvente pega húmedo PCP Weld On 1/32",
+      "previousIndex": 360
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 364,
+      "id": "imp-0376",
+      "name": "Cemento solvente pega húmedo PCP Weld On 1/64",
+      "previousIndex": 360
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 365,
+      "id": "imp-0377",
+      "name": "Cemento solvente pega húmedo PCP Weld On 1/128",
+      "previousIndex": 360
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 367,
+      "id": "imp-0379",
+      "name": "Juego conector 45 mm medidor agua 1/2-3/4 x 1/2-7/8 nylon",
+      "previousIndex": 366
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 369,
+      "id": "imp-0381",
+      "name": "Tubería presión agua fría PVC 3/4 RDE 13.5 Gerfor",
+      "previousIndex": 368
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 370,
+      "id": "imp-0382",
+      "name": "Tubería presión agua fría PVC 1 RDE 13.5 Gerfor",
+      "previousIndex": 368
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 371,
+      "id": "imp-0383",
+      "name": "Tubería presión agua fría PVC 1 1/4 RDE 13.5 Gerfor",
+      "previousIndex": 368
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 372,
+      "id": "imp-0384",
+      "name": "Tubería presión agua fría PVC 1 1/2 RDE 13.5 Gerfor",
+      "previousIndex": 368
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 373,
+      "id": "imp-0385",
+      "name": "Tubería presión agua fría PVC 2 RDE 13.5 Gerfor",
+      "previousIndex": 368
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 374,
+      "id": "imp-0386",
+      "name": "Tubería presión agua fría PVC 3 RDE 13.5 Gerfor",
+      "previousIndex": 368
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 375,
+      "id": "imp-0387",
+      "name": "Tubería presión agua fría PVC 4 RDE 13.5 Gerfor",
+      "previousIndex": 368
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 377,
+      "id": "imp-0389",
+      "name": "Tubería sanitaria PVC 3 pulgadas Gerfor",
+      "previousIndex": 376
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 378,
+      "id": "imp-0390",
+      "name": "Tubería sanitaria PVC 4 pulgadas Gerfor",
+      "previousIndex": 376
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 379,
+      "id": "imp-0391",
+      "name": "Tubería sanitaria PVC 6 pulgadas Gerfor",
+      "previousIndex": 376
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 381,
+      "id": "imp-0393",
+      "name": "Tubería CPVC agua caliente 3/4 Gerfor",
+      "previousIndex": 380
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 382,
+      "id": "imp-0394",
+      "name": "Tubería CPVC agua caliente 1 Gerfor",
+      "previousIndex": 380
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 389,
+      "id": "imp-0401",
+      "name": "Codo sanitario 3 pulgadas 90 grados Gerfor",
+      "previousIndex": 388
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 390,
+      "id": "imp-0402",
+      "name": "Codo sanitario 4 pulgadas 90 grados Gerfor",
+      "previousIndex": 388
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 392,
+      "id": "imp-0404",
+      "name": "Tee sanitaria 3 pulgadas Gerfor",
+      "previousIndex": 391
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 393,
+      "id": "imp-0405",
+      "name": "Tee sanitaria 4 pulgadas Gerfor",
+      "previousIndex": 391
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 395,
+      "id": "imp-0407",
+      "name": "Y sanitaria 3 pulgadas Gerfor",
+      "previousIndex": 394
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 396,
+      "id": "imp-0408",
+      "name": "Y sanitaria 4 pulgadas Gerfor",
+      "previousIndex": 394
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 398,
+      "id": "imp-0410",
+      "name": "Tapón sanitario 3 pulgadas Gerfor",
+      "previousIndex": 397
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 399,
+      "id": "imp-0411",
+      "name": "Tapón sanitario 4 pulgadas Gerfor",
+      "previousIndex": 397
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 401,
+      "id": "imp-0413",
+      "name": "Reducción sanitaria 4 x 2 Gerfor",
+      "previousIndex": 400
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 402,
+      "id": "imp-0414",
+      "name": "Reducción sanitaria 4 x 3 Gerfor",
+      "previousIndex": 400
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 404,
+      "id": "imp-0416",
+      "name": "Sifón sanitario 2 Gerfor",
+      "previousIndex": 403
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 408,
+      "id": "imp-0420",
+      "name": "Tubería conduit eléctrica PVC 3/4 Gerfor",
+      "previousIndex": 407
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 409,
+      "id": "imp-0421",
+      "name": "Tubería conduit eléctrica PVC 1 Gerfor",
+      "previousIndex": 407
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 410,
+      "id": "imp-0422",
+      "name": "Tubería conduit eléctrica PVC 1 1/4 Gerfor",
+      "previousIndex": 407
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 411,
+      "id": "imp-0423",
+      "name": "Tubería conduit eléctrica PVC 1 1/2 Gerfor",
+      "previousIndex": 407
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 412,
+      "id": "imp-0424",
+      "name": "Tubería conduit eléctrica PVC 2 Gerfor",
+      "previousIndex": 407
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 414,
+      "id": "imp-0426",
+      "name": "Codo conduit 3/4 Gerfor",
+      "previousIndex": 413
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 415,
+      "id": "imp-0427",
+      "name": "Codo conduit 1 Gerfor",
+      "previousIndex": 413
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 417,
+      "id": "imp-0429",
+      "name": "Unión conduit 3/4 Gerfor",
+      "previousIndex": 416
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 418,
+      "id": "imp-0430",
+      "name": "Unión conduit 1 Gerfor",
+      "previousIndex": 416
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 424,
+      "id": "imp-0436",
+      "name": "Cortafrío Stanley 5 pulgadas",
+      "previousIndex": 423
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 461,
+      "id": "imp-0474",
+      "name": "UNION SANITARIA 4 ORIGINAL DILMAR",
+      "previousIndex": 460
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 462,
+      "id": "imp-0475",
+      "name": "SOGA MATIZADA ATAR 6MM 1/4 X250MTS TRENZADA",
+      "previousIndex": 460
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 463,
+      "id": "imp-0476",
+      "name": "CLAVO ACERO LISO 2 CA MEJIA 500 GRS",
+      "previousIndex": 460
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 464,
+      "id": "imp-0477",
+      "name": "PINTURA VINILO TIPO 1 BLANCO CUÑETE MULTIGRECO",
+      "previousIndex": 460
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 465,
+      "id": "imp-0466",
+      "previousIndex": 453
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 466,
+      "id": "imp-0467",
+      "previousIndex": 454
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 466,
+      "id": "imp-0467",
+      "name": "Tornillo Panel Drywall Pta Aguda 6X1-1/4 1000 Und Fixser",
+      "previousIndex": 465
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 467,
+      "id": "imp-0468",
+      "previousIndex": 455
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 468,
+      "id": "imp-0469",
+      "previousIndex": 456
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 468,
+      "id": "imp-0469",
+      "name": "Tornillo Panel Drywall Pta Broca 6X1-1/4 500 Und Fixser",
+      "previousIndex": 467
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 469,
+      "id": "imp-0470",
+      "previousIndex": 457
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 469,
+      "id": "imp-0470",
+      "name": "Tornillo Panel Drywall Pta Broca 6X1-1/4 1000 Und Fixser",
+      "previousIndex": 467
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 470,
+      "id": "imp-0471",
+      "previousIndex": 458
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 470,
+      "id": "imp-0471",
+      "name": "Tornillo Panel Drywall Pta Aguda 6X1-5/8 600 Und Fixser",
+      "previousIndex": 465
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 471,
+      "id": "imp-0472",
+      "previousIndex": 459
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 471,
+      "id": "imp-0472",
+      "name": "Tornillo Panel Drywall Pta Aguda 6X2 400 Und Fixser",
+      "previousIndex": 465
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 472,
+      "id": "imp-0473",
+      "previousIndex": 460
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 473,
+      "id": "imp-0474",
+      "previousIndex": 461
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 473,
+      "id": "imp-0474",
+      "name": "Tornillo Lámina Cab. Lenteja Pta Broca 8X3/4 500 Und Fixser",
+      "previousIndex": 472
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 474,
+      "id": "imp-0475",
+      "previousIndex": 462
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 474,
+      "id": "imp-0475",
+      "name": "Tornillo Lámina Cab. Lenteja Pta Broca 8X1-1/4 500 Und Fixser",
+      "previousIndex": 472
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 475,
+      "id": "imp-0476",
+      "previousIndex": 463
+    },
+    {
+      "type": "DUPLICATE_ID",
+      "index": 476,
+      "id": "imp-0477",
+      "previousIndex": 464
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 478,
+      "id": "imp-0479",
+      "name": "Tuerca Hexagonal Alta Pavonada UNF 3/8",
+      "previousIndex": 477
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 479,
+      "id": "imp-0480",
+      "name": "Tuerca Hexagonal Alta Pavonada UNF 1/2",
+      "previousIndex": 477
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 481,
+      "id": "imp-0482",
+      "name": "Tuerca Seguridad NF Inoxidable Acero 304 A2 5/16",
+      "previousIndex": 480
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 482,
+      "id": "imp-0483",
+      "name": "Tuerca Seguridad NF Inoxidable Acero 304 A2 3/8",
+      "previousIndex": 480
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 483,
+      "id": "imp-0484",
+      "name": "Tuerca Seguridad NF Inoxidable Acero 304 A2 1/2",
+      "previousIndex": 480
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 486,
+      "id": "imp-0487",
+      "name": "Tornillo Cabeza Hexagonal SAE Grado 2 UNC 3/4 X 8",
+      "previousIndex": 475
+    }
+  ]
+}

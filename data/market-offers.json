@@ -1,5 +1,10 @@
 {
-  "version": "1.0.0",
-  "lastRun": null,
-  "offers": []
+  "version": "2.0.0",
+  "lastRun": "2026-09-24T11:51:23.916Z",
+  "offers": [],
+  "policy": {
+    "discoveryIsNotVerification": true,
+    "publicationRequiresEvidence": true,
+    "zeroOrMissingPriceMeansUnknown": true
+  }
 }

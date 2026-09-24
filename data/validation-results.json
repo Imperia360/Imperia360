@@ -1,6 +1,19 @@
 {
   "version": "1.0.0",
-  "lastRun": null,
-  "summary": {"sourcesChecked":0,"offersRead":0,"matched":0,"newCandidates":0,"needsReview":0,"invalid":0},
+  "lastRun": "2026-09-24T11:51:24.048Z",
+  "summary": {
+    "sourcesChecked": 0,
+    "offersRead": 0,
+    "matched": 0,
+    "newCandidates": 0,
+    "needsReview": 0,
+    "invalid": 0,
+    "masterProducts": 488,
+    "automaticPublication": false
+  },
+  "rules": {
+    "existingMasterProductIsNeverDuplicated": true,
+    "inventedPricesAllowed": false
+  },
   "results": []
-}
+}\n
