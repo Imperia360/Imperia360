@@ -37,7 +37,9 @@
     "6_imagenes",
     "7_publicacion"
   ],
-  "currentLoadedProducts": 3,
+  "currentLoadedProducts": 38,
   "currentLoadedStatus": "review",
-  "note": "La base de productos existente se conserva; esta capa controla el proceso para cargar el catálogo masivo sin contaminarlo con datos inventados."
+  "note": "La base de productos existente se conserva; esta capa controla el proceso para cargar el catálogo masivo sin contaminarlo con datos inventados.",
+  "lastCatalogExpansion": "2026-09-23",
+  "notes": "Base ampliada con 32 productos publicados y verificados desde Sofalca; permanecen en revisión hasta completar imágenes, SKU/referencias, presentaciones exactas, cruce de duplicados y precio IMPERIA 360."
 }
