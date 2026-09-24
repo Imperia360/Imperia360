@@ -1,0 +1,1165 @@
+{
+  "version": "1.0.0",
+  "status": "research_evidence_not_active_catalog",
+  "no_auto_publish": true,
+  "source": {
+    "source_id": "suministros-ardila",
+    "name": "Suministros Ardila",
+    "url": "https://suministrosardila.com/wp-content/uploads/2024/02/CATALOGO-SARDILA-2024-V1.pdf",
+    "consultation_date": "2026-09-24"
+  },
+  "rules": [
+    "Candidates require duplicate check against master before activation.",
+    "Public price not published in source; price_status=quote_only.",
+    "Supplier availability is not IMPERIA 360 inventory.",
+    "Preserve exact code, measure and presentation."
+  ],
+  "candidates": [
+    [
+      "Tiza industrial",
+      "TIZ001",
+      "50 Und",
+      "quote_only"
+    ],
+    [
+      "Soldadura eléctrica 6011",
+      "SLT001",
+      "1/8 pulg",
+      "quote_only"
+    ],
+    [
+      "Soldadura eléctrica 6011",
+      "SLT002",
+      "3/32 pulg",
+      "quote_only"
+    ],
+    [
+      "Soldadura eléctrica 6011",
+      "SLT009",
+      "5/32 pulg",
+      "quote_only"
+    ],
+    [
+      "Soldadura eléctrica 6013",
+      "SLT004",
+      "1/8 pulg",
+      "quote_only"
+    ],
+    [
+      "Soldadura eléctrica 6013",
+      "SLT005",
+      "3/32 pulg",
+      "quote_only"
+    ],
+    [
+      "Soldadura eléctrica 6013",
+      "SLT010",
+      "5/32 pulg",
+      "quote_only"
+    ],
+    [
+      "Soldadura eléctrica 7018",
+      "SLT003",
+      "1/8 pulg",
+      "quote_only"
+    ],
+    [
+      "Soldadura eléctrica 7018",
+      "SLT006",
+      "3/32 pulg",
+      "quote_only"
+    ],
+    [
+      "Soldadura eléctrica 7018",
+      "SLT008",
+      "5/32 pulg",
+      "quote_only"
+    ],
+    [
+      "Guantes tipo ingenieros",
+      "GTE08",
+      "6 pares",
+      "quote_only"
+    ],
+    [
+      "Soldadura líquida para PVC",
+      "SOLEC5",
+      "100 Und",
+      "quote_only"
+    ],
+    [
+      "Soldadura líquida para PVC",
+      "SOLEC4",
+      "70 Und",
+      "quote_only"
+    ],
+    [
+      "Soldadura líquida para PVC",
+      "SOLEC3",
+      "100 Und",
+      "quote_only"
+    ],
+    [
+      "Soldadura líquida para PVC",
+      "SOLEC2",
+      "68 Und",
+      "quote_only"
+    ],
+    [
+      "Soldadura líquida para PVC",
+      "SOLEC6",
+      "36 Und",
+      "quote_only"
+    ],
+    [
+      "Soldadura líquida para PVC",
+      "SOLEC1",
+      "24 Und",
+      "quote_only"
+    ],
+    [
+      "Soldadura líquida para PVC",
+      "SOLEC7",
+      "12 Und",
+      "quote_only"
+    ],
+    [
+      "Puntilla de hierro con cabeza",
+      "PCC001",
+      "3/4 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Puntilla de hierro con cabeza",
+      "PCC002",
+      "1 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Puntilla de hierro con cabeza",
+      "PCC003",
+      "1-1/2 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Puntilla de hierro con cabeza",
+      "PCC004",
+      "2 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Puntilla de hierro con cabeza",
+      "PCC005",
+      "2-1/2 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Puntilla de hierro con cabeza",
+      "PCC006",
+      "3 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Puntilla de hierro con cabeza",
+      "PCC007",
+      "3-1/2 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Puntilla de hierro con cabeza",
+      "PCC008",
+      "4 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Puntilla de hierro con cabeza",
+      "PCC009",
+      "5 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Clavo de acero liso",
+      "CAL001",
+      "3/4 pulg; 400 g",
+      "quote_only"
+    ],
+    [
+      "Clavo de acero liso",
+      "CAL002",
+      "1 pulg; 400 g",
+      "quote_only"
+    ],
+    [
+      "Clavo de acero liso",
+      "CAL003",
+      "1-1/2 pulg; 400 g",
+      "quote_only"
+    ],
+    [
+      "Clavo de acero liso",
+      "CAL004",
+      "2 pulg; 400 g",
+      "quote_only"
+    ],
+    [
+      "Clavo de acero liso",
+      "CAL005",
+      "2-1/2 pulg; 400 g",
+      "quote_only"
+    ],
+    [
+      "Clavo de acero estría vertical",
+      "CEV001",
+      "1 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Clavo de acero estría vertical",
+      "CEV002",
+      "1-1/2 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Clavo de acero estría vertical",
+      "CEV003",
+      "2 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Clavo de acero estría vertical",
+      "CEV004",
+      "2-1/2 pulg; 500 g",
+      "quote_only"
+    ],
+    [
+      "Grapa para cerca",
+      "GPC001",
+      "1 x 9 pulg",
+      "quote_only"
+    ],
+    [
+      "Grapa para cerca",
+      "GPC002",
+      "1 x 2 pulg",
+      "quote_only"
+    ],
+    [
+      "Clavo vareta",
+      "CLV002",
+      "4 pulg; 25 kg",
+      "quote_only"
+    ],
+    [
+      "Clavo vareta",
+      "CLV003",
+      "5 pulg; 25 kg",
+      "quote_only"
+    ],
+    [
+      "Remache ciego Pop",
+      "RCP005",
+      "4-2 natural; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Remache ciego Pop",
+      "RCP011",
+      "4-4 natural; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Remache ciego Pop",
+      "RCP013",
+      "4-4 blanco; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Remache ciego Pop",
+      "RCP012",
+      "4-4 tabaco; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Remache ciego Pop",
+      "RCP016",
+      "4-6 natural; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Remache ciego Pop",
+      "RCP017",
+      "4-6 blanco; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Remache ciego Pop",
+      "RCP020",
+      "4-8 natural; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Remache ciego Pop",
+      "RCP022",
+      "4-10 natural; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Remache a la ancha",
+      "RAA006",
+      "6-6; 200 Und",
+      "quote_only"
+    ],
+    [
+      "Remache a la ancha",
+      "RAA005",
+      "6-8; 200 Und",
+      "quote_only"
+    ],
+    [
+      "Remache a la ancha",
+      "RAA007",
+      "6-10; 200 Und",
+      "quote_only"
+    ],
+    [
+      "Remachadora",
+      "RMCH01",
+      "CAM-702; 1 Und",
+      "quote_only"
+    ],
+    [
+      "Alambre galvanizado",
+      "ALG001",
+      "calibre 14; rollo 25 kg",
+      "quote_only"
+    ],
+    [
+      "Alambre galvanizado",
+      "ALG003",
+      "calibre 18; rollo 25 kg",
+      "quote_only"
+    ],
+    [
+      "Alambre de púas calibre 16,5",
+      "ALP001",
+      "400 m",
+      "quote_only"
+    ],
+    [
+      "Alambre de púas calibre 16,5",
+      "ALP002",
+      "200 m",
+      "quote_only"
+    ],
+    [
+      "Broca para muro",
+      "BRM01",
+      "1/8 x 3 pulg",
+      "quote_only"
+    ],
+    [
+      "Broca para muro",
+      "BRM02",
+      "5/16 x 5 pulg",
+      "quote_only"
+    ],
+    [
+      "Broca para muro",
+      "BRM03",
+      "3/16 x 4 pulg",
+      "quote_only"
+    ],
+    [
+      "Broca para muro",
+      "BRM04",
+      "1/2 x 6 pulg",
+      "quote_only"
+    ],
+    [
+      "Broca para muro",
+      "BRM18",
+      "1/4 x 4 pulg",
+      "quote_only"
+    ],
+    [
+      "Broca para muro",
+      "BRM19",
+      "3/8 x 5 pulg",
+      "quote_only"
+    ],
+    [
+      "Broca HSS",
+      "BRH001",
+      "1/4 pulg; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Broca HSS",
+      "BRH005",
+      "5/32 pulg; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Broca HSS",
+      "BRH006",
+      "11/64 pulg; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Broca HSS",
+      "BRH010",
+      "5/16 pulg; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Broca HSS",
+      "BRH004",
+      "1/8 pulg; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Broca HSS",
+      "BRH002",
+      "1/2 pulg; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Cancamo cerrado",
+      "CANC03",
+      "No. 6; 1 gruesa",
+      "quote_only"
+    ],
+    [
+      "Cancamo cerrado",
+      "CANC04",
+      "No. 16; 1 gruesa",
+      "quote_only"
+    ],
+    [
+      "Cancamo cerrado",
+      "CANC05",
+      "No. 10; 1 gruesa",
+      "quote_only"
+    ],
+    [
+      "Cancamo cerrado",
+      "CANC06",
+      "No. 12; 1 gruesa",
+      "quote_only"
+    ],
+    [
+      "Cancamo cerrado",
+      "CANC07",
+      "No. 8; 1 gruesa",
+      "quote_only"
+    ],
+    [
+      "Punta estría",
+      "PDT003",
+      "2 pulg; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Rodachín sin freno",
+      "RCH04",
+      "3 pulg; 100 Und",
+      "quote_only"
+    ],
+    [
+      "Rodachín sin freno",
+      "RCH02",
+      "2 pulg; 50 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo estructura drywall RF",
+      "TRD036",
+      "7 x 7/16 pulg; 1000 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo tirafondo + punta broca + arandela neopreno",
+      "TTF006",
+      "1/4 x 4 pulg; 100 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo drywall RF punta aguda negro",
+      "TRDO39",
+      "6 x 1 pulg; 1000 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo tirafondo + punta aguda + arandela neopreno",
+      "TTF003",
+      "1/4 x 4 pulg; 100 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo cabeza extraplana punta broca",
+      "TPBX07",
+      "8 x 1 pulg; 250 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo cabeza extraplana punta broca",
+      "TPBX05",
+      "8 x 3/4 pulg; 250 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo cabeza extraplana punta broca",
+      "TPBX03",
+      "8 x 1/2 pulg; 250 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo cabeza extraplana punta aguda",
+      "TPA001",
+      "8 x 1/2 pulg; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo autoavellanado punta aguda nervado",
+      "TNR001",
+      "6 x 7/8 pulg; 1000 Und",
+      "quote_only"
+    ],
+    [
+      "Varilla roscada G2",
+      "VR0001",
+      "3/16 pulg",
+      "quote_only"
+    ],
+    [
+      "Varilla roscada G2",
+      "VR0002",
+      "1/4 pulg",
+      "quote_only"
+    ],
+    [
+      "Varilla roscada G2",
+      "VR0003",
+      "5/16 pulg",
+      "quote_only"
+    ],
+    [
+      "Varilla roscada G2",
+      "VR0004",
+      "3/8 pulg",
+      "quote_only"
+    ],
+    [
+      "Varilla roscada G2",
+      "VR0005",
+      "1/2 pulg",
+      "quote_only"
+    ],
+    [
+      "Varilla roscada G2",
+      "VR0006",
+      "5/8 pulg",
+      "quote_only"
+    ],
+    [
+      "Varilla roscada G2",
+      "VR0007",
+      "3/4 pulg",
+      "quote_only"
+    ],
+    [
+      "Tuerca hexagonal G2 galvanizada",
+      "TCH019",
+      "1/8 pulg; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Tuerca hexagonal G2 galvanizada",
+      "TCH011",
+      "5/32 pulg; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Tuerca hexagonal G2 galvanizada",
+      "TCH010",
+      "3/16 pulg; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Tuerca hexagonal G2 galvanizada",
+      "TCH001",
+      "1/4 pulg; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Tuerca hexagonal G2 galvanizada",
+      "TCHOO2",
+      "5/16 pulg; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Tuerca hexagonal G2 galvanizada",
+      "TCH003",
+      "3/8 pulg; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo plástico",
+      "CHZP04",
+      "3/16 pulg; 1000 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo plástico",
+      "CHZP01",
+      "1/4 pulg; 1000 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo plástico",
+      "CHZP02",
+      "5/16 pulg; 1000 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo plástico",
+      "CHZP03",
+      "3/8 pulg; 1000 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo plástico",
+      "CHZP05",
+      "1/2 pulg; 500 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo expansivo",
+      "APW002",
+      "3/16 pulg; 200 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo expansivo",
+      "APWOO3",
+      "1/4 pulg; 200 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo expansivo",
+      "APW004",
+      "5/16 pulg; 200 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo expansivo",
+      "APW005",
+      "3/8 pulg; 200 Und",
+      "quote_only"
+    ],
+    [
+      "Chazo expansivo",
+      "APW007",
+      "1/2 pulg; 200 Und",
+      "quote_only"
+    ],
+    [
+      "Cerradura King Lock 2010",
+      "CER005",
+      "Derecha; 48 Und",
+      "quote_only"
+    ],
+    [
+      "Cerradura King Lock 2010",
+      "CER009",
+      "Izquierda; 48 Und",
+      "quote_only"
+    ],
+    [
+      "Cerradura Super 21",
+      "CER010",
+      "Derecha; 48 Und",
+      "quote_only"
+    ],
+    [
+      "Cerradura Super 21",
+      "CER044",
+      "Izquierda; 48 Und",
+      "quote_only"
+    ],
+    [
+      "Cerradura 864",
+      "CER013",
+      "Derecha; 48 Und",
+      "quote_only"
+    ],
+    [
+      "Cerradura sobreponer 766",
+      "CER023",
+      "AP de V. acero; 48 Und",
+      "quote_only"
+    ],
+    [
+      "Candado de hierro",
+      "CDH01",
+      "38 mm; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Candado de hierro",
+      "CDH02",
+      "45 mm; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Candado de hierro",
+      "CDH03",
+      "50 mm; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Candado de hierro",
+      "CDH04",
+      "63 mm; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Candado zamac",
+      "CND14",
+      "50 mm; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Candado alemán",
+      "CNDO1",
+      "50 mm; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Chapa para mueble 1550",
+      "CER008",
+      "1550 mm; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Chapa para mueble 1560",
+      "CER012",
+      "1560 mm; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Escudo 767 Emperador",
+      "ESC04",
+      "galvanizado; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Escudo 767 Emperador",
+      "ESC01",
+      "latón antiguo; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Escudo 767 Emperador",
+      "ESC02",
+      "cobre antiguo; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Escudo 767 Emperador",
+      "ESC03",
+      "latón brillante; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Manto frío adhesivo",
+      "MANT03",
+      "1.10 x 9 m; 1 Und",
+      "quote_only"
+    ],
+    [
+      "Tela de refuerzo",
+      "TELA2",
+      "50 m",
+      "quote_only"
+    ],
+    [
+      "Tapagotera",
+      "CTG01",
+      "4 x 10 m; 1 Und",
+      "quote_only"
+    ],
+    [
+      "Rodillo de felpa",
+      "ROD002",
+      "7 pulg; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Rodillo de felpa",
+      "ROD003",
+      "9 pulg; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Brocha cerda negra",
+      "BMPW01",
+      "1 pulg; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Brocha cerda negra",
+      "BMPW02",
+      "1-1/2 pulg; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Brocha cerda negra",
+      "BMPW03",
+      "2 pulg; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Brocha cerda negra",
+      "BMPW04",
+      "2-1/2 pulg; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Brocha cerda negra",
+      "BMPW05",
+      "3 pulg; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Cinta de empaque",
+      "CET004",
+      "48 mm x 100 m",
+      "quote_only"
+    ],
+    [
+      "Cinta de aislar",
+      "CDA01",
+      "55 pulg",
+      "quote_only"
+    ],
+    [
+      "Teflón industrial",
+      "TEF004",
+      "1/2 x 10 m; 10 Und",
+      "quote_only"
+    ],
+    [
+      "Teflón industrial",
+      "TEF005",
+      "3/4 x 15 m; 10 Und",
+      "quote_only"
+    ],
+    [
+      "Disco tronzadora",
+      "DTW001",
+      "14 pulg; caja x10",
+      "quote_only"
+    ],
+    [
+      "Disco de corte",
+      "DCW001",
+      "4.5 pulg; caja x25",
+      "quote_only"
+    ],
+    [
+      "Disco de corte",
+      "DCW002",
+      "7 pulg; caja x25",
+      "quote_only"
+    ],
+    [
+      "Disco de pulir",
+      "DBW001",
+      "4.5 pulg; caja x25",
+      "quote_only"
+    ],
+    [
+      "Disco de pulir",
+      "DBW002",
+      "7 pulg; caja x25",
+      "quote_only"
+    ],
+    [
+      "Disco de corte extrafino",
+      "DIS007",
+      "4-1/2 pulg; caja x25",
+      "quote_only"
+    ],
+    [
+      "Silicona transparente",
+      "6982",
+      "270 ml; 12 Und; Tekbond",
+      "quote_only"
+    ],
+    [
+      "Silicona transparente",
+      "STT001",
+      "300 ml; 12 Und; Toolcraft",
+      "quote_only"
+    ],
+    [
+      "Silicona Sikasik IA",
+      "SLS01",
+      "280 ml transparente; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Silicona Sikasik IA",
+      "SLS02",
+      "280 ml blanca; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Silicona Sikasik IA",
+      "SLS17",
+      "280 ml negra; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Gel decapante",
+      "GDP02",
+      "1.2 kg",
+      "quote_only"
+    ],
+    [
+      "Beartex / Scotchbrite",
+      "RBM001",
+      "150 x 30; 1 rollo",
+      "quote_only"
+    ],
+    [
+      "Lija de agua",
+      "LIJP01",
+      "grano 60; 50 Und",
+      "quote_only"
+    ],
+    [
+      "Lija de agua",
+      "LIJP02",
+      "grano 80; 50 Und",
+      "quote_only"
+    ],
+    [
+      "Lija de agua",
+      "LIJP03",
+      "grano 100; 50 Und",
+      "quote_only"
+    ],
+    [
+      "Lija de agua",
+      "LIJP04",
+      "grano 120; 50 Und",
+      "quote_only"
+    ],
+    [
+      "Tela de esmeril",
+      "TLE001",
+      "grano 36; 25 m",
+      "quote_only"
+    ],
+    [
+      "Tela de esmeril",
+      "TLE002",
+      "grano 60; 25 m",
+      "quote_only"
+    ],
+    [
+      "Tela de esmeril",
+      "TLE003",
+      "grano 80; 25 m",
+      "quote_only"
+    ],
+    [
+      "Tela de esmeril",
+      "TLE004",
+      "grano 100; 25 m",
+      "quote_only"
+    ],
+    [
+      "Tela de esmeril",
+      "TLE005",
+      "grano 120; 25 m",
+      "quote_only"
+    ],
+    [
+      "Impermeabilizante P7",
+      "HUE008",
+      "1/4 pulg; 1 Und",
+      "quote_only"
+    ],
+    [
+      "Impermeabilizante P7",
+      "HUE009",
+      "1/16 pulg; 1 Und",
+      "quote_only"
+    ],
+    [
+      "Pegante Ultra XL",
+      "PEG004",
+      "1 galón; 1 Und",
+      "quote_only"
+    ],
+    [
+      "Pegante Ultra XL",
+      "PEG010",
+      "60 ml; 60 Und",
+      "quote_only"
+    ],
+    [
+      "Cinta Temflex",
+      "CDA03",
+      "5 m",
+      "quote_only"
+    ],
+    [
+      "Cinta Temflex",
+      "CDA05",
+      "18 m",
+      "quote_only"
+    ],
+    [
+      "Cinta Temflex",
+      "CDA04",
+      "9 m",
+      "quote_only"
+    ],
+    [
+      "Acople lavamanos/lavaplatos",
+      "ACP003",
+      "40 cm; Rioplast PCP; 24 Und",
+      "quote_only"
+    ],
+    [
+      "Acople lavamanos/lavaplatos",
+      "ACP001",
+      "40 cm; Rioplast; 24 Und",
+      "quote_only"
+    ],
+    [
+      "Sifón flexible",
+      "SIF003",
+      "11-1/2 x 11-1/4; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Sifón en P integral",
+      "SIF009",
+      "cromo; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Tornillo cisterna",
+      "TORC01",
+      "50 Und",
+      "quote_only"
+    ],
+    [
+      "Herraje plástico 2 piezas",
+      "HERR01",
+      "20 Und",
+      "quote_only"
+    ],
+    [
+      "Válvula tanque alto",
+      "VALV04",
+      "6 Und",
+      "quote_only"
+    ],
+    [
+      "Flotador universal",
+      "FLO002",
+      "1/4-5/16; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Válvula de entrada",
+      "VALV03",
+      "5/16; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Válvula de entrada silenciosa",
+      "VALV06",
+      "14; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Válvula esfera",
+      "VALV01",
+      "con sosco; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Válvula esfera",
+      "VALV02",
+      "sin sosco; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Llave jardín",
+      "LLAVE6",
+      "1/2; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Llave jardín plástica",
+      "LLAV10",
+      "1/2 esfera; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Llave diamante",
+      "LLAVE4",
+      "blanco; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Llave diamante",
+      "LLAVE5",
+      "cromo; 12 Und",
+      "quote_only"
+    ],
+    [
+      "Desagüe lavamanos",
+      "DESG01",
+      "blanco; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Desagüe lavamanos",
+      "DESG02",
+      "cromo; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Canastilla",
+      "CAN001",
+      "cromo; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Canastilla",
+      "CAN003",
+      "blanco push; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Ducha",
+      "DUCH01",
+      "gris clásico; 6 Und",
+      "quote_only"
+    ],
+    [
+      "Ducha",
+      "DUCH02",
+      "aluminio; 6 Und",
+      "quote_only"
+    ]
+  ]
+}
