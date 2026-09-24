@@ -46159,5 +46159,1149 @@
       "duplicateStatus": "checked_name_and_sku",
       "lastReviewedAt": "2026-09-24"
     }
+  },
+  {
+    "id": "imp-0466",
+    "status": "review",
+    "name": "Tornillo Panel Drywall Pta Aguda 6X1-1/4 100 Und Fixser",
+    "slug": "tornillo-panel-drywall-pta-aguda-6x1-1-4-100-und-fixser",
+    "identification": {
+      "sku": "37130",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para drywall"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Panel Drywall Pta Aguda 6X1-1/4 100 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.140 pulgadas",
+      "length": "1-1/4 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "100",
+      "unit": "unidades",
+      "originalText": "Tornillo Panel Drywall Pta Aguda 6X1-1/4 100 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": "37130",
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/product/37130/tornillo-panel-drywall-pta-aguda-6x1-1-4-100-und-fixser/37130/",
+      "features": [
+        "punta aguda",
+        "rosca fina",
+        "cabeza trompeta",
+        "acero",
+        "pavonado"
+      ]
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0466-default",
+        "label": "100 unidades",
+        "quantity": 100,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "37130",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 6300,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Panel Drywall Pta Aguda 6X1-1/4 100 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 6300,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para drywall",
+      "0.140 pulgadas",
+      "1-1/4 pulgadas",
+      "100 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0467",
+    "status": "review",
+    "name": "Tornillo Panel Drywall Pta Aguda 6X1-1/4 1000 Und Fixser",
+    "slug": "tornillo-panel-drywall-pta-aguda-6x1-1-4-1000-und-fixser",
+    "identification": {
+      "sku": "612886",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para drywall"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Panel Drywall Pta Aguda 6X1-1/4 1000 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.14 pulgadas",
+      "length": "1-1/4 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "1000",
+      "unit": "unidades",
+      "originalText": "Tornillo Panel Drywall Pta Aguda 6X1-1/4 1000 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": "612886",
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/product/612886/tornillo-panel-drywall-pundta-aguda-6x1-1-4-1000und-fixser/612886/",
+      "features": [
+        "punta aguda",
+        "rosca fina",
+        "cabeza trompeta",
+        "acero",
+        "zincado"
+      ]
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0467-default",
+        "label": "1000 unidades",
+        "quantity": 1000,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "612886",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 56900,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Panel Drywall Pta Aguda 6X1-1/4 1000 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 56900,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para drywall",
+      "0.14 pulgadas",
+      "1-1/4 pulgadas",
+      "1000 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0468",
+    "status": "review",
+    "name": "Tornillo Panel Drywall Pta Broca 6X1-1/4 100 Und Fixser",
+    "slug": "tornillo-panel-drywall-pta-broca-6x1-1-4-100-und-fixser",
+    "identification": {
+      "sku": "70607",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para drywall"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Panel Drywall Pta Broca 6X1-1/4 100 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.140 pulgadas",
+      "length": "1-1/4 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "100",
+      "unit": "unidades",
+      "originalText": "Tornillo Panel Drywall Pta Broca 6X1-1/4 100 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": "70607",
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/product/70607/tornillo-panel-drywall-pta-broca-6x1-1-4-100-und-fixser/70607/",
+      "features": [
+        "punta broca",
+        "rosca fina",
+        "cabeza trompeta",
+        "acero",
+        "zincado"
+      ]
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0468-default",
+        "label": "100 unidades",
+        "quantity": 100,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "70607",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4900,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Panel Drywall Pta Broca 6X1-1/4 100 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4900,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para drywall",
+      "0.140 pulgadas",
+      "1-1/4 pulgadas",
+      "100 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0469",
+    "status": "review",
+    "name": "Tornillo Panel Drywall Pta Broca 6X1-1/4 500 Und Fixser",
+    "slug": "tornillo-panel-drywall-pta-broca-6x1-1-4-500-und-fixser",
+    "identification": {
+      "sku": "37137",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para drywall"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Panel Drywall Pta Broca 6X1-1/4 500 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.140 pulgadas",
+      "length": "1-1/4 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "500",
+      "unit": "unidades",
+      "originalText": "Tornillo Panel Drywall Pta Broca 6X1-1/4 500 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": "37137",
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/product/70607/tornillo-panel-drywall-pta-broca-6x1-1-4-500-und-fixser/37137/",
+      "features": [
+        "punta broca",
+        "rosca fina",
+        "cabeza trompeta",
+        "acero",
+        "zincado"
+      ]
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0469-default",
+        "label": "500 unidades",
+        "quantity": 500,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "37137",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 22900,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Panel Drywall Pta Broca 6X1-1/4 500 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 22900,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para drywall",
+      "0.140 pulgadas",
+      "1-1/4 pulgadas",
+      "500 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0470",
+    "status": "review",
+    "name": "Tornillo Panel Drywall Pta Broca 6X1-1/4 1000 Und Fixser",
+    "slug": "tornillo-panel-drywall-pta-broca-6x1-1-4-1000-und-fixser",
+    "identification": {
+      "sku": "612916",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para drywall"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Panel Drywall Pta Broca 6X1-1/4 1000 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.14 pulgadas",
+      "length": "1-1/4 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "1000",
+      "unit": "unidades",
+      "originalText": "Tornillo Panel Drywall Pta Broca 6X1-1/4 1000 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": "612916",
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/product/70607/tornillo-panel-drywall-p-undta-broca-6x1-1-4-1000-und-fixser/612916/",
+      "features": [
+        "punta broca",
+        "rosca fina",
+        "cabeza trompeta",
+        "acero",
+        "zincado"
+      ]
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0470-default",
+        "label": "1000 unidades",
+        "quantity": 1000,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "612916",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 43900,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Panel Drywall Pta Broca 6X1-1/4 1000 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 43900,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para drywall",
+      "0.14 pulgadas",
+      "1-1/4 pulgadas",
+      "1000 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0471",
+    "status": "review",
+    "name": "Tornillo Panel Drywall Pta Aguda 6X1-5/8 600 Und Fixser",
+    "slug": "tornillo-panel-drywall-pta-aguda-6x1-5-8-600-und-fixser",
+    "identification": {
+      "sku": "612891",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para drywall"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Panel Drywall Pta Aguda 6X1-5/8 600 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.14 pulgadas",
+      "length": "1-5/8 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "600",
+      "unit": "unidades",
+      "originalText": "Tornillo Panel Drywall Pta Aguda 6X1-5/8 600 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": "612891",
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/product/612891/tornillo-panel-drywall-pundta-aguda-6x1-5-8-600und-fixser/612891/",
+      "features": [
+        "punta aguda",
+        "rosca fina",
+        "cabeza trompeta",
+        "acero",
+        "zincado"
+      ]
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0471-default",
+        "label": "600 unidades",
+        "quantity": 600,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "612891",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 33900,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Panel Drywall Pta Aguda 6X1-5/8 600 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 33900,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para drywall",
+      "0.14 pulgadas",
+      "1-5/8 pulgadas",
+      "600 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0472",
+    "status": "review",
+    "name": "Tornillo Panel Drywall Pta Aguda 6X2 400 Und Fixser",
+    "slug": "tornillo-panel-drywall-pta-aguda-6x2-400-und-fixser",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para drywall"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Panel Drywall Pta Aguda 6X2 400 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.14 pulgadas",
+      "length": "2 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "400",
+      "unit": "unidades",
+      "originalText": "Tornillo Panel Drywall Pta Aguda 6X2 400 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": null,
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10568/accesorios-de-drywall/",
+      "features": "punta aguda; rosca fina; cabeza trompeta; acero; zincado"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0472-default",
+        "label": "400 unidades",
+        "quantity": 400,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 34900,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Panel Drywall Pta Aguda 6X2 400 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 34900,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para drywall",
+      "0.14 pulgadas",
+      "2 pulgadas",
+      "400 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0473",
+    "status": "review",
+    "name": "Tornillo Lámina Cab. Lenteja Pta Broca 8X1/2 10 Und Fixser",
+    "slug": "tornillo-lamina-cab-lenteja-pta-broca-8x1-2-10-und-fixser",
+    "identification": {
+      "sku": "86604",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para lámina"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Lámina Cab. Lenteja Pta Broca 8X1/2 10 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.160 pulgadas",
+      "length": "1/2 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "10",
+      "unit": "unidades",
+      "originalText": "Tornillo Lámina Cab. Lenteja Pta Broca 8X1/2 10 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": "86604",
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/product/86604/tornillo-cabeza-lenteja-p-undta-broca-8x1-2pg-10-und-fixser/86604/",
+      "features": [
+        "punta broca",
+        "rosca fina",
+        "cabeza plana",
+        "acero",
+        "zincado"
+      ]
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0473-default",
+        "label": "10 unidades",
+        "quantity": 10,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "86604",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3900,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Lámina Cab. Lenteja Pta Broca 8X1/2 10 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3900,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para lámina",
+      "0.160 pulgadas",
+      "1/2 pulgadas",
+      "10 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0474",
+    "status": "review",
+    "name": "Tornillo Lámina Cab. Lenteja Pta Broca 8X3/4 500 Und Fixser",
+    "slug": "tornillo-lamina-cab-lenteja-pta-broca-8x3-4-500-und-fixser",
+    "identification": {
+      "sku": "612955",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para lámina"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Lámina Cab. Lenteja Pta Broca 8X3/4 500 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.16 pulgadas",
+      "length": "3/4 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "500",
+      "unit": "unidades",
+      "originalText": "Tornillo Lámina Cab. Lenteja Pta Broca 8X3/4 500 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": "612955",
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/product/86605/tornillo-lamina-cab-lenteja-pta-broca-8x3-4-500und-fixser/612955/",
+      "features": [
+        "punta broca",
+        "rosca fina",
+        "cabeza plana",
+        "acero",
+        "zincado"
+      ]
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0474-default",
+        "label": "500 unidades",
+        "quantity": 500,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "612955",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 26900,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Lámina Cab. Lenteja Pta Broca 8X3/4 500 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 26900,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para lámina",
+      "0.16 pulgadas",
+      "3/4 pulgadas",
+      "500 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0475",
+    "status": "review",
+    "name": "Tornillo Lámina Cab. Lenteja Pta Broca 8X1-1/4 500 Und Fixser",
+    "slug": "tornillo-lamina-cab-lenteja-pta-broca-8x1-1-4-500-und-fixser",
+    "identification": {
+      "sku": "612945",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para lámina"
+    },
+    "brand": {
+      "name": "Fixser",
+      "status": "confirmed"
+    },
+    "description": "Tornillo Lámina Cab. Lenteja Pta Broca 8X1-1/4 500 Und Fixser. Registro verificado en fuente comercial Homecenter Colombia.",
+    "measurements": {
+      "diameter": "0.16 pulgadas",
+      "length": "1-1/4 pulgadas",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "500",
+      "unit": "unidades",
+      "originalText": "Tornillo Lámina Cab. Lenteja Pta Broca 8X1-1/4 500 Und Fixser"
+    },
+    "specifications": {
+      "sourceSku": "612945",
+      "marketSource": "Homecenter Colombia",
+      "marketUrl": "https://www.homecenter.com.co/homecenter-co/product/612945/tornillo-lamina-cab-lenteja-pta-broca-8x1-1-4-500und-fixser/612945/",
+      "features": [
+        "punta broca",
+        "rosca fina",
+        "cabeza plana",
+        "acero",
+        "zincado"
+      ]
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0475-default",
+        "label": "500 unidades",
+        "quantity": 500,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "612945",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 54900,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Lámina Cab. Lenteja Pta Broca 8X1-1/4 500 Und Fixser"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 54900,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Homecenter Colombia"
+    },
+    "supplier": {
+      "name": "Homecenter Colombia",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornilleria",
+      "fijaciones",
+      "tornillos para lámina",
+      "0.16 pulgadas",
+      "1-1/4 pulgadas",
+      "500 unidades"
+    ],
+    "dataQuality": {
+      "source": "Homecenter Colombia",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio mayorista",
+        "referencia fabricante"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
   }
 ]
