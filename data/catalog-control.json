@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "catalogStatus": "foundation_ready",
+  "loadingStrategy": "staged_verified_import",
+  "targetCategories": 29,
+  "targetProductVolume": "large",
+  "requiredBeforeActive": [
+    "producto real verificable",
+    "referencia o SKU cuando exista",
+    "categoría y subcategoría",
+    "presentación exacta",
+    "fuente y fecha de consulta",
+    "precio fuente o quote_only",
+    "control de duplicados",
+    "imagen verificada cuando esté disponible"
+  ],
+  "qualityStates": {
+    "draft": "registro estructural pendiente de verificación",
+    "review": "fuente verificada pero faltan campos comerciales o visuales",
+    "active": "validado para publicación",
+    "inactive": "no publicar temporalmente",
+    "archived": "conservar historial sin publicar"
+  },
+  "duplicateKeys": [
+    "identification.sku",
+    "identification.manufacturerReference",
+    "identification.supplierReference",
+    "normalizedName+brand+measurements",
+    "source+reference"
+  ],
+  "importStages": [
+    "1_recoleccion",
+    "2_normalizacion",
+    "3_deduplicacion",
+    "4_verificacion",
+    "5_precio_y_margen",
+    "6_imagenes",
+    "7_publicacion"
+  ],
+  "currentLoadedProducts": 3,
+  "currentLoadedStatus": "review",
+  "note": "La base de productos existente se conserva; esta capa controla el proceso para cargar el catálogo masivo sin contaminarlo con datos inventados."
+}
