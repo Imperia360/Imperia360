@@ -6325,115 +6325,6 @@
     }
   },
   {
-    "id": "imp-0061",
-    "status": "review",
-    "name": "Toma aéreo industrial Kontiki polo/tierra 15A RETIE",
-    "slug": "toma-aereo-industrial-kontiki-polo-tierra-15a-retie",
-    "identification": {
-      "sku": null,
-      "manufacturerReference": null,
-      "supplierReference": null,
-      "alternativeReferences": []
-    },
-    "category": {
-      "id": "cat-02",
-      "name": "Electricidad"
-    },
-    "subcategory": {
-      "id": null,
-      "name": "Tomas y conexiones"
-    },
-    "brand": {
-      "name": null,
-      "status": "not_provided"
-    },
-    "description": "Listado comercial verificado en Roxvan.",
-    "measurements": {
-      "diameter": null,
-      "length": null,
-      "width": null,
-      "height": null,
-      "thickness": null,
-      "gauge": null,
-      "capacity": null,
-      "unit": null,
-      "originalText": "Toma aéreo industrial Kontiki polo/tierra 15A RETIE"
-    },
-    "specifications": {
-      "marketSource": "Roxvan"
-    },
-    "variants": [],
-    "presentations": [
-      {
-        "id": "p-imp-0061-default",
-        "label": "Presentación publicada por proveedor",
-        "quantity": 1,
-        "unit": "unidad",
-        "salesUnit": "unidad",
-        "sku": null,
-        "reference": null,
-        "pricing": {
-          "status": "validated",
-          "publicPrice": 9401,
-          "wholesalePrice": null
-        },
-        "availability": {
-          "status": "on_request",
-          "stock": null
-        },
-        "isDefault": true
-      }
-    ],
-    "images": {
-      "primary": null,
-      "gallery": [],
-      "alt": "Toma aéreo industrial Kontiki polo/tierra 15A RETIE"
-    },
-    "pricing": {
-      "status": "validated",
-      "currency": "COP",
-      "publicPrice": 9401,
-      "wholesalePrice": null,
-      "lastVerifiedAt": "2026-09-23",
-      "source": "Roxvan"
-    },
-    "availability": {
-      "status": "on_request",
-      "stock": null,
-      "unit": "unidad",
-      "lastVerifiedAt": "2026-09-23",
-      "source": "Roxvan"
-    },
-    "supplier": {
-      "name": "Roxvan",
-      "status": "confirmed"
-    },
-    "relatedProductIds": [],
-    "tags": [
-      "toma",
-      "aereo",
-      "industrial",
-      "kontiki",
-      "polo",
-      "tierra",
-      "15a",
-      "retie"
-    ],
-    "dataQuality": {
-      "source": "Roxvan",
-      "verified": true,
-      "missingFields": [
-        "imagen",
-        "SKU/referencia",
-        "marca",
-        "presentacion exacta",
-        "precio IMPERIA 360"
-      ],
-      "duplicateStatus": "pending_cross_source",
-      "lastReviewedAt": "2026-09-23"
-    }
-  },
-  {
     "id": "imp-0062",
     "status": "review",
     "name": "Cinta aislante Cellux pequeña 5 m",
@@ -18900,7 +18791,7 @@
       "name": null,
       "status": "not_provided"
     },
-    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "description": "Producto unificado a partir de dos registros históricos del mismo artículo en Roxvan.",
     "measurements": {
       "originalText": "Toma aéreo industrial Kontiki polo tierra 15A RETIE"
     },
@@ -18970,9 +18861,10 @@
       "missingFields": [
         "imagen",
         "marca",
-        "precio IMPERIA 360"
+        "imagen",
+        "marca"
       ],
-      "duplicateStatus": "pending_cross_source",
+      "duplicateStatus": "clear",
       "lastReviewedAt": "2026-09-23"
     }
   },
