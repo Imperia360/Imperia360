@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://imperia360.github.io/Imperia360/schemas/catalog-import.schema.json",
+  "title": "Validación de importación del catálogo IMPERIA 360",
+  "description": "Esquema complementario para validar futuras cargas de datos reales. No contiene productos ni datos comerciales.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record", "validation"],
+  "properties": {
+    "record": { "$ref": "#/$defs/record" },
+    "validation": { "$ref": "#/$defs/validation" }
+  },
+  "$defs": {
+    "nullableString": { "type": ["string", "null"] },
+    "stringList": { "type": "array", "items": { "type": "string" } },
+    "record": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "id": { "$ref": "#/$defs/nullableString" },
+        "status": { "type": "string" },
+        "name": { "$ref": "#/$defs/nullableString" },
+        "identification": { "type": "object" },
+        "category": { "type": "object" },
+        "subcategory": { "type": "object" },
+        "brand": { "type": "object" },
+        "measurements": { "type": "object" },
+        "specifications": { "type": "object" },
+        "variants": { "type": "array" },
+        "presentations": { "type": "array" },
+        "images": { "type": "object" },
+        "pricing": { "type": "object" },
+        "availability": { "type": "object" },
+        "supplier": { "type": "object" },
+        "relatedProductIds": { "$ref": "#/$defs/stringList" },
+        "tags": { "$ref": "#/$defs/stringList" },
+        "dataQuality": { "type": "object" }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "missingFields", "duplicateStatus", "issues"],
+      "properties": {
+        "status": { "type": "string", "enum": ["pending_verification", "verified", "incomplete"] },
+        "missingFields": { "$ref": "#/$defs/stringList" },
+        "duplicateStatus": { "type": "string", "enum": ["pending", "clear", "possible_duplicate", "duplicate"] },
+        "issues": { "$ref": "#/$defs/stringList" }
+      }
+    }
+  }
+}
