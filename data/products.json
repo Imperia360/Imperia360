@@ -45775,5 +45775,497 @@
       "duplicateStatus": "checked_name_and_sku",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0473",
+    "status": "review",
+    "name": "NYLON IMPAR 60 LBS 0.75MM PAQ X6 CARRETO X100MTRS PRECIO X UND",
+    "slug": "nylon-impar-60-lbs-0-75mm-paq-x6-carreto-x100mtrs-precio-x-und",
+    "identification": {
+      "sku": "B4B1281",
+      "manufacturerReference": "PRECIO X UND",
+      "supplierReference": "B4B1281",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-26",
+      "name": "Ferretería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Cuerdas y nylon"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia comercial publicada y verificada en Roxvan.",
+    "measurements": {
+      "originalText": "NYLON IMPAR 60 LBS 0.75MM PAQ X6 CARRETO X100MTRS PRECIO X UND"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0473-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B1281",
+        "reference": "PRECIO X UND",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 9380,
+          "wholesalePrice": 6700
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "NYLON IMPAR 60 LBS 0.75MM PAQ X6 CARRETO X100MTRS PRECIO X UND"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 9380,
+      "wholesalePrice": 6700,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "nylon",
+      "impar",
+      "60",
+      "lbs",
+      "0",
+      "75mm",
+      "paq",
+      "x6"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0474",
+    "status": "review",
+    "name": "UNION SANITARIA 4 ORIGINAL DILMAR",
+    "slug": "union-sanitaria-4-original-dilmar",
+    "identification": {
+      "sku": "B4B16023",
+      "manufacturerReference": null,
+      "supplierReference": "B4B16023",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-26",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios sanitarios"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia comercial publicada y verificada en Roxvan.",
+    "measurements": {
+      "originalText": "UNION SANITARIA 4 ORIGINAL DILMAR"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0474-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B16023",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3987,
+          "wholesalePrice": 3350
+        },
+        "availability": {
+          "status": "available",
+          "stock": 17
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "UNION SANITARIA 4 ORIGINAL DILMAR"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3987,
+      "wholesalePrice": 3350,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": 17,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "sanitaria",
+      "4",
+      "original",
+      "dilmar"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0475",
+    "status": "review",
+    "name": "SOGA MATIZADA ATAR 6MM 1/4 X250MTS TRENZADA",
+    "slug": "soga-matizada-atar-6mm-1-4-x250mts-trenzada",
+    "identification": {
+      "sku": "B4B20422",
+      "manufacturerReference": "07065",
+      "supplierReference": "B4B20422",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-26",
+      "name": "Ferretería general"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Cuerdas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia comercial publicada y verificada en Roxvan.",
+    "measurements": {
+      "originalText": "SOGA MATIZADA ATAR 6MM 1/4 X250MTS TRENZADA"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0475-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B20422",
+        "reference": "07065",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 199990,
+          "wholesalePrice": 142850
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "SOGA MATIZADA ATAR 6MM 1/4 X250MTS TRENZADA"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 199990,
+      "wholesalePrice": 142850,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soga",
+      "matizada",
+      "atar",
+      "6mm",
+      "1",
+      "4",
+      "x250mts",
+      "trenzada"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0476",
+    "status": "review",
+    "name": "CLAVO ACERO LISO 2 CA MEJIA 500 GRS",
+    "slug": "clavo-acero-liso-2-ca-mejia-500-grs",
+    "identification": {
+      "sku": "B4B2335",
+      "manufacturerReference": "500 GRS",
+      "supplierReference": "B4B2335",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-26",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Clavos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia comercial publicada y verificada en Roxvan.",
+    "measurements": {
+      "originalText": "CLAVO ACERO LISO 2 CA MEJIA 500 GRS"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0476-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B2335",
+        "reference": "500 GRS",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 11603,
+          "wholesalePrice": 9750
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "CLAVO ACERO LISO 2 CA MEJIA 500 GRS"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 11603,
+      "wholesalePrice": 9750,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "clavo",
+      "acero",
+      "liso",
+      "2",
+      "ca",
+      "mejia",
+      "500",
+      "grs"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0477",
+    "status": "review",
+    "name": "PINTURA VINILO TIPO 1 BLANCO CUÑETE MULTIGRECO",
+    "slug": "pintura-vinilo-tipo-1-blanco-cu-ete-multigreco",
+    "identification": {
+      "sku": "B4B19229",
+      "manufacturerReference": "99500105",
+      "supplierReference": "B4B19229",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-26",
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Vinilos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia comercial publicada y verificada en Roxvan.",
+    "measurements": {
+      "originalText": "PINTURA VINILO TIPO 1 BLANCO CUÑETE MULTIGRECO"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0477-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B19229",
+        "reference": "99500105",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 307913,
+          "wholesalePrice": 267750
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "PINTURA VINILO TIPO 1 BLANCO CUÑETE MULTIGRECO"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 307913,
+      "wholesalePrice": 267750,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pintura",
+      "vinilo",
+      "tipo",
+      "1",
+      "blanco",
+      "cu",
+      "ete",
+      "multigreco"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-24"
+    }
   }
 ]
