@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "suppliers": [
+    {"id":"sup-corbeta","name":"Corbeta","type":"mayorista_distribuidor","priority":2,"city":"Bogota D.C.","status":"active"},
+    {"id":"sup-mundial","name":"Mundial de Tornillos","type":"mayorista_especializado","priority":2,"city":"Bogota D.C.","status":"active"},
+    {"id":"sup-roxvan","name":"Roxvan","type":"catalogo_b2b","priority":2,"status":"active"},
+    {"id":"sup-sofalca","name":"Sofalca","type":"catalogo_online","priority":2,"status":"active"},
+    {"id":"sup-777","name":"Tornillos y Herramientas 777","type":"especialista","priority":3,"city":"Bogota D.C.","status":"active"},
+    {"id":"sup-tyt","name":"Tornillos y Tuercas Co.","type":"especialista","priority":3,"status":"active"},
+    {"id":"sup-fercar","name":"Tornillos Fercar","type":"especialista","priority":3,"city":"Bogota D.C.","status":"active"},
+    {"id":"sup-coval","name":"Coval","type":"distribuidor","priority":2,"status":"active"}
+  ]
+}
