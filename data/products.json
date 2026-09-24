@@ -18522,5 +18522,969 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0177",
+    "status": "review",
+    "name": "ConstruMAX paneles adhesivo multimaterial beige AFIX 300 ml",
+    "slug": "construmax-paneles-adhesivo-multimaterial-beige-afix-300-ml",
+    "identification": {
+      "sku": "B4B23796",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Adhesivos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "ConstruMAX paneles adhesivo multimaterial beige AFIX 300 ml"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0177-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23796",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 20440,
+          "wholesalePrice": 14600
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "ConstruMAX paneles adhesivo multimaterial beige AFIX 300 ml"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 20440,
+      "wholesalePrice": 14600,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "construmax",
+      "paneles",
+      "adhesivo",
+      "multimaterial",
+      "beige",
+      "afix",
+      "300"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0178",
+    "status": "review",
+    "name": "Silicona UDUKE RTV negra 70 ml alta temperatura",
+    "slug": "silicona-uduke-rtv-negra-70-ml-alta-temperatura",
+    "identification": {
+      "sku": "B4B23572",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "Silicona UDUKE RTV negra 70 ml alta temperatura"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0178-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23572",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7210,
+          "wholesalePrice": 5150
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona UDUKE RTV negra 70 ml alta temperatura"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7210,
+      "wholesalePrice": 5150,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "uduke",
+      "rtv",
+      "negra",
+      "alta",
+      "temperatura"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0179",
+    "status": "review",
+    "name": "Silicona UDUKE RTV gris 70 ml alta temperatura",
+    "slug": "silicona-uduke-rtv-gris-70-ml-alta-temperatura",
+    "identification": {
+      "sku": "B4B23571",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "Silicona UDUKE RTV gris 70 ml alta temperatura"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0179-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23571",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7630,
+          "wholesalePrice": 5450
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona UDUKE RTV gris 70 ml alta temperatura"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7630,
+      "wholesalePrice": 5450,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "uduke",
+      "rtv",
+      "gris",
+      "alta",
+      "temperatura"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0180",
+    "status": "review",
+    "name": "Silicona UDUKE RTV blanca 70 ml",
+    "slug": "silicona-uduke-rtv-blanca-70-ml",
+    "identification": {
+      "sku": "B4B23570",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "Silicona UDUKE RTV blanca 70 ml"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0180-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23570",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7210,
+          "wholesalePrice": 5150
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona UDUKE RTV blanca 70 ml"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7210,
+      "wholesalePrice": 5150,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "uduke",
+      "rtv",
+      "blanca"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0181",
+    "status": "review",
+    "name": "Silicona UDUKE transparente 70 ml",
+    "slug": "silicona-uduke-transparente-70-ml",
+    "identification": {
+      "sku": "B4B23569",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "Silicona UDUKE transparente 70 ml"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0181-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23569",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7210,
+          "wholesalePrice": 5150
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona UDUKE transparente 70 ml"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7210,
+      "wholesalePrice": 5150,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "uduke",
+      "transparente"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0182",
+    "status": "review",
+    "name": "Set herramienta para sellado de silicona UDUKE",
+    "slug": "set-herramienta-para-sellado-de-silicona-uduke",
+    "identification": {
+      "sku": "B4B23471",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios para herramientas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "Set herramienta para sellado de silicona UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0182-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23471",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17710,
+          "wholesalePrice": 12650
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Set herramienta para sellado de silicona UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17710,
+      "wholesalePrice": 12650,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "set",
+      "herramienta",
+      "para",
+      "sellado",
+      "silicona",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0183",
+    "status": "review",
+    "name": "Silicona RTV negra Xpert Simoniz 90 g",
+    "slug": "silicona-rtv-negra-xpert-simoniz-90-g",
+    "identification": {
+      "sku": "B4B15997A",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas automotrices"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "Silicona RTV negra Xpert Simoniz 90 g"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0183-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B15997A",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 15400,
+          "wholesalePrice": 11000
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona RTV negra Xpert Simoniz 90 g"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 15400,
+      "wholesalePrice": 11000,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "rtv",
+      "negra",
+      "xpert",
+      "simoniz"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0184",
+    "status": "review",
+    "name": "Tijera podar blister x3 piezas Total",
+    "slug": "tijera-podar-blister-x3-piezas-total",
+    "identification": {
+      "sku": "B4B23775",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardín"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "Tijera podar blister x3 piezas Total"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0184-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23775",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 143710,
+          "wholesalePrice": 102650
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tijera podar blister x3 piezas Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 143710,
+      "wholesalePrice": 102650,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tijera",
+      "podar",
+      "blister",
+      "piezas",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0185",
+    "status": "review",
+    "name": "Tijera podar 24 pulgadas Total",
+    "slug": "tijera-podar-24-pulgadas-total",
+    "identification": {
+      "sku": "B4B23975",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardín"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "Tijera podar 24 pulgadas Total"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0185-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23975",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 63350,
+          "wholesalePrice": 45250
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tijera podar 24 pulgadas Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 63350,
+      "wholesalePrice": 45250,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tijera",
+      "podar",
+      "pulgadas",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0186",
+    "status": "review",
+    "name": "Toma aéreo industrial Kontiki polo tierra 15A RETIE",
+    "slug": "toma-aereo-industrial-kontiki-polo-tierra-15a-retie",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tomas industriales"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada y verificable en el catálogo consultado.",
+    "measurements": {
+      "originalText": "Toma aéreo industrial Kontiki polo tierra 15A RETIE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0186-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 9401,
+          "wholesalePrice": 7900
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Toma aéreo industrial Kontiki polo tierra 15A RETIE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 9401,
+      "wholesalePrice": 7900,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "toma",
+      "aereo",
+      "industrial",
+      "kontiki",
+      "polo",
+      "tierra",
+      "15a",
+      "retie"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
