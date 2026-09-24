@@ -48497,5 +48497,221 @@
       "duplicateStatus": "clear",
       "lastReviewedAt": "2026-09-24"
     }
+  },
+  {
+    "id": "imp-0487",
+    "status": "review",
+    "name": "Tornillo Cabeza Hexagonal SAE Grado 2 UNC 3/4 X 8",
+    "slug": "tornillo-cabeza-hexagonal-sae-grado-2-unc-3-4-x-8",
+    "identification": {
+      "sku": "0085255",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos hexagonales"
+    },
+    "brand": {
+      "name": "MDT",
+      "status": "confirmed"
+    },
+    "description": "Tornillo cabeza hexagonal grado 2 UNC, galvanizado en caliente, 3/4 x 8 pulgadas.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo Cabeza Hexagonal SAE Grado 2 UNC 3/4 X 8"
+    },
+    "specifications": {
+      "sourceSku": "0085255",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/producto/tornillo-cabeza-hexagonal-sae-grado-2-unc-3-4-x-8-2/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0487-default",
+        "label": "Presentación especificada en la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "0085255",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Cabeza Hexagonal SAE Grado 2 UNC 3/4 X 8"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "hexagonal",
+      "grado 2",
+      "UNC",
+      "galvanizado",
+      "3/4",
+      "8"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0488",
+    "status": "review",
+    "name": "Varilla Roscada UNC 5/16 x 3 Metros Acero Inoxidable 304-A2",
+    "slug": "varilla-roscada-unc-5-16-x-3-metros-acero-inoxidable-304-a2",
+    "identification": {
+      "sku": "2488006",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Varillas roscadas"
+    },
+    "brand": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "description": "Varilla roscada UNC por 3 metros en acero inoxidable 304-A2, medida 5/16 UNC.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Varilla Roscada UNC 5/16 x 3 Metros Acero Inoxidable 304-A2"
+    },
+    "specifications": {
+      "sourceSku": "2488006",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/producto/varilla-roscada-por-3-metros-unc-acero-inoxidable-304-a2-por-mts-5-16/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0488-default",
+        "label": "Presentación especificada en la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "2488006",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Varilla Roscada UNC 5/16 x 3 Metros Acero Inoxidable 304-A2"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "varilla roscada",
+      "UNC",
+      "inoxidable",
+      "304",
+      "A2",
+      "5/16",
+      "3 metros"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
   }
 ]
