@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
   "sourcePolicy": {
     "priority": [
@@ -22,7 +22,8 @@
       "url": "https://roxvan.com/",
       "status": "active",
       "priceAccess": "public",
-      "stockAccess": "public"
+      "stockAccess": "public",
+      "searchQueries": ["site:roxvan.com ferreteria productos herramientas tornillos precio Colombia"]
     },
     {
       "id": "src-sofalca",
@@ -31,7 +32,8 @@
       "url": "https://sofalca.com/",
       "status": "active",
       "priceAccess": "public",
-      "stockAccess": "public"
+      "stockAccess": "public",
+      "searchQueries": ["site:sofalca.com ferreteria herramientas productos precio Colombia"]
     },
     {
       "id": "src-mundial",
@@ -40,7 +42,11 @@
       "url": "https://mundialdetornillos.com/",
       "status": "active",
       "priceAccess": "partial",
-      "stockAccess": "partial"
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:mundialdetornillos.com producto tornillo herramienta precio",
+        "site:mundialdetornillos.com catalogo herramienta manual tornilleria"
+      ]
     },
     {
       "id": "src-777",
@@ -49,7 +55,8 @@
       "url": "https://tornillos777.com/",
       "status": "active",
       "priceAccess": "partial",
-      "stockAccess": "partial"
+      "stockAccess": "partial",
+      "searchQueries": ["site:tornillos777.com productos tornillos herramientas precio"]
     },
     {
       "id": "src-tyt",
@@ -58,7 +65,8 @@
       "url": "https://www.tornillosytuercas.co/",
       "status": "active",
       "priceAccess": "public",
-      "stockAccess": "public"
+      "stockAccess": "public",
+      "searchQueries": ["site:tornillosytuercas.co tornillos tuercas arandelas precio"]
     },
     {
       "id": "src-fercar",
@@ -67,7 +75,8 @@
       "url": "https://tornillosfercar.com/",
       "status": "active",
       "priceAccess": "partial",
-      "stockAccess": "partial"
+      "stockAccess": "partial",
+      "searchQueries": ["site:tornillosfercar.com tornillos herramientas precio Colombia"]
     },
     {
       "id": "src-corbeta",
@@ -76,7 +85,12 @@
       "url": "https://www.corbeta.com.co/",
       "status": "active",
       "priceAccess": "partial",
-      "stockAccess": "partial"
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:corbeta.com.co/ferreteria herramientas manuales herramientas electricas",
+        "site:corbeta.com.co/ferreteria materiales industriales adhesivos abrasivos pinturas",
+        "site:corbeta.com.co/ferreteria griferia plomeria tuberia"
+      ]
     },
     {
       "id": "src-coval",
@@ -85,7 +99,8 @@
       "url": "https://coval.com.co/",
       "status": "active",
       "priceAccess": "partial",
-      "stockAccess": "partial"
+      "stockAccess": "partial",
+      "searchQueries": ["site:coval.com.co ferreteria herramientas productos precio Colombia"]
     }
   ]
 }
