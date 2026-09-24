@@ -313,5 +313,320 @@
       "duplicateStatus": "clear",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0004",
+    "status": "review",
+    "name": "Chazo con tornillo 1/4 plástico paquete x 25 UDUKE",
+    "slug": "chazo-con-tornillo-1-4-plastico-pqt-x-25-uduke",
+    "identification": {
+      "sku": "B4B13604K",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "confirmed"
+    },
+    "description": "Chazo con tornillo 1/4 plástico paquete x 25 UDUKE.",
+    "measurements": {
+      "diameter": "1/4",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "25",
+      "unit": "unidades",
+      "originalText": "CHAZO CON TORNILLO 1/4 PLÁSTICO PAQUETE X 25 UDUKE"
+    },
+    "specifications": {
+      "sourceSku": "B4B13604K",
+      "sourceReference": null,
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0004-25",
+        "label": "25 unidades",
+        "quantity": 25,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "B4B13604K",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2660,
+          "wholesalePrice": 1900
+        },
+        "availability": {
+          "status": "available",
+          "stock": 1228
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo con tornillo 1/4 plástico paquete x 25 UDUKE UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2660,
+      "wholesalePrice": 1900,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": 1228,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "anclaje",
+      "tornilleria",
+      "1/4",
+      "25 unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0005",
+    "status": "review",
+    "name": "Chazo con tornillo 5/16 plástico paquete x 10 UDUKE",
+    "slug": "chazo-con-tornillo-5-16-plastico-pqt-x-10-uduke",
+    "identification": {
+      "sku": "B4B13605K",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "confirmed"
+    },
+    "description": "Chazo con tornillo 5/16 plástico paquete x 10 UDUKE.",
+    "measurements": {
+      "diameter": "5/16",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "10",
+      "unit": "unidades",
+      "originalText": "CHAZO CON TORNILLO 5/16 PLÁSTICO PAQUETE X 10 UDUKE"
+    },
+    "specifications": {
+      "sourceSku": "B4B13605K",
+      "sourceReference": null,
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0005-10",
+        "label": "10 unidades",
+        "quantity": 10,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "B4B13605K",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1750,
+          "wholesalePrice": 1250
+        },
+        "availability": {
+          "status": "available",
+          "stock": 0
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo con tornillo 5/16 plástico paquete x 10 UDUKE UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1750,
+      "wholesalePrice": 1250,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": 0,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "anclaje",
+      "tornilleria",
+      "5/16",
+      "10 unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0006",
+    "status": "review",
+    "name": "Chazo con tornillo 3/8 plástico paquete x 10 UDUKE",
+    "slug": "chazo-con-tornillo-3-8-plastico-pqt-x-10-uduke",
+    "identification": {
+      "sku": "B4B13606K",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "confirmed"
+    },
+    "description": "Chazo con tornillo 3/8 plástico paquete x 10 UDUKE.",
+    "measurements": {
+      "diameter": "3/8",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "10",
+      "unit": "unidades",
+      "originalText": "CHAZO CON TORNILLO 3/8 PLÁSTICO PAQUETE X 10 UDUKE"
+    },
+    "specifications": {
+      "sourceSku": "B4B13606K",
+      "sourceReference": null,
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0006-10",
+        "label": "10 unidades",
+        "quantity": 10,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "B4B13606K",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2660,
+          "wholesalePrice": 1900
+        },
+        "availability": {
+          "status": "available",
+          "stock": 130
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo con tornillo 3/8 plástico paquete x 10 UDUKE UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2660,
+      "wholesalePrice": 1900,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": 130,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "anclaje",
+      "tornilleria",
+      "3/8",
+      "10 unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
