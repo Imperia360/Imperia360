@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "purpose": "Reglas comerciales para calcular posteriormente precios IMPERIA 360 sin alterar el precio fuente.",
   "principles": [
     "El precio publicado por un proveedor nunca se confunde con el precio de venta IMPERIA 360.",
@@ -15,25 +15,41 @@
   "defaultCommercialBands": {
     "retail": {
       "label": "Venta unidad",
-      "marginTarget": null
+      "marginTarget": 0.3
     },
     "volume3to11": {
       "label": "Volumen 3-11",
-      "marginTarget": null
+      "marginTarget": 0.25
     },
     "wholesale12plus": {
       "label": "Mayorista 12+",
-      "marginTarget": null
+      "marginTarget": 0.18
     },
     "contractor": {
       "label": "Contratista",
-      "marginTarget": null
+      "marginTarget": 0.2
     },
     "hardwareWholesale": {
       "label": "Mayorista ferreterías",
-      "marginTarget": null
+      "marginTarget": 0.15
     }
   },
-  "status": "ready_for_configuration",
-  "note": "Los márgenes quedan deliberadamente sin fijar hasta definir costos reales de IMPERIA 360."
+  "status": "configured_defaults",
+  "note": "Márgenes objetivo iniciales configurables para IMPERIA 360. Son parámetros comerciales de trabajo, no márgenes históricos ni garantía de rentabilidad. Antes de publicar precios finales se deben incorporar IVA cuando corresponda, flete, comisión de pago, empaque y otros costos reales.",
+  "costModel": {
+    "basis": "costoTotal",
+    "includes": [
+      "costo de adquisición",
+      "flete de entrada",
+      "empaque",
+      "comisiones de pago",
+      "otros costos directos"
+    ],
+    "excludesUntilValidated": [
+      "IVA según tratamiento tributario",
+      "gastos indirectos",
+      "promociones/descuentos especiales"
+    ],
+    "formula": "precioVenta = costoTotal / (1 - margenObjetivo)"
+  }
 }
