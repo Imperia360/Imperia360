@@ -1,3 +1,120 @@
 {
-  "categories": []
+  "categories": [
+    {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    {
+      "id": "cat-03",
+      "name": "Iluminación"
+    },
+    {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    {
+      "id": "cat-05",
+      "name": "Grifería y baños"
+    },
+    {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    {
+      "id": "cat-09",
+      "name": "Abrasivos y soldadura"
+    },
+    {
+      "id": "cat-10",
+      "name": "Construcción"
+    },
+    {
+      "id": "cat-11",
+      "name": "Drywall y sistemas livianos"
+    },
+    {
+      "id": "cat-12",
+      "name": "Pinturas y acabados"
+    },
+    {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    {
+      "id": "cat-16",
+      "name": "Herrajes"
+    },
+    {
+      "id": "cat-17",
+      "name": "Gas"
+    },
+    {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    {
+      "id": "cat-20",
+      "name": "Organización y almacenamiento"
+    },
+    {
+      "id": "cat-21",
+      "name": "Automotriz"
+    },
+    {
+      "id": "cat-22",
+      "name": "Bombas y equipos hidráulicos"
+    },
+    {
+      "id": "cat-23",
+      "name": "Maquinaria y equipos"
+    },
+    {
+      "id": "cat-24",
+      "name": "Medición y trazado"
+    },
+    {
+      "id": "cat-25",
+      "name": "Repuestos y accesorios"
+    },
+    {
+      "id": "cat-26",
+      "name": "Ferretería general"
+    },
+    {
+      "id": "cat-27",
+      "name": "Línea para contratistas"
+    },
+    {
+      "id": "cat-28",
+      "name": "Línea mayorista para ferreterías"
+    },
+    {
+      "id": "cat-29",
+      "name": "Importación y productos especiales"
+    }
+  ]
 }
