@@ -1,0 +1,225 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-09-24",
+  "status": "research_evidence_not_active_catalog",
+  "rules": {
+    "no_invented_prices": true,
+    "no_auto_publish": true,
+    "source_price_only": true,
+    "supplier_stock_is_not_imperia_stock": true,
+    "exact_variant_required": true
+  },
+  "sources_reviewed": [
+    "https://www.corbeta.com.co/",
+    "https://mundialdetornillos.com/",
+    "https://dev.mundialdetornillos.com/",
+    "https://ferreco.com/inicio/6718-kit-300-piezas-brocas-puntas-y-chazos-ferreco-basics.html",
+    "https://alphacommerce.co/categoria-producto/ferrteria-y-accesorios/brocas-tornilleria-tapa-tornillos-y-chazos-ferrteria-y-accesorios/",
+    "https://ferrobrero.com/producto/chazo-expansivo-3-8-x-1-7-8-pack-x-100/",
+    "https://www.fervicom.com/producto/chazos-expansibles/",
+    "https://www.fervicom.com/producto/chazos-argolla-gancho/",
+    "https://queproducto.com/collections/materiales-electricos",
+    "https://www.jdelectricos.com.co/"
+  ],
+  "verified_research_candidates": [
+    {
+      "name": "Kit 300 piezas brocas, puntas y chazos Ferreco Basics",
+      "brand": "Ferreco Basics",
+      "reference": "69949 / CH-300P",
+      "presentation": "kit de 300 piezas; contiene 6 unidades según página",
+      "unit_of_sale": "unidad/kit",
+      "source_id": "ferreco",
+      "source_url": "https://ferreco.com/inicio/6718-kit-300-piezas-brocas-puntas-y-chazos-ferreco-basics.html",
+      "public_price_cop": 159990,
+      "price_status": "verified_public_price",
+      "source_stock": "100 artículos mostrado por la fuente",
+      "evidence": "Página comercial muestra marca, código, cantidad, composición y precio al por mayor. Requiere deduplicación contra productos de brocas/chazos existentes antes de activar."
+    },
+    {
+      "name": "Chazo expansivo 3/8 x 1.7/8",
+      "brand": "Ferrobrero",
+      "reference": null,
+      "presentation": "pack x 100",
+      "unit_of_sale": "pack",
+      "source_id": "ferrobrero",
+      "source_url": "https://ferrobrero.com/producto/chazo-expansivo-3-8-x-1-7-8-pack-x-100/",
+      "public_price_cop": 76000,
+      "price_status": "verified_public_price",
+      "source_stock": null,
+      "evidence": "Página muestra $76.000 COP por pack de 100 y precio unitario indicado por la fuente."
+    },
+    {
+      "name": "Chazo colapsible 5/16",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "alphacommerce",
+      "source_url": "https://alphacommerce.co/categoria-producto/ferrteria-y-accesorios/brocas-tornilleria-tapa-tornillos-y-chazos-ferrteria-y-accesorios/",
+      "public_price_cop": 200,
+      "price_status": "verified_public_price",
+      "source_stock": null,
+      "evidence": "Categoría comercial muestra producto y precio; referencia/marca requieren validación adicional antes de activar."
+    },
+    {
+      "name": "Tornillo Mini Fix chazo perno",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "alphacommerce",
+      "source_url": "https://alphacommerce.co/categoria-producto/ferrteria-y-accesorios/brocas-tornilleria-tapa-tornillos-y-chazos-ferrteria-y-accesorios/",
+      "public_price_cop": 650,
+      "price_status": "verified_public_price",
+      "source_stock": null,
+      "evidence": "Categoría comercial muestra producto y precio; requiere validación de referencia y posible coincidencia con maestro."
+    },
+    {
+      "name": "Tornillo drywall zincado #6",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "alphacommerce",
+      "source_url": "https://alphacommerce.co/categoria-producto/ferrteria-y-accesorios/brocas-tornilleria-tapa-tornillos-y-chazos-ferrteria-y-accesorios/",
+      "public_price_cop": 22,
+      "price_status": "verified_public_price",
+      "source_stock": null,
+      "evidence": "Categoría comercial muestra producto y precio; presentación exacta y referencia deben verificarse."
+    },
+    {
+      "name": "Broca para muro SDS-PLUS",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "alphacommerce",
+      "source_url": "https://alphacommerce.co/categoria-producto/ferrteria-y-accesorios/brocas-tornilleria-tapa-tornillos-y-chazos-ferrteria-y-accesorios/",
+      "public_price_cop": 8000,
+      "price_status": "verified_public_price",
+      "source_stock": null,
+      "evidence": "Categoría comercial muestra producto y precio; diámetro/longitud y marca requieren verificación."
+    },
+    {
+      "name": "Chazo supra",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "alphacommerce",
+      "source_url": "https://alphacommerce.co/categoria-producto/ferrteria-y-accesorios/brocas-tornilleria-tapa-tornillos-y-chazos-ferrteria-y-accesorios/",
+      "public_price_cop": 228,
+      "price_status": "verified_public_price",
+      "source_stock": null,
+      "evidence": "Categoría comercial muestra producto y precio; dimensiones y fabricante requieren verificación."
+    },
+    {
+      "name": "Clavija doméstica 15A 120-250V IP20",
+      "brand": "Kontiki",
+      "reference": "FC-1",
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "queproducto",
+      "source_url": "https://queproducto.com/collections/materiales-electricos",
+      "public_price_cop": 2610,
+      "price_status": "verified_public_price",
+      "source_stock": "En Stock mostrado por la fuente",
+      "evidence": "Fuente muestra marca, referencia, especificaciones y precio unitario."
+    },
+    {
+      "name": "Clavija industrial 15A con polo a tierra 120-250V IP20",
+      "brand": "Kontiki",
+      "reference": "FC-3",
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "queproducto",
+      "source_url": "https://queproducto.com/collections/materiales-electricos",
+      "public_price_cop": 5790,
+      "price_status": "verified_public_price",
+      "source_stock": "En Stock mostrado por la fuente",
+      "evidence": "Fuente muestra marca, referencia, especificaciones y precio unitario."
+    },
+    {
+      "name": "Clavija industrial 15A 120-250V IP20",
+      "brand": "Kontiki",
+      "reference": "FC-2",
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "queproducto",
+      "source_url": "https://queproducto.com/collections/materiales-electricos",
+      "public_price_cop": 3220,
+      "price_status": "verified_public_price",
+      "source_stock": "En Stock mostrado por la fuente",
+      "evidence": "Fuente muestra marca, referencia, especificaciones y precio unitario."
+    },
+    {
+      "name": "Clavija trifilar 50A 250V IP20",
+      "brand": "Kontiki",
+      "reference": "FC-6",
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "queproducto",
+      "source_url": "https://queproducto.com/collections/materiales-electricos",
+      "public_price_cop": 20180,
+      "price_status": "verified_public_price",
+      "source_stock": "En Stock mostrado por la fuente",
+      "evidence": "Fuente muestra marca, referencia, especificaciones y precio unitario."
+    },
+    {
+      "name": "Toma industrial 15A con polo a tierra 120-250V IP20",
+      "brand": "Kontiki",
+      "reference": "FT-3",
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "queproducto",
+      "source_url": "https://queproducto.com/collections/materiales-electricos",
+      "public_price_cop": 6720,
+      "price_status": "verified_public_price",
+      "source_stock": "En Stock mostrado por la fuente",
+      "evidence": "Fuente muestra marca, referencia, especificaciones y precio unitario."
+    },
+    {
+      "name": "Toma doméstica 15A 120-250V IP20",
+      "brand": "Kontiki",
+      "reference": "FT-1",
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "queproducto",
+      "source_url": "https://queproducto.com/collections/materiales-electricos",
+      "public_price_cop": 3980,
+      "price_status": "verified_public_price",
+      "source_stock": "En Stock mostrado por la fuente",
+      "evidence": "Fuente muestra marca, referencia, especificaciones y precio unitario."
+    },
+    {
+      "name": "Toma trifásica 50A incrustar 250V IP20",
+      "brand": "Kontiki",
+      "reference": "FT-6",
+      "presentation": "unidad",
+      "unit_of_sale": "unidad",
+      "source_id": "queproducto",
+      "source_url": "https://queproducto.com/collections/materiales-electricos",
+      "public_price_cop": 26900,
+      "price_status": "verified_public_price",
+      "source_stock": "En Stock mostrado por la fuente",
+      "evidence": "Fuente muestra marca, referencia, especificaciones y precio unitario."
+    }
+  ],
+  "source_discovery_notes": [
+    {
+      "source": "Corbeta",
+      "url": "https://www.corbeta.com.co/",
+      "finding": "El catálogo público muestra productos ferreteros y referencias como Gerfor; precios no quedaron expuestos públicamente en el resultado revisado, por lo que no se deben inventar."
+    },
+    {
+      "source": "Mundial de Tornillos",
+      "url": "https://mundialdetornillos.com/",
+      "finding": "El sitio muestra un catálogo amplio de herramienta manual, tornillería y brocas. Algunas páginas dev muestran precios de $10.000, pero requieren validación de referencia/presentación antes de incorporarse."
+    },
+    {
+      "source": "JD Eléctricos",
+      "url": "https://www.jdelectricos.com.co/",
+      "finding": "Distribuidor de materiales eléctricos con catálogo de cables, aisladores, conectores, cortacircuitos, herrajes, pararrayos y otros; se requiere extracción específica de referencias/precios para alta."
+    }
+  ]
+}
