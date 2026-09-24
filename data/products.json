@@ -13067,5 +13067,1709 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0125",
+    "status": "review",
+    "name": "Toma internet Luxor gris ancho Duke Energy V3-023",
+    "slug": "toma-internet-luxor-gris-ancho-duke-energy-v3-023",
+    "identification": {
+      "sku": "B4B23517",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tomas y conexiones"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Toma internet Luxor gris ancho Duke Energy V3-023"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0125-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23517",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5474,
+          "wholesalePrice": 4600
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Toma internet Luxor gris ancho Duke Energy V3-023"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5474,
+      "wholesalePrice": 4600,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "toma",
+      "internet",
+      "luxor",
+      "gris",
+      "ancho",
+      "duke",
+      "energy",
+      "023"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0126",
+    "status": "review",
+    "name": "Toma múltiple General Electric 6 salidas negro cable 2FT",
+    "slug": "toma-multiple-general-electric-6-salidas-negro-cable-2ft",
+    "identification": {
+      "sku": "B4B23611",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tomas y conexiones"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Toma múltiple General Electric 6 salidas negro cable 2FT"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0126-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23611",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 40103,
+          "wholesalePrice": 33700
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Toma múltiple General Electric 6 salidas negro cable 2FT"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 40103,
+      "wholesalePrice": 33700,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "toma",
+      "multiple",
+      "general",
+      "electric",
+      "salidas",
+      "negro",
+      "cable",
+      "2ft"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0127",
+    "status": "review",
+    "name": "Toma doble + 2 USB Luxor blanca intercambiable sin tapa Duke Energy",
+    "slug": "toma-doble-2-usb-luxor-blanca-intercambiable-sin-tapa-duke-energy",
+    "identification": {
+      "sku": "B4B23528",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tomas y conexiones"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Toma doble + 2 USB Luxor blanca intercambiable sin tapa Duke Energy"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0127-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23528",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 28501,
+          "wholesalePrice": 23950
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Toma doble + 2 USB Luxor blanca intercambiable sin tapa Duke Energy"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 28501,
+      "wholesalePrice": 23950,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "toma",
+      "doble",
+      "usb",
+      "luxor",
+      "blanca",
+      "intercambiable",
+      "sin",
+      "tapa",
+      "duke",
+      "energy"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0128",
+    "status": "review",
+    "name": "Toma internet Luxor blanco Duke Energy V9-023",
+    "slug": "toma-internet-luxor-blanco-duke-energy-v9-023",
+    "identification": {
+      "sku": "B4B23520",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tomas y conexiones"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Toma internet Luxor blanco Duke Energy V9-023"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0128-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23520",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5177,
+          "wholesalePrice": 4350
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Toma internet Luxor blanco Duke Energy V9-023"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5177,
+      "wholesalePrice": 4350,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "toma",
+      "internet",
+      "luxor",
+      "blanco",
+      "duke",
+      "energy",
+      "023"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0129",
+    "status": "review",
+    "name": "Toma teléfono Luxor negra Duke Energy V17-024",
+    "slug": "toma-telefono-luxor-negra-duke-energy-v17-024",
+    "identification": {
+      "sku": "B4B23531",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tomas y conexiones"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Toma teléfono Luxor negra Duke Energy V17-024"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0129-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23531",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4760,
+          "wholesalePrice": 4000
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Toma teléfono Luxor negra Duke Energy V17-024"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4760,
+      "wholesalePrice": 4000,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "toma",
+      "telefono",
+      "luxor",
+      "negra",
+      "duke",
+      "energy",
+      "v17",
+      "024"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0130",
+    "status": "review",
+    "name": "Torx navaja Stanley Pro x 8 piezas",
+    "slug": "torx-navaja-stanley-pro-x-8-piezas",
+    "identification": {
+      "sku": "69-266",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Destornilladores y puntas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Torx navaja Stanley Pro x 8 piezas"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0130-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "69-266",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 73840,
+          "wholesalePrice": 62050
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Torx navaja Stanley Pro x 8 piezas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 73840,
+      "wholesalePrice": 62050,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "torx",
+      "navaja",
+      "stanley",
+      "pro",
+      "piezas"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0131",
+    "status": "review",
+    "name": "Vidrio careta cuadrado transparente UDUKE",
+    "slug": "vidrio-careta-cuadrado-transparente-uduke",
+    "identification": {
+      "sku": "HT90005",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Protección facial"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Vidrio careta cuadrado transparente UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0131-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "HT90005",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 417,
+          "wholesalePrice": 350
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Vidrio careta cuadrado transparente UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 417,
+      "wholesalePrice": 350,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "vidrio",
+      "careta",
+      "cuadrado",
+      "transparente",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0132",
+    "status": "review",
+    "name": "Llave mixta Stanley 8 pulgadas",
+    "slug": "llave-mixta-stanley-8-pulgadas",
+    "identification": {
+      "sku": "STMT80217-840",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Llaves"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Llave mixta Stanley 8 pulgadas"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0132-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "STMT80217-840",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7081,
+          "wholesalePrice": 5950
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave mixta Stanley 8 pulgadas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7081,
+      "wholesalePrice": 5950,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "mixta",
+      "stanley",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0133",
+    "status": "review",
+    "name": "Tijera 11 pulgadas acero inoxidable Total",
+    "slug": "tijera-11-pulgadas-acero-inoxidable-total",
+    "identification": {
+      "sku": "THSCRS812801",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tijeras"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tijera 11 pulgadas acero inoxidable Total"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0133-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "THSCRS812801",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 13269,
+          "wholesalePrice": 11150
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tijera 11 pulgadas acero inoxidable Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 13269,
+      "wholesalePrice": 11150,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tijera",
+      "pulgadas",
+      "acero",
+      "inoxidable",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0134",
+    "status": "review",
+    "name": "Metro 5 metros hoja delgada transparente doble fax UDUKE",
+    "slug": "metro-5-metros-hoja-delgada-transparente-doble-fax-uduke",
+    "identification": {
+      "sku": "HT1299",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-24",
+      "name": "Medición y trazado"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Medición y trazado"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Metro 5 metros hoja delgada transparente doble fax UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0134-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "HT1299",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7259,
+          "wholesalePrice": 6100
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Metro 5 metros hoja delgada transparente doble fax UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7259,
+      "wholesalePrice": 6100,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "metro",
+      "metros",
+      "hoja",
+      "delgada",
+      "transparente",
+      "doble",
+      "fax",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0135",
+    "status": "review",
+    "name": "Cortasetos a gasolina 1HP 25.4CC Total",
+    "slug": "cortasetos-a-gasolina-1hp-25-4cc-total",
+    "identification": {
+      "sku": "TGT5265511",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-23",
+      "name": "Maquinaria y equipos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Maquinaria para jardín"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Cortasetos a gasolina 1HP 25.4CC Total"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0135-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "TGT5265511",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 918383,
+          "wholesalePrice": 771750
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cortasetos a gasolina 1HP 25.4CC Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 918383,
+      "wholesalePrice": 771750,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cortasetos",
+      "gasolina",
+      "1hp",
+      "4cc",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0136",
+    "status": "review",
+    "name": "Llave peston 8 industrial encauchetada Total",
+    "slug": "llave-peston-8-industrial-encauchetada-total",
+    "identification": {
+      "sku": "THT101086",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Llaves"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Llave peston 8 industrial encauchetada Total"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0136-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "THT101086",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 28977,
+          "wholesalePrice": 24350
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave peston 8 industrial encauchetada Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 28977,
+      "wholesalePrice": 24350,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "peston",
+      "industrial",
+      "encauchetada",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0137",
+    "status": "review",
+    "name": "Pegante Boxer PL285 profesional amarillo x 3785 ml",
+    "slug": "pegante-boxer-pl285-profesional-amarillo-x-3785-ml",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pegantes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pegante Boxer PL285 profesional amarillo x 3785 ml"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0137-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 125724,
+          "wholesalePrice": 105650
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pegante Boxer PL285 profesional amarillo x 3785 ml"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 125724,
+      "wholesalePrice": 105650,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pegante",
+      "boxer",
+      "pl285",
+      "profesional",
+      "amarillo",
+      "3785"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0138",
+    "status": "review",
+    "name": "Molde Flexon ref 1000CF MA-1 casita amarilla cabeza",
+    "slug": "molde-flexon-ref-1000cf-ma-1-casita-amarilla-cabeza",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios para cerrajería"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Molde Flexon ref 1000CF MA-1 casita amarilla cabeza"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0138-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1250,
+          "wholesalePrice": 1050
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Molde Flexon ref 1000CF MA-1 casita amarilla cabeza"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1250,
+      "wholesalePrice": 1050,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "molde",
+      "flexon",
+      "ref",
+      "1000cf",
+      "casita",
+      "amarilla",
+      "cabeza"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0139",
+    "status": "review",
+    "name": "Molde Flexon ref 1005R para chapa",
+    "slug": "molde-flexon-ref-1005r-para-chapa",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios para cerrajería"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Molde Flexon ref 1005R para chapa"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0139-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1250,
+          "wholesalePrice": 1050
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Molde Flexon ref 1005R para chapa"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1250,
+      "wholesalePrice": 1050,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "molde",
+      "flexon",
+      "ref",
+      "1005r",
+      "para",
+      "chapa"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0140",
+    "status": "review",
+    "name": "Tornillo hexagonal milimétrico de 6 X 10",
+    "slug": "tornillo-hexagonal-milimetrico-de-6-x-10",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos hexagonales"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada por Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo hexagonal milimétrico de 6 X 10"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0140-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": 10300
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo hexagonal milimétrico de 6 X 10"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": 10300,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "hexagonal",
+      "milimetrico"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
