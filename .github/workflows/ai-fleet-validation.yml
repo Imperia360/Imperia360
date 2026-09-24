@@ -2,6 +2,13 @@ name: Flota IA - auditoria paralela
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "data/**"
+      - "js/**"
+      - ".github/scripts/**"
+      - ".github/workflows/ai-fleet-validation.yml"
+      - ".github/AI_*.md"
   schedule:
     - cron: '47 5 * * 1-5'
 
@@ -12,7 +19,6 @@ jobs:
   exa_discovery:
     name: Investigacion Exa
     runs-on: ubuntu-latest
-    if: ${{ secrets.EXA_API_KEY != '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
