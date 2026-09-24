@@ -43458,5 +43458,200 @@
       "duplicateStatus": "checked_name_and_sku",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0449",
+    "status": "review",
+    "name": "Válvula de llenado PCP Nivel Diferencial",
+    "slug": "valvula-de-llenado-pcp-nivel-diferencial",
+    "identification": {
+      "sku": "603007",
+      "manufacturerReference": "603007",
+      "supplierReference": "603007",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "verified"
+    },
+    "description": "Válvula de llenado PCP identificada en lista oficial de precios Coval.",
+    "measurements": {
+      "originalText": "Válvula de llenado PCP Nivel Diferencial"
+    },
+    "specifications": {
+      "source": "Coval / PCP lista febrero 2026",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0449-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "603007",
+        "reference": "603007",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 61409,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de llenado PCP Nivel Diferencial"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 61409,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "de",
+      "llenado",
+      "pcp",
+      "nivel",
+      "diferencial"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "disponibilidad puntual"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0450",
+    "status": "review",
+    "name": "Válvula de llenado PCP Diafragma",
+    "slug": "valvula-de-llenado-pcp-diafragma",
+    "identification": {
+      "sku": "603008",
+      "manufacturerReference": "603008",
+      "supplierReference": "603008",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "verified"
+    },
+    "description": "Válvula de llenado PCP identificada en lista oficial de precios Coval.",
+    "measurements": {
+      "originalText": "Válvula de llenado PCP Diafragma"
+    },
+    "specifications": {
+      "source": "Coval / PCP lista febrero 2026",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0450-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "603008",
+        "reference": "603008",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 34165,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de llenado PCP Diafragma"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 34165,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "de",
+      "llenado",
+      "pcp",
+      "diafragma"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "disponibilidad puntual"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
