@@ -47310,5 +47310,1192 @@
       "duplicateStatus": "clear",
       "lastReviewedAt": "2026-09-24"
     }
+  },
+  {
+    "id": "imp-0476",
+    "status": "review",
+    "name": "Tornillo Cabeza Hexagonal SAE Grado 8 UNC 1/2 X 3 1/2",
+    "slug": "tornillo-cabeza-hexagonal-sae-grado-8-unc-1-2-x-3-1-2",
+    "identification": {
+      "sku": "0150083",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos hexagonales"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tornillo hexagonal JDF grado 8, rosca UNC, longitud 1/2 x 3 1/2 pulgadas.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo Cabeza Hexagonal SAE Grado 8 UNC 1/2 X 3 1/2"
+    },
+    "specifications": {
+      "sourceSku": "0150083",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/producto/tornillo-cabeza-hexagonal-sae-grado-8-unc-1-2-x-3-1-2/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0476-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "0150083",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Cabeza Hexagonal SAE Grado 8 UNC 1/2 X 3 1/2"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "hexagonal",
+      "grado 8",
+      "UNC",
+      "JDF",
+      "1/2",
+      "3 1/2"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0477",
+    "status": "review",
+    "name": "Tuerca Hexagonal ASTM A-194 Grado 2H Para Varilla Roscada y Espárrago B7 1/2-13",
+    "slug": "tuerca-hexagonal-astm-a-194-grado-2h-para-varilla-roscada-y-esparrago-b7-1-2-13",
+    "identification": {
+      "sku": "1940002",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuercas hexagonales estructurales"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tuerca hexagonal ASTM A194 grado 2H para varilla roscada y espárrago B7, medida 1/2-13.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tuerca Hexagonal ASTM A-194 Grado 2H Para Varilla Roscada y Espárrago B7 1/2-13"
+    },
+    "specifications": {
+      "sourceSku": "1940002",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/producto/tuerca-hexagonal-astm-a-194-2h-1-2/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0477-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "1940002",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tuerca Hexagonal ASTM A-194 Grado 2H Para Varilla Roscada y Espárrago B7 1/2-13"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuerca",
+      "hexagonal",
+      "ASTM A194",
+      "grado 2H",
+      "1/2-13"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0478",
+    "status": "review",
+    "name": "Tuerca Hexagonal Alta Pavonada UNF 5/16",
+    "slug": "tuerca-hexagonal-alta-pavonada-unf-5-16",
+    "identification": {
+      "sku": "1994004",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuercas hexagonales"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tuerca hexagonal alta pavonada UNF 5/16.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tuerca Hexagonal Alta Pavonada UNF 5/16"
+    },
+    "specifications": {
+      "sourceSku": "1994004",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/categoria-producto/tornilleria-automotriz/tuercas-automotor/tuerca-hexagonal-alta-pavonada-unf/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0478-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "1994004",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tuerca Hexagonal Alta Pavonada UNF 5/16"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuerca",
+      "hexagonal",
+      "UNF",
+      "pavonada",
+      "5/16"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0479",
+    "status": "review",
+    "name": "Tuerca Hexagonal Alta Pavonada UNF 3/8",
+    "slug": "tuerca-hexagonal-alta-pavonada-unf-3-8",
+    "identification": {
+      "sku": "1994005",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuercas hexagonales"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tuerca hexagonal alta pavonada UNF 3/8.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tuerca Hexagonal Alta Pavonada UNF 3/8"
+    },
+    "specifications": {
+      "sourceSku": "1994005",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/categoria-producto/tornilleria-automotriz/tuercas-automotor/tuerca-hexagonal-alta-pavonada-unf/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0479-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "1994005",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tuerca Hexagonal Alta Pavonada UNF 3/8"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuerca",
+      "hexagonal",
+      "UNF",
+      "pavonada",
+      "3/8"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0480",
+    "status": "review",
+    "name": "Tuerca Hexagonal Alta Pavonada UNF 1/2",
+    "slug": "tuerca-hexagonal-alta-pavonada-unf-1-2",
+    "identification": {
+      "sku": "1994008",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuercas hexagonales"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tuerca hexagonal alta pavonada UNF 1/2.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tuerca Hexagonal Alta Pavonada UNF 1/2"
+    },
+    "specifications": {
+      "sourceSku": "1994008",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/categoria-producto/tornilleria-automotriz/tuercas-automotor/tuerca-hexagonal-alta-pavonada-unf/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0480-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "1994008",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tuerca Hexagonal Alta Pavonada UNF 1/2"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuerca",
+      "hexagonal",
+      "UNF",
+      "pavonada",
+      "1/2"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0481",
+    "status": "review",
+    "name": "Tuerca Seguridad NF Inoxidable Acero 304 A2 1/4",
+    "slug": "tuerca-seguridad-nf-inoxidable-acero-304-a2-1-4",
+    "identification": {
+      "sku": "2405006",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuercas de seguridad inoxidables"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tuerca de seguridad NF inoxidable acero 304-A2 1/4.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tuerca Seguridad NF Inoxidable Acero 304 A2 1/4"
+    },
+    "specifications": {
+      "sourceSku": "2405006",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/categoria-producto/tornilleria-industrial-tuercas-y-arandelas/tornilleria-y-accesorios-inoxidables/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0481-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "2405006",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tuerca Seguridad NF Inoxidable Acero 304 A2 1/4"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuerca",
+      "seguridad",
+      "inoxidable",
+      "acero 304",
+      "A2",
+      "1/4"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0482",
+    "status": "review",
+    "name": "Tuerca Seguridad NF Inoxidable Acero 304 A2 5/16",
+    "slug": "tuerca-seguridad-nf-inoxidable-acero-304-a2-5-16",
+    "identification": {
+      "sku": "2405008",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuercas de seguridad inoxidables"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tuerca de seguridad NF inoxidable acero 304-A2 5/16.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tuerca Seguridad NF Inoxidable Acero 304 A2 5/16"
+    },
+    "specifications": {
+      "sourceSku": "2405008",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/categoria-producto/tornilleria-industrial-tuercas-y-arandelas/tornilleria-y-accesorios-inoxidables/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0482-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "2405008",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tuerca Seguridad NF Inoxidable Acero 304 A2 5/16"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuerca",
+      "seguridad",
+      "inoxidable",
+      "acero 304",
+      "A2",
+      "5/16"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0483",
+    "status": "review",
+    "name": "Tuerca Seguridad NF Inoxidable Acero 304 A2 3/8",
+    "slug": "tuerca-seguridad-nf-inoxidable-acero-304-a2-3-8",
+    "identification": {
+      "sku": "2405010",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuercas de seguridad inoxidables"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tuerca de seguridad NF inoxidable acero 304-A2 3/8.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tuerca Seguridad NF Inoxidable Acero 304 A2 3/8"
+    },
+    "specifications": {
+      "sourceSku": "2405010",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/categoria-producto/tornilleria-industrial-tuercas-y-arandelas/tornilleria-y-accesorios-inoxidables/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0483-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "2405010",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tuerca Seguridad NF Inoxidable Acero 304 A2 3/8"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuerca",
+      "seguridad",
+      "inoxidable",
+      "acero 304",
+      "A2",
+      "3/8"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0484",
+    "status": "review",
+    "name": "Tuerca Seguridad NF Inoxidable Acero 304 A2 1/2",
+    "slug": "tuerca-seguridad-nf-inoxidable-acero-304-a2-1-2",
+    "identification": {
+      "sku": "2405012",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuercas de seguridad inoxidables"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tuerca de seguridad NF inoxidable acero 304-A2 1/2.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tuerca Seguridad NF Inoxidable Acero 304 A2 1/2"
+    },
+    "specifications": {
+      "sourceSku": "2405012",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/categoria-producto/tornilleria-industrial-tuercas-y-arandelas/tornilleria-y-accesorios-inoxidables/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0484-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "2405012",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tuerca Seguridad NF Inoxidable Acero 304 A2 1/2"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuerca",
+      "seguridad",
+      "inoxidable",
+      "acero 304",
+      "A2",
+      "1/2"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0485",
+    "status": "review",
+    "name": "Tuerca Hexagonal NC Tipo Pesado Inoxidable Acero 304 A2 Para Varilla B8 1/2-13",
+    "slug": "tuerca-hexagonal-nc-tipo-pesado-inoxidable-acero-304-a2-para-varilla-b8-1-2-13",
+    "identification": {
+      "sku": "2362012",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tuercas hexagonales inoxidables"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Tuerca hexagonal NC tipo pesado inoxidable acero 304-A2 para varilla B8 1/2-13.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tuerca Hexagonal NC Tipo Pesado Inoxidable Acero 304 A2 Para Varilla B8 1/2-13"
+    },
+    "specifications": {
+      "sourceSku": "2362012",
+      "marketSource": "Mundial de Tornillos",
+      "marketUrl": "https://mundialdetornillos.com/categoria-producto/tornilleria-industrial-tuercas-y-arandelas/tornilleria-y-accesorios-inoxidables/"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0485-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "2362012",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tuerca Hexagonal NC Tipo Pesado Inoxidable Acero 304 A2 Para Varilla B8 1/2-13"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tuerca",
+      "hexagonal",
+      "NC",
+      "tipo pesado",
+      "inoxidable",
+      "acero 304",
+      "A2",
+      "B8",
+      "1/2-13"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
+  },
+  {
+    "id": "imp-0486",
+    "status": "review",
+    "name": "Proalco Puntilla CC 2 1/2 x 25 Kg",
+    "slug": "proalco-puntilla-cc-2-1-2-x-25-kg",
+    "identification": {
+      "sku": "27707234800099",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Clavos y puntillas"
+    },
+    "brand": {
+      "name": "JDF",
+      "status": "confirmed"
+    },
+    "description": "Puntilla CC Proalco de 2 1/2 pulgadas en caja de 25 kg. Corbeta informa EAN y características del producto.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Proalco Puntilla CC 2 1/2 x 25 Kg"
+    },
+    "specifications": {
+      "sourceSku": "27707234800099",
+      "marketSource": "Corbeta",
+      "marketUrl": "https://www.corbeta.com.co/ferreteria/embalaje-y-cerramiento/puntillas/puntilla-cc-2-1-2-x-25-kg.html"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0486-default",
+        "label": "Presentación no especificada por la fuente; cotizar",
+        "quantity": null,
+        "unit": null,
+        "salesUnit": "cotizar",
+        "sku": "27707234800099",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Proalco Puntilla CC 2 1/2 x 25 Kg"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Corbeta"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": null,
+      "lastVerifiedAt": "2026-09-24",
+      "source": "Corbeta"
+    },
+    "supplier": {
+      "name": "Corbeta",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "puntilla",
+      "Proalco",
+      "2 1/2",
+      "25 kg",
+      "acero"
+    ],
+    "dataQuality": {
+      "source": "Corbeta",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "presentación exacta",
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-24"
+    }
   }
 ]
