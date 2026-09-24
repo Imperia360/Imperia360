@@ -29,7 +29,11 @@ jobs:
 
       - name: Commit generated lock files
         run: |
-          if git diff --quiet -- .github/workflows/*.lock.yml; then
+          if ! find .github/workflows -maxdepth 1 -name "*.lock.yml" -print -quit | grep -q .; then
+            echo "No lock files generated."
+            exit 1
+          fi
+          if git diff --quiet -- .github/workflows/*.lock.yml && git status --porcelain -- .github/workflows/*.lock.yml | grep -q "^$"; then
             echo "No lock-file changes."
             exit 0
           fi
