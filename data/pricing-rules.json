@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "purpose": "Reglas comerciales para calcular posteriormente precios IMPERIA 360 sin alterar el precio fuente.",
+  "principles": [
+    "El precio publicado por un proveedor nunca se confunde con el precio de venta IMPERIA 360.",
+    "El costo de referencia debe conservar fuente, fecha y presentación.",
+    "El margen objetivo se almacena como porcentaje y no se aplica automáticamente hasta validar IVA, flete, comisión, empaque y demás costos.",
+    "Las escalas por volumen solo se usan cuando están documentadas por la fuente o cuando IMPERIA 360 defina explícitamente una política comercial.",
+    "Los precios calculados deben poder rastrearse hasta el costo y regla que los originaron."
+  ],
+  "formulae": {
+    "marginBasedPrice": "costoTotal / (1 - margenObjetivo)",
+    "markupBasedPrice": "costoTotal * (1 + recargoObjetivo)"
+  },
+  "defaultCommercialBands": {
+    "retail": {
+      "label": "Venta unidad",
+      "marginTarget": null
+    },
+    "volume3to11": {
+      "label": "Volumen 3-11",
+      "marginTarget": null
+    },
+    "wholesale12plus": {
+      "label": "Mayorista 12+",
+      "marginTarget": null
+    },
+    "contractor": {
+      "label": "Contratista",
+      "marginTarget": null
+    },
+    "hardwareWholesale": {
+      "label": "Mayorista ferreterías",
+      "marginTarget": null
+    }
+  },
+  "status": "ready_for_configuration",
+  "note": "Los márgenes quedan deliberadamente sin fijar hasta definir costos reales de IMPERIA 360."
+}
