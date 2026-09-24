@@ -19486,5 +19486,2122 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0187",
+    "status": "review",
+    "name": "Registro mini una salida 1/2 - 1/2 PCP",
+    "slug": "registro-mini-una-salida-1-2-1-2-pcp",
+    "identification": {
+      "sku": "2024",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Registros y válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Registro mini una salida 1/2 - 1/2 PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0187-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2024",
+        "reference": "2024",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17829,
+          "wholesalePrice": 17829
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Registro mini una salida 1/2 - 1/2 PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17829,
+      "wholesalePrice": 17829,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "registro",
+      "mini",
+      "una",
+      "salida",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0188",
+    "status": "review",
+    "name": "Registro mini dos salidas 1/2 - 1/2 PCP",
+    "slug": "registro-mini-dos-salidas-1-2-1-2-pcp",
+    "identification": {
+      "sku": "2013",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Registros y válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Registro mini dos salidas 1/2 - 1/2 PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0188-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2013",
+        "reference": "2013",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 23823,
+          "wholesalePrice": 23823
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Registro mini dos salidas 1/2 - 1/2 PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 23823,
+      "wholesalePrice": 23823,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "registro",
+      "mini",
+      "dos",
+      "salidas",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0189",
+    "status": "review",
+    "name": "Llave angular mini una salida 1/2 NPT x 14mm PCP",
+    "slug": "llave-angular-mini-una-salida-1-2-npt-x-14mm-pcp",
+    "identification": {
+      "sku": "5055",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Registros y válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Llave angular mini una salida 1/2 NPT x 14mm PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0189-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "5055",
+        "reference": "5055",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17455,
+          "wholesalePrice": 17455
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave angular mini una salida 1/2 NPT x 14mm PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17455,
+      "wholesalePrice": 17455,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "angular",
+      "mini",
+      "una",
+      "salida",
+      "npt",
+      "14mm",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0190",
+    "status": "review",
+    "name": "Registro lavadora 1/2 jardín PCP",
+    "slug": "registro-lavadora-1-2-jardin-pcp",
+    "identification": {
+      "sku": "2017",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Registros y válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Registro lavadora 1/2 jardín PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0190-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2017",
+        "reference": "2017",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17829,
+          "wholesalePrice": 17829
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Registro lavadora 1/2 jardín PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17829,
+      "wholesalePrice": 17829,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "registro",
+      "lavadora",
+      "jardin",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0191",
+    "status": "review",
+    "name": "Check anti-retorno 4 pulgadas PCP",
+    "slug": "check-anti-retorno-4-pulgadas-pcp",
+    "identification": {
+      "sku": "3148",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Check anti-retorno 4 pulgadas PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0191-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3148",
+        "reference": "3148",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 460493,
+          "wholesalePrice": 460493
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno 4 pulgadas PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 460493,
+      "wholesalePrice": 460493,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "pulgadas",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0192",
+    "status": "review",
+    "name": "Check anti-retorno 110mm PCP",
+    "slug": "check-anti-retorno-110mm-pcp",
+    "identification": {
+      "sku": "3166",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Check anti-retorno 110mm PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0192-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3166",
+        "reference": "3166",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 460493,
+          "wholesalePrice": 460493
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno 110mm PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 460493,
+      "wholesalePrice": 460493,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "110mm",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0193",
+    "status": "review",
+    "name": "Check anti-retorno 6 pulgadas PCP",
+    "slug": "check-anti-retorno-6-pulgadas-pcp",
+    "identification": {
+      "sku": "3377",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Check anti-retorno 6 pulgadas PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0193-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3377",
+        "reference": "3377",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1565581,
+          "wholesalePrice": 1565581
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno 6 pulgadas PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1565581,
+      "wholesalePrice": 1565581,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "pulgadas",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0194",
+    "status": "review",
+    "name": "Check anti-retorno 160mm PCP",
+    "slug": "check-anti-retorno-160mm-pcp",
+    "identification": {
+      "sku": "3383",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Check anti-retorno 160mm PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0194-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3383",
+        "reference": "3383",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1565581,
+          "wholesalePrice": 1565581
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno 160mm PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1565581,
+      "wholesalePrice": 1565581,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "160mm",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0195",
+    "status": "review",
+    "name": "Check anti-retorno 4 pulgadas ECO PCP",
+    "slug": "check-anti-retorno-4-pulgadas-eco-pcp",
+    "identification": {
+      "sku": "3394",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Check anti-retorno 4 pulgadas ECO PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0195-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3394",
+        "reference": "3394",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 194774,
+          "wholesalePrice": 194774
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno 4 pulgadas ECO PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 194774,
+      "wholesalePrice": 194774,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "pulgadas",
+      "eco",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0196",
+    "status": "review",
+    "name": "Check anti-retorno 6 pulgadas ECO PCP",
+    "slug": "check-anti-retorno-6-pulgadas-eco-pcp",
+    "identification": {
+      "sku": "3395",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Check anti-retorno 6 pulgadas ECO PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0196-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3395",
+        "reference": "3395",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 448066,
+          "wholesalePrice": 448066
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno 6 pulgadas ECO PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 448066,
+      "wholesalePrice": 448066,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "pulgadas",
+      "eco",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0197",
+    "status": "review",
+    "name": "Boquilla rociadora tipo pesada PCP",
+    "slug": "boquilla-rociadora-tipo-pesada-pcp",
+    "identification": {
+      "sku": "1004",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería y riego"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Boquilla rociadora tipo pesada PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0197-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1004",
+        "reference": "1004",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 24044,
+          "wholesalePrice": 24044
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Boquilla rociadora tipo pesada PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 24044,
+      "wholesalePrice": 24044,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "boquilla",
+      "rociadora",
+      "tipo",
+      "pesada",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0198",
+    "status": "review",
+    "name": "Boquilla rociadora tipo liviana PCP",
+    "slug": "boquilla-rociadora-tipo-liviana-pcp",
+    "identification": {
+      "sku": "1017",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería y riego"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Boquilla rociadora tipo liviana PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0198-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1017",
+        "reference": "1017",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 14605,
+          "wholesalePrice": 14605
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Boquilla rociadora tipo liviana PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 14605,
+      "wholesalePrice": 14605,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "boquilla",
+      "rociadora",
+      "tipo",
+      "liviana",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0199",
+    "status": "review",
+    "name": "Acople rápido manguera 1/2 pulgadas PCP",
+    "slug": "acople-rapido-manguera-1-2-pulgadas-pcp",
+    "identification": {
+      "sku": "1007",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería y riego"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Acople rápido manguera 1/2 pulgadas PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0199-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1007",
+        "reference": "1007",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 11674,
+          "wholesalePrice": 11674
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Acople rápido manguera 1/2 pulgadas PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 11674,
+      "wholesalePrice": 11674,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "acople",
+      "rapido",
+      "manguera",
+      "pulgadas",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0200",
+    "status": "review",
+    "name": "Adaptador boquilla rociadora PCP",
+    "slug": "adaptador-boquilla-rociadora-pcp",
+    "identification": {
+      "sku": "1006",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería y riego"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Adaptador boquilla rociadora PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0200-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1006",
+        "reference": "1006",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3629,
+          "wholesalePrice": 3629
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Adaptador boquilla rociadora PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3629,
+      "wholesalePrice": 3629,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "adaptador",
+      "boquilla",
+      "rociadora",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0201",
+    "status": "review",
+    "name": "Adaptador grifo PCP",
+    "slug": "adaptador-grifo-pcp",
+    "identification": {
+      "sku": "1008",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería y riego"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Adaptador grifo PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0201-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1008",
+        "reference": "1008",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4383,
+          "wholesalePrice": 4383
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Adaptador grifo PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4383,
+      "wholesalePrice": 4383,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "adaptador",
+      "grifo",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0202",
+    "status": "review",
+    "name": "Kit boquilla rociadora PCP",
+    "slug": "kit-boquilla-rociadora-pcp",
+    "identification": {
+      "sku": "1002",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería y riego"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Kit boquilla rociadora PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0202-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1002",
+        "reference": "1002",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 51605,
+          "wholesalePrice": 51605
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Kit boquilla rociadora PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 51605,
+      "wholesalePrice": 51605,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "kit",
+      "boquilla",
+      "rociadora",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0203",
+    "status": "review",
+    "name": "Juego de acoples rápidos PCP",
+    "slug": "juego-de-acoples-rapidos-pcp",
+    "identification": {
+      "sku": "1013",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería y riego"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Juego de acoples rápidos PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0203-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1013",
+        "reference": "1013",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 30324,
+          "wholesalePrice": 30324
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de acoples rápidos PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 30324,
+      "wholesalePrice": 30324,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "acoples",
+      "rapidos",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0204",
+    "status": "review",
+    "name": "Conector en yee PCP",
+    "slug": "conector-en-yee-pcp",
+    "identification": {
+      "sku": "1009",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería y riego"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Conector en yee PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0204-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1009",
+        "reference": "1009",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 10352,
+          "wholesalePrice": 10352
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Conector en yee PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 10352,
+      "wholesalePrice": 10352,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "conector",
+      "yee",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0205",
+    "status": "review",
+    "name": "Válvula de bola PVC riego/químicos 1 1/2 soldar PCP",
+    "slug": "valvula-de-bola-pvc-riego-quimicos-1-1-2-soldar-pcp",
+    "identification": {
+      "sku": "3709",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC riego/químicos 1 1/2 soldar PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0205-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3709",
+        "reference": "3709",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 39815,
+          "wholesalePrice": 39815
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC riego/químicos 1 1/2 soldar PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 39815,
+      "wholesalePrice": 39815,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "riego",
+      "quimicos",
+      "soldar",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0206",
+    "status": "review",
+    "name": "Válvula de bola PVC riego/químicos 1 1/2 roscar PCP",
+    "slug": "valvula-de-bola-pvc-riego-quimicos-1-1-2-roscar-pcp",
+    "identification": {
+      "sku": "3710",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC riego/químicos 1 1/2 roscar PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0206-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3710",
+        "reference": "3710",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 45158,
+          "wholesalePrice": 45158
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC riego/químicos 1 1/2 roscar PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 45158,
+      "wholesalePrice": 45158,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "riego",
+      "quimicos",
+      "roscar",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0207",
+    "status": "review",
+    "name": "Válvula de bola PVC riego/químicos 2 soldar PCP",
+    "slug": "valvula-de-bola-pvc-riego-quimicos-2-soldar-pcp",
+    "identification": {
+      "sku": "3711",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC riego/químicos 2 soldar PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0207-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3711",
+        "reference": "3711",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 119182,
+          "wholesalePrice": 119182
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC riego/químicos 2 soldar PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 119182,
+      "wholesalePrice": 119182,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "riego",
+      "quimicos",
+      "soldar",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0208",
+    "status": "review",
+    "name": "Válvula de bola PVC riego/químicos 2 roscar PCP",
+    "slug": "valvula-de-bola-pvc-riego-quimicos-2-roscar-pcp",
+    "identification": {
+      "sku": "3712",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios de Coval; precio de lista sin IVA.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC riego/químicos 2 roscar PCP"
+    },
+    "specifications": {
+      "marketSource": "Coval",
+      "minimumDispatch": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0208-default",
+        "label": "Unidad publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3712",
+        "reference": "3712",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 119182,
+          "wholesalePrice": 119182
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC riego/químicos 2 roscar PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 119182,
+      "wholesalePrice": 119182,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "riego",
+      "quimicos",
+      "roscar",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
