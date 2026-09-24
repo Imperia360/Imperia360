@@ -60,7 +60,8 @@ for (const item of results) {
   const sourceUrl = item.url || item.sourceUrl || "";
   const sourceId = item.sourceId || "exa";
   const candidateName = item.productName || item.originalProductName || item.title || item.name || "";
-  const rawCandidateRef = item.reference || item.sku || "";\n  const candidateRef = normalize(rawCandidateRef === "-" || rawCandidateRef === "—" ? "" : rawCandidateRef);
+  const rawCandidateRef = item.reference || item.sku || "";
+  const candidateRef = normalize(rawCandidateRef === "-" || rawCandidateRef === "—" ? "" : rawCandidateRef);
   const candidateBrand = normalize(item.brand || "");
   let best = null;
 
