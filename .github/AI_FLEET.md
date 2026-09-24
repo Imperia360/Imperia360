@@ -92,3 +92,6 @@ No sumar automáticamente los históricos 692/792 a los productos activos. Prime
 ## Seguridad
 
 Las claves API solamente deben existir como secretos de GitHub Actions. Nunca deben escribirse en archivos del repositorio.
+
+## Estado de mando
+La flota opera bajo órdenes continuas documentadas en `.github/AI_OPERATING_ORDERS.md` y `.github/AI_FLEET_TASKS.md`. Cada agente debe producir evidencia verificable y respetar el bloqueo de publicación sobre `data/products.json`.
