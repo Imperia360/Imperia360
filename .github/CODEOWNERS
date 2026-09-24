@@ -1,0 +1,9 @@
+# Protect critical catalog and automation paths through owner review.
+* @Imperia360
+
+/data/products.json @Imperia360
+/data/catalog-control.json @Imperia360
+/data/market-offers.json @Imperia360
+/data/product-matches.json @Imperia360
+/data/validation-results.json @Imperia360
+/.github/workflows/ @Imperia360
