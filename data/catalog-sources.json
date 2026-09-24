@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
   "sourcePolicy": {
     "priority": [
@@ -247,6 +247,78 @@
       "stockAccess": "public",
       "searchQueries": [
         "site:markemstore.com herramientas INGCO Colombia herramientas manuales electricas"
+      ]
+    },
+    {
+      "id": "src-torbandera",
+      "supplierId": "sup-torbandera",
+      "name": "Torbandera",
+      "url": "https://www.torbandera.co/shop",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:torbandera.co/shop ferreteria fijaciones herrajes herramientas precios"
+      ]
+    },
+    {
+      "id": "src-suministros-ardila",
+      "supplierId": "sup-suministros-ardila",
+      "name": "Suministros Ardila",
+      "url": "https://suministrosardila.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:suministrosardila.com catalogo ferretero soldaduras abrasivos alambre"
+      ]
+    },
+    {
+      "id": "src-sumivalle",
+      "supplierId": "sup-sumivalle",
+      "name": "Ferretería Sumivalle",
+      "url": "https://www.sumivalle.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:sumivalle.com abrasivos discos lijas ferreteria"
+      ]
+    },
+    {
+      "id": "src-proim",
+      "supplierId": "sup-proim",
+      "name": "PROIM",
+      "url": "https://www.proim.com.co/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:proim.com.co abrasivos discos lijas ferreteria"
+      ]
+    },
+    {
+      "id": "src-cencoelectricos",
+      "supplierId": "sup-cencoelectricos",
+      "name": "Cencoelectricos",
+      "url": "https://www.cencoelectricos.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:cencoelectricos.com portafolio material electrico ferreteria cables breakers"
+      ]
+    },
+    {
+      "id": "src-nalelectricos",
+      "supplierId": "sup-nalelectricos",
+      "name": "NAL Electricos",
+      "url": "https://nalelectricos.com.co/catalogos/",
+      "status": "discovery",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:nalelectricos.com.co catalogos cables breakers interruptores ferreteria"
       ]
     }
   ]
