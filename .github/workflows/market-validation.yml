@@ -9,34 +9,40 @@ permissions:
   contents: write
 
 jobs:
-  validate:
+  discover:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Configurar Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - name: Descubrimiento de fuentes con Exa
-        if: ${{ secrets.EXA_API_KEY != '' }}
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
         run: node .github/scripts/exa-discovery.mjs
 
-      - name: Registrar ausencia de Exa
-        if: ${{ secrets.EXA_API_KEY == '' }}
-        run: node .github/scripts/exa-discovery.mjs
-
-      - name: Validar catalogo y ofertas
+  reconcile:
+    needs: discover
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Construir evidencia de mercado
+        run: node .github/scripts/build-evidence-from-discovery.mjs
+      - name: Reconciliacion semantica
+        run: node js/semantic-reconciler.js
+      - name: Validacion final
         run: node .github/scripts/market-validation.mjs
-
-      - name: Publicar resultados
+      - name: Publicar resultados de auditoria
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/exa-discovery.json data/validation-results.json
-          git diff --cached --quiet || git commit -m "chore: actualizar descubrimiento y validacion de mercado"
+          git add data/market-offers.json data/product-matches.json data/reconciliation-review.json data/validation-results.json data/exa-discovery.json
+          git diff --cached --quiet || git commit -m "chore: actualizar evidencia y reconciliacion de mercado"
           git push
