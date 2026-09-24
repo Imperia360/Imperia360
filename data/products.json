@@ -42799,5 +42799,390 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0431",
+    "status": "review",
+    "name": "Manguera gas Pealpe TCL rollo x200m blanca 1/2 certificada",
+    "slug": "manguera-gas-pealpe-tcl-rollo-x200m-blanca-1-2-certificada",
+    "identification": {
+      "sku": "B4B20682",
+      "manufacturerReference": "TC758042",
+      "supplierReference": "B4B20682",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Gas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Gas"
+    },
+    "brand": {
+      "name": "TCL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en Roxvan.",
+    "measurements": {
+      "originalText": "Manguera gas Pealpe TCL rollo x200m blanca 1/2 certificada"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0431-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B20682",
+        "reference": "TC758042",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 663320,
+          "wholesalePrice": 473800
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Manguera gas Pealpe TCL rollo x200m blanca 1/2 certificada"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 663320,
+      "wholesalePrice": 473800,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "manguera",
+      "gas",
+      "pealpe",
+      "tcl",
+      "rollo",
+      "x200m",
+      "blanca",
+      "certificada"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_sku_name",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0432",
+    "status": "review",
+    "name": "Resorte botón de freno UTG12018026",
+    "slug": "resorte-boton-de-freno-utg12018026",
+    "identification": {
+      "sku": "B4BAA003000251",
+      "manufacturerReference": "UTG12018026-SP-22",
+      "supplierReference": "B4BAA003000251",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Repuestos y accesorios"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Repuestos y accesorios"
+    },
+    "brand": {
+      "name": "UTG",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en Roxvan.",
+    "measurements": {
+      "originalText": "Resorte botón de freno UTG12018026"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0432-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4BAA003000251",
+        "reference": "UTG12018026-SP-22",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 770,
+          "wholesalePrice": 550
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Resorte botón de freno UTG12018026"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 770,
+      "wholesalePrice": 550,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "resorte",
+      "boton",
+      "freno",
+      "utg12018026"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_sku_name",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0433",
+    "status": "review",
+    "name": "Pinza naranja-gris #8",
+    "slug": "pinza-naranja-gris-8",
+    "identification": {
+      "sku": "B4B10982",
+      "manufacturerReference": "HT80094",
+      "supplierReference": "B4B10982",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en Roxvan.",
+    "measurements": {
+      "originalText": "Pinza naranja-gris #8"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0433-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B10982",
+        "reference": "HT80094",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 9800,
+          "wholesalePrice": 7000
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pinza naranja-gris #8"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 9800,
+      "wholesalePrice": 7000,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pinza",
+      "naranja",
+      "gris"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_sku_name",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0434",
+    "status": "review",
+    "name": "Destornillador 1/4x1 1/2 puño (-) punta imantada Total",
+    "slug": "destornillador-1-4x1-1-2-puno-punta-imantada-total",
+    "identification": {
+      "sku": "B4B20765",
+      "manufacturerReference": "TSDSL6038",
+      "supplierReference": "B4B20765",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en Roxvan.",
+    "measurements": {
+      "originalText": "Destornillador 1/4x1 1/2 puño (-) punta imantada Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0434-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B20765",
+        "reference": "TSDSL6038",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 6230,
+          "wholesalePrice": 4450
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Destornillador 1/4x1 1/2 puño (-) punta imantada Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 6230,
+      "wholesalePrice": 4450,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "destornillador",
+      "4x1",
+      "puno",
+      "punta",
+      "imantada",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_sku_name",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
