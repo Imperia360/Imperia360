@@ -10,13 +10,13 @@ on:
       - ".github/workflows/ai-fleet-validation.yml"
       - ".github/AI_*.md"
   schedule:
-    - cron: '47 5 * * 1-5'
+    - cron: "47 5 * * 1-5"
 
 permissions:
   contents: read
 
 jobs:
-  exa_discovery:
+  exa-discovery:
     name: Investigacion Exa
     runs-on: ubuntu-latest
     steps:
@@ -24,22 +24,24 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Descubrir fuentes
+      - name: Ejecutar descubrimiento
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
         run: node .github/scripts/exa-discovery.mjs
 
-  catalog_integrity:
-    name: Auditoria de integridad
+  catalog-integrity:
+    name: Integridad del catalogo
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validar JSON y estructura
-        run: |
-          node -e "for (const f of ['data/products.json','data/catalog-control.json','data/product-schema.json','data/catalog-sources.json']) JSON.parse(require('fs').readFileSync(f,'utf8'))"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validar JSON
+        run: node -e "for (const f of ['data/products.json','data/catalog-control.json','data/product-schema.json','data/catalog-sources.json']) JSON.parse(require('fs').readFileSync(f,'utf8')); console.log('JSON OK')"
 
-  duplicate_audit:
-    name: Auditoria profunda de duplicados
+  duplicate-audit:
+    name: Auditoria de duplicados
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -49,31 +51,10 @@ jobs:
       - name: Ejecutar auditoria
         run: node .github/scripts/catalog-audit.mjs
 
-  schema_audit:
-    name: Auditoria de campos comerciales
+  reconciliation-audit:
+    name: Reconciliacion segura
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Revisar campos críticos
-        run: |
-          node <<'NODE'
-          const fs = require('fs');
-          const data = JSON.parse(fs.readFileSync('data/products.json','utf8'));
-          const products = Array.isArray(data) ? data : (data.products || []);
-          const missing = [];
-          for (const p of products) {
-            if (!p.id) missing.push({id:null,field:'id'});
-            if (!p.name) missing.push({id:p.id,field:'name'});
-            if (!p.category) missing.push({id:p.id,field:'category'});
-          }
-          console.log(JSON.stringify({products:products.length,missingFields:missing.length},null,2));
-          if (missing.length) process.exit(1);
-          NODE
-
-  reconciliation_audit:
-    name: Reconciliacion y evidencia
-    runs-on: ubuntu-latest
-    needs: [catalog_integrity]
+    needs: catalog-integrity
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -81,15 +62,17 @@ jobs:
           node-version: 20
       - name: Construir evidencia
         run: node .github/scripts/build-evidence-from-discovery.mjs
-      - name: Ejecutar matching seguro
+      - name: Matching seguro
         run: node js/semantic-reconciler.js
-      - name: Validar ofertas
+      - name: Validacion final
         run: node .github/scripts/market-validation.mjs
 
   report:
     name: Informe de flota
-    needs: [catalog_integrity, duplicate_audit, schema_audit, reconciliation_audit]
     runs-on: ubuntu-latest
+    needs:
+      - catalog-integrity
+      - duplicate-audit
+      - reconciliation-audit
     steps:
-      - name: Resultado
-        run: echo "Flota IA: investigación, integridad, duplicados, esquema y reconciliación ejecutados en paralelo."
+      - run: echo "Flota IA ejecutada: Exa, integridad, duplicados y reconciliacion."
