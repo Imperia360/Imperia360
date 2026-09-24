@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
+  "sourcePolicy": {
+    "priority": [
+      "fabricante",
+      "importador",
+      "mayorista_distribuidor",
+      "tienda_especializada",
+      "retail"
+    ],
+    "verification": "Cada registro debe conservar fuente, fecha de consulta y referencia original.",
+    "pricePolicy": "No se inventan precios. Si no existe precio verificable, se registra quote_only.",
+    "imagePolicy": "Solo se aceptan imágenes verificadas y asociadas a la referencia correcta.",
+    "availabilityPolicy": "La existencia se conserva como dato de la fuente y no se presenta como inventario propio de IMPERIA 360."
+  },
+  "sources": [
+    {
+      "id": "src-roxvan",
+      "supplierId": "sup-roxvan",
+      "name": "Roxvan catálogo B2B",
+      "url": "https://roxvan.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public"
+    },
+    {
+      "id": "src-sofalca",
+      "supplierId": "sup-sofalca",
+      "name": "Sofalca catálogo online",
+      "url": "https://sofalca.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public"
+    },
+    {
+      "id": "src-mundial",
+      "supplierId": "sup-mundial",
+      "name": "Mundial de Tornillos",
+      "url": "https://mundialdetornillos.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial"
+    },
+    {
+      "id": "src-777",
+      "supplierId": "sup-777",
+      "name": "Tornillos y Herramientas 777",
+      "url": "https://tornillos777.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial"
+    },
+    {
+      "id": "src-tyt",
+      "supplierId": "sup-tyt",
+      "name": "Tornillos y Tuercas Co.",
+      "url": "https://www.tornillosytuercas.co/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public"
+    },
+    {
+      "id": "src-fercar",
+      "supplierId": "sup-fercar",
+      "name": "Tornillos Fercar",
+      "url": "https://tornillosfercar.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial"
+    },
+    {
+      "id": "src-corbeta",
+      "supplierId": "sup-corbeta",
+      "name": "Corbeta",
+      "url": "https://www.corbeta.com.co/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial"
+    },
+    {
+      "id": "src-coval",
+      "supplierId": "sup-coval",
+      "name": "Coval",
+      "url": "https://coval.com.co/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial"
+    }
+  ]
+}
