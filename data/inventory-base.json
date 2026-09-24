@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "status": "collection_and_verification",
+  "masterPolicy": "single_master_inventory",
+  "createdAt": "2026-09-24",
+  "objective": "Base maestra de inventario verificable para IMPERIA 360. No publica productos ni precios sin evidencia.",
+  "currentSnapshot": {
+    "loadedProducts": 488,
+    "loadedStatus": "review",
+    "duplicateIds": 12,
+    "possibleDuplicates": 173,
+    "historical692": 692,
+    "historical792": "reported_not_recovered_documentarily"
+  },
+  "recordRequiredFields": [
+    "product_id",
+    "name",
+    "normalized_name",
+    "brand",
+    "category",
+    "subcategory",
+    "presentation",
+    "unit_of_sale",
+    "sku_or_reference",
+    "manufacturer_reference",
+    "supplier_reference",
+    "source_id",
+    "source_url",
+    "consultation_date",
+    "source_price",
+    "price_currency",
+    "price_status",
+    "availability_source",
+    "image_url",
+    "image_verified",
+    "quality_state",
+    "duplicate_status",
+    "evidence_notes"
+  ],
+  "priceRules": {
+    "currency": "COP",
+    "allowedStatuses": [
+      "verified_public_price",
+      "quote_only",
+      "not_found",
+      "pending_verification"
+    ],
+    "neverInvent": true,
+    "sourcePriceOnly": true,
+    "unitMustMatchPresentation": true,
+    "noImplicitMargin": true
+  },
+  "stockRules": {
+    "sourceStockOnly": true,
+    "neverPresentSupplierStockAsImperiaOwn": true,
+    "allowedStatuses": [
+      "source_available",
+      "source_unavailable",
+      "quote_only",
+      "unknown"
+    ]
+  },
+  "duplicateRules": {
+    "keys": [
+      "identification.sku",
+      "identification.manufacturerReference",
+      "identification.supplierReference",
+      "normalizedName+brand+measurements",
+      "source+reference"
+    ],
+    "variantsRemainDistinctWhenDifferent": "brand/reference/size/measure/presentation/unit_of_sale",
+    "possibleDuplicateRequiresHumanOrCrossAgentVerification": true
+  },
+  "publicationGate": [
+    "real_verifiable_product",
+    "category_and_subcategory",
+    "exact_presentation",
+    "source_and_consultation_date",
+    "reference_when_available",
+    "price_verified_or_quote_only",
+    "duplicate_control",
+    "image_verified_when_available"
+  ],
+  "ingestionStages": [
+    "collection",
+    "historical_reconciliation",
+    "normalization",
+    "deduplication",
+    "verification",
+    "price_and_margin",
+    "images",
+    "publication"
+  ],
+  "sourcePriority": [
+    "manufacturer",
+    "importer",
+    "wholesaler_distributor",
+    "specialized_store",
+    "retail"
+  ],
+  "protectedHistoricalSources": {
+    "catalog692": "Library: IMPERIA_360_Plan_Maestro_Puntos_1_al_12.xlsx / 01_Catalogo_692",
+    "catalog792": "prior conversation context; documentary list not recovered"
+  },
+  "acceptanceRule": "Only verified records enter active publication. Unverified historical rows remain reconciliation candidates and never inflate the active inventory count."
+}
