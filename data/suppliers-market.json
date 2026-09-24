@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "suppliers": [
     {
       "id": "sup-corbeta",
@@ -172,6 +172,70 @@
       "type": "catalogo_electrico",
       "priority": 3,
       "status": "discovery"
+    },
+    {
+      "id": "sup-paloquemao-online",
+      "name": "Paloquemao Online",
+      "type": "tienda_especializada",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-rhino",
+      "name": "Ferretería Rhino",
+      "type": "tienda_especializada",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-globaltools",
+      "name": "Global Tools Compañía Ferretera",
+      "type": "mayorista_distribuidor",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-sociedad-mg",
+      "name": "Sociedad Ferretera MG",
+      "type": "tienda_especializada",
+      "priority": 3,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-bombeo",
+      "name": "Bombeo.co",
+      "type": "distribuidor",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-invercrisan",
+      "name": "Invercrisan",
+      "type": "tienda_especializada",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-tustechos",
+      "name": "TusTechos",
+      "type": "tienda_especializada",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-luis-penagos",
+      "name": "Ferretería Luis Penagos",
+      "type": "tienda_especializada",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
     }
   ]
 }
