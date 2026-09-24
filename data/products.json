@@ -28894,5 +28894,858 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0286",
+    "status": "review",
+    "name": "Broca lámina 1/4 UDUKE HT3209",
+    "slug": "broca-lamina-1-4-uduke-ht3209",
+    "identification": {
+      "sku": "B4B21683",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Brocas"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en catálogo de Roxvan.",
+    "measurements": {
+      "originalText": "Broca lámina 1/4 UDUKE HT3209"
+    },
+    "specifications": {
+      "modelReference": "HT3209"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0286-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B21683",
+        "reference": "HT3209",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3220,
+          "wholesalePrice": 2300
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Broca lámina 1/4 UDUKE HT3209"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3220,
+      "wholesalePrice": 2300,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "broca",
+      "lamina",
+      "uduke",
+      "ht3209"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0287",
+    "status": "review",
+    "name": "Broca muro 1/4 x 4 UDUKE HT3217",
+    "slug": "broca-muro-1-4-x-4-uduke-ht3217",
+    "identification": {
+      "sku": "B4B21691",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Brocas"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en catálogo de Roxvan.",
+    "measurements": {
+      "originalText": "Broca muro 1/4 x 4 UDUKE HT3217"
+    },
+    "specifications": {
+      "modelReference": "HT3217"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0287-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B21691",
+        "reference": "HT3217",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3920,
+          "wholesalePrice": 2800
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Broca muro 1/4 x 4 UDUKE HT3217"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3920,
+      "wholesalePrice": 2800,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "broca",
+      "muro",
+      "uduke",
+      "ht3217"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0288",
+    "status": "review",
+    "name": "Llave taladro UDUKE 1/2 blister 13mm HT80338",
+    "slug": "llave-taladro-uduke-1-2-blister-13mm-ht80338",
+    "identification": {
+      "sku": "B4B11595",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramientas y fijaciones"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en catálogo de Roxvan.",
+    "measurements": {
+      "originalText": "Llave taladro UDUKE 1/2 blister 13mm HT80338"
+    },
+    "specifications": {
+      "modelReference": "HT80338"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0288-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B11595",
+        "reference": "HT80338",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2030,
+          "wholesalePrice": 1450
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave taladro UDUKE 1/2 blister 13mm HT80338"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2030,
+      "wholesalePrice": 1450,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "taladro",
+      "uduke",
+      "blister",
+      "13mm",
+      "ht80338"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0289",
+    "status": "review",
+    "name": "Pegante solución UDUKE 375 cc",
+    "slug": "pegante-solucion-uduke-375-cc",
+    "identification": {
+      "sku": "B4B12344A",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramientas y fijaciones"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en catálogo de Roxvan.",
+    "measurements": {
+      "originalText": "Pegante solución UDUKE 375 cc"
+    },
+    "specifications": {
+      "modelReference": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0289-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B12344A",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 9912,
+          "wholesalePrice": 8850
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pegante solución UDUKE 375 cc"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 9912,
+      "wholesalePrice": 8850,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pegante",
+      "solucion",
+      "uduke",
+      "375"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0290",
+    "status": "review",
+    "name": "Llave mixta 2 en 1 12mm - 15/32 Cr-V UDUKE",
+    "slug": "llave-mixta-2-en-1-12mm-15-32-cr-v-uduke",
+    "identification": {
+      "sku": "B4B13257",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramientas y fijaciones"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en catálogo de Roxvan.",
+    "measurements": {
+      "originalText": "Llave mixta 2 en 1 12mm - 15/32 Cr-V UDUKE"
+    },
+    "specifications": {
+      "modelReference": "HTY0067"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0290-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B13257",
+        "reference": "HTY0067",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4690,
+          "wholesalePrice": 3350
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave mixta 2 en 1 12mm - 15/32 Cr-V UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4690,
+      "wholesalePrice": 3350,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "mixta",
+      "12mm",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0291",
+    "status": "review",
+    "name": "Galvanizado unión 3/8 fino paquete x1 UDUKE",
+    "slug": "galvanizado-union-3-8-fino-paquete-x1-uduke",
+    "identification": {
+      "sku": "B4B825K",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramientas y fijaciones"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en catálogo de Roxvan.",
+    "measurements": {
+      "originalText": "Galvanizado unión 3/8 fino paquete x1 UDUKE"
+    },
+    "specifications": {
+      "modelReference": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0291-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B825K",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3500,
+          "wholesalePrice": 2500
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Galvanizado unión 3/8 fino paquete x1 UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3500,
+      "wholesalePrice": 2500,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "galvanizado",
+      "union",
+      "fino",
+      "paquete",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0292",
+    "status": "review",
+    "name": "Chazo expansión 5/16 x 1 1/2 paquete x4 UDUKE",
+    "slug": "chazo-expansion-5-16-x-1-1-2-paquete-x4-uduke",
+    "identification": {
+      "sku": "B4B444K",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramientas y fijaciones"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en catálogo de Roxvan.",
+    "measurements": {
+      "originalText": "Chazo expansión 5/16 x 1 1/2 paquete x4 UDUKE"
+    },
+    "specifications": {
+      "modelReference": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0292-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B444K",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2142,
+          "wholesalePrice": 1800
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo expansión 5/16 x 1 1/2 paquete x4 UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2142,
+      "wholesalePrice": 1800,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "expansion",
+      "paquete",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0293",
+    "status": "review",
+    "name": "Tijera lámina aviación derecha 10 UDUKE",
+    "slug": "tijera-lamina-aviacion-derecha-10-uduke",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramientas y fijaciones"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en catálogo de Roxvan.",
+    "measurements": {
+      "originalText": "Tijera lámina aviación derecha 10 UDUKE"
+    },
+    "specifications": {
+      "modelReference": "HT90321"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0293-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": "HT90321",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 21770,
+          "wholesalePrice": 15550
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tijera lámina aviación derecha 10 UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 21770,
+      "wholesalePrice": 15550,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tijera",
+      "lamina",
+      "aviacion",
+      "derecha",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0294",
+    "status": "review",
+    "name": "Remache Pop 4-4 1/8 x 3/8 negro paquete x25 UDUKE",
+    "slug": "remache-pop-4-4-1-8-x-3-8-negro-paquete-x25-uduke",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramientas y fijaciones"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en catálogo de Roxvan.",
+    "measurements": {
+      "originalText": "Remache Pop 4-4 1/8 x 3/8 negro paquete x25 UDUKE"
+    },
+    "specifications": {
+      "modelReference": null
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0294-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Remache Pop 4-4 1/8 x 3/8 negro paquete x25 UDUKE"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "remache",
+      "pop",
+      "negro",
+      "paquete",
+      "x25",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
