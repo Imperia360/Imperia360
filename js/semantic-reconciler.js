@@ -32,7 +32,8 @@ const readJson = (path, fallback) => {
   }
 };
 
-const products = readJson(PRODUCTS, []);
+const rawProducts = readJson(PRODUCTS, []);
+const products = Array.isArray(rawProducts) ? rawProducts : (rawProducts?.products || rawProducts?.items || []);
 const discovery = readJson(DISCOVERY, { results: [] });
 const results = Array.isArray(discovery) ? discovery : discovery.results || [];
 
