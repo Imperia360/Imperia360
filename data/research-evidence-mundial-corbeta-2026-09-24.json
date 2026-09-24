@@ -1,0 +1,276 @@
+{
+  "version": "1.0.0",
+  "status": "research_evidence_not_active_catalog",
+  "no_auto_publish": true,
+  "consultation_date": "2026-09-24",
+  "sources": [
+    {
+      "source_id": "mundial-tornillos",
+      "url": "https://mundialdetornillos.com/tienda/",
+      "evidence": "catalog pages expose exact names and codes/references; site states 500+ articles"
+    },
+    {
+      "source_id": "corbeta",
+      "url": "https://qa.aws.corbeta.com.co/",
+      "evidence": "ferretería categories and Gerfor plumbing products visible"
+    },
+    {
+      "source_id": "mundial-guide",
+      "url": "https://www.mundial.com.co/wp-content/uploads/2024/10/3-HERRAMIENTAS_2024.pdf",
+      "evidence": "guide contains exact product descriptions, codes and refs"
+    }
+  ],
+  "candidates": [
+    [
+      "Mundial",
+      "Destornillador Phillips Eléctricos 1000V 75 mm",
+      "STANLEY",
+      "60169-LA"
+    ],
+    [
+      "Mundial",
+      "Destornillador Estrella 2x4",
+      "STANLEY",
+      "STMT60809-840B"
+    ],
+    [
+      "Mundial",
+      "Destornillador Estrella 2x4",
+      "STANLEY",
+      "62-561"
+    ],
+    [
+      "Mundial",
+      "Destornillador Pala Eléctricos 1000V 3.0 mm",
+      "STANLEY",
+      "STMT60163-LA"
+    ],
+    [
+      "Mundial",
+      "Tornillo Bristol Sin Cabeza UNF 3/16 X 1 1/2",
+      "",
+      "0910010"
+    ],
+    [
+      "Mundial",
+      "Tornillo Cabeza Hexagonal J.D.F. clase 8.8 bicromatizado 10 X 110",
+      "",
+      "0180278"
+    ],
+    [
+      "Mundial",
+      "Tornillo Bristol Con Cabeza clase 8.8 14 X 50",
+      "",
+      "0820186"
+    ],
+    [
+      "Mundial",
+      "Tornillo Carriage UNC 3/16 X 1 1/2",
+      "",
+      "1070006"
+    ],
+    [
+      "Mundial",
+      "Wasa Zincada Irizada 5/16",
+      "",
+      "2590007"
+    ],
+    [
+      "Mundial",
+      "Tornillo Original Flange Para Llave 8 Zincado 6 X 30",
+      "",
+      "1600066"
+    ],
+    [
+      "Mundial",
+      "Tornillo Original Flange Para Llave 8 Zincado 6 X 35",
+      "",
+      "1600067"
+    ],
+    [
+      "Mundial",
+      "Tornillo Original Flange Para Llave 8 Zincado 6 X 40",
+      "",
+      "1600068"
+    ],
+    [
+      "Mundial",
+      "Tornillo Original Flange Para Llave 8 Zincado 6 X 45",
+      "",
+      "1600069"
+    ],
+    [
+      "Mundial",
+      "Tornillo Original Flange Para Llave 8 Zincado 6 X 50",
+      "",
+      "1600070"
+    ],
+    [
+      "Mundial",
+      "Tornillo Original Flange Para Llave 8 Zincado 6 X 55",
+      "",
+      "1600071"
+    ],
+    [
+      "Mundial",
+      "Tornillo Original Flange Para Llave 8 Zincado 6 X 60",
+      "",
+      "1600072"
+    ],
+    [
+      "Mundial",
+      "Tuerca De Lujo Cromada Mitsubichi M12-1,50",
+      "",
+      "2230040"
+    ],
+    [
+      "Mundial",
+      "Tuerca De Lujo Cromada Rin Artillera 5/8 RF",
+      "",
+      "2230030"
+    ],
+    [
+      "Mundial",
+      "Tuerca De Lujo Cromada Ejes Traseros 1/2 RF",
+      "",
+      "2230022"
+    ],
+    [
+      "Mundial",
+      "Tuerca De Lujo Cromada Ejes Traseros 9/16 RF",
+      "",
+      "2230023"
+    ],
+    [
+      "Mundial",
+      "Tuerca De Lujo Cromada Chevrolet 9/16 Cónica Buseta RF",
+      "",
+      "2230024"
+    ],
+    [
+      "Mundial",
+      "Tuerca De Lujo Cromada Rin Artillero 5/8 R/O",
+      "",
+      "2230025"
+    ],
+    [
+      "Mundial",
+      "Broca HSS Cobalto 8 %",
+      "",
+      ""
+    ],
+    [
+      "Mundial",
+      "Broca de Acero Rápido HSS-R SUPERTOOLS",
+      "SUPERTOOLS",
+      ""
+    ],
+    [
+      "Mundial",
+      "Tijera Corta Lámina",
+      "",
+      ""
+    ],
+    [
+      "Mundial",
+      "Copa Corta 3/8 en plg",
+      "STANLEY",
+      "4-88-978"
+    ],
+    [
+      "Mundial",
+      "Aceite Para Gato Hidráulico Trabajo Pesado 32 oz",
+      "BLASTER",
+      "32-HJO"
+    ],
+    [
+      "Mundial",
+      "Aerosol Avanzado Afinación Motores Pequeños 16 oz",
+      "BLASTER",
+      "16-SET-LA"
+    ],
+    [
+      "Mundial",
+      "Aditivo Premium Para Aceite 14 oz",
+      "BLASTER",
+      "C162-12"
+    ],
+    [
+      "Mundial",
+      "Limpiador de Inyectores con Potenciador de Octanaje 14 oz",
+      "BLASTER",
+      "C196"
+    ],
+    [
+      "Mundial",
+      "Sellador Para Fugas de Aceite 14 oz",
+      "BLASTER",
+      "C168-12"
+    ],
+    [
+      "Mundial",
+      "Limpiador Cuerpo de Aceleración y Entrada de Aire 12 oz",
+      "BLASTER",
+      "M4712"
+    ],
+    [
+      "Mundial",
+      "Lubricante de Herramientas Neumáticas 1 gal",
+      "BLASTER",
+      "128-ATL"
+    ],
+    [
+      "Mundial",
+      "Lubricante de Herramientas Neumáticas 16 oz",
+      "BLASTER",
+      "16-ATL"
+    ],
+    [
+      "Mundial",
+      "Acondicionador y Lubricante de Herramientas Neumáticas 11 oz",
+      "BLASTER",
+      "16-ATC"
+    ],
+    [
+      "Mundial",
+      "Tornillo Para Cuchilla SAE Grado 9 UNC 3/4 X 2 1/4",
+      "",
+      "0240021"
+    ],
+    [
+      "Mundial",
+      "Tornillo Hexagonal 8.8 Paso 2.00 Bicromatizado 16 X 70 JDF",
+      "",
+      ""
+    ],
+    [
+      "Guía Mundial",
+      "Atornillador Inalámbrico 4.8V con luz LED",
+      "",
+      "KC4815-B3 / código 6447264"
+    ],
+    [
+      "Guía Mundial",
+      "Broca HSS Corneta 3/16",
+      "",
+      "88610609 / código 6448040"
+    ],
+    [
+      "Guía Mundial",
+      "Broca HSS Corneta 1/4",
+      "",
+      "88610613 / código 6448044"
+    ],
+    [
+      "Guía Mundial",
+      "Broca HSS Corneta 3/8",
+      "",
+      "88610621 / código 6448051"
+    ]
+  ],
+  "notes": [
+    "Los resultados con $0.00 en Mundial se conservan sin precio comercial; no se interpreta $0.00 como precio real.",
+    "Candidatos sin referencia quedan para verificación adicional y no deben publicarse automáticamente.",
+    "Corbeta muestra líneas y productos Gerfor, pero sin precio verificable en el resultado consultado; no se inventa precio."
+  ]
+}
