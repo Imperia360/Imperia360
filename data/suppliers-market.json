@@ -1,13 +1,132 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "suppliers": [
-    {"id":"sup-corbeta","name":"Corbeta","type":"mayorista_distribuidor","priority":2,"city":"Bogota D.C.","status":"active"},
-    {"id":"sup-mundial","name":"Mundial de Tornillos","type":"mayorista_especializado","priority":2,"city":"Bogota D.C.","status":"active"},
-    {"id":"sup-roxvan","name":"Roxvan","type":"catalogo_b2b","priority":2,"status":"active"},
-    {"id":"sup-sofalca","name":"Sofalca","type":"catalogo_online","priority":2,"status":"active"},
-    {"id":"sup-777","name":"Tornillos y Herramientas 777","type":"especialista","priority":3,"city":"Bogota D.C.","status":"active"},
-    {"id":"sup-tyt","name":"Tornillos y Tuercas Co.","type":"especialista","priority":3,"status":"active"},
-    {"id":"sup-fercar","name":"Tornillos Fercar","type":"especialista","priority":3,"city":"Bogota D.C.","status":"active"},
-    {"id":"sup-coval","name":"Coval","type":"distribuidor","priority":2,"status":"active"}
+    {
+      "id": "sup-corbeta",
+      "name": "Corbeta",
+      "type": "mayorista_distribuidor",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-mundial",
+      "name": "Mundial de Tornillos",
+      "type": "mayorista_especializado",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-roxvan",
+      "name": "Roxvan",
+      "type": "catalogo_b2b",
+      "priority": 2,
+      "status": "active"
+    },
+    {
+      "id": "sup-sofalca",
+      "name": "Sofalca",
+      "type": "catalogo_online",
+      "priority": 2,
+      "status": "active"
+    },
+    {
+      "id": "sup-777",
+      "name": "Tornillos y Herramientas 777",
+      "type": "especialista",
+      "priority": 3,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-tyt",
+      "name": "Tornillos y Tuercas Co.",
+      "type": "especialista",
+      "priority": 3,
+      "status": "active"
+    },
+    {
+      "id": "sup-fercar",
+      "name": "Tornillos Fercar",
+      "type": "especialista",
+      "priority": 3,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-coval",
+      "name": "Coval",
+      "type": "distribuidor",
+      "priority": 2,
+      "status": "active"
+    },
+    {
+      "id": "sup-ferragro",
+      "name": "Ferragro",
+      "type": "mayorista_distribuidor",
+      "priority": 2,
+      "status": "active"
+    },
+    {
+      "id": "sup-total",
+      "name": "Herramientas Total Colombia",
+      "type": "distribuidor_autorizado",
+      "priority": 2,
+      "status": "active"
+    },
+    {
+      "id": "sup-vimalum",
+      "name": "Accesorios Vimalum",
+      "type": "distribuidor",
+      "priority": 3,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-mauro",
+      "name": "Ferretería Mauro",
+      "type": "mayorista",
+      "priority": 3,
+      "city": "Cali",
+      "status": "active"
+    },
+    {
+      "id": "sup-proveedora",
+      "name": "Comercializadora La Proveedora Mayorista",
+      "type": "mayorista_distribuidor",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-elenst",
+      "name": "Elenst / Uyustools Colombia",
+      "type": "importador_mayorista",
+      "priority": 2,
+      "status": "active"
+    },
+    {
+      "id": "sup-somher",
+      "name": "Somher",
+      "type": "distribuidor",
+      "priority": 3,
+      "status": "active"
+    },
+    {
+      "id": "sup-ferrefacil",
+      "name": "Ferrefácil Colombia",
+      "type": "mayorista",
+      "priority": 3,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-markem",
+      "name": "Markem Store",
+      "type": "distribuidor",
+      "priority": 3,
+      "status": "discovery"
+    }
   ]
 }
