@@ -27760,5 +27760,1139 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0274",
+    "status": "review",
+    "name": "Purga de aire PVC 1/2 pulgada PCP",
+    "slug": "purga-de-aire-pvc-1-2-pulgada-pcp",
+    "identification": {
+      "sku": "3287",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Purga de aire PVC 1/2 pulgada PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0274-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3287",
+        "reference": "3287",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 57254,
+          "wholesalePrice": 57254
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Purga de aire PVC 1/2 pulgada PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 57254,
+      "wholesalePrice": 57254,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "purga",
+      "aire",
+      "pvc",
+      "pulgada",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0275",
+    "status": "review",
+    "name": "Purga de aire PVC 3/4 pulgada PCP",
+    "slug": "purga-de-aire-pvc-3-4-pulgada-pcp",
+    "identification": {
+      "sku": "3288",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Purga de aire PVC 3/4 pulgada PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0275-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3288",
+        "reference": "3288",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 66152,
+          "wholesalePrice": 66152
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Purga de aire PVC 3/4 pulgada PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 66152,
+      "wholesalePrice": 66152,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "purga",
+      "aire",
+      "pvc",
+      "pulgada",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0276",
+    "status": "review",
+    "name": "Purga de aire PVC 1 pulgada PCP",
+    "slug": "purga-de-aire-pvc-1-pulgada-pcp",
+    "identification": {
+      "sku": "3289",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Purga de aire PVC 1 pulgada PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0276-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3289",
+        "reference": "3289",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 73520,
+          "wholesalePrice": 73520
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Purga de aire PVC 1 pulgada PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 73520,
+      "wholesalePrice": 73520,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "purga",
+      "aire",
+      "pvc",
+      "pulgada",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0277",
+    "status": "review",
+    "name": "Purga de aire PVC 1 1/4 pulgadas PCP",
+    "slug": "purga-de-aire-pvc-1-1-4-pulgadas-pcp",
+    "identification": {
+      "sku": "3298",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Purga de aire PVC 1 1/4 pulgadas PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0277-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3298",
+        "reference": "3298",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 104615,
+          "wholesalePrice": 104615
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Purga de aire PVC 1 1/4 pulgadas PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 104615,
+      "wholesalePrice": 104615,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "purga",
+      "aire",
+      "pvc",
+      "pulgadas",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0278",
+    "status": "review",
+    "name": "Purga de aire PVC 1 1/2 pulgadas PCP",
+    "slug": "purga-de-aire-pvc-1-1-2-pulgadas-pcp",
+    "identification": {
+      "sku": "3290",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Purga de aire PVC 1 1/2 pulgadas PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0278-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3290",
+        "reference": "3290",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 139135,
+          "wholesalePrice": 139135
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Purga de aire PVC 1 1/2 pulgadas PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 139135,
+      "wholesalePrice": 139135,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "purga",
+      "aire",
+      "pvc",
+      "pulgadas",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0279",
+    "status": "review",
+    "name": "Purga de aire PVC 2 pulgadas PCP",
+    "slug": "purga-de-aire-pvc-2-pulgadas-pcp",
+    "identification": {
+      "sku": "3291",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Purga de aire PVC 2 pulgadas PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0279-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3291",
+        "reference": "3291",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 217811,
+          "wholesalePrice": 217811
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Purga de aire PVC 2 pulgadas PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 217811,
+      "wholesalePrice": 217811,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "purga",
+      "aire",
+      "pvc",
+      "pulgadas",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0280",
+    "status": "review",
+    "name": "Purga de aire PVC 3 pulgadas PCP",
+    "slug": "purga-de-aire-pvc-3-pulgadas-pcp",
+    "identification": {
+      "sku": "3292",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Purga de aire PVC 3 pulgadas PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0280-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3292",
+        "reference": "3292",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 649789,
+          "wholesalePrice": 649789
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Purga de aire PVC 3 pulgadas PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 649789,
+      "wholesalePrice": 649789,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "purga",
+      "aire",
+      "pvc",
+      "pulgadas",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0281",
+    "status": "review",
+    "name": "Llave angular mini 1/2 NPT x 14 mm PCP",
+    "slug": "llave-angular-mini-1-2-npt-x-14-mm-pcp",
+    "identification": {
+      "sku": "5055",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Llave angular mini 1/2 NPT x 14 mm PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0281-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "5055",
+        "reference": "5055",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17455,
+          "wholesalePrice": 17455
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave angular mini 1/2 NPT x 14 mm PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17455,
+      "wholesalePrice": 17455,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "angular",
+      "mini",
+      "npt",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0282",
+    "status": "review",
+    "name": "Boquilla rociadora pesada PCP",
+    "slug": "boquilla-rociadora-pesada-pcp",
+    "identification": {
+      "sku": "1004",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Boquilla rociadora pesada PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0282-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1004",
+        "reference": "1004",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 24044,
+          "wholesalePrice": 24044
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Boquilla rociadora pesada PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 24044,
+      "wholesalePrice": 24044,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "boquilla",
+      "rociadora",
+      "pesada",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0283",
+    "status": "review",
+    "name": "Boquilla rociadora liviana PCP",
+    "slug": "boquilla-rociadora-liviana-pcp",
+    "identification": {
+      "sku": "1017",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Boquilla rociadora liviana PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0283-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1017",
+        "reference": "1017",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 14605,
+          "wholesalePrice": 14605
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Boquilla rociadora liviana PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 14605,
+      "wholesalePrice": 14605,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "boquilla",
+      "rociadora",
+      "liviana",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0284",
+    "status": "review",
+    "name": "Acople rápido manguera 1/2 PCP",
+    "slug": "acople-rapido-manguera-1-2-pcp",
+    "identification": {
+      "sku": "1007",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Acople rápido manguera 1/2 PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0284-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1007",
+        "reference": "1007",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 11674,
+          "wholesalePrice": 11674
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Acople rápido manguera 1/2 PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 11674,
+      "wholesalePrice": 11674,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "acople",
+      "rapido",
+      "manguera",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0285",
+    "status": "review",
+    "name": "Conector en Y PCP",
+    "slug": "conector-en-y-pcp",
+    "identification": {
+      "sku": "1009",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, riego y accesorios"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en lista de precios PCP consultada en Coval.",
+    "measurements": {
+      "originalText": "Conector en Y PCP"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0285-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1009",
+        "reference": "1009",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 10352,
+          "wholesalePrice": 10352
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Conector en Y PCP"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 10352,
+      "wholesalePrice": 10352,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "conector",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
