@@ -27,6 +27,13 @@ jobs:
       - name: Compile and validate agentic workflows
         run: gh aw compile --strict --approve
 
+      - name: Upload compiled lock files
+        uses: actions/upload-artifact@v4
+        with:
+          name: imperia-agentic-lock-files
+          path: .github/workflows/*.lock.yml
+          if-no-files-found: error
+
       - name: Commit generated lock files
         run: |
           if ! find .github/workflows -maxdepth 1 -name "*.lock.yml" -print -quit | grep -q .; then
