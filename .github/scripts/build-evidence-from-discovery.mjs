@@ -16,15 +16,23 @@ const items = [
 const key = (x) => [
   x.sourceId || x.source || "",
   x.url || x.sourceUrl || "",
-  x.title || x.productName || x.name || ""
-].join("|").toLowerCase();
+  x.reference || x.sku || "",
+  x.productName || x.originalProductName || x.title || x.name || ""
+].join("|").toLowerCase().replace(/\\s+/g, " ").trim();
 
-const seen = new Set((existing.offers || []).map(key));
-const offers = [...(existing.offers || [])];
+const seen = new Set();
+const offers = [];
+
+for (const prior of (existing.offers || [])) {
+  const k = key(prior);
+  if (!k || seen.has(k)) continue;
+  seen.add(k);
+  offers.push(prior);
+}
 
 for (const item of items) {
   const url = item.url || item.sourceUrl || "";
-  const title = item.title || item.productName || item.name || "";
+  const title = item.productName || item.originalProductName || item.title || item.name || "";
   if (!url || !title) continue;
 
   const row = {
@@ -44,9 +52,10 @@ for (const item of items) {
     publicationReady: false
   };
 
-  if (!seen.has(key(item))) {
+  const k = key(item);
+  if (!seen.has(k)) {
     offers.push(row);
-    seen.add(key(item));
+    seen.add(k);
   }
 }
 
@@ -62,5 +71,5 @@ const output = {
   offers
 };
 
-fs.writeFileSync(offersPath, JSON.stringify(output, null, 2) + "\n");
+fs.writeFileSync(offersPath, JSON.stringify(output, null, 2) + "\\n");
 console.log(JSON.stringify({inputItems: items.length, totalOffers: offers.length}));
