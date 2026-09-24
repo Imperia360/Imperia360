@@ -16,19 +16,6 @@ permissions:
   contents: read
 
 jobs:
-  exa-discovery:
-    name: Investigacion Exa
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - name: Ejecutar descubrimiento
-        env:
-          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
-        run: node .github/scripts/exa-discovery.mjs
-
   catalog-integrity:
     name: Integridad del catalogo
     runs-on: ubuntu-latest
@@ -38,7 +25,7 @@ jobs:
         with:
           node-version: 20
       - name: Validar JSON
-        run: node -e "for (const f of ['data/products.json','data/catalog-control.json','data/product-schema.json','data/catalog-sources.json']) JSON.parse(require('fs').readFileSync(f,'utf8')); console.log('JSON OK')"
+        run: node -e "for (const f of ['data/products.json','data/catalog-control.json','data/product-schema.json','data/catalog-sources.json','data/exa-discovery.json']) JSON.parse(require('fs').readFileSync(f,'utf8')); console.log('JSON OK')"
 
   duplicate-audit:
     name: Auditoria de duplicados
@@ -75,4 +62,5 @@ jobs:
       - duplicate-audit
       - reconciliation-audit
     steps:
-      - run: echo "Flota IA ejecutada: Exa, integridad, duplicados y reconciliacion."
+      - name: Confirmar auditoria
+        run: echo "Flota IA ejecutada correctamente."
