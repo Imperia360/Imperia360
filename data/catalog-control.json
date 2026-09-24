@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "catalogStatus": "reconciliation_in_progress",
   "loadingStrategy": "single_master_verified_catalog",
   "targetCategories": 29,
@@ -43,18 +43,18 @@
   "historicalCatalogClaims": [
     {
       "count": 692,
-      "evidence": "GitHub commit 9ee6c516c33a7b0ef1830657e6fe56d73adee386",
-      "status": "historical_claim_not_recoverable_as_product_list",
-      "note": "El commit menciona 692 referencias, pero el árbol de ese commit solo contiene index.html y PRUEBA_CONEXION_IMPERIA.txt; no contiene una base de 692 productos recuperable."
+      "evidence": "Library: IMPERIA_360_Plan_Maestro_Puntos_1_al_12.xlsx / 01_Catalogo_692",
+      "status": "recovered_historical_product_list",
+      "note": "La hoja contiene 692 filas de productos. Tiene 673 nombres normalizados únicos y 19 grupos de nombres repetidos. No se incorporan automáticamente."
     },
     {
       "count": 792,
       "evidence": "prior conversation context",
-      "status": "user_reported_historical_catalog",
-      "note": "El usuario recuerda 792 referencias verificadas en otro chat. Las 51 referencias Gerfor fueron declaradas posteriormente como adicionales a esas 792. No se cuenta nuevamente ninguna referencia hasta reconciliarla."
+      "status": "user_reported_historical_catalog_not_recovered",
+      "note": "No se encontró una lista documental identificable de las 792 referencias en los archivos recuperables. Las 51 Gerfor históricas no se suman: la base actual ya contiene 51 Gerfor y requieren reconciliación."
     }
   ],
-  "note": "Desde ahora existe una sola base maestra para IMPERIA 360. No se crearán catálogos paralelos ni se contarán referencias históricas sin reconciliación.",
+  "note": "Existe una sola base maestra para IMPERIA 360. Las fuentes históricas se conservan como fuentes de reconciliación y no se cuentan como productos activos hasta deduplicarlas y verificarlas.",
   "lastCatalogExpansion": "2026-09-24",
-  "notes": "Catálogo maestro único. Base actual: 466 registros tras auditoría de duplicados y nuevas referencias Roxvan verificadas. La reconciliación histórica de los 792 recordados por el usuario continúa; no se cuentan referencias históricas hasta poder identificarlas y deduplicarlas."
+  "notes": "Base maestra actual: 466 registros. Fuente histórica 692 recuperada para cruce detallado. El conjunto histórico 792 sigue pendiente de recuperación documental. No publicar hasta finalizar reconciliación, verificación, precios e imágenes."
 }
