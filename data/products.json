@@ -29747,5 +29747,3624 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0295",
+    "status": "review",
+    "name": "Válvula de bola ultrapesada PVC DZR 1/2 x 1/2",
+    "slug": "valvula-de-bola-ultrapesada-pvc-dzr-1-2-x-1-2",
+    "identification": {
+      "sku": "3311",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola ultrapesada PVC DZR 1/2 x 1/2"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0295-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3311",
+        "reference": "3311",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 33048,
+          "wholesalePrice": 33048
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola ultrapesada PVC DZR 1/2 x 1/2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 33048,
+      "wholesalePrice": 33048,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "ultrapesada",
+      "pvc",
+      "dzr"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0296",
+    "status": "review",
+    "name": "Válvula de bola ultrapesada PVC DZR 3/4 x 3/4",
+    "slug": "valvula-de-bola-ultrapesada-pvc-dzr-3-4-x-3-4",
+    "identification": {
+      "sku": "3314",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola ultrapesada PVC DZR 3/4 x 3/4"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0296-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3314",
+        "reference": "3314",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 78887,
+          "wholesalePrice": 78887
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola ultrapesada PVC DZR 3/4 x 3/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 78887,
+      "wholesalePrice": 78887,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "ultrapesada",
+      "pvc",
+      "dzr"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0297",
+    "status": "review",
+    "name": "Válvula de bola macho PVC DZR 1/2 x PE 16 mm",
+    "slug": "valvula-de-bola-macho-pvc-dzr-1-2-x-pe-16-mm",
+    "identification": {
+      "sku": "3312",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola macho PVC DZR 1/2 x PE 16 mm"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0297-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3312",
+        "reference": "3312",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 72128,
+          "wholesalePrice": 72128
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola macho PVC DZR 1/2 x PE 16 mm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 72128,
+      "wholesalePrice": 72128,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "macho",
+      "pvc",
+      "dzr"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0298",
+    "status": "review",
+    "name": "Válvula de bola macho PVC DZR 1/2 x PE 20 mm",
+    "slug": "valvula-de-bola-macho-pvc-dzr-1-2-x-pe-20-mm",
+    "identification": {
+      "sku": "3313",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola macho PVC DZR 1/2 x PE 20 mm"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0298-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3313",
+        "reference": "3313",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 72128,
+          "wholesalePrice": 72128
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola macho PVC DZR 1/2 x PE 20 mm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 72128,
+      "wholesalePrice": 72128,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "macho",
+      "pvc",
+      "dzr"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0299",
+    "status": "review",
+    "name": "Adaptador PVC DZR 1/2 hembra",
+    "slug": "adaptador-pvc-dzr-1-2-hembra",
+    "identification": {
+      "sku": "3390",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Adaptador PVC DZR 1/2 hembra"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0299-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3390",
+        "reference": "3390",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 22507,
+          "wholesalePrice": 22507
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Adaptador PVC DZR 1/2 hembra"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 22507,
+      "wholesalePrice": 22507,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "adaptador",
+      "pvc",
+      "dzr",
+      "hembra"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0300",
+    "status": "review",
+    "name": "Adaptador PVC DZR 1/2 macho",
+    "slug": "adaptador-pvc-dzr-1-2-macho",
+    "identification": {
+      "sku": "3391",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Adaptador PVC DZR 1/2 macho"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0300-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3391",
+        "reference": "3391",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 29765,
+          "wholesalePrice": 29765
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Adaptador PVC DZR 1/2 macho"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 29765,
+      "wholesalePrice": 29765,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "adaptador",
+      "pvc",
+      "dzr",
+      "macho"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0301",
+    "status": "review",
+    "name": "Llave jardín PVC DZR 1/2 rosca macho",
+    "slug": "llave-jardin-pvc-dzr-1-2-rosca-macho",
+    "identification": {
+      "sku": "1021",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Llave jardín PVC DZR 1/2 rosca macho"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0301-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1021",
+        "reference": "1021",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 61297,
+          "wholesalePrice": 61297
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave jardín PVC DZR 1/2 rosca macho"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 61297,
+      "wholesalePrice": 61297,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "jardin",
+      "pvc",
+      "dzr",
+      "rosca",
+      "macho"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0302",
+    "status": "review",
+    "name": "Llave jardín PVC DZR 1/2 rosca hembra",
+    "slug": "llave-jardin-pvc-dzr-1-2-rosca-hembra",
+    "identification": {
+      "sku": "1024",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Llave jardín PVC DZR 1/2 rosca hembra"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0302-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1024",
+        "reference": "1024",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 58362,
+          "wholesalePrice": 58362
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave jardín PVC DZR 1/2 rosca hembra"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 58362,
+      "wholesalePrice": 58362,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "jardin",
+      "pvc",
+      "dzr",
+      "rosca",
+      "hembra"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0303",
+    "status": "review",
+    "name": "Check anti-retorno PVC DZR 1/2",
+    "slug": "check-anti-retorno-pvc-dzr-1-2",
+    "identification": {
+      "sku": "3380",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Check anti-retorno PVC DZR 1/2"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0303-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3380",
+        "reference": "3380",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 35416,
+          "wholesalePrice": 35416
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno PVC DZR 1/2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 35416,
+      "wholesalePrice": 35416,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "pvc",
+      "dzr"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0304",
+    "status": "review",
+    "name": "Check anti-retorno PVC DZR 3/4",
+    "slug": "check-anti-retorno-pvc-dzr-3-4",
+    "identification": {
+      "sku": "3381",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Check anti-retorno PVC DZR 3/4"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0304-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3381",
+        "reference": "3381",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 53124,
+          "wholesalePrice": 53124
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno PVC DZR 3/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 53124,
+      "wholesalePrice": 53124,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "pvc",
+      "dzr"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0305",
+    "status": "review",
+    "name": "Conector PVC DZR hembra 1/2 x PE 16 mm",
+    "slug": "conector-pvc-dzr-hembra-1-2-x-pe-16-mm",
+    "identification": {
+      "sku": "3171",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Conector PVC DZR hembra 1/2 x PE 16 mm"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0305-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3171",
+        "reference": "3171",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 26772,
+          "wholesalePrice": 26772
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Conector PVC DZR hembra 1/2 x PE 16 mm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 26772,
+      "wholesalePrice": 26772,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "conector",
+      "pvc",
+      "dzr",
+      "hembra"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0306",
+    "status": "review",
+    "name": "Conector PVC DZR hembra 1/2 x PE 20 mm",
+    "slug": "conector-pvc-dzr-hembra-1-2-x-pe-20-mm",
+    "identification": {
+      "sku": "3173",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Conector PVC DZR hembra 1/2 x PE 20 mm"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0306-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3173",
+        "reference": "3173",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 26772,
+          "wholesalePrice": 26772
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Conector PVC DZR hembra 1/2 x PE 20 mm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 26772,
+      "wholesalePrice": 26772,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "conector",
+      "pvc",
+      "dzr",
+      "hembra"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0307",
+    "status": "review",
+    "name": "Conector PVC DZR macho 1/2 x PE 16 mm",
+    "slug": "conector-pvc-dzr-macho-1-2-x-pe-16-mm",
+    "identification": {
+      "sku": "3174",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Conector PVC DZR macho 1/2 x PE 16 mm"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0307-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3174",
+        "reference": "3174",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 33737,
+          "wholesalePrice": 33737
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Conector PVC DZR macho 1/2 x PE 16 mm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 33737,
+      "wholesalePrice": 33737,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "conector",
+      "pvc",
+      "dzr",
+      "macho"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0308",
+    "status": "review",
+    "name": "Conector PVC DZR macho 1/2 x PE 20 mm",
+    "slug": "conector-pvc-dzr-macho-1-2-x-pe-20-mm",
+    "identification": {
+      "sku": "3176",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Conector PVC DZR macho 1/2 x PE 20 mm"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0308-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3176",
+        "reference": "3176",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 35172,
+          "wholesalePrice": 35172
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Conector PVC DZR macho 1/2 x PE 20 mm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 35172,
+      "wholesalePrice": 35172,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "conector",
+      "pvc",
+      "dzr",
+      "macho"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0309",
+    "status": "review",
+    "name": "Válvula bola PVC una universal 2 pulgadas soldar",
+    "slug": "valvula-bola-pvc-una-universal-2-pulgadas-soldar",
+    "identification": {
+      "sku": "3187",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula bola PVC una universal 2 pulgadas soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0309-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3187",
+        "reference": "3187",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 169603,
+          "wholesalePrice": 169603
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula bola PVC una universal 2 pulgadas soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 169603,
+      "wholesalePrice": 169603,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "una",
+      "universal",
+      "pulgadas",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0310",
+    "status": "review",
+    "name": "Válvula bola PVC dos universales 2 pulgadas soldar",
+    "slug": "valvula-bola-pvc-dos-universales-2-pulgadas-soldar",
+    "identification": {
+      "sku": "3188",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula bola PVC dos universales 2 pulgadas soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0310-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3188",
+        "reference": "3188",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 188406,
+          "wholesalePrice": 188406
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula bola PVC dos universales 2 pulgadas soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 188406,
+      "wholesalePrice": 188406,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "dos",
+      "universales",
+      "pulgadas",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0311",
+    "status": "review",
+    "name": "Válvula bola PVC una universal 2 pulgadas roscar",
+    "slug": "valvula-bola-pvc-una-universal-2-pulgadas-roscar",
+    "identification": {
+      "sku": "3184",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula bola PVC una universal 2 pulgadas roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0311-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3184",
+        "reference": "3184",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 170968,
+          "wholesalePrice": 170968
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula bola PVC una universal 2 pulgadas roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 170968,
+      "wholesalePrice": 170968,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "una",
+      "universal",
+      "pulgadas",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0312",
+    "status": "review",
+    "name": "Válvula bola PVC dos universales 2 pulgadas roscar",
+    "slug": "valvula-bola-pvc-dos-universales-2-pulgadas-roscar",
+    "identification": {
+      "sku": "3186",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula bola PVC dos universales 2 pulgadas roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0312-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3186",
+        "reference": "3186",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 190956,
+          "wholesalePrice": 190956
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula bola PVC dos universales 2 pulgadas roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 190956,
+      "wholesalePrice": 190956,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "dos",
+      "universales",
+      "pulgadas",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0313",
+    "status": "review",
+    "name": "Brida PVC 2 pulgadas fija soldar",
+    "slug": "brida-pvc-2-pulgadas-fija-soldar",
+    "identification": {
+      "sku": "3104",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 2 pulgadas fija soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0313-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3104",
+        "reference": "3104",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17909,
+          "wholesalePrice": 17909
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 2 pulgadas fija soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17909,
+      "wholesalePrice": 17909,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "fija",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0314",
+    "status": "review",
+    "name": "Brida PVC 2 pulgadas Van Stone soldar",
+    "slug": "brida-pvc-2-pulgadas-van-stone-soldar",
+    "identification": {
+      "sku": "3106",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 2 pulgadas Van Stone soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0314-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3106",
+        "reference": "3106",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 28076,
+          "wholesalePrice": 28076
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 2 pulgadas Van Stone soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 28076,
+      "wholesalePrice": 28076,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "van",
+      "stone",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0315",
+    "status": "review",
+    "name": "Brida PVC 3 pulgadas Van Stone soldar",
+    "slug": "brida-pvc-3-pulgadas-van-stone-soldar",
+    "identification": {
+      "sku": "3087",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 3 pulgadas Van Stone soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0315-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3087",
+        "reference": "3087",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 28383,
+          "wholesalePrice": 28383
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 3 pulgadas Van Stone soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 28383,
+      "wholesalePrice": 28383,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "van",
+      "stone",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0316",
+    "status": "review",
+    "name": "Brida PVC 4 pulgadas Van Stone soldar",
+    "slug": "brida-pvc-4-pulgadas-van-stone-soldar",
+    "identification": {
+      "sku": "3089",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 4 pulgadas Van Stone soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0316-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3089",
+        "reference": "3089",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 47371,
+          "wholesalePrice": 47371
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 4 pulgadas Van Stone soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 47371,
+      "wholesalePrice": 47371,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "van",
+      "stone",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0317",
+    "status": "review",
+    "name": "Brida PVC 6 pulgadas Van Stone soldar",
+    "slug": "brida-pvc-6-pulgadas-van-stone-soldar",
+    "identification": {
+      "sku": "3091",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 6 pulgadas Van Stone soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0317-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3091",
+        "reference": "3091",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 50074,
+          "wholesalePrice": 50074
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 6 pulgadas Van Stone soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 50074,
+      "wholesalePrice": 50074,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "van",
+      "stone",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0318",
+    "status": "review",
+    "name": "Brida PVC 8 pulgadas Van Stone soldar",
+    "slug": "brida-pvc-8-pulgadas-van-stone-soldar",
+    "identification": {
+      "sku": "3384",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 8 pulgadas Van Stone soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0318-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3384",
+        "reference": "3384",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 99830,
+          "wholesalePrice": 99830
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 8 pulgadas Van Stone soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 99830,
+      "wholesalePrice": 99830,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "van",
+      "stone",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0319",
+    "status": "review",
+    "name": "Brida PVC 2 pulgadas fija roscar",
+    "slug": "brida-pvc-2-pulgadas-fija-roscar",
+    "identification": {
+      "sku": "3103",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 2 pulgadas fija roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0319-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3103",
+        "reference": "3103",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17909,
+          "wholesalePrice": 17909
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 2 pulgadas fija roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17909,
+      "wholesalePrice": 17909,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "fija",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0320",
+    "status": "review",
+    "name": "Brida PVC 2 pulgadas Van Stone roscar",
+    "slug": "brida-pvc-2-pulgadas-van-stone-roscar",
+    "identification": {
+      "sku": "3105",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 2 pulgadas Van Stone roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0320-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3105",
+        "reference": "3105",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 28076,
+          "wholesalePrice": 28076
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 2 pulgadas Van Stone roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 28076,
+      "wholesalePrice": 28076,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "van",
+      "stone",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0321",
+    "status": "review",
+    "name": "Brida PVC 3 pulgadas Van Stone roscar",
+    "slug": "brida-pvc-3-pulgadas-van-stone-roscar",
+    "identification": {
+      "sku": "3088",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 3 pulgadas Van Stone roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0321-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3088",
+        "reference": "3088",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 28383,
+          "wholesalePrice": 28383
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 3 pulgadas Van Stone roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 28383,
+      "wholesalePrice": 28383,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "van",
+      "stone",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0322",
+    "status": "review",
+    "name": "Brida PVC 4 pulgadas Van Stone roscar",
+    "slug": "brida-pvc-4-pulgadas-van-stone-roscar",
+    "identification": {
+      "sku": "3090",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 4 pulgadas Van Stone roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0322-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3090",
+        "reference": "3090",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 47371,
+          "wholesalePrice": 47371
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 4 pulgadas Van Stone roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 47371,
+      "wholesalePrice": 47371,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "van",
+      "stone",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0323",
+    "status": "review",
+    "name": "Brida PVC 6 pulgadas Van Stone roscar",
+    "slug": "brida-pvc-6-pulgadas-van-stone-roscar",
+    "identification": {
+      "sku": "3107",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Brida PVC 6 pulgadas Van Stone roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0323-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3107",
+        "reference": "3107",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 50074,
+          "wholesalePrice": 50074
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brida PVC 6 pulgadas Van Stone roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 50074,
+      "wholesalePrice": 50074,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brida",
+      "pvc",
+      "pulgadas",
+      "van",
+      "stone",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0324",
+    "status": "review",
+    "name": "Unión transición Dresser PVC 20 mm PE a 16 mm cobre",
+    "slug": "union-transicion-dresser-pvc-20-mm-pe-a-16-mm-cobre",
+    "identification": {
+      "sku": "3079",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Unión transición Dresser PVC 20 mm PE a 16 mm cobre"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0324-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3079",
+        "reference": "3079",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 33304,
+          "wholesalePrice": 33304
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión transición Dresser PVC 20 mm PE a 16 mm cobre"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 33304,
+      "wholesalePrice": 33304,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "transicion",
+      "dresser",
+      "pvc",
+      "cobre"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0325",
+    "status": "review",
+    "name": "Unión transición Dresser Pealpe a Pealpe",
+    "slug": "union-transicion-dresser-pealpe-a-pealpe",
+    "identification": {
+      "sku": "3081",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Unión transición Dresser Pealpe a Pealpe"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0325-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3081",
+        "reference": "3081",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 47371,
+          "wholesalePrice": 47371
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión transición Dresser Pealpe a Pealpe"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 47371,
+      "wholesalePrice": 47371,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "transicion",
+      "dresser",
+      "pealpe",
+      "pealpe"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0326",
+    "status": "review",
+    "name": "Unión transición Dresser 16 mm PE a 20 mm PE",
+    "slug": "union-transicion-dresser-16-mm-pe-a-20-mm-pe",
+    "identification": {
+      "sku": "3082",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Unión transición Dresser 16 mm PE a 20 mm PE"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0326-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3082",
+        "reference": "3082",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 50074,
+          "wholesalePrice": 50074
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión transición Dresser 16 mm PE a 20 mm PE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 50074,
+      "wholesalePrice": 50074,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "transicion",
+      "dresser"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0327",
+    "status": "review",
+    "name": "Unión transición Dresser 20 mm PE a 20 mm PE",
+    "slug": "union-transicion-dresser-20-mm-pe-a-20-mm-pe",
+    "identification": {
+      "sku": "3086",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Unión transición Dresser 20 mm PE a 20 mm PE"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0327-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3086",
+        "reference": "3086",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 90755,
+          "wholesalePrice": 90755
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión transición Dresser 20 mm PE a 20 mm PE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 90755,
+      "wholesalePrice": 90755,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "transicion",
+      "dresser"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0328",
+    "status": "review",
+    "name": "Reparación Dresser 1/2 para agua fría",
+    "slug": "reparacion-dresser-1-2-para-agua-fria",
+    "identification": {
+      "sku": "3901",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Reparación Dresser 1/2 para agua fría"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0328-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3901",
+        "reference": "3901",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 131762,
+          "wholesalePrice": 131762
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Reparación Dresser 1/2 para agua fría"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 131762,
+      "wholesalePrice": 131762,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "reparacion",
+      "dresser",
+      "para",
+      "agua",
+      "fria"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0329",
+    "status": "review",
+    "name": "Unión universal PVC liviana 1/2 soldar",
+    "slug": "union-universal-pvc-liviana-1-2-soldar",
+    "identification": {
+      "sku": "3189",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC liviana 1/2 soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0329-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3189",
+        "reference": "3189",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4503,
+          "wholesalePrice": 4503
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC liviana 1/2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4503,
+      "wholesalePrice": 4503,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "liviana",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0330",
+    "status": "review",
+    "name": "Unión universal PVC liviana 3/4 soldar",
+    "slug": "union-universal-pvc-liviana-3-4-soldar",
+    "identification": {
+      "sku": "3185",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC liviana 3/4 soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0330-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3185",
+        "reference": "3185",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5660,
+          "wholesalePrice": 5660
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC liviana 3/4 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5660,
+      "wholesalePrice": 5660,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "liviana",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0331",
+    "status": "review",
+    "name": "Acople lavamanos 40 cm con registro derivación",
+    "slug": "acople-lavamanos-40-cm-con-registro-derivacion",
+    "identification": {
+      "sku": "2010",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Acople lavamanos 40 cm con registro derivación"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0331-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2010",
+        "reference": "2010",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 27455,
+          "wholesalePrice": 27455
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Acople lavamanos 40 cm con registro derivación"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 27455,
+      "wholesalePrice": 27455,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "acople",
+      "lavamanos",
+      "con",
+      "registro",
+      "derivacion"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0332",
+    "status": "review",
+    "name": "Acople sanitario 40 cm con registro derivación",
+    "slug": "acople-sanitario-40-cm-con-registro-derivacion",
+    "identification": {
+      "sku": "2009",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas, bridas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia extraída de lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Acople sanitario 40 cm con registro derivación"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista actualizada 28 enero 2026 y vigente desde 1 febrero 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0332-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2009",
+        "reference": "2009",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 27455,
+          "wholesalePrice": 27455
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Acople sanitario 40 cm con registro derivación"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 27455,
+      "wholesalePrice": 27455,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "acople",
+      "sanitario",
+      "con",
+      "registro",
+      "derivacion"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
