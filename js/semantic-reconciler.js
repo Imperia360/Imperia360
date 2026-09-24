@@ -59,8 +59,8 @@ const review = [];
 for (const item of results) {
   const sourceUrl = item.url || item.sourceUrl || "";
   const sourceId = item.sourceId || "exa";
-  const candidateName = item.title || item.productName || item.name || "";
-  const candidateRef = normalize(item.reference || item.sku || "");
+  const candidateName = item.productName || item.originalProductName || item.title || item.name || "";
+  const rawCandidateRef = item.reference || item.sku || "";\n  const candidateRef = normalize(rawCandidateRef === "-" || rawCandidateRef === "—" ? "" : rawCandidateRef);
   const candidateBrand = normalize(item.brand || "");
   let best = null;
 
