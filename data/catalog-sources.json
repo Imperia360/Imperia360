@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
   "sourcePolicy": {
     "priority": [
@@ -417,6 +417,21 @@
       "searchQueries": [
         "site:ferreterialuispenagos.com herramientas precio"
       ]
+    },
+    {
+      "id": "src-tecnirol",
+      "supplierId": "sup-tecnirol",
+      "name": "TECNIROL SAS",
+      "url": "https://tecnirol.com.co/",
+      "status": "discovery",
+      "priceAccess": "not_public",
+      "stockAccess": "not_public",
+      "searchQueries": [
+        "site:tecnirol.com.co tornillos tuercas pernos arandelas fijaciones",
+        "site:tecnirol.com.co productos metalmecanica tornilleria",
+        "\"TECNIROL SAS\" tornillos pernos tuercas arandelas"
+      ],
+      "notes": "Empresa colombiana de metalmecánica/fabricación de productos metálicos y mecanizado CNC. El sitio público no muestra un catálogo de tornillería con precios verificables; se conserva como fuente de descubrimiento/cotización, sin inventar productos ni precios."
     }
   ]
 }
