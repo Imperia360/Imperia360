@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "consultedAt": "2026-09-24",
-  "status": "STALE_NO_API_KEY",
-  "sourcesQueried": 8,
+  "status": "STALE_NO_API_KEY_WITH_IN_CHAT_RESEARCH",
+  "sourcesQueried": 14,
   "results": [
     {
       "sourceId": "corbeta",
@@ -124,6 +124,352 @@
         "price",
         "vatIncludedPrice",
         "sourceUrl"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/abrazadera-1-2-economica/",
+      "title": "ABRAZADERA 1/2 ECONOMICA",
+      "productName": "ABRAZADERA 1/2 ECONOMICA",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "price": 300,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/abrazadera-titan-1-2a3-4-40-06/",
+      "title": "ABRAZADERA TITAN 1/2A3/4 40 06",
+      "productName": "ABRAZADERA TITAN 1/2A3/4 40 06",
+      "brand": null,
+      "reference": "40-06",
+      "presentation": "unidad",
+      "price": 1650,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/abrazadera-titan-13-4a21-2-40-32/",
+      "title": "ABRAZADERA TITAN 13/4A21/2 40 32",
+      "productName": "ABRAZADERA TITAN 13/4A21/2 40 32",
+      "brand": null,
+      "reference": "40-32",
+      "presentation": "unidad",
+      "price": 2346,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/abrazadera-titan-11-8a17-8-40-24/",
+      "title": "ABRAZADERA TITAN 11/8A17/8 40 24",
+      "productName": "ABRAZADERA TITAN 11/8A17/8 40 24",
+      "brand": null,
+      "reference": "40-24",
+      "presentation": "unidad",
+      "price": 2250,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/abrazadera-titan-23-8a31-8-40-40/",
+      "title": "ABRAZADERA TITAN 23/8A31/8 40 40",
+      "productName": "ABRAZADERA TITAN 23/8A31/8 40 40",
+      "brand": null,
+      "reference": "40-40",
+      "presentation": "unidad",
+      "price": 3100,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/aerografo-f75-400-ml-dsf-1499/",
+      "title": "AEROGRAFO F75 400 ML DSF 1499",
+      "productName": "AEROGRAFO F75 400 ML DSF 1499",
+      "brand": null,
+      "reference": "DSF-1499",
+      "presentation": "unidad",
+      "price": 38000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/aerografo-f75g-600ml-focci-dsf-3322/",
+      "title": "AEROGRAFO F75 600ML FOCCI DSF 3322",
+      "productName": "AEROGRAFO F75 600ML FOCCI DSF 3322",
+      "brand": null,
+      "reference": "DSF-3322",
+      "presentation": "unidad",
+      "price": 46000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/aerografo-x-150-ml-abanico-f2/",
+      "title": "AEROGRAFO X 150 ML ABANICO F2 HT30568",
+      "productName": "AEROGRAFO X 150 ML ABANICO F2 HT30568",
+      "brand": null,
+      "reference": "HT30568",
+      "presentation": "unidad",
+      "price": 41750,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/acople-rapido-pistola-pintar/",
+      "title": "ACOPLE RAPIDO PISTOLA PINTAR",
+      "productName": "ACOPLE RAPIDO PISTOLA PINTAR",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "price": 8100,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/acople-rapido-pistola-pintar-juego-x-5/",
+      "title": "ACOPLE RAPIDO PISTOLA PINTAR JUEGO X 5",
+      "productName": "ACOPLE RAPIDO PISTOLA PINTAR JUEGO X 5",
+      "brand": null,
+      "reference": null,
+      "presentation": "juego x 5",
+      "price": 9100,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/boquilla-pistola-abanico/",
+      "title": "BOQUILLA PISTOLA ABANICO",
+      "productName": "BOQUILLA PISTOLA ABANICO",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "price": 3360,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/adaptador-hembra-3-4-pvc-gerfor/",
+      "title": "ADAPTADOR HEMBRA 3/4 PVC GERFOR",
+      "productName": "ADAPTADOR HEMBRA 3/4 PVC GERFOR",
+      "brand": "Gerfor",
+      "reference": "3/4",
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/adaptador-hembra-1-2-pvc-gerfor/",
+      "title": "ADAPTADOR HEMBRA 1/2 PVC GERFOR",
+      "productName": "ADAPTADOR HEMBRA 1/2 PVC GERFOR",
+      "brand": "Gerfor",
+      "reference": "1/2",
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference"
+      ]
+    },
+    {
+      "sourceId": "ferreteria_mauro",
+      "url": "https://ferreteriamauro.com/producto/adaptador-hembra-cpvc-gerfor-3-4x1-2/",
+      "title": "ADAPTADOR HEMBRA CPVC GERFOR 3/4X1/2",
+      "productName": "ADAPTADOR HEMBRA CPVC GERFOR 3/4X1/2",
+      "brand": "Gerfor",
+      "reference": "3/4X1/2",
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference"
+      ]
+    },
+    {
+      "sourceId": "corbeta",
+      "url": "https://www.corbeta.com.co/ferreteria/herramientas/martillo-8001-c-pulido-16-onz.html",
+      "title": "Martillo Bellota 8001-C Pulido 16 Onzas",
+      "productName": "Martillo Bellota 8001-C Pulido 16 Onzas",
+      "brand": "Bellota",
+      "reference": "8001-C",
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference"
+      ]
+    },
+    {
+      "sourceId": "corbeta",
+      "url": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/alicates/alicates-de-presion-recto-10.html",
+      "title": "ALICATE DE PRESIÓN SATA RECTO 10\"",
+      "productName": "ALICATE DE PRESIÓN SATA RECTO 10\"",
+      "brand": "Sata",
+      "reference": "10\"",
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference"
+      ]
+    },
+    {
+      "sourceId": "corbeta",
+      "url": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/alicates/alicate-corte-diagonal-7.html",
+      "title": "ALICATE SATA CORTE DIAGONAL 7\"",
+      "productName": "ALICATE SATA CORTE DIAGONAL 7\"",
+      "brand": "Sata",
+      "reference": "7\"",
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference"
+      ]
+    },
+    {
+      "sourceId": "corbeta",
+      "url": "https://www.corbeta.com.co/ferreteria/herramientas/martillo-8001-b-pulido-15-onz.html",
+      "title": "Martillo pulido Bellota mango madera 8001-B 15 Onz",
+      "productName": "Martillo pulido Bellota mango madera 8001-B 15 Onz",
+      "brand": "Bellota",
+      "reference": "8001-B",
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference"
+      ]
+    },
+    {
+      "sourceId": "mundial_de_tornillos",
+      "url": "https://www.mundialdetornillos.com/producto/chazo-multiuso-ea",
+      "title": "CHAZO MULTIUSO EA",
+      "productName": "CHAZO MULTIUSO EA",
+      "brand": null,
+      "reference": null,
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "sourceUrl"
+      ]
+    },
+    {
+      "sourceId": "mundial_de_tornillos",
+      "url": "https://www.mundialdetornillos.com/producto/broca-hss-tin",
+      "title": "BROCA HSS TIN 25%",
+      "productName": "BROCA HSS TIN 25%",
+      "brand": null,
+      "reference": "TW100",
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "sourceUrl",
+        "reference"
       ]
     }
   ],
