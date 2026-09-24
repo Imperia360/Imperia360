@@ -43184,5 +43184,1356 @@
       "duplicateStatus": "checked_sku_name",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0435",
+    "status": "review",
+    "name": "Cortafrío Stanley 7 pulgadas",
+    "slug": "cortafrio-stanley-7-pulgadas",
+    "identification": {
+      "sku": "B4B9700",
+      "manufacturerReference": "84-108LA",
+      "supplierReference": "B4B9700",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "STANLEY",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Cortafrío Stanley 7 pulgadas"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0435-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B9700",
+        "reference": "84-108LA",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 58310,
+          "wholesalePrice": 41650
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cortafrío Stanley 7 pulgadas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 58310,
+      "wholesalePrice": 41650,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cortafrio",
+      "stanley",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0436",
+    "status": "review",
+    "name": "Cortafrío Stanley 5 pulgadas",
+    "slug": "cortafrio-stanley-5-pulgadas",
+    "identification": {
+      "sku": "B4B13711",
+      "manufacturerReference": "84-104LA",
+      "supplierReference": "B4B13711",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "STANLEY",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Cortafrío Stanley 5 pulgadas"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0436-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B13711",
+        "reference": "84-104LA",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 49700,
+          "wholesalePrice": 35500
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cortafrío Stanley 5 pulgadas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 49700,
+      "wholesalePrice": 35500,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cortafrio",
+      "stanley",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0437",
+    "status": "review",
+    "name": "Cortafrío profesional UDUKE amarillo-negro 6 pulgadas",
+    "slug": "cortafrio-profesional-uduke-amarillo-negro-6-pulgadas",
+    "identification": {
+      "sku": "B4B6753",
+      "manufacturerReference": "HT20003",
+      "supplierReference": "B4B6753",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Cortafrío profesional UDUKE amarillo-negro 6 pulgadas"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0437-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B6753",
+        "reference": "HT20003",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 12740,
+          "wholesalePrice": 9100
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cortafrío profesional UDUKE amarillo-negro 6 pulgadas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 12740,
+      "wholesalePrice": 9100,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cortafrio",
+      "profesional",
+      "uduke",
+      "amarillo",
+      "negro",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0438",
+    "status": "review",
+    "name": "Cortafrío aislado 7 pulgadas industrial 1000V Total",
+    "slug": "cortafrio-aislado-7-pulgadas-industrial-1000v-total",
+    "identification": {
+      "sku": "B4B14900",
+      "manufacturerReference": "THTIP2571",
+      "supplierReference": "B4B14900",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Seguridad industrial"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Cortafrío aislado 7 pulgadas industrial 1000V Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0438-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B14900",
+        "reference": "THTIP2571",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 39830,
+          "wholesalePrice": 28450
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cortafrío aislado 7 pulgadas industrial 1000V Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 39830,
+      "wholesalePrice": 28450,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cortafrio",
+      "aislado",
+      "pulgadas",
+      "industrial",
+      "1000v",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0439",
+    "status": "review",
+    "name": "Cortafrío 7 pulgadas Super Select Total",
+    "slug": "cortafrio-7-pulgadas-super-select-total",
+    "identification": {
+      "sku": "B4B16274",
+      "manufacturerReference": "THT130706P",
+      "supplierReference": "B4B16274",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Cortafrío 7 pulgadas Super Select Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0439-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B16274",
+        "reference": "THT130706P",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 19180,
+          "wholesalePrice": 13700
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cortafrío 7 pulgadas Super Select Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 19180,
+      "wholesalePrice": 13700,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cortafrio",
+      "pulgadas",
+      "super",
+      "select",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0440",
+    "status": "review",
+    "name": "Juego de llave peston 6/8/9 pulgadas Super Total",
+    "slug": "juego-de-llave-peston-6-8-9-pulgadas-super-total",
+    "identification": {
+      "sku": "B4B15431",
+      "manufacturerReference": "THTK1013",
+      "supplierReference": "B4B15431",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Juego de llave peston 6/8/9 pulgadas Super Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0440-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B15431",
+        "reference": "THTK1013",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 66640,
+          "wholesalePrice": 47600
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de llave peston 6/8/9 pulgadas Super Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 66640,
+      "wholesalePrice": 47600,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "llave",
+      "peston",
+      "pulgadas",
+      "super",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0441",
+    "status": "review",
+    "name": "Juego de herramientas x142 piezas Industrial Total",
+    "slug": "juego-de-herramientas-x142-piezas-industrial-total",
+    "identification": {
+      "sku": "B4B15431",
+      "manufacturerReference": "THKTHP21426",
+      "supplierReference": "B4B15431",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Juego de herramientas x142 piezas Industrial Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0441-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B15431",
+        "reference": "THKTHP21426",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1175720,
+          "wholesalePrice": 839800
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de herramientas x142 piezas Industrial Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1175720,
+      "wholesalePrice": 839800,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "herramientas",
+      "x142",
+      "piezas",
+      "industrial",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0442",
+    "status": "review",
+    "name": "Juego de herramientas aisladas x6 piezas Industrial Total",
+    "slug": "juego-de-herramientas-aisladas-x6-piezas-industrial-total",
+    "identification": {
+      "sku": "B4B15427",
+      "manufacturerReference": "THKIST3062",
+      "supplierReference": "B4B15427",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Juego de herramientas aisladas x6 piezas Industrial Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0442-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B15427",
+        "reference": "THKIST3062",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 99890,
+          "wholesalePrice": 71350
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de herramientas aisladas x6 piezas Industrial Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 99890,
+      "wholesalePrice": 71350,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "herramientas",
+      "aisladas",
+      "piezas",
+      "industrial",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0443",
+    "status": "review",
+    "name": "Juego de herramientas 168 piezas Super Total",
+    "slug": "juego-de-herramientas-168-piezas-super-total",
+    "identification": {
+      "sku": "B4B20392",
+      "manufacturerReference": "THKTHP21686",
+      "supplierReference": "B4B20392",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Juego de herramientas 168 piezas Super Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0443-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B20392",
+        "reference": "THKTHP21686",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 305900,
+          "wholesalePrice": 218500
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de herramientas 168 piezas Super Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 305900,
+      "wholesalePrice": 218500,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "herramientas",
+      "168",
+      "piezas",
+      "super",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0444",
+    "status": "review",
+    "name": "Juego de destornilladores x24 piezas Total",
+    "slug": "juego-de-destornilladores-x24-piezas-total",
+    "identification": {
+      "sku": "B4B15505",
+      "manufacturerReference": "TACSD302462",
+      "supplierReference": "B4B15505",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Juego de destornilladores x24 piezas Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0444-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B15505",
+        "reference": "TACSD302462",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 42140,
+          "wholesalePrice": 30100
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de destornilladores x24 piezas Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 42140,
+      "wholesalePrice": 30100,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "destornilladores",
+      "x24",
+      "piezas",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0445",
+    "status": "review",
+    "name": "Juego de destornilladores puntas intercambiables x55 piezas Total",
+    "slug": "juego-de-destornilladores-puntas-intercambiables-x55-piezas-total",
+    "identification": {
+      "sku": "B4B15673",
+      "manufacturerReference": "TACSD30556",
+      "supplierReference": "B4B15673",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Juego de destornilladores puntas intercambiables x55 piezas Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0445-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B15673",
+        "reference": "TACSD30556",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 70210,
+          "wholesalePrice": 50150
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de destornilladores puntas intercambiables x55 piezas Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 70210,
+      "wholesalePrice": 50150,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "destornilladores",
+      "puntas",
+      "intercambiables",
+      "x55",
+      "piezas",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0446",
+    "status": "review",
+    "name": "Juego de copas x10 piezas 1/2 10-24mm Industrial Total",
+    "slug": "juego-de-copas-x10-piezas-1-2-10-24mm-industrial-total",
+    "identification": {
+      "sku": "B4B16558",
+      "manufacturerReference": "THTL121101",
+      "supplierReference": "B4B16558",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "TOTAL",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Juego de copas x10 piezas 1/2 10-24mm Industrial Total"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0446-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B16558",
+        "reference": "THTL121101",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 90020,
+          "wholesalePrice": 64300
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de copas x10 piezas 1/2 10-24mm Industrial Total"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 90020,
+      "wholesalePrice": 64300,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "copas",
+      "x10",
+      "piezas",
+      "24mm",
+      "industrial",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0447",
+    "status": "review",
+    "name": "Juego de copas 3/8 x7 punta Torx Stanley",
+    "slug": "juego-de-copas-3-8-x7-punta-torx-stanley",
+    "identification": {
+      "sku": "B4B9785",
+      "manufacturerReference": "87-342",
+      "supplierReference": "B4B9785",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "STANLEY",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Juego de copas 3/8 x7 punta Torx Stanley"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0447-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B9785",
+        "reference": "87-342",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 71400,
+          "wholesalePrice": 51000
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de copas 3/8 x7 punta Torx Stanley"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 71400,
+      "wholesalePrice": 51000,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "copas",
+      "punta",
+      "torx",
+      "stanley"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0448",
+    "status": "review",
+    "name": "Martillo 25mm mango fibra de vidrio UDUKE",
+    "slug": "martillo-25mm-mango-fibra-de-vidrio-uduke",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": "HT3013",
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "catalog",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta manual"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "verified"
+    },
+    "description": "Referencia comercial verificada en catálogo Roxvan.",
+    "measurements": {
+      "originalText": "Martillo 25mm mango fibra de vidrio UDUKE"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0448-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": "HT3013",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": 18410
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Martillo 25mm mango fibra de vidrio UDUKE"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": 18410,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "martillo",
+      "25mm",
+      "mango",
+      "fibra",
+      "vidrio",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
