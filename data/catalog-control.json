@@ -38,7 +38,7 @@
     "7_imagenes",
     "8_publicacion"
   ],
-  "currentLoadedProducts": 461,
+  "currentLoadedProducts": 466,
   "currentLoadedStatus": "review",
   "historicalCatalogClaims": [
     {
@@ -56,5 +56,5 @@
   ],
   "note": "Desde ahora existe una sola base maestra para IMPERIA 360. No se crearán catálogos paralelos ni se contarán referencias históricas sin reconciliación.",
   "lastCatalogExpansion": "2026-09-24",
-  "notes": "La base actual de products.json contiene 461 registros después de auditoría de duplicados y nuevas referencias verificadas. Se conservarán los 461 mientras se reconstruyen y cruzan los históricos recuperables. El objetivo es unificar todo en una sola base y una sola página, sin inventar registros."
+  "notes": "Catálogo maestro único. Base actual: 466 registros tras auditoría de duplicados y nuevas referencias Roxvan verificadas. La reconciliación histórica de los 792 recordados por el usuario continúa; no se cuentan referencias históricas hasta poder identificarlas y deduplicarlas."
 }
