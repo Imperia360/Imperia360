@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "suppliers": [
     {
       "id": "sup-corbeta",
@@ -125,6 +125,51 @@
       "id": "sup-markem",
       "name": "Markem Store",
       "type": "distribuidor",
+      "priority": 3,
+      "status": "discovery"
+    },
+    {
+      "id": "sup-torbandera",
+      "name": "Torbandera",
+      "type": "mayorista_especializado",
+      "priority": 2,
+      "status": "active"
+    },
+    {
+      "id": "sup-suministros-ardila",
+      "name": "Suministros Ardila",
+      "type": "distribuidor",
+      "priority": 3,
+      "status": "active"
+    },
+    {
+      "id": "sup-sumivalle",
+      "name": "Ferretería Sumivalle",
+      "type": "mayorista_especializado",
+      "priority": 3,
+      "city": "Cali",
+      "status": "active"
+    },
+    {
+      "id": "sup-proim",
+      "name": "PROIM",
+      "type": "distribuidor",
+      "priority": 3,
+      "city": "Itagui",
+      "status": "active"
+    },
+    {
+      "id": "sup-cencoelectricos",
+      "name": "Cencoelectricos",
+      "type": "distribuidor_electrico",
+      "priority": 2,
+      "city": "Bogota D.C.",
+      "status": "active"
+    },
+    {
+      "id": "sup-nalelectricos",
+      "name": "NAL Electricos",
+      "type": "catalogo_electrico",
       "priority": 3,
       "status": "discovery"
     }
