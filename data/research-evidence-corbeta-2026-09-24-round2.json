@@ -1,0 +1,280 @@
+{
+  "version": "1.0.0",
+  "status": "research_evidence_not_active_catalog",
+  "no_auto_publish": true,
+  "consultation_date": "2026-09-24",
+  "sources": [
+    {
+      "source_id": "corbeta-ferreteria",
+      "url": "https://qa.aws.corbeta.com.co/ferreteria.html",
+      "evidence": "Corbeta expone líneas concretas de ferretería con nombres comerciales."
+    },
+    {
+      "source_id": "corbeta-manuales",
+      "url": "https://www.corbeta.com.co/ferreteria/herramientas/manuales.html",
+      "evidence": "Página de herramientas manuales con referencias Bellota y medidas."
+    },
+    {
+      "source_id": "corbeta-electricos",
+      "url": "https://www.corbeta.com.co/ferreteria/materiales-construccion/electricos.html",
+      "evidence": "Página de eléctricos con productos identificables."
+    },
+    {
+      "source_id": "corbeta-tomas",
+      "url": "https://www.corbeta.com.co/ferreteria/materiales-construccion/electricos/tomas.html",
+      "evidence": "Página de tomas y clavijas con líneas y referencias."
+    },
+    {
+      "source_id": "corbeta-embalaje",
+      "url": "https://www.corbeta.com.co/ferreteria/embalaje-y-cerramiento.html?p=4",
+      "evidence": "Página con puntillas, alambres y cintas identificables."
+    }
+  ],
+  "candidates": [
+    [
+      "Corbeta",
+      "Llana Dentada Bellota 5876-12mm",
+      "Bellota",
+      "75876",
+      "280 x 130 mm; dientes 6 x 6 mm"
+    ],
+    [
+      "Corbeta",
+      "Palustre Bellota 5847-7\" Mango Madera",
+      "Bellota",
+      "5847-7",
+      "7 pulgadas; mango madera"
+    ],
+    [
+      "Corbeta",
+      "Palustre Bellota 5847-8 MM",
+      "Bellota",
+      "5847-8",
+      "8 mm"
+    ],
+    [
+      "Corbeta",
+      "Martillo Bellota 8001-A Pulido 12 Onz",
+      "Bellota",
+      "8001-A",
+      "12 onzas"
+    ],
+    [
+      "Corbeta",
+      "Martillo Bellota 8001-C Pulido 16 Onzas",
+      "Bellota",
+      "8001-C",
+      "16 onzas"
+    ],
+    [
+      "Corbeta",
+      "Lima Bellota Motosierra 4050-8\" 5/32",
+      "Bellota",
+      "4050-8",
+      "8 pulgadas; 5/32"
+    ],
+    [
+      "Corbeta",
+      "Lima Motosierra Bellota 4050-8\" 7/32",
+      "Bellota",
+      "4050-8",
+      "8 pulgadas; 7/32"
+    ],
+    [
+      "Corbeta",
+      "Espátula Flexible Bellota 55892-4 MPR",
+      "Bellota",
+      "55892-4",
+      "4 pulgadas"
+    ],
+    [
+      "Corbeta",
+      "Espátula Flexible Bellota 55890-3",
+      "Bellota",
+      "55890-3",
+      "3 pulgadas"
+    ],
+    [
+      "Corbeta",
+      "Palustre Bellota 475 Mango Bimat Smart B",
+      "Bellota",
+      "475",
+      "Mango bimaterial"
+    ],
+    [
+      "Corbeta",
+      "Palustre Bellota 476 Mango Bimat Smart",
+      "Bellota",
+      "476",
+      "Mango bimaterial"
+    ],
+    [
+      "Corbeta",
+      "Interruptor Ave Doble Duomo Blanco",
+      "Ave",
+      "",
+      "Presentación exacta pendiente"
+    ],
+    [
+      "Corbeta",
+      "Interruptor sencillo Conmut. Duomo Blanco",
+      "Ave",
+      "",
+      "Presentación exacta pendiente"
+    ],
+    [
+      "Corbeta",
+      "Pulsador Triple Duomo Blanco",
+      "Ave",
+      "",
+      "Presentación exacta pendiente"
+    ],
+    [
+      "Corbeta",
+      "Toma TVA Coaxial Duomo Blanco Ave",
+      "Ave",
+      "",
+      "Presentación exacta pendiente"
+    ],
+    [
+      "Corbeta",
+      "Toma GFCI 20 A blanca ETI05",
+      "",
+      "ETI05",
+      "20 A; blanca"
+    ],
+    [
+      "Corbeta",
+      "Toma GFCI 20A Stainless ETI79",
+      "",
+      "ETI79",
+      "20 A; Stainless"
+    ],
+    [
+      "Corbeta",
+      "Toma GFCI 20A negra ETI78",
+      "",
+      "ETI78",
+      "20 A; negra"
+    ],
+    [
+      "Corbeta",
+      "Multitoma 6 salidas 3m cable con protector",
+      "",
+      "",
+      "6 salidas; cable 3 m"
+    ],
+    [
+      "Corbeta",
+      "Multitoma 3 salidas 0.5m cable ECA54",
+      "",
+      "ECA54",
+      "3 salidas; cable 0.5 m"
+    ],
+    [
+      "Corbeta",
+      "Toma + Interruptor Mercury Stainless ETI47",
+      "",
+      "ETI47",
+      "Stainless"
+    ],
+    [
+      "Corbeta",
+      "Toma + int Mercury Black Mirror ETI56",
+      "",
+      "ETI56",
+      "Black Mirror"
+    ],
+    [
+      "Corbeta",
+      "Toma + Interruptor Mercury Blanco 118Z",
+      "",
+      "118Z",
+      "Presentación según fuente; requiere validación final"
+    ],
+    [
+      "Corbeta",
+      "Puntilla Proalco Cc 3\" x 25 Kg",
+      "Proalco",
+      "",
+      "3 pulgadas; 25 kg"
+    ],
+    [
+      "Corbeta",
+      "Proalco Puntilla Cc 1 1/2\" x 25 Kg",
+      "Proalco",
+      "",
+      "1 1/2 pulgadas; 25 kg"
+    ],
+    [
+      "Corbeta",
+      "Alambre de Púas Proalco Lowa Calibre 12.5",
+      "",
+      "",
+      "Calibre 12.5; presentación pendiente"
+    ],
+    [
+      "Corbeta",
+      "Alambre de Púas Proalco Lowa 14 x 500 mts",
+      "",
+      "",
+      "500 m"
+    ],
+    [
+      "Corbeta",
+      "Alambre de Púas Proalco Iowa 14 x 350 mts",
+      "",
+      "",
+      "350 m"
+    ],
+    [
+      "Corbeta",
+      "Alambre Púas Proalco Motto 15 x 500 mt",
+      "",
+      "",
+      "500 m"
+    ],
+    [
+      "Corbeta",
+      "Proalco Malla Zaranda",
+      "Proalco",
+      "",
+      "Presentación pendiente"
+    ],
+    [
+      "Corbeta",
+      "Cinta Aislante 3M Temflex 165 19mm",
+      "3M",
+      "Temflex 165",
+      "19 mm; longitud pendiente"
+    ],
+    [
+      "Corbeta",
+      "Cinta Aisladora 3M 19mm x 10 Metros",
+      "3M",
+      "",
+      "19 mm x 10 m"
+    ],
+    [
+      "Corbeta",
+      "Cinta Enmascarar 3M 101+ 38MM x 50",
+      "3M",
+      "101+",
+      "38 mm x 50 m"
+    ],
+    [
+      "Corbeta",
+      "Cinta Enmascarar 3M 101+ 24MM x 50",
+      "3M",
+      "101+",
+      "24 mm x 50 m"
+    ]
+  ],
+  "rules_applied": [
+    "Evidence only; none is active catalog inventory.",
+    "No public price was assigned because the consulted Corbeta results did not expose a verified price.",
+    "Blank references/presentations remain pending verification.",
+    "Variants are kept separate until identity and duplicate checks are completed.",
+    "Supplier availability is not treated as IMPERIA 360-owned stock."
+  ]
+}
