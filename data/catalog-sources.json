@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
   "sourcePolicy": {
     "priority": [
@@ -319,6 +319,103 @@
       "stockAccess": "partial",
       "searchQueries": [
         "site:nalelectricos.com.co catalogos cables breakers interruptores ferreteria"
+      ]
+    },
+    {
+      "id": "src-paloquemao-online",
+      "supplierId": "sup-paloquemao-online",
+      "name": "Paloquemao Online",
+      "url": "https://paloquemaoonline.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:paloquemaoonline.com/tienda ferreteria herramientas precio",
+        "site:paloquemaoonline.com producto precio herramienta"
+      ]
+    },
+    {
+      "id": "src-rhino",
+      "supplierId": "sup-rhino",
+      "name": "Ferretería Rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:rhino.com.co/tienda ferreteria herramientas precio"
+      ]
+    },
+    {
+      "id": "src-globaltools",
+      "supplierId": "sup-globaltools",
+      "name": "Global Tools Compañía Ferretera",
+      "url": "https://globaltoolscompaniaferretera.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:globaltoolscompaniaferretera.com productos precio PVC ferreteria"
+      ]
+    },
+    {
+      "id": "src-sociedad-mg",
+      "supplierId": "sup-sociedad-mg",
+      "name": "Sociedad Ferretera MG",
+      "url": "https://sociedadferreteramg.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:sociedadferreteramg.com productos ferreteria precio"
+      ]
+    },
+    {
+      "id": "src-bombeo",
+      "supplierId": "sup-bombeo",
+      "name": "Bombeo.co",
+      "url": "https://bombeo.co/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:bombeo.co productos bombas accesorios precio"
+      ]
+    },
+    {
+      "id": "src-invercrisan",
+      "supplierId": "sup-invercrisan",
+      "name": "Invercrisan",
+      "url": "https://invercrisan.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:invercrisan.com productos ferreteria precio"
+      ]
+    },
+    {
+      "id": "src-tustechos",
+      "supplierId": "sup-tustechos",
+      "name": "TusTechos",
+      "url": "https://tustechos.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:tustechos.com productos tejas tanques precio"
+      ]
+    },
+    {
+      "id": "src-luis-penagos",
+      "supplierId": "sup-luis-penagos",
+      "name": "Ferretería Luis Penagos",
+      "url": "https://ferreterialuispenagos.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:ferreterialuispenagos.com herramientas precio"
       ]
     }
   ]
