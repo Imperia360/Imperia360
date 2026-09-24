@@ -10229,5 +10229,2843 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0098",
+    "status": "review",
+    "name": "Broca para concreto SDS Plus rotomartillo",
+    "slug": "broca-para-concreto-sds-plus-rotomartillo",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Brocas para concreto"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Broca para concreto SDS Plus rotomartillo"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0098-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Broca para concreto SDS Plus rotomartillo"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "broca",
+      "para",
+      "concreto",
+      "sds",
+      "plus",
+      "rotomartillo"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0099",
+    "status": "review",
+    "name": "Broca de acero rápido HSS-R SUPERTOOLS",
+    "slug": "broca-de-acero-rapido-hss-r-supertools",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Brocas HSS"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Broca de acero rápido HSS-R SUPERTOOLS"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0099-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Broca de acero rápido HSS-R SUPERTOOLS"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "broca",
+      "acero",
+      "rapido",
+      "hss",
+      "supertools"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0100",
+    "status": "review",
+    "name": "Juego de brocas TW 104",
+    "slug": "juego-de-brocas-tw-104",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Juegos de brocas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Juego de brocas TW 104"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0100-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de brocas TW 104"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "brocas",
+      "104"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0101",
+    "status": "review",
+    "name": "Brocas industriales HSS",
+    "slug": "brocas-industriales-hss",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Brocas HSS"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Brocas industriales HSS"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0101-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Brocas industriales HSS"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "brocas",
+      "industriales",
+      "hss"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0102",
+    "status": "review",
+    "name": "Broca HSS TiN 25% Cobalto 8% TW101",
+    "slug": "broca-hss-tin-25-cobalto-8-tw101",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Brocas HSS"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Broca HSS TiN 25% Cobalto 8% TW101"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0102-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Broca HSS TiN 25% Cobalto 8% TW101"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "broca",
+      "hss",
+      "tin",
+      "cobalto",
+      "tw101"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0103",
+    "status": "review",
+    "name": "Cepillo eléctrico",
+    "slug": "cepillo-electrico",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta eléctrica"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Cepillo eléctrico"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0103-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cepillo eléctrico"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cepillo",
+      "electrico"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0104",
+    "status": "review",
+    "name": "Sierra ingleteadora",
+    "slug": "sierra-ingleteadora",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herramienta eléctrica"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Sierra ingleteadora"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0104-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Sierra ingleteadora"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "sierra",
+      "ingleteadora"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0105",
+    "status": "review",
+    "name": "Taladro reversible neumático 3/8 1800 rpm SUPERTOOLS cód 6135044",
+    "slug": "taladro-reversible-neumatico-3-8-1800-rpm-supertools-cod-6135044",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Taladros"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Taladro reversible neumático 3/8 1800 rpm SUPERTOOLS cód 6135044"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0105-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Taladro reversible neumático 3/8 1800 rpm SUPERTOOLS cód 6135044"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "taladro",
+      "reversible",
+      "neumatico",
+      "1800",
+      "rpm",
+      "supertools",
+      "cod",
+      "6135044"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0106",
+    "status": "review",
+    "name": "Taladro percutor SUPERTOOLS 850 W cód 6698008",
+    "slug": "taladro-percutor-supertools-850-w-cod-6698008",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Taladros"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Taladro percutor SUPERTOOLS 850 W cód 6698008"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0106-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Taladro percutor SUPERTOOLS 850 W cód 6698008"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "taladro",
+      "percutor",
+      "supertools",
+      "850",
+      "cod",
+      "6698008"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0107",
+    "status": "review",
+    "name": "Minipulidora 4 1/2 pulgadas",
+    "slug": "minipulidora-4-1-2-pulgadas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pulidoras"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Minipulidora 4 1/2 pulgadas"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0107-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Minipulidora 4 1/2 pulgadas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "minipulidora",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0108",
+    "status": "review",
+    "name": "Lijadoras",
+    "slug": "lijadoras",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Lijadoras"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Lijadoras"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0108-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Lijadoras"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "lijadoras"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0109",
+    "status": "review",
+    "name": "Tronzadora para metales SUPERTOOLS 2000 W cód 6698011",
+    "slug": "tronzadora-para-metales-supertools-2000-w-cod-6698011",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-07",
+      "name": "Herramienta eléctrica"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tronzadoras"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tronzadora para metales SUPERTOOLS 2000 W cód 6698011"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0109-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tronzadora para metales SUPERTOOLS 2000 W cód 6698011"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tronzadora",
+      "para",
+      "metales",
+      "supertools",
+      "2000",
+      "cod",
+      "6698011"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0110",
+    "status": "review",
+    "name": "Guantes Confort PU",
+    "slug": "guantes-confort-pu",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Guantes de protección"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Guantes Confort PU"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0110-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Guantes Confort PU"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "guantes",
+      "confort"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0111",
+    "status": "review",
+    "name": "Guantes de nylon",
+    "slug": "guantes-de-nylon",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Guantes de protección"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Guantes de nylon"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0111-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Guantes de nylon"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "guantes",
+      "nylon"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0112",
+    "status": "review",
+    "name": "Gafas de seguridad modelo Sport",
+    "slug": "gafas-de-seguridad-modelo-sport",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Protección visual"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Gafas de seguridad modelo Sport"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0112-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Gafas de seguridad modelo Sport"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "gafas",
+      "seguridad",
+      "modelo",
+      "sport"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0113",
+    "status": "review",
+    "name": "Guante vaqueta ingeniero sencillo y reforzado",
+    "slug": "guante-vaqueta-ingeniero-sencillo-y-reforzado",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Guantes de protección"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Guante vaqueta ingeniero sencillo y reforzado"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0113-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Guante vaqueta ingeniero sencillo y reforzado"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "guante",
+      "vaqueta",
+      "ingeniero",
+      "sencillo",
+      "reforzado"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0114",
+    "status": "review",
+    "name": "Respiradores NIOSH",
+    "slug": "respiradores-niosh",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Protección respiratoria"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Respiradores NIOSH"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0114-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Respiradores NIOSH"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "respiradores",
+      "niosh"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0115",
+    "status": "review",
+    "name": "Kit protección contra caídas",
+    "slug": "kit-proteccion-contra-caidas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Protección contra caídas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Kit protección contra caídas"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0115-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Kit protección contra caídas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "kit",
+      "proteccion",
+      "contra",
+      "caidas"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0116",
+    "status": "review",
+    "name": "Guante carnaza para soldador",
+    "slug": "guante-carnaza-para-soldador",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Guantes de protección"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Guante carnaza para soldador"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0116-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Guante carnaza para soldador"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "guante",
+      "carnaza",
+      "para",
+      "soldador"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0117",
+    "status": "review",
+    "name": "Guante látex foam",
+    "slug": "guante-latex-foam",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Guantes de protección"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Guante látex foam"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0117-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Guante látex foam"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "guante",
+      "latex",
+      "foam"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0118",
+    "status": "review",
+    "name": "Guantes Heavy Duty de nitrilo",
+    "slug": "guantes-heavy-duty-de-nitrilo",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Guantes de protección"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Guantes Heavy Duty de nitrilo"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0118-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Guantes Heavy Duty de nitrilo"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "guantes",
+      "heavy",
+      "duty",
+      "nitrilo"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0119",
+    "status": "review",
+    "name": "Impermeable 2 piezas broche con capucha",
+    "slug": "impermeable-2-piezas-broche-con-capucha",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Impermeables y reflectivos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Impermeable 2 piezas broche con capucha"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0119-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Impermeable 2 piezas broche con capucha"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "impermeable",
+      "piezas",
+      "broche",
+      "con",
+      "capucha"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0120",
+    "status": "review",
+    "name": "Casco industrial sin ventilación",
+    "slug": "casco-industrial-sin-ventilacion",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Protección de cabeza"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Casco industrial sin ventilación"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0120-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Casco industrial sin ventilación"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "casco",
+      "industrial",
+      "sin",
+      "ventilacion"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0121",
+    "status": "review",
+    "name": "Mascarillas 5 piezas",
+    "slug": "mascarillas-5-piezas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Protección respiratoria"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Mascarillas 5 piezas"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0121-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Mascarillas 5 piezas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "mascarillas",
+      "piezas"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0122",
+    "status": "review",
+    "name": "Varilla roscada milimétrica acero inoxidable 304 A2 por metro paso 2.50",
+    "slug": "varilla-roscada-milimetrica-acero-inoxidable-304-a2-por-metro-paso-2-50",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Varillas roscadas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Varilla roscada milimétrica acero inoxidable 304 A2 por metro paso 2.50"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0122-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Varilla roscada milimétrica acero inoxidable 304 A2 por metro paso 2.50"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "varilla",
+      "roscada",
+      "milimetrica",
+      "acero",
+      "inoxidable",
+      "304",
+      "por",
+      "metro",
+      "paso"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0123",
+    "status": "review",
+    "name": "Tornillo hexagonal 8.8 paso 2.00 bicromatizado 16 x 70 JDF",
+    "slug": "tornillo-hexagonal-8-8-paso-2-00-bicromatizado-16-x-70-jdf",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos hexagonales"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo hexagonal 8.8 paso 2.00 bicromatizado 16 x 70 JDF"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0123-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo hexagonal 8.8 paso 2.00 bicromatizado 16 x 70 JDF"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "hexagonal",
+      "paso",
+      "bicromatizado",
+      "jdf"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0124",
+    "status": "review",
+    "name": "Tornillo para cuchilla SAE grado 9 UNC 3/4 x 2 1/4",
+    "slug": "tornillo-para-cuchilla-sae-grado-9-unc-3-4-x-2-1-4",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos de alta resistencia"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto identificado en el catálogo público de Mundial de Tornillos; precio no publicado de forma utilizable.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo para cuchilla SAE grado 9 UNC 3/4 x 2 1/4"
+    },
+    "specifications": {
+      "marketSource": "Mundial de Tornillos"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0124-default",
+        "label": "Presentación por confirmar",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo para cuchilla SAE grado 9 UNC 3/4 x 2 1/4"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Mundial de Tornillos"
+    },
+    "supplier": {
+      "name": "Mundial de Tornillos",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "para",
+      "cuchilla",
+      "sae",
+      "grado",
+      "unc"
+    ],
+    "dataQuality": {
+      "source": "Mundial de Tornillos",
+      "verified": true,
+      "missingFields": [
+        "precio publicado",
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
