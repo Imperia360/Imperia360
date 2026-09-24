@@ -7171,5 +7171,3063 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0069",
+    "status": "review",
+    "name": "Construmax panel adhesivo multimaterial beige AFIX 300 ml",
+    "slug": "construmax-panel-adhesivo-multimaterial-beige-afix-300-ml",
+    "identification": {
+      "sku": "B4B23796",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Adhesivos y selladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Construmax panel adhesivo multimaterial beige AFIX 300 ml"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0069-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23796",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 20440,
+          "wholesalePrice": 14600
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Construmax panel adhesivo multimaterial beige AFIX 300 ml"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 20440,
+      "wholesalePrice": 14600,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "construmax",
+      "panel",
+      "adhesivo",
+      "multimaterial",
+      "beige",
+      "afix",
+      "300"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0070",
+    "status": "review",
+    "name": "Silicona RTV negra Xpert 90 g Simoniz",
+    "slug": "silicona-rtv-negra-xpert-90-g-simoniz",
+    "identification": {
+      "sku": "B4B15997A",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas y selladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Silicona RTV negra Xpert 90 g Simoniz"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0070-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B15997A",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 15400,
+          "wholesalePrice": 11000
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona RTV negra Xpert 90 g Simoniz"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 15400,
+      "wholesalePrice": 11000,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "rtv",
+      "negra",
+      "xpert",
+      "simoniz"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0071",
+    "status": "review",
+    "name": "Cinta doble faz para boceles 12 x 33 m",
+    "slug": "cinta-doble-faz-para-boceles-12-x-33-m",
+    "identification": {
+      "sku": "B4B23766",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Cintas adhesivas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Cinta doble faz para boceles 12 x 33 m"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0071-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B23766",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 182700,
+          "wholesalePrice": 130500
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cinta doble faz para boceles 12 x 33 m"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 182700,
+      "wholesalePrice": 130500,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cinta",
+      "doble",
+      "faz",
+      "para",
+      "boceles"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0072",
+    "status": "review",
+    "name": "Chapeta candado plástica para espejos y vidrios paquete x 20 UDUKE",
+    "slug": "chapeta-candado-plastica-para-espejos-y-vidrios-paquete-x-20-uduke",
+    "identification": {
+      "sku": "RO3573",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-16",
+      "name": "Herrajes"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herrajes para vidrio"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chapeta candado plástica para espejos y vidrios paquete x 20 UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0072-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO3573",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2392,
+          "wholesalePrice": 1661
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chapeta candado plástica para espejos y vidrios paquete x 20 UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2392,
+      "wholesalePrice": 1661,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chapeta",
+      "candado",
+      "plastica",
+      "para",
+      "espejos",
+      "vidrios",
+      "paquete",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0073",
+    "status": "review",
+    "name": "Cepillo alambre 7 pulgadas x 3 piezas UDUKE",
+    "slug": "cepillo-alambre-7-pulgadas-x-3-piezas-uduke",
+    "identification": {
+      "sku": "RO5873",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Cepillos y accesorios"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Cepillo alambre 7 pulgadas x 3 piezas UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0073-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5873",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2550,
+          "wholesalePrice": 2568
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cepillo alambre 7 pulgadas x 3 piezas UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2550,
+      "wholesalePrice": 2568,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cepillo",
+      "alambre",
+      "pulgadas",
+      "piezas",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0074",
+    "status": "review",
+    "name": "Breaker 15A paquete x 1 UDUKE",
+    "slug": "breaker-15a-paquete-x-1-uduke",
+    "identification": {
+      "sku": "RO3357",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Protección eléctrica"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Breaker 15A paquete x 1 UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0074-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO3357",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 10710,
+          "wholesalePrice": 7650
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Breaker 15A paquete x 1 UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 10710,
+      "wholesalePrice": 7650,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "breaker",
+      "15a",
+      "paquete",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0075",
+    "status": "review",
+    "name": "Bisagra nudo cabeza plana dorada 3x3 x 12 pares",
+    "slug": "bisagra-nudo-cabeza-plana-dorada-3x3-x-12-pares",
+    "identification": {
+      "sku": "B4B115",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-16",
+      "name": "Herrajes"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Bisagras"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Bisagra nudo cabeza plana dorada 3x3 x 12 pares"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0075-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B115",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 58660,
+          "wholesalePrice": 41900
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Bisagra nudo cabeza plana dorada 3x3 x 12 pares"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 58660,
+      "wholesalePrice": 41900,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "bisagra",
+      "nudo",
+      "cabeza",
+      "plana",
+      "dorada",
+      "3x3",
+      "pares"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0076",
+    "status": "review",
+    "name": "Bisagra común dorada Induma 3 cajita x 12 pares",
+    "slug": "bisagra-comun-dorada-induma-3-cajita-x-12-pares",
+    "identification": {
+      "sku": "B4B8394",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-16",
+      "name": "Herrajes"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Bisagras"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Bisagra común dorada Induma 3 cajita x 12 pares"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0076-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B8394",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 54180,
+          "wholesalePrice": 38700
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Bisagra común dorada Induma 3 cajita x 12 pares"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 54180,
+      "wholesalePrice": 38700,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "bisagra",
+      "comun",
+      "dorada",
+      "induma",
+      "cajita",
+      "pares"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0077",
+    "status": "review",
+    "name": "Juego de espátulas de plástico x 3 piezas",
+    "slug": "juego-de-espatulas-de-plastico-x-3-piezas",
+    "identification": {
+      "sku": "B4B22842",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Espátulas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Juego de espátulas de plástico x 3 piezas"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0077-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22842",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4270,
+          "wholesalePrice": 3050
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego de espátulas de plástico x 3 piezas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4270,
+      "wholesalePrice": 3050,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "espatulas",
+      "plastico",
+      "piezas"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0078",
+    "status": "review",
+    "name": "Pasador 4 pulgadas latonado Dyllu",
+    "slug": "pasador-4-pulgadas-latonado-dyllu",
+    "identification": {
+      "sku": "B4B22896",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pasadores y cerrojos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pasador 4 pulgadas latonado Dyllu"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0078-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22896",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5740,
+          "wholesalePrice": 4100
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pasador 4 pulgadas latonado Dyllu"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5740,
+      "wholesalePrice": 4100,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pasador",
+      "pulgadas",
+      "latonado",
+      "dyllu"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0079",
+    "status": "review",
+    "name": "Pasador 4 pulgadas galvanizado Dyllu",
+    "slug": "pasador-4-pulgadas-galvanizado-dyllu",
+    "identification": {
+      "sku": "B4B22891",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pasadores y cerrojos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pasador 4 pulgadas galvanizado Dyllu"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0079-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22891",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5250,
+          "wholesalePrice": 3750
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pasador 4 pulgadas galvanizado Dyllu"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5250,
+      "wholesalePrice": 3750,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pasador",
+      "pulgadas",
+      "galvanizado",
+      "dyllu"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0080",
+    "status": "review",
+    "name": "Pasador 3 pulgadas latonado Dyllu",
+    "slug": "pasador-3-pulgadas-latonado-dyllu",
+    "identification": {
+      "sku": "B4B22895",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pasadores y cerrojos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pasador 3 pulgadas latonado Dyllu"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0080-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22895",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4690,
+          "wholesalePrice": 3350
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pasador 3 pulgadas latonado Dyllu"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4690,
+      "wholesalePrice": 3350,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pasador",
+      "pulgadas",
+      "latonado",
+      "dyllu"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0081",
+    "status": "review",
+    "name": "Pasador 3 pulgadas galvanizado Dyllu",
+    "slug": "pasador-3-pulgadas-galvanizado-dyllu",
+    "identification": {
+      "sku": "B4B22890",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pasadores y cerrojos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pasador 3 pulgadas galvanizado Dyllu"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0081-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22890",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4270,
+          "wholesalePrice": 3050
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pasador 3 pulgadas galvanizado Dyllu"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4270,
+      "wholesalePrice": 3050,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pasador",
+      "pulgadas",
+      "galvanizado",
+      "dyllu"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0082",
+    "status": "review",
+    "name": "Pasador 2 1/2 pulgadas latonado Dyllu",
+    "slug": "pasador-2-1-2-pulgadas-latonado-dyllu",
+    "identification": {
+      "sku": "B4B22894",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pasadores y cerrojos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pasador 2 1/2 pulgadas latonado Dyllu"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0082-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22894",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3780,
+          "wholesalePrice": 2700
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pasador 2 1/2 pulgadas latonado Dyllu"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3780,
+      "wholesalePrice": 2700,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pasador",
+      "pulgadas",
+      "latonado",
+      "dyllu"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0083",
+    "status": "review",
+    "name": "Pasador 2 1/2 pulgadas galvanizado Dyllu",
+    "slug": "pasador-2-1-2-pulgadas-galvanizado-dyllu",
+    "identification": {
+      "sku": "B4B22889",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pasadores y cerrojos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pasador 2 1/2 pulgadas galvanizado Dyllu"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0083-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22889",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4270,
+          "wholesalePrice": 3050
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pasador 2 1/2 pulgadas galvanizado Dyllu"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4270,
+      "wholesalePrice": 3050,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pasador",
+      "pulgadas",
+      "galvanizado",
+      "dyllu"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0084",
+    "status": "review",
+    "name": "Abrazadera amarilla 3/4 ojo 1/2 manguera Suan",
+    "slug": "abrazadera-amarilla-3-4-ojo-1-2-manguera-suan",
+    "identification": {
+      "sku": "B4B7836",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Abrazaderas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Abrazadera amarilla 3/4 ojo 1/2 manguera Suan"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0084-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B7836",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 280,
+          "wholesalePrice": 200
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Abrazadera amarilla 3/4 ojo 1/2 manguera Suan"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 280,
+      "wholesalePrice": 200,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "abrazadera",
+      "amarilla",
+      "ojo",
+      "manguera",
+      "suan"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0085",
+    "status": "review",
+    "name": "Lija 3M grano 80 331Q",
+    "slug": "lija-3m-grano-80-331q",
+    "identification": {
+      "sku": "B4B20873",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-09",
+      "name": "Abrasivos y soldadura"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Abrasivos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Lija 3M grano 80 331Q"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0085-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B20873",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2450,
+          "wholesalePrice": 1750
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Lija 3M grano 80 331Q"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2450,
+      "wholesalePrice": 1750,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "lija",
+      "grano",
+      "331q"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0086",
+    "status": "review",
+    "name": "Lija 3M grano 150 331Q",
+    "slug": "lija-3m-grano-150-331q",
+    "identification": {
+      "sku": "B4B20871",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-09",
+      "name": "Abrasivos y soldadura"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Abrasivos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Lija 3M grano 150 331Q"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0086-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B20871",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2240,
+          "wholesalePrice": 1600
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Lija 3M grano 150 331Q"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2240,
+      "wholesalePrice": 1600,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "lija",
+      "grano",
+      "150",
+      "331q"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0087",
+    "status": "review",
+    "name": "Aerógrafo UDUKE profesional vaso 150 cc pistola K3 cromada",
+    "slug": "aerografo-uduke-profesional-vaso-150-cc-pistola-k3-cromada",
+    "identification": {
+      "sku": "RO3324",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-23",
+      "name": "Maquinaria y equipos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Equipos y herramientas especializadas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Aerógrafo UDUKE profesional vaso 150 cc pistola K3 cromada"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0087-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO3324",
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Aerógrafo UDUKE profesional vaso 150 cc pistola K3 cromada"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "aerografo",
+      "uduke",
+      "profesional",
+      "vaso",
+      "150",
+      "pistola",
+      "cromada"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0088",
+    "status": "review",
+    "name": "Destornillador doble punta grande con seguro 1/4x4-6 UDUKE",
+    "slug": "destornillador-doble-punta-grande-con-seguro-1-4x4-6-uduke",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Destornilladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Destornillador doble punta grande con seguro 1/4x4-6 UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0088-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Destornillador doble punta grande con seguro 1/4x4-6 UDUKE"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "destornillador",
+      "doble",
+      "punta",
+      "grande",
+      "con",
+      "seguro",
+      "4x4",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0089",
+    "status": "review",
+    "name": "Ducha monocontrol Aluvia Grival",
+    "slug": "ducha-monocontrol-aluvia-grival",
+    "identification": {
+      "sku": "B4B19722",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-05",
+      "name": "Grifería y baños"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Duchas y grifería"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Ducha monocontrol Aluvia Grival"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0089-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B19722",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 196420,
+          "wholesalePrice": 140300
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Ducha monocontrol Aluvia Grival"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 196420,
+      "wholesalePrice": 140300,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "ducha",
+      "monocontrol",
+      "aluvia",
+      "grival"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0090",
+    "status": "review",
+    "name": "Rejilla sifón piso invisible acero inoxidable 10x10 UDUKE",
+    "slug": "rejilla-sifon-piso-invisible-acero-inoxidable-10x10-uduke",
+    "identification": {
+      "sku": "B4B17853",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Desagües y rejillas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Rejilla sifón piso invisible acero inoxidable 10x10 UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0090-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B17853",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 31920,
+          "wholesalePrice": 22800
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Rejilla sifón piso invisible acero inoxidable 10x10 UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 31920,
+      "wholesalePrice": 22800,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "rejilla",
+      "sifon",
+      "piso",
+      "invisible",
+      "acero",
+      "inoxidable",
+      "10x10",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0091",
+    "status": "review",
+    "name": "Juego destornilladores x 6 piezas 3/16x4 punta imantada Dyllu",
+    "slug": "juego-destornilladores-x-6-piezas-3-16x4-punta-imantada-dyllu",
+    "identification": {
+      "sku": "B4B22719",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Destornilladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Juego destornilladores x 6 piezas 3/16x4 punta imantada Dyllu"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0091-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B22719",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 14980,
+          "wholesalePrice": 10700
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego destornilladores x 6 piezas 3/16x4 punta imantada Dyllu"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 14980,
+      "wholesalePrice": 10700,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "destornilladores",
+      "piezas",
+      "16x4",
+      "punta",
+      "imantada",
+      "dyllu"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0092",
+    "status": "review",
+    "name": "Cubretimón negro líneas azules Simoniz",
+    "slug": "cubretimon-negro-lineas-azules-simoniz",
+    "identification": {
+      "sku": "B4B18633",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-21",
+      "name": "Automotriz"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios automotrices"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Cubretimón negro líneas azules Simoniz"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0092-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "B4B18633",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 67060,
+          "wholesalePrice": 47900
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cubretimón negro líneas azules Simoniz"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 67060,
+      "wholesalePrice": 47900,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cubretimon",
+      "negro",
+      "lineas",
+      "azules",
+      "simoniz"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0093",
+    "status": "review",
+    "name": "Manguera nivel 5/16 x 100 m cal 40",
+    "slug": "manguera-nivel-5-16-x-100-m-cal-40",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-24",
+      "name": "Medición y trazado"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Medición y trazado"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Manguera nivel 5/16 x 100 m cal 40"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0093-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 122689,
+          "wholesalePrice": 103100
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Manguera nivel 5/16 x 100 m cal 40"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 122689,
+      "wholesalePrice": 103100,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "manguera",
+      "nivel",
+      "100",
+      "cal"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0094",
+    "status": "review",
+    "name": "Pintura vinilo premium tipo 1 blanco hueso cuñete Algreco",
+    "slug": "pintura-vinilo-premium-tipo-1-blanco-hueso-cunete-algreco",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-12",
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pinturas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pintura vinilo premium tipo 1 blanco hueso cuñete Algreco"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0094-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 362998,
+          "wholesalePrice": 315650
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pintura vinilo premium tipo 1 blanco hueso cuñete Algreco"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 362998,
+      "wholesalePrice": 315650,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pintura",
+      "vinilo",
+      "premium",
+      "tipo",
+      "blanco",
+      "hueso",
+      "cunete",
+      "algreco"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0095",
+    "status": "review",
+    "name": "Pintura vinilo tipo 1 interior blanco galón Vharbor",
+    "slug": "pintura-vinilo-tipo-1-interior-blanco-galon-vharbor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-12",
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pinturas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pintura vinilo tipo 1 interior blanco galón Vharbor"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0095-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 62720,
+          "wholesalePrice": 44800
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pintura vinilo tipo 1 interior blanco galón Vharbor"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 62720,
+      "wholesalePrice": 44800,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pintura",
+      "vinilo",
+      "tipo",
+      "interior",
+      "blanco",
+      "galon",
+      "vharbor"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0096",
+    "status": "review",
+    "name": "Manguera expandible con pistola 22.5 m Vharbor",
+    "slug": "manguera-expandible-con-pistola-22-5-m-vharbor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardín y agrícola"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Manguera expandible con pistola 22.5 m Vharbor"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0096-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 72769,
+          "wholesalePrice": 61150
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Manguera expandible con pistola 22.5 m Vharbor"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 72769,
+      "wholesalePrice": 61150,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "manguera",
+      "expandible",
+      "con",
+      "pistola",
+      "vharbor"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0097",
+    "status": "review",
+    "name": "Guantes nitrilo",
+    "slug": "guantes-nitrilo",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-14",
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Guantes de protección"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia publicada en el catálogo consultado de Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Guantes nitrilo"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0097-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Guantes nitrilo"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "guantes",
+      "nitrilo"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360",
+        "SKU"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
