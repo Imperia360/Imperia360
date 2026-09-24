@@ -3991,5 +3991,3185 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0039",
+    "status": "review",
+    "name": "Tornillo estufa cabeza redonda 5/32 X 1",
+    "slug": "tornillo-estufa-cabeza-redonda-5-32-x-1",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos especiales"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Sofalca.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo estufa cabeza redonda 5/32 X 1"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0039-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4895,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo estufa cabeza redonda 5/32 X 1"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4895,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "estufa",
+      "cabeza",
+      "redonda"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0040",
+    "status": "review",
+    "name": "Tornillo drywall rosca ordinaria zincado 6 X 1",
+    "slug": "tornillo-drywall-rosca-ordinaria-zincado-6-x-1",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-11",
+      "name": "Drywall y sistemas livianos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Drywall"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Sofalca.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo drywall rosca ordinaria zincado 6 X 1"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0040-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3520,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo drywall rosca ordinaria zincado 6 X 1"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3520,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "drywall",
+      "rosca",
+      "ordinaria",
+      "zincado"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0041",
+    "status": "review",
+    "name": "Tornillo drywall rosca ordinaria pavonado 6 X 3",
+    "slug": "tornillo-drywall-rosca-ordinaria-pavonado-6-x-3",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-11",
+      "name": "Drywall y sistemas livianos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Drywall"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Sofalca.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo drywall rosca ordinaria pavonado 6 X 3"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0041-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4817,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo drywall rosca ordinaria pavonado 6 X 3"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4817,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "drywall",
+      "rosca",
+      "ordinaria",
+      "pavonado"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0042",
+    "status": "review",
+    "name": "Tornillo hexagonal zincado G2 1/2 X 1.1/4",
+    "slug": "tornillo-hexagonal-zincado-g2-1-2-x-1-1-4",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos hexagonales"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Sofalca.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo hexagonal zincado G2 1/2 X 1.1/4"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0042-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 11226,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo hexagonal zincado G2 1/2 X 1.1/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 11226,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "hexagonal",
+      "zincado"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0043",
+    "status": "review",
+    "name": "Silicona UDUKE 70 ml RTV negra alta temperatura",
+    "slug": "silicona-uduke-70-ml-rtv-negra-alta-temperatura",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas y selladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Silicona UDUKE 70 ml RTV negra alta temperatura"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0043-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7210,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona UDUKE 70 ml RTV negra alta temperatura"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7210,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "uduke",
+      "rtv",
+      "negra",
+      "alta",
+      "temperatura"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0044",
+    "status": "review",
+    "name": "Silicona UDUKE 70 ml RTV gris alta temperatura",
+    "slug": "silicona-uduke-70-ml-rtv-gris-alta-temperatura",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas y selladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Silicona UDUKE 70 ml RTV gris alta temperatura"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0044-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7630,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona UDUKE 70 ml RTV gris alta temperatura"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7630,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "uduke",
+      "rtv",
+      "gris",
+      "alta",
+      "temperatura"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0045",
+    "status": "review",
+    "name": "Silicona UDUKE 70 ml RTV blanca uso doméstico",
+    "slug": "silicona-uduke-70-ml-rtv-blanca-uso-domestico",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas y selladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Silicona UDUKE 70 ml RTV blanca uso doméstico"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0045-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7210,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona UDUKE 70 ml RTV blanca uso doméstico"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7210,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "uduke",
+      "rtv",
+      "blanca",
+      "uso",
+      "domestico"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0046",
+    "status": "review",
+    "name": "Silicona UDUKE 70 ml transparente uso doméstico",
+    "slug": "silicona-uduke-70-ml-transparente-uso-domestico",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Siliconas y selladores"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Silicona UDUKE 70 ml transparente uso doméstico"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0046-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7210,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Silicona UDUKE 70 ml transparente uso doméstico"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7210,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "silicona",
+      "uduke",
+      "transparente",
+      "uso",
+      "domestico"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0047",
+    "status": "review",
+    "name": "Set de herramienta para sellado de silicona UDUKE",
+    "slug": "set-de-herramienta-para-sellado-de-silicona-uduke",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios para herramientas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Set de herramienta para sellado de silicona UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0047-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17710,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Set de herramienta para sellado de silicona UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17710,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "set",
+      "herramienta",
+      "para",
+      "sellado",
+      "silicona",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0048",
+    "status": "review",
+    "name": "Palustre 9 pulgadas mango plástico industrial TOTAL",
+    "slug": "palustre-9-pulgadas-mango-plastico-industrial-total",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Palustres"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Palustre 9 pulgadas mango plástico industrial TOTAL"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0048-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 45010,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Palustre 9 pulgadas mango plástico industrial TOTAL"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 45010,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "palustre",
+      "pulgadas",
+      "mango",
+      "plastico",
+      "industrial",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0049",
+    "status": "review",
+    "name": "Palustre 12 pulgadas mango plástico industrial TOTAL",
+    "slug": "palustre-12-pulgadas-mango-plastico-industrial-total",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Palustres"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Palustre 12 pulgadas mango plástico industrial TOTAL"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0049-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 62300,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Palustre 12 pulgadas mango plástico industrial TOTAL"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 62300,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "palustre",
+      "pulgadas",
+      "mango",
+      "plastico",
+      "industrial",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0050",
+    "status": "review",
+    "name": "Tijera podar blister x 3 piezas industrial TOTAL",
+    "slug": "tijera-podar-blister-x-3-piezas-industrial-total",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tijera podar blister x 3 piezas industrial TOTAL"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0050-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 143710,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tijera podar blister x 3 piezas industrial TOTAL"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 143710,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tijera",
+      "podar",
+      "blister",
+      "piezas",
+      "industrial",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0051",
+    "status": "review",
+    "name": "Tijera podar 24 pulgadas industrial TOTAL",
+    "slug": "tijera-podar-24-pulgadas-industrial-total",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tijera podar 24 pulgadas industrial TOTAL"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0051-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 63350,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tijera podar 24 pulgadas industrial TOTAL"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 63350,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tijera",
+      "podar",
+      "pulgadas",
+      "industrial",
+      "total"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0052",
+    "status": "review",
+    "name": "Polea de gancho 1 tonelada 4 pulgadas RANGER",
+    "slug": "polea-de-gancho-1-tonelada-4-pulgadas-ranger",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-23",
+      "name": "Maquinaria y equipos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Izaje y equipos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Polea de gancho 1 tonelada 4 pulgadas RANGER"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0052-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 98280,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Polea de gancho 1 tonelada 4 pulgadas RANGER"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 98280,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "polea",
+      "gancho",
+      "tonelada",
+      "pulgadas",
+      "ranger"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0053",
+    "status": "review",
+    "name": "Polea de gancho 1.5 toneladas 5 pulgadas RANGER",
+    "slug": "polea-de-gancho-1-5-toneladas-5-pulgadas-ranger",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-23",
+      "name": "Maquinaria y equipos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Izaje y equipos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Polea de gancho 1.5 toneladas 5 pulgadas RANGER"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0053-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 136570,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Polea de gancho 1.5 toneladas 5 pulgadas RANGER"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 136570,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "polea",
+      "gancho",
+      "toneladas",
+      "pulgadas",
+      "ranger"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0054",
+    "status": "review",
+    "name": "Polea de gancho 2 toneladas 6 pulgadas RANGER",
+    "slug": "polea-de-gancho-2-toneladas-6-pulgadas-ranger",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-23",
+      "name": "Maquinaria y equipos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Izaje y equipos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Polea de gancho 2 toneladas 6 pulgadas RANGER"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0054-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 231420,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Polea de gancho 2 toneladas 6 pulgadas RANGER"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 231420,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "polea",
+      "gancho",
+      "toneladas",
+      "pulgadas",
+      "ranger"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0055",
+    "status": "review",
+    "name": "Estuco relleno cuarto 1.5 kg",
+    "slug": "estuco-relleno-cuarto-1-5-kg",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-10",
+      "name": "Construcción"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Materiales de construcción"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Estuco relleno cuarto 1.5 kg"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0055-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 8400,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Estuco relleno cuarto 1.5 kg"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 8400,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "estuco",
+      "relleno",
+      "cuarto"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0056",
+    "status": "review",
+    "name": "Espátula mango plástico 4 pulgadas VHARBOR",
+    "slug": "espatula-mango-plastico-4-pulgadas-vharbor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Espátulas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Espátula mango plástico 4 pulgadas VHARBOR"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0056-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2730,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Espátula mango plástico 4 pulgadas VHARBOR"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2730,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "espatula",
+      "mango",
+      "plastico",
+      "pulgadas",
+      "vharbor"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0057",
+    "status": "review",
+    "name": "Espátula mango plástico 5 pulgadas VHARBOR",
+    "slug": "espatula-mango-plastico-5-pulgadas-vharbor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Espátulas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Espátula mango plástico 5 pulgadas VHARBOR"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0057-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3220,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Espátula mango plástico 5 pulgadas VHARBOR"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3220,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "espatula",
+      "mango",
+      "plastico",
+      "pulgadas",
+      "vharbor"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0058",
+    "status": "review",
+    "name": "Espátula mango plástico 6 pulgadas VHARBOR",
+    "slug": "espatula-mango-plastico-6-pulgadas-vharbor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Espátulas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Espátula mango plástico 6 pulgadas VHARBOR"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0058-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3360,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Espátula mango plástico 6 pulgadas VHARBOR"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3360,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "espatula",
+      "mango",
+      "plastico",
+      "pulgadas",
+      "vharbor"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0059",
+    "status": "review",
+    "name": "Unión sanitaria 4 pulgadas Original Dilmar",
+    "slug": "union-sanitaria-4-pulgadas-original-dilmar",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Uniones sanitarias"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Unión sanitaria 4 pulgadas Original Dilmar"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0059-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3987,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión sanitaria 4 pulgadas Original Dilmar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3987,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "sanitaria",
+      "pulgadas",
+      "original",
+      "dilmar"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0060",
+    "status": "review",
+    "name": "Pegante solución UDUKE 60 cc",
+    "slug": "pegante-solucion-uduke-60-cc",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pegantes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Pegante solución UDUKE 60 cc"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0060-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2380,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pegante solución UDUKE 60 cc"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2380,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pegante",
+      "solucion",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0061",
+    "status": "review",
+    "name": "Toma aéreo industrial Kontiki polo/tierra 15A RETIE",
+    "slug": "toma-aereo-industrial-kontiki-polo-tierra-15a-retie",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tomas y conexiones"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Toma aéreo industrial Kontiki polo/tierra 15A RETIE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0061-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 9401,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Toma aéreo industrial Kontiki polo/tierra 15A RETIE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 9401,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "toma",
+      "aereo",
+      "industrial",
+      "kontiki",
+      "polo",
+      "tierra",
+      "15a",
+      "retie"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0062",
+    "status": "review",
+    "name": "Cinta aislante Cellux pequeña 5 m",
+    "slug": "cinta-aislante-cellux-pequena-5-m",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-02",
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios eléctricos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Cinta aislante Cellux pequeña 5 m"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0062-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1785,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cinta aislante Cellux pequeña 5 m"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1785,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cinta",
+      "aislante",
+      "cellux",
+      "pequena"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0063",
+    "status": "review",
+    "name": "Tubo LED T8 9W UDUKE",
+    "slug": "tubo-led-t8-9w-uduke",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-03",
+      "name": "Iluminación"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Iluminación LED"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tubo LED T8 9W UDUKE"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0063-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5891,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tubo LED T8 9W UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5891,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tubo",
+      "led",
+      "uduke"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0064",
+    "status": "review",
+    "name": "Llave mixta Stanley 9 pulgadas",
+    "slug": "llave-mixta-stanley-9-pulgadas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-06",
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Llaves"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Llave mixta Stanley 9 pulgadas"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0064-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 12971,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave mixta Stanley 9 pulgadas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 12971,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "mixta",
+      "stanley",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0065",
+    "status": "review",
+    "name": "Tijera podar corta rosas UDUKE 8 pulgadas",
+    "slug": "tijera-podar-corta-rosas-uduke-8-pulgadas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-18",
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Jardinería"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tijera podar corta rosas UDUKE 8 pulgadas"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0065-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 14518,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tijera podar corta rosas UDUKE 8 pulgadas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 14518,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tijera",
+      "podar",
+      "corta",
+      "rosas",
+      "uduke",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0066",
+    "status": "review",
+    "name": "Gastop fuerza media Unifix 10 g removible",
+    "slug": "gastop-fuerza-media-unifix-10-g-removible",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-13",
+      "name": "Pegantes, adhesivos y selladores"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Adhesivos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Gastop fuerza media Unifix 10 g removible"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0066-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 10710,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Gastop fuerza media Unifix 10 g removible"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 10710,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "gastop",
+      "fuerza",
+      "media",
+      "unifix",
+      "removible"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0067",
+    "status": "review",
+    "name": "Chapa de sobreponer Inafer 2 barras antitaladro derecha",
+    "slug": "chapa-de-sobreponer-inafer-2-barras-antitaladro-derecha",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chapas y cerraduras"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chapa de sobreponer Inafer 2 barras antitaladro derecha"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0067-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 135184,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chapa de sobreponer Inafer 2 barras antitaladro derecha"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 135184,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chapa",
+      "sobreponer",
+      "inafer",
+      "barras",
+      "antitaladro",
+      "derecha"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0068",
+    "status": "review",
+    "name": "Rodachín 1.5 pulgadas bola normal 40 mm 20 kg",
+    "slug": "rodachin-1-5-pulgadas-bola-normal-40-mm-20-kg",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-16",
+      "name": "Herrajes"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Rodachinas y herrajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Listado comercial verificado en Roxvan.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Rodachín 1.5 pulgadas bola normal 40 mm 20 kg"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0068-default",
+        "label": "Presentación publicada por proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1785,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Rodachín 1.5 pulgadas bola normal 40 mm 20 kg"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1785,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "rodachin",
+      "pulgadas",
+      "bola",
+      "normal"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
