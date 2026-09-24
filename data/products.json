@@ -21603,5 +21603,6162 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0209",
+    "status": "review",
+    "name": "Válvula de bola PVC pesada 1/2 soldar",
+    "slug": "valvula-de-bola-pvc-pesada-1-2-soldar",
+    "identification": {
+      "sku": "3011",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC pesada 1/2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0209-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3011",
+        "reference": "3011",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 22565,
+          "wholesalePrice": 22565
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC pesada 1/2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 22565,
+      "wholesalePrice": 22565,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "pesada",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0210",
+    "status": "review",
+    "name": "Válvula de bola PVC pesada 1 roscar",
+    "slug": "valvula-de-bola-pvc-pesada-1-roscar",
+    "identification": {
+      "sku": "3042",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC pesada 1 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0210-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3042",
+        "reference": "3042",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 30324,
+          "wholesalePrice": 30324
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC pesada 1 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 30324,
+      "wholesalePrice": 30324,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "pesada",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0211",
+    "status": "review",
+    "name": "Válvula de bola PVC pesada 1 1/4 roscar",
+    "slug": "valvula-de-bola-pvc-pesada-1-1-4-roscar",
+    "identification": {
+      "sku": "3085",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC pesada 1 1/4 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0211-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3085",
+        "reference": "3085",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 41663,
+          "wholesalePrice": 41663
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC pesada 1 1/4 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 41663,
+      "wholesalePrice": 41663,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "pesada",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0212",
+    "status": "review",
+    "name": "Válvula de bola PVC pesada 1 1/2 roscar",
+    "slug": "valvula-de-bola-pvc-pesada-1-1-2-roscar",
+    "identification": {
+      "sku": "3071",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC pesada 1 1/2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0212-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3071",
+        "reference": "3071",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 55872,
+          "wholesalePrice": 55872
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC pesada 1 1/2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 55872,
+      "wholesalePrice": 55872,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "pesada",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0213",
+    "status": "review",
+    "name": "Válvula de bola PVC pesada 2 roscar",
+    "slug": "valvula-de-bola-pvc-pesada-2-roscar",
+    "identification": {
+      "sku": "3075",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC pesada 2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0213-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3075",
+        "reference": "3075",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 73304,
+          "wholesalePrice": 73304
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC pesada 2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 73304,
+      "wholesalePrice": 73304,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "pesada",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0214",
+    "status": "review",
+    "name": "Válvula de bola PVC pesada 3/4 roscar",
+    "slug": "valvula-de-bola-pvc-pesada-3-4-roscar",
+    "identification": {
+      "sku": "3040",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC pesada 3/4 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0214-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3040",
+        "reference": "3040",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 30324,
+          "wholesalePrice": 30324
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC pesada 3/4 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 30324,
+      "wholesalePrice": 30324,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "pesada",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0215",
+    "status": "review",
+    "name": "Válvula de bola PVC manija larga 1/2 soldar",
+    "slug": "valvula-de-bola-pvc-manija-larga-1-2-soldar",
+    "identification": {
+      "sku": "3168",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC manija larga 1/2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0215-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3168",
+        "reference": "3168",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 22565,
+          "wholesalePrice": 22565
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC manija larga 1/2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 22565,
+      "wholesalePrice": 22565,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "manija",
+      "larga",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0216",
+    "status": "review",
+    "name": "Válvula de bola PVC manija larga 1 soldar",
+    "slug": "valvula-de-bola-pvc-manija-larga-1-soldar",
+    "identification": {
+      "sku": "3372",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC manija larga 1 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0216-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3372",
+        "reference": "3372",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 30324,
+          "wholesalePrice": 30324
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC manija larga 1 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 30324,
+      "wholesalePrice": 30324,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "manija",
+      "larga",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0217",
+    "status": "review",
+    "name": "Válvula de bola PVC manija larga 2 soldar",
+    "slug": "valvula-de-bola-pvc-manija-larga-2-soldar",
+    "identification": {
+      "sku": "3302",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC manija larga 2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0217-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3302",
+        "reference": "3302",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 73304,
+          "wholesalePrice": 73304
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC manija larga 2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 73304,
+      "wholesalePrice": 73304,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "manija",
+      "larga",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0218",
+    "status": "review",
+    "name": "Válvula de bola PVC manija larga 3/4 soldar",
+    "slug": "valvula-de-bola-pvc-manija-larga-3-4-soldar",
+    "identification": {
+      "sku": "3170",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC manija larga 3/4 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0218-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3170",
+        "reference": "3170",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 22565,
+          "wholesalePrice": 22565
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC manija larga 3/4 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 22565,
+      "wholesalePrice": 22565,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "manija",
+      "larga",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0219",
+    "status": "review",
+    "name": "Válvula de bola PVC manija larga 1/2 roscar",
+    "slug": "valvula-de-bola-pvc-manija-larga-1-2-roscar",
+    "identification": {
+      "sku": "3167",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC manija larga 1/2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0219-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3167",
+        "reference": "3167",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 22565,
+          "wholesalePrice": 22565
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC manija larga 1/2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 22565,
+      "wholesalePrice": 22565,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "manija",
+      "larga",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0220",
+    "status": "review",
+    "name": "Válvula de bola PVC manija larga 1 roscar",
+    "slug": "valvula-de-bola-pvc-manija-larga-1-roscar",
+    "identification": {
+      "sku": "3371",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC manija larga 1 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0220-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3371",
+        "reference": "3371",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 30324,
+          "wholesalePrice": 30324
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC manija larga 1 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 30324,
+      "wholesalePrice": 30324,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "manija",
+      "larga",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0221",
+    "status": "review",
+    "name": "Válvula de bola PVC manija larga 1 1/2 roscar",
+    "slug": "valvula-de-bola-pvc-manija-larga-1-1-2-roscar",
+    "identification": {
+      "sku": "3375",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC manija larga 1 1/2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0221-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3375",
+        "reference": "3375",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 41663,
+          "wholesalePrice": 41663
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC manija larga 1 1/2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 41663,
+      "wholesalePrice": 41663,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "manija",
+      "larga",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0222",
+    "status": "review",
+    "name": "Válvula de bola PVC manija larga 3/4 roscar",
+    "slug": "valvula-de-bola-pvc-manija-larga-3-4-roscar",
+    "identification": {
+      "sku": "3169",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC manija larga 3/4 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0222-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3169",
+        "reference": "3169",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 22565,
+          "wholesalePrice": 22565
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC manija larga 3/4 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 22565,
+      "wholesalePrice": 22565,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "manija",
+      "larga",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0223",
+    "status": "review",
+    "name": "Válvula de bola PVC manija larga 2 roscar",
+    "slug": "valvula-de-bola-pvc-manija-larga-2-roscar",
+    "identification": {
+      "sku": "3301",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC manija larga 2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0223-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3301",
+        "reference": "3301",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 113764,
+          "wholesalePrice": 113764
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC manija larga 2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 113764,
+      "wholesalePrice": 113764,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "manija",
+      "larga",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0224",
+    "status": "review",
+    "name": "Unión universal PVC 1/2 soldar",
+    "slug": "union-universal-pvc-1-2-soldar",
+    "identification": {
+      "sku": "3001",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 1/2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0224-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3001",
+        "reference": "3001",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5414,
+          "wholesalePrice": 5414
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 1/2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5414,
+      "wholesalePrice": 5414,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0225",
+    "status": "review",
+    "name": "Unión universal PVC 1 soldar",
+    "slug": "union-universal-pvc-1-soldar",
+    "identification": {
+      "sku": "3003",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 1 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0225-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3003",
+        "reference": "3003",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 8120,
+          "wholesalePrice": 8120
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 1 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 8120,
+      "wholesalePrice": 8120,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0226",
+    "status": "review",
+    "name": "Unión universal PVC 1 1/4 soldar",
+    "slug": "union-universal-pvc-1-1-4-soldar",
+    "identification": {
+      "sku": "3005",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 1 1/4 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0226-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3005",
+        "reference": "3005",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 12664,
+          "wholesalePrice": 12664
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 1 1/4 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 12664,
+      "wholesalePrice": 12664,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0227",
+    "status": "review",
+    "name": "Unión universal PVC 1 1/2 soldar",
+    "slug": "union-universal-pvc-1-1-2-soldar",
+    "identification": {
+      "sku": "3007",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 1 1/2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0227-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3007",
+        "reference": "3007",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 27294,
+          "wholesalePrice": 27294
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 1 1/2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 27294,
+      "wholesalePrice": 27294,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0228",
+    "status": "review",
+    "name": "Unión universal PVC 2 soldar",
+    "slug": "union-universal-pvc-2-soldar",
+    "identification": {
+      "sku": "3009",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0228-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3009",
+        "reference": "3009",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 41984,
+          "wholesalePrice": 41984
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 41984,
+      "wholesalePrice": 41984,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0229",
+    "status": "review",
+    "name": "Unión universal PVC 3 soldar",
+    "slug": "union-universal-pvc-3-soldar",
+    "identification": {
+      "sku": "3013",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 3 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0229-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3013",
+        "reference": "3013",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 52473,
+          "wholesalePrice": 52473
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 3 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 52473,
+      "wholesalePrice": 52473,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0230",
+    "status": "review",
+    "name": "Unión universal PVC 4 soldar",
+    "slug": "union-universal-pvc-4-soldar",
+    "identification": {
+      "sku": "3015",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 4 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0230-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3015",
+        "reference": "3015",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 234929,
+          "wholesalePrice": 234929
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 4 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 234929,
+      "wholesalePrice": 234929,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0231",
+    "status": "review",
+    "name": "Unión universal PVC 3/4 soldar",
+    "slug": "union-universal-pvc-3-4-soldar",
+    "identification": {
+      "sku": "3018",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 3/4 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0231-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3018",
+        "reference": "3018",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5414,
+          "wholesalePrice": 5414
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 3/4 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5414,
+      "wholesalePrice": 5414,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0232",
+    "status": "review",
+    "name": "Unión universal PVC 1/2 roscar",
+    "slug": "union-universal-pvc-1-2-roscar",
+    "identification": {
+      "sku": "3002",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 1/2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0232-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3002",
+        "reference": "3002",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5414,
+          "wholesalePrice": 5414
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 1/2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5414,
+      "wholesalePrice": 5414,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0233",
+    "status": "review",
+    "name": "Unión universal PVC 1 roscar",
+    "slug": "union-universal-pvc-1-roscar",
+    "identification": {
+      "sku": "3004",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 1 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0233-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3004",
+        "reference": "3004",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 8120,
+          "wholesalePrice": 8120
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 1 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 8120,
+      "wholesalePrice": 8120,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0234",
+    "status": "review",
+    "name": "Unión universal PVC 1 1/4 roscar",
+    "slug": "union-universal-pvc-1-1-4-roscar",
+    "identification": {
+      "sku": "3006",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 1 1/4 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0234-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3006",
+        "reference": "3006",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 12664,
+          "wholesalePrice": 12664
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 1 1/4 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 12664,
+      "wholesalePrice": 12664,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0235",
+    "status": "review",
+    "name": "Unión universal PVC 1 1/2 roscar",
+    "slug": "union-universal-pvc-1-1-2-roscar",
+    "identification": {
+      "sku": "3008",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 1 1/2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0235-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3008",
+        "reference": "3008",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 27294,
+          "wholesalePrice": 27294
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 1 1/2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 27294,
+      "wholesalePrice": 27294,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0236",
+    "status": "review",
+    "name": "Unión universal PVC 2 roscar",
+    "slug": "union-universal-pvc-2-roscar",
+    "identification": {
+      "sku": "3010",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0236-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3010",
+        "reference": "3010",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 41984,
+          "wholesalePrice": 41984
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 41984,
+      "wholesalePrice": 41984,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0237",
+    "status": "review",
+    "name": "Unión universal PVC 3 roscar",
+    "slug": "union-universal-pvc-3-roscar",
+    "identification": {
+      "sku": "3014",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 3 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0237-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3014",
+        "reference": "3014",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 52473,
+          "wholesalePrice": 52473
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 3 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 52473,
+      "wholesalePrice": 52473,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0238",
+    "status": "review",
+    "name": "Unión universal PVC 4 roscar",
+    "slug": "union-universal-pvc-4-roscar",
+    "identification": {
+      "sku": "3016",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 4 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0238-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3016",
+        "reference": "3016",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 234929,
+          "wholesalePrice": 234929
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 4 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 234929,
+      "wholesalePrice": 234929,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0239",
+    "status": "review",
+    "name": "Unión universal PVC 3/4 roscar",
+    "slug": "union-universal-pvc-3-4-roscar",
+    "identification": {
+      "sku": "3019",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Unión universal PVC 3/4 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0239-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3019",
+        "reference": "3019",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5414,
+          "wholesalePrice": 5414
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Unión universal PVC 3/4 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5414,
+      "wholesalePrice": 5414,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "union",
+      "universal",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0240",
+    "status": "review",
+    "name": "Válvula de bola PVC doble universal 1/2 soldar",
+    "slug": "valvula-de-bola-pvc-doble-universal-1-2-soldar",
+    "identification": {
+      "sku": "3027",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC doble universal 1/2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0240-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3027",
+        "reference": "3027",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 29530,
+          "wholesalePrice": 29530
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC doble universal 1/2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 29530,
+      "wholesalePrice": 29530,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "doble",
+      "universal",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0241",
+    "status": "review",
+    "name": "Válvula de bola PVC doble universal 3/4 roscar liviana",
+    "slug": "valvula-de-bola-pvc-doble-universal-3-4-roscar-liviana",
+    "identification": {
+      "sku": "3293",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC doble universal 3/4 roscar liviana"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0241-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3293",
+        "reference": "3293",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 30187,
+          "wholesalePrice": 30187
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC doble universal 3/4 roscar liviana"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 30187,
+      "wholesalePrice": 30187,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "doble",
+      "universal",
+      "roscar",
+      "liviana"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0242",
+    "status": "review",
+    "name": "Válvula de bola PVC doble universal 3/4 soldar liviana",
+    "slug": "valvula-de-bola-pvc-doble-universal-3-4-soldar-liviana",
+    "identification": {
+      "sku": "3294",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC doble universal 3/4 soldar liviana"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0242-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3294",
+        "reference": "3294",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 42298,
+          "wholesalePrice": 42298
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC doble universal 3/4 soldar liviana"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 42298,
+      "wholesalePrice": 42298,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "doble",
+      "universal",
+      "soldar",
+      "liviana"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0243",
+    "status": "review",
+    "name": "Válvula de bola PVC doble universal 1/2 roscar",
+    "slug": "valvula-de-bola-pvc-doble-universal-1-2-roscar",
+    "identification": {
+      "sku": "3029",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC doble universal 1/2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0243-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3029",
+        "reference": "3029",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 42412,
+          "wholesalePrice": 42412
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC doble universal 1/2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 42412,
+      "wholesalePrice": 42412,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "doble",
+      "universal",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0244",
+    "status": "review",
+    "name": "Llave jardín PVC 1/2 inserto nylon",
+    "slug": "llave-jardin-pvc-1-2-inserto-nylon",
+    "identification": {
+      "sku": "1022",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Llave jardín PVC 1/2 inserto nylon"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0244-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1022",
+        "reference": "1022",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 29048,
+          "wholesalePrice": 29048
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave jardín PVC 1/2 inserto nylon"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 29048,
+      "wholesalePrice": 29048,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "jardin",
+      "pvc",
+      "inserto",
+      "nylon"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0245",
+    "status": "review",
+    "name": "Llave jardín PVC 1/2 hembra soldar",
+    "slug": "llave-jardin-pvc-1-2-hembra-soldar",
+    "identification": {
+      "sku": "2015",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Llave jardín PVC 1/2 hembra soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0245-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2015",
+        "reference": "2015",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 21799,
+          "wholesalePrice": 21799
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Llave jardín PVC 1/2 hembra soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 21799,
+      "wholesalePrice": 21799,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "llave",
+      "jardin",
+      "pvc",
+      "hembra",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0246",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 1/2 soldar",
+    "slug": "valvula-de-bola-pvc-liviana-1-2-soldar",
+    "identification": {
+      "sku": "3061",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 1/2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0246-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3061",
+        "reference": "3061",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 9893,
+          "wholesalePrice": 9893
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 1/2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 9893,
+      "wholesalePrice": 9893,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0247",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 3/4 soldar",
+    "slug": "valvula-de-bola-pvc-liviana-3-4-soldar",
+    "identification": {
+      "sku": "3100",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 3/4 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0247-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3100",
+        "reference": "3100",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17905,
+          "wholesalePrice": 17905
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 3/4 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17905,
+      "wholesalePrice": 17905,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0248",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 1 soldar",
+    "slug": "valvula-de-bola-pvc-liviana-1-soldar",
+    "identification": {
+      "sku": "3102",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 1 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0248-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3102",
+        "reference": "3102",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 25653,
+          "wholesalePrice": 25653
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 1 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 25653,
+      "wholesalePrice": 25653,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0249",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 1 1/4 soldar",
+    "slug": "valvula-de-bola-pvc-liviana-1-1-4-soldar",
+    "identification": {
+      "sku": "3306",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 1 1/4 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0249-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3306",
+        "reference": "3306",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 41205,
+          "wholesalePrice": 41205
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 1 1/4 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 41205,
+      "wholesalePrice": 41205,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0250",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 1 1/2 soldar",
+    "slug": "valvula-de-bola-pvc-liviana-1-1-2-soldar",
+    "identification": {
+      "sku": "3308",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 1 1/2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0250-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3308",
+        "reference": "3308",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 48662,
+          "wholesalePrice": 48662
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 1 1/2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 48662,
+      "wholesalePrice": 48662,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0251",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 2 soldar",
+    "slug": "valvula-de-bola-pvc-liviana-2-soldar",
+    "identification": {
+      "sku": "3310",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0251-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3310",
+        "reference": "3310",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 58946,
+          "wholesalePrice": 58946
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 58946,
+      "wholesalePrice": 58946,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0252",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 3 soldar",
+    "slug": "valvula-de-bola-pvc-liviana-3-soldar",
+    "identification": {
+      "sku": "3720",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 3 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0252-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3720",
+        "reference": "3720",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 201487,
+          "wholesalePrice": 201487
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 3 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 201487,
+      "wholesalePrice": 201487,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0253",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 1/2 roscar",
+    "slug": "valvula-de-bola-pvc-liviana-1-2-roscar",
+    "identification": {
+      "sku": "3062",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 1/2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0253-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3062",
+        "reference": "3062",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 9893,
+          "wholesalePrice": 9893
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 1/2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 9893,
+      "wholesalePrice": 9893,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0254",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 3/4 roscar",
+    "slug": "valvula-de-bola-pvc-liviana-3-4-roscar",
+    "identification": {
+      "sku": "3099",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 3/4 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0254-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3099",
+        "reference": "3099",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17905,
+          "wholesalePrice": 17905
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 3/4 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17905,
+      "wholesalePrice": 17905,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0255",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 1 roscar",
+    "slug": "valvula-de-bola-pvc-liviana-1-roscar",
+    "identification": {
+      "sku": "3101",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 1 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0255-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3101",
+        "reference": "3101",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 25653,
+          "wholesalePrice": 25653
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 1 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 25653,
+      "wholesalePrice": 25653,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0256",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 1 1/4 roscar",
+    "slug": "valvula-de-bola-pvc-liviana-1-1-4-roscar",
+    "identification": {
+      "sku": "3305",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 1 1/4 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0256-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3305",
+        "reference": "3305",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 41205,
+          "wholesalePrice": 41205
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 1 1/4 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 41205,
+      "wholesalePrice": 41205,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0257",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 1 1/2 roscar",
+    "slug": "valvula-de-bola-pvc-liviana-1-1-2-roscar",
+    "identification": {
+      "sku": "3307",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 1 1/2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0257-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3307",
+        "reference": "3307",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 48662,
+          "wholesalePrice": 48662
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 1 1/2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 48662,
+      "wholesalePrice": 48662,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0258",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 2 roscar",
+    "slug": "valvula-de-bola-pvc-liviana-2-roscar",
+    "identification": {
+      "sku": "3309",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0258-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3309",
+        "reference": "3309",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 58946,
+          "wholesalePrice": 58946
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 58946,
+      "wholesalePrice": 58946,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0259",
+    "status": "review",
+    "name": "Válvula de bola PVC liviana 3 roscar",
+    "slug": "valvula-de-bola-pvc-liviana-3-roscar",
+    "identification": {
+      "sku": "3327",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola PVC liviana 3 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0259-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3327",
+        "reference": "3327",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 188306,
+          "wholesalePrice": 188306
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola PVC liviana 3 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 188306,
+      "wholesalePrice": 188306,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "pvc",
+      "liviana",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0260",
+    "status": "review",
+    "name": "Check anti-retorno PVC 1/2 roscar",
+    "slug": "check-anti-retorno-pvc-1-2-roscar",
+    "identification": {
+      "sku": "3021",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Check anti-retorno PVC 1/2 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0260-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3021",
+        "reference": "3021",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 27268,
+          "wholesalePrice": 27268
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno PVC 1/2 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 27268,
+      "wholesalePrice": 27268,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0261",
+    "status": "review",
+    "name": "Check anti-retorno PVC 3/4 roscar",
+    "slug": "check-anti-retorno-pvc-3-4-roscar",
+    "identification": {
+      "sku": "3022",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Check anti-retorno PVC 3/4 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0261-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3022",
+        "reference": "3022",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 41952,
+          "wholesalePrice": 41952
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno PVC 3/4 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 41952,
+      "wholesalePrice": 41952,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0262",
+    "status": "review",
+    "name": "Check anti-retorno PVC 1 roscar",
+    "slug": "check-anti-retorno-pvc-1-roscar",
+    "identification": {
+      "sku": "3025",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Check anti-retorno PVC 1 roscar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0262-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3025",
+        "reference": "3025",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 65924,
+          "wholesalePrice": 65924
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Check anti-retorno PVC 1 roscar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 65924,
+      "wholesalePrice": 65924,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "check",
+      "anti",
+      "retorno",
+      "pvc",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0263",
+    "status": "review",
+    "name": "Válvula de bola CPVC 1/2 soldar",
+    "slug": "valvula-de-bola-cpvc-1-2-soldar",
+    "identification": {
+      "sku": "3748",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola CPVC 1/2 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0263-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3748",
+        "reference": "3748",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 31950,
+          "wholesalePrice": 31950
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola CPVC 1/2 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 31950,
+      "wholesalePrice": 31950,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "cpvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0264",
+    "status": "review",
+    "name": "Válvula de bola CPVC 3/4 soldar",
+    "slug": "valvula-de-bola-cpvc-3-4-soldar",
+    "identification": {
+      "sku": "3749",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola CPVC 3/4 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0264-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3749",
+        "reference": "3749",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 49637,
+          "wholesalePrice": 49637
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola CPVC 3/4 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 49637,
+      "wholesalePrice": 49637,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "cpvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0265",
+    "status": "review",
+    "name": "Válvula de bola CPVC 1 soldar",
+    "slug": "valvula-de-bola-cpvc-1-soldar",
+    "identification": {
+      "sku": "3747",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola CPVC 1 soldar"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0265-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3747",
+        "reference": "3747",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 75537,
+          "wholesalePrice": 75537
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola CPVC 1 soldar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 75537,
+      "wholesalePrice": 75537,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "cpvc",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0266",
+    "status": "review",
+    "name": "Acople lavamanos/lavaplatos 40 cm",
+    "slug": "acople-lavamanos-lavaplatos-40-cm",
+    "identification": {
+      "sku": "2005",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Acople lavamanos/lavaplatos 40 cm"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0266-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2005",
+        "reference": "2005",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 6030,
+          "wholesalePrice": 6030
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Acople lavamanos/lavaplatos 40 cm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 6030,
+      "wholesalePrice": 6030,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "acople",
+      "lavamanos",
+      "lavaplatos"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0267",
+    "status": "review",
+    "name": "Acople lavamanos/lavaplatos 60 cm",
+    "slug": "acople-lavamanos-lavaplatos-60-cm",
+    "identification": {
+      "sku": "2008",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Acople lavamanos/lavaplatos 60 cm"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0267-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2008",
+        "reference": "2008",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 9046,
+          "wholesalePrice": 9046
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Acople lavamanos/lavaplatos 60 cm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 9046,
+      "wholesalePrice": 9046,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "acople",
+      "lavamanos",
+      "lavaplatos"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0268",
+    "status": "review",
+    "name": "Acople sanitario 40 cm",
+    "slug": "acople-sanitario-40-cm",
+    "identification": {
+      "sku": "2004",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Acople sanitario 40 cm"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0268-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2004",
+        "reference": "2004",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3632,
+          "wholesalePrice": 3632
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Acople sanitario 40 cm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3632,
+      "wholesalePrice": 3632,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "acople",
+      "sanitario"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0269",
+    "status": "review",
+    "name": "Acople lavamanos/lavaplatos 40 cm con registro",
+    "slug": "acople-lavamanos-lavaplatos-40-cm-con-registro",
+    "identification": {
+      "sku": "2002",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Acople lavamanos/lavaplatos 40 cm con registro"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0269-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2002",
+        "reference": "2002",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 20389,
+          "wholesalePrice": 20389
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Acople lavamanos/lavaplatos 40 cm con registro"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 20389,
+      "wholesalePrice": 20389,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "acople",
+      "lavamanos",
+      "lavaplatos",
+      "con",
+      "registro"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0270",
+    "status": "review",
+    "name": "Acople sanitario 40 cm con registro",
+    "slug": "acople-sanitario-40-cm-con-registro",
+    "identification": {
+      "sku": "2001",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Acople sanitario 40 cm con registro"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0270-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "2001",
+        "reference": "2001",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 20389,
+          "wholesalePrice": 20389
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Acople sanitario 40 cm con registro"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 20389,
+      "wholesalePrice": 20389,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "acople",
+      "sanitario",
+      "con",
+      "registro"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0271",
+    "status": "review",
+    "name": "Válvula de bola polipropileno 20 mm",
+    "slug": "valvula-de-bola-polipropileno-20-mm",
+    "identification": {
+      "sku": "3123",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola polipropileno 20 mm"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0271-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3123",
+        "reference": "3123",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 22480,
+          "wholesalePrice": 22480
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola polipropileno 20 mm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 22480,
+      "wholesalePrice": 22480,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "polipropileno"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0272",
+    "status": "review",
+    "name": "Válvula de bola polipropileno 25 mm",
+    "slug": "valvula-de-bola-polipropileno-25-mm",
+    "identification": {
+      "sku": "3125",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola polipropileno 25 mm"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0272-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3125",
+        "reference": "3125",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 26109,
+          "wholesalePrice": 26109
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola polipropileno 25 mm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 26109,
+      "wholesalePrice": 26109,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "polipropileno"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0273",
+    "status": "review",
+    "name": "Válvula de bola polipropileno 32 mm",
+    "slug": "valvula-de-bola-polipropileno-32-mm",
+    "identification": {
+      "sku": "3122",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Válvulas y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia tomada de lista de precios PCP comercializada por Coval.",
+    "measurements": {
+      "originalText": "Válvula de bola polipropileno 32 mm"
+    },
+    "specifications": {
+      "sourceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0273-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3122",
+        "reference": "3122",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 30799,
+          "wholesalePrice": 30799
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula de bola polipropileno 32 mm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 30799,
+      "wholesalePrice": 30799,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "bola",
+      "polipropileno"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
