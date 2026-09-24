@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "purpose": "Configuracion de validacion masiva de productos, proveedores y precios sin alterar la base maestra.",
+  "masterCatalog": "data/products.json",
+  "protectedHistoricalCounts": [692, 792],
+  "currentCatalogControl": "data/catalog-control.json",
+  "matching": {
+    "automaticStatuses": ["MATCH_EXACT", "MATCH_EQUIVALENT"],
+    "manualStatuses": ["POSSIBLE_MATCH", "NEEDS_REVIEW", "DIFFERENT_PRODUCT"],
+    "neverAutoPublish": ["NEEDS_REVIEW", "DIFFERENT_PRODUCT"]
+  },
+  "priceUnits": ["unidad","par","juego","paquete","caja","bulto","kg","g","metro","m2","m3","litro","galon","rollo","carrete","docena"],
+  "requiredEvidence": ["source","sourceUrl","consultedAt","originalProductName","presentation"],
+  "pricePolicy": {
+    "inventedPricesAllowed": false,
+    "zeroMeansUnknown": true,
+    "quoteOnlyWhenNoVerifiablePublicPrice": true,
+    "preserveSourcePrice": true
+  },
+  "publishPolicy": {
+    "existingMasterProductIsNeverDuplicated": true,
+    "newProductRequiresEvidence": true,
+    "sourceAndDateRequired": true
+  }
+}
