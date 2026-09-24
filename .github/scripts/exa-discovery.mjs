@@ -9,13 +9,22 @@ const consultedAt = new Date().toISOString();
 const active = sources.filter(s => s.status === 'active' && Array.isArray(s.searchQueries) && s.searchQueries.length);
 
 if (!apiKey) {
-  fs.writeFileSync(outPath, JSON.stringify({
-    version: '1.0.0',
-    consultedAt,
-    status: 'SKIPPED_NO_API_KEY',
-    results: []
-  }, null, 2) + '\n');
-  console.log('Exa discovery skipped: EXA_API_KEY is not configured.');
+  let previous = null;
+  try { previous = readJson(outPath); } catch {}
+  if (previous && Array.isArray(previous.results) && previous.results.length) {
+    previous.lastAttemptAt = consultedAt;
+    previous.status = 'STALE_NO_API_KEY';
+    fs.writeFileSync(outPath, JSON.stringify(previous, null, 2) + '\n');
+    console.log(JSON.stringify({status:'STALE_NO_API_KEY', preservedResults:previous.results.length}, null, 2));
+  } else {
+    fs.writeFileSync(outPath, JSON.stringify({
+      version: '1.0.0',
+      consultedAt,
+      status: 'SKIPPED_NO_API_KEY',
+      results: []
+    }, null, 2) + '\n');
+    console.log('Exa discovery skipped: EXA_API_KEY is not configured and no previous evidence exists.');
+  }
   process.exit(0);
 }
 
