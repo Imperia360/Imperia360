@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "consultedAt": "2026-09-24",
-  "status": "STALE_NO_API_KEY_WITH_IN_CHAT_RESEARCH",
-  "sourcesQueried": 14,
+  "status": "IN_CHAT_RESEARCH_BATCH_APPENDED",
+  "sourcesQueried": 24,
   "results": [
     {
       "sourceId": "corbeta",
@@ -471,7 +471,1313 @@
         "sourceUrl",
         "reference"
       ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Lima Rotativa Tugsteno SM",
+      "productName": "Lima Rotativa Tugsteno SM",
+      "reference": "SM",
+      "presentation": "variante según selección",
+      "price": 66400,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Macho Especial Para Montaje De Insertos Helicoil 2701 HEPYC",
+      "productName": "Macho Especial Para Montaje De Insertos Helicoil 2701 HEPYC",
+      "reference": "HEPYC 2701",
+      "presentation": "variante según selección",
+      "price": 44100,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Machos de roscar TIVOLY HSS Rosca Ordinaria",
+      "productName": "Machos de roscar TIVOLY HSS Rosca Ordinaria",
+      "reference": "TIVOLY HSS",
+      "presentation": "variante según selección",
+      "price": 1700000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Fresa Escariador Hssco C247 Cobalto",
+      "productName": "Fresa Escariador Hssco C247 Cobalto",
+      "reference": "C247",
+      "presentation": "variante según selección",
+      "price": 97000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Juego De Brocas En Hss Pulgadas – Dormer A190 – 1/16 A 1/2″",
+      "productName": "Juego De Brocas En Hss Pulgadas – Dormer A190 – 1/16 A 1/2″",
+      "reference": "A190",
+      "presentation": "juego",
+      "price": 781100,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Juego de brocas escalonadas óxido negro 3 piezas Truper",
+      "productName": "Juego de brocas escalonadas óxido negro 3 piezas Truper",
+      "reference": "3 piezas",
+      "presentation": "juego",
+      "price": 113200,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Afilador eléctrico para brocas con punta 118°, Truper 101684",
+      "productName": "Afilador eléctrico para brocas con punta 118°, Truper 101684",
+      "reference": "101684",
+      "presentation": "unidad",
+      "price": 120500,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Broca Vidrio Toolcraft 3/16",
+      "productName": "Broca Vidrio Toolcraft 3/16",
+      "reference": "3/16",
+      "presentation": "unidad",
+      "price": 15100,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Broca Vidrio Toolcraft 1/8",
+      "productName": "Broca Vidrio Toolcraft 1/8",
+      "reference": "1/8",
+      "presentation": "unidad",
+      "price": 5500,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Sierra Circular 7 1/4″ Eje 5/8″ Con 40 Dientes",
+      "productName": "Sierra Circular 7 1/4″ Eje 5/8″ Con 40 Dientes",
+      "reference": "7 1/4",
+      "presentation": "unidad",
+      "price": 26500,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Segueta Sierra Sable TC4551 12″",
+      "productName": "Segueta Sierra Sable TC4551 12″",
+      "reference": "TC4551",
+      "presentation": "unidad",
+      "price": 19400,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Segueta Sierra Sable TC4550 9″",
+      "productName": "Segueta Sierra Sable TC4550 9″",
+      "reference": "TC4550",
+      "presentation": "unidad",
+      "price": 21700,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Segueta Sierra Sable TC4549 6″",
+      "productName": "Segueta Sierra Sable TC4549 6″",
+      "reference": "TC4549",
+      "presentation": "unidad",
+      "price": 14400,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Llave de Impacto Neumática 1/2″ TC5348",
+      "productName": "Llave de Impacto Neumática 1/2″ TC5348",
+      "reference": "TC5348",
+      "presentation": "unidad",
+      "price": 186300,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Prensa de Banco Deslizante 5″ TC5062",
+      "productName": "Prensa de Banco Deslizante 5″ TC5062",
+      "reference": "TC5062",
+      "presentation": "unidad",
+      "price": 360000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Fresa P/Ruteadora Jgo. Toolcraft TC3454 08 Pzas.",
+      "productName": "Fresa P/Ruteadora Jgo. Toolcraft TC3454 08 Pzas.",
+      "reference": "TC3454",
+      "presentation": "juego 8 piezas",
+      "price": 89600,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Fresa P/Ruteadora Jgo. Toolcraft TC3453 05 Pzas.",
+      "productName": "Fresa P/Ruteadora Jgo. Toolcraft TC3453 05 Pzas.",
+      "reference": "TC3453",
+      "presentation": "juego 5 piezas",
+      "price": 70800,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Escuadra Magnética Para Soldar 5″",
+      "productName": "Escuadra Magnética Para Soldar 5″",
+      "reference": "5 pulgadas",
+      "presentation": "unidad",
+      "price": 46800,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Pinza Portaelectrodo TC5239 300 Amp",
+      "productName": "Pinza Portaelectrodo TC5239 300 Amp",
+      "reference": "TC5239",
+      "presentation": "unidad",
+      "price": 46900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Mango Para Lima Con Adaptadores",
+      "productName": "Mango Para Lima Con Adaptadores",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 8000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Set De Pistolas De Aire Mas Manguera TC3908 Toolcraft",
+      "productName": "Set De Pistolas De Aire Mas Manguera TC3908 Toolcraft",
+      "reference": "TC3908",
+      "presentation": "set",
+      "price": 130000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Brocha Mango Plástico Con Cerdas Blancas 3″ TC9075",
+      "productName": "Brocha Mango Plástico Con Cerdas Blancas 3″ TC9075",
+      "reference": "TC9075",
+      "presentation": "unidad",
+      "price": 6600,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/",
+      "title": "Brocha Mango Plástico Con Cerdas Blancas 2 1/2″ TC9074",
+      "productName": "Brocha Mango Plástico Con Cerdas Blancas 2 1/2″ TC9074",
+      "reference": "TC9074",
+      "presentation": "unidad",
+      "price": 3800,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/zona-mayorista/",
+      "title": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x20",
+      "productName": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x20",
+      "reference": "29 piezas",
+      "presentation": "lote x20",
+      "price": 6800000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/zona-mayorista/",
+      "title": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x10",
+      "productName": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x10",
+      "reference": "29 piezas",
+      "presentation": "lote x10",
+      "price": 4760000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/zona-mayorista/",
+      "title": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x5",
+      "productName": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x5",
+      "reference": "29 piezas",
+      "presentation": "lote x5",
+      "price": 2720000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/zona-mayorista/",
+      "title": "Minipulidora Angular TC5477 4.1/2 1200W X 50 UNIDADES",
+      "productName": "Minipulidora Angular TC5477 4.1/2 1200W X 50 UNIDADES",
+      "reference": "TC5477",
+      "presentation": "lote x50",
+      "price": 6500000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/zona-mayorista/",
+      "title": "Minipulidora Angular TC5477 4.1/2 1200W X 20 UNIDADES",
+      "productName": "Minipulidora Angular TC5477 4.1/2 1200W X 20 UNIDADES",
+      "reference": "TC5477",
+      "presentation": "lote x20",
+      "price": 2928000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/zona-mayorista/",
+      "title": "Minipulidora Angular TC5477 4.1/2 1200W X 10 UNIDADES",
+      "productName": "Minipulidora Angular TC5477 4.1/2 1200W X 10 UNIDADES",
+      "reference": "TC5477",
+      "presentation": "lote x10",
+      "price": 1708000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/categoria-producto/herramientas-profesionales-industriales/",
+      "title": "Generador inversores silencioso, encendido manual, Truper 103278",
+      "productName": "Generador inversores silencioso, encendido manual, Truper 103278",
+      "reference": "103278",
+      "presentation": "unidad",
+      "price": 2664100,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/categoria-producto/herramientas-profesionales-industriales/",
+      "title": "Palpador Baker Type 302 rango 0.01 mm a 0.8 mm",
+      "productName": "Palpador Baker Type 302 rango 0.01 mm a 0.8 mm",
+      "reference": "Type 302",
+      "presentation": "unidad",
+      "price": 625000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "paloquemao_online",
+      "url": "https://paloquemaoonline.com/categoria-producto/herramientas-profesionales-industriales/",
+      "title": "Medidor de espesor Análogo Ref. Mitutoyo 7321 Rango 0 a 10 mm",
+      "productName": "Medidor de espesor Análogo Ref. Mitutoyo 7321 Rango 0 a 10 mm",
+      "reference": "7321",
+      "presentation": "unidad",
+      "price": 428400,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "2 Torres de elevación/bloqueo vehículos 2 ton profesional",
+      "productName": "2 Torres de elevación/bloqueo vehículos 2 ton profesional",
+      "reference": "TORRES DE BLOQUEO",
+      "presentation": "par",
+      "price": 140900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Aceitera manual de 300 ml con bomba UYUSTOOLS",
+      "productName": "Aceitera manual de 300 ml con bomba UYUSTOOLS",
+      "reference": "ACA300U",
+      "presentation": "unidad",
+      "price": 16000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Aceitera manual de 500 ml con bomba UYUSTOOLS",
+      "productName": "Aceitera manual de 500 ml con bomba UYUSTOOLS",
+      "reference": "ACA500U",
+      "presentation": "unidad",
+      "price": 16720,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Acolilladora DEWALT 12 pulgadas 1600W DWS715 + disco aluminio 80T",
+      "productName": "Acolilladora DEWALT 12 pulgadas 1600W DWS715 + disco aluminio 80T",
+      "reference": "DWS715 + DWA03230",
+      "presentation": "unidad",
+      "price": 2868789,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Acolilladora industrial con base 10 pulgadas Makita",
+      "productName": "Acolilladora industrial con base 10 pulgadas Makita",
+      "reference": "LH1040",
+      "presentation": "unidad",
+      "price": 2467388,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Acolilladora industrial DEWALT 10 pulgadas 1650W 4600 RPM",
+      "productName": "Acolilladora industrial DEWALT 10 pulgadas 1650W 4600 RPM",
+      "reference": "DW714 / 10 pulgadas",
+      "presentation": "unidad",
+      "price": 1421189,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Adaptador angular portapunta 1/4 YATO",
+      "productName": "Adaptador angular portapunta 1/4 YATO",
+      "reference": "YT-04637",
+      "presentation": "unidad",
+      "price": 88,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Adaptador angular portapunta 1/4 YATO",
+      "productName": "Adaptador angular portapunta 1/4 YATO",
+      "reference": "YT-04631",
+      "presentation": "unidad",
+      "price": 45,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Adaptador colocadora de tuercas YATO",
+      "productName": "Adaptador colocadora de tuercas YATO",
+      "reference": "YT-36191",
+      "presentation": "unidad",
+      "price": 200,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Adaptador de impacto profesional 1/2 H a 3/4 M YATO",
+      "productName": "Adaptador de impacto profesional 1/2 H a 3/4 M YATO",
+      "reference": "YT-1067",
+      "presentation": "unidad",
+      "price": 18900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Adaptador de impacto profesional 3/4 H a 1 M YATO",
+      "productName": "Adaptador de impacto profesional 3/4 H a 1 M YATO",
+      "reference": "YT-1168",
+      "presentation": "unidad",
+      "price": 23025,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Adaptador de pulidora a motosierra UYUSTOOLS 12 pulgadas",
+      "productName": "Adaptador de pulidora a motosierra UYUSTOOLS 12 pulgadas",
+      "reference": "AMO412",
+      "presentation": "unidad",
+      "price": 52900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Adaptador porta puntas taladro x3 pzs",
+      "productName": "Adaptador porta puntas taladro x3 pzs",
+      "reference": "YT-04699",
+      "presentation": "juego x3",
+      "price": 9600,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "rhino",
+      "url": "https://rhino.com.co/tienda/",
+      "title": "Adaptador reductor impacto hembra 3/4 a macho 1/2 YATO",
+      "productName": "Adaptador reductor impacto hembra 3/4 a macho 1/2 YATO",
+      "reference": "YT-1259",
+      "presentation": "unidad",
+      "price": 15600,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "global_tools",
+      "url": "https://globaltoolscompaniaferretera.com/",
+      "title": "Teflon industrial 19mm x 0.10mm x 50m",
+      "productName": "Teflon industrial 19mm x 0.10mm x 50m",
+      "reference": "19mm x 0.10mm x 50m",
+      "presentation": "rollo",
+      "price": 10800,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "global_tools",
+      "url": "https://globaltoolscompaniaferretera.com/",
+      "title": "Yee reducida sanitaria en PVC",
+      "productName": "Yee reducida sanitaria en PVC",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 21600,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "global_tools",
+      "url": "https://globaltoolscompaniaferretera.com/",
+      "title": "Yee sanitaria en PVC",
+      "productName": "Yee sanitaria en PVC",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 11200,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "global_tools",
+      "url": "https://globaltoolscompaniaferretera.com/",
+      "title": "Tee doble sanitaria en PVC",
+      "productName": "Tee doble sanitaria en PVC",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 18600,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "global_tools",
+      "url": "https://globaltoolscompaniaferretera.com/",
+      "title": "Tee reducida sanitaria en PVC",
+      "productName": "Tee reducida sanitaria en PVC",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 23900,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/",
+      "title": "Disco sierra para herramienta rotativa 6pz TRUPER",
+      "productName": "Disco sierra para herramienta rotativa 6pz TRUPER",
+      "reference": "102328",
+      "presentation": "paquete x6",
+      "price": 30500,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/",
+      "title": "Disco de corte PFERD 7 x 1/8 x 7/8 para acero",
+      "productName": "Disco de corte PFERD 7 x 1/8 x 7/8 para acero",
+      "reference": null,
+      "presentation": "unidad",
+      "price": 8500,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/",
+      "title": "Pad velcro disco para lijadora TRUPER",
+      "productName": "Pad velcro disco para lijadora TRUPER",
+      "reference": "19390 / PAD-861VE",
+      "presentation": "unidad",
+      "price": 50000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "invercrisan",
+      "url": "https://invercrisan.com/",
+      "title": "Disco diamantado 7 turbo DEWALT",
+      "productName": "Disco diamantado 7 turbo DEWALT",
+      "reference": "DW47700L",
+      "presentation": "unidad",
+      "price": 45000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "sociedad_ferretera_mg",
+      "url": "https://sociedadferreteramg.com/",
+      "title": "Polipasto eléctrico de 1000 kg, motor de 1500 W",
+      "productName": "Polipasto eléctrico de 1000 kg, motor de 1500 W",
+      "reference": "16848",
+      "presentation": "unidad",
+      "price": 2289990,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "sociedad_ferretera_mg",
+      "url": "https://sociedadferreteramg.com/",
+      "title": "Báscula electrónica de plataforma plegable 500 kg",
+      "productName": "Báscula electrónica de plataforma plegable 500 kg",
+      "reference": "15733",
+      "presentation": "unidad",
+      "price": 1299990,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "tustechos",
+      "url": "https://tustechos.com/",
+      "title": "Kit completo accesorios teja gris perfil 7 teja fibrocemento",
+      "productName": "Kit completo accesorios teja gris perfil 7 teja fibrocemento",
+      "reference": null,
+      "presentation": "kit",
+      "price": 20000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "tustechos",
+      "url": "https://tustechos.com/",
+      "title": "Tanque 1000 litros tipo botella",
+      "productName": "Tanque 1000 litros tipo botella",
+      "reference": "1000 L",
+      "presentation": "unidad",
+      "price": 506844,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "tustechos",
+      "url": "https://tustechos.com/",
+      "title": "Tanque cónico 10000 litros",
+      "productName": "Tanque cónico 10000 litros",
+      "reference": "10000 L",
+      "presentation": "unidad",
+      "price": 5978160,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "tustechos",
+      "url": "https://tustechos.com/",
+      "title": "Teja metálica Super 1000 calibre 28",
+      "productName": "Teja metálica Super 1000 calibre 28",
+      "reference": "Super 1000 calibre 28",
+      "presentation": "unidad",
+      "price": 20648,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "bombeo",
+      "url": "https://bombeo.co/",
+      "title": "Pedrollo Flotador Eléctrico PVC 10 mts 10 Amp",
+      "productName": "Pedrollo Flotador Eléctrico PVC 10 mts 10 Amp",
+      "reference": "VIYILANT",
+      "presentation": "unidad",
+      "price": 385000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "bombeo",
+      "url": "https://bombeo.co/",
+      "title": "Pearl Presostato Square D 40/60 PSI Nema 1 1/4",
+      "productName": "Pearl Presostato Square D 40/60 PSI Nema 1 1/4",
+      "reference": "9013FSG2J24",
+      "presentation": "unidad",
+      "price": 190000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "bombeo",
+      "url": "https://bombeo.co/",
+      "title": "Altamira Interruptor automático de presión 127Vac 10 Amp G1 10bar",
+      "productName": "Altamira Interruptor automático de presión 127Vac 10 Amp G1 10bar",
+      "reference": "PRES10",
+      "presentation": "unidad",
+      "price": 170000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "bombeo",
+      "url": "https://bombeo.co/",
+      "title": "Pearl Flotador Eléctrico 20 Amp",
+      "productName": "Pearl Flotador Eléctrico 20 Amp",
+      "reference": "MAC5",
+      "presentation": "unidad",
+      "price": 450000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "bombeo",
+      "url": "https://bombeo.co/",
+      "title": "Pearl Bomba sumergible multietapa 0.7 Hp 110 Vac",
+      "productName": "Pearl Bomba sumergible multietapa 0.7 Hp 110 Vac",
+      "reference": "4MSP 07A16S",
+      "presentation": "unidad",
+      "price": 1040000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "bombeo",
+      "url": "https://bombeo.co/",
+      "title": "HydroSmart Controlador Inteligente Multifunción 0.5-5.0 Hp 220 Vac",
+      "productName": "HydroSmart Controlador Inteligente Multifunción 0.5-5.0 Hp 220 Vac",
+      "reference": "M531 Evolution - 33824",
+      "presentation": "unidad",
+      "price": 970000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "bombeo",
+      "url": "https://bombeo.co/",
+      "title": "Siemens Arrancadores electrónicos suaves SIRIUS 3RW52 40 HP/220V",
+      "productName": "Siemens Arrancadores electrónicos suaves SIRIUS 3RW52 40 HP/220V",
+      "reference": "3RW5235-6AC14 / 100468976",
+      "presentation": "unidad",
+      "price": 64440000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "bombeo",
+      "url": "https://bombeo.co/",
+      "title": "Pedrollo Tanque hidroneumático 24 Litros",
+      "productName": "Pedrollo Tanque hidroneumático 24 Litros",
+      "reference": "24 SF",
+      "presentation": "unidad",
+      "price": 250000,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "luis_penagos",
+      "url": "https://ferreterialuispenagos.com/",
+      "title": "Mini motosierra inalámbrica de cadena 6 + baterías + cargador TOTAL",
+      "productName": "Mini motosierra inalámbrica de cadena 6 + baterías + cargador TOTAL",
+      "reference": "UTGSLI20662",
+      "presentation": "unidad",
+      "price": 235700,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "luis_penagos",
+      "url": "https://ferreterialuispenagos.com/",
+      "title": "Llave inalámbrica de impacto 3/4 + 2 baterías + cargador + copas largas TOTAL",
+      "productName": "Llave inalámbrica de impacto 3/4 + 2 baterías + cargador + copas largas TOTAL",
+      "reference": "UTIWLI20105",
+      "presentation": "unidad",
+      "price": null,
+      "currency": "COP",
+      "priceStatus": "quote_only_or_unknown",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference"
+      ]
+    },
+    {
+      "sourceId": "luis_penagos",
+      "url": "https://ferreterialuispenagos.com/",
+      "title": "Careta soldar fotosensible FENIX 995 FURIUS",
+      "productName": "Careta soldar fotosensible FENIX 995 FURIUS",
+      "reference": "FW95",
+      "presentation": "unidad",
+      "price": 38500,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
+    },
+    {
+      "sourceId": "luis_penagos",
+      "url": "https://ferreterialuispenagos.com/",
+      "title": "Llave inalámbrica de impacto 1/2 + 2 baterías 4Ah + 3 copas TOTAL",
+      "productName": "Llave inalámbrica de impacto 1/2 + 2 baterías 4Ah + 3 copas TOTAL",
+      "reference": "UTIWLI2055",
+      "presentation": "unidad",
+      "price": 141700,
+      "currency": "COP",
+      "priceStatus": "verifiable_public_price",
+      "verifiedFields": [
+        "name",
+        "presentation",
+        "sourceUrl",
+        "reference",
+        "price"
+      ]
     }
   ],
-  "lastAttemptAt": "2026-09-24T12:11:58.524Z"
+  "lastAttemptAt": "2026-09-24T13:40:00Z"
 }
