@@ -26,7 +26,7 @@ for (const offer of offers) {
   const sourceUrl = offer.sourceUrl || null;
   const consultedAt = offer.consultedAt || null;
   const name = offer.originalProductName || offer.name || null;
-  const reference = normalize(offer.reference || offer.sku || '');
+  const rawReference = offer.reference || offer.sku || '';\n  const reference = normalize(rawReference === '-' || rawReference === '—' ? '' : rawReference);
   const price = offer.price == null ? null : Number(offer.price);
   const issues = [];
 
