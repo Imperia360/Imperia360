@@ -43653,5 +43653,2127 @@
       "duplicateStatus": "checked_name_and_sku",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0451",
+    "status": "review",
+    "name": "Lavaloza líquido Dersa Rey",
+    "slug": "lavaloza-liquido-dersa-rey",
+    "identification": {
+      "sku": "RO5798",
+      "manufacturerReference": null,
+      "supplierReference": "RO5798",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Dersa",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Lavaloza líquido Dersa Rey"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0451-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5798",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 23000,
+          "wholesalePrice": 20172
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Lavaloza líquido Dersa Rey"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 23000,
+      "wholesalePrice": 20172,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "lavaloza",
+      "liquido",
+      "dersa",
+      "rey"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0452",
+    "status": "review",
+    "name": "Desinfectante Fabuloso 2 L Fresca Primavera",
+    "slug": "desinfectante-fabuloso-2-l-fresca-primavera",
+    "identification": {
+      "sku": "RO5789",
+      "manufacturerReference": null,
+      "supplierReference": "RO5789",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Fabuloso",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Desinfectante Fabuloso 2 L Fresca Primavera"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0452-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5789",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 19371,
+          "wholesalePrice": 17649
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Desinfectante Fabuloso 2 L Fresca Primavera"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 19371,
+      "wholesalePrice": 17649,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "desinfectante",
+      "fabuloso",
+      "fresca",
+      "primavera"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0453",
+    "status": "review",
+    "name": "Blanqueador Clorox 3800 ml",
+    "slug": "blanqueador-clorox-3800-ml",
+    "identification": {
+      "sku": "RO5790",
+      "manufacturerReference": null,
+      "supplierReference": "RO5790",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Clorox",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Blanqueador Clorox 3800 ml"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0453-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5790",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 16499,
+          "wholesalePrice": 14756
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Blanqueador Clorox 3800 ml"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 16499,
+      "wholesalePrice": 14756,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "blanqueador",
+      "clorox",
+      "3800"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0454",
+    "status": "review",
+    "name": "Escoba suave Zulia sin cabo Eco Pinto R113",
+    "slug": "escoba-suave-zulia-sin-cabo-eco-pinto-r113",
+    "identification": {
+      "sku": "RO5732",
+      "manufacturerReference": "R113",
+      "supplierReference": "RO5732",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Pinto",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Escoba suave Zulia sin cabo Eco Pinto R113"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0454-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5732",
+        "reference": "R113",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4900,
+          "wholesalePrice": 4303
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Escoba suave Zulia sin cabo Eco Pinto R113"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4900,
+      "wholesalePrice": 4303,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "escoba",
+      "suave",
+      "zulia",
+      "sin",
+      "cabo",
+      "eco",
+      "pinto",
+      "r113"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0455",
+    "status": "review",
+    "name": "Cabo metálico Fuller 1.40 m colores surtidos",
+    "slug": "cabo-metalico-fuller-1-40-m-colores-surtidos",
+    "identification": {
+      "sku": "RO5733",
+      "manufacturerReference": null,
+      "supplierReference": "RO5733",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Fuller",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Cabo metálico Fuller 1.40 m colores surtidos"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0455-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5733",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 8976,
+          "wholesalePrice": 8142
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cabo metálico Fuller 1.40 m colores surtidos"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 8976,
+      "wholesalePrice": 8142,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cabo",
+      "metalico",
+      "fuller",
+      "colores",
+      "surtidos"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0456",
+    "status": "review",
+    "name": "Bolsa basura negra Task Pro 70x90 rollo",
+    "slug": "bolsa-basura-negra-task-pro-70x90-rollo",
+    "identification": {
+      "sku": "RO5592",
+      "manufacturerReference": "1017120",
+      "supplierReference": "RO5592",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Bolsa basura negra Task Pro 70x90 rollo"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0456-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO5592",
+        "reference": "1017120",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5415,
+          "wholesalePrice": 4834
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Bolsa basura negra Task Pro 70x90 rollo"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5415,
+      "wholesalePrice": 4834,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "bolsa",
+      "basura",
+      "negra",
+      "task",
+      "pro",
+      "70x90",
+      "rollo"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0457",
+    "status": "review",
+    "name": "Guante doméstico Pantera negro talla M x par",
+    "slug": "guante-domestico-pantera-negro-talla-m-x-par",
+    "identification": {
+      "sku": "RO0817",
+      "manufacturerReference": null,
+      "supplierReference": "RO0817",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Pantera",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Guante doméstico Pantera negro talla M x par"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0457-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO0817",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3359,
+          "wholesalePrice": 2729
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Guante doméstico Pantera negro talla M x par"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3359,
+      "wholesalePrice": 2729,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "guante",
+      "domestico",
+      "pantera",
+      "negro",
+      "talla",
+      "par"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0458",
+    "status": "review",
+    "name": "Ambientador Glade repuesto x3 63 ml",
+    "slug": "ambientador-glade-repuesto-x3-63-ml",
+    "identification": {
+      "sku": "RO0853",
+      "manufacturerReference": null,
+      "supplierReference": "RO0853",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Glade",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Ambientador Glade repuesto x3 63 ml"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0458-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO0853",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 31999,
+          "wholesalePrice": 28798
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Ambientador Glade repuesto x3 63 ml"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 31999,
+      "wholesalePrice": 28798,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "ambientador",
+      "glade",
+      "repuesto"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0459",
+    "status": "review",
+    "name": "Bolsa basura blanca Task Pro 60x70 x10 unidades",
+    "slug": "bolsa-basura-blanca-task-pro-60x70-x10-unidades",
+    "identification": {
+      "sku": "RO0865",
+      "manufacturerReference": null,
+      "supplierReference": "RO0865",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Bolsa basura blanca Task Pro 60x70 x10 unidades"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0459-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO0865",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4915,
+          "wholesalePrice": 4388
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Bolsa basura blanca Task Pro 60x70 x10 unidades"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4915,
+      "wholesalePrice": 4388,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "bolsa",
+      "basura",
+      "blanca",
+      "task",
+      "pro",
+      "60x70",
+      "x10",
+      "unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0460",
+    "status": "review",
+    "name": "Repuesto escoba convencional fibra verde 35 cm",
+    "slug": "repuesto-escoba-convencional-fibra-verde-35-cm",
+    "identification": {
+      "sku": "RO4906",
+      "manufacturerReference": "55084",
+      "supplierReference": "RO4906",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Repuesto escoba convencional fibra verde 35 cm"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0460-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4906",
+        "reference": "55084",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 6100,
+          "wholesalePrice": 5355
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Repuesto escoba convencional fibra verde 35 cm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 6100,
+      "wholesalePrice": 5355,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "repuesto",
+      "escoba",
+      "convencional",
+      "fibra",
+      "verde"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0461",
+    "status": "review",
+    "name": "Papelera vaivén 7 L blanca Colplast",
+    "slug": "papelera-vaiven-7-l-blanca-colplast",
+    "identification": {
+      "sku": "RO0147",
+      "manufacturerReference": null,
+      "supplierReference": "RO0147",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Colplast",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Papelera vaivén 7 L blanca Colplast"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0461-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO0147",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 13999,
+          "wholesalePrice": 12499
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Papelera vaivén 7 L blanca Colplast"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 13999,
+      "wholesalePrice": 12499,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "papelera",
+      "vaiven",
+      "blanca",
+      "colplast"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0462",
+    "status": "review",
+    "name": "Bolsa negra mediana 55x60 cm x10 unidades",
+    "slug": "bolsa-negra-mediana-55x60-cm-x10-unidades",
+    "identification": {
+      "sku": "RO9602",
+      "manufacturerReference": null,
+      "supplierReference": "RO9602",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Bolsa negra mediana 55x60 cm x10 unidades"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0462-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO9602",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1800,
+          "wholesalePrice": 1500
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Bolsa negra mediana 55x60 cm x10 unidades"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1800,
+      "wholesalePrice": 1500,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "bolsa",
+      "negra",
+      "mediana",
+      "55x60",
+      "x10",
+      "unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0463",
+    "status": "review",
+    "name": "Trapero Task Pro microfibra verde 300 g sin cabo",
+    "slug": "trapero-task-pro-microfibra-verde-300-g-sin-cabo",
+    "identification": {
+      "sku": "RO4399",
+      "manufacturerReference": "1004009",
+      "supplierReference": "RO4399",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Trapero Task Pro microfibra verde 300 g sin cabo"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0463-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4399",
+        "reference": "1004009",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 19260,
+          "wholesalePrice": 18075
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Trapero Task Pro microfibra verde 300 g sin cabo"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 19260,
+      "wholesalePrice": 18075,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "trapero",
+      "task",
+      "pro",
+      "microfibra",
+      "verde",
+      "300",
+      "sin",
+      "cabo"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0464",
+    "status": "review",
+    "name": "Trapero Coca 435 g Task Pro No.32",
+    "slug": "trapero-coca-435-g-task-pro-no-32",
+    "identification": {
+      "sku": "RO4398",
+      "manufacturerReference": "1003178",
+      "supplierReference": "RO4398",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Trapero Coca 435 g Task Pro No.32"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0464-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4398",
+        "reference": "1003178",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 11246,
+          "wholesalePrice": 10413
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Trapero Coca 435 g Task Pro No.32"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 11246,
+      "wholesalePrice": 10413,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "trapero",
+      "coca",
+      "435",
+      "task",
+      "pro"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0465",
+    "status": "review",
+    "name": "Paño microfibra verde x5 40x40 cm",
+    "slug": "pano-microfibra-verde-x5-40x40-cm",
+    "identification": {
+      "sku": "RO4501",
+      "manufacturerReference": "1300753",
+      "supplierReference": "RO4501",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Paño microfibra verde x5 40x40 cm"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0465-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4501",
+        "reference": "1300753",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 21623,
+          "wholesalePrice": 19700
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Paño microfibra verde x5 40x40 cm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 21623,
+      "wholesalePrice": 19700,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pano",
+      "microfibra",
+      "verde",
+      "40x40"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0466",
+    "status": "review",
+    "name": "Paño microfibra azul x5 40x40 cm",
+    "slug": "pano-microfibra-azul-x5-40x40-cm",
+    "identification": {
+      "sku": "RO4500",
+      "manufacturerReference": "1300751",
+      "supplierReference": "RO4500",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Paño microfibra azul x5 40x40 cm"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0466-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4500",
+        "reference": "1300751",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 21623,
+          "wholesalePrice": 19700
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Paño microfibra azul x5 40x40 cm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 21623,
+      "wholesalePrice": 19700,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pano",
+      "microfibra",
+      "azul",
+      "40x40"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0467",
+    "status": "review",
+    "name": "Esponjilla oro plata Task Arcoaseo suave x1",
+    "slug": "esponjilla-oro-plata-task-arcoaseo-suave-x1",
+    "identification": {
+      "sku": "RO4404",
+      "manufacturerReference": "1635150",
+      "supplierReference": "RO4404",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Esponjilla oro plata Task Arcoaseo suave x1"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0467-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4404",
+        "reference": "1635150",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2950,
+          "wholesalePrice": 2633
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Esponjilla oro plata Task Arcoaseo suave x1"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2950,
+      "wholesalePrice": 2633,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "esponjilla",
+      "oro",
+      "plata",
+      "task",
+      "arcoaseo",
+      "suave"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0468",
+    "status": "review",
+    "name": "Dispensador papel H jumbo Kimberly",
+    "slug": "dispensador-papel-h-jumbo-kimberly",
+    "identification": {
+      "sku": "RO4423",
+      "manufacturerReference": "20312",
+      "supplierReference": "RO4423",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Kimberly",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Dispensador papel H jumbo Kimberly"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0468-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4423",
+        "reference": "20312",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 85876,
+          "wholesalePrice": 81488
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Dispensador papel H jumbo Kimberly"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 85876,
+      "wholesalePrice": 81488,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "dispensador",
+      "papel",
+      "jumbo",
+      "kimberly"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0469",
+    "status": "review",
+    "name": "Bolsa basura Task Pro verde 70x90 x10 unidades",
+    "slug": "bolsa-basura-task-pro-verde-70x90-x10-unidades",
+    "identification": {
+      "sku": "RO4402",
+      "manufacturerReference": "1017118",
+      "supplierReference": "RO4402",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Bolsa basura Task Pro verde 70x90 x10 unidades"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0469-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4402",
+        "reference": "1017118",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 6914,
+          "wholesalePrice": 6173
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Bolsa basura Task Pro verde 70x90 x10 unidades"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 6914,
+      "wholesalePrice": 6173,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "bolsa",
+      "basura",
+      "task",
+      "pro",
+      "verde",
+      "70x90",
+      "x10",
+      "unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0470",
+    "status": "review",
+    "name": "Repuesto escoba Task Pro Dalia dura 37 cm",
+    "slug": "repuesto-escoba-task-pro-dalia-dura-37-cm",
+    "identification": {
+      "sku": "RO6008",
+      "manufacturerReference": "1006250",
+      "supplierReference": "RO6008",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Repuesto escoba Task Pro Dalia dura 37 cm"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0470-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO6008",
+        "reference": "1006250",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5931,
+          "wholesalePrice": 5296
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Repuesto escoba Task Pro Dalia dura 37 cm"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5931,
+      "wholesalePrice": 5296,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "repuesto",
+      "escoba",
+      "task",
+      "pro",
+      "dalia",
+      "dura"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0471",
+    "status": "review",
+    "name": "Cabo plastificado reposición roscado 1.2 m",
+    "slug": "cabo-plastificado-reposicion-roscado-1-2-m",
+    "identification": {
+      "sku": "RO4326",
+      "manufacturerReference": "S206099",
+      "supplierReference": "RO4326",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Cabo plastificado reposición roscado 1.2 m"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0471-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4326",
+        "reference": "S206099",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3052,
+          "wholesalePrice": 2826
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cabo plastificado reposición roscado 1.2 m"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3052,
+      "wholesalePrice": 2826,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cabo",
+      "plastificado",
+      "reposicion",
+      "roscado"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0472",
+    "status": "review",
+    "name": "Bolsa basura negra Task Pro 55x60 x10 unidades",
+    "slug": "bolsa-basura-negra-task-pro-55x60-x10-unidades",
+    "identification": {
+      "sku": "RO4315",
+      "manufacturerReference": "1017152",
+      "supplierReference": "RO4315",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo institucional y doméstico"
+    },
+    "brand": {
+      "name": "Task Pro",
+      "status": "verified"
+    },
+    "description": "Referencia comercial publicada por Roxvan.",
+    "measurements": {
+      "originalText": "Bolsa basura negra Task Pro 55x60 x10 unidades"
+    },
+    "specifications": {
+      "source": "Roxvan",
+      "catalogVerified": true
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0472-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "RO4315",
+        "reference": "1017152",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 2016,
+          "wholesalePrice": 1799
+        },
+        "availability": {
+          "status": "available",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Bolsa basura negra Task Pro 55x60 x10 unidades"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 2016,
+      "wholesalePrice": 1799,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "bolsa",
+      "basura",
+      "negra",
+      "task",
+      "pro",
+      "55x60",
+      "x10",
+      "unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "checked_name_and_sku",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
