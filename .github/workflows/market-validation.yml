@@ -2,47 +2,59 @@ name: Validacion masiva de mercado con IA
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/market-validation.yml"
+      - ".github/scripts/exa-discovery.mjs"
+      - ".github/scripts/build-evidence-from-discovery.mjs"
+      - ".github/scripts/market-validation.mjs"
+      - "js/semantic-reconciler.js"
+      - "data/catalog-sources.json"
+      - "data/market-validation-config.json"
   schedule:
     - cron: '17 5 * * 1-5'
 
 permissions:
   contents: write
 
+concurrency:
+  group: imperia-market-validation
+  cancel-in-progress: false
+
 jobs:
-  discover:
+  validate:
+    name: Descubrir -> evidenciar -> reconciliar -> validar
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Configurar Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - name: Descubrimiento de fuentes con Exa
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
         run: node .github/scripts/exa-discovery.mjs
 
-  reconcile:
-    needs: discover
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Configurar Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
       - name: Construir evidencia de mercado
         run: node .github/scripts/build-evidence-from-discovery.mjs
+
       - name: Reconciliacion semantica
         run: node js/semantic-reconciler.js
+
+      - name: Auditoria de catalogo
+        run: node .github/scripts/catalog-audit.mjs
+
       - name: Validacion final
         run: node .github/scripts/market-validation.mjs
-      - name: Publicar resultados de auditoria
+
+      - name: Publicar solo resultados protegidos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/market-offers.json data/product-matches.json data/reconciliation-review.json data/validation-results.json data/exa-discovery.json
+          git add data/exa-discovery.json data/market-offers.json data/product-matches.json data/reconciliation-review.json data/catalog-audit.json data/validation-results.json
           git diff --cached --quiet || git commit -m "chore: actualizar evidencia y reconciliacion de mercado"
           git push
