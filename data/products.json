@@ -1,1 +1,424 @@
-[]
+[
+  {
+    "id": "imp-0001",
+    "status": "review",
+    "name": "Chazo plástico con tornillo 1/4 x 50 unidades",
+    "slug": "chazo-plastico-con-tornillo-1-4-x-50-unidades",
+    "identification": {
+      "sku": "RO4396",
+      "manufacturerReference": "HT1238",
+      "supplierReference": "13604",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "confirmed"
+    },
+    "description": "Chazo plástico con tornillo, presentación de 50 unidades.",
+    "measurements": {
+      "diameter": "1/4",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "50",
+      "unit": "unidades",
+      "originalText": "CHAZO PLASTICO CON TORNILLO 1/4 X 50UNDS (HT1238)"
+    },
+    "specifications": {
+      "sourceSku": "RO4396",
+      "sourceReference": "13604",
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0001-50",
+        "label": "50 unidades",
+        "quantity": 50,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "RO4396",
+        "reference": "13604",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3398,
+          "wholesalePrice": 2428
+        },
+        "availability": {
+          "status": "available",
+          "stock": 5
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo plástico con tornillo 1/4 x 50 unidades UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3398,
+      "wholesalePrice": 2428,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": 5,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "anclaje",
+      "tornilleria",
+      "1/4",
+      "50 unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0002",
+    "status": "review",
+    "name": "Chazo plástico con tornillo 5/16 x 50 unidades",
+    "slug": "chazo-plastico-con-tornillo-5-16-x-50-unidades",
+    "identification": {
+      "sku": "RO3577",
+      "manufacturerReference": "HT1239",
+      "supplierReference": "13605",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "confirmed"
+    },
+    "description": "Chazo plástico con tornillo, presentación de 50 unidades.",
+    "measurements": {
+      "diameter": "5/16",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "50",
+      "unit": "unidades",
+      "originalText": "CHAZO PLASTICO CON TORNILLO 5/16 X 50UNDS (HT1239)"
+    },
+    "specifications": {
+      "sourceSku": "RO3577",
+      "sourceReference": "13605",
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0002-50",
+        "label": "50 unidades",
+        "quantity": 50,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "RO3577",
+        "reference": "13605",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4652,
+          "wholesalePrice": 3721
+        },
+        "availability": {
+          "status": "available",
+          "stock": 6
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo plástico con tornillo 5/16 x 50 unidades UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4652,
+      "wholesalePrice": 3721,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": 6,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "anclaje",
+      "tornilleria",
+      "5/16",
+      "50 unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0003",
+    "status": "review",
+    "name": "Chazo plástico con tornillo 3/8 x 50 unidades",
+    "slug": "chazo-plastico-con-tornillo-3-8-x-50-unidades",
+    "identification": {
+      "sku": "RO4874",
+      "manufacturerReference": "HT1240",
+      "supplierReference": "13606",
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "confirmed"
+    },
+    "description": "Chazo plástico con tornillo, presentación de 50 unidades.",
+    "measurements": {
+      "diameter": "3/8",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "50",
+      "unit": "unidades",
+      "originalText": "CHAZO PLASTICO CON TORNILLO 3/8 X 50UNDS (HT1240)"
+    },
+    "specifications": {
+      "sourceSku": "RO4874",
+      "sourceReference": "13606",
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0003-50",
+        "label": "50 unidades",
+        "quantity": 50,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "RO4874",
+        "reference": "13606",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7717,
+          "wholesalePrice": 5512
+        },
+        "availability": {
+          "status": "available",
+          "stock": 5
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo plástico con tornillo 3/8 x 50 unidades UDUKE"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7717,
+      "wholesalePrice": 5512,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": 5,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "anclaje",
+      "tornilleria",
+      "3/8",
+      "50 unidades"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "clear",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0004",
+    "status": "review",
+    "name": "Chazo plástico con tornillo 1/4 x 50 unidades",
+    "slug": "chazo-plastico-con-tornillo-1-4-x-50-unidades-roxvan",
+    "identification": {
+      "sku": "RO4396",
+      "manufacturerReference": "HT1238",
+      "supplierReference": "13604",
+      "alternativeReferences": [
+        "RO4396"
+      ]
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": "UDUKE",
+      "status": "confirmed"
+    },
+    "description": "Registro de control de precio mayorista de la referencia 13604.",
+    "measurements": {
+      "diameter": "1/4",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": "50",
+      "unit": "unidades",
+      "originalText": "CHAZO PLASTICO CON TORNILLO 1/4 X 50UNDS (HT1238)"
+    },
+    "specifications": {
+      "sourceSku": "RO4396",
+      "sourceReference": "13604",
+      "recordType": "price-control",
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0004-50",
+        "label": "50 unidades",
+        "quantity": 50,
+        "unit": "unidad",
+        "salesUnit": "paquete",
+        "sku": "RO4396",
+        "reference": "13604",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3398,
+          "wholesalePrice": 2428
+        },
+        "availability": {
+          "status": "available",
+          "stock": 5
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo plástico con tornillo 1/4 x 50 unidades"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3398,
+      "wholesalePrice": 2428,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "available",
+      "stock": 5,
+      "unit": "paquete",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [
+      "imp-0001"
+    ],
+    "tags": [
+      "control",
+      "precio mayorista"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "possible_duplicate",
+      "lastReviewedAt": "2026-09-23"
+    }
+  }
+]
