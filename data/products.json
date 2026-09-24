@@ -17942,5 +17942,585 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0171",
+    "status": "review",
+    "name": "Calculadora electrónica 12 dígitos OE-962",
+    "slug": "calculadora-electronica-12-digitos-oe-962",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-26",
+      "name": "Ferretería general"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Papelería y medición"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia pública verificable consultada en Roxvan.",
+    "measurements": {
+      "originalText": "Calculadora electrónica 12 dígitos OE-962"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0171-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 14255,
+          "wholesalePrice": 12671
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Calculadora electrónica 12 dígitos OE-962"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 14255,
+      "wholesalePrice": 12671,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "calculadora",
+      "electronica",
+      "digitos",
+      "962"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0172",
+    "status": "review",
+    "name": "Vela 14 oz tapa dorada Jasmine Santal Candle Lite",
+    "slug": "vela-14-oz-tapa-dorada-jasmine-santal-candle-lite",
+    "identification": {
+      "sku": "4473052",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo y hogar"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia pública verificable consultada en Roxvan.",
+    "measurements": {
+      "originalText": "Vela 14 oz tapa dorada Jasmine Santal Candle Lite"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0172-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "4473052",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 53729,
+          "wholesalePrice": 45150
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Vela 14 oz tapa dorada Jasmine Santal Candle Lite"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 53729,
+      "wholesalePrice": 45150,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "vela",
+      "tapa",
+      "dorada",
+      "jasmine",
+      "santal",
+      "candle",
+      "lite"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0173",
+    "status": "review",
+    "name": "Señal de precaución piso mojado PINTO",
+    "slug": "senal-de-precaucion-piso-mojado-pinto",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-19",
+      "name": "Aseo y limpieza"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Aseo y limpieza"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia pública verificable consultada en Roxvan.",
+    "measurements": {
+      "originalText": "Señal de precaución piso mojado PINTO"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0173-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 31499,
+          "wholesalePrice": 27449
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Señal de precaución piso mojado PINTO"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 31499,
+      "wholesalePrice": 27449,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "senal",
+      "precaucion",
+      "piso",
+      "mojado",
+      "pinto"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0174",
+    "status": "review",
+    "name": "Pintura vinilo Premium Tipo 1 blanco hueso galón Algreco",
+    "slug": "pintura-vinilo-premium-tipo-1-blanco-hueso-galon-algreco",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-12",
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Pinturas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia pública verificable consultada en Roxvan.",
+    "measurements": {
+      "originalText": "Pintura vinilo Premium Tipo 1 blanco hueso galón Algreco"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0174-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 62720,
+          "wholesalePrice": 44800
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Pintura vinilo Premium Tipo 1 blanco hueso galón Algreco"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 62720,
+      "wholesalePrice": 44800,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "pintura",
+      "vinilo",
+      "premium",
+      "tipo",
+      "blanco",
+      "hueso",
+      "galon",
+      "algreco"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0175",
+    "status": "review",
+    "name": "Chapa sobreponer Inafer 2 barras antitaladro derecha C-999",
+    "slug": "chapa-sobreponer-inafer-2-barras-antitaladro-derecha-c-999",
+    "identification": {
+      "sku": "22SD000",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-15",
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Cerrajería"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia pública verificable consultada en Roxvan.",
+    "measurements": {
+      "originalText": "Chapa sobreponer Inafer 2 barras antitaladro derecha C-999"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0175-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "22SD000",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 135184,
+          "wholesalePrice": 113600
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chapa sobreponer Inafer 2 barras antitaladro derecha C-999"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 135184,
+      "wholesalePrice": 113600,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chapa",
+      "sobreponer",
+      "inafer",
+      "barras",
+      "antitaladro",
+      "derecha",
+      "999"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0176",
+    "status": "review",
+    "name": "Rodachín 1 1/2 bola normal 40 mm 20 kg",
+    "slug": "rodachin-1-1-2-bola-normal-40-mm-20-kg",
+    "identification": {
+      "sku": "HT40256",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-16",
+      "name": "Herrajes"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Herrajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Referencia pública verificable consultada en Roxvan.",
+    "measurements": {
+      "originalText": "Rodachín 1 1/2 bola normal 40 mm 20 kg"
+    },
+    "specifications": {
+      "marketSource": "Roxvan"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0176-default",
+        "label": "Presentación publicada",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "HT40256",
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 1785,
+          "wholesalePrice": 1500
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Rodachín 1 1/2 bola normal 40 mm 20 kg"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 1785,
+      "wholesalePrice": 1500,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Roxvan"
+    },
+    "supplier": {
+      "name": "Roxvan",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "rodachin",
+      "bola",
+      "normal"
+    ],
+    "dataQuality": {
+      "source": "Roxvan",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "marca",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
