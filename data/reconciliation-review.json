@@ -1,6 +1,182 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-09-24T11:51:23.959Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-09-24T11:54:40.499Z",
+  "count": 7,
+  "items": [
+    {
+      "candidate": {
+        "name": "Lija Roja Abracol Grano 120",
+        "reference": null,
+        "brand": "Abracol",
+        "category": null
+      },
+      "evidence": {
+        "source": "corbeta",
+        "sourceUrl": "https://www.corbeta.com.co/ferreteria/materiales-industriales/abrasivos/lijas/lija-roja-abracol-grano-120.html",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Lija Roja Abracol Grano 120",
+        "presentation": "unidad/hoja",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 83,
+        "productId": "imp-0085",
+        "productName": "Lija 3M grano 80 331Q",
+        "score": 0.25
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Martillo Bellota 8001-O Pulido 9 Onz",
+        "reference": "8001-O",
+        "brand": "Bellota",
+        "category": null
+      },
+      "evidence": {
+        "source": "corbeta",
+        "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/martillo/martillo-8001-o-pulido-9-onz.html",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Martillo Bellota 8001-O Pulido 9 Onz",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 62,
+        "productId": "imp-0064",
+        "productName": "Llave mixta Stanley 9 pulgadas",
+        "score": 0.0909
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "CHAZO DUOPOWER",
+        "reference": null,
+        "brand": "fischer",
+        "category": null
+      },
+      "evidence": {
+        "source": "mundial_de_tornillos",
+        "sourceUrl": "https://www.mundialdetornillos.com/producto/chazo-duopower",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "CHAZO DUOPOWER",
+        "presentation": "según referencia seleccionada",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 9,
+        "productId": "imp-0010",
+        "productName": "Chazo plastico 1/4",
+        "score": 0.2
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "BROCA FISCHER SDS PLUS IV QUATTRIC 30/200/250",
+        "reference": null,
+        "brand": "Fischer",
+        "category": null
+      },
+      "evidence": {
+        "source": "mundial_de_tornillos",
+        "sourceUrl": "https://www.mundialdetornillos.com/producto/broca-fischer-sds-plus",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "BROCA FISCHER SDS PLUS IV QUATTRIC 30/200/250",
+        "presentation": "30/200/250",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 96,
+        "productId": "imp-0098",
+        "productName": "Broca para concreto SDS Plus rotomartillo",
+        "score": 0.25
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "reference": "73158",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "coval",
+        "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "presentation": "unidad",
+        "price": 6400,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 37,
+        "productId": "imp-0038",
+        "productName": "Lavaplatos de empotrar",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "reference": "73159",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "coval",
+        "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "presentation": "unidad",
+        "price": 2600,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 37,
+        "productId": "imp-0038",
+        "productName": "Lavaplatos de empotrar",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "reference": "73152",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "coval",
+        "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "presentation": "unidad",
+        "price": 1350,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 37,
+        "productId": "imp-0038",
+        "productName": "Lavaplatos de empotrar",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    }
+  ]
 }

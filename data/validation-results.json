@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "lastRun": "2026-09-24T11:51:24.048Z",
+  "lastRun": "2026-09-24T11:54:40.632Z",
   "summary": {
-    "sourcesChecked": 0,
-    "offersRead": 0,
-    "matched": 0,
-    "newCandidates": 0,
-    "needsReview": 0,
+    "sourcesChecked": 3,
+    "offersRead": 5,
+    "matched": 1,
+    "newCandidates": 4,
+    "needsReview": 4,
     "invalid": 0,
     "masterProducts": 488,
     "automaticPublication": false
@@ -15,5 +15,56 @@
     "existingMasterProductIsNeverDuplicated": true,
     "inventedPricesAllowed": false
   },
-  "results": []
+  "results": [
+    {
+      "source": "corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/materiales-industriales/abrasivos/lijas/lija-roja-abracol-grano-120.html",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Lija Roja Abracol Grano 120",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/martillo/martillo-8001-o-pulido-9-onz.html",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Martillo Bellota 8001-O Pulido 9 Onz",
+      "reference": "-",
+      "productId": "imp-0447",
+      "status": "MATCH_EXACT",
+      "issues": []
+    },
+    {
+      "source": "mundial_de_tornillos",
+      "sourceUrl": "https://www.mundialdetornillos.com/producto/chazo-duopower",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "CHAZO DUOPOWER",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "mundial_de_tornillos",
+      "sourceUrl": "https://www.mundialdetornillos.com/producto/broca-fischer-sds-plus",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "BROCA FISCHER SDS PLUS IV QUATTRIC 30/200/250",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "coval",
+      "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    }
+  ]
 }\n

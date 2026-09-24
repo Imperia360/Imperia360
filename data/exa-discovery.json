@@ -1,7 +1,7 @@
 {
   "version": "1.1.0",
   "consultedAt": "2026-09-24",
-  "status": "COMPLETED",
+  "status": "STALE_NO_API_KEY",
   "sourcesQueried": 8,
   "results": [
     {
@@ -126,5 +126,6 @@
         "sourceUrl"
       ]
     }
-  ]
+  ],
+  "lastAttemptAt": "2026-09-24T11:54:40.365Z"
 }
