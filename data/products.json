@@ -33366,5 +33366,4468 @@
       "duplicateStatus": "pending_cross_source",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0333",
+    "status": "review",
+    "name": "Aspersor de rosca 1/2 NPT a 14°",
+    "slug": "aspersor-de-rosca-1-2-npt-a-14",
+    "identification": {
+      "sku": "1016",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Aspersor de rosca 1/2 NPT a 14°"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0333-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1016",
+        "reference": "1016",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 49147,
+          "wholesalePrice": 49147
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Aspersor de rosca 1/2 NPT a 14°"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 49147,
+      "wholesalePrice": 49147,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "aspersor",
+      "rosca",
+      "npt"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0334",
+    "status": "review",
+    "name": "Racor estaca aspersor 1/2",
+    "slug": "racor-estaca-aspersor-1-2",
+    "identification": {
+      "sku": "1018",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Racor estaca aspersor 1/2"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0334-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1018",
+        "reference": "1018",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 9951,
+          "wholesalePrice": 9951
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Racor estaca aspersor 1/2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 9951,
+      "wholesalePrice": 9951,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "racor",
+      "estaca",
+      "aspersor"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0335",
+    "status": "review",
+    "name": "Kit aspersor de rosca 1/2 + estaca + 3 boquillas",
+    "slug": "kit-aspersor-de-rosca-1-2-estaca-3-boquillas",
+    "identification": {
+      "sku": "1028",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Kit aspersor de rosca 1/2 + estaca + 3 boquillas"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0335-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1028",
+        "reference": "1028",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 58983,
+          "wholesalePrice": 58983
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Kit aspersor de rosca 1/2 + estaca + 3 boquillas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 58983,
+      "wholesalePrice": 58983,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "kit",
+      "aspersor",
+      "rosca",
+      "estaca",
+      "boquillas"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0336",
+    "status": "review",
+    "name": "Aspersor de rosca 3/4 a 23°",
+    "slug": "aspersor-de-rosca-3-4-a-23",
+    "identification": {
+      "sku": "1014",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Aspersor de rosca 3/4 a 23°"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0336-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "1014",
+        "reference": "1014",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 74785,
+          "wholesalePrice": 74785
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Aspersor de rosca 3/4 a 23°"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 74785,
+      "wholesalePrice": 74785,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "aspersor",
+      "rosca"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0337",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 1/2 soldar",
+    "slug": "valvula-radial-pvc-dos-universales-1-2-soldar",
+    "identification": {
+      "sku": "3251",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 1/2 soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0337-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3251",
+        "reference": "3251",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 1/2 soldar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0338",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 3/4 soldar",
+    "slug": "valvula-radial-pvc-dos-universales-3-4-soldar",
+    "identification": {
+      "sku": "3252",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 3/4 soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0338-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3252",
+        "reference": "3252",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 3/4 soldar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0339",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 1 soldar",
+    "slug": "valvula-radial-pvc-dos-universales-1-soldar",
+    "identification": {
+      "sku": "3253",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 1 soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0339-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3253",
+        "reference": "3253",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 1 soldar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0340",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 1 1/2 soldar",
+    "slug": "valvula-radial-pvc-dos-universales-1-1-2-soldar",
+    "identification": {
+      "sku": "3255",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 1 1/2 soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0340-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3255",
+        "reference": "3255",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 1 1/2 soldar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0341",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 2 soldar",
+    "slug": "valvula-radial-pvc-dos-universales-2-soldar",
+    "identification": {
+      "sku": "3296",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 2 soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0341-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3296",
+        "reference": "3296",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 2 soldar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0342",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 3 soldar",
+    "slug": "valvula-radial-pvc-dos-universales-3-soldar",
+    "identification": {
+      "sku": "3257",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 3 soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0342-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3257",
+        "reference": "3257",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 3 soldar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0343",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 4 soldar",
+    "slug": "valvula-radial-pvc-dos-universales-4-soldar",
+    "identification": {
+      "sku": "3258",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 4 soldar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0343-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3258",
+        "reference": "3258",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 4 soldar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "soldar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0344",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 1/2 roscar",
+    "slug": "valvula-radial-pvc-dos-universales-1-2-roscar",
+    "identification": {
+      "sku": "3259",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 1/2 roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0344-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3259",
+        "reference": "3259",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 1/2 roscar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0345",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 3/4 roscar",
+    "slug": "valvula-radial-pvc-dos-universales-3-4-roscar",
+    "identification": {
+      "sku": "3260",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 3/4 roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0345-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3260",
+        "reference": "3260",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 3/4 roscar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0346",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 1 roscar",
+    "slug": "valvula-radial-pvc-dos-universales-1-roscar",
+    "identification": {
+      "sku": "3261",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 1 roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0346-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3261",
+        "reference": "3261",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 1 roscar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0347",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 1 1/2 roscar",
+    "slug": "valvula-radial-pvc-dos-universales-1-1-2-roscar",
+    "identification": {
+      "sku": "3263",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 1 1/2 roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0347-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3263",
+        "reference": "3263",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 1 1/2 roscar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0348",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 2 roscar",
+    "slug": "valvula-radial-pvc-dos-universales-2-roscar",
+    "identification": {
+      "sku": "3297",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 2 roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0348-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3297",
+        "reference": "3297",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 2 roscar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0349",
+    "status": "review",
+    "name": "Válvula radial PVC dos universales 3 roscar",
+    "slug": "valvula-radial-pvc-dos-universales-3-roscar",
+    "identification": {
+      "sku": "3265",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula radial PVC dos universales 3 roscar"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0349-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3265",
+        "reference": "3265",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula radial PVC dos universales 3 roscar"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "radial",
+      "pvc",
+      "dos",
+      "universales",
+      "roscar"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0350",
+    "status": "review",
+    "name": "Válvula mariposa PVC 3 pulgadas",
+    "slug": "valvula-mariposa-pvc-3-pulgadas",
+    "identification": {
+      "sku": "3268",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula mariposa PVC 3 pulgadas"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0350-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3268",
+        "reference": "3268",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula mariposa PVC 3 pulgadas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "mariposa",
+      "pvc",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0351",
+    "status": "review",
+    "name": "Válvula mariposa PVC 4 pulgadas",
+    "slug": "valvula-mariposa-pvc-4-pulgadas",
+    "identification": {
+      "sku": "3269",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula mariposa PVC 4 pulgadas"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0351-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3269",
+        "reference": "3269",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula mariposa PVC 4 pulgadas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "mariposa",
+      "pvc",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0352",
+    "status": "review",
+    "name": "Válvula mariposa PVC 6 pulgadas",
+    "slug": "valvula-mariposa-pvc-6-pulgadas",
+    "identification": {
+      "sku": "3271",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Válvula mariposa PVC 6 pulgadas"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0352-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3271",
+        "reference": "3271",
+        "pricing": {
+          "status": "quote_only",
+          "publicPrice": null,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Válvula mariposa PVC 6 pulgadas"
+    },
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "valvula",
+      "mariposa",
+      "pvc",
+      "pulgadas"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360",
+        "precio público verificable en extracción actual"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0353",
+    "status": "review",
+    "name": "Sifón universal lavaplatos lavamanos",
+    "slug": "sifon-universal-lavaplatos-lavamanos",
+    "identification": {
+      "sku": "3399",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Sifón universal lavaplatos lavamanos"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0353-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3399",
+        "reference": "3399",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 16651,
+          "wholesalePrice": 16651
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Sifón universal lavaplatos lavamanos"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 16651,
+      "wholesalePrice": 16651,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "sifon",
+      "universal",
+      "lavaplatos",
+      "lavamanos"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0354",
+    "status": "review",
+    "name": "Soldadura líquida PCP 1/4",
+    "slug": "soldadura-liquida-pcp-1-4",
+    "identification": {
+      "sku": "3400",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura líquida PCP 1/4"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0354-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3400",
+        "reference": "3400",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 92007,
+          "wholesalePrice": 92007
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura líquida PCP 1/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 92007,
+      "wholesalePrice": 92007,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "liquida",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0355",
+    "status": "review",
+    "name": "Soldadura líquida PCP 1/8",
+    "slug": "soldadura-liquida-pcp-1-8",
+    "identification": {
+      "sku": "3401",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura líquida PCP 1/8"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0355-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3401",
+        "reference": "3401",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 47541,
+          "wholesalePrice": 47541
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura líquida PCP 1/8"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 47541,
+      "wholesalePrice": 47541,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "liquida",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0356",
+    "status": "review",
+    "name": "Soldadura líquida PCP 1/16",
+    "slug": "soldadura-liquida-pcp-1-16",
+    "identification": {
+      "sku": "3402",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura líquida PCP 1/16"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0356-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3402",
+        "reference": "3402",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 29390,
+          "wholesalePrice": 29390
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura líquida PCP 1/16"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 29390,
+      "wholesalePrice": 29390,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "liquida",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0357",
+    "status": "review",
+    "name": "Soldadura líquida PCP 1/32",
+    "slug": "soldadura-liquida-pcp-1-32",
+    "identification": {
+      "sku": "3403",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura líquida PCP 1/32"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0357-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3403",
+        "reference": "3403",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17520,
+          "wholesalePrice": 17520
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura líquida PCP 1/32"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17520,
+      "wholesalePrice": 17520,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "liquida",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0358",
+    "status": "review",
+    "name": "Soldadura líquida PCP 1/64",
+    "slug": "soldadura-liquida-pcp-1-64",
+    "identification": {
+      "sku": "3404",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura líquida PCP 1/64"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0358-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3404",
+        "reference": "3404",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 10234,
+          "wholesalePrice": 10234
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura líquida PCP 1/64"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 10234,
+      "wholesalePrice": 10234,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "liquida",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0359",
+    "status": "review",
+    "name": "Soldadura líquida PCP 1/128",
+    "slug": "soldadura-liquida-pcp-1-128",
+    "identification": {
+      "sku": "3405",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura líquida PCP 1/128"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0359-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3405",
+        "reference": "3405",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5223,
+          "wholesalePrice": 5223
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura líquida PCP 1/128"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5223,
+      "wholesalePrice": 5223,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "liquida",
+      "pcp",
+      "128"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0360",
+    "status": "review",
+    "name": "Limpiador PCP 1/4",
+    "slug": "limpiador-pcp-1-4",
+    "identification": {
+      "sku": "3406",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Limpiador PCP 1/4"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0360-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3406",
+        "reference": "3406",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 61193,
+          "wholesalePrice": 61193
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Limpiador PCP 1/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 61193,
+      "wholesalePrice": 61193,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "limpiador",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0361",
+    "status": "review",
+    "name": "Limpiador PCP 12 onzas",
+    "slug": "limpiador-pcp-12-onzas",
+    "identification": {
+      "sku": "3407",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Limpiador PCP 12 onzas"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0361-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3407",
+        "reference": "3407",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 31440,
+          "wholesalePrice": 31440
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Limpiador PCP 12 onzas"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 31440,
+      "wholesalePrice": 31440,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "limpiador",
+      "pcp",
+      "onzas"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0362",
+    "status": "review",
+    "name": "Limpiador PCP 1/32",
+    "slug": "limpiador-pcp-1-32",
+    "identification": {
+      "sku": "3409",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Limpiador PCP 1/32"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0362-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3409",
+        "reference": "3409",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 12028,
+          "wholesalePrice": 12028
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Limpiador PCP 1/32"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 12028,
+      "wholesalePrice": 12028,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "limpiador",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0363",
+    "status": "review",
+    "name": "Limpiador PCP 1/64",
+    "slug": "limpiador-pcp-1-64",
+    "identification": {
+      "sku": "3410",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Limpiador PCP 1/64"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0363-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3410",
+        "reference": "3410",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7174,
+          "wholesalePrice": 7174
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Limpiador PCP 1/64"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7174,
+      "wholesalePrice": 7174,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "limpiador",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0364",
+    "status": "review",
+    "name": "Limpiador PCP 1/128",
+    "slug": "limpiador-pcp-1-128",
+    "identification": {
+      "sku": "3411",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Limpiador PCP 1/128"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0364-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3411",
+        "reference": "3411",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4727,
+          "wholesalePrice": 4727
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Limpiador PCP 1/128"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4727,
+      "wholesalePrice": 4727,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "limpiador",
+      "pcp",
+      "128"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0365",
+    "status": "review",
+    "name": "Soldadura pegado en húmedo PCP 1/4",
+    "slug": "soldadura-pegado-en-humedo-pcp-1-4",
+    "identification": {
+      "sku": "3425",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura pegado en húmedo PCP 1/4"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0365-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3425",
+        "reference": "3425",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 99005,
+          "wholesalePrice": 99005
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura pegado en húmedo PCP 1/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 99005,
+      "wholesalePrice": 99005,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "pegado",
+      "humedo",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0366",
+    "status": "review",
+    "name": "Soldadura pegado en húmedo PCP 1/8",
+    "slug": "soldadura-pegado-en-humedo-pcp-1-8",
+    "identification": {
+      "sku": "3426",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura pegado en húmedo PCP 1/8"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0366-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3426",
+        "reference": "3426",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 52085,
+          "wholesalePrice": 52085
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura pegado en húmedo PCP 1/8"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 52085,
+      "wholesalePrice": 52085,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "pegado",
+      "humedo",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0367",
+    "status": "review",
+    "name": "Soldadura pegado en húmedo PCP 1/16",
+    "slug": "soldadura-pegado-en-humedo-pcp-1-16",
+    "identification": {
+      "sku": "3427",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura pegado en húmedo PCP 1/16"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0367-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3427",
+        "reference": "3427",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 32284,
+          "wholesalePrice": 32284
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura pegado en húmedo PCP 1/16"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 32284,
+      "wholesalePrice": 32284,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "pegado",
+      "humedo",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0368",
+    "status": "review",
+    "name": "Soldadura pegado en húmedo PCP 1/32",
+    "slug": "soldadura-pegado-en-humedo-pcp-1-32",
+    "identification": {
+      "sku": "3428",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura pegado en húmedo PCP 1/32"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0368-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3428",
+        "reference": "3428",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 19026,
+          "wholesalePrice": 19026
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura pegado en húmedo PCP 1/32"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 19026,
+      "wholesalePrice": 19026,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "pegado",
+      "humedo",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0369",
+    "status": "review",
+    "name": "Soldadura pegado en húmedo PCP 1/64",
+    "slug": "soldadura-pegado-en-humedo-pcp-1-64",
+    "identification": {
+      "sku": "3429",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura pegado en húmedo PCP 1/64"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0369-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3429",
+        "reference": "3429",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 11127,
+          "wholesalePrice": 11127
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura pegado en húmedo PCP 1/64"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 11127,
+      "wholesalePrice": 11127,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "pegado",
+      "humedo",
+      "pcp"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0370",
+    "status": "review",
+    "name": "Soldadura pegado en húmedo PCP 1/128",
+    "slug": "soldadura-pegado-en-humedo-pcp-1-128",
+    "identification": {
+      "sku": "3430",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Soldadura pegado en húmedo PCP 1/128"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0370-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3430",
+        "reference": "3430",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5682,
+          "wholesalePrice": 5682
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Soldadura pegado en húmedo PCP 1/128"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5682,
+      "wholesalePrice": 5682,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "soldadura",
+      "pegado",
+      "humedo",
+      "pcp",
+      "128"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0371",
+    "status": "review",
+    "name": "Cemento solvente pega húmedo PCP Weld On galón",
+    "slug": "cemento-solvente-pega-humedo-pcp-weld-on-galon",
+    "identification": {
+      "sku": "605020",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Cemento solvente pega húmedo PCP Weld On galón"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0371-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "605020",
+        "reference": "605020",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 441667,
+          "wholesalePrice": 441667
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cemento solvente pega húmedo PCP Weld On galón"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 441667,
+      "wholesalePrice": 441667,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cemento",
+      "solvente",
+      "pega",
+      "humedo",
+      "pcp",
+      "weld",
+      "galon"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0372",
+    "status": "review",
+    "name": "Cemento solvente pega húmedo PCP Weld On 1/4",
+    "slug": "cemento-solvente-pega-humedo-pcp-weld-on-1-4",
+    "identification": {
+      "sku": "605014",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Cemento solvente pega húmedo PCP Weld On 1/4"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0372-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "605014",
+        "reference": "605014",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 111459,
+          "wholesalePrice": 111459
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cemento solvente pega húmedo PCP Weld On 1/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 111459,
+      "wholesalePrice": 111459,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cemento",
+      "solvente",
+      "pega",
+      "humedo",
+      "pcp",
+      "weld"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0373",
+    "status": "review",
+    "name": "Cemento solvente pega húmedo PCP Weld On 1/8",
+    "slug": "cemento-solvente-pega-humedo-pcp-weld-on-1-8",
+    "identification": {
+      "sku": "605015",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Cemento solvente pega húmedo PCP Weld On 1/8"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0373-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "605015",
+        "reference": "605015",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 63309,
+          "wholesalePrice": 63309
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cemento solvente pega húmedo PCP Weld On 1/8"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 63309,
+      "wholesalePrice": 63309,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cemento",
+      "solvente",
+      "pega",
+      "humedo",
+      "pcp",
+      "weld"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0374",
+    "status": "review",
+    "name": "Cemento solvente pega húmedo PCP Weld On 1/16",
+    "slug": "cemento-solvente-pega-humedo-pcp-weld-on-1-16",
+    "identification": {
+      "sku": "605016",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Cemento solvente pega húmedo PCP Weld On 1/16"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0374-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "605016",
+        "reference": "605016",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 34167,
+          "wholesalePrice": 34167
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cemento solvente pega húmedo PCP Weld On 1/16"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 34167,
+      "wholesalePrice": 34167,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cemento",
+      "solvente",
+      "pega",
+      "humedo",
+      "pcp",
+      "weld"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0375",
+    "status": "review",
+    "name": "Cemento solvente pega húmedo PCP Weld On 1/32",
+    "slug": "cemento-solvente-pega-humedo-pcp-weld-on-1-32",
+    "identification": {
+      "sku": "605017",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Cemento solvente pega húmedo PCP Weld On 1/32"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0375-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "605017",
+        "reference": "605017",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 20333,
+          "wholesalePrice": 20333
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cemento solvente pega húmedo PCP Weld On 1/32"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 20333,
+      "wholesalePrice": 20333,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cemento",
+      "solvente",
+      "pega",
+      "humedo",
+      "pcp",
+      "weld"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0376",
+    "status": "review",
+    "name": "Cemento solvente pega húmedo PCP Weld On 1/64",
+    "slug": "cemento-solvente-pega-humedo-pcp-weld-on-1-64",
+    "identification": {
+      "sku": "605018",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Cemento solvente pega húmedo PCP Weld On 1/64"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0376-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "605018",
+        "reference": "605018",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 14000,
+          "wholesalePrice": 14000
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cemento solvente pega húmedo PCP Weld On 1/64"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 14000,
+      "wholesalePrice": 14000,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cemento",
+      "solvente",
+      "pega",
+      "humedo",
+      "pcp",
+      "weld"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0377",
+    "status": "review",
+    "name": "Cemento solvente pega húmedo PCP Weld On 1/128",
+    "slug": "cemento-solvente-pega-humedo-pcp-weld-on-1-128",
+    "identification": {
+      "sku": "605019",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Cemento solvente pega húmedo PCP Weld On 1/128"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0377-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "605019",
+        "reference": "605019",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 10833,
+          "wholesalePrice": 10833
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cemento solvente pega húmedo PCP Weld On 1/128"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 10833,
+      "wholesalePrice": 10833,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cemento",
+      "solvente",
+      "pega",
+      "humedo",
+      "pcp",
+      "weld",
+      "128"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0378",
+    "status": "review",
+    "name": "Juego conector 45 mm medidor agua 3/4 x 1/2 nylon",
+    "slug": "juego-conector-45-mm-medidor-agua-3-4-x-1-2-nylon",
+    "identification": {
+      "sku": "3146",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Juego conector 45 mm medidor agua 3/4 x 1/2 nylon"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0378-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3146",
+        "reference": "3146",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 18757,
+          "wholesalePrice": 18757
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego conector 45 mm medidor agua 3/4 x 1/2 nylon"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 18757,
+      "wholesalePrice": 18757,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "conector",
+      "medidor",
+      "agua",
+      "nylon"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0379",
+    "status": "review",
+    "name": "Juego conector 45 mm medidor agua 1/2-3/4 x 1/2-7/8 nylon",
+    "slug": "juego-conector-45-mm-medidor-agua-1-2-3-4-x-1-2-7-8-nylon",
+    "identification": {
+      "sku": "3608",
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-04",
+      "name": "Plomería y PVC"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Riego, válvulas, adhesivos y accesorios PCP"
+    },
+    "brand": {
+      "name": "PCP",
+      "status": "provided"
+    },
+    "description": "Referencia publicada en la lista de precios PCP de Coval.",
+    "measurements": {
+      "originalText": "Juego conector 45 mm medidor agua 1/2-3/4 x 1/2-7/8 nylon"
+    },
+    "specifications": {
+      "priceNote": "Precio de lista sin IVA; lista vigente desde febrero de 2026."
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0379-default",
+        "label": "Unidad",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": "3608",
+        "reference": "3608",
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 21760,
+          "wholesalePrice": 21760
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Juego conector 45 mm medidor agua 1/2-3/4 x 1/2-7/8 nylon"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 21760,
+      "wholesalePrice": 21760,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval / PCP"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Coval"
+    },
+    "supplier": {
+      "name": "Coval",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "juego",
+      "conector",
+      "medidor",
+      "agua",
+      "nylon"
+    ],
+    "dataQuality": {
+      "source": "Coval / PCP",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
