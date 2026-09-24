@@ -628,5 +628,3368 @@
       "duplicateStatus": "clear",
       "lastReviewedAt": "2026-09-23"
     }
+  },
+  {
+    "id": "imp-0007",
+    "status": "review",
+    "name": "Tornillo lamina cabeza pan phills zincado 8 X 1",
+    "slug": "tornillo-lamina-cabeza-pan-phills-zincado-8-x-1",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para lámina"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo lamina cabeza pan phills zincado 8 X 1.",
+    "measurements": {
+      "diameter": "8",
+      "length": "1",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo lamina cabeza pan phills zincado 8 X 1"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0007-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 6465,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo lamina cabeza pan phills zincado 8 X 1"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 6465,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "lamina",
+      "cabeza",
+      "pan",
+      "phills",
+      "zincado"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0008",
+    "status": "review",
+    "name": "Tornillo extraplano punta de broca 8 X 1/2",
+    "slug": "tornillo-extraplano-punta-de-broca-8-x-1-2",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos autoperforantes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo extraplano punta de broca 8 X 1/2.",
+    "measurements": {
+      "diameter": "8",
+      "length": "1/2",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo extraplano punta de broca 8 X 1/2"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0008-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3800,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo extraplano punta de broca 8 X 1/2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3800,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "extraplano",
+      "punta",
+      "broca"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0009",
+    "status": "review",
+    "name": "Tornillo extraplano punta aguda 8 X 1/2",
+    "slug": "tornillo-extraplano-punta-aguda-8-x-1-2",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos autoperforantes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo extraplano punta aguda 8 X 1/2.",
+    "measurements": {
+      "diameter": "8",
+      "length": "1/2",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo extraplano punta aguda 8 X 1/2"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0009-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 6552,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo extraplano punta aguda 8 X 1/2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 6552,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "extraplano",
+      "punta",
+      "aguda"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0010",
+    "status": "review",
+    "name": "Chazo plastico 1/4",
+    "slug": "chazo-plastico-1-4",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Chazo plastico 1/4.",
+    "measurements": {
+      "diameter": "1/4",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chazo plastico 1/4"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0010-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 10389,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo plastico 1/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 10389,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "plastico"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0011",
+    "status": "review",
+    "name": "Chazo puntilla nylon 1/4 X 1.1/4",
+    "slug": "chazo-puntilla-nylon-1-4-x-1-1-4",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Chazo puntilla nylon 1/4 X 1.1/4.",
+    "measurements": {
+      "diameter": "1/4",
+      "length": "1.1/4",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chazo puntilla nylon 1/4 X 1.1/4"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0011-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 18800,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo puntilla nylon 1/4 X 1.1/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 18800,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "puntilla",
+      "nylon"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0012",
+    "status": "review",
+    "name": "Tornillo hexagonal zincado G2 de 5/16 X 1.1/2",
+    "slug": "tornillo-hexagonal-zincado-g2-de-5-16-x-1-1-2",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos hexagonales"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo hexagonal zincado G2 de 5/16 X 1.1/2.",
+    "measurements": {
+      "diameter": "5/16",
+      "length": "1.1/2",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo hexagonal zincado G2 de 5/16 X 1.1/2"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0012-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 12362,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo hexagonal zincado G2 de 5/16 X 1.1/2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 12362,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "hexagonal",
+      "zincado"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0013",
+    "status": "review",
+    "name": "Chazo plastico 5/16",
+    "slug": "chazo-plastico-5-16",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Chazo plastico 5/16.",
+    "measurements": {
+      "diameter": "5/16",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chazo plastico 5/16"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0013-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 13453,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo plastico 5/16"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 13453,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "plastico"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0014",
+    "status": "review",
+    "name": "Tornillo avellan punta de broca con nervadura 6 X 1",
+    "slug": "tornillo-avellan-punta-de-broca-con-nervadura-6-x-1",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos autoperforantes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo avellan punta de broca con nervadura 6 X 1.",
+    "measurements": {
+      "diameter": "6",
+      "length": "1",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo avellan punta de broca con nervadura 6 X 1"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0014-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 6630,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo avellan punta de broca con nervadura 6 X 1"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 6630,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "avellan",
+      "punta",
+      "broca",
+      "con",
+      "nervadura"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0015",
+    "status": "review",
+    "name": "Chazo puntilla nylon 1/4 X 2.1/4",
+    "slug": "chazo-puntilla-nylon-1-4-x-2-1-4",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Chazo puntilla nylon 1/4 X 2.1/4.",
+    "measurements": {
+      "diameter": "1/4",
+      "length": "2.1/4",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chazo puntilla nylon 1/4 X 2.1/4"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0015-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 18723,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo puntilla nylon 1/4 X 2.1/4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 18723,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "puntilla",
+      "nylon"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0016",
+    "status": "review",
+    "name": "Chazo colapsible nylon 5/16",
+    "slug": "chazo-colapsible-nylon-5-16",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Chazo colapsible nylon 5/16.",
+    "measurements": {
+      "diameter": "5/16",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chazo colapsible nylon 5/16"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0016-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 20591,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo colapsible nylon 5/16"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 20591,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "colapsible",
+      "nylon"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0017",
+    "status": "review",
+    "name": "Cubo / Dado magnetico 5/16",
+    "slug": "cubo-dado-magnetico-5-16",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios para atornillado"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Cubo / Dado magnetico 5/16.",
+    "measurements": {
+      "diameter": "5/16",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Cubo / Dado magnetico 5/16"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0017-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 5650,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cubo / Dado magnetico 5/16"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 5650,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cubo",
+      "dado",
+      "magnetico"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0018",
+    "status": "review",
+    "name": "Cubo / Dado magnético 3/8",
+    "slug": "cubo-dado-magnetico-3-8",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios para atornillado"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Cubo / Dado magnético 3/8.",
+    "measurements": {
+      "diameter": "3/8",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Cubo / Dado magnético 3/8"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0018-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 7551,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Cubo / Dado magnético 3/8"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 7551,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "cubo",
+      "dado",
+      "magnetico"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0019",
+    "status": "review",
+    "name": "Chazo puntilla nylon 5/16 X 4",
+    "slug": "chazo-puntilla-nylon-5-16-x-4",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Chazo puntilla nylon 5/16 X 4.",
+    "measurements": {
+      "diameter": "5/16",
+      "length": "4",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chazo puntilla nylon 5/16 X 4"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0019-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 37079,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo puntilla nylon 5/16 X 4"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 37079,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "puntilla",
+      "nylon"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0020",
+    "status": "review",
+    "name": "Tornillo lamina cabeza pan phills zincado 10 X 1.1/2",
+    "slug": "tornillo-lamina-cabeza-pan-phills-zincado-10-x-1-1-2",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para lámina"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo lamina cabeza pan phills zincado 10 X 1.1/2.",
+    "measurements": {
+      "diameter": "10",
+      "length": "1.1/2",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo lamina cabeza pan phills zincado 10 X 1.1/2"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0020-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 12485,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo lamina cabeza pan phills zincado 10 X 1.1/2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 12485,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "lamina",
+      "cabeza",
+      "pan",
+      "phills",
+      "zincado"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0021",
+    "status": "review",
+    "name": "Chazo cerrado expansivo tipo argolla 1/2",
+    "slug": "chazo-cerrado-expansivo-tipo-argolla-1-2",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Chazo cerrado expansivo tipo argolla 1/2.",
+    "measurements": {
+      "diameter": "1/2",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chazo cerrado expansivo tipo argolla 1/2"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0021-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 16563,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo cerrado expansivo tipo argolla 1/2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 16563,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "cerrado",
+      "expansivo",
+      "tipo",
+      "argolla"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0022",
+    "status": "review",
+    "name": "Tornillo cabeza cilíndrica tipo Jiss de 6 X 30",
+    "slug": "tornillo-cabeza-cilindrica-tipo-jiss-de-6-x-30",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos métricos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo cabeza cilíndrica tipo Jiss de 6 X 30.",
+    "measurements": {
+      "diameter": "6",
+      "length": "30",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo cabeza cilíndrica tipo Jiss de 6 X 30"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0022-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 15448,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo cabeza cilíndrica tipo Jiss de 6 X 30"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 15448,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "cabeza",
+      "cilindrica",
+      "tipo",
+      "jiss"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0023",
+    "status": "review",
+    "name": "Arandela neopreno 10-12",
+    "slug": "arandela-neopreno-10-12",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Arandelas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Arandela neopreno 10-12.",
+    "measurements": {
+      "diameter": "10-12",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Arandela neopreno 10-12"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0023-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 21182,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Arandela neopreno 10-12"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 21182,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "arandela",
+      "neopreno"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0024",
+    "status": "review",
+    "name": "Arandela capuchón 12-14",
+    "slug": "arandela-capuchon-12-14",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Arandelas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Arandela capuchón 12-14.",
+    "measurements": {
+      "diameter": "12-14",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Arandela capuchón 12-14"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0024-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 12545,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Arandela capuchón 12-14"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 12545,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "arandela",
+      "capuchon"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0025",
+    "status": "review",
+    "name": "Tornillo pan framer punta de broca zincado 7 X 7/16",
+    "slug": "tornillo-pan-framer-punta-de-broca-zincado-7-x-7-16",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos autoperforantes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo pan framer punta de broca zincado 7 X 7/16.",
+    "measurements": {
+      "diameter": "7",
+      "length": "7/16",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo pan framer punta de broca zincado 7 X 7/16"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0025-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3852,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo pan framer punta de broca zincado 7 X 7/16"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3852,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "pan",
+      "framer",
+      "punta",
+      "broca",
+      "zincado"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0026",
+    "status": "review",
+    "name": "Paquete 100 UNDS de Tornillo hexagonal punta de broca con arandela neopreno 12 X 1.1/2 + arandela capuchón",
+    "slug": "paquete-100-unds-de-tornillo-hexagonal-punta-de-broca-con-arandela-neopreno-12-x-1-1-2-arandela-capuchon",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos autoperforantes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Paquete 100 UNDS de Tornillo hexagonal punta de broca con arandela neopreno 12 X 1.1/2 + arandela capuchón.",
+    "measurements": {
+      "diameter": "12",
+      "length": "1.1/2",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Paquete 100 UNDS de Tornillo hexagonal punta de broca con arandela neopreno 12 X 1.1/2 + arandela capuchón"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0026-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 52605,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Paquete 100 UNDS de Tornillo hexagonal punta de broca con arandela neopreno 12 X 1.1/2 + arandela capuchón"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 52605,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "paquete",
+      "100",
+      "unds",
+      "tornillo",
+      "hexagonal",
+      "punta",
+      "broca",
+      "con"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0027",
+    "status": "review",
+    "name": "Chazo expansivo AH - camisa 5/16 X 1.7/8",
+    "slug": "chazo-expansivo-ah-camisa-5-16-x-1-7-8",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Chazo expansivo AH - camisa 5/16 X 1.7/8.",
+    "measurements": {
+      "diameter": "5/16",
+      "length": "1.7/8",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chazo expansivo AH - camisa 5/16 X 1.7/8"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0027-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17949,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo expansivo AH - camisa 5/16 X 1.7/8"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17949,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "expansivo",
+      "camisa"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0028",
+    "status": "review",
+    "name": "Chazo puntilla nylon 1/4 X 1.5/8",
+    "slug": "chazo-puntilla-nylon-1-4-x-1-5-8",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Chazos y anclajes"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Chazo puntilla nylon 1/4 X 1.5/8.",
+    "measurements": {
+      "diameter": "1/4",
+      "length": "1.5/8",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Chazo puntilla nylon 1/4 X 1.5/8"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0028-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 17140,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Chazo puntilla nylon 1/4 X 1.5/8"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 17140,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "chazo",
+      "puntilla",
+      "nylon"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0029",
+    "status": "review",
+    "name": "Capelote / Capaceta para cubiertas 12-12",
+    "slug": "capelote-capaceta-para-cubiertas-12-12",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Cubiertas y accesorios"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Capelote / Capaceta para cubiertas 12-12.",
+    "measurements": {
+      "diameter": "12-12",
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Capelote / Capaceta para cubiertas 12-12"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0029-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 51766,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Capelote / Capaceta para cubiertas 12-12"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 51766,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "capelote",
+      "capaceta",
+      "para",
+      "cubiertas"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0030",
+    "status": "review",
+    "name": "Tornillo Drywall Rosca fina 6 X 1",
+    "slug": "tornillo-drywall-rosca-fina-6-x-1",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-11",
+      "name": "Drywall y sistemas livianos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Drywall"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo Drywall Rosca fina 6 X 1.",
+    "measurements": {
+      "diameter": "6",
+      "length": "1",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo Drywall Rosca fina 6 X 1"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0030-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3112,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo Drywall Rosca fina 6 X 1"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3112,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "drywall",
+      "rosca",
+      "fina"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0031",
+    "status": "review",
+    "name": "Tornillo lamina pan framer punta aguda pavonado 7 X 7/16",
+    "slug": "tornillo-lamina-pan-framer-punta-aguda-pavonado-7-x-7-16",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Tornillos para lámina"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo lamina pan framer punta aguda pavonado 7 X 7/16.",
+    "measurements": {
+      "diameter": "7",
+      "length": "7/16",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo lamina pan framer punta aguda pavonado 7 X 7/16"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0031-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 3280,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo lamina pan framer punta aguda pavonado 7 X 7/16"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 3280,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "lamina",
+      "pan",
+      "framer",
+      "punta",
+      "aguda",
+      "pavonado"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0032",
+    "status": "review",
+    "name": "Tornillo drywall rosca ordinaria zincado 6 X 2",
+    "slug": "tornillo-drywall-rosca-ordinaria-zincado-6-x-2",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-11",
+      "name": "Drywall y sistemas livianos"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Drywall"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tornillo drywall rosca ordinaria zincado 6 X 2.",
+    "measurements": {
+      "diameter": "6",
+      "length": "2",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tornillo drywall rosca ordinaria zincado 6 X 2"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0032-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 4987,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tornillo drywall rosca ordinaria zincado 6 X 2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 4987,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tornillo",
+      "drywall",
+      "rosca",
+      "ordinaria",
+      "zincado"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0033",
+    "status": "review",
+    "name": "Varilla roscada zincada por 1 metro UNC 1\"",
+    "slug": "varilla-roscada-zincada-por-1-metro-unc-1",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-01",
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Varillas roscadas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Varilla roscada zincada por 1 metro UNC 1\".",
+    "measurements": {
+      "diameter": "1",
+      "length": "1 metro",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Varilla roscada zincada por 1 metro UNC 1\""
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0033-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 35700,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Varilla roscada zincada por 1 metro UNC 1\""
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 35700,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "varilla",
+      "roscada",
+      "zincada",
+      "por",
+      "metro",
+      "unc"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0034",
+    "status": "review",
+    "name": "Broca lamina Irwin original 5/8 con reducción a 1/2",
+    "slug": "broca-lamina-irwin-original-5-8-con-reduccion-a-1-2",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-08",
+      "name": "Accesorios para herramientas"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Brocas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Broca lamina Irwin original 5/8 con reducción a 1/2.",
+    "measurements": {
+      "diameter": "5/8",
+      "length": "1/2",
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Broca lamina Irwin original 5/8 con reducción a 1/2"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0034-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 130360,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Broca lamina Irwin original 5/8 con reducción a 1/2"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 130360,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "broca",
+      "lamina",
+      "irwin",
+      "original",
+      "con",
+      "reduccion"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0035",
+    "status": "review",
+    "name": "Tapa para sanitario colores Aquablue caja",
+    "slug": "tapa-para-sanitario-colores-aquablue-caja",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-05",
+      "name": "Grifería y baños"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Accesorios sanitarios"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Tapa para sanitario colores Aquablue caja.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Tapa para sanitario colores Aquablue caja"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0035-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 53229,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Tapa para sanitario colores Aquablue caja"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 53229,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "tapa",
+      "para",
+      "sanitario",
+      "colores",
+      "aquablue",
+      "caja"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0036",
+    "status": "review",
+    "name": "Mezclador lavaplatos brazo square",
+    "slug": "mezclador-lavaplatos-brazo-square",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-05",
+      "name": "Grifería y baños"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Grifería de cocina"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Mezclador lavaplatos brazo square.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Mezclador lavaplatos brazo square"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0036-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 68187,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Mezclador lavaplatos brazo square"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 68187,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "mezclador",
+      "lavaplatos",
+      "brazo",
+      "square"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0037",
+    "status": "review",
+    "name": "Ducha eléctrica",
+    "slug": "ducha-electrica",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-05",
+      "name": "Grifería y baños"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Duchas eléctricas"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Ducha eléctrica.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Ducha eléctrica"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0037-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 139057,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Ducha eléctrica"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 139057,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "ducha",
+      "electrica"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
+  },
+  {
+    "id": "imp-0038",
+    "status": "review",
+    "name": "Lavaplatos de empotrar",
+    "slug": "lavaplatos-de-empotrar",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "alternativeReferences": []
+    },
+    "category": {
+      "id": "cat-05",
+      "name": "Grifería y baños"
+    },
+    "subcategory": {
+      "id": null,
+      "name": "Lavaplatos"
+    },
+    "brand": {
+      "name": null,
+      "status": "not_provided"
+    },
+    "description": "Producto publicado por Sofalca: Lavaplatos de empotrar.",
+    "measurements": {
+      "diameter": null,
+      "length": null,
+      "width": null,
+      "height": null,
+      "thickness": null,
+      "gauge": null,
+      "capacity": null,
+      "unit": null,
+      "originalText": "Lavaplatos de empotrar"
+    },
+    "specifications": {
+      "marketSource": "Sofalca"
+    },
+    "variants": [],
+    "presentations": [
+      {
+        "id": "p-imp-0038-default",
+        "label": "Presentación publicada por el proveedor",
+        "quantity": 1,
+        "unit": "unidad",
+        "salesUnit": "unidad",
+        "sku": null,
+        "reference": null,
+        "pricing": {
+          "status": "validated",
+          "publicPrice": 216632,
+          "wholesalePrice": null
+        },
+        "availability": {
+          "status": "on_request",
+          "stock": null
+        },
+        "isDefault": true
+      }
+    ],
+    "images": {
+      "primary": null,
+      "gallery": [],
+      "alt": "Lavaplatos de empotrar"
+    },
+    "pricing": {
+      "status": "validated",
+      "currency": "COP",
+      "publicPrice": 216632,
+      "wholesalePrice": null,
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "availability": {
+      "status": "on_request",
+      "stock": null,
+      "unit": "unidad",
+      "lastVerifiedAt": "2026-09-23",
+      "source": "Sofalca"
+    },
+    "supplier": {
+      "name": "Sofalca",
+      "status": "confirmed"
+    },
+    "relatedProductIds": [],
+    "tags": [
+      "lavaplatos",
+      "empotrar"
+    ],
+    "dataQuality": {
+      "source": "Sofalca",
+      "verified": true,
+      "missingFields": [
+        "imagen",
+        "SKU/referencia",
+        "marca",
+        "presentacion exacta",
+        "precio IMPERIA 360"
+      ],
+      "duplicateStatus": "pending_cross_source",
+      "lastReviewedAt": "2026-09-23"
+    }
   }
 ]
