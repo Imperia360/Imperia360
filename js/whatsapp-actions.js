@@ -1,0 +1,3 @@
+const PHONE='573229667868';
+export function createWhatsAppUrl(product=null,baseMessage='Hola IMPERIA 360, necesito ayuda.'){const parts=[baseMessage];if(product?.name)parts.push(`Producto: ${product.name}`);if(product?.identification?.manufacturerReference)parts.push(`Referencia: ${product.identification.manufacturerReference}`);if(product?.identification?.sku)parts.push(`SKU: ${product.identification.sku}`);return `https://wa.me/${PHONE}?text=${encodeURIComponent(parts.join('\n'))}`;}
+export function whatsappButton(product=null,label='Cotizar por WhatsApp'){const link=document.createElement('a');link.className='btn green';link.target='_blank';link.rel='noopener noreferrer';link.href=createWhatsAppUrl(product);link.textContent=label;return link;}
