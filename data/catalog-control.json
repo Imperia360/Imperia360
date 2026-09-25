@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "catalogStatus": "reconciliation_in_progress",
   "loadingStrategy": "single_master_verified_catalog",
   "targetCategories": 29,
@@ -70,5 +70,29 @@
     "rule": "precio_venta_promedio_referencia = promedio del benchmark mínimo/máximo auditado; costo_puesto_maximo = benchmark promedio neto × (1 - margen objetivo).",
     "publicationGate": "No publicar precio como definitivo hasta verificar costo proveedor, IVA aplicable, logística/flete y disponibilidad.",
     "inventedPrices": false
+  },
+  "lastHistoricalReconciliation": "2026-09-25",
+  "historicalReconciliation": {
+    "sourceFiles": [
+      "IMPERIA_360_BASE_TODO_PRECIOS_CRUZADA_2026-09-25.xlsx",
+      "IMPERIA_360_CRUCE_834_CON_353_PRECIOS_2026-09-25.xlsx"
+    ],
+    "historicalBase": 834,
+    "extractedRows": 353,
+    "resolvedUniqueExtractionRows": 353,
+    "workbookA": {
+      "newRows": 348,
+      "duplicates": 5
+    },
+    "workbookB": {
+      "newRows": 349,
+      "duplicates": 4
+    },
+    "commonRows": 348,
+    "discrepancyResolved": "Los dos cruces coinciden en 348 filas; la fila adicional IMP-WEB-0323 del segundo archivo se incorpora, por lo que la extracción unificada queda en 353 filas únicas.",
+    "recoveredAdditionalProduct": "IMP-WEB-0323",
+    "githubAuditFile": "data/reconciliation-history-2026-09-25.json",
+    "activeMasterMutated": false,
+    "publicationGate": "La reconciliación no activa automáticamente productos ni precios."
   }
 }
