@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "appliesTo": "all active catalog products",
+  "markupBands": {
+    "retail": [
+      0.5,
+      0.6
+    ],
+    "volume3to11": [
+      0.35,
+      0.45
+    ],
+    "wholesale12plus": [
+      0.2,
+      0.3
+    ],
+    "contractor": [
+      0.25,
+      0.35
+    ],
+    "hardwareWholesale": [
+      0.15,
+      0.25
+    ]
+  },
+  "executionRule": "Aplicar las bandas a todo producto cuando exista costo puesto verificable; si no existe, mantener precio actual y marcar pendiente.",
+  "marketRule": "Comparar presentación equivalente, marca, metraje, unidad y disponibilidad antes de cambiar precio.",
+  "tapeOverride": "imp-0062",
+  "noInventedCosts": true
+}
