@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "catalogStatus": "reconciliation_in_progress",
   "loadingStrategy": "single_master_verified_catalog",
   "targetCategories": 29,
@@ -116,5 +116,22 @@
     "status": "reconciled_against_834_pending_final_master_gate",
     "note": "Los 349 registros NUEVOS del cruce 834+353 fueron comparados contra los 834 por SKU y nombre normalizado. 347 no presentan coincidencia exacta por esos controles; 2 presentan coincidencia por nombre y deben revisarse antes de publicación. La validación final contra products.json no pudo ejecutarse por el límite de tamaño del conector GitHub."
   },
-  "lastCrossAudit": "2026-09-25"
+  "lastCrossAudit": "2026-09-25",
+  "imagePolicy": {
+    "requiredForActive": true,
+    "primaryOrGalleryRequired": true,
+    "sourceRequired": true,
+    "noInventedImages": true,
+    "currentMasterAudit": {
+      "products": 488,
+      "withImage": 0,
+      "withoutImage": 488
+    },
+    "auditFile": "data/image-name-audit-2026-09-25.json"
+  },
+  "namingPolicy": {
+    "photoPlaceholdersNotProducts": true,
+    "rule": "No usar 'Producto especial por foto', 'referencia por foto' u otros textos genéricos como nombre de producto. Deben permanecer como solicitudes de identificación hasta obtener nombre, marca, referencia y fuente verificables.",
+    "currentMasterPhotoPlaceholderNames": 0
+  }
 }
