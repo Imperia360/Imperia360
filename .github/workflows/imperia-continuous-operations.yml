@@ -29,11 +29,17 @@ jobs:
           node-version: 20
       - name: Construir cola de fuentes
         run: node .github/scripts/build-discovery-queue.mjs
-      - name: Publicar cola como artefacto
+      - name: Descubrimiento web Exa
+        env:
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+        run: node .github/scripts/run-exa-discovery.mjs
+      - name: Publicar resultados de descubrimiento
         uses: actions/upload-artifact@v4
         with:
-          name: imperia-discovery-queue
-          path: data/discovery-queue.json
+          name: imperia-discovery
+          path: |
+            data/discovery-queue.json
+            data/exa-discovery.json
           retention-days: 14
 
   integrity:
@@ -118,5 +124,5 @@ jobs:
       - name: Emitir estado
         run: |
           echo "IMPERIA 360 continuous operations cycle completed."
-          echo "Discovery queue -> evidence -> reconciliation -> quality gate -> site validation."
+          echo "Discovery queue -> Exa discovery -> evidence -> reconciliation -> quality gate -> site validation."
           echo "Automatic publication remains evidence-gated."
