@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-09-25",
+  "scope": "live market discovery batch",
+  "rule": "Discovery evidence stays outside data/products.json until normalization, reconciliation, audit and approval.",
+  "sources": [
+    {
+      "name": "Ferretería Metrópolis Center",
+      "url": "https://www.metropoliscenter.com.co/c/ferreteria/tornillos-y-clavos/",
+      "evidence": "Published retail prices for multiple screws, anchors, drywall screws and related fasteners."
+    },
+    {
+      "name": "Ferrobrero",
+      "url": "https://ferrobrero.com/producto/tornillo-1-4-3-4-pack-x-100/",
+      "evidence": "Tornillo 1/4 3/4 pack x100 listed at COP 14,000 and COP 140 per unit."
+    },
+    {
+      "name": "Tornillos y Tuercas Co.",
+      "url": "https://www.tornillosytuercas.co/products/tornillo-hexagonal-milimetrico-din-960-clase-8-8-rosca-total",
+      "evidence": "Multiple DIN 960 class 8.8 fine-thread metric variants with individual COP prices and stock labels."
+    },
+    {
+      "name": "PROTOR",
+      "url": "https://www.tornillosprotor.com/",
+      "evidence": "Colombian distributor catalog covering general fasteners and industrial hardware."
+    },
+    {
+      "name": "Jumbo Colombia",
+      "url": "https://www.jumbocolombia.com/co/herramientas-y-ferreteria/ferreteria/tornillos-y-fijaciones",
+      "evidence": "Online category for screws, fasteners and anchors."
+    }
+  ],
+  "excluded_or_unverified": [
+    "Search results for TECNOROLL from Argentina were not treated as evidence of Colombian Tecnorol pricing.",
+    "No product was added to the master catalog from this discovery batch."
+  ]
+}
