@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "catalogStatus": "reconciliation_in_progress",
   "loadingStrategy": "single_master_verified_catalog",
   "targetCategories": 29,
@@ -56,5 +56,19 @@
   ],
   "note": "Existe una sola base maestra para IMPERIA 360. Las fuentes históricas se conservan como fuentes de reconciliación y no se cuentan como productos activos hasta deduplicarlas y verificarlas.",
   "lastCatalogExpansion": "2026-09-24",
-  "notes": "Base maestra unificada: 488 registros. En esta expansión se incorporaron 13 referencias de fijaciones/tornillería verificadas en fuentes comerciales (Fixser/Homecenter, Mundial de Tornillos y Corbeta), sin duplicar referencias ya presentes. Los precios solo se registran cuando la fuente los publica; cuando la fuente muestra $0 o exige cotización, el registro queda quote_only. No se calculan precios IMPERIA 360 automáticamente."
+  "notes": "Base maestra unificada: 488 registros. En esta expansión se incorporaron 13 referencias de fijaciones/tornillería verificadas en fuentes comerciales (Fixser/Homecenter, Mundial de Tornillos y Corbeta), sin duplicar referencias ya presentes. Los precios solo se registran cuando la fuente los publica; cuando la fuente muestra $0 o exige cotización, el registro queda quote_only. No se calculan precios IMPERIA 360 automáticamente.",
+  "historicalAuditedBase": {
+    "count": 834,
+    "evidence": "Library: IMPERIA_360_BASE_AUDITADA_834_2026-09-25.xlsx",
+    "verified": 142,
+    "pending": 692,
+    "note": "Se conserva completa como base de reconciliación; no se activa automáticamente por contener duplicados y registros pendientes."
+  },
+  "pricingStaging": {
+    "file": "data/audited-history-pricing-834.json",
+    "auditedBenchmarkRecords": 92,
+    "rule": "precio_venta_promedio_referencia = promedio del benchmark mínimo/máximo auditado; costo_puesto_maximo = benchmark promedio neto × (1 - margen objetivo).",
+    "publicationGate": "No publicar precio como definitivo hasta verificar costo proveedor, IVA aplicable, logística/flete y disponibilidad.",
+    "inventedPrices": false
+  }
 }
