@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.7.0",
   "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
   "sourcePolicy": {
     "priority": [
@@ -432,6 +432,30 @@
         "\"TECNIROL SAS\" tornillos pernos tuercas arandelas"
       ],
       "notes": "Empresa colombiana de metalmecánica/fabricación de productos metálicos y mecanizado CNC. El sitio público no muestra un catálogo de tornillería con precios verificables; se conserva como fuente de descubrimiento/cotización, sin inventar productos ni precios."
+    },
+    {
+      "id": "src-easy-colombia",
+      "supplierId": "retail-easy-colombia",
+      "name": "Easy Colombia",
+      "url": "https://www.easy.com.co/",
+      "status": "reference_only",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:easy.com.co ferreteria fijaciones tornillos chazos precios"
+      ]
+    },
+    {
+      "id": "src-tuercasypernos",
+      "supplierId": "sup-tuercasypernos",
+      "name": "Tuercas y Pernos",
+      "url": "https://tuercasypernos.co/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:tuercasypernos.co tornillos tuercas arandelas herramientas precio Colombia"
+      ]
     }
   ]
 }
