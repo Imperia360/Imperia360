@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-09-25",
+  "policy": {
+    "requiredForActive": true,
+    "noInventedImages": true,
+    "exactReferencePreferred": true
+  },
+  "status": "staging",
+  "records": [
+    {
+      "productId": "imp-0001",
+      "sku": "RO4396",
+      "manufacturerReference": "HT1238",
+      "supplierReference": "13604",
+      "imageUrl": "https://supuntoferretero.odoo.com/web/image/product.template/4861/image_1920?unique=d45131f",
+      "sourcePage": "https://supuntoferretero.odoo.com/shop/spf0885-chazo-plastico-con-tornillo-1-4-x-50unds-ht1238-4861",
+      "source": "Su Punto Ferretero",
+      "match": "exact reference HT1238 + exact product name",
+      "verifiedAt": "2026-09-25",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    }
+  ]
+}
