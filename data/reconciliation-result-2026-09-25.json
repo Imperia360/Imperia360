@@ -1,0 +1,22 @@
+{
+  "generated": "2026-09-25",
+  "source": "IMPERIA_360_CRUCE_834_CON_353_PRECIOS_2026-09-25.xlsx",
+  "historicalBase": 834,
+  "extractionTotal": 353,
+  "extractionBreakdown": {
+    "newAfterInternalCross": 349,
+    "duplicatesInternal": 4
+  },
+  "crossAgainst834": {
+    "skuExact": 0,
+    "nameNormalizedExact": 2,
+    "nameAndSkuExact": 0,
+    "newCandidatesByExactControls": 347
+  },
+  "reviewRequired": [
+    "IMP-WEB-0323 | DISCO DIAMANTADO SEGMENTADO DEWALT 4PUL DW47452HP | DW47452HP | $32.800",
+    "IMP-WEB-0324 | CAJA FUERTE YALE ELECTRONICA PEQUEÑA 0035102 | 0035102 | $346.700"
+  ],
+  "conclusion": "347 candidatos no tienen coincidencia exacta por SKU ni por nombre normalizado contra la base histórica 834. Los 2 restantes requieren revisión manual/semántica. No se publican automáticamente.",
+  "finalMasterGate": "Pendiente de cruce técnico contra data/products.json por limitación de tamaño del conector GitHub; no se declara aún el total final de productos nuevos."
+}
