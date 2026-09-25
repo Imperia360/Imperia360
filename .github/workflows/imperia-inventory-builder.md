@@ -10,6 +10,7 @@ permissions:
   copilot-requests: write
 network: defaults
 engine: copilot
+model: gpt-5-mini
 tools:
   github:
     toolsets: [default]
