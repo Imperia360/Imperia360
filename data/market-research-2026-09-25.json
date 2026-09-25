@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-25",
+  "status": "research_evidence",
+  "policy": "Market references only; not IMPERIA cost, inventory or publication approval.",
+  "offers": [
+    {
+      "category": "electrico",
+      "product": "Cable duplex certificado Conduluz 2x14",
+      "reference": "7010391",
+      "presentation": "1 metro",
+      "source": "Fervicom",
+      "url": "https://www.fervicom.com/producto/cable-duplex-certificado-conduluz-2x14-1mtr/",
+      "price_cop": 4700,
+      "quantity_tiers": [
+        {
+          "from": 1,
+          "to": 20,
+          "price_cop": 4700
+        },
+        {
+          "from": 21,
+          "to": 50,
+          "price_cop": 4606
+        },
+        {
+          "from": 51,
+          "to": 99,
+          "price_cop": 4559
+        },
+        {
+          "from": 100,
+          "price_cop": 4418
+        }
+      ],
+      "verification": "public price found by Exa"
+    },
+    {
+      "category": "electrico",
+      "product": "Cinta aislante 3M Temflex 165 negra 18 m",
+      "presentation": "1 unidad / 18 m",
+      "source": "Homecenter Colombia",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat1680016/cintas-aislantes-y-terminales-electricos/?f.product.brandName=3m",
+      "price_cop": 6100,
+      "verification": "public price found by Exa"
+    },
+    {
+      "category": "electrico",
+      "product": "Cinta aislante 3M 18 m",
+      "presentation": "1 unidad / 18 m",
+      "source": "Electricos Montes",
+      "url": "https://www.electricosmontes.com/products/cinta-aislante-3m-5mts",
+      "price_cop": 9000,
+      "verification": "public price found by Exa; page text indicates 9 m and 18 m variants, exact selected variant must be verified before catalog import"
+    },
+    {
+      "category": "tornilleria",
+      "product": "Tornillo Drywall",
+      "presentation": "unidad; múltiples medidas",
+      "source": "Tornillos y Tuercas Co.",
+      "url": "https://www.tornillosytuercas.co/products/tornillo-drywall",
+      "price_cop": 14,
+      "verification": "public starting price; exact measure must be verified before catalog import"
+    },
+    {
+      "category": "pintura",
+      "product": "Pintura vinilo tipo 1 interior blanco Vharbor",
+      "reference": "B4B14558AK",
+      "presentation": "galón",
+      "source": "Roxvan",
+      "url": "https://roxvan.com/producto/pintura-vinilo-tipo-1-interior-blanco-galon-vharbor/",
+      "price_cop": 46288,
+      "wholesale_price_cop": 40250,
+      "wholesale_min_qty": 12,
+      "business_price_cop": 44275,
+      "business_min_qty": 3,
+      "verification": "public prices found by Exa"
+    }
+  ],
+  "nextValidation": "Fetch source pages and confirm exact variant/presentation before promoting to master catalog."
+}
