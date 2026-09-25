@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-25",
+  "status": "verified_market_candidates_pending_acquisition_cost",
+  "publicationGate": "blocked_until_exact_reference_and_acquisition_evidence",
+  "sourcePolicy": "public_market_price_is_not_supplier_cost",
+  "candidates": [
+    {"candidateId":"MKT-20260925-HC-001","name":"Chazo concreto impacto nylon 1/4 x 1-1/4","brand":"Fixser","presentation":"100 unidades","publicPriceCOP":24900,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-002","name":"Chazo estriado 1/4 con tornillo y broca","brand":"Fixser","presentation":"100 unidades + broca","publicPriceCOP":15900,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-003","name":"Chazo estriado 1/4","brand":"Fixser","presentation":"100 unidades","publicPriceCOP":8900,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-004","name":"Tarro chazo 1/4 con tornillo 8 x 1-1/2","brand":"Fixser","presentation":"500 unidades","publicPriceCOP":57900,"unitBasis":"tarro","sourceUrl":"https://www.homecenter.com.co/homecenter-co/k/chazo-y-tornillo","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-005","name":"Chazo estriado 3/16 con tornillo 6 x 1","brand":"Fixser","presentation":"10 unidades","publicPriceCOP":5300,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/k/chazo-y-tornillo","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-006","name":"Chazo estriado 5/16 con tornillo 10 x 1-1/2","brand":"Fixser","presentation":"5 unidades","publicPriceCOP":4650,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/k/chazo-y-tornillo","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-007","name":"Chazo colapsible nylon bloque hueco 1/4","brand":"Fixser","presentation":"6 unidades","publicPriceCOP":3750,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-008","name":"Tornillo ranura Torx PVC-concreto M7.5/6.5 x 60 Ruspert","brand":"Fixser","presentation":"5 unidades","publicPriceCOP":6300,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-009","name":"Tornillo cabeza plana punta aguda zincado #8 x 1-1/2","brand":"Fixser","presentation":"5 unidades","publicPriceCOP":3650,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-010","name":"Tornillo cabeza plana punta aguda zincado #8 x 1","brand":"Fixser","presentation":"5 unidades","publicPriceCOP":3100,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-011","name":"Tornillo aglomerado autoperforante 6 x 1","brand":"Fixser","presentation":"500 unidades","publicPriceCOP":13900,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/","consultationDate":"2026-09-25"},
+    {"candidateId":"MKT-20260925-HC-012","name":"Tornillo aglomerado autoperforante 6 x 1-1/8","brand":"Fixser","presentation":"100 unidades","publicPriceCOP":4900,"unitBasis":"empaque","sourceUrl":"https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/","consultationDate":"2026-09-25"}
+  ]
+}
