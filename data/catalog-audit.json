@@ -1,13 +1,12 @@
 {
-  "version": "1.1.0",
-  "generatedAt": "2026-09-25T18:53:30.097Z",
+  "version": "1.0.0",
+  "generatedAt": "2026-09-25T23:21:45.616Z",
   "masterProducts": 476,
-  "configuredLoadedProducts": 476,
+  "configuredLoadedProducts": 488,
   "issuesCount": 0,
   "duplicateIds": 0,
   "possibleDuplicates": 0,
   "missingRequiredIdentity": 0,
   "zeroPrices": 0,
-  "issues": [],
-  "publicationNote": "Duplicate product IDs were removed at source; runtime loader remains defensive."
+  "issues": []
 }
