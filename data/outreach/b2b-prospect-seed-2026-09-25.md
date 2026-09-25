@@ -12,10 +12,16 @@ Status: research_only — no marketing sent; WhatsApp consent not inferred.
 | BOG-PAL-006 | tornilleria | Tornillos 7777777 | Bogotá | Calle 13 #22-82 / Cra 25 #13-99, Paloquemao | 3107777777 / 6012777777 | info@tornillos7777777.com.co | https://tornillos7777777.com.co/tornillos/contactenos/ |
 | BOG-PAL-007 | tornilleria/ferreteria | Mundial de Tornillos | Bogotá | Paloquemao | 3122778888 / 6013608066 | contacto publicado en sitio | https://mundialdetornillos.com/contactanos/ |
 | BOG-PAL-008 | ferreteria | Ferretería Rhino | Bogotá | Cra 25 #15-58, Paloquemao | 6015185040 | marketing@rhino.com.co | https://rhino.com.co/enlaces-ferreteria-rhino/ |
+| BOG-PAL-009 | ferreteria industrial | Ferretería Industrial Jimaco S.A.S. | Bogotá | Calle 23 #25-06 | +57 1 3123503397 | no verificado | ficha empresarial pública |
+| BOG-PAL-010 | ferreteria industrial | Ferretería Industrial Inversiones Crisan | Bogotá | Calle 13 #27-94 Local | +57 601 9261097 | no verificado | ficha empresarial pública |
+| BOG-PAL-011 | ferreteria industrial/electrica | FISA Ferretería Industrial | Bogotá | Cra. 25 #17-64 | +57 601 4044790 | no verificado | ficha empresarial pública |
+| BOG-PAL-012 | abrasivos/construccion | MUNDOLUX | Bogotá | Cra. 28A #17-47 | +57 3168279841 | no verificado | ficha empresarial pública |
+| BOG-PAL-013 | materiales/ferreteria | Distribuidora y Ferretería Industrial SAS | Bogotá | Cra. 23 #12B-12 | no verificado | no verificado | ficha empresarial pública |
 
 ## Compliance gate
-- These are public BUSINESS contact details found on company sites.
+- These are public BUSINESS contact details.
 - consentimiento_whatsapp=NO_VERIFICADO for every row.
+- Public phone availability does NOT equal WhatsApp marketing consent.
 - Do not send WhatsApp marketing until explicit opt-in is recorded.
-- Email outreach must use lawful business-contact basis, identify IMPERIA 360, and provide an opt-out mechanism.
+- Email outreach must use a lawful business-contact basis, identify IMPERIA 360, and provide an opt-out mechanism.
 - No purchased lists; no personal-number harvesting.
