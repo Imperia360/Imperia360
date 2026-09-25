@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-09-25",
+  "scope": "products.json current master + historical catalog review",
+  "currentMaster": 488,
+  "currentMasterImages": {
+    "withPrimaryOrGallery": 0,
+    "withoutImage": 488
+  },
+  "historicalPhotoPlaceholders": [
+    {
+      "id": "IMP-00683",
+      "name": "Producto especial por foto",
+      "action": "NO_PRODUCT_NAME; move to photo-identification intake, not catalog product"
+    },
+    {
+      "id": "IMP-00684",
+      "name": "Referencia agotada en Colombia",
+      "action": "NO_PRODUCT_NAME; keep as service/status template, not product"
+    },
+    {
+      "id": "IMP-00685",
+      "name": "Herramienta especializada",
+      "action": "NO_PRODUCT_NAME; requires exact product/reference before cataloging"
+    },
+    {
+      "id": "IMP-00686",
+      "name": "Accesorio especializado",
+      "action": "NO_PRODUCT_NAME; requires exact product/reference before cataloging"
+    },
+    {
+      "id": "IMP-00687",
+      "name": "Iluminación inteligente",
+      "action": "NO_PRODUCT_NAME; requires exact product/reference before cataloging"
+    },
+    {
+      "id": "IMP-00688",
+      "name": "Automatización",
+      "action": "NO_PRODUCT_NAME; requires exact product/reference before cataloging"
+    },
+    {
+      "id": "IMP-00689",
+      "name": "Herraje especial",
+      "action": "NO_PRODUCT_NAME; requires exact product/reference before cataloging"
+    },
+    {
+      "id": "IMP-00690",
+      "name": "Repuesto especial",
+      "action": "NO_PRODUCT_NAME; requires exact product/reference before cataloging"
+    },
+    {
+      "id": "IMP-00691",
+      "name": "Maquinaria especial",
+      "action": "NO_PRODUCT_NAME; requires exact product/reference before cataloging"
+    },
+    {
+      "id": "IMP-00692",
+      "name": "Producto importado por pedido",
+      "action": "NO_PRODUCT_NAME; requires exact product/reference before cataloging"
+    }
+  ],
+  "currentMasterSuspiciousPhotoName": {
+    "id": "imp-0170",
+    "name": "Careta fotosensible Furius Fenix 330",
+    "finding": "Valid product term 'fotosensible'; not a photo-placeholder name."
+  },
+  "imagePolicy": "Cada producto publicable debe tener imagen primaria o galería con evidencia de origen. No se inventan imágenes ni se asignan imágenes de otro producto.",
+  "sourceFinding": "El repositorio actualmente no contiene fotografías de productos en assets/images/products; solo README.md.",
+  "nextGate": "Buscar y asociar imagen real desde la fuente/proveedor correspondiente por SKU/referencia/nombre exacto antes de activar.",
+  "autoPublish": false
+}
