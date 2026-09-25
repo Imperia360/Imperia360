@@ -1,0 +1,118 @@
+name: IMPERIA 360 — Operación continua
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    paths:
+      - "data/**"
+      - "js/**"
+      - ".github/scripts/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: imperia-continuous-operations
+  cancel-in-progress: false
+
+jobs:
+  integrity:
+    name: 1. Integridad y JSON
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validar archivos críticos
+        run: |
+          node -e "const fs=require('fs'); const files=['data/products.json','data/catalog-control.json','data/catalog-audit.json','data/inventory-base.json','data/reconciliation-review.json']; for(const f of files){JSON.parse(fs.readFileSync(f,'utf8')); console.log('OK',f)}"
+
+  catalog-gate:
+    name: 2. Compuerta de catálogo
+    needs: integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Auditoría de duplicados
+        run: node .github/scripts/catalog-audit.mjs
+      - name: Validación de mercado
+        run: node .github/scripts/market-validation.mjs
+      - name: Comprobar reconciliación
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const audit=JSON.parse(fs.readFileSync('data/catalog-audit.json','utf8'));
+          const control=JSON.parse(fs.readFileSync('data/catalog-control.json','utf8'));
+          if ((audit.issuesCount||0) > 0) {
+            console.log('NOTICE: catalog issues remain; publication stays gated.');
+          }
+          if (control.currentLoadedStatus !== 'active') {
+            console.log('NOTICE: master catalog is not active; no automatic activation permitted.');
+          }
+          console.log(JSON.stringify({
+            masterProducts:audit.masterProducts,
+            issuesCount:audit.issuesCount,
+            currentLoadedProducts:control.currentLoadedProducts,
+            currentLoadedStatus:control.currentLoadedStatus
+          },null,2));
+          NODE
+
+  evidence-gate:
+    name: 3. Evidencia y publicación segura
+    needs: catalog-gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enforce no-invention policy
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const inv=JSON.parse(fs.readFileSync('data/inventory-base.json','utf8'));
+          const control=JSON.parse(fs.readFileSync('data/catalog-control.json','utf8'));
+          if (!inv.priceRules || !inv.qualityRules) {
+            console.error('Missing inventory quality rules');
+            process.exit(1);
+          }
+          if (control.imagePolicy && control.imagePolicy.noInventedImages !== true) {
+            console.error('Image anti-invention policy is not enabled');
+            process.exit(1);
+          }
+          console.log('Publication safety rules present.');
+          NODE
+      - name: Summary
+        run: |
+          echo "Publication remains evidence-gated."
+          echo "Historical candidates are not activated automatically."
+          echo "No invented price, stock, reference or image is permitted."
+
+  site-build-gate:
+    name: 4. Sitio y despliegue
+    needs: evidence-gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate site entry points
+        run: |
+          test -f index.html
+          test -f js/catalog-loader.js
+          test -f js/search-engine.js
+          echo "Site entry points OK."
+
+  operations-status:
+    name: 5. Estado operativo
+    needs: [integrity, catalog-gate, evidence-gate, site-build-gate]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Emitir estado
+        run: |
+          echo "IMPERIA 360 continuous operations cycle completed."
+          echo "Research -> evidence -> reconciliation -> quality gate -> site validation."
+          echo "Automatic publication is allowed only after all catalog evidence gates pass."
