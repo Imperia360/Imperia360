@@ -19,6 +19,7 @@ safe-outputs:
   create-issue:
 
 engine: copilot
+model: gpt-5-mini
 ---
 
 # IMPERIA 360 — Orquestador de calidad
