@@ -1,85 +1,13 @@
 {
-  "version": "1.0.0",
-  "generatedAt": "2026-09-25T06:40:26.645Z",
-  "masterProducts": 488,
-  "configuredLoadedProducts": 488,
-  "issuesCount": 12,
-  "duplicateIds": 12,
+  "version": "1.1.0",
+  "generatedAt": "2026-09-25T18:53:30.097Z",
+  "masterProducts": 476,
+  "configuredLoadedProducts": 476,
+  "issuesCount": 0,
+  "duplicateIds": 0,
   "possibleDuplicates": 0,
   "missingRequiredIdentity": 0,
   "zeroPrices": 0,
-  "issues": [
-    {
-      "type": "DUPLICATE_ID",
-      "index": 465,
-      "id": "imp-0466",
-      "previousIndex": 453
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 466,
-      "id": "imp-0467",
-      "previousIndex": 454
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 467,
-      "id": "imp-0468",
-      "previousIndex": 455
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 468,
-      "id": "imp-0469",
-      "previousIndex": 456
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 469,
-      "id": "imp-0470",
-      "previousIndex": 457
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 470,
-      "id": "imp-0471",
-      "previousIndex": 458
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 471,
-      "id": "imp-0472",
-      "previousIndex": 459
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 472,
-      "id": "imp-0473",
-      "previousIndex": 460
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 473,
-      "id": "imp-0474",
-      "previousIndex": 461
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 474,
-      "id": "imp-0475",
-      "previousIndex": 462
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 475,
-      "id": "imp-0476",
-      "previousIndex": 463
-    },
-    {
-      "type": "DUPLICATE_ID",
-      "index": 476,
-      "id": "imp-0477",
-      "previousIndex": 464
-    }
-  ]
+  "issues": [],
+  "publicationNote": "Duplicate product IDs were removed at source; runtime loader remains defensive."
 }
