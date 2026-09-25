@@ -36,17 +36,27 @@ jobs:
 
       - name: Commit generated lock files
         run: |
-          if ! find .github/workflows -maxdepth 1 -name "*.lock.yml" -print -quit | grep -q .; then
+          set -euo pipefail
+          shopt -s nullglob
+          locks=(.github/workflows/*.lock.yml)
+          if [ ${#locks[@]} -eq 0 ]; then
             echo "No lock files generated."
             exit 1
           fi
-          if git diff --quiet -- .github/workflows/*.lock.yml && git status --porcelain -- .github/workflows/*.lock.yml | grep -q "^$"; then
+
+          git add -- ${locks[@]}
+          if git diff --cached --quiet; then
             echo "No lock-file changes."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/workflows/*.lock.yml
           git commit -m "chore: compile GitHub agentic workflows"
-          git pull --rebase origin main
-          git push
+
+          # Rebase only if main advanced while this run was compiling.
+          git fetch origin main
+          if ! git merge-base --is-ancestor HEAD origin/main; then
+            git rebase origin/main
+          fi
+          git push origin HEAD:main
