@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "catalogStatus": "reconciliation_in_progress",
   "loadingStrategy": "single_master_verified_catalog",
   "targetCategories": 29,
@@ -93,6 +93,28 @@
     "recoveredAdditionalProduct": "IMP-WEB-0323",
     "githubAuditFile": "data/reconciliation-history-2026-09-25.json",
     "activeMasterMutated": false,
-    "publicationGate": "La reconciliación no activa automáticamente productos ni precios."
-  }
+    "publicationGate": "La reconciliación no activa automáticamente productos ni precios.",
+    "extractionTotal": 353,
+    "extractionNewAfterInternalCross": 349,
+    "extractionDuplicatesInternal": 4,
+    "crossAgainst834": {
+      "newCandidates": 347,
+      "nameCollisions": 2,
+      "skuCollisions": 0,
+      "exactNameAndSkuCollisions": 0
+    },
+    "additionalNameCollisions": [
+      {
+        "id": "IMP-WEB-0323",
+        "product": "DISCO DIAMANTADO SEGMENTADO DEWALT 4PUL DW47452HP"
+      },
+      {
+        "id": "IMP-WEB-0324",
+        "product": "CAJA FUERTE YALE ELECTRONICA PEQUEÑA 0035102"
+      }
+    ],
+    "status": "reconciled_against_834_pending_final_master_gate",
+    "note": "Los 349 registros NUEVOS del cruce 834+353 fueron comparados contra los 834 por SKU y nombre normalizado. 347 no presentan coincidencia exacta por esos controles; 2 presentan coincidencia por nombre y deben revisarse antes de publicación. La validación final contra products.json no pudo ejecutarse por el límite de tamaño del conector GitHub."
+  },
+  "lastCrossAudit": "2026-09-25"
 }
