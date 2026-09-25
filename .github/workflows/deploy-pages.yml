@@ -1,5 +1,6 @@
 name: Deploy IMPERIA 360 to GitHub Pages
 
+# Deployment trigger: republish the current catalog and site after catalog reconciliation.
 on:
   push:
     branches:
