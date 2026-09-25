@@ -1,8 +1,7 @@
 /*
- * Punto de entrada para cargar el catálogo estructurado.
- *
- * En esta etapa no se conecta a index.html ni se ejecuta en la web actual.
- * products.json permanece vacío hasta recibir información real del catálogo.
+ * Cargador del catálogo maestro publicado.
+ * Une el catálogo estructurado con imágenes de staging únicamente cuando
+ * la evidencia de imagen está verificada y marcada como publicable.
  */
 
 export async function loadProducts(source = '../data/products.json') {
@@ -18,5 +17,37 @@ export async function loadProducts(source = '../data/products.json') {
     throw new Error('El catálogo debe ser un arreglo de productos.');
   }
 
-  return products;
+  let imageRecords = [];
+  try {
+    const imageResponse = await fetch('../data/product-images.json');
+    if (imageResponse.ok) {
+      const imageData = await imageResponse.json();
+      imageRecords = Array.isArray(imageData.records) ? imageData.records : [];
+    }
+  } catch {
+    imageRecords = [];
+  }
+
+  const verifiedImages = new Map(
+    imageRecords
+      .filter(record => record?.publishable === true && record?.verificationStatus === 'verified_source_image' && record?.imageUrl)
+      .map(record => [String(record.productId), record])
+  );
+
+  return products.map(product => {
+    const evidence = verifiedImages.get(String(product?.id));
+    if (!evidence) return product;
+
+    return {
+      ...product,
+      images: {
+        ...(product.images || {}),
+        primary: evidence.imageUrl,
+        source: evidence.source,
+        sourcePage: evidence.sourcePage,
+        verificationStatus: evidence.verificationStatus,
+        verifiedAt: evidence.verifiedAt
+      }
+    };
+  });
 }
