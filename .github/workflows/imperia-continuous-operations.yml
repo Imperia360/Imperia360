@@ -1,4 +1,5 @@
 name: IMPERIA 360 — Operación continua
+# Operational cycle trigger: keep discovery, audit, evidence and site gates running.
 
 on:
   workflow_dispatch:
