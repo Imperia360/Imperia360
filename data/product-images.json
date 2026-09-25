@@ -19,6 +19,30 @@
       "verifiedAt": "2026-09-25",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "imp-0002",
+      "sku": "RO3577",
+      "manufacturerReference": "HT1239",
+      "supplierReference": "13605",
+      "sourcePage": "https://roxvan.com/producto/chazo-plastico-con-tornillo-5-16-x-50unds-ht1239-b4b13605/",
+      "source": "Roxvan",
+      "match": "exact SKU/reference/name; image URL pending",
+      "verifiedAt": "2026-09-25",
+      "verificationStatus": "source_match_image_pending",
+      "publishable": false
+    },
+    {
+      "productId": "imp-0003",
+      "sku": "RO4874",
+      "manufacturerReference": "HT1240",
+      "supplierReference": "13606",
+      "sourcePage": "https://roxvan.com/producto/chazo-plastico-con-tornillo-3-8-x-50unds-ht1240-item-13606/",
+      "source": "Roxvan",
+      "match": "exact SKU/reference/name; image URL pending",
+      "verifiedAt": "2026-09-25",
+      "verificationStatus": "source_match_image_pending",
+      "publishable": false
     }
   ]
 }
