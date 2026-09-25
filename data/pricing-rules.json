@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "purpose": "Reglas comerciales para calcular posteriormente precios IMPERIA 360 sin alterar el precio fuente.",
   "principles": [
     "El precio publicado por un proveedor nunca se confunde con el precio de venta IMPERIA 360.",
@@ -69,7 +69,7 @@
       ]
     }
   },
-  "status": "commercial-bands_active_market_validation_required",
+  "status": "commercial-bands_active_market_validation_and_override_layer_active",
   "note": "Los 834 registros auditados se conservan para reconciliación; no se convierten automáticamente en productos activos ni se les inventa precio. Los 92 con benchmark auditado tienen cálculo de referencia promedio y techo de costo para proteger el margen.",
   "costModel": {
     "basis": "costoTotal",
@@ -104,7 +104,7 @@
   "marketComparisonPolicy": {
     "objective": "Comparar costo puesto verificable contra precios de mercado por presentación equivalente antes de publicar.",
     "rule": "Si el precio calculado por markup supera mercado comparable, priorizar negociación de costo y/o margen dentro del rango; no subir el precio sin validar competencia.",
-    "tapeBenchmark": "Cinta aislante negra: referencia de usuario COP 2.000-2.500 por unidad; mercado web consultado incluye referencias desde aproximadamente COP 2.990-3.240 y otras de marca/presentación superior.",
+    "tapeBenchmark": "Cinta aislante negra: benchmark local del usuario COP 2.000-2.500 por unidad; referencias web actuales consultadas incluyen COP 2.639 para cinta PVC aislante eléctrica y COP 5.300 para cinta negra 20 m, además de referencias 3M superiores; la equivalencia por metraje/marca debe validarse.",
     "sourceDate": "2026-09-25",
     "sourceNotes": [
       "Electroferia de la Carrera 13 tiene múltiples puntos sobre Cra. 13 entre calles 15 y 16.",
@@ -112,5 +112,6 @@
       "Inter Eléctricas publica una lista histórica de CILES con cinta aislante profesional de 5 m a COP 1.150 en 2022; no se usa como precio actual.",
       "Homecenter muestra cintas aislantes actuales en distintas presentaciones y marcas; la comparación debe hacerse por metros, marca y clase."
     ]
-  }
+  },
+  "marketOverrideFile": "data/pricing-market-overrides.json"
 }
