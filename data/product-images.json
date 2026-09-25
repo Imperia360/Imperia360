@@ -25,24 +25,26 @@
       "sku": "RO3577",
       "manufacturerReference": "HT1239",
       "supplierReference": "13605",
-      "sourcePage": "https://roxvan.com/producto/chazo-plastico-con-tornillo-5-16-x-50unds-ht1239-b4b13605/",
-      "source": "Roxvan",
-      "match": "exact SKU/reference/name; image URL pending",
+      "sourcePage": "https://www.intradelink.us/shop/ht1239-chazo-plastico-con-tornillo-8-mm-5-16-x-50-und-12623",
+      "source": "Intrade Link",
+      "match": "exact SKU HT1239 + exact product name + exact 5/16 x 50 presentation",
       "verifiedAt": "2026-09-25",
-      "verificationStatus": "source_match_image_pending",
-      "publishable": false
+      "verificationStatus": "verified_source_image",
+      "publishable": true,
+      "imageUrl": "https://www.intradelink.us/web/image/product.template/12623/image_1920?unique=4e232ec"
     },
     {
       "productId": "imp-0003",
       "sku": "RO4874",
       "manufacturerReference": "HT1240",
       "supplierReference": "13606",
-      "sourcePage": "https://roxvan.com/producto/chazo-plastico-con-tornillo-3-8-x-50unds-ht1240-item-13606/",
-      "source": "Roxvan",
-      "match": "exact SKU/reference/name; image URL pending",
+      "sourcePage": "https://www.intradelink.us/shop/ht1240-chazo-plastico-con-tornillo-10-mm-3-8-x-50-und-12624",
+      "source": "Intrade Link",
+      "match": "exact SKU HT1240 + exact product name + exact 3/8 x 50 presentation",
       "verifiedAt": "2026-09-25",
-      "verificationStatus": "source_match_image_pending",
-      "publishable": false
+      "verificationStatus": "verified_source_image",
+      "publishable": true,
+      "imageUrl": "https://www.intradelink.us/web/image/product.template/12624/image_1920?unique=fe43924"
     }
   ]
 }
