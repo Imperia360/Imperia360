@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<rect width="1080" height="1080" fill="#111"/>
+<rect x="60" y="60" width="960" height="960" rx="50" fill="#f5f5f5"/>
+<text x="540" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="88" font-weight="700" fill="#111">IMPERIA 360</text>
+<text x="540" y="410" text-anchor="middle" font-family="Arial,sans-serif" font-size="58" font-weight="700" fill="#111">FERRETERÍA</text>
+<text x="540" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" fill="#333">Herramientas • Materiales • Soluciones</text>
+<text x="540" y="650" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" font-weight="700" fill="#111">¿QUÉ NECESITAS?</text>
+<text x="540" y="730" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" fill="#333">Encuéntralo en un solo lugar</text>
+<text x="540" y="900" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#111">imperia360.github.io</text>
+</svg>
