@@ -3,7 +3,7 @@ import fs from 'node:fs';
 const products = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
 const control = JSON.parse(fs.readFileSync('data/catalog-control.json', 'utf8'));
 
-const norm = (v='') => String(v).normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const norm = (v='') => String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const byId = new Map();
 const byKey = new Map();
 const issues = [];
