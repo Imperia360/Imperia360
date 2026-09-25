@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-09-25",
+  "status": "active_recommendation_pending_supplier_quote",
+  "purpose": "Overrides y objetivos comerciales verificables para productos con benchmark de mercado. No reemplaza costo proveedor.",
+  "rules": {
+    "retailMarkup": [
+      0.5,
+      0.6
+    ],
+    "volume3to11Markup": [
+      0.35,
+      0.45
+    ],
+    "wholesale12plusMarkup": [
+      0.2,
+      0.3
+    ],
+    "supplierNegotiation": "Negociar costo puesto por debajo del techo compatible con el precio objetivo; no inventar costo ni afirmar acuerdo de proveedor.",
+    "marketValidation": "Comparar siempre presentación, metraje, marca y clase equivalentes."
+  },
+  "overrides": [
+    {
+      "productId": "imp-0062",
+      "productName": "Cinta aislante Cellux pequeña 5 m",
+      "category": "Electricidad",
+      "presentation": "1 unidad",
+      "observedLocalBenchmarkCOP": {
+        "min": 2000,
+        "max": 2500
+      },
+      "benchmarkSource": "observacion_local_usuario",
+      "observedAt": "2026-09-25",
+      "currentCatalogPublicPriceCOP": 1785,
+      "marketEvidence": [
+        {
+          "source": "Homecenter",
+          "reference": "3M Temflex 165 negra 18 m",
+          "priceCOP": 6100,
+          "checkedAt": "2026-09-25"
+        },
+        {
+          "source": "Homecenter",
+          "reference": "Cinta aislante negra genérica 20 m",
+          "priceCOP": 5300,
+          "checkedAt": "2026-09-25"
+        },
+        {
+          "source": "Multicintas Star",
+          "reference": "Cinta PVC aislante eléctrica",
+          "priceCOP": 2639,
+          "checkedAt": "2026-09-25"
+        }
+      ],
+      "recommendedCommercialPricingCOP": {
+        "retail": {
+          "min": 3000,
+          "max": 4000,
+          "target": 3490
+        },
+        "volume3to11": {
+          "min": 2700,
+          "max": 3625,
+          "target": 3190
+        },
+        "wholesale12plus": {
+          "min": 2400,
+          "max": 3250,
+          "target": 2890
+        }
+      },
+      "supplierNegotiationTargetsCOP": {
+        "desiredLandedCostMaxForRetailTarget3490At50pctGrossMargin": 1745,
+        "desiredLandedCostMaxForRetailTarget3490At55pctGrossMargin": 1571,
+        "desiredLandedCostMaxForRetailTarget3490At60pctGrossMargin": 1396,
+        "note": "Estos techos son objetivos de negociación, no costos observados ni ofertas confirmadas."
+      },
+      "publicationStatus": "recommendation_only_until_supplier_cost_and_exact_5m_market_equivalence_are_verified"
+    }
+  ]
+}
