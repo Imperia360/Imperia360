@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "lastRun": "2026-09-24T12:11:58.769Z",
+  "lastRun": "2026-09-25T06:40:26.706Z",
   "summary": {
-    "sourcesChecked": 3,
-    "offersRead": 10,
-    "matched": 2,
-    "newCandidates": 8,
-    "needsReview": 8,
+    "sourcesChecked": 15,
+    "offersRead": 149,
+    "matched": 0,
+    "newCandidates": 149,
+    "needsReview": 149,
     "invalid": 0,
     "masterProducts": 488,
     "automaticPublication": false
@@ -31,9 +31,8 @@
       "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/martillo/martillo-8001-o-pulido-9-onz.html",
       "consultedAt": "2026-09-24",
       "originalProductName": "Martillo Bellota 8001-O Pulido 9 Onz",
-      "reference": "-",
-      "productId": "imp-0447",
-      "status": "MATCH_EXACT",
+      "reference": "8001-o",
+      "status": "NEEDS_REVIEW",
       "issues": []
     },
     {
@@ -61,38 +60,7 @@
       "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
       "consultedAt": "2026-09-24",
       "originalProductName": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
-      "reference": null,
-      "productId": null,
-      "status": "NEEDS_REVIEW",
-      "issues": []
-    },
-    {
-      "source": "corbeta",
-      "sourceUrl": "https://www.corbeta.com.co/ferreteria/materiales-industriales/abrasivos/lijas/lija-roja-abracol-grano-120.html",
-      "consultedAt": "2026-09-24",
-      "originalProductName": "Lija Roja Abracol Grano 120",
-      "reference": null,
-      "productId": null,
-      "status": "NEEDS_REVIEW",
-      "issues": []
-    },
-    {
-      "source": "corbeta",
-      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/martillo/martillo-8001-o-pulido-9-onz.html",
-      "consultedAt": "2026-09-24",
-      "originalProductName": "Martillo Bellota 8001-O Pulido 9 Onz",
-      "reference": "-",
-      "productId": "imp-0447",
-      "status": "MATCH_EXACT",
-      "issues": []
-    },
-    {
-      "source": "mundial_de_tornillos",
-      "sourceUrl": "https://www.mundialdetornillos.com/producto/chazo-duopower",
-      "consultedAt": "2026-09-24",
-      "originalProductName": "CHAZO DUOPOWER",
-      "reference": null,
-      "productId": null,
+      "reference": "73158",
       "status": "NEEDS_REVIEW",
       "issues": []
     },
@@ -100,7 +68,7 @@
       "source": "mundial_de_tornillos",
       "sourceUrl": "https://www.mundialdetornillos.com/producto/broca-fischer-sds-plus",
       "consultedAt": "2026-09-24",
-      "originalProductName": "BROCA FISCHER SDS PLUS IV QUATTRIC 30/200/250",
+      "originalProductName": "BROCA FISCHER SDS PLUS IV QUATTRIC",
       "reference": null,
       "productId": null,
       "status": "NEEDS_REVIEW",
@@ -110,11 +78,1347 @@
       "source": "coval",
       "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
       "consultedAt": "2026-09-24",
-      "originalProductName": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+      "originalProductName": "TORNILLO TEJA OND. 1/4 X 4 3/4 COMPLETO",
+      "reference": "73158",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "coval",
+      "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "TORNILLO C-43 LISO EST METALICA",
+      "reference": "73159",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "coval",
+      "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "GANCHO DE 55 MM TEJA ONDULADA",
+      "reference": "73152",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-1-2-economica/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ABRAZADERA 1/2 ECONOMICA",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-titan-1-2a3-4-40-06/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ABRAZADERA TITAN 1/2A3/4 40 06",
+      "reference": "40-06",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-titan-13-4a21-2-40-32/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ABRAZADERA TITAN 13/4A21/2 40 32",
+      "reference": "40-32",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-titan-11-8a17-8-40-24/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ABRAZADERA TITAN 11/8A17/8 40 24",
+      "reference": "40-24",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-titan-23-8a31-8-40-40/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ABRAZADERA TITAN 23/8A31/8 40 40",
+      "reference": "40-40",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/aerografo-f75-400-ml-dsf-1499/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "AEROGRAFO F75 400 ML DSF 1499",
+      "reference": "dsf-1499",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/aerografo-f75g-600ml-focci-dsf-3322/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "AEROGRAFO F75 600ML FOCCI DSF 3322",
+      "reference": "dsf-3322",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/aerografo-x-150-ml-abanico-f2/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "AEROGRAFO X 150 ML ABANICO F2 HT30568",
+      "reference": "ht30568",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/acople-rapido-pistola-pintar/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ACOPLE RAPIDO PISTOLA PINTAR",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/acople-rapido-pistola-pintar-juego-x-5/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ACOPLE RAPIDO PISTOLA PINTAR JUEGO X 5",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/boquilla-pistola-abanico/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "BOQUILLA PISTOLA ABANICO",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/adaptador-hembra-3-4-pvc-gerfor/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ADAPTADOR HEMBRA 3/4 PVC GERFOR",
+      "reference": "3/4",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/adaptador-hembra-1-2-pvc-gerfor/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ADAPTADOR HEMBRA 1/2 PVC GERFOR",
+      "reference": "1/2",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/adaptador-hembra-cpvc-gerfor-3-4x1-2/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ADAPTADOR HEMBRA CPVC GERFOR 3/4X1/2",
+      "reference": "3/4x1/2",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/martillo-8001-c-pulido-16-onz.html",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Martillo Bellota 8001-C Pulido 16 Onzas",
+      "reference": "8001-c",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/alicates/alicates-de-presion-recto-10.html",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ALICATE DE PRESIÓN SATA RECTO 10\"",
+      "reference": "10\"",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/alicates/alicate-corte-diagonal-7.html",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "ALICATE SATA CORTE DIAGONAL 7\"",
+      "reference": "7\"",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/martillo-8001-b-pulido-15-onz.html",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Martillo pulido Bellota mango madera 8001-B 15 Onz",
+      "reference": "8001-b",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "mundial_de_tornillos",
+      "sourceUrl": "https://www.mundialdetornillos.com/producto/chazo-multiuso-ea",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "CHAZO MULTIUSO EA",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "mundial_de_tornillos",
+      "sourceUrl": "https://www.mundialdetornillos.com/producto/broca-hss-tin",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "BROCA HSS TIN 25%",
+      "reference": "tw100",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Lima Rotativa Tugsteno SM",
+      "reference": "sm",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Macho Especial Para Montaje De Insertos Helicoil 2701 HEPYC",
+      "reference": "hepyc 2701",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Machos de roscar TIVOLY HSS Rosca Ordinaria",
+      "reference": "tivoly hss",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Fresa Escariador Hssco C247 Cobalto",
+      "reference": "c247",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Juego De Brocas En Hss Pulgadas – Dormer A190 – 1/16 A 1/2″",
+      "reference": "a190",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Juego de brocas escalonadas óxido negro 3 piezas Truper",
+      "reference": "3 piezas",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Afilador eléctrico para brocas con punta 118°, Truper 101684",
+      "reference": "101684",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Broca Vidrio Toolcraft 3/16",
+      "reference": "3/16",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Broca Vidrio Toolcraft 1/8",
+      "reference": "1/8",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Sierra Circular 7 1/4″ Eje 5/8″ Con 40 Dientes",
+      "reference": "7 1/4",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Segueta Sierra Sable TC4551 12″",
+      "reference": "tc4551",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Segueta Sierra Sable TC4550 9″",
+      "reference": "tc4550",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Segueta Sierra Sable TC4549 6″",
+      "reference": "tc4549",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Llave de Impacto Neumática 1/2″ TC5348",
+      "reference": "tc5348",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Prensa de Banco Deslizante 5″ TC5062",
+      "reference": "tc5062",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Fresa P/Ruteadora Jgo. Toolcraft TC3454 08 Pzas.",
+      "reference": "tc3454",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Fresa P/Ruteadora Jgo. Toolcraft TC3453 05 Pzas.",
+      "reference": "tc3453",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Escuadra Magnética Para Soldar 5″",
+      "reference": "5 pulgadas",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Pinza Portaelectrodo TC5239 300 Amp",
+      "reference": "tc5239",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Mango Para Lima Con Adaptadores",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Set De Pistolas De Aire Mas Manguera TC3908 Toolcraft",
+      "reference": "tc3908",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Brocha Mango Plástico Con Cerdas Blancas 3″ TC9075",
+      "reference": "tc9075",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Brocha Mango Plástico Con Cerdas Blancas 2 1/2″ TC9074",
+      "reference": "tc9074",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x20",
+      "reference": "29 piezas",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x10",
+      "reference": "29 piezas",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x5",
+      "reference": "29 piezas",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Minipulidora Angular TC5477 4.1/2 1200W X 50 UNIDADES",
+      "reference": "tc5477",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Minipulidora Angular TC5477 4.1/2 1200W X 20 UNIDADES",
+      "reference": "tc5477",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Minipulidora Angular TC5477 4.1/2 1200W X 10 UNIDADES",
+      "reference": "tc5477",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/categoria-producto/herramientas-profesionales-industriales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Generador inversores silencioso, encendido manual, Truper 103278",
+      "reference": "103278",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/categoria-producto/herramientas-profesionales-industriales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Palpador Baker Type 302 rango 0.01 mm a 0.8 mm",
+      "reference": "type 302",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "paloquemao_online",
+      "sourceUrl": "https://paloquemaoonline.com/categoria-producto/herramientas-profesionales-industriales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Medidor de espesor Análogo Ref. Mitutoyo 7321 Rango 0 a 10 mm",
+      "reference": "7321",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "2 Torres de elevación/bloqueo vehículos 2 ton profesional",
+      "reference": "torres de bloqueo",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Aceitera manual de 300 ml con bomba UYUSTOOLS",
+      "reference": "aca300u",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Aceitera manual de 500 ml con bomba UYUSTOOLS",
+      "reference": "aca500u",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Acolilladora DEWALT 12 pulgadas 1600W DWS715 + disco aluminio 80T",
+      "reference": "dws715 + dwa03230",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Acolilladora industrial con base 10 pulgadas Makita",
+      "reference": "lh1040",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Acolilladora industrial DEWALT 10 pulgadas 1650W 4600 RPM",
+      "reference": "dw714 / 10 pulgadas",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adaptador angular portapunta 1/4 YATO",
+      "reference": "yt-04637",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adaptador angular portapunta 1/4 YATO",
+      "reference": "yt-04631",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adaptador colocadora de tuercas YATO",
+      "reference": "yt-36191",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adaptador de impacto profesional 1/2 H a 3/4 M YATO",
+      "reference": "yt-1067",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adaptador de impacto profesional 3/4 H a 1 M YATO",
+      "reference": "yt-1168",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adaptador de pulidora a motosierra UYUSTOOLS 12 pulgadas",
+      "reference": "amo412",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adaptador porta puntas taladro x3 pzs",
+      "reference": "yt-04699",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adaptador reductor impacto hembra 3/4 a macho 1/2 YATO",
+      "reference": "yt-1259",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "global_tools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Teflon industrial 19mm x 0.10mm x 50m",
+      "reference": "19mm x 0.10mm x 50m",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "global_tools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Yee reducida sanitaria en PVC",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "global_tools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Yee sanitaria en PVC",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "global_tools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Tee doble sanitaria en PVC",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "global_tools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Tee reducida sanitaria en PVC",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Disco sierra para herramienta rotativa 6pz TRUPER",
+      "reference": "102328",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Disco de corte PFERD 7 x 1/8 x 7/8 para acero",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Pad velcro disco para lijadora TRUPER",
+      "reference": "19390 / pad-861ve",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Disco diamantado 7 turbo DEWALT",
+      "reference": "dw47700l",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "sociedad_ferretera_mg",
+      "sourceUrl": "https://sociedadferreteramg.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Polipasto eléctrico de 1000 kg, motor de 1500 W",
+      "reference": "16848",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "sociedad_ferretera_mg",
+      "sourceUrl": "https://sociedadferreteramg.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Báscula electrónica de plataforma plegable 500 kg",
+      "reference": "15733",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "tustechos",
+      "sourceUrl": "https://tustechos.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Kit completo accesorios teja gris perfil 7 teja fibrocemento",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "tustechos",
+      "sourceUrl": "https://tustechos.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Tanque 1000 litros tipo botella",
+      "reference": "1000 l",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "tustechos",
+      "sourceUrl": "https://tustechos.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Tanque cónico 10000 litros",
+      "reference": "10000 l",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "tustechos",
+      "sourceUrl": "https://tustechos.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Teja metálica Super 1000 calibre 28",
+      "reference": "super 1000 calibre 28",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "bombeo",
+      "sourceUrl": "https://bombeo.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Pedrollo Flotador Eléctrico PVC 10 mts 10 Amp",
+      "reference": "viyilant",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "bombeo",
+      "sourceUrl": "https://bombeo.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Pearl Presostato Square D 40/60 PSI Nema 1 1/4",
+      "reference": "9013fsg2j24",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "bombeo",
+      "sourceUrl": "https://bombeo.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Altamira Interruptor automático de presión 127Vac 10 Amp G1 10bar",
+      "reference": "pres10",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "bombeo",
+      "sourceUrl": "https://bombeo.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Pearl Flotador Eléctrico 20 Amp",
+      "reference": "mac5",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "bombeo",
+      "sourceUrl": "https://bombeo.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Pearl Bomba sumergible multietapa 0.7 Hp 110 Vac",
+      "reference": "4msp 07a16s",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "bombeo",
+      "sourceUrl": "https://bombeo.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "HydroSmart Controlador Inteligente Multifunción 0.5-5.0 Hp 220 Vac",
+      "reference": "m531 evolution - 33824",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "bombeo",
+      "sourceUrl": "https://bombeo.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Siemens Arrancadores electrónicos suaves SIRIUS 3RW52 40 HP/220V",
+      "reference": "3rw5235-6ac14 / 100468976",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "bombeo",
+      "sourceUrl": "https://bombeo.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Pedrollo Tanque hidroneumático 24 Litros",
+      "reference": "24 sf",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "luis_penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Mini motosierra inalámbrica de cadena 6 + baterías + cargador TOTAL",
+      "reference": "utgsli20662",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "luis_penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Llave inalámbrica de impacto 3/4 + 2 baterías + cargador + copas largas TOTAL",
+      "reference": "utiwli20105",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "luis_penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Careta soldar fotosensible FENIX 995 FURIUS",
+      "reference": "fw95",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "luis_penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Llave inalámbrica de impacto 1/2 + 2 baterías 4Ah + 3 copas TOTAL",
+      "reference": "utiwli2055",
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Pistola Soplar y Aspirar 500w 1 Velocidad Stanley",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Caladora 600w + Ruteadora 1200w Stanley",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Kit Taladro Percutor 1/2 pulgada 20V Max Brushless con 1 Batería 2ah + Cargador + Bolso Dewalt",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Set Herramientas Auto Y Moto 51 Piezas Bauker",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Juego de Herramientas para Mecánico 192 Piezas Dewalt",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Kit Taladro Percutor 1/2pg 20V 2 Baterías + 100 Accesorios + Caja Plástica Stanley",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Taladro Percutor Sin Escobillas 18v Xrp 13mm 169nm + 1 Batería Li-ion 8ah Dewalt",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Set Llave Universal Ubermann",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Set 92 Piezas Herramientas Hogar Bauker",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Set 10 Piezas Herramientas Bauker",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Juego Herramientas Manual 7 Piezas",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Prensa Tipo C Hierro Nodular 1 Pulgadas Profesional Surtek",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Set 5 Herramientas Manuales Stanley",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Prensa Tipo C Hierro Nodular 6 Pulgadas Profesional Surtek",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Juego de Herramientas 6 Piezas Hogar Oficinas y Carro Truper",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Prensa en C 2 Pulgadas Ref 83-502 Stanley",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Bisturí Profesion. Con Alma Metalica Grip 18Mm",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Cuchilla Retráctil Profesional Hi Vis Stanley",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Paquete X 4 Unidades Casco Eco Azul",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Bisturi TRAPEZOIDAL+ 4 cuchillas acero SK4 Industrial 18 mm",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Tubo 4X6 Metros Sanitaria",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Codo 22.1/2 X 3 CxE Sanitaria",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Tubo 3 Pulgadas X 3 Metros Sanitaria",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "homecenter",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Buje Soldado 4X2 Sanitaria",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_ya",
+      "sourceUrl": "https://ferreteriaya.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Vinilo Tipo 1 Blanco Viniltex Pintuco Cuñete",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_ya",
+      "sourceUrl": "https://ferreteriaya.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Viniltex Baños y Cocinas Galon Blanco",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_ya",
+      "sourceUrl": "https://ferreteriaya.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Aerosol Blanco Mate 400ml",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_ya",
+      "sourceUrl": "https://ferreteriaya.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Brocha Mona 1/2 Eco",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_ya",
+      "sourceUrl": "https://ferreteriaya.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Casco de Seguridad Blanco Pretul 25038",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "ferreteria_ya",
+      "sourceUrl": "https://ferreteriaya.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Nivel Laser 10m con Forro Truper 17079",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rojo_ferreterias",
+      "sourceUrl": "https://www.rojo.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Kit taladro/destornillador Inalámbrico 1/2, 20V, 32 accesorios y maletín",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rojo_ferreterias",
+      "sourceUrl": "https://www.rojo.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Pulidora Esmeriladora Inalámbrica 4-1/2, 20V, 1 batería 4Ah, cargador y maleta",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rojo_ferreterias",
+      "sourceUrl": "https://www.rojo.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Sierra circular inalámbrica 6-1/2, 20V, 1 batería 4Ah, cargador y Maleta",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rojo_ferreterias",
+      "sourceUrl": "https://www.rojo.com.co/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Destornillador de impacto Inalámbrico 1/4, 20V, 2 baterías 2Ah, Maleta",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/marca/stanley/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Alicate Hombresolo Curvo",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "rhino",
+      "sourceUrl": "https://rhino.com.co/marca/stanley/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Alicate Hombresolo Hojalatero 8 Ref. 84398",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "global_tools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/all",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Codo 90° En Hierro Dúctil Extremo Liso",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "global_tools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/all",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Colector de polvo Truper 1 HP, 600 CFM, bolsa de 57 L",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "global_tools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/all",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Colector de polvo Truper 2 HP, 1500 CFM, bolsa de 154 L",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "global_tools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/all",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Combo Truper MAX 20 V: rotomartillo inalámbrico y destornillador de impacto",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/productos/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Acondicionador de correas CRC Belt Dressing 430 ml",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/productos/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adhesivo Instantáneo Loctite 401",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/productos/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adhesivo instantáneo LOCTITE 495 Super Bonder 20 g",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/productos/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Adhesivo Superbonder LOCTITE 451",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/productos/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Afilador electrico de brocas c/punta 118° TRUPER 101684",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/productos/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Alicate 8 elect universal SATA 70303",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "invercrisan",
+      "sourceUrl": "https://invercrisan.com/productos/",
+      "consultedAt": "2026-09-24",
+      "originalProductName": "Alicate para electricista 8 STANLEY 84-023",
       "reference": null,
       "productId": null,
       "status": "NEEDS_REVIEW",
       "issues": []
     }
   ]
-}\n
+}

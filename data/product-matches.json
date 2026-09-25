@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-09-24T12:11:58.650Z",
+  "generatedAt": "2026-09-25T06:40:26.572Z",
   "masterProducts": 488,
-  "discoveriesReviewed": 7,
+  "discoveriesReviewed": 147,
   "rules": {
     "exact": "referencia/SKU coincidente con evidencia",
     "equivalent": "alta similitud semántica con marca compatible y sin contradicción de referencia",
@@ -90,7 +90,7 @@
     },
     {
       "candidate": {
-        "name": "BROCA FISCHER SDS PLUS IV QUATTRIC 30/200/250",
+        "name": "BROCA FISCHER SDS PLUS IV QUATTRIC",
         "reference": null,
         "brand": "Fischer",
         "category": null
@@ -99,7 +99,7 @@
         "source": "mundial_de_tornillos",
         "sourceUrl": "https://www.mundialdetornillos.com/producto/broca-fischer-sds-plus",
         "consultedAt": "2026-09-24",
-        "originalProductName": "BROCA FISCHER SDS PLUS IV QUATTRIC 30/200/250",
+        "originalProductName": "BROCA FISCHER SDS PLUS IV QUATTRIC",
         "presentation": "30/200/250",
         "price": null,
         "priceStatus": "quote_only_or_unknown"
@@ -108,14 +108,14 @@
         "productIndex": 96,
         "productId": "imp-0098",
         "productName": "Broca para concreto SDS Plus rotomartillo",
-        "score": 0.25
+        "score": 0.3333
       },
       "status": "NEEDS_REVIEW",
       "autoPublish": false
     },
     {
       "candidate": {
-        "name": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "name": "TORNILLO TEJA OND. 1/4 X 4 3/4 COMPLETO",
         "reference": "73158",
         "brand": null,
         "category": null
@@ -124,23 +124,23 @@
         "source": "coval",
         "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
         "consultedAt": "2026-09-24",
-        "originalProductName": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "originalProductName": "TORNILLO TEJA OND. 1/4 X 4 3/4 COMPLETO",
         "presentation": "unidad",
         "price": 6400,
         "priceStatus": "verifiable_public_price"
       },
       "match": {
-        "productIndex": 37,
-        "productId": "imp-0038",
-        "productName": "Lavaplatos de empotrar",
-        "score": 0.1111
+        "productIndex": 41,
+        "productId": "imp-0042",
+        "productName": "Tornillo hexagonal zincado G2 1/2 X 1.1/4",
+        "score": 0.3333
       },
       "status": "NEEDS_REVIEW",
       "autoPublish": false
     },
     {
       "candidate": {
-        "name": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "name": "TORNILLO C-43 LISO EST METALICA",
         "reference": "73159",
         "brand": null,
         "category": null
@@ -149,9 +149,1959 @@
         "source": "coval",
         "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
         "consultedAt": "2026-09-24",
-        "originalProductName": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "originalProductName": "TORNILLO C-43 LISO EST METALICA",
         "presentation": "unidad",
         "price": 2600,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 29,
+        "productId": "imp-0030",
+        "productName": "Tornillo Drywall Rosca fina 6 X 1",
+        "score": 0.0833
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "GANCHO DE 55 MM TEJA ONDULADA",
+        "reference": "73152",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "coval",
+        "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "GANCHO DE 55 MM TEJA ONDULADA",
+        "presentation": "unidad",
+        "price": 1350,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 264,
+        "productId": "imp-0271",
+        "productName": "Válvula de bola polipropileno 20 mm",
+        "score": 0.2
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ABRAZADERA 1/2 ECONOMICA",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-1-2-economica/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ABRAZADERA 1/2 ECONOMICA",
+        "presentation": "unidad",
+        "price": 300,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 82,
+        "productId": "imp-0084",
+        "productName": "Abrazadera amarilla 3/4 ojo 1/2 manguera Suan",
+        "score": 0.3
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ABRAZADERA TITAN 1/2A3/4 40 06",
+        "reference": "40-06",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-titan-1-2a3-4-40-06/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ABRAZADERA TITAN 1/2A3/4 40 06",
+        "presentation": "unidad",
+        "price": 1650,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 82,
+        "productId": "imp-0084",
+        "productName": "Abrazadera amarilla 3/4 ojo 1/2 manguera Suan",
+        "score": 0.2308
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ABRAZADERA TITAN 13/4A21/2 40 32",
+        "reference": "40-32",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-titan-13-4a21-2-40-32/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ABRAZADERA TITAN 13/4A21/2 40 32",
+        "presentation": "unidad",
+        "price": 2346,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 82,
+        "productId": "imp-0084",
+        "productName": "Abrazadera amarilla 3/4 ojo 1/2 manguera Suan",
+        "score": 0.1429
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ABRAZADERA TITAN 11/8A17/8 40 24",
+        "reference": "40-24",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-titan-11-8a17-8-40-24/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ABRAZADERA TITAN 11/8A17/8 40 24",
+        "presentation": "unidad",
+        "price": 2250,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 261,
+        "productId": "imp-0268",
+        "productName": "Acople sanitario 40 cm",
+        "score": 0.1
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ABRAZADERA TITAN 23/8A31/8 40 40",
+        "reference": "40-40",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/abrazadera-titan-23-8a31-8-40-40/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ABRAZADERA TITAN 23/8A31/8 40 40",
+        "presentation": "unidad",
+        "price": 3100,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 261,
+        "productId": "imp-0268",
+        "productName": "Acople sanitario 40 cm",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "AEROGRAFO F75 400 ML DSF 1499",
+        "reference": "DSF-1499",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/aerografo-f75-400-ml-dsf-1499/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "AEROGRAFO F75 400 ML DSF 1499",
+        "presentation": "unidad",
+        "price": 38000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 440,
+        "productId": "imp-0453",
+        "productName": "Blanqueador Clorox 3800 ml",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "AEROGRAFO F75 600ML FOCCI DSF 3322",
+        "reference": "DSF-3322",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/aerografo-f75g-600ml-focci-dsf-3322/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "AEROGRAFO F75 600ML FOCCI DSF 3322",
+        "presentation": "unidad",
+        "price": 46000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 85,
+        "productId": "imp-0087",
+        "productName": "Aerógrafo UDUKE profesional vaso 150 cc pistola K3 cromada",
+        "score": 0.0714
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "AEROGRAFO X 150 ML ABANICO F2 HT30568",
+        "reference": "HT30568",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/aerografo-x-150-ml-abanico-f2/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "AEROGRAFO X 150 ML ABANICO F2 HT30568",
+        "presentation": "unidad",
+        "price": 41750,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 135,
+        "productId": "imp-0137",
+        "productName": "Pegante Boxer PL285 profesional amarillo x 3785 ml",
+        "score": 0.1538
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ACOPLE RAPIDO PISTOLA PINTAR",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/acople-rapido-pistola-pintar/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ACOPLE RAPIDO PISTOLA PINTAR",
+        "presentation": "unidad",
+        "price": 8100,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 192,
+        "productId": "imp-0199",
+        "productName": "Acople rápido manguera 1/2 pulgadas PCP",
+        "score": 0.2222
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ACOPLE RAPIDO PISTOLA PINTAR JUEGO X 5",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/acople-rapido-pistola-pintar-juego-x-5/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ACOPLE RAPIDO PISTOLA PINTAR JUEGO X 5",
+        "presentation": "juego x 5",
+        "price": 9100,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 18,
+        "productId": "imp-0019",
+        "productName": "Chazo puntilla nylon 5/16 X 4",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "BOQUILLA PISTOLA ABANICO",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/boquilla-pistola-abanico/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "BOQUILLA PISTOLA ABANICO",
+        "presentation": "unidad",
+        "price": 3360,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 193,
+        "productId": "imp-0200",
+        "productName": "Adaptador boquilla rociadora PCP",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ADAPTADOR HEMBRA 3/4 PVC GERFOR",
+        "reference": "3/4",
+        "brand": "Gerfor",
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/adaptador-hembra-3-4-pvc-gerfor/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ADAPTADOR HEMBRA 3/4 PVC GERFOR",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 408,
+        "productId": "imp-0420",
+        "productName": "Tubería conduit eléctrica PVC 3/4 Gerfor",
+        "score": 0.4444
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ADAPTADOR HEMBRA 1/2 PVC GERFOR",
+        "reference": "1/2",
+        "brand": "Gerfor",
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/adaptador-hembra-1-2-pvc-gerfor/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ADAPTADOR HEMBRA 1/2 PVC GERFOR",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 287,
+        "productId": "imp-0299",
+        "productName": "Adaptador PVC DZR 1/2 hembra",
+        "score": 0.7143
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ADAPTADOR HEMBRA CPVC GERFOR 3/4X1/2",
+        "reference": "3/4X1/2",
+        "brand": "Gerfor",
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_mauro",
+        "sourceUrl": "https://ferreteriamauro.com/producto/adaptador-hembra-cpvc-gerfor-3-4x1-2/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ADAPTADOR HEMBRA CPVC GERFOR 3/4X1/2",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 387,
+        "productId": "imp-0399",
+        "productName": "Adaptador hembra CPVC 1/2 Gerfor",
+        "score": 0.625
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Martillo Bellota 8001-C Pulido 16 Onzas",
+        "reference": "8001-C",
+        "brand": "Bellota",
+        "category": null
+      },
+      "evidence": {
+        "source": "corbeta",
+        "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/martillo-8001-c-pulido-16-onz.html",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Martillo Bellota 8001-C Pulido 16 Onzas",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 12,
+        "productId": "imp-0013",
+        "productName": "Chazo plastico 5/16",
+        "score": 0.1
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ALICATE DE PRESIÓN SATA RECTO 10\"",
+        "reference": "10\"",
+        "brand": "Sata",
+        "category": null
+      },
+      "evidence": {
+        "source": "corbeta",
+        "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/alicates/alicates-de-presion-recto-10.html",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ALICATE DE PRESIÓN SATA RECTO 10\"",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 138,
+        "productId": "imp-0140",
+        "productName": "Tornillo hexagonal milimétrico de 6 X 10",
+        "score": 0.1818
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "ALICATE SATA CORTE DIAGONAL 7\"",
+        "reference": "7\"",
+        "brand": "Sata",
+        "category": null
+      },
+      "evidence": {
+        "source": "corbeta",
+        "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/alicates/alicate-corte-diagonal-7.html",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "ALICATE SATA CORTE DIAGONAL 7\"",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 423,
+        "productId": "imp-0435",
+        "productName": "Cortafrío Stanley 7 pulgadas",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Martillo pulido Bellota mango madera 8001-B 15 Onz",
+        "reference": "8001-B",
+        "brand": "Bellota",
+        "category": null
+      },
+      "evidence": {
+        "source": "corbeta",
+        "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/martillo-8001-b-pulido-15-onz.html",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Martillo pulido Bellota mango madera 8001-B 15 Onz",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 435,
+        "productId": "imp-0448",
+        "productName": "Martillo 25mm mango fibra de vidrio UDUKE",
+        "score": 0.1429
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "CHAZO MULTIUSO EA",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "mundial_de_tornillos",
+        "sourceUrl": "https://www.mundialdetornillos.com/producto/chazo-multiuso-ea",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "CHAZO MULTIUSO EA",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 9,
+        "productId": "imp-0010",
+        "productName": "Chazo plastico 1/4",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "BROCA HSS TIN 25%",
+        "reference": "TW100",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "mundial_de_tornillos",
+        "sourceUrl": "https://www.mundialdetornillos.com/producto/broca-hss-tin",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "BROCA HSS TIN 25%",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 100,
+        "productId": "imp-0102",
+        "productName": "Broca HSS TiN 25% Cobalto 8% TW101",
+        "score": 0.5714
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Lima Rotativa Tugsteno SM",
+        "reference": "SM",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Lima Rotativa Tugsteno SM",
+        "presentation": "variante según selección",
+        "price": 66400,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 0,
+        "productId": "imp-0001",
+        "productName": "Chazo plástico con tornillo 1/4 x 50 unidades",
+        "score": 0
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Macho Especial Para Montaje De Insertos Helicoil 2701 HEPYC",
+        "reference": "HEPYC 2701",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Macho Especial Para Montaje De Insertos Helicoil 2701 HEPYC",
+        "presentation": "variante según selección",
+        "price": 44100,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 46,
+        "productId": "imp-0047",
+        "productName": "Set de herramienta para sellado de silicona UDUKE",
+        "score": 0.1429
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Machos de roscar TIVOLY HSS Rosca Ordinaria",
+        "reference": "TIVOLY HSS",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Machos de roscar TIVOLY HSS Rosca Ordinaria",
+        "presentation": "variante según selección",
+        "price": 1700000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 97,
+        "productId": "imp-0099",
+        "productName": "Broca de acero rápido HSS-R SUPERTOOLS",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Fresa Escariador Hssco C247 Cobalto",
+        "reference": "C247",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Fresa Escariador Hssco C247 Cobalto",
+        "presentation": "variante según selección",
+        "price": 97000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 100,
+        "productId": "imp-0102",
+        "productName": "Broca HSS TiN 25% Cobalto 8% TW101",
+        "score": 0.0909
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Juego De Brocas En Hss Pulgadas – Dormer A190 – 1/16 A 1/2″",
+        "reference": "A190",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Juego De Brocas En Hss Pulgadas – Dormer A190 – 1/16 A 1/2″",
+        "presentation": "juego",
+        "price": 781100,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 271,
+        "productId": "imp-0278",
+        "productName": "Purga de aire PVC 1 1/2 pulgadas PCP",
+        "score": 0.25
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Juego de brocas escalonadas óxido negro 3 piezas Truper",
+        "reference": "3 piezas",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Juego de brocas escalonadas óxido negro 3 piezas Truper",
+        "presentation": "juego",
+        "price": 113200,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 75,
+        "productId": "imp-0077",
+        "productName": "Juego de espátulas de plástico x 3 piezas",
+        "score": 0.3333
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Afilador eléctrico para brocas con punta 118°, Truper 101684",
+        "reference": "101684",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Afilador eléctrico para brocas con punta 118°, Truper 101684",
+        "presentation": "unidad",
+        "price": 120500,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 13,
+        "productId": "imp-0014",
+        "productName": "Tornillo avellan punta de broca con nervadura 6 X 1",
+        "score": 0.1176
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Broca Vidrio Toolcraft 3/16",
+        "reference": "3/16",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Broca Vidrio Toolcraft 3/16",
+        "presentation": "unidad",
+        "price": 15100,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 24,
+        "productId": "imp-0025",
+        "productName": "Tornillo pan framer punta de broca zincado 7 X 7/16",
+        "score": 0.1538
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Broca Vidrio Toolcraft 1/8",
+        "reference": "1/8",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Broca Vidrio Toolcraft 1/8",
+        "presentation": "unidad",
+        "price": 5500,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 7,
+        "productId": "imp-0008",
+        "productName": "Tornillo extraplano punta de broca 8 X 1/2",
+        "score": 0.2727
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Sierra Circular 7 1/4″ Eje 5/8″ Con 40 Dientes",
+        "reference": "7 1/4",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Sierra Circular 7 1/4″ Eje 5/8″ Con 40 Dientes",
+        "presentation": "unidad",
+        "price": 26500,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 27,
+        "productId": "imp-0028",
+        "productName": "Chazo puntilla nylon 1/4 X 1.5/8",
+        "score": 0.2667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Segueta Sierra Sable TC4551 12″",
+        "reference": "TC4551",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Segueta Sierra Sable TC4551 12″",
+        "presentation": "unidad",
+        "price": 19400,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 102,
+        "productId": "imp-0104",
+        "productName": "Sierra ingleteadora",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Segueta Sierra Sable TC4550 9″",
+        "reference": "TC4550",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Segueta Sierra Sable TC4550 9″",
+        "presentation": "unidad",
+        "price": 21700,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 102,
+        "productId": "imp-0104",
+        "productName": "Sierra ingleteadora",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Segueta Sierra Sable TC4549 6″",
+        "reference": "TC4549",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Segueta Sierra Sable TC4549 6″",
+        "presentation": "unidad",
+        "price": 14400,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 102,
+        "productId": "imp-0104",
+        "productName": "Sierra ingleteadora",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Llave de Impacto Neumática 1/2″ TC5348",
+        "reference": "TC5348",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Llave de Impacto Neumática 1/2″ TC5348",
+        "presentation": "unidad",
+        "price": 186300,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 237,
+        "productId": "imp-0244",
+        "productName": "Llave jardín PVC 1/2 inserto nylon",
+        "score": 0.2727
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Prensa de Banco Deslizante 5″ TC5062",
+        "reference": "TC5062",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Prensa de Banco Deslizante 5″ TC5062",
+        "presentation": "unidad",
+        "price": 360000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 52,
+        "productId": "imp-0053",
+        "productName": "Polea de gancho 1.5 toneladas 5 pulgadas RANGER",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Fresa P/Ruteadora Jgo. Toolcraft TC3454 08 Pzas.",
+        "reference": "TC3454",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Fresa P/Ruteadora Jgo. Toolcraft TC3454 08 Pzas.",
+        "presentation": "juego 8 piezas",
+        "price": 89600,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 0,
+        "productId": "imp-0001",
+        "productName": "Chazo plástico con tornillo 1/4 x 50 unidades",
+        "score": 0
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Fresa P/Ruteadora Jgo. Toolcraft TC3453 05 Pzas.",
+        "reference": "TC3453",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Fresa P/Ruteadora Jgo. Toolcraft TC3453 05 Pzas.",
+        "presentation": "juego 5 piezas",
+        "price": 70800,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 0,
+        "productId": "imp-0001",
+        "productName": "Chazo plástico con tornillo 1/4 x 50 unidades",
+        "score": 0
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Escuadra Magnética Para Soldar 5″",
+        "reference": "5 pulgadas",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Escuadra Magnética Para Soldar 5″",
+        "presentation": "unidad",
+        "price": 46800,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 119,
+        "productId": "imp-0121",
+        "productName": "Mascarillas 5 piezas",
+        "score": 0.1429
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Pinza Portaelectrodo TC5239 300 Amp",
+        "reference": "TC5239",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Pinza Portaelectrodo TC5239 300 Amp",
+        "presentation": "unidad",
+        "price": 46900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 421,
+        "productId": "imp-0433",
+        "productName": "Pinza naranja-gris #8",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Mango Para Lima Con Adaptadores",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Mango Para Lima Con Adaptadores",
+        "presentation": "unidad",
+        "price": 8000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 114,
+        "productId": "imp-0116",
+        "productName": "Guante carnaza para soldador",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Set De Pistolas De Aire Mas Manguera TC3908 Toolcraft",
+        "reference": "TC3908",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Set De Pistolas De Aire Mas Manguera TC3908 Toolcraft",
+        "presentation": "set",
+        "price": 130000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 46,
+        "productId": "imp-0047",
+        "productName": "Set de herramienta para sellado de silicona UDUKE",
+        "score": 0.1538
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Brocha Mango Plástico Con Cerdas Blancas 3″ TC9075",
+        "reference": "TC9075",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Brocha Mango Plástico Con Cerdas Blancas 3″ TC9075",
+        "presentation": "unidad",
+        "price": 6600,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 2,
+        "productId": "imp-0003",
+        "productName": "Chazo plástico con tornillo 3/8 x 50 unidades",
+        "score": 0.2143
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Brocha Mango Plástico Con Cerdas Blancas 2 1/2″ TC9074",
+        "reference": "TC9074",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Brocha Mango Plástico Con Cerdas Blancas 2 1/2″ TC9074",
+        "presentation": "unidad",
+        "price": 3800,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 0,
+        "productId": "imp-0001",
+        "productName": "Chazo plástico con tornillo 1/4 x 50 unidades",
+        "score": 0.2
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x20",
+        "reference": "29 piezas",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x20",
+        "presentation": "lote x20",
+        "price": 6800000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 98,
+        "productId": "imp-0100",
+        "productName": "Juego de brocas TW 104",
+        "score": 0.25
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x10",
+        "reference": "29 piezas",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x10",
+        "presentation": "lote x10",
+        "price": 4760000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 98,
+        "productId": "imp-0100",
+        "productName": "Juego de brocas TW 104",
+        "score": 0.25
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x5",
+        "reference": "29 piezas",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Juego de Brocas HSS Hepyc 29 Piezas Precio Mayorista x5",
+        "presentation": "lote x5",
+        "price": 2720000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 98,
+        "productId": "imp-0100",
+        "productName": "Juego de brocas TW 104",
+        "score": 0.25
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Minipulidora Angular TC5477 4.1/2 1200W X 50 UNIDADES",
+        "reference": "TC5477",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Minipulidora Angular TC5477 4.1/2 1200W X 50 UNIDADES",
+        "presentation": "lote x50",
+        "price": 6500000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 105,
+        "productId": "imp-0107",
+        "productName": "Minipulidora 4 1/2 pulgadas",
+        "score": 0.3636
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Minipulidora Angular TC5477 4.1/2 1200W X 20 UNIDADES",
+        "reference": "TC5477",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Minipulidora Angular TC5477 4.1/2 1200W X 20 UNIDADES",
+        "presentation": "lote x20",
+        "price": 2928000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 105,
+        "productId": "imp-0107",
+        "productName": "Minipulidora 4 1/2 pulgadas",
+        "score": 0.3636
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Minipulidora Angular TC5477 4.1/2 1200W X 10 UNIDADES",
+        "reference": "TC5477",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/zona-mayorista/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Minipulidora Angular TC5477 4.1/2 1200W X 10 UNIDADES",
+        "presentation": "lote x10",
+        "price": 1708000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 105,
+        "productId": "imp-0107",
+        "productName": "Minipulidora 4 1/2 pulgadas",
+        "score": 0.3636
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Generador inversores silencioso, encendido manual, Truper 103278",
+        "reference": "103278",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/categoria-producto/herramientas-profesionales-industriales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Generador inversores silencioso, encendido manual, Truper 103278",
+        "presentation": "unidad",
+        "price": 2664100,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 0,
+        "productId": "imp-0001",
+        "productName": "Chazo plástico con tornillo 1/4 x 50 unidades",
+        "score": 0
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Palpador Baker Type 302 rango 0.01 mm a 0.8 mm",
+        "reference": "Type 302",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/categoria-producto/herramientas-profesionales-industriales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Palpador Baker Type 302 rango 0.01 mm a 0.8 mm",
+        "presentation": "unidad",
+        "price": 625000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 315,
+        "productId": "imp-0327",
+        "productName": "Unión transición Dresser 20 mm PE a 20 mm PE",
+        "score": 0.1333
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Medidor de espesor Análogo Ref. Mitutoyo 7321 Rango 0 a 10 mm",
+        "reference": "7321",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "paloquemao_online",
+        "sourceUrl": "https://paloquemaoonline.com/categoria-producto/herramientas-profesionales-industriales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Medidor de espesor Análogo Ref. Mitutoyo 7321 Rango 0 a 10 mm",
+        "presentation": "unidad",
+        "price": 428400,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 264,
+        "productId": "imp-0271",
+        "productName": "Válvula de bola polipropileno 20 mm",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "2 Torres de elevación/bloqueo vehículos 2 ton profesional",
+        "reference": "TORRES DE BLOQUEO",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "2 Torres de elevación/bloqueo vehículos 2 ton profesional",
+        "presentation": "par",
+        "price": 140900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 206,
+        "productId": "imp-0213",
+        "productName": "Válvula de bola PVC pesada 2 roscar",
+        "score": 0.1538
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Aceitera manual de 300 ml con bomba UYUSTOOLS",
+        "reference": "ACA300U",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Aceitera manual de 300 ml con bomba UYUSTOOLS",
+        "presentation": "unidad",
+        "price": 16000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 67,
+        "productId": "imp-0069",
+        "productName": "Construmax panel adhesivo multimaterial beige AFIX 300 ml",
+        "score": 0.1429
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Aceitera manual de 500 ml con bomba UYUSTOOLS",
+        "reference": "ACA500U",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Aceitera manual de 500 ml con bomba UYUSTOOLS",
+        "presentation": "unidad",
+        "price": 16720,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 13,
+        "productId": "imp-0014",
+        "productName": "Tornillo avellan punta de broca con nervadura 6 X 1",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Acolilladora DEWALT 12 pulgadas 1600W DWS715 + disco aluminio 80T",
+        "reference": "DWS715 + DWA03230",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Acolilladora DEWALT 12 pulgadas 1600W DWS715 + disco aluminio 80T",
+        "presentation": "unidad",
+        "price": 2868789,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 48,
+        "productId": "imp-0049",
+        "productName": "Palustre 12 pulgadas mango plástico industrial TOTAL",
+        "score": 0.1429
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Acolilladora industrial con base 10 pulgadas Makita",
+        "reference": "LH1040",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Acolilladora industrial con base 10 pulgadas Makita",
+        "presentation": "unidad",
+        "price": 2467388,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 50,
+        "productId": "imp-0051",
+        "productName": "Tijera podar 24 pulgadas industrial TOTAL",
+        "score": 0.1818
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Acolilladora industrial DEWALT 10 pulgadas 1650W 4600 RPM",
+        "reference": "DW714 / 10 pulgadas",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Acolilladora industrial DEWALT 10 pulgadas 1650W 4600 RPM",
+        "presentation": "unidad",
+        "price": 1421189,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 50,
+        "productId": "imp-0051",
+        "productName": "Tijera podar 24 pulgadas industrial TOTAL",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adaptador angular portapunta 1/4 YATO",
+        "reference": "YT-04637",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adaptador angular portapunta 1/4 YATO",
+        "presentation": "unidad",
+        "price": 88,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 160,
+        "productId": "imp-0165",
+        "productName": "Esmeriladora angular 4 1/2 pulgadas 800W",
+        "score": 0.3
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adaptador angular portapunta 1/4 YATO",
+        "reference": "YT-04631",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adaptador angular portapunta 1/4 YATO",
+        "presentation": "unidad",
+        "price": 45,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 160,
+        "productId": "imp-0165",
+        "productName": "Esmeriladora angular 4 1/2 pulgadas 800W",
+        "score": 0.3
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adaptador colocadora de tuercas YATO",
+        "reference": "YT-36191",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adaptador colocadora de tuercas YATO",
+        "presentation": "unidad",
+        "price": 200,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 37,
+        "productId": "imp-0038",
+        "productName": "Lavaplatos de empotrar",
+        "score": 0.1429
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adaptador de impacto profesional 1/2 H a 3/4 M YATO",
+        "reference": "YT-1067",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adaptador de impacto profesional 1/2 H a 3/4 M YATO",
+        "presentation": "unidad",
+        "price": 18900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 324,
+        "productId": "imp-0336",
+        "productName": "Aspersor de rosca 3/4 a 23°",
+        "score": 0.2667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adaptador de impacto profesional 3/4 H a 1 M YATO",
+        "reference": "YT-1168",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adaptador de impacto profesional 3/4 H a 1 M YATO",
+        "presentation": "unidad",
+        "price": 23025,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 324,
+        "productId": "imp-0336",
+        "productName": "Aspersor de rosca 3/4 a 23°",
+        "score": 0.2857
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adaptador de pulidora a motosierra UYUSTOOLS 12 pulgadas",
+        "reference": "AMO412",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adaptador de pulidora a motosierra UYUSTOOLS 12 pulgadas",
+        "presentation": "unidad",
+        "price": 52900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 48,
+        "productId": "imp-0049",
+        "productName": "Palustre 12 pulgadas mango plástico industrial TOTAL",
+        "score": 0.1538
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adaptador porta puntas taladro x3 pzs",
+        "reference": "YT-04699",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adaptador porta puntas taladro x3 pzs",
+        "presentation": "juego x3",
+        "price": 9600,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 194,
+        "productId": "imp-0201",
+        "productName": "Adaptador grifo PCP",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adaptador reductor impacto hembra 3/4 a macho 1/2 YATO",
+        "reference": "YT-1259",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/tienda/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adaptador reductor impacto hembra 3/4 a macho 1/2 YATO",
+        "presentation": "unidad",
+        "price": 15600,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 156,
+        "productId": "imp-0161",
+        "productName": "Adaptador macho Gerfor 1/2 x100",
+        "score": 0.3077
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Teflon industrial 19mm x 0.10mm x 50m",
+        "reference": "19mm x 0.10mm x 50m",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "global_tools",
+        "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Teflon industrial 19mm x 0.10mm x 50m",
+        "presentation": "rollo",
+        "price": 10800,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 49,
+        "productId": "imp-0050",
+        "productName": "Tijera podar blister x 3 piezas industrial TOTAL",
+        "score": 0.1538
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Yee reducida sanitaria en PVC",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "global_tools",
+        "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Yee reducida sanitaria en PVC",
+        "presentation": "unidad",
+        "price": 21600,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 197,
+        "productId": "imp-0204",
+        "productName": "Conector en yee PCP",
+        "score": 0.2857
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Yee sanitaria en PVC",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "global_tools",
+        "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Yee sanitaria en PVC",
+        "presentation": "unidad",
+        "price": 11200,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 197,
+        "productId": "imp-0204",
+        "productName": "Conector en yee PCP",
+        "score": 0.3333
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Tee doble sanitaria en PVC",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "global_tools",
+        "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Tee doble sanitaria en PVC",
+        "presentation": "unidad",
+        "price": 18600,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 391,
+        "productId": "imp-0403",
+        "productName": "Tee sanitaria 2 pulgadas Gerfor",
+        "score": 0.25
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Tee reducida sanitaria en PVC",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "global_tools",
+        "sourceUrl": "https://globaltoolscompaniaferretera.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Tee reducida sanitaria en PVC",
+        "presentation": "unidad",
+        "price": 23900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 391,
+        "productId": "imp-0403",
+        "productName": "Tee sanitaria 2 pulgadas Gerfor",
+        "score": 0.25
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Disco sierra para herramienta rotativa 6pz TRUPER",
+        "reference": "102328",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Disco sierra para herramienta rotativa 6pz TRUPER",
+        "presentation": "paquete x6",
+        "price": 30500,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 46,
+        "productId": "imp-0047",
+        "productName": "Set de herramienta para sellado de silicona UDUKE",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Disco de corte PFERD 7 x 1/8 x 7/8 para acero",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Disco de corte PFERD 7 x 1/8 x 7/8 para acero",
+        "presentation": "unidad",
+        "price": 8500,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 7,
+        "productId": "imp-0008",
+        "productName": "Tornillo extraplano punta de broca 8 X 1/2",
+        "score": 0.2667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Pad velcro disco para lijadora TRUPER",
+        "reference": "19390 / PAD-861VE",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Pad velcro disco para lijadora TRUPER",
+        "presentation": "unidad",
+        "price": 50000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 114,
+        "productId": "imp-0116",
+        "productName": "Guante carnaza para soldador",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Disco diamantado 7 turbo DEWALT",
+        "reference": "DW47700L",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Disco diamantado 7 turbo DEWALT",
+        "presentation": "unidad",
+        "price": 45000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 423,
+        "productId": "imp-0435",
+        "productName": "Cortafrío Stanley 7 pulgadas",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Polipasto eléctrico de 1000 kg, motor de 1500 W",
+        "reference": "16848",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "sociedad_ferretera_mg",
+        "sourceUrl": "https://sociedadferreteramg.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Polipasto eléctrico de 1000 kg, motor de 1500 W",
+        "presentation": "unidad",
+        "price": 2289990,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 101,
+        "productId": "imp-0103",
+        "productName": "Cepillo eléctrico",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Báscula electrónica de plataforma plegable 500 kg",
+        "reference": "15733",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "sociedad_ferretera_mg",
+        "sourceUrl": "https://sociedadferreteramg.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Báscula electrónica de plataforma plegable 500 kg",
+        "presentation": "unidad",
+        "price": 1299990,
         "priceStatus": "verifiable_public_price"
       },
       "match": {
@@ -165,25 +2115,1575 @@
     },
     {
       "candidate": {
-        "name": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
-        "reference": "73152",
+        "name": "Kit completo accesorios teja gris perfil 7 teja fibrocemento",
+        "reference": null,
         "brand": null,
         "category": null
       },
       "evidence": {
-        "source": "coval",
-        "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_eternit.pdf",
+        "source": "tustechos",
+        "sourceUrl": "https://tustechos.com/",
         "consultedAt": "2026-09-24",
-        "originalProductName": "LISTA DE PRECIOS CUBIERTAS DE FIBROCEMENTO Febrero 2026",
+        "originalProductName": "Kit completo accesorios teja gris perfil 7 teja fibrocemento",
+        "presentation": "kit",
+        "price": 20000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 113,
+        "productId": "imp-0115",
+        "productName": "Kit protección contra caídas",
+        "score": 0.0909
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Tanque 1000 litros tipo botella",
+        "reference": "1000 L",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "tustechos",
+        "sourceUrl": "https://tustechos.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Tanque 1000 litros tipo botella",
         "presentation": "unidad",
-        "price": 1350,
+        "price": 506844,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 190,
+        "productId": "imp-0197",
+        "productName": "Boquilla rociadora tipo pesada PCP",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Tanque cónico 10000 litros",
+        "reference": "10000 L",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "tustechos",
+        "sourceUrl": "https://tustechos.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Tanque cónico 10000 litros",
+        "presentation": "unidad",
+        "price": 5978160,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 0,
+        "productId": "imp-0001",
+        "productName": "Chazo plástico con tornillo 1/4 x 50 unidades",
+        "score": 0
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Teja metálica Super 1000 calibre 28",
+        "reference": "Super 1000 calibre 28",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "tustechos",
+        "sourceUrl": "https://tustechos.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Teja metálica Super 1000 calibre 28",
+        "presentation": "unidad",
+        "price": 20648,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 427,
+        "productId": "imp-0439",
+        "productName": "Cortafrío 7 pulgadas Super Select Total",
+        "score": 0.0909
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Pedrollo Flotador Eléctrico PVC 10 mts 10 Amp",
+        "reference": "VIYILANT",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "bombeo",
+        "sourceUrl": "https://bombeo.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Pedrollo Flotador Eléctrico PVC 10 mts 10 Amp",
+        "presentation": "unidad",
+        "price": 385000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 101,
+        "productId": "imp-0103",
+        "productName": "Cepillo eléctrico",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Pearl Presostato Square D 40/60 PSI Nema 1 1/4",
+        "reference": "9013FSG2J24",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "bombeo",
+        "sourceUrl": "https://bombeo.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Pearl Presostato Square D 40/60 PSI Nema 1 1/4",
+        "presentation": "unidad",
+        "price": 190000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 9,
+        "productId": "imp-0010",
+        "productName": "Chazo plastico 1/4",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Altamira Interruptor automático de presión 127Vac 10 Amp G1 10bar",
+        "reference": "PRES10",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "bombeo",
+        "sourceUrl": "https://bombeo.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Altamira Interruptor automático de presión 127Vac 10 Amp G1 10bar",
+        "presentation": "unidad",
+        "price": 170000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 138,
+        "productId": "imp-0140",
+        "productName": "Tornillo hexagonal milimétrico de 6 X 10",
+        "score": 0.1333
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Pearl Flotador Eléctrico 20 Amp",
+        "reference": "MAC5",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "bombeo",
+        "sourceUrl": "https://bombeo.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Pearl Flotador Eléctrico 20 Amp",
+        "presentation": "unidad",
+        "price": 450000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 101,
+        "productId": "imp-0103",
+        "productName": "Cepillo eléctrico",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Pearl Bomba sumergible multietapa 0.7 Hp 110 Vac",
+        "reference": "4MSP 07A16S",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "bombeo",
+        "sourceUrl": "https://bombeo.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Pearl Bomba sumergible multietapa 0.7 Hp 110 Vac",
+        "presentation": "unidad",
+        "price": 1040000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 423,
+        "productId": "imp-0435",
+        "productName": "Cortafrío Stanley 7 pulgadas",
+        "score": 0.0833
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "HydroSmart Controlador Inteligente Multifunción 0.5-5.0 Hp 220 Vac",
+        "reference": "M531 Evolution - 33824",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "bombeo",
+        "sourceUrl": "https://bombeo.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "HydroSmart Controlador Inteligente Multifunción 0.5-5.0 Hp 220 Vac",
+        "presentation": "unidad",
+        "price": 970000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 119,
+        "productId": "imp-0121",
+        "productName": "Mascarillas 5 piezas",
+        "score": 0.0909
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Siemens Arrancadores electrónicos suaves SIRIUS 3RW52 40 HP/220V",
+        "reference": "3RW5235-6AC14 / 100468976",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "bombeo",
+        "sourceUrl": "https://bombeo.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Siemens Arrancadores electrónicos suaves SIRIUS 3RW52 40 HP/220V",
+        "presentation": "unidad",
+        "price": 64440000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 261,
+        "productId": "imp-0268",
+        "productName": "Acople sanitario 40 cm",
+        "score": 0.0833
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Pedrollo Tanque hidroneumático 24 Litros",
+        "reference": "24 SF",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "bombeo",
+        "sourceUrl": "https://bombeo.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Pedrollo Tanque hidroneumático 24 Litros",
+        "presentation": "unidad",
+        "price": 250000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 178,
+        "productId": "imp-0185",
+        "productName": "Tijera podar 24 pulgadas Total",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Mini motosierra inalámbrica de cadena 6 + baterías + cargador TOTAL",
+        "reference": "UTGSLI20662",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "luis_penagos",
+        "sourceUrl": "https://ferreterialuispenagos.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Mini motosierra inalámbrica de cadena 6 + baterías + cargador TOTAL",
+        "presentation": "unidad",
+        "price": 235700,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 428,
+        "productId": "imp-0440",
+        "productName": "Juego de llave peston 6/8/9 pulgadas Super Total",
+        "score": 0.1875
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Llave inalámbrica de impacto 3/4 + 2 baterías + cargador + copas largas TOTAL",
+        "reference": "UTIWLI20105",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "luis_penagos",
+        "sourceUrl": "https://ferreterialuispenagos.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Llave inalámbrica de impacto 3/4 + 2 baterías + cargador + copas largas TOTAL",
+        "presentation": "unidad",
+        "price": null,
+        "priceStatus": "quote_only_or_unknown"
+      },
+      "match": {
+        "productIndex": 433,
+        "productId": "imp-0446",
+        "productName": "Juego de copas x10 piezas 1/2 10-24mm Industrial Total",
+        "score": 0.2105
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Careta soldar fotosensible FENIX 995 FURIUS",
+        "reference": "FW95",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "luis_penagos",
+        "sourceUrl": "https://ferreterialuispenagos.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Careta soldar fotosensible FENIX 995 FURIUS",
+        "presentation": "unidad",
+        "price": 38500,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 165,
+        "productId": "imp-0170",
+        "productName": "Careta fotosensible Furius Fenix 330",
+        "score": 0.5714
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Llave inalámbrica de impacto 1/2 + 2 baterías 4Ah + 3 copas TOTAL",
+        "reference": "UTIWLI2055",
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "luis_penagos",
+        "sourceUrl": "https://ferreterialuispenagos.com/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Llave inalámbrica de impacto 1/2 + 2 baterías 4Ah + 3 copas TOTAL",
+        "presentation": "unidad",
+        "price": 141700,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 433,
+        "productId": "imp-0446",
+        "productName": "Juego de copas x10 piezas 1/2 10-24mm Industrial Total",
+        "score": 0.2941
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Pistola Soplar y Aspirar 500w 1 Velocidad Stanley",
+        "reference": null,
+        "brand": "Stanley",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Pistola Soplar y Aspirar 500w 1 Velocidad Stanley",
+        "presentation": "unidad",
+        "price": 179900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 9,
+        "productId": "imp-0010",
+        "productName": "Chazo plastico 1/4",
+        "score": 0.0909
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Caladora 600w + Ruteadora 1200w Stanley",
+        "reference": null,
+        "brand": "Stanley",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Caladora 600w + Ruteadora 1200w Stanley",
+        "presentation": "unidad",
+        "price": 569900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 423,
+        "productId": "imp-0435",
+        "productName": "Cortafrío Stanley 7 pulgadas",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Kit Taladro Percutor 1/2 pulgada 20V Max Brushless con 1 Batería 2ah + Cargador + Bolso Dewalt",
+        "reference": null,
+        "brand": "Dewalt",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Kit Taladro Percutor 1/2 pulgada 20V Max Brushless con 1 Batería 2ah + Cargador + Bolso Dewalt",
+        "presentation": "kit",
+        "price": 384900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 153,
+        "productId": "imp-0158",
+        "productName": "Conduit tubo Gerfor 1/2 pulgada",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Set Herramientas Auto Y Moto 51 Piezas Bauker",
+        "reference": null,
+        "brand": "Bauker",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Set Herramientas Auto Y Moto 51 Piezas Bauker",
+        "presentation": "set 51 piezas",
+        "price": 99900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 430,
+        "productId": "imp-0443",
+        "productName": "Juego de herramientas 168 piezas Super Total",
+        "score": 0.1538
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Juego de Herramientas para Mecánico 192 Piezas Dewalt",
+        "reference": null,
+        "brand": "Dewalt",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Juego de Herramientas para Mecánico 192 Piezas Dewalt",
+        "presentation": "juego 192 piezas",
+        "price": 949900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 430,
+        "productId": "imp-0443",
+        "productName": "Juego de herramientas 168 piezas Super Total",
+        "score": 0.3636
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Kit Taladro Percutor 1/2pg 20V 2 Baterías + 100 Accesorios + Caja Plástica Stanley",
+        "reference": null,
+        "brand": "Stanley",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Kit Taladro Percutor 1/2pg 20V 2 Baterías + 100 Accesorios + Caja Plástica Stanley",
+        "presentation": "kit",
+        "price": 559900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 276,
+        "productId": "imp-0288",
+        "productName": "Llave taladro UDUKE 1/2 blister 13mm HT80338",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Taladro Percutor Sin Escobillas 18v Xrp 13mm 169nm + 1 Batería Li-ion 8ah Dewalt",
+        "reference": null,
+        "brand": "Dewalt",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Taladro Percutor Sin Escobillas 18v Xrp 13mm 169nm + 1 Batería Li-ion 8ah Dewalt",
+        "presentation": "unidad",
+        "price": 2199900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 276,
+        "productId": "imp-0288",
+        "productName": "Llave taladro UDUKE 1/2 blister 13mm HT80338",
+        "score": 0.1579
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Set Llave Universal Ubermann",
+        "reference": null,
+        "brand": "Ubermann",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat9670052/herramientas-y-ferreteria-precio-especial/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Set Llave Universal Ubermann",
+        "presentation": "set",
+        "price": 49900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 341,
+        "productId": "imp-0353",
+        "productName": "Sifón universal lavaplatos lavamanos",
+        "score": 0.1429
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Set 92 Piezas Herramientas Hogar Bauker",
+        "reference": null,
+        "brand": "Bauker",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Set 92 Piezas Herramientas Hogar Bauker",
+        "presentation": "set 92 piezas",
+        "price": 439900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 430,
+        "productId": "imp-0443",
+        "productName": "Juego de herramientas 168 piezas Super Total",
+        "score": 0.1818
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Set 10 Piezas Herramientas Bauker",
+        "reference": null,
+        "brand": "Bauker",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Set 10 Piezas Herramientas Bauker",
+        "presentation": "set 10 piezas",
+        "price": 59900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 430,
+        "productId": "imp-0443",
+        "productName": "Juego de herramientas 168 piezas Super Total",
+        "score": 0.2
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Juego Herramientas Manual 7 Piezas",
+        "reference": null,
+        "brand": "Bauker",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Juego Herramientas Manual 7 Piezas",
+        "presentation": "juego 7 piezas",
+        "price": 69900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 430,
+        "productId": "imp-0443",
+        "productName": "Juego de herramientas 168 piezas Super Total",
+        "score": 0.3333
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Prensa Tipo C Hierro Nodular 1 Pulgadas Profesional Surtek",
+        "reference": null,
+        "brand": "Surtek",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Prensa Tipo C Hierro Nodular 1 Pulgadas Profesional Surtek",
+        "presentation": "unidad",
+        "price": 24900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 105,
+        "productId": "imp-0107",
+        "productName": "Minipulidora 4 1/2 pulgadas",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Set 5 Herramientas Manuales Stanley",
+        "reference": null,
+        "brand": "Stanley",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Set 5 Herramientas Manuales Stanley",
+        "presentation": "set 5 piezas",
+        "price": 99900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 424,
+        "productId": "imp-0436",
+        "productName": "Cortafrío Stanley 5 pulgadas",
+        "score": 0.2857
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Prensa Tipo C Hierro Nodular 6 Pulgadas Profesional Surtek",
+        "reference": null,
+        "brand": "Surtek",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Prensa Tipo C Hierro Nodular 6 Pulgadas Profesional Surtek",
+        "presentation": "unidad",
+        "price": 72900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 425,
+        "productId": "imp-0437",
+        "productName": "Cortafrío profesional UDUKE amarillo-negro 6 pulgadas",
+        "score": 0.2308
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Juego de Herramientas 6 Piezas Hogar Oficinas y Carro Truper",
+        "reference": null,
+        "brand": "Truper",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Juego de Herramientas 6 Piezas Hogar Oficinas y Carro Truper",
+        "presentation": "juego 6 piezas",
+        "price": 121900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 430,
+        "productId": "imp-0443",
+        "productName": "Juego de herramientas 168 piezas Super Total",
+        "score": 0.3077
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Prensa en C 2 Pulgadas Ref 83-502 Stanley",
+        "reference": null,
+        "brand": "Stanley",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat300011/herramientas-manuales/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Prensa en C 2 Pulgadas Ref 83-502 Stanley",
+        "presentation": "unidad",
+        "price": 31900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 423,
+        "productId": "imp-0435",
+        "productName": "Cortafrío Stanley 7 pulgadas",
+        "score": 0.1818
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Bisturí Profesion. Con Alma Metalica Grip 18Mm",
+        "reference": null,
+        "brand": "Truper",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Bisturí Profesion. Con Alma Metalica Grip 18Mm",
+        "presentation": "unidad",
+        "price": 29900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 117,
+        "productId": "imp-0119",
+        "productName": "Impermeable 2 piezas broche con capucha",
+        "score": 0.0833
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Cuchilla Retráctil Profesional Hi Vis Stanley",
+        "reference": null,
+        "brand": "Stanley",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Cuchilla Retráctil Profesional Hi Vis Stanley",
+        "presentation": "unidad",
+        "price": 46900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 423,
+        "productId": "imp-0435",
+        "productName": "Cortafrío Stanley 7 pulgadas",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Paquete X 4 Unidades Casco Eco Azul",
+        "reference": null,
+        "brand": "Steelpro",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Paquete X 4 Unidades Casco Eco Azul",
+        "presentation": "paquete x4",
+        "price": 60900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 0,
+        "productId": "imp-0001",
+        "productName": "Chazo plástico con tornillo 1/4 x 50 unidades",
+        "score": 0.2308
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Bisturi TRAPEZOIDAL+ 4 cuchillas acero SK4 Industrial 18 mm",
+        "reference": null,
+        "brand": "Discover",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Bisturi TRAPEZOIDAL+ 4 cuchillas acero SK4 Industrial 18 mm",
+        "presentation": "unidad",
+        "price": 44900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 480,
+        "productId": "imp-0481",
+        "productName": "Tuerca Seguridad NF Inoxidable Acero 304 A2 1/4",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Tubo 4X6 Metros Sanitaria",
+        "reference": null,
+        "brand": "Durman",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Tubo 4X6 Metros Sanitaria",
+        "presentation": "6 metros",
+        "price": 89900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 61,
+        "productId": "imp-0063",
+        "productName": "Tubo LED T8 9W UDUKE",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Codo 22.1/2 X 3 CxE Sanitaria",
+        "reference": null,
+        "brand": "Pavco Wavin",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Codo 22.1/2 X 3 CxE Sanitaria",
+        "presentation": "unidad",
+        "price": 16900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 400,
+        "productId": "imp-0412",
+        "productName": "Reducción sanitaria 3 x 2 Gerfor",
+        "score": 0.4
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Tubo 3 Pulgadas X 3 Metros Sanitaria",
+        "reference": null,
+        "brand": "Durman",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Tubo 3 Pulgadas X 3 Metros Sanitaria",
+        "presentation": "3 metros",
+        "price": 37900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 392,
+        "productId": "imp-0404",
+        "productName": "Tee sanitaria 3 pulgadas Gerfor",
+        "score": 0.375
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Buje Soldado 4X2 Sanitaria",
+        "reference": null,
+        "brand": "Pavco Wavin",
+        "category": null
+      },
+      "evidence": {
+        "source": "homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Buje Soldado 4X2 Sanitaria",
+        "presentation": "unidad",
+        "price": 13900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 391,
+        "productId": "imp-0403",
+        "productName": "Tee sanitaria 2 pulgadas Gerfor",
+        "score": 0.125
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Vinilo Tipo 1 Blanco Viniltex Pintuco Cuñete",
+        "reference": null,
+        "brand": "Pintuco",
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_ya",
+        "sourceUrl": "https://ferreteriaya.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Vinilo Tipo 1 Blanco Viniltex Pintuco Cuñete",
+        "presentation": "cuñete",
+        "price": 399900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 464,
+        "productId": "imp-0477",
+        "productName": "PINTURA VINILO TIPO 1 BLANCO CUÑETE MULTIGRECO",
+        "score": 0.5556
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Viniltex Baños y Cocinas Galon Blanco",
+        "reference": null,
+        "brand": "Pintuco",
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_ya",
+        "sourceUrl": "https://ferreteriaya.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Viniltex Baños y Cocinas Galon Blanco",
+        "presentation": "galón",
+        "price": 129900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 93,
+        "productId": "imp-0095",
+        "productName": "Pintura vinilo tipo 1 interior blanco galón Vharbor",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Aerosol Blanco Mate 400ml",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_ya",
+        "sourceUrl": "https://ferreteriaya.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Aerosol Blanco Mate 400ml",
+        "presentation": "unidad",
+        "price": 10000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 464,
+        "productId": "imp-0477",
+        "productName": "PINTURA VINILO TIPO 1 BLANCO CUÑETE MULTIGRECO",
+        "score": 0.1
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Brocha Mona 1/2 Eco",
+        "reference": null,
+        "brand": null,
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_ya",
+        "sourceUrl": "https://ferreteriaya.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Brocha Mona 1/2 Eco",
+        "presentation": "unidad",
+        "price": 2500,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 105,
+        "productId": "imp-0107",
+        "productName": "Minipulidora 4 1/2 pulgadas",
+        "score": 0.25
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Casco de Seguridad Blanco Pretul 25038",
+        "reference": null,
+        "brand": "Pretul",
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_ya",
+        "sourceUrl": "https://ferreteriaya.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Casco de Seguridad Blanco Pretul 25038",
+        "presentation": "unidad",
+        "price": 22900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 110,
+        "productId": "imp-0112",
+        "productName": "Gafas de seguridad modelo Sport",
+        "score": 0.2222
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Nivel Laser 10m con Forro Truper 17079",
+        "reference": null,
+        "brand": "Truper",
+        "category": null
+      },
+      "evidence": {
+        "source": "ferreteria_ya",
+        "sourceUrl": "https://ferreteriaya.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Nivel Laser 10m con Forro Truper 17079",
+        "presentation": "unidad",
+        "price": 169900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 117,
+        "productId": "imp-0119",
+        "productName": "Impermeable 2 piezas broche con capucha",
+        "score": 0.0833
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Kit taladro/destornillador Inalámbrico 1/2, 20V, 32 accesorios y maletín",
+        "reference": null,
+        "brand": "Pretul",
+        "category": null
+      },
+      "evidence": {
+        "source": "rojo_ferreterias",
+        "sourceUrl": "https://www.rojo.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Kit taladro/destornillador Inalámbrico 1/2, 20V, 32 accesorios y maletín",
+        "presentation": "kit",
+        "price": 319000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 276,
+        "productId": "imp-0288",
+        "productName": "Llave taladro UDUKE 1/2 blister 13mm HT80338",
+        "score": 0.1875
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Pulidora Esmeriladora Inalámbrica 4-1/2, 20V, 1 batería 4Ah, cargador y maleta",
+        "reference": null,
+        "brand": "Truper MAX",
+        "category": null
+      },
+      "evidence": {
+        "source": "rojo_ferreterias",
+        "sourceUrl": "https://www.rojo.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Pulidora Esmeriladora Inalámbrica 4-1/2, 20V, 1 batería 4Ah, cargador y maleta",
+        "presentation": "kit",
+        "price": 649999,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 160,
+        "productId": "imp-0165",
+        "productName": "Esmeriladora angular 4 1/2 pulgadas 800W",
+        "score": 0.2667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Sierra circular inalámbrica 6-1/2, 20V, 1 batería 4Ah, cargador y Maleta",
+        "reference": null,
+        "brand": "Truper MAX",
+        "category": null
+      },
+      "evidence": {
+        "source": "rojo_ferreterias",
+        "sourceUrl": "https://www.rojo.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Sierra circular inalámbrica 6-1/2, 20V, 1 batería 4Ah, cargador y Maleta",
+        "presentation": "kit",
+        "price": 707999,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 105,
+        "productId": "imp-0107",
+        "productName": "Minipulidora 4 1/2 pulgadas",
+        "score": 0.1333
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Destornillador de impacto Inalámbrico 1/4, 20V, 2 baterías 2Ah, Maleta",
+        "reference": null,
+        "brand": "Truper MAX",
+        "category": null
+      },
+      "evidence": {
+        "source": "rojo_ferreterias",
+        "sourceUrl": "https://www.rojo.com.co/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Destornillador de impacto Inalámbrico 1/4, 20V, 2 baterías 2Ah, Maleta",
+        "presentation": "kit",
+        "price": 760000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 105,
+        "productId": "imp-0107",
+        "productName": "Minipulidora 4 1/2 pulgadas",
+        "score": 0.2308
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Alicate Hombresolo Curvo",
+        "reference": null,
+        "brand": "Stanley",
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/marca/stanley/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Alicate Hombresolo Curvo",
+        "presentation": "unidad",
+        "price": 39078,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 0,
+        "productId": "imp-0001",
+        "productName": "Chazo plástico con tornillo 1/4 x 50 unidades",
+        "score": 0
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Alicate Hombresolo Hojalatero 8 Ref. 84398",
+        "reference": null,
+        "brand": "Stanley",
+        "category": null
+      },
+      "evidence": {
+        "source": "rhino",
+        "sourceUrl": "https://rhino.com.co/marca/stanley/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Alicate Hombresolo Hojalatero 8 Ref. 84398",
+        "presentation": "unidad",
+        "price": 47970,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 421,
+        "productId": "imp-0433",
+        "productName": "Pinza naranja-gris #8",
+        "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Codo 90° En Hierro Dúctil Extremo Liso",
+        "reference": null,
+        "brand": "Apolo",
+        "category": null
+      },
+      "evidence": {
+        "source": "global_tools",
+        "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/all",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Codo 90° En Hierro Dúctil Extremo Liso",
+        "presentation": "unidad",
+        "price": 79900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 155,
+        "productId": "imp-0160",
+        "productName": "Codo Gerfor presión 90° x100",
+        "score": 0.2
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Colector de polvo Truper 1 HP, 600 CFM, bolsa de 57 L",
+        "reference": null,
+        "brand": "Truper",
+        "category": null
+      },
+      "evidence": {
+        "source": "global_tools",
+        "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/all",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Colector de polvo Truper 1 HP, 600 CFM, bolsa de 57 L",
+        "presentation": "unidad",
+        "price": 1973020,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 258,
+        "productId": "imp-0265",
+        "productName": "Válvula de bola CPVC 1 soldar",
+        "score": 0.1333
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Colector de polvo Truper 2 HP, 1500 CFM, bolsa de 154 L",
+        "reference": null,
+        "brand": "Truper",
+        "category": null
+      },
+      "evidence": {
+        "source": "global_tools",
+        "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/all",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Colector de polvo Truper 2 HP, 1500 CFM, bolsa de 154 L",
+        "presentation": "unidad",
+        "price": 2676310,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 439,
+        "productId": "imp-0452",
+        "productName": "Desinfectante Fabuloso 2 L Fresca Primavera",
+        "score": 0.1333
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Combo Truper MAX 20 V: rotomartillo inalámbrico y destornillador de impacto",
+        "reference": null,
+        "brand": "Truper MAX",
+        "category": null
+      },
+      "evidence": {
+        "source": "global_tools",
+        "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/all",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Combo Truper MAX 20 V: rotomartillo inalámbrico y destornillador de impacto",
+        "presentation": "combo",
+        "price": 1457750,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 264,
+        "productId": "imp-0271",
+        "productName": "Válvula de bola polipropileno 20 mm",
+        "score": 0.1333
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Acondicionador de correas CRC Belt Dressing 430 ml",
+        "reference": null,
+        "brand": "CRC",
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/productos/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Acondicionador de correas CRC Belt Dressing 430 ml",
+        "presentation": "unidad",
+        "price": 71280,
         "priceStatus": "verifiable_public_price"
       },
       "match": {
         "productIndex": 37,
         "productId": "imp-0038",
         "productName": "Lavaplatos de empotrar",
+        "score": 0.1
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adhesivo Instantáneo Loctite 401",
+        "reference": null,
+        "brand": "Loctite",
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/productos/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adhesivo Instantáneo Loctite 401",
+        "presentation": "unidad",
+        "price": 136500,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 67,
+        "productId": "imp-0069",
+        "productName": "Construmax panel adhesivo multimaterial beige AFIX 300 ml",
+        "score": 0.0909
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adhesivo instantáneo LOCTITE 495 Super Bonder 20 g",
+        "reference": null,
+        "brand": "Loctite",
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/productos/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adhesivo instantáneo LOCTITE 495 Super Bonder 20 g",
+        "presentation": "20 g",
+        "price": 78000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 264,
+        "productId": "imp-0271",
+        "productName": "Válvula de bola polipropileno 20 mm",
+        "score": 0.0769
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Adhesivo Superbonder LOCTITE 451",
+        "reference": null,
+        "brand": "Loctite",
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/productos/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Adhesivo Superbonder LOCTITE 451",
+        "presentation": "unidad",
+        "price": 9590,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 67,
+        "productId": "imp-0069",
+        "productName": "Construmax panel adhesivo multimaterial beige AFIX 300 ml",
+        "score": 0.0909
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Afilador electrico de brocas c/punta 118° TRUPER 101684",
+        "reference": null,
+        "brand": "Truper",
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/productos/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Afilador electrico de brocas c/punta 118° TRUPER 101684",
+        "presentation": "unidad",
+        "price": 125000,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 98,
+        "productId": "imp-0100",
+        "productName": "Juego de brocas TW 104",
+        "score": 0.1667
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Alicate 8 elect universal SATA 70303",
+        "reference": null,
+        "brand": "Sata",
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/productos/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Alicate 8 elect universal SATA 70303",
+        "presentation": "8 pulgadas",
+        "price": 49900,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 341,
+        "productId": "imp-0353",
+        "productName": "Sifón universal lavaplatos lavamanos",
         "score": 0.1111
+      },
+      "status": "NEEDS_REVIEW",
+      "autoPublish": false
+    },
+    {
+      "candidate": {
+        "name": "Alicate para electricista 8 STANLEY 84-023",
+        "reference": null,
+        "brand": "Stanley",
+        "category": null
+      },
+      "evidence": {
+        "source": "invercrisan",
+        "sourceUrl": "https://invercrisan.com/productos/",
+        "consultedAt": "2026-09-24",
+        "originalProductName": "Alicate para electricista 8 STANLEY 84-023",
+        "presentation": "8 pulgadas",
+        "price": 36223,
+        "priceStatus": "verifiable_public_price"
+      },
+      "match": {
+        "productIndex": 130,
+        "productId": "imp-0132",
+        "productName": "Llave mixta Stanley 8 pulgadas",
+        "score": 0.2
       },
       "status": "NEEDS_REVIEW",
       "autoPublish": false

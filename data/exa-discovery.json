@@ -1,7 +1,7 @@
 {
   "version": "1.3.0",
   "consultedAt": "2026-09-24",
-  "status": "IN_CHAT_RESEARCH_BATCH_APPENDED",
+  "status": "STALE_NO_API_KEY",
   "sourcesQueried": 29,
   "results": [
     {
@@ -2625,5 +2625,5 @@
       ]
     }
   ],
-  "lastAttemptAt": "2026-09-24T13:45:00Z"
+  "lastAttemptAt": "2026-09-25T06:40:26.120Z"
 }
