@@ -55,5 +55,119 @@
       "verifiedAt": "2026-09-25"
     },
     "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0002",
+    "name": "Chazo plástico con tornillo 5/16 x 50 unidades (HT1239)",
+    "identification": {
+      "sku": "RO3577",
+      "manufacturerReference": "HT1239",
+      "supplierReference": "13605"
+    },
+    "brand": {
+      "name": "UDUKE"
+    },
+    "category": {
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "name": "Chazos y anclajes"
+    },
+    "measurements": {
+      "originalText": "5/16\" x 50 unidades"
+    },
+    "presentations": [
+      {
+        "quantity": 50,
+        "unit": "unidades"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 3721,
+        "max": 4652,
+        "source": "Roxvan",
+        "sourceUrl": "https://roxvan.com/producto/chazo-plastico-con-tornillo-5-16-x-50unds-ht1239-b4b13605/",
+        "consultedAt": "2026-09-25"
+      },
+      "note": "No es precio de venta IMPERIA 360. Se publica como cotización hasta verificar costo de adquisición, logística, IVA aplicable y margen."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Roxvan",
+      "url": "https://roxvan.com/producto/chazo-plastico-con-tornillo-5-16-x-50unds-ht1239-b4b13605/",
+      "consultedAt": "2026-09-25"
+    },
+    "images": {
+      "primary": "https://www.intradelink.us/web/image/product.template/12623/image_1920?unique=4e232ec",
+      "alt": "Chazo plástico con tornillo 5/16 x 50 unidades HT1239",
+      "source": "Intrade Link",
+      "sourcePage": "https://www.intradelink.us/shop/ht1239-chazo-plastico-con-tornillo-8-mm-5-16-x-50-und-12623",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-25"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0003",
+    "name": "Chazo plástico con tornillo 3/8 x 50 unidades (HT1240)",
+    "identification": {
+      "sku": "RO4874",
+      "manufacturerReference": "HT1240",
+      "supplierReference": "13606"
+    },
+    "brand": {
+      "name": "UDUKE"
+    },
+    "category": {
+      "name": "Tornillería y fijaciones"
+    },
+    "subcategory": {
+      "name": "Chazos y anclajes"
+    },
+    "measurements": {
+      "originalText": "3/8\" x 50 unidades"
+    },
+    "presentations": [
+      {
+        "quantity": 50,
+        "unit": "unidades"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 5512,
+        "max": 7717,
+        "source": "Roxvan",
+        "sourceUrl": "https://roxvan.com/producto/chazo-plastico-con-tornillo-3-8-x-50unds-ht1240-item-13606/",
+        "consultedAt": "2026-09-25"
+      },
+      "note": "No es precio de venta IMPERIA 360. Se publica como cotización hasta verificar costo de adquisición, logística, IVA aplicable y margen."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Roxvan",
+      "url": "https://roxvan.com/producto/chazo-plastico-con-tornillo-3-8-x-50unds-ht1240-item-13606/",
+      "consultedAt": "2026-09-25"
+    },
+    "images": {
+      "primary": "https://www.intradelink.us/web/image/product.template/12624/image_1920?unique=fe43924",
+      "alt": "Chazo plástico con tornillo 3/8 x 50 unidades HT1240",
+      "source": "Intrade Link",
+      "sourcePage": "https://www.intradelink.us/shop/ht1240-chazo-plastico-con-tornillo-10-mm-3-8-x-50-und-12624",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-25"
+    },
+    "publicationStatus": "active_quote_only"
   }
 ]
