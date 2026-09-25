@@ -50,12 +50,8 @@ jobs:
           const fs=require('fs');
           const audit=JSON.parse(fs.readFileSync('data/catalog-audit.json','utf8'));
           const control=JSON.parse(fs.readFileSync('data/catalog-control.json','utf8'));
-          if ((audit.issuesCount||0) > 0) {
-            console.log('NOTICE: catalog issues remain; publication stays gated.');
-          }
-          if (control.currentLoadedStatus !== 'active') {
-            console.log('NOTICE: master catalog is not active; no automatic activation permitted.');
-          }
+          if ((audit.issuesCount||0) > 0) console.log('NOTICE: catalog issues remain; publication stays gated.');
+          if (control.currentLoadedStatus !== 'active') console.log('NOTICE: master catalog is not active; no automatic activation permitted.');
           console.log(JSON.stringify({
             masterProducts:audit.masterProducts,
             issuesCount:audit.issuesCount,
@@ -76,8 +72,12 @@ jobs:
           const fs=require('fs');
           const inv=JSON.parse(fs.readFileSync('data/inventory-base.json','utf8'));
           const control=JSON.parse(fs.readFileSync('data/catalog-control.json','utf8'));
-          if (!inv.priceRules || !inv.qualityRules) {
-            console.error('Missing inventory quality rules');
+          if (!inv.priceRules || !inv.publicationGate || !inv.duplicateRules) {
+            console.error('Missing required inventory publication rules');
+            process.exit(1);
+          }
+          if (inv.priceRules.neverInvent !== true || inv.priceRules.sourcePriceOnly !== true) {
+            console.error('Price anti-invention policy is not enabled');
             process.exit(1);
           }
           if (control.imagePolicy && control.imagePolicy.noInventedImages !== true) {
