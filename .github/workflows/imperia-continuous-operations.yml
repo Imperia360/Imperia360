@@ -19,8 +19,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  discovery-queue:
+    name: 0. Cola de descubrimiento
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Construir cola de fuentes
+        run: node .github/scripts/build-discovery-queue.mjs
+      - name: Publicar cola como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: imperia-discovery-queue
+          path: data/discovery-queue.json
+          retention-days: 14
+
   integrity:
     name: 1. Integridad y JSON
+    needs: discovery-queue
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,7 +47,7 @@ jobs:
           node-version: 20
       - name: Validar archivos críticos
         run: |
-          node -e "const fs=require('fs'); const files=['data/products.json','data/catalog-control.json','data/catalog-audit.json','data/inventory-base.json','data/reconciliation-review.json']; for(const f of files){JSON.parse(fs.readFileSync(f,'utf8')); console.log('OK',f)}"
+          node -e "const fs=require('fs'); const files=['data/products.json','data/catalog-control.json','data/catalog-audit.json','data/inventory-base.json','data/reconciliation-review.json','data/catalog-sources.json']; for(const f of files){JSON.parse(fs.readFileSync(f,'utf8')); console.log('OK',f)}"
 
   catalog-gate:
     name: 2. Compuerta de catálogo
@@ -52,12 +70,7 @@ jobs:
           const control=JSON.parse(fs.readFileSync('data/catalog-control.json','utf8'));
           if ((audit.issuesCount||0) > 0) console.log('NOTICE: catalog issues remain; publication stays gated.');
           if (control.currentLoadedStatus !== 'active') console.log('NOTICE: master catalog is not active; no automatic activation permitted.');
-          console.log(JSON.stringify({
-            masterProducts:audit.masterProducts,
-            issuesCount:audit.issuesCount,
-            currentLoadedProducts:control.currentLoadedProducts,
-            currentLoadedStatus:control.currentLoadedStatus
-          },null,2));
+          console.log(JSON.stringify({masterProducts:audit.masterProducts,issuesCount:audit.issuesCount,currentLoadedProducts:control.currentLoadedProducts,currentLoadedStatus:control.currentLoadedStatus},null,2));
           NODE
 
   evidence-gate:
@@ -72,23 +85,14 @@ jobs:
           const fs=require('fs');
           const inv=JSON.parse(fs.readFileSync('data/inventory-base.json','utf8'));
           const control=JSON.parse(fs.readFileSync('data/catalog-control.json','utf8'));
-          if (!inv.priceRules || !inv.publicationGate || !inv.duplicateRules) {
-            console.error('Missing required inventory publication rules');
-            process.exit(1);
-          }
-          if (inv.priceRules.neverInvent !== true || inv.priceRules.sourcePriceOnly !== true) {
-            console.error('Price anti-invention policy is not enabled');
-            process.exit(1);
-          }
-          if (control.imagePolicy && control.imagePolicy.noInventedImages !== true) {
-            console.error('Image anti-invention policy is not enabled');
-            process.exit(1);
-          }
+          if (!inv.priceRules || !inv.publicationGate || !inv.duplicateRules) process.exit(1);
+          if (inv.priceRules.neverInvent !== true || inv.priceRules.sourcePriceOnly !== true) process.exit(1);
+          if (control.imagePolicy && control.imagePolicy.noInventedImages !== true) process.exit(1);
           console.log('Publication safety rules present.');
           NODE
       - name: Summary
         run: |
-          echo "Publication remains evidence-gated."
+          echo "Discovery is separated from verification."
           echo "Historical candidates are not activated automatically."
           echo "No invented price, stock, reference or image is permitted."
 
@@ -107,12 +111,12 @@ jobs:
 
   operations-status:
     name: 5. Estado operativo
-    needs: [integrity, catalog-gate, evidence-gate, site-build-gate]
+    needs: [discovery-queue, integrity, catalog-gate, evidence-gate, site-build-gate]
     if: always()
     runs-on: ubuntu-latest
     steps:
       - name: Emitir estado
         run: |
           echo "IMPERIA 360 continuous operations cycle completed."
-          echo "Research -> evidence -> reconciliation -> quality gate -> site validation."
-          echo "Automatic publication is allowed only after all catalog evidence gates pass."
+          echo "Discovery queue -> evidence -> reconciliation -> quality gate -> site validation."
+          echo "Automatic publication remains evidence-gated."
