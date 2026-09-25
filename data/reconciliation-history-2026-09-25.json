@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-09-25",
+  "repository": "Imperia360/Imperia360",
+  "purpose": "Unificación y reconciliación del historial recuperado de productos y extracciones con precio.",
+  "sources": [
+    "IMPERIA_360_BASE_TODO_PRECIOS_CRUZADA_2026-09-25.xlsx",
+    "IMPERIA_360_CRUCE_834_CON_353_PRECIOS_2026-09-25.xlsx"
+  ],
+  "counts": {
+    "historicalBase": 834,
+    "extractionRows": 353,
+    "workbookA": {
+      "newRows": 348,
+      "duplicates": 5
+    },
+    "workbookB": {
+      "newRows": 349,
+      "duplicates": 4
+    },
+    "commonRowsBetweenExtractions": 348,
+    "resolvedUniqueExtractionRows": 353
+  },
+  "resolution": {
+    "status": "reconciled",
+    "rule": "Las 348 filas comunes se conservan una sola vez; la fila adicional del segundo cruce se incorpora como evidencia nueva.",
+    "discrepancyResolved": true
+  },
+  "additionalRecoveredProduct": {
+    "id": "IMP-WEB-0323",
+    "product": "DISCO DIAMANTADO SEGMENTADO DEWALT 4PUL DW47452HP",
+    "brand": "DeWalt",
+    "supplier": "Universal de Tornillos y Herramientas",
+    "reference": "DW47452HP",
+    "source": "https://www.unitorni.co/",
+    "sourcePriceCOP": 32800,
+    "verificationDate": "2026-09-25",
+    "status": "EVIDENCIA_WEB_PARA_VALIDACION",
+    "publicationStatus": "review",
+    "note": "Se incorpora a la reconciliación; no se activa automáticamente hasta completar control contra el maestro y validar campos comerciales."
+  },
+  "stagingArtifact": {
+    "localFile": "extraction-353.csv",
+    "note": "Artefacto completo de las 353 filas únicas de extracción generado durante esta ejecución; queda como respaldo de trabajo. La API GitHub disponible no permite subir directamente un archivo local binario/texto mediante source_file_ref."
+  },
+  "safety": {
+    "noInventedPrices": true,
+    "noAutomaticPublication": true,
+    "activeMasterUnchanged": true
+  }
+}
