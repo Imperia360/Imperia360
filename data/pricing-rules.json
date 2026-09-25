@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "purpose": "Reglas comerciales para calcular posteriormente precios IMPERIA 360 sin alterar el precio fuente.",
   "principles": [
     "El precio publicado por un proveedor nunca se confunde con el precio de venta IMPERIA 360.",
@@ -35,7 +35,7 @@
     }
   },
   "status": "configured_defaults",
-  "note": "Márgenes objetivo iniciales configurables para IMPERIA 360. Son parámetros comerciales de trabajo, no márgenes históricos ni garantía de rentabilidad. Antes de publicar precios finales se deben incorporar IVA cuando corresponda, flete, comisión de pago, empaque y otros costos reales.",
+  "note": "Los 834 registros auditados se conservan para reconciliación; no se convierten automáticamente en productos activos ni se les inventa precio. Los 92 con benchmark auditado tienen cálculo de referencia promedio y techo de costo para proteger el margen.",
   "costModel": {
     "basis": "costoTotal",
     "includes": [
@@ -51,5 +51,19 @@
       "promociones/descuentos especiales"
     ],
     "formula": "precioVenta = costoTotal / (1 - margenObjetivo)"
+  },
+  "auditHistoryPricing": {
+    "source": "IMPERIA_360_BASE_AUDITADA_834_2026-09-25.xlsx + IMPERIA_ANALISIS_PRECIOS_MARGEN_CORREGIDO_2026-09-24.xlsx",
+    "auditedRecords": 834,
+    "benchmarkedRecords": 92,
+    "averageReferencePrice": "(benchmarkMinCOP + benchmarkMaxCOP) / 2",
+    "targetMarginProtection": "maxCostPuestoCOP = (averageReferencePriceCOP / (1 + ivaScenario)) * (1 - targetMargin)",
+    "rules": [
+      "El promedio es una referencia de mercado auditada, no un costo.",
+      "Si solo existe precio 'desde', el promedio coincide con el valor documentado; no se inventa un máximo.",
+      "Si no existe benchmark auditado, precio de venta queda pendiente; no se rellena por estimación.",
+      "El precio público definitivo solo se activa cuando costo proveedor, IVA aplicable, logística/flete, disponibilidad y demás costos directos estén verificados.",
+      "Si el costo puesto real supera el máximo permitido para el margen objetivo, no publicar al promedio: negociar costo, cambiar fuente o pasar a cotización."
+    ]
   }
 }
