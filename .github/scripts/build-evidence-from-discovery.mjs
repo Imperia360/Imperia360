@@ -18,7 +18,7 @@ const key = (x) => [
   x.url || x.sourceUrl || "",
   x.reference || x.sku || "",
   x.productName || x.originalProductName || x.title || x.name || ""
-].join("|").toLowerCase().replace(/\\s+/g, " ").trim();
+].join("|").toLowerCase().replace(/\s+/g, " ").trim();
 
 const seen = new Set();
 const offers = [];
@@ -71,5 +71,5 @@ const output = {
   offers
 };
 
-fs.writeFileSync(offersPath, JSON.stringify(output, null, 2) + "\\n");
+fs.writeFileSync(offersPath, JSON.stringify(output, null, 2) + "\n");
 console.log(JSON.stringify({inputItems: items.length, totalOffers: offers.length}));
