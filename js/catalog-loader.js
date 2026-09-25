@@ -4,7 +4,7 @@
  * la evidencia de imagen está verificada y marcada como publicable.
  */
 
-export async function loadProducts(source = '../data/products.json') {
+export async function loadProducts(source = './data/products.json') {
   const response = await fetch(source);
 
   if (!response.ok) {
@@ -19,7 +19,7 @@ export async function loadProducts(source = '../data/products.json') {
 
   let imageRecords = [];
   try {
-    const imageResponse = await fetch('../data/product-images.json');
+    const imageResponse = await fetch('./data/product-images.json');
     if (imageResponse.ok) {
       const imageData = await imageResponse.json();
       imageRecords = Array.isArray(imageData.records) ? imageData.records : [];
