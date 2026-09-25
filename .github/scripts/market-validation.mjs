@@ -6,7 +6,7 @@ const offersFile = readJson('data/market-offers.json');
 const config = readJson('data/market-validation-config.json');
 
 const offers = Array.isArray(offersFile.offers) ? offersFile.offers : [];
-const normalize = (v) => String(v ?? '').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().trim();
+const normalize = (v) => String(v ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 
 const refSet = new Map();
 for (const p of products) {
@@ -26,7 +26,8 @@ for (const offer of offers) {
   const sourceUrl = offer.sourceUrl || null;
   const consultedAt = offer.consultedAt || null;
   const name = offer.originalProductName || offer.name || null;
-  const rawReference = offer.reference || offer.sku || '';\n  const reference = normalize(rawReference === '-' || rawReference === '—' ? '' : rawReference);
+  const rawReference = offer.reference || offer.sku || '';
+  const reference = normalize(rawReference === '-' || rawReference === '—' ? '' : rawReference);
   const price = offer.price == null ? null : Number(offer.price);
   const issues = [];
 
@@ -50,16 +51,7 @@ for (const offer of offers) {
     needsReview += 1;
   }
 
-  results.push({
-    source,
-    sourceUrl,
-    consultedAt,
-    originalProductName: name,
-    reference: reference || null,
-    productId,
-    status,
-    issues
-  });
+  results.push({source,sourceUrl,consultedAt,originalProductName:name,reference:reference || null,productId,status,issues});
 }
 
 const output = {
@@ -82,5 +74,5 @@ const output = {
   results
 };
 
-fs.writeFileSync('data/validation-results.json', JSON.stringify(output, null, 2) + '\\n');
+fs.writeFileSync('data/validation-results.json', JSON.stringify(output, null, 2) + '\n');
 console.log(JSON.stringify(output.summary, null, 2));
