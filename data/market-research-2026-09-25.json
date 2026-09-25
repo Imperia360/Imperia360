@@ -11,46 +11,38 @@
       "source": "Fervicom",
       "url": "https://www.fervicom.com/producto/cable-duplex-certificado-conduluz-2x14-1mtr/",
       "price_cop": 4700,
-      "quantity_tiers": [
-        {
-          "from": 1,
-          "to": 20,
-          "price_cop": 4700
-        },
-        {
-          "from": 21,
-          "to": 50,
-          "price_cop": 4606
-        },
-        {
-          "from": 51,
-          "to": 99,
-          "price_cop": 4559
-        },
-        {
-          "from": 100,
-          "price_cop": 4418
-        }
-      ],
-      "verification": "public price found by Exa"
+      "quantity_tiers": [{"from":1,"to":20,"price_cop":4700},{"from":21,"to":50,"price_cop":4606},{"from":51,"to":99,"price_cop":4559},{"from":100,"price_cop":4418}],
+      "verification": "public product page confirmed by Exa"
     },
     {
       "category": "electrico",
-      "product": "Cinta aislante 3M Temflex 165 negra 18 m",
-      "presentation": "1 unidad / 18 m",
+      "product": "Cable duplex certificado Conduluz 2x16",
+      "reference": "7010367",
+      "presentation": "1 metro",
+      "source": "Fervicom",
+      "url": "https://www.fervicom.com/producto/cable-duplex-certificado-conduluz-2x16-1mtr/",
+      "price_cop": 2630,
+      "quantity_tiers": [{"from":1,"to":20,"price_cop":2630},{"from":21,"to":50,"price_cop":2577},{"from":51,"to":99,"price_cop":2551},{"from":100,"price_cop":2472}],
+      "verification": "public product page confirmed by Exa"
+    },
+    {
+      "category": "electrico",
+      "product": "Cable duplex Centelsa 2x14",
+      "presentation": "1 unidad",
+      "source": "Fervicom",
+      "url": "https://www.fervicom.com/producto/cable-duplex-centelsa-2x14/",
+      "price_cop": 5000,
+      "quantity_tiers": [{"from":1,"to":20,"price_cop":5000},{"from":21,"to":50,"price_cop":4900},{"from":51,"to":99,"price_cop":4850},{"from":100,"price_cop":4700}],
+      "verification": "public product page confirmed by Exa"
+    },
+    {
+      "category": "electrico",
+      "product": "Cinta aislante 3M Temflex 165 negra 18.3 m",
+      "presentation": "1 unidad / rollo 18.3 m",
       "source": "Homecenter Colombia",
-      "url": "https://www.homecenter.com.co/homecenter-co/category/cat1680016/cintas-aislantes-y-terminales-electricos/?f.product.brandName=3m",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/310552/cinta-aislante-temflex-165-negra-18mts/310552/",
       "price_cop": 6100,
-      "verification": "public price found by Exa"
-    },
-    {
-      "category": "electrico",
-      "product": "Cinta aislante 3M 18 m",
-      "presentation": "1 unidad / 18 m",
-      "source": "Electricos Montes",
-      "url": "https://www.electricosmontes.com/products/cinta-aislante-3m-5mts",
-      "price_cop": 9000,
-      "verification": "public price found by Exa; page text indicates 9 m and 18 m variants, exact selected variant must be verified before catalog import"
+      "verification": "exact product page and public price confirmed by Exa"
     },
     {
       "category": "tornilleria",
@@ -73,8 +65,57 @@
       "wholesale_min_qty": 12,
       "business_price_cop": 44275,
       "business_min_qty": 3,
-      "verification": "public prices found by Exa"
+      "verification": "public prices and SKU confirmed by Exa"
+    },
+    {
+      "category": "ferreteria",
+      "product": "Abrazadera 1/2 económica",
+      "presentation": "unidad",
+      "source": "Ferretería Mauro",
+      "url": "https://ferreteriamauro.com/producto/abrazadera-1-2-economica/",
+      "price_cop": 300,
+      "verification": "exact product page and public price confirmed by Exa"
+    },
+    {
+      "category": "ferreteria",
+      "product": "Abrazadera Titan 1/2A3/4 40-06",
+      "reference": "40-06",
+      "presentation": "unidad",
+      "source": "Ferretería Mauro",
+      "url": "https://ferreteriamauro.com/producto/abrazadera-titan-1-2a3-4-40-06/",
+      "price_cop": 1650,
+      "verification": "exact product page and public price confirmed by Exa"
+    },
+    {
+      "category": "ferreteria",
+      "product": "Abrazadera Titan 11/8A17/8 40-24",
+      "reference": "40-24",
+      "presentation": "unidad",
+      "source": "Ferretería Mauro",
+      "url": "https://ferreteriamauro.com/producto/abrazadera-titan-11-8a17-8-40-24/",
+      "price_cop": 2250,
+      "verification": "exact product page and public price confirmed by Exa"
+    },
+    {
+      "category": "pintura",
+      "product": "Aerógrafo F75 400 ml DSF 1499",
+      "reference": "DSF-1499",
+      "presentation": "unidad / 400 ml",
+      "source": "Ferretería Mauro",
+      "url": "https://ferreteriamauro.com/producto/aerografo-f75-400-ml-dsf-1499/",
+      "price_cop": 38000,
+      "verification": "exact product page and public price confirmed by Exa"
+    },
+    {
+      "category": "pintura",
+      "product": "Aerógrafo F75 600 ml FOCCI DSF 3322",
+      "reference": "DSF-3322",
+      "presentation": "unidad / 600 ml",
+      "source": "Ferretería Mauro",
+      "url": "https://ferreteriamauro.com/producto/aerografo-f75g-600ml-focci-dsf-3322/",
+      "price_cop": 46000,
+      "verification": "exact product page and public price confirmed by Exa"
     }
   ],
-  "nextValidation": "Fetch source pages and confirm exact variant/presentation before promoting to master catalog."
+  "nextValidation": "These are market benchmarks only. Verify IMPERIA acquisition cost, applicable IVA/logistics/payment costs, exact image/reference and availability before assigning IMPERIA sale price or active publication."
 }
