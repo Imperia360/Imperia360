@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-26",
+  "status": "research_started",
+  "categories": [
+    "Seguetas y marcos",
+    "Pulidoras y esmeriles",
+    "Discos de corte",
+    "Discos de desbaste y pulido",
+    "Taladros",
+    "Brocas",
+    "Herramientas manuales",
+    "Herramientas eléctricas",
+    "Tornillería y fijaciones",
+    "Plomería",
+    "PVC",
+    "Electricidad",
+    "Iluminación",
+    "Pintura",
+    "Adhesivos y selladores",
+    "Soldadura",
+    "Cerrajería",
+    "Seguridad industrial",
+    "Gas",
+    "Jardín",
+    "Limpieza",
+    "Automotriz",
+    "Bombas",
+    "Maquinaria",
+    "Drywall",
+    "Materiales de construcción",
+    "Ferretería industrial",
+    "Medición",
+    "Organización y almacenamiento"
+  ],
+  "verifiedSeeds": [
+    {
+      "name": "Arco de segueta fijo alta tensión Urrea 12",
+      "reference": "353F",
+      "source": "FerreIndustrial",
+      "publicPriceCOP": 73900,
+      "url": "https://ferreindustrial.com.co/producto/arco-de-segueta-fijo-de-alta-tension-de-12/"
+    },
+    {
+      "name": "Hoja segueta Covo 24 dientes",
+      "reference": "A145-9HS24",
+      "source": "El Machetico",
+      "publicPriceCOP": 8000,
+      "url": "https://elmachetico.com/tienda/ferreteria/construccion/hoja-segueta-24-dientes-covo/"
+    },
+    {
+      "name": "Hoja segueta Covo 18 dientes",
+      "source": "El Machetico",
+      "publicPriceCOP": 5000,
+      "url": "https://elmachetico.com/tienda/ferreteria/construccion/hoja-segueta-18-dientes-covo/"
+    },
+    {
+      "name": "Pulidora Truper 4 1/2 1250W",
+      "source": "Ferrelux",
+      "publicPriceCOP": 314000,
+      "url": "https://ferrelux.com.co/producto/pulidora/"
+    },
+    {
+      "name": "Pulidora Truper 7 2200W",
+      "source": "Ferrelux",
+      "publicPriceCOP": 392000,
+      "url": "https://ferrelux.com.co/producto/pulidora/"
+    },
+    {
+      "name": "Pulidora Elite 4 1/2 1200W",
+      "reference": "AG1165",
+      "source": "Ferretería La Paz",
+      "publicPriceCOP": 250000,
+      "url": "https://ferreterialapaz.com.co/producto/pulidora-4-1-2-refag1165-elite/"
+    },
+    {
+      "name": "Pulidora TOTAL 4 1/2 710W",
+      "source": "El Machetico",
+      "publicPriceCOP": 179900,
+      "url": "https://elmachetico.com/tienda/ferreteria/herramientas-electricas/pulidora-4-1-2-total-710w/"
+    },
+    {
+      "name": "Pulidora Dewalt 4 1/2 750W",
+      "reference": "DWE4010-B3",
+      "source": "El Machetico",
+      "publicPriceCOP": 287000,
+      "url": "https://elmachetico.com/tienda/ferreteria/herramientas-electricas/pulidora-dewalt-4-1-2/"
+    },
+    {
+      "name": "Pulidora Einhell 4 1/2",
+      "reference": "TC-AG-125",
+      "source": "El Machetico",
+      "publicPriceCOP": 216000,
+      "url": "https://elmachetico.com/tienda/ferreteria/herramientas-electricas/pulidora-4-1-2-einhell/"
+    }
+  ],
+  "rule": "Estos son benchmarks de investigación; no son precios IMPERIA. Antes de activar cada producto se debe verificar referencia exacta, imagen exacta, duplicado y costo de adquisición."
+}
