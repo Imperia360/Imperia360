@@ -3,6 +3,117 @@
   "source": "Temu",
   "lastChecked": "2026-09-27",
   "mode": "verified_feed",
-  "note": "Los precios, disponibilidad y entrega deben verificarse antes de publicar como oferta definitiva. No se presenta stock de IMPERIA ni se exponen costos internos.",
-  "products": []
+  "note": "Preselección real observada en páginas de Temu. Queda en revisión hasta verificar precio para Colombia, envío, disponibilidad, variante y plazo en destino. No publicar precio final IMPERIA ni plazo colombiano sin esa verificación.",
+  "products": [
+    {
+      "name": "100LED luz solar con sensor de movimiento para exterior",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "AUD",
+        "amount": 4.99
+      },
+      "status": "review",
+      "deliveryObserved": "7 días hábiles en la página consultada; confirmar destino Colombia antes de publicar"
+    },
+    {
+      "name": "50 ml nano repelente de lluvia para vidrio automotriz",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "AUD",
+        "amount": 5.43
+      },
+      "status": "review",
+      "deliveryObserved": null
+    },
+    {
+      "name": "4-pack luces LED magnéticas con sensor, recargables USB",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "AUD",
+        "amount": 16.86
+      },
+      "status": "review",
+      "deliveryObserved": null
+    },
+    {
+      "name": "100 unidades cinta doble faz transparente sin perforar",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "USD",
+        "amount": 2.6
+      },
+      "status": "review",
+      "deliveryObserved": null
+    },
+    {
+      "name": "Cepillo flexible para limpiar ducto de secadora/lavadora",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "USD",
+        "amount": 2.35
+      },
+      "status": "review",
+      "deliveryObserved": null
+    },
+    {
+      "name": "Sierra eléctrica reciprocante inalámbrica",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "USD",
+        "amount": 20.97
+      },
+      "status": "review",
+      "deliveryObserved": null
+    },
+    {
+      "name": "Luz solar tipo girasol para jardín",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "USD",
+        "amount": 8.01
+      },
+      "status": "review",
+      "deliveryObserved": null
+    },
+    {
+      "name": "Organizador adhesivo para cables, 5/9 piezas",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "USD",
+        "amount": 0.66
+      },
+      "status": "review",
+      "deliveryObserved": null
+    },
+    {
+      "name": "Cajón/organizador de almacenamiento grande plegable con ruedas",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "USD",
+        "amount": 18.2
+      },
+      "status": "review",
+      "deliveryObserved": null
+    },
+    {
+      "name": "Guantes de nitrilo sin polvo para limpieza y automóvil",
+      "source": "Temu",
+      "sourceUrl": "https://www.temu.com/ul/kuiper/un2.html?search_key=boho+wrap+dresses&subj=un-search-web2app",
+      "observedPrice": {
+        "currency": "USD",
+        "amount": 5.35
+      },
+      "status": "review",
+      "deliveryObserved": null
+    }
+  ]
 }
