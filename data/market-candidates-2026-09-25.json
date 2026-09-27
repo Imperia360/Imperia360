@@ -787,12 +787,372 @@
         "imageSearchStatus": "product_page_verified; image association requires final extraction check",
         "publishable": false
       }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-021",
+      "name": "RODILLO ESPUMA 9 PRO CARIBE",
+      "brand": null,
+      "presentation": "9 pulgadas",
+      "sourceUrl": "https://ferromedellin.com/producto/rodillo-espuma-9-pro-caribe/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/rodillo-espuma-9-pro-caribe/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-022",
+      "name": "PISTOLA CALEFATEO EMTOP 9 ECGN02091",
+      "brand": "EMTOP",
+      "presentation": "9 pulgadas",
+      "sourceUrl": "https://ferromedellin.com/producto/emtop-pistola-calefateo-9-ecgn02091/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/emtop-pistola-calefateo-9-ecgn02091/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-023",
+      "name": "SELLADOR FIX ALL 290ML",
+      "brand": null,
+      "presentation": "290 ml",
+      "sourceUrl": "https://ferromedellin.com/producto/sellador-fix-all-290ml/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/sellador-fix-all-290ml/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-024",
+      "name": "SELLADOR POLIURETANO PU40 310ML",
+      "brand": null,
+      "presentation": "310 ml",
+      "sourceUrl": "https://ferromedellin.com/producto/sellador-poliuretano-pu40-310ml/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/sellador-poliuretano-pu40-310ml/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-025",
+      "name": "SELLADOR POLIURETANO SILOCK BLANCO 400GR",
+      "brand": "SILOCK",
+      "presentation": "400 g",
+      "sourceUrl": "https://ferromedellin.com/producto/sellador-poliuretano-silock-blanco-400gr/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/sellador-poliuretano-silock-blanco-400gr/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-026",
+      "name": "SELLADOR HIBRIDO MS TEKBOND TRANSPARENTE 280 GR",
+      "brand": "TEKBOND",
+      "presentation": "280 g",
+      "sourceUrl": "https://ferromedellin.com/producto/sellador-hibrido-tek-bond-bco-400-gr/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/sellador-hibrido-tek-bond-bco-400-gr/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-027",
+      "name": "SELLADOR FIX ALL BLANCO 125ML",
+      "brand": null,
+      "presentation": "125 ml",
+      "sourceUrl": "https://ferromedellin.com/producto/sellador-fix-all-blanco-125ml/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/sellador-fix-all-blanco-125ml/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-028",
+      "name": "PISTOLA PINTAR EMTOP 1000CC",
+      "brand": "EMTOP",
+      "presentation": "1000 cc",
+      "sourceUrl": "https://ferromedellin.com/producto/emtop-pistola-pintar-1000cc/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/emtop-pistola-pintar-1000cc/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-029",
+      "name": "SELLADOR MULTIBOND SOUDAL BLANCO 290ML",
+      "brand": "SOUDAL",
+      "presentation": "290 ml",
+      "sourceUrl": "https://ferromedellin.com/producto/sellador-multibond-soudal-blanco-290ml/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/sellador-multibond-soudal-blanco-290ml/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-030",
+      "name": "BOMBILLO LED",
+      "brand": null,
+      "presentation": "3W, 5W, 9W, 12W, 20W, 30W, 40W, 50W",
+      "sourceUrl": "https://ferromedellin.com/producto/bombillo-led/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/bombillo-led/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-031",
+      "name": "BOMBILLO LED 25W VENTILADOR C/CONTROL",
+      "brand": null,
+      "presentation": "25 W",
+      "sourceUrl": "https://ferromedellin.com/producto/bombillo-led-25w-ventilador-c-control/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/bombillo-led-25w-ventilador-c-control/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-032",
+      "name": "TOMA AEREO KONTIKI P/TIERRA 15 AMP FT3",
+      "brand": "KONTIKI",
+      "presentation": "15 A",
+      "sourceUrl": "https://ferromedellin.com/producto/toma-aereo-kontiki-p-tierra-15-amp-ft3/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/toma-aereo-kontiki-p-tierra-15-amp-ft3/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-033",
+      "name": "TOMA DOBLE GFCI INCRUSTAR",
+      "brand": null,
+      "presentation": "doble GFCI",
+      "sourceUrl": "https://ferromedellin.com/producto/toma-doble-gfci-incrustar/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/toma-doble-gfci-incrustar/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-034",
+      "name": "TOMA DOBLE CON POLO LUMINEX GALICA 2",
+      "brand": "LUMINEX GALICA 2",
+      "presentation": "doble con polo",
+      "sourceUrl": "https://ferromedellin.com/producto/toma-doble-con-polo-luminex-galica-2/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/toma-doble-con-polo-luminex-galica-2/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-035",
+      "name": "BOMBILLO LED EMERGENCIA MERCURY",
+      "brand": "MERCURY",
+      "presentation": "9W, 20W",
+      "sourceUrl": "https://ferromedellin.com/producto/bombillo-led-emergencia-mercury/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/bombillo-led-emergencia-mercury/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-036",
+      "name": "SWICHE + TOMA CON POLO LUMINEX GALICA 2",
+      "brand": "LUMINEX GALICA 2",
+      "presentation": "combinado",
+      "sourceUrl": "https://ferromedellin.com/producto/swiche-toma-con-polo-luminex-galica-2/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/swiche-toma-con-polo-luminex-galica-2/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-037",
+      "name": "BOMBILLO LED ALTA POTENCIA 120W/6400K M/V",
+      "brand": null,
+      "presentation": "120 W / 6400 K",
+      "sourceUrl": "https://ferromedellin.com/producto/bombillo-led-alta-potencia-120w-6400k-m-v/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/bombillo-led-alta-potencia-120w-6400k-m-v/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-038",
+      "name": "BOMBILLO LED 22W CON VENTILADOR 6 ASPAS",
+      "brand": "MERCURY",
+      "presentation": "22 W",
+      "sourceUrl": "https://ferromedellin.com/producto/bombillo-led-22w-con-ventilador-6-aspas/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/bombillo-led-22w-con-ventilador-6-aspas/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-039",
+      "name": "BOMBILLO LED E ZABLE MERCURY",
+      "brand": "MERCURY",
+      "presentation": "30W, 40W",
+      "sourceUrl": "https://ferromedellin.com/producto/bombillo-led-e-zable-mercury/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/bombillo-led-e-zable-mercury/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-040",
+      "name": "GRIFERIA SANITARIA COMPLETA GRIVAL",
+      "brand": "GRIVAL",
+      "presentation": "completa",
+      "sourceUrl": "https://ferromedellin.com/producto/griferia-sanitaria-completa-grival/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_exact_reference_price_image_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/griferia-sanitaria-completa-grival/",
+        "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
+        "publishable": false
+      }
     }
   ],
   "imageResearch": {
     "lastRun": "2026-09-26",
-    "candidatesWithSourcePages": 15,
-    "totalCandidates": 42,
+    "candidatesWithSourcePages": 62,
+    "totalCandidates": 62,
     "activeCatalogImagesVerified": 3,
     "publicationRule": "No activar candidatos solo por tener imagen; requiere registro completo y verificación exacta.",
     "newCandidatesAdded": 20
