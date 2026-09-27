@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "consultedAt": "2026-09-27",
+  "scope": "Todos los productos del maestro, por lotes, sin detener la investigación.",
+  "rules": {
+    "noInventedCost": true,
+    "noInventedSellingPrice": true,
+    "marketReferenceOnlyUntilSupplierCostVerified": true,
+    "grossMarginFormula": "(salePrice-realCost)/salePrice",
+    "targetMargins": [
+      0.5,
+      0.55,
+      0.6
+    ],
+    "maxCostFormula": "referenceMarketPrice*(1-targetMargin)",
+    "wholesale": "calcular por presentación y volumen solo cuando exista evidencia de costo/presentación; no extrapolar presentaciones.",
+    "unitIntegrity": true
+  },
+  "currentMaster": 1526,
+  "status": "engine_policy_activated_for_all_master_products",
+  "evidenceSources": [
+    "Homecenter Colombia — precios públicos recientes",
+    "Distribuciones Eys — precios públicos recientes",
+    "Ferretería Ya — precios públicos recientes",
+    "ObraMaestra — índices 2026, usados solo como benchmark fechado"
+  ],
+  "note": "Los benchmarks de mercado no son costo de compra IMPERIA. El margen real se habilita únicamente cuando exista costo proveedor verificable para la misma referencia/presentación."
+}
