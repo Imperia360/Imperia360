@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "purpose": "Criterio de ofertas comerciales IMPERIA 360",
+  "offerTypes": {
+    "oferta_margen": {
+      "condition": "costo puesto verificado y margen bruto >= 50%",
+      "label": "Oferta IMPERIA"
+    },
+    "precio_competitivo": {
+      "condition": "costo puesto verificado y precio IMPERIA comparado contra al menos una referencia de mercado vigente",
+      "label": "Precio competitivo"
+    },
+    "mayorista": {
+      "condition": "cantidad >= 100 y precio escalonado calculado con costo verificado",
+      "label": "Precio mayorista"
+    },
+    "oportunidad": {
+      "condition": "producto verificado, disponibilidad confirmada y margen >= 40%, sin afirmar descuento si no existe precio anterior verificable",
+      "label": "Oportunidad"
+    }
+  },
+  "neverShowAsOffer": [
+    "precio inventado",
+    "descuento inventado",
+    "precio anterior no verificable",
+    "producto sin referencia o presentación definida",
+    "stock del proveedor presentado como stock propio",
+    "costo de envío o impuesto supuesto"
+  ]
+}
