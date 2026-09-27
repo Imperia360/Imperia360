@@ -17,6 +17,7 @@ on:
 permissions:
   contents: write
 
+# Manual audit trigger 2026-09-26: ejecutar nueva validación tras separar catálogo activo/histórico.
 concurrency:
   group: imperia-market-validation
   cancel-in-progress: false
