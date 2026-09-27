@@ -38,8 +38,8 @@
     "7_imagenes",
     "8_publicacion"
   ],
-  "currentLoadedProducts": 488,
-  "currentLoadedStatus": "review",
+  "currentLoadedProducts": 3,
+  "currentLoadedStatus": "active_quote_only",
   "historicalCatalogClaims": [
     {
       "count": 692,
@@ -56,7 +56,7 @@
   ],
   "note": "Existe una sola base maestra para IMPERIA 360. Las fuentes históricas se conservan como fuentes de reconciliación y no se cuentan como productos activos hasta deduplicarlas y verificarlas.",
   "lastCatalogExpansion": "2026-09-24",
-  "notes": "Base maestra unificada: 488 registros. En esta expansión se incorporaron 13 referencias de fijaciones/tornillería verificadas en fuentes comerciales (Fixser/Homecenter, Mundial de Tornillos y Corbeta), sin duplicar referencias ya presentes. Los precios solo se registran cuando la fuente los publica; cuando la fuente muestra $0 o exige cotización, el registro queda quote_only. No se calculan precios IMPERIA 360 automáticamente.",
+  "notes": "Base maestra unificada: 488 registros. En esta expansión se incorporaron 13 referencias de fijaciones/tornillería verificadas en fuentes comerciales (Fixser/Homecenter, Mundial de Tornillos y Corbeta), sin duplicar referencias ya presentes. Los precios solo se registran cuando la fuente los publica; cuando la fuente muestra $0 o exige cotización, el registro queda quote_only. No se calculan precios IMPERIA 360 automáticamente. Corrección 2026-09-26: se separa el catálogo activo (3) de los conteos históricos 476/488/834 para evitar reportes contradictorios. Ningún candidato histórico se activa automáticamente.",
   "historicalAuditedBase": {
     "count": 834,
     "evidence": "Library: IMPERIA_360_BASE_AUDITADA_834_2026-09-25.xlsx",
@@ -133,5 +133,22 @@
     "photoPlaceholdersNotProducts": true,
     "rule": "No usar 'Producto especial por foto', 'referencia por foto' u otros textos genéricos como nombre de producto. Deben permanecer como solicitudes de identificación hasta obtener nombre, marca, referencia y fuente verificables.",
     "currentMasterPhotoPlaceholderNames": 0
+  },
+  "publishedCatalog": {
+    "source": "data/products.json",
+    "products": 3,
+    "quoteOnly": 3,
+    "validatedPrice": 0,
+    "publicationRule": "Solo registros completos y verificables; sin inventar precios, costos, stock ni imágenes."
+  },
+  "stagingCandidates": 458,
+  "historicalCatalogCounts": {
+    "auditMasterProducts": 476,
+    "configuredLoadedProductsHistorical": 488,
+    "auditedHistory834": {
+      "verified": 142,
+      "pending": 692
+    },
+    "activeCatalogExcluded": true
   }
 }
