@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25",
+  "generatedAt": "2026-09-26",
   "policy": {
     "requiredForActive": true,
     "noInventedImages": true,
@@ -38,13 +38,14 @@
       "sku": "RO4874",
       "manufacturerReference": "HT1240",
       "supplierReference": "13606",
-      "sourcePage": "https://www.intradelink.us/shop/ht1240-chazo-plastico-con-tornillo-10-mm-3-8-x-50-und-12624",
-      "source": "Intrade Link",
-      "match": "exact SKU HT1240 + exact product name + exact 3/8 x 50 presentation",
-      "verifiedAt": "2026-09-25",
+      "sourcePage": "https://www.hoyostools.com/en/shop/13606-chazo-plastico-con-tornillo-3-8-x-50unds-ht1240-18036",
+      "source": "Distribuciones Hoyostools SAS",
+      "match": "exact item 13606 + HT1240 + exact 3/8 x 50 presentation; visual image checked",
+      "verifiedAt": "2026-09-26",
       "verificationStatus": "verified_source_image",
       "publishable": true,
-      "imageUrl": "https://www.intradelink.us/web/image/product.template/12624/image_1920?unique=fe43924"
+      "imageUrl": "https://www.hoyostools.com/web/image/product.template/18036/image_1920?unique=0699aac",
+      "note": "Reemplaza la imagen anterior de Intrade Link: esa URL mostraba visualmente 1/4, no 3/8."
     }
   ]
 }
