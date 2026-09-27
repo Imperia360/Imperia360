@@ -161,12 +161,13 @@
       "consultedAt": "2026-09-25"
     },
     "images": {
-      "primary": "https://www.intradelink.us/web/image/product.template/12624/image_1920?unique=fe43924",
+      "primary": "https://www.hoyostools.com/web/image/product.template/18036/image_1920?unique=0699aac",
       "alt": "Chazo plástico con tornillo 3/8 x 50 unidades HT1240",
-      "source": "Intrade Link",
-      "sourcePage": "https://www.intradelink.us/shop/ht1240-chazo-plastico-con-tornillo-10-mm-3-8-x-50-und-12624",
+      "source": "Distribuciones Hoyostools SAS",
+      "sourcePage": "https://www.hoyostools.com/en/shop/13606-chazo-plastico-con-tornillo-3-8-x-50unds-ht1240-18036",
       "verificationStatus": "verified_source_image",
-      "verifiedAt": "2026-09-25"
+      "verifiedAt": "2026-09-26",
+      "verificationNote": "La imagen anterior de Intrade Link (product.template/12624) mostraba 1/4 aunque la página estaba titulada HT1240/3/8. Se reemplazó por la imagen de Hoyostools asociada al ítem 13606 / HT1240."
     },
     "publicationStatus": "active_quote_only"
   }
