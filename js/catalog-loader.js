@@ -34,19 +34,10 @@ export async function loadProducts(source = './data/products.json') {
       .map(record => [String(record.productId), record])
   );
 
-  // Defensive publication gate: the master file currently contains a repeated block
-  // of IDs (documented by data/catalog-audit.json). Never render the same product ID
-  // twice while the source reconciliation is being completed.
-  const seenIds = new Set();
-  const uniqueProducts = products.filter(product => {
-    const id = String(product?.id ?? '').trim();
-    if (!id) return true;
-    if (seenIds.has(id)) return false;
-    seenIds.add(id);
-    return true;
-  });
-
-  return uniqueProducts.map(product => {
+  // The master catalog is the publication source. Review records are intentionally
+  // rendered too: missing images/prices are enriched progressively and must not make
+  // an already recovered product disappear from the public catalog.
+  return products.map(product => {
     const evidence = verifiedImages.get(String(product?.id));
     if (!evidence) return product;
 
