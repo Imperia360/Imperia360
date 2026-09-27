@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25",
+  "generatedAt": "2026-09-26",
   "status": "verified_market_candidates_pending_acquisition_cost",
   "publicationGate": "blocked_until_exact_reference_and_acquisition_evidence",
   "sourcePolicy": "public_market_price_is_not_supplier_cost",
@@ -26,7 +26,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/359348/chazo-estriado-1-4pg-con-tornillo-100-und-y-broca-fixser/359348/",
+        "imageSearchStatus": "verified_page_contains_product_images",
+        "publishable": false,
+        "note": "Imagen localizada en fuente; candidato sigue bloqueado hasta referencia exacta y costo de adquisición."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-003",
@@ -62,7 +69,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/k/chazo-y-tornillo",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.mercadolibre.com.co/chazo-estriado-316pg-con-tornillo-6-x-1pg-10-und-fixser/up/MCOU3935177458",
+        "imageSearchStatus": "verified_page_contains_product_images",
+        "publishable": false,
+        "note": "Imagen localizada en fuente; candidato sigue bloqueado hasta referencia exacta y costo de adquisición."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-006",
@@ -74,7 +88,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/k/chazo-y-tornillo",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.mercadolibre.com.co/chazo-estriado-516pg-con-tornillo-10-x-1-12pg-5-und-fixser/up/MCOU3923537269",
+        "imageSearchStatus": "verified_page_contains_product_images",
+        "publishable": false,
+        "note": "Imagen localizada en fuente; candidato sigue bloqueado hasta referencia exacta y costo de adquisición."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-007",
@@ -86,7 +107,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/90537/chazo-colapsible-nylon-bloque-hueco-1-4-6-und-fixser/90537/",
+        "imageSearchStatus": "verified_page_contains_product_images",
+        "publishable": false,
+        "note": "Imagen localizada en fuente; candidato sigue bloqueado hasta referencia exacta y costo de adquisición."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-008",
@@ -98,7 +126,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/592570/tornillo-ranura-torx-pvc-concreto-m75-65-x-60-ruspert-5u/592570/",
+        "imageSearchStatus": "verified_page_contains_product_images",
+        "publishable": false,
+        "note": "Imagen localizada en fuente; candidato sigue bloqueado hasta referencia exacta y costo de adquisición."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-009",
@@ -110,7 +145,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/592659/tornillo-cabeza-plana-punta-aguda-zincado-8-x-1-1-2-5u/592659/",
+        "imageSearchStatus": "verified_page_contains_product_images",
+        "publishable": false,
+        "note": "Imagen localizada en fuente; candidato sigue bloqueado hasta referencia exacta y costo de adquisición."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-010",
@@ -122,7 +164,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/592656/tornillo-cabeza-plana-punta-aguda-zincado-8-x-1-5u/592656/",
+        "imageSearchStatus": "verified_page_contains_product_images",
+        "publishable": false,
+        "note": "Imagen localizada en fuente; candidato sigue bloqueado hasta referencia exacta y costo de adquisición."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-011",
