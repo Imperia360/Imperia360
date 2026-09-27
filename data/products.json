@@ -76965,5 +76965,1125 @@
       "verificationStatus": "pending_image"
     },
     "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-001",
+    "name": "Cemento Argos Gris 50kg",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Construcción"
+    },
+    "subcategory": {
+      "name": "Cementos"
+    },
+    "measurements": {
+      "originalText": "50 kg"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 32500,
+        "max": 32500,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat5510024/cementos-concreto-y-morteros/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat5510024/cementos-concreto-y-morteros/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Cemento Argos Gris 50kg",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-002",
+    "name": "Cemento Topex Gris Uso General 50kg",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Construcción"
+    },
+    "subcategory": {
+      "name": "Cementos"
+    },
+    "measurements": {
+      "originalText": "50 kg"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 29900,
+        "max": 29900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat5510024/cementos-concreto-y-morteros/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat5510024/cementos-concreto-y-morteros/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Cemento Topex Gris Uso General 50kg",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-003",
+    "name": "Cemento Cemex Uso General 50kg",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Construcción"
+    },
+    "subcategory": {
+      "name": "Cementos"
+    },
+    "measurements": {
+      "originalText": "50 kg"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 32900,
+        "max": 32900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat5510024/cementos-concreto-y-morteros/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat5510024/cementos-concreto-y-morteros/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Cemento Cemex Uso General 50kg",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-004",
+    "name": "Cemento Alion Corona Uso General 50kg",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Construcción"
+    },
+    "subcategory": {
+      "name": "Cementos"
+    },
+    "measurements": {
+      "originalText": "50 kg"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 31500,
+        "max": 31500,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat5510024/cementos-concreto-y-morteros/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat5510024/cementos-concreto-y-morteros/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Cemento Alion Corona Uso General 50kg",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-005",
+    "name": "Rodillo 9 pulgadas Microfibra Industrial Topex",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "name": "Rodillos"
+    },
+    "measurements": {
+      "originalText": "9 pulgadas"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 19900,
+        "max": 19900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Rodillo 9 pulgadas Microfibra Industrial Topex",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-006",
+    "name": "Rodillo 5 pulgadas Microfibra Industrial Topex",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "name": "Rodillos"
+    },
+    "measurements": {
+      "originalText": "5 pulgadas"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 9900,
+        "max": 9900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Rodillo 5 pulgadas Microfibra Industrial Topex",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-007",
+    "name": "Brocha Monofilamento 2 pulgadas Goya",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "name": "Brochas"
+    },
+    "measurements": {
+      "originalText": "2 pulgadas"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 8900,
+        "max": 8900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Brocha Monofilamento 2 pulgadas Goya",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-008",
+    "name": "Brocha Natural Cabo Rojo 2 pulgadas Kolor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "name": "Brochas"
+    },
+    "measurements": {
+      "originalText": "2 pulgadas"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 12900,
+        "max": 12900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Brocha Natural Cabo Rojo 2 pulgadas Kolor",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-009",
+    "name": "Brocha Multipropósito 1 pulgada Kolor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "name": "Brochas"
+    },
+    "measurements": {
+      "originalText": "1 pulgada"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 3900,
+        "max": 3900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Brocha Multipropósito 1 pulgada Kolor",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-010",
+    "name": "Brocha Esmalte Agua/Latex 4 pulgadas Kolor",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "name": "Brochas"
+    },
+    "measurements": {
+      "originalText": "4 pulgadas"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 19900,
+        "max": 19900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat450028/brochas-rodillos-y-herramientas-para-pintar/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Brocha Esmalte Agua/Latex 4 pulgadas Kolor",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-011",
+    "name": "Rodillo de felpa 9 pulgadas RodiExport",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "name": "Rodillos"
+    },
+    "measurements": {
+      "originalText": "9 pulgadas"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 6500,
+        "max": 6500,
+        "source": "Distribuidora Nacional",
+        "sourceUrl": "https://www.distribuidoranacional.com.co/ferreteria/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Distribuidora Nacional",
+      "url": "https://www.distribuidoranacional.com.co/ferreteria/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Rodillo de felpa 9 pulgadas RodiExport",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-012",
+    "name": "Rodillo antigoteo Pintuco 9 pulgadas",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "name": "Rodillos"
+    },
+    "measurements": {
+      "originalText": "9 pulgadas"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 17300,
+        "max": 17300,
+        "source": "Distribuidora Nacional",
+        "sourceUrl": "https://www.distribuidoranacional.com.co/ferreteria/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Distribuidora Nacional",
+      "url": "https://www.distribuidoranacional.com.co/ferreteria/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Rodillo antigoteo Pintuco 9 pulgadas",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-013",
+    "name": "Lija Abracol",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Abrasivos y soldadura"
+    },
+    "subcategory": {
+      "name": "Lijas"
+    },
+    "measurements": {
+      "originalText": "Presentación publicada"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 1,
+        "max": 1,
+        "source": "presentación",
+        "sourceUrl": 1500,
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "presentación",
+      "url": 1500,
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Lija Abracol",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-014",
+    "name": "Espátula plástica Rodiexport",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Pinturas y acabados"
+    },
+    "subcategory": {
+      "name": "Espátulas"
+    },
+    "measurements": {
+      "originalText": "Presentación publicada"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 1,
+        "max": 1,
+        "source": "presentación",
+        "sourceUrl": 1100,
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "presentación",
+      "url": 1100,
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Espátula plástica Rodiexport",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-015",
+    "name": "Cerradura 864 Gato",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "name": "Cerraduras"
+    },
+    "measurements": {
+      "originalText": "Referencia 864"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 1,
+        "max": 1,
+        "source": "unidad",
+        "sourceUrl": 46000,
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "unidad",
+      "url": 46000,
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Cerradura 864 Gato",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-016",
+    "name": "Candado 50/110 Yale",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Cerrajería"
+    },
+    "subcategory": {
+      "name": "Candados"
+    },
+    "measurements": {
+      "originalText": "Referencia 50/110"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 1,
+        "max": 1,
+        "source": "unidad",
+        "sourceUrl": 64200,
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "unidad",
+      "url": 64200,
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Candado 50/110 Yale",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-017",
+    "name": "Bisturí metálico Forte",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Herramienta manual"
+    },
+    "subcategory": {
+      "name": "Corte"
+    },
+    "measurements": {
+      "originalText": "Referencia publicada"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 1,
+        "max": 1,
+        "source": "unidad",
+        "sourceUrl": 14900,
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "unidad",
+      "url": 14900,
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Bisturí metálico Forte",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-018",
+    "name": "Cable CU THHN/THWN 8 600V B1000",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Electricidad"
+    },
+    "subcategory": {
+      "name": "Cables y alambres"
+    },
+    "measurements": {
+      "originalText": "Calibre 8 AWG; B1000"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 1000,
+        "max": 1000,
+        "source": "m",
+        "sourceUrl": 7100,
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "m",
+      "url": 7100,
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Cable CU THHN/THWN 8 600V B1000",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-019",
+    "name": "Protector auditivo silicona 4 membranas 5250D",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Seguridad industrial"
+    },
+    "subcategory": {
+      "name": "Protección auditiva"
+    },
+    "measurements": {
+      "originalText": "27dB"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 1,
+        "max": 1,
+        "source": "unidad",
+        "sourceUrl": 2700,
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "unidad",
+      "url": 2700,
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "Protector auditivo silicona 4 membranas 5250D",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "web-20260927-020",
+    "name": "LED Eco Panel B 60x60cm 40W VT3 4000K",
+    "identification": {
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null
+    },
+    "brand": {
+      "name": null
+    },
+    "category": {
+      "name": "Iluminación"
+    },
+    "subcategory": {
+      "name": "Paneles LED"
+    },
+    "measurements": {
+      "originalText": "60x60cm; 40W"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 1,
+        "max": 1,
+        "source": "unidad",
+        "sourceUrl": 84800,
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo de adquisición ni precio de venta IMPERIA 360."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "unidad",
+      "url": 84800,
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": null,
+      "alt": "LED Eco Panel B 60x60cm 40W VT3 4000K",
+      "source": null,
+      "sourcePage": null,
+      "verificationStatus": "pending_image"
+    },
+    "publicationStatus": "active_quote_only"
   }
 ]
