@@ -31,6 +31,8 @@ jobs:
           node-version: 20
       - name: Procesar siguiente lote de productos sin imagen
         run: node .github/scripts/enrich-product-images.mjs
+      - name: Validar que no existan márgenes inventados
+        run: node .github/scripts/validate-pricing-margin.mjs
       - name: Guardar coincidencias verificadas
         run: |
           if git diff --quiet -- data/product-images.json; then
