@@ -160,5 +160,16 @@
     "expandAcross29Categories": true,
     "imagesProgressive": true,
     "doNotInventData": true
+  },
+  "pricingMarginAnalysis": {
+    "file": "data/pricing-margin-analysis-2026-09-27.json",
+    "evidenceRecords": 13,
+    "marginTargets": [
+      "50%",
+      "55%",
+      "60%"
+    ],
+    "status": "evidence_collected_margin_ceiling_calculated",
+    "rule": "No fijar margen real ni costo IMPERIA hasta cruzar costo proveedor verificable."
   }
 }
