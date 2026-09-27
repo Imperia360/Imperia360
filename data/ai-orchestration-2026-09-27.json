@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "date": "2026-09-27",
+  "project": "IMPERIA 360",
+  "repository": "Imperia360/Imperia360",
+  "rule": "Una sola base maestra; no borrar recuperados; no inventar precio, costo, stock, referencia, presentación o imagen.",
+  "agents": [
+    {
+      "tool": "GitHub",
+      "role": "fuente de verdad y ejecución del repositorio",
+      "tasks": [
+        "master catalog",
+        "validation",
+        "workflow",
+        "site"
+      ]
+    },
+    {
+      "tool": "Exa",
+      "role": "descubrimiento web",
+      "tasks": [
+        "find suppliers",
+        "find product references",
+        "find market evidence"
+      ]
+    },
+    {
+      "tool": "Tavily",
+      "role": "verificación y extracción web",
+      "tasks": [
+        "current prices",
+        "source URLs",
+        "presentation/unit",
+        "cross-check evidence"
+      ]
+    },
+    {
+      "tool": "HeyGen",
+      "role": "contenido audiovisual",
+      "tasks": [
+        "Reels/videos distintos para IMPERIA",
+        "product/category explainers",
+        "promotional creatives"
+      ]
+    },
+    {
+      "tool": "Metricool",
+      "role": "programación y analítica social",
+      "tasks": [
+        "schedule",
+        "traffic analysis",
+        "organic content calendar"
+      ]
+    }
+  ],
+  "pendingOptional": [
+    "Vercel",
+    "OpenAI Developers"
+  ],
+  "pricingPolicy": {
+    "targets": [
+      "50%",
+      "55%",
+      "60%"
+    ],
+    "formula": "max_verified_cost = market_reference_price * (1 - target_margin)",
+    "caveat": "Esto es techo de costo basado en referencia pública, no costo IMPERIA, hasta verificar proveedor."
+  },
+  "catalogState": {
+    "masterRecords": 1526,
+    "imagesPresent": 11,
+    "imagesMissing": 1515,
+    "validatedPrices": 0
+  },
+  "executionPlan": [
+    "Investigar las 29 categorías en paralelo",
+    "Cruzar evidencia con productos existentes",
+    "Conservar todos los recuperados",
+    "Separar variantes reales por marca/referencia/medida/presentación",
+    "Registrar fuente y fecha",
+    "Calcular techos de costo para 50/55/60%",
+    "Completar imágenes verificadas progresivamente",
+    "Validar sitio y mantener catálogo visible mientras se enriquece",
+    "Generar contenido audiovisual diferente y programable"
+  ]
+}
