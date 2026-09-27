@@ -14,7 +14,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/76312/chazo-puntilla-nylon-1-4x1-1-4-50-und-fixser/612881/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-002",
@@ -45,7 +52,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/359344/chazo-estriado-1-4pg-100-und-fixser/359347/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-004",
@@ -57,7 +71,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/k/chazo-y-tornillo",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/105517/tarro-chazo-1-4pg-con-tornillo-8x1-1-2pg-500und/105517/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-005",
@@ -183,7 +204,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/category/cat10728/tornillos-para-madera/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-012",
@@ -195,7 +223,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/89660/tornillo-aglomerado-autoperforante-6x1-1-8-100-und-fixser/89661/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-013",
@@ -207,7 +242,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/76312/chazo-puntilla-nylon-1-4x1-1-4-50-und-fixser/612881/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-014",
@@ -219,7 +261,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-015",
@@ -231,7 +280,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/86578/tornillo-aglomerado-autoperforante-8x2-100-und-fixser/86579/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-016",
@@ -243,7 +299,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/category/cat10728/tornillos-para-madera/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-017",
@@ -255,7 +318,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-018",
@@ -267,7 +337,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-019",
@@ -279,7 +356,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/76338/anclaje-metalico-cuna-3-8-x-3-25und-fixser/612887/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-HC-020",
@@ -291,7 +375,14 @@
       "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
       "consultationDate": "2026-09-25",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-RX-001",
@@ -308,7 +399,14 @@
         "12+": 1800
       },
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://roxvan.com/producto/chazo-expansion-5-16-x-1-1-2-pqt-x-4-uduke/",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     },
     {
       "candidateId": "MKT-20260925-TYC-001",
@@ -321,7 +419,21 @@
       "consultationDate": "2026-09-25",
       "priceNote": "precio publicado por unidad, sin IVA",
       "status": "candidate",
-      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation"
+      "publicationGate": "pending_acquisition_cost_and_exact_reference_reconciliation",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.tornillosytuercas.co/products/tornillo-hexagonal-milimetrico-din-931-clase-8-8-rosca-total",
+        "imageSearchStatus": "source_page_contains_product_image",
+        "publishable": false,
+        "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
+      }
     }
-  ]
+  ],
+  "imageResearch": {
+    "lastRun": "2026-09-26",
+    "candidatesWithSourcePages": 15,
+    "totalCandidates": 22,
+    "activeCatalogImagesVerified": 3,
+    "publicationRule": "No activar candidatos solo por tener imagen; requiere registro completo y verificación exacta."
+  }
 }
