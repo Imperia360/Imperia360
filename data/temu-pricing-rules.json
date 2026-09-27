@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "currency": "COP",
+  "marginBasis": "gross_margin",
+  "rules": {
+    "retail": {
+      "targetMargin": 0.50,
+      "minimumMargin": 0.40
+    },
+    "wholesale": [
+      { "minimumQuantity": 100, "targetMargin": 0.40 },
+      { "minimumQuantity": 500, "targetMargin": 0.35 },
+      { "minimumQuantity": 1000, "targetMargin": 0.30 }
+    ]
+  },
+  "formula": "salePrice = landedCostCOP / (1 - targetMargin)",
+  "rounding": "nearest_100_COP",
+  "publicationGate": [
+    "verified source URL",
+    "verified product/variant",
+    "verified current price",
+    "verified Colombia shipping/delivery when applicable",
+    "verified landed cost in COP",
+    "margin at or above minimum",
+    "availability confirmed"
+  ],
+  "staleAfterHours": 24,
+  "note": "No se inventan costos de envío, impuestos, tasas ni tipo de cambio. Si falta un componente del costo puesto en Colombia, el producto queda en revisión y no se publica con precio final."
+}
