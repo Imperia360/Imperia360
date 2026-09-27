@@ -38,7 +38,7 @@
     "7_imagenes",
     "8_publicacion"
   ],
-  "currentLoadedProducts": 9,
+  "currentLoadedProducts": 11,
   "currentLoadedStatus": "active_quote_only",
   "historicalCatalogClaims": [
     {
@@ -56,7 +56,7 @@
   ],
   "note": "Existe una sola base maestra para IMPERIA 360. Las fuentes históricas se conservan como fuentes de reconciliación y no se cuentan como productos activos hasta deduplicarlas y verificarlas.",
   "lastCatalogExpansion": "2026-09-27",
-  "notes": "Base maestra unificada. El catálogo activo se mantiene separado de históricos y staging. En 2026-09-27 se incorporaron 6 productos nuevos con referencia/presentación, fuente, fecha e imagen verificable; todos permanecen quote_only porque no se ha verificado costo de adquisición, IVA, logística y margen IMPERIA. No se inventan precios, stock ni costos.",
+  "notes": "Base maestra unificada. El 2026-09-27 se incorporaron 8 productos nuevos durante la ampliación: 6 pulidoras/discos y 2 barretas Truper, todos con referencia/presentación, fuente, fecha e imagen verificable. Todos permanecen quote_only hasta verificar costo de adquisición, IVA, logística y margen IMPERIA. Se añadió además un directorio inicial de 10 ferreterías/importadoras/mayoristas verificables en data/supplier-directory-2026-09-27.json y una sección pública en la web. No se inventan precios, stock ni costos.",
   "historicalAuditedBase": {
     "count": 834,
     "evidence": "Library: IMPERIA_360_BASE_AUDITADA_834_2026-09-25.xlsx",
@@ -136,12 +136,12 @@
   },
   "publishedCatalog": {
     "source": "data/products.json",
-    "products": 9,
-    "quoteOnly": 9,
+    "products": 11,
+    "quoteOnly": 11,
     "validatedPrice": 0,
     "publicationRule": "Solo registros completos y verificables; sin inventar precios, costos, stock ni imágenes.",
     "lastVerifiedUpdate": "2026-09-27",
-    "lastCommit": "84633b8178cf71c79c093c540a79687cdd7bd5df"
+    "lastCommit": "421c07917680faf9c0c275eda4c2269fb4cd23dc"
   },
   "stagingCandidates": 458,
   "historicalCatalogCounts": {
