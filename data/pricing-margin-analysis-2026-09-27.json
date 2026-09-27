@@ -1,0 +1,172 @@
+{
+  "version": "1.0.0",
+  "consultedAt": "2026-09-27",
+  "purpose": "Analisis de margen basado exclusivamente en precios publicos observados. No convierte precio retail en costo IMPERIA.",
+  "methodology": {
+    "grossMarginFormula": "(precio_venta - costo_real)/precio_venta",
+    "maxCostAt50": "precio_referencia*0.50",
+    "maxCostAt55": "precio_referencia*0.45",
+    "maxCostAt60": "precio_referencia*0.40",
+    "note": "Hasta recibir costo proveedor real, estos son techos de costo para alcanzar el margen objetivo, no margenes reales."
+  },
+  "evidence": [
+    {
+      "product": "Cemento Gris Topex Uso General 50kg",
+      "source": "Homecenter Colombia",
+      "referencePrice": 29900,
+      "unit": "saco 50kg",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat1420004/cementos/?f.product.attribute.Tipo=cemento+gris",
+      "marginTargets": {
+        "50%": 14950,
+        "55%": 13455,
+        "60%": 11960
+      }
+    },
+    {
+      "product": "Cemento Argos Gris 50kg",
+      "source": "Homecenter Colombia",
+      "referencePrice": 32500,
+      "unit": "saco 50kg",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat1420004/cementos/?f.product.attribute.Tipo=cemento+gris",
+      "marginTargets": {
+        "50%": 16250,
+        "55%": 14625,
+        "60%": 13000
+      }
+    },
+    {
+      "product": "Cemento Cemex Uso General 50kg",
+      "source": "Homecenter Colombia",
+      "referencePrice": 32900,
+      "unit": "saco 50kg",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat1420004/cementos/?f.product.attribute.Tipo=cemento+gris",
+      "marginTargets": {
+        "50%": 16450,
+        "55%": 14805,
+        "60%": 13160
+      }
+    },
+    {
+      "product": "Arandela Plana M5 zinc 4 unidades Fixser",
+      "source": "Homecenter Colombia",
+      "referencePrice": 4250,
+      "unit": "paquete x4",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
+      "marginTargets": {
+        "50%": 2125,
+        "55%": 1913,
+        "60%": 1700
+      }
+    },
+    {
+      "product": "Arandela Plana 7/16 Fixser",
+      "source": "Homecenter Colombia",
+      "referencePrice": 5900,
+      "unit": "paquete x6",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
+      "marginTargets": {
+        "50%": 2950,
+        "55%": 2655,
+        "60%": 2360
+      }
+    },
+    {
+      "product": "Perno + Tuerca inoxidable M10x30 Fixser",
+      "source": "Homecenter Colombia",
+      "referencePrice": 16900,
+      "unit": "paquete x2",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
+      "marginTargets": {
+        "50%": 8450,
+        "55%": 7605,
+        "60%": 6760
+      }
+    },
+    {
+      "product": "Tornillo Lamina cabeza pan Philips pavon #6x1/2 Fixser",
+      "source": "Homecenter Colombia",
+      "referencePrice": 4450,
+      "unit": "paquete x5",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat10716/tornillos-y-adhesivos/",
+      "marginTargets": {
+        "50%": 2225,
+        "55%": 2003,
+        "60%": 1780
+      }
+    },
+    {
+      "product": "Tornillo Lamina Hexagonal #10x2 zinc + arandela Fixser",
+      "source": "Homecenter Colombia",
+      "referencePrice": 6100,
+      "unit": "paquete x5",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "marginTargets": {
+        "50%": 3050,
+        "55%": 2745,
+        "60%": 2440
+      }
+    },
+    {
+      "product": "Tornillo PVC-Concreto M7.5/6.5x70 Fixser",
+      "source": "Homecenter Colombia",
+      "referencePrice": 6700,
+      "unit": "paquete x5",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "marginTargets": {
+        "50%": 3350,
+        "55%": 3015,
+        "60%": 2680
+      }
+    },
+    {
+      "product": "Cable multiconductor THHW 2x10 AWG 50m",
+      "source": "Homecenter Colombia",
+      "referencePrice": 459900,
+      "unit": "rollo 50m",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "marginTargets": {
+        "50%": 229950,
+        "55%": 206955,
+        "60%": 183960
+      }
+    },
+    {
+      "product": "Cable acero plastificado 1/8 pulg x 1m",
+      "source": "Homecenter Colombia",
+      "referencePrice": 4900,
+      "unit": "metro",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "marginTargets": {
+        "50%": 2450,
+        "55%": 2205,
+        "60%": 1960
+      }
+    },
+    {
+      "product": "Union universal PVC soldar 1/2 pulg PCP",
+      "source": "Homecenter Colombia",
+      "referencePrice": 19900,
+      "unit": "unidad",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "marginTargets": {
+        "50%": 9950,
+        "55%": 8955,
+        "60%": 7960
+      }
+    },
+    {
+      "product": "Codo 90 presion Tuboplex 1/2 pulg",
+      "source": "Homecenter Colombia",
+      "referencePrice": 55900,
+      "unit": "unidad/listado con opcion set",
+      "url": "https://www.homecenter.com.co/homecenter-co/category/cat720001/construccion-y-ferreteria/",
+      "marginTargets": {
+        "50%": 27950,
+        "55%": 25155,
+        "60%": 22360
+      }
+    }
+  ],
+  "status": "evidence_collected_margin_ceiling_calculated",
+  "nextAction": "Cruzar cada referencia con costo proveedor real antes de fijar precio de venta IMPERIA."
+}
