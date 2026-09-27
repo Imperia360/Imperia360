@@ -1,18 +1,12 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-09-27T02:45:58.393Z",
-  "masterProducts": 476,
-  "configuredLoadedProducts": 488,
+  "generatedAt": "2026-09-27T02:47:38.576Z",
+  "masterProducts": 3,
+  "configuredLoadedProducts": 3,
   "issuesCount": 0,
   "duplicateIds": 0,
   "possibleDuplicates": 0,
   "missingRequiredIdentity": 0,
   "zeroPrices": 0,
-  "issues": [],
-  "activePublishedProducts": 3,
-  "activeQuoteOnlyProducts": 3,
-  "activeValidatedPriceProducts": 0,
-  "stagingCandidates": 458,
-  "historicalMasterProducts": 476,
-  "configuredLoadedProductsHistorical": 488
+  "issues": []
 }
