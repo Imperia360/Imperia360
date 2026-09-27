@@ -235,5 +235,59 @@
       "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
     }
   ],
-  "lastUpdated": "2026-09-26"
+  "lastUpdated": "2026-09-26",
+  "parallelResearch": {
+    "date": "2026-09-26",
+    "agents": [
+      {
+        "name": "Exa",
+        "status": "working",
+        "scope": [
+          "herramientas eléctricas",
+          "herramientas manuales",
+          "plomería/PVC",
+          "electricidad",
+          "pintura/adhesivos",
+          "soldadura/cerrajería/seguridad/gas/jardín/limpieza/automotriz",
+          "bombas/maquinaria/construcción/drywall/medición/organización"
+        ],
+        "note": "Búsqueda paralela de páginas y catálogos colombianos; resultados permanecen como candidatos hasta validación."
+      },
+      {
+        "name": "GitHub",
+        "status": "working",
+        "scope": [
+          "consolidación de investigación",
+          "control de datos",
+          "registro de candidatos",
+          "preparación para publicación"
+        ],
+        "note": "Repositorio Imperia360/Imperia360; no activar candidatos incompletos."
+      },
+      {
+        "name": "Replit",
+        "status": "excluded",
+        "note": "No se utiliza: el proyecto vigente está en GitHub."
+      },
+      {
+        "name": "Copilot/GitHub Agentic",
+        "status": "not_claimed_active",
+        "note": "No se reporta como ejecutándose porque no hay una ejecución verificable activa en esta sesión."
+      }
+    ],
+    "sourcesFound": [
+      "Ferretería Luis Penagos",
+      "MARKEM STORE",
+      "Total Herramientas Colombia",
+      "Homecenter Colombia",
+      "Ferretería Freund",
+      "Distribuciones PVC",
+      "Pavco Wavin",
+      "Durman/Coval",
+      "Ferretería Nacional",
+      "Ferretería de Marca",
+      "Alluma Trade"
+    ],
+    "rules": "Los resultados son benchmarks/candidatos de investigación. No se convierten automáticamente en inventario activo; requieren referencia exacta, presentación, imagen, control de duplicados y validación de adquisición/costo cuando corresponda."
+  }
 }
