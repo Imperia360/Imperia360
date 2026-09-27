@@ -1147,12 +1147,164 @@
         "imageSearchStatus": "product_page_discovered_by_exa; direct_image_and_exact_reference_pending",
         "publishable": false
       }
+    },
+    {
+      "candidateId": "MKT-20260926-WEB-001",
+      "name": "Cable dúplex Centelsa 2x16 por metro",
+      "brand": "CENTELSA",
+      "presentation": "1 metro",
+      "sourceUrl": "https://www.fervicom.com/producto/cable-duplex-centelsa-2x16/",
+      "consultationDate": "2026-09-26",
+      "publicPriceCOP": 3350,
+      "unitBasis": "metro",
+      "status": "candidate",
+      "publicationGate": "pending_exact_reference_reconciliation_and_acquisition_cost",
+      "priceEvidence": "public_market_benchmark_only; not IMPERIA acquisition cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.fervicom.com/producto/cable-duplex-centelsa-2x16/",
+        "imageSearchStatus": "page_contains_product_or_catalog_listing; exact image pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-WEB-002",
+      "name": "Cable dúplex Centelsa 2x14 por metro",
+      "brand": "CENTELSA",
+      "presentation": "1 metro",
+      "sourceUrl": "https://edemco.co/producto/cable-spt-duplex-2x14-awg-300v-60c",
+      "consultationDate": "2026-09-26",
+      "publicPriceCOP": 5445,
+      "unitBasis": "metro",
+      "status": "candidate",
+      "publicationGate": "pending_exact_reference_reconciliation_and_acquisition_cost",
+      "priceEvidence": "public_market_benchmark_only; not IMPERIA acquisition cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://edemco.co/producto/cable-spt-duplex-2x14-awg-300v-60c",
+        "imageSearchStatus": "page_contains_product_or_catalog_listing; exact image pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-WEB-003",
+      "name": "Cable dúplex Centelsa 2x16 rollo 100 m",
+      "brand": "CENTELSA",
+      "presentation": "100 metros",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10676/electricidad/",
+      "consultationDate": "2026-09-26",
+      "publicPriceCOP": 257900,
+      "unitBasis": "rollo",
+      "status": "candidate",
+      "publicationGate": "pending_exact_reference_reconciliation_and_acquisition_cost",
+      "priceEvidence": "public_market_benchmark_only; not IMPERIA acquisition cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/category/cat10676/electricidad/",
+        "imageSearchStatus": "page_contains_product_or_catalog_listing; exact image pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-WEB-004",
+      "name": "Cable dúplex Centelsa 2x14 rollo 100 m",
+      "brand": "CENTELSA",
+      "presentation": "100 metros",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10676/electricidad/",
+      "consultationDate": "2026-09-26",
+      "publicPriceCOP": 378900,
+      "unitBasis": "rollo",
+      "status": "candidate",
+      "publicationGate": "pending_exact_reference_reconciliation_and_acquisition_cost",
+      "priceEvidence": "public_market_benchmark_only; not IMPERIA acquisition cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/category/cat10676/electricidad/",
+        "imageSearchStatus": "page_contains_product_or_catalog_listing; exact image pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-WEB-005",
+      "name": "Cable dúplex Centelsa 2x12 rollo 100 m",
+      "brand": "CENTELSA",
+      "presentation": "100 metros",
+      "sourceUrl": "https://www.homecenter.com.co/homecenter-co/category/cat10676/electricidad/",
+      "consultationDate": "2026-09-26",
+      "publicPriceCOP": 604900,
+      "unitBasis": "rollo",
+      "status": "candidate",
+      "publicationGate": "pending_exact_reference_reconciliation_and_acquisition_cost",
+      "priceEvidence": "public_market_benchmark_only; not IMPERIA acquisition cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.homecenter.com.co/homecenter-co/category/cat10676/electricidad/",
+        "imageSearchStatus": "page_contains_product_or_catalog_listing; exact image pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-WEB-006",
+      "name": "Cable dúplex Centelsa 2x16 rollo 100 m",
+      "brand": "CENTELSA",
+      "presentation": "100 metros",
+      "sourceUrl": "https://www.electricoslacabalgata.com/collections/centelsa",
+      "consultationDate": "2026-09-26",
+      "publicPriceCOP": 305000,
+      "unitBasis": "rollo",
+      "status": "candidate",
+      "publicationGate": "pending_exact_reference_reconciliation_and_acquisition_cost",
+      "priceEvidence": "public_market_benchmark_only; not IMPERIA acquisition cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.electricoslacabalgata.com/collections/centelsa",
+        "imageSearchStatus": "page_contains_product_or_catalog_listing; exact image pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-WEB-007",
+      "name": "Cable dúplex Centelsa 2x14 rollo 100 m",
+      "brand": "CENTELSA",
+      "presentation": "100 metros",
+      "sourceUrl": "https://www.electricoslacabalgata.com/collections/centelsa",
+      "consultationDate": "2026-09-26",
+      "publicPriceCOP": 468000,
+      "unitBasis": "rollo",
+      "status": "candidate",
+      "publicationGate": "pending_exact_reference_reconciliation_and_acquisition_cost",
+      "priceEvidence": "public_market_benchmark_only; not IMPERIA acquisition cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.electricoslacabalgata.com/collections/centelsa",
+        "imageSearchStatus": "page_contains_product_or_catalog_listing; exact image pending",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-WEB-008",
+      "name": "Cable dúplex Centelsa 2x12 rollo 100 m",
+      "brand": "CENTELSA",
+      "presentation": "100 metros",
+      "sourceUrl": "https://www.electricoslacabalgata.com/collections/centelsa",
+      "consultationDate": "2026-09-26",
+      "publicPriceCOP": 715000,
+      "unitBasis": "rollo",
+      "status": "candidate",
+      "publicationGate": "pending_exact_reference_reconciliation_and_acquisition_cost",
+      "priceEvidence": "public_market_benchmark_only; not IMPERIA acquisition cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://www.electricoslacabalgata.com/collections/centelsa",
+        "imageSearchStatus": "page_contains_product_or_catalog_listing; exact image pending",
+        "publishable": false
+      }
     }
   ],
   "imageResearch": {
     "lastRun": "2026-09-26",
-    "candidatesWithSourcePages": 62,
-    "totalCandidates": 62,
+    "candidatesWithSourcePages": 70,
+    "totalCandidates": 70,
     "activeCatalogImagesVerified": 3,
     "publicationRule": "No activar candidatos solo por tener imagen; requiere registro completo y verificación exacta.",
     "newCandidatesAdded": 20
