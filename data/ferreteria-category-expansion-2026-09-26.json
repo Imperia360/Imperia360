@@ -93,5 +93,147 @@
       "url": "https://elmachetico.com/tienda/ferreteria/herramientas-electricas/pulidora-4-1-2-einhell/"
     }
   ],
-  "rule": "Estos son benchmarks de investigación; no son precios IMPERIA. Antes de activar cada producto se debe verificar referencia exacta, imagen exacta, duplicado y costo de adquisición."
+  "rule": "Estos son benchmarks de investigación; no son precios IMPERIA. Antes de activar cada producto se debe verificar referencia exacta, imagen exacta, duplicado y costo de adquisición.",
+  "researchBatch2": [
+    {
+      "name": "Marco para segueta sierra fija 12 pulgadas con hoja Uyustools",
+      "reference": "706929",
+      "source": "Homecenter",
+      "publicPriceCOP": 33900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/706929/marco-para-segueta-sierra-fija-de-12-pulgadas-incluye-hoja-uyustools/706929/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Hoja para segueta 24 dientes x25 Covo",
+      "reference": "739605",
+      "source": "Homecenter",
+      "publicPriceCOP": 52900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/739605/hoja-para-segueta-24-dientes-x-25-unidades-covo/739605/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Set hojas segueta bimetálica 10 piezas 12 pulgadas 18 DPP Urrea",
+      "reference": "769773",
+      "source": "Homecenter",
+      "publicPriceCOP": 147900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/769773/set-de-hojas-para-marco-segueta-bimetalica-10-piezas-12-pulgadas-18-dpp-urrea/769773/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Pulidora 4 1/2 Covo 950W 11000 RPM",
+      "reference": "773970",
+      "source": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/773970/pulidora-4-1-2-pulgadas-electrica-covo-950-w-11000-rpm-profesional/773970/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Pulidora 4 1/2 Black & Decker 820W",
+      "reference": "67712",
+      "source": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/67712/pulidora-4-1-2-pulgadas-820w-black-and-decker/67712/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Pulidora angular Dewalt DWE4120-B3 4 1/2 900W",
+      "reference": "102102",
+      "source": "Homecenter",
+      "publicPriceCOP": 298900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/102102/pulidora-angular-4-1-2-900-w-12000-rpm-industrial-dwe4120-b3-dewalt/102102/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Pulidora Elite 4 1/2 1200W 11000RPM",
+      "reference": "522125",
+      "source": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/522125/pulidora-4-1-2-pulgadas-electrica-elite-1200w-11000rpm-110v-60hz-profesional/522125/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Pulidora Truper 4 1/2 700W 11000RPM",
+      "reference": "626498",
+      "source": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/626498/pulidora-angular-4-1-2-pulgadas-electrica-truper-700w-11000-rpm-profesional/626498/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco corta metal inoxidable 4 1/2 Uyustools",
+      "reference": "708544",
+      "source": "Homecenter",
+      "publicPriceCOP": 16900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/708544/disco-corta-metal-profesional-en-acero-inoxidable-4-1-2-pulgadas-uyustools/708544/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco corte extrafino metal 4 1/2 alto rendimiento",
+      "reference": "624278",
+      "source": "Homecenter",
+      "publicPriceCOP": 18900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/624278/disco-corte-extrafino-de-metal-de-41-2-alto-rendimiento/624278/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco abrasivo corte metal 4 1/2 x1/8 Dewalt",
+      "reference": "31937",
+      "source": "Homecenter",
+      "publicPriceCOP": 4400,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/31937/disco-abrasivo-corte-metal-4-1-2-x-1-8-ref-dw44820/31937/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco corte extrafino metal 4 1/2 Truper TRP11585",
+      "reference": "414488",
+      "source": "Homecenter",
+      "publicPriceCOP": 18900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/414488/disco-para-corte-extrafino-de-metal-41-2-pulgadas/414488/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco corte metal 4 1/2 x0.045 x7/8 T1 Discover",
+      "reference": "557309",
+      "source": "Homecenter",
+      "publicPriceCOP": 19900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/557309/disco-corte-metal-41-2-x-0045-x-7-8-t1-discover/557309/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco corte metal uso general 4 1/2 espesor 2mm",
+      "reference": "415031",
+      "source": "Homecenter",
+      "publicPriceCOP": 18900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/415031/disco-corte-metal-uso-general-espesor-2-mm-41-2/415031/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco desbaste metal uso general 4 1/2",
+      "reference": "414032",
+      "source": "Homecenter",
+      "publicPriceCOP": 22900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/414032/disco-para-desbaste-de-metal-uso-general-41-2-pulgadas/414032/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco desbaste DT27 4 1/2 x1/4 x7/8 A24T",
+      "reference": "3034162",
+      "source": "Homecenter",
+      "publicPriceCOP": 4500,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/3034162/disco-desbaste-dt27-4-1-2x1-4x7-8-a24t/3034162/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco desbaste metal 4 1/2 6.2mm 13200RPM",
+      "reference": "623697",
+      "source": "Homecenter",
+      "publicPriceCOP": 19900,
+      "url": "https://www.homecenter.com.co/homecenter-co/product/623697/disco-para-desbaste-de-metal-de-41-2-62-mm-13200-rpm/623697/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    },
+    {
+      "name": "Disco abrasivo desbaste metal 4 1/2 x1/4 Dewalt DW44830",
+      "reference": "11687",
+      "source": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/11687/disco-abrasivo-desbaste-metal-4-1-2-x-1-4-ref-dw44830/11687/",
+      "status": "candidate_pending_exact_image_acquisition_cost_and_duplicate_check"
+    }
+  ],
+  "lastUpdated": "2026-09-26"
 }
