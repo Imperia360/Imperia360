@@ -30,6 +30,14 @@ export function productCard(product={}) {
     const p=document.createElement('strong'); p.textContent=(product.pricing.currency??'')+' '+product.pricing.publicPrice.toLocaleString('es-CO'); c.append(p);
   } else if(product.pricing?.status==='quote_only'){
     const p=document.createElement('strong'); p.textContent='Precio: Cotizar'; c.append(p);
+    const ref=product.pricing?.sourceReferencePrice;
+    if(ref?.min!=null && ref.min>0){
+      const rp=document.createElement('small'); rp.className='market-reference-price';
+      const shown=ref.min===ref.max ? ref.min.toLocaleString('es-CO') : `${ref.min.toLocaleString('es-CO')} – ${ref.max.toLocaleString('es-CO')}`;
+      rp.textContent='Referencia de mercado: COP '+shown;
+      c.append(rp);
+    }
+    const n=document.createElement('small'); n.className='price-note'; n.textContent='Referencia pública; no es precio de venta IMPERIA.'; c.append(n);
   } else {
     const p=document.createElement('small'); p.className='price-pending'; p.textContent='Precio: por verificar'; c.append(p);
   }
