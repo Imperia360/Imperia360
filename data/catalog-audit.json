@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-09-27T07:05:00-05:00",
-  "masterProducts": 1506,
-  "visibleAfterIdReconciliation": 1506,
+  "generatedAt": "2026-09-27T07:15:00-05:00",
+  "masterProducts": 1526,
+  "visibleAfterIdReconciliation": 1526,
   "configuredCategories": 29,
   "categoryCounts": {
     "Tornillería y fijaciones": 122,
@@ -39,7 +39,7 @@
   "imagesPresentInMaster": 11,
   "activeRecords": 11,
   "reviewRecords": 0,
-  "quoteOnlyRecords": 1506,
+  "quoteOnlyRecords": 1526,
   "publicPricedRecords": 0,
   "missingIdentityFields": 1098,
   "possibleDuplicateNameGroups": 177,
@@ -49,6 +49,6 @@
     "Duplicate IDs were renamed deterministically with -rNN and originalId retained in reconciliation.",
     "Similar names are not merged automatically; variants by brand, reference, size, measurement, presentation or unit remain separate pending evidence.",
     "quote_only reference prices are not IMPERIA acquisition costs or selling prices.",
-    "Image enrichment remains progressive and requires exact/evidenced source matching before publishable=true."
+    "Image enrichment remains progressive and requires exact/evidenced source matching before publishable=true. All 1,526 master records are rendered by the catalog loader while enrichment continues."
   ]
 }
