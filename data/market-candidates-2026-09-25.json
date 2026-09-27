@@ -499,14 +499,302 @@
         "imageSearchStatus": "product_page_verified_but_direct_image_url_not_extracted",
         "publishable": false
       }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-005",
+      "name": "BREAKER CILES 2 POLOS",
+      "brand": "CILES",
+      "presentation": "16, 20, 32, 63 AMP",
+      "sourceUrl": "https://ferromedellin.com/producto/breaker-ciles-2-polos/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/breaker-ciles-2-polos/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-006",
+      "name": "CINTA AISLANTE CILES NEGRA",
+      "brand": "CILES",
+      "presentation": "negra",
+      "sourceUrl": "https://ferromedellin.com/producto/cinta-aislante-ciles-negra/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/cinta-aislante-ciles-negra/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-007",
+      "name": "CINTA AISLANTE 15 MTS",
+      "brand": null,
+      "presentation": "15 metros",
+      "sourceUrl": "https://ferromedellin.com/producto/cinta-aislante-15-mts/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/cinta-aislante-15-mts/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-008",
+      "name": "BREAKER DUKE ENERGY",
+      "brand": "DUKE ENERGY",
+      "presentation": "15 A, 20 A, 40 A",
+      "sourceUrl": "https://ferromedellin.com/producto/breaker-duke-energy/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/breaker-duke-energy/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-009",
+      "name": "CINTA AISLANTE 3M",
+      "brand": "3M",
+      "presentation": "9.14 m, 18 m",
+      "sourceUrl": "https://ferromedellin.com/producto/cinta-aislante-3m/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/cinta-aislante-3m/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-010",
+      "name": "CABLE DUPLEX ROLLO X 100 MTS",
+      "brand": null,
+      "presentation": "100 metros",
+      "sourceUrl": "https://ferromedellin.com/producto/cable-duplex-rollo-x-100-mts/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/cable-duplex-rollo-x-100-mts/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-011",
+      "name": "BREAKER CILES RIEL",
+      "brand": "CILES",
+      "presentation": "riel",
+      "sourceUrl": "https://ferromedellin.com/producto/breaker-ciles-riel/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/breaker-ciles-riel/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-012",
+      "name": "TUBO GERFOR CPVC 1/2 3m",
+      "brand": "GERFOR",
+      "presentation": "1/2 x 3 m",
+      "sourceUrl": "https://ferromedellin.com/producto/tubo-gerfor-cpvc-1-2-3m/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/tubo-gerfor-cpvc-1-2-3m/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-013",
+      "name": "TUBO CONDUIT X 3 MTS",
+      "brand": "GERFOR",
+      "presentation": "1/2, 3/4 x 3 m",
+      "sourceUrl": "https://ferromedellin.com/producto/tubo-conduit-gerfor/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/tubo-conduit-gerfor/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-014",
+      "name": "CINTA PARA DUCTO 48MMX10MTS",
+      "brand": null,
+      "presentation": "48 mm x 10 m",
+      "sourceUrl": "https://ferromedellin.com/producto/cinta-para-ducto-48mmx10mts/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/cinta-para-ducto-48mmx10mts/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-015",
+      "name": "CABLE CENTELSA 7 HILOS C 12 ROLLO 100 MTRS",
+      "brand": "CENTELSA",
+      "presentation": "calibre 12, rollo 100 m",
+      "sourceUrl": "https://ferromedellin.com/producto/cable-centelsa-7-hilos-c-12/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/cable-centelsa-7-hilos-c-12/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-016",
+      "name": "CONECTOR PVC",
+      "brand": null,
+      "presentation": "PVC",
+      "sourceUrl": "https://ferromedellin.com/producto/conector-pvc/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/conector-pvc/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-017",
+      "name": "CINTA AISLANTE CELLUX 5 MTS",
+      "brand": "CELLUX",
+      "presentation": "5 metros",
+      "sourceUrl": "https://ferromedellin.com/producto/cinta-aislante-cellux-5-mts/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/cinta-aislante-cellux-5-mts/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-018",
+      "name": "TIJERA CORTA TUBO EMTOP 3-42MM EPCR4201",
+      "brand": "EMTOP",
+      "presentation": "3-42 mm / 3 pulgadas",
+      "sourceUrl": "https://ferromedellin.com/producto/emtop-tijera-corta-tubo-3-42mm-epcr4201/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/emtop-tijera-corta-tubo-3-42mm-epcr4201/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-019",
+      "name": "LLAVE TUBO EMTOP 10 EPWH1001",
+      "brand": "EMTOP",
+      "presentation": "10 pulgadas",
+      "sourceUrl": "https://ferromedellin.com/producto/emtop-llave-tubo-10-encaauc-epwh1001/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/emtop-llave-tubo-10-encaauc-epwh1001/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-020",
+      "name": "TIJERA ELECTRICISTA EMTOP 7 ECCT018701",
+      "brand": "EMTOP",
+      "presentation": "7 pulgadas",
+      "sourceUrl": "https://ferromedellin.com/producto/emtop-tijera-electricista-7-ecct018701/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/emtop-tijera-electricista-7-ecct018701/",
+        "imageSearchStatus": "product_page_verified; image association requires final extraction check",
+        "publishable": false
+      }
     }
   ],
   "imageResearch": {
     "lastRun": "2026-09-26",
     "candidatesWithSourcePages": 15,
-    "totalCandidates": 26,
+    "totalCandidates": 42,
     "activeCatalogImagesVerified": 3,
     "publicationRule": "No activar candidatos solo por tener imagen; requiere registro completo y verificación exacta.",
-    "newCandidatesAdded": 4
+    "newCandidatesAdded": 20
   }
 }
