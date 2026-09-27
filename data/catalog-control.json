@@ -38,7 +38,7 @@
     "7_imagenes",
     "8_publicacion"
   ],
-  "currentLoadedProducts": 3,
+  "currentLoadedProducts": 9,
   "currentLoadedStatus": "active_quote_only",
   "historicalCatalogClaims": [
     {
@@ -55,8 +55,8 @@
     }
   ],
   "note": "Existe una sola base maestra para IMPERIA 360. Las fuentes históricas se conservan como fuentes de reconciliación y no se cuentan como productos activos hasta deduplicarlas y verificarlas.",
-  "lastCatalogExpansion": "2026-09-24",
-  "notes": "Base maestra unificada: 488 registros. En esta expansión se incorporaron 13 referencias de fijaciones/tornillería verificadas en fuentes comerciales (Fixser/Homecenter, Mundial de Tornillos y Corbeta), sin duplicar referencias ya presentes. Los precios solo se registran cuando la fuente los publica; cuando la fuente muestra $0 o exige cotización, el registro queda quote_only. No se calculan precios IMPERIA 360 automáticamente. Corrección 2026-09-26: se separa el catálogo activo (3) de los conteos históricos 476/488/834 para evitar reportes contradictorios. Ningún candidato histórico se activa automáticamente.",
+  "lastCatalogExpansion": "2026-09-27",
+  "notes": "Base maestra unificada. El catálogo activo se mantiene separado de históricos y staging. En 2026-09-27 se incorporaron 6 productos nuevos con referencia/presentación, fuente, fecha e imagen verificable; todos permanecen quote_only porque no se ha verificado costo de adquisición, IVA, logística y margen IMPERIA. No se inventan precios, stock ni costos.",
   "historicalAuditedBase": {
     "count": 834,
     "evidence": "Library: IMPERIA_360_BASE_AUDITADA_834_2026-09-25.xlsx",
@@ -136,10 +136,12 @@
   },
   "publishedCatalog": {
     "source": "data/products.json",
-    "products": 3,
-    "quoteOnly": 3,
+    "products": 9,
+    "quoteOnly": 9,
     "validatedPrice": 0,
-    "publicationRule": "Solo registros completos y verificables; sin inventar precios, costos, stock ni imágenes."
+    "publicationRule": "Solo registros completos y verificables; sin inventar precios, costos, stock ni imágenes.",
+    "lastVerifiedUpdate": "2026-09-27",
+    "lastCommit": "84633b8178cf71c79c093c540a79687cdd7bd5df"
   },
   "stagingCandidates": 458,
   "historicalCatalogCounts": {
