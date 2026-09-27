@@ -1,0 +1,177 @@
+{
+  "updatedAt": "2026-09-27",
+  "scope": "Directorio inicial verificable de ferreterías, importadores y mayoristas útiles para investigación de IMPERIA 360. No implica que sean proveedores de IMPERIA ni que sus precios sean costos de adquisición.",
+  "sources": [
+    {
+      "name": "Ferretería Ferrece",
+      "type": "ferretería",
+      "city": "Bogotá",
+      "address": "Calle 63D #71A-45",
+      "phone": "+57 318 341 6764",
+      "categories": [
+        "herramientas",
+        "plomería",
+        "electricidad",
+        "construcción",
+        "pinturas",
+        "seguridad",
+        "fijaciones",
+        "tornillería",
+        "abrasivos",
+        "cerrajería",
+        "gas",
+        "jardín y limpieza"
+      ],
+      "website": "https://ferrece.com/"
+    },
+    {
+      "name": "Ferrimcol",
+      "type": "importadora/ferretería",
+      "city": "Bogotá",
+      "address": "Cl. 15 #25-64, Paloquemao",
+      "phone": "+57 313 236 0709",
+      "categories": [
+        "fluidos",
+        "herramientas",
+        "máquinas",
+        "productos industriales",
+        "ferretería"
+      ],
+      "website": "https://www.ferrimcol.com/"
+    },
+    {
+      "name": "El Mago",
+      "type": "importadora de herramientas",
+      "city": "Bogotá",
+      "address": "Local 157, Calle 10 #38-35",
+      "phone": "+57 323 942 8040",
+      "categories": [
+        "herramienta manual",
+        "soldadura",
+        "taladros y rotomartillos",
+        "herramientas eléctricas",
+        "seguridad industrial"
+      ],
+      "website": "https://elmagoherramientas.com/"
+    },
+    {
+      "name": "Global Tools",
+      "type": "ferretería/importadora",
+      "city": "Bogotá",
+      "address": "Cra 22 N 17-60 Local 10, Paloquemao",
+      "phone": "(601) 749 5647",
+      "categories": [
+        "PVC",
+        "polietileno",
+        "hierro dúctil",
+        "contraincendios",
+        "medición de agua",
+        "alcantarillado",
+        "ferretería general"
+      ],
+      "website": "https://globaltoolscompaniaferretera.com/"
+    },
+    {
+      "name": "Grupo Colombiano Ferretero",
+      "type": "distribuidor/importador",
+      "city": "Bogotá",
+      "address": "Carrera 32 B No. 1F-25",
+      "phone": "+57 313 331 6118",
+      "categories": [
+        "herramientas",
+        "hidráulicos",
+        "acueducto",
+        "bombas",
+        "cables",
+        "fumigación",
+        "maquinaria",
+        "motores",
+        "seguridad",
+        "soldadura",
+        "transmisión"
+      ],
+      "website": "https://www.colfergroup.com/"
+    },
+    {
+      "name": "Su Punto Ferretero",
+      "type": "mayorista/importador",
+      "city": "Bogotá",
+      "categories": [
+        "abrasivos",
+        "adhesivos",
+        "lubricantes",
+        "grifos",
+        "válvulas",
+        "pinturas",
+        "eléctricos",
+        "PVC",
+        "herramientas manuales",
+        "herrajes",
+        "discos",
+        "seguridad",
+        "agro y construcción"
+      ],
+      "website": "https://www.supuntoferretero.com/ferreteria-de-bogota/productos-de-ferreteria/"
+    },
+    {
+      "name": "Ferretería Luis Penagos",
+      "type": "ferretería/mayorista",
+      "city": "Bogotá",
+      "address": "Calle 17 #28-47; Calle 17 #28-11; Calle 17 #28-05; Calle 17 #28-17",
+      "categories": [
+        "herramientas",
+        "mayoristas",
+        "industria",
+        "servicio técnico"
+      ],
+      "website": "https://ferreterialuispenagos.com/"
+    },
+    {
+      "name": "FERRECO",
+      "type": "importador/distribuidor",
+      "city": "Bogotá",
+      "address": "Calle 72 #65B-52",
+      "phone": "+57 315 226 9798",
+      "categories": [
+        "herramientas",
+        "construcción",
+        "eléctrico",
+        "obra",
+        "herramientas manuales"
+      ],
+      "website": "https://ferreco.com/"
+    },
+    {
+      "name": "ImsuCol",
+      "type": "importadora/distribuidora",
+      "city": "Bogotá",
+      "address": "Carrera 59 #17-71",
+      "phone": "(601) 8007759",
+      "categories": [
+        "seguridad industrial",
+        "perfilería",
+        "cobre",
+        "galvanizados",
+        "PVC",
+        "neumática",
+        "herramienta eléctrica",
+        "herramienta de corte"
+      ],
+      "website": "https://www.imsucol.com/"
+    },
+    {
+      "name": "Comercializadora La Proveedora Mayorista",
+      "type": "distribuidor",
+      "city": "Bogotá",
+      "categories": [
+        "herramientas profesionales",
+        "DeWalt",
+        "Stanley",
+        "Black+Decker",
+        "ferretería",
+        "construcción"
+      ],
+      "website": "https://www.comercializadoramayorista.com.co/"
+    }
+  ]
+}
