@@ -1,0 +1,44 @@
+name: IMPERIA 360 — Enriquecimiento de imágenes
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 */3 * * *"
+  push:
+    paths:
+      - "data/products.json"
+      - "data/product-images.json"
+      - ".github/scripts/enrich-product-images.mjs"
+      - ".github/workflows/imperia-image-enrichment.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: imperia-image-enrichment
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    name: Lote automático de imágenes verificadas
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Procesar siguiente lote de productos sin imagen
+        run: node .github/scripts/enrich-product-images.mjs
+      - name: Guardar coincidencias verificadas
+        run: |
+          if git diff --quiet -- data/product-images.json; then
+            echo "Sin nuevas imágenes verificadas en este lote."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/product-images.json
+          git commit -m "chore: add verified product images batch"
+          git push
