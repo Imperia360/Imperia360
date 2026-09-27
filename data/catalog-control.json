@@ -38,8 +38,8 @@
     "7_imagenes",
     "8_publicacion"
   ],
-  "currentLoadedProducts": 1490,
-  "currentLoadedStatus": "active_plus_recovered_review",
+  "currentLoadedProducts": 1506,
+  "currentLoadedStatus": "active_plus_recovered_review_plus_market_reference",
   "historicalCatalogClaims": [
     {
       "count": 692,
@@ -56,7 +56,7 @@
   ],
   "note": "Existe una sola base maestra para IMPERIA 360. Las fuentes históricas se conservan como fuentes de reconciliación y no se cuentan como productos activos hasta deduplicarlas y verificarlas.",
   "lastCatalogExpansion": "2026-09-27",
-  "notes": "2026-09-27: se recuperaron registros auditados al catalogo sin eliminar los existentes. Los recuperados quedan en review hasta completar imagen/ref/presentacion. La ampliacion visual se hara por lotes.",
+  "notes": "2026-09-27: se recuperaron registros auditados y se añadieron referencias públicas de mercado verificadas en 16 productos nuevos, sin convertirlas en precios de venta IMPERIA. Las imágenes se completan progresivamente.",
   "historicalAuditedBase": {
     "count": 834,
     "evidence": "Library: IMPERIA_360_BASE_AUDITADA_834_2026-09-25.xlsx",
@@ -123,9 +123,9 @@
     "sourceRequired": true,
     "noInventedImages": true,
     "currentMasterAudit": {
-      "products": 1490,
+      "products": 1506,
       "withImage": 11,
-      "withoutImage": 1479
+      "withoutImage": 1495
     },
     "auditFile": "data/image-name-audit-2026-09-25.json"
   },
@@ -136,12 +136,12 @@
   },
   "publishedCatalog": {
     "source": "data/products.json",
-    "products": 1490,
-    "quoteOnly": 11,
+    "products": 1506,
+    "quoteOnly": 1506,
     "validatedPrice": 0,
     "publicationRule": "Solo registros completos y verificables; sin inventar precios, costos, stock ni imágenes.",
     "lastVerifiedUpdate": "2026-09-27",
-    "lastCommit": "f4827de145efdbaa9a3bcca114c045ae094c9d2c"
+    "lastCommit": "15d86746a72d3f03cd53b7374abb73bf3badd914"
   },
   "stagingCandidates": 458,
   "historicalCatalogCounts": {
