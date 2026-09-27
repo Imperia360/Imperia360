@@ -45,7 +45,6 @@ jobs:
 
   image-enrichment:
     name: 1B. Imágenes verificadas por lote
-    needs: integrity
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
