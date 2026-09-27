@@ -427,13 +427,86 @@
         "publishable": false,
         "note": "Imagen localizada; el candidato permanece bloqueado hasta reconciliación de referencia/costo y verificación final de imagen exacta."
       }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-001",
+      "name": "Brocha FOCCI",
+      "brand": "FOCCI",
+      "presentation": "1/2, 1, 1 1/2, 2, 2 1/2, 3, 4 o 5 pulgadas",
+      "sourceUrl": "https://ferromedellin.com/producto/brocha-focci/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/brocha-focci/",
+        "imageSearchStatus": "product_page_verified_but_direct_image_url_not_extracted",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-002",
+      "name": "Brocha EMTOP",
+      "brand": "EMTOP",
+      "presentation": "2 1/2 o 4 pulgadas",
+      "sourceUrl": "https://ferromedellin.com/producto/brocha-emtop/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/brocha-emtop/",
+        "imageSearchStatus": "product_page_verified_but_direct_image_url_not_extracted",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-003",
+      "name": "Broca SDS Plus TOTAL",
+      "brand": "TOTAL",
+      "presentation": "1/4 x 6 1/4 pulgadas",
+      "sourceUrl": "https://ferromedellin.com/producto/broca-sds-plus-total/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/broca-sds-plus-total/",
+        "imageSearchStatus": "product_page_verified_but_direct_image_url_not_extracted",
+        "publishable": false
+      }
+    },
+    {
+      "candidateId": "MKT-20260926-FM-004",
+      "name": "Broca lámina INCOLMA x 12 unidades",
+      "brand": "INCOLMA",
+      "presentation": "1/8, 1/16, 3/16, 3/32, 5/32, 5/64, 7/64, 9/64 o 11/64 pulgadas",
+      "sourceUrl": "https://ferromedellin.com/producto/broca-lamina-incolma-x-12-und/",
+      "consultationDate": "2026-09-26",
+      "status": "candidate",
+      "publicPriceCOP": null,
+      "unitBasis": "no_verificado",
+      "publicationGate": "pending_image_url_reference_and_acquisition_cost",
+      "imageVerification": {
+        "status": "source_page_found",
+        "sourcePage": "https://ferromedellin.com/producto/broca-lamina-incolma-x-12-und/",
+        "imageSearchStatus": "product_page_verified_but_direct_image_url_not_extracted",
+        "publishable": false
+      }
     }
   ],
   "imageResearch": {
     "lastRun": "2026-09-26",
     "candidatesWithSourcePages": 15,
-    "totalCandidates": 22,
+    "totalCandidates": 26,
     "activeCatalogImagesVerified": 3,
-    "publicationRule": "No activar candidatos solo por tener imagen; requiere registro completo y verificación exacta."
+    "publicationRule": "No activar candidatos solo por tener imagen; requiere registro completo y verificación exacta.",
+    "newCandidatesAdded": 4
   }
 }
