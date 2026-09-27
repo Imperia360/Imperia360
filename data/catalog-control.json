@@ -152,5 +152,13 @@
       "pending": 692
     },
     "activeCatalogExcluded": true
+  },
+  "lastUserMandate": "2026-09-27: recuperar y publicar progresivamente todo lo ya auditado sin borrar registros; completar imágenes por lotes.",
+  "publicationPlan": {
+    "preserveAudited": true,
+    "deleteNothing": true,
+    "expandAcross29Categories": true,
+    "imagesProgressive": true,
+    "doNotInventData": true
   }
 }
