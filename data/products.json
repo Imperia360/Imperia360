@@ -513,5 +513,121 @@
       "verifiedAt": "2026-09-27"
     },
     "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0010",
+    "name": "Barra cavadora 1\" x 140 cm, escoplo 102 mm Truper",
+    "identification": {
+      "sku": "19987",
+      "manufacturerReference": "BACO-140",
+      "supplierReference": "FRC-001224"
+    },
+    "brand": {
+      "name": "Truper"
+    },
+    "category": {
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "name": "Barretas, cavadoras y demolición"
+    },
+    "measurements": {
+      "originalText": "1\" (25 mm) x 140 cm; escoplo 102 mm; 7 kg"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 105900,
+        "max": 105900,
+        "source": "FERRECO",
+        "sourceUrl": "https://ferreco.com/barra-cavadora-1-1-8-1400-mm-x-frc-001224",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo ni precio de venta IMPERIA."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "FERRECO",
+      "url": "https://ferreco.com/barra-cavadora-1-1-8-1400-mm-x-frc-001224",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": "https://dojiw2m9tvv09.cloudfront.net/76107/product/p_1856/17432585606220839.jpg",
+      "alt": "Barra cavadora Truper BACO-140 1 x 140 cm escoplo 102 mm",
+      "source": "Ferremax",
+      "sourcePage": "https://www.corporacionferremax.com/product/barreta-cavadora-1-x-140-cm-escoplo-102-mm-truper",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-27",
+      "verificationNote": "La imagen muestra código 19987/BACO-140 y coincide con la ficha técnica oficial de Truper."
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0011",
+    "name": "Barra cavadora 1\" x 150 cm, escoplo 102 mm Truper",
+    "identification": {
+      "sku": "19988",
+      "manufacturerReference": "BACO-150",
+      "supplierReference": "FRC-001225"
+    },
+    "brand": {
+      "name": "Truper"
+    },
+    "category": {
+      "name": "Jardín y agrícola"
+    },
+    "subcategory": {
+      "name": "Barretas, cavadoras y demolición"
+    },
+    "measurements": {
+      "originalText": "1\" (25 mm) x 150 cm; escoplo 102 mm; 8 kg"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 127900,
+        "max": 127900,
+        "source": "FERRECO",
+        "sourceUrl": "https://ferreco.com/barra-cavadora-1-1-8-1500-mm-x-frc-001225",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Referencia pública de mercado; no es costo ni precio de venta IMPERIA."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "FERRECO",
+      "url": "https://ferreco.com/barra-cavadora-1-1-8-1500-mm-x-frc-001225",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": "https://www.ferreteriafixneza.mx/backend/vistas/img/productos/codigo/19988.jpg",
+      "alt": "Barra cavadora Truper BACO-150 1 x 150 cm escoplo 102 mm",
+      "source": "Fix Ferreterías",
+      "sourcePage": "https://www.fixferreterias.com/barra-cavadora-1-x-150-cm-escoplo-102-mm-truper.html",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-27",
+      "verificationNote": "La imagen corresponde al código 19988/BACO-150 y coincide con la ficha técnica oficial de Truper."
+    },
+    "publicationStatus": "active_quote_only"
   }
 ]
