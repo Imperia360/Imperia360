@@ -170,5 +170,348 @@
       "verificationNote": "La imagen anterior de Intrade Link (product.template/12624) mostraba 1/4 aunque la página estaba titulada HT1240/3/8. Se reemplazó por la imagen de Hoyostools asociada al ítem 13606 / HT1240."
     },
     "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0004",
+    "name": "Pulidora angular 4 1/2\" 950W 11000 RPM Covo",
+    "identification": {
+      "sku": "773970",
+      "manufacturerReference": "CV-ESME-45-950W",
+      "supplierReference": "773970"
+    },
+    "brand": {
+      "name": "Covo"
+    },
+    "category": {
+      "name": "Pulidoras y esmeriles"
+    },
+    "subcategory": {
+      "name": "Pulidoras 4 1/2 pulgadas"
+    },
+    "measurements": {
+      "originalText": "4 1/2 pulgadas; 950 W; 11000 RPM; 110 V"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 299900,
+        "max": 299900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/product/773970/pulidora-4-1-2-pulgadas-electrica-covo-950-w-11000-rpm-profesional/773970/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Precio público de referencia de mercado; no es costo ni precio de venta IMPERIA. Se mantiene en cotización hasta verificar adquisición, IVA, logística y margen."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/773970/pulidora-4-1-2-pulgadas-electrica-covo-950-w-11000-rpm-profesional/773970/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": "https://media.falabella.com/sodimacCO/773970/public",
+      "alt": "Pulidora 4 1/2 pulgadas eléctrica Covo 950 W 11000 RPM profesional",
+      "source": "Homecenter/Falabella",
+      "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/773970/pulidora-4-1-2-pulgadas-electrica-covo-950-w-11000-rpm-profesional/773970/",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-27"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0005",
+    "name": "Pulidora 4 1/2 pulgadas 820W Black+Decker G720-B3",
+    "identification": {
+      "sku": "67712",
+      "manufacturerReference": "G720-B3",
+      "supplierReference": "67712"
+    },
+    "brand": {
+      "name": "Black+Decker"
+    },
+    "category": {
+      "name": "Pulidoras y esmeriles"
+    },
+    "subcategory": {
+      "name": "Pulidoras 4 1/2 pulgadas"
+    },
+    "measurements": {
+      "originalText": "4 1/2 pulgadas; 820 W; 11000 RPM; 220 V"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 157900,
+        "max": 157900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/product/67712/pulidora-4-1-2-pulgadas-820w-black-and-decker/67712/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Precio público de referencia de mercado; no es costo ni precio de venta IMPERIA. Se mantiene en cotización hasta verificar adquisición, IVA, logística y margen."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/67712/pulidora-4-1-2-pulgadas-820w-black-and-decker/67712/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": "https://ferrelectricos.com/cdn/shop/files/05202_530x%402x.jpg?v=1704988596",
+      "alt": "Pulidora 4 1/2 pulgadas 820W Black+Decker G720-B3",
+      "source": "Ferrelectricos",
+      "sourcePage": "https://ferrelectricos.com/products/pulidora-4-1-2-820w-black-decker-g720-b3",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-27"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0006",
+    "name": "Pulidora angular 4 1/2 pulgadas 700W 11000 RPM Truper Pro 14013",
+    "identification": {
+      "sku": "626498",
+      "manufacturerReference": "14013",
+      "supplierReference": "626498"
+    },
+    "brand": {
+      "name": "Truper"
+    },
+    "category": {
+      "name": "Pulidoras y esmeriles"
+    },
+    "subcategory": {
+      "name": "Pulidoras 4 1/2 pulgadas"
+    },
+    "measurements": {
+      "originalText": "4 1/2 pulgadas; 700 W; 11000 RPM; 110 V"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 161900,
+        "max": 161900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/product/626498/pulidora-angular-4-1-2-pulgadas-electrica-truper-700w-11000-rpm-profesional/626498/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Precio público de referencia de mercado; no es costo ni precio de venta IMPERIA. Se mantiene en cotización hasta verificar adquisición, IVA, logística y margen."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/626498/pulidora-angular-4-1-2-pulgadas-electrica-truper-700w-11000-rpm-profesional/626498/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": "https://http2.mlstatic.com/D_Q_NP_2X_977080-MCO92250162830_092025-P.webp",
+      "alt": "Pulidora angular Truper Pro 14013 de 4 1/2 pulgadas y 700 W",
+      "source": "Mercado Libre",
+      "sourcePage": "https://www.mercadolibre.com.co/esmeriladora-angular-4-12-profesional-700-w-truper-esma-4-color-naranja-con-negro/p/MCO14133356",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-27",
+      "verificationNote": "La referencia 14013/ESMA-4-1/2A12 coincide con la ficha técnica oficial de Truper."
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0007",
+    "name": "Pulidora angular 4 1/2 pulgadas 900W 12000 RPM Dewalt DWE4120-B3",
+    "identification": {
+      "sku": "102102",
+      "manufacturerReference": "DWE4120-B3",
+      "supplierReference": "102102"
+    },
+    "brand": {
+      "name": "Dewalt"
+    },
+    "category": {
+      "name": "Pulidoras y esmeriles"
+    },
+    "subcategory": {
+      "name": "Pulidoras 4 1/2 pulgadas"
+    },
+    "measurements": {
+      "originalText": "4 1/2 pulgadas; 900 W; 12000 RPM; 110 V"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 429900,
+        "max": 429900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/product/102102/pulidora-angular-4-1-2-900-w-12000-rpm-industrial-dwe4120-b3-dewalt/102102/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Precio público de referencia de mercado; no es costo ni precio de venta IMPERIA. Se mantiene en cotización hasta verificar adquisición, IVA, logística y margen."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/102102/pulidora-angular-4-1-2-900-w-12000-rpm-industrial-dwe4120-b3-dewalt/102102/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": "https://www.pintulac.com.ec/media/catalog/product/cache/01d5a80ef248257bf9991bbfc9cf4de4/d/w/dwe4120-b3.jpg",
+      "alt": "Pulidora angular Dewalt DWE4120-B3 4 1/2 pulgadas 900 W",
+      "source": "Pintulac",
+      "sourcePage": "https://www.pintulac.com.ec/esmeriladora-amoladora-dwe4120-b3-dewalt.html",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-27"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0008",
+    "name": "Disco desbaste metal 4 1/2 x 1/4 x 7/8 T27 Discover",
+    "identification": {
+      "sku": "741448",
+      "manufacturerReference": "10213",
+      "supplierReference": "741448"
+    },
+    "brand": {
+      "name": "Discover"
+    },
+    "category": {
+      "name": "Discos de desbaste y pulido"
+    },
+    "subcategory": {
+      "name": "Discos de desbaste para metal"
+    },
+    "measurements": {
+      "originalText": "4 1/2 pulgadas x 1/4 pulgada x 7/8 pulgada; 13300 RPM; tipo 27"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 21900,
+        "max": 21900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/product/741448/disco-desbaste-metal-41-2x-1-4x-7-8-t27-discover/741448/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Precio público de referencia de mercado; no es costo ni precio de venta IMPERIA. Se mantiene en cotización hasta verificar adquisición, IVA, logística y margen."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/741448/disco-desbaste-metal-41-2x-1-4x-7-8-t27-discover/741448/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": "https://media.falabella.com/sodimacCO/741448_02/w%3D1160",
+      "alt": "Disco desbaste metal 4 1/2 x 1/4 x 7/8 T27 Discover",
+      "source": "Homecenter/Falabella",
+      "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/741448/disco-desbaste-metal-41-2x-1-4x-7-8-t27-discover/741448/",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-27"
+    },
+    "publicationStatus": "active_quote_only"
+  },
+  {
+    "id": "imp-0009",
+    "name": "Disco corte metal y acero inoxidable 4 1/2 pulgadas Uyustools",
+    "identification": {
+      "sku": "769715",
+      "manufacturerReference": "DCM504",
+      "supplierReference": "769715"
+    },
+    "brand": {
+      "name": "Uyustools"
+    },
+    "category": {
+      "name": "Discos de corte"
+    },
+    "subcategory": {
+      "name": "Discos de corte para metal"
+    },
+    "measurements": {
+      "originalText": "4 1/2 pulgadas; 115 x 1.2 x 22.2 mm; máximo 13300 RPM"
+    },
+    "presentations": [
+      {
+        "quantity": 1,
+        "unit": "unidad"
+      }
+    ],
+    "pricing": {
+      "status": "quote_only",
+      "currency": "COP",
+      "publicPrice": null,
+      "sourceReferencePrice": {
+        "min": 16900,
+        "max": 16900,
+        "source": "Homecenter",
+        "sourceUrl": "https://www.homecenter.com.co/homecenter-co/product/769715/disco-corte-metal-y-acero-inoxidable-41-2-pulgadas-uyustools/769715/",
+        "consultedAt": "2026-09-27"
+      },
+      "note": "Precio público de referencia de mercado; no es costo ni precio de venta IMPERIA. Se mantiene en cotización hasta verificar adquisición, IVA, logística y margen."
+    },
+    "availability": {
+      "status": "cotizar"
+    },
+    "source": {
+      "name": "Homecenter",
+      "url": "https://www.homecenter.com.co/homecenter-co/product/769715/disco-corte-metal-y-acero-inoxidable-41-2-pulgadas-uyustools/769715/",
+      "consultedAt": "2026-09-27"
+    },
+    "images": {
+      "primary": "https://media.falabella.com/sodimacCO/769715_01/w%3D1160",
+      "alt": "Disco corte metal y acero inoxidable 4 1/2 pulgadas Uyustools",
+      "source": "Homecenter/Falabella",
+      "sourcePage": "https://www.homecenter.com.co/homecenter-co/product/769715/disco-corte-metal-y-acero-inoxidable-41-2-pulgadas-uyustools/769715/",
+      "verificationStatus": "verified_source_image",
+      "verifiedAt": "2026-09-27"
+    },
+    "publicationStatus": "active_quote_only"
   }
 ]
