@@ -1,0 +1,110 @@
+{
+  "generatedAtUTC": "2026-09-28T12:22:27.666976+00:00",
+  "source": "Temu",
+  "productsReviewed": 10,
+  "publishableVerifiedProducts": 0,
+  "productsInReview": 10,
+  "marginRule": {
+    "retail": {
+      "targetMargin": 0.5,
+      "minimumMargin": 0.4
+    },
+    "wholesale": [
+      {
+        "minimumQuantity": 100,
+        "targetMargin": 0.4
+      },
+      {
+        "minimumQuantity": 500,
+        "targetMargin": 0.35
+      },
+      {
+        "minimumQuantity": 1000,
+        "targetMargin": 0.3
+      }
+    ]
+  },
+  "rows": [
+    {
+      "name": "100LED luz solar con sensor de movimiento para exterior",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    },
+    {
+      "name": "50 ml nano repelente de lluvia para vidrio automotriz",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    },
+    {
+      "name": "4-pack luces LED magnéticas con sensor, recargables USB",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    },
+    {
+      "name": "100 unidades cinta doble faz transparente sin perforar",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    },
+    {
+      "name": "Cepillo flexible para limpiar ducto de secadora/lavadora",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    },
+    {
+      "name": "Sierra eléctrica reciprocante inalámbrica",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    },
+    {
+      "name": "Luz solar tipo girasol para jardín",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    },
+    {
+      "name": "Organizador adhesivo para cables, 5/9 piezas",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    },
+    {
+      "name": "Cajón/organizador de almacenamiento grande plegable con ruedas",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    },
+    {
+      "name": "Guantes de nitrilo sin polvo para limpieza y automóvil",
+      "status": "review",
+      "landedCostCOP": null,
+      "calculatedRetailPriceCOP": null,
+      "publicPriceCOP": null,
+      "grossMargin": null
+    }
+  ],
+  "important": "Este workflow audita y calcula márgenes con datos ya verificados. No realiza scraping/crawling ni compras automáticas en Temu."
+}
