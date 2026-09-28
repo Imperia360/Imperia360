@@ -103,6 +103,13 @@ export function productCard(product={}) {
     a.textContent='Ver fuente de imagen';
     actions.append(a);
   }
+  const cart=document.createElement('button');
+  cart.type='button';
+  cart.className='btn gold';
+  cart.textContent='Añadir al carrito';
+  cart.dataset.cartProduct=JSON.stringify({id:product.id??'',name:product.name??'',price:product.pricing?.status==='validated'?product.pricing.publicPrice:null,currency:product.pricing?.currency??'COP',status:product.pricing?.status??'quote_only',reference:product.identification?.manufacturerReference??product.identification?.sku??''});
+  actions.append(cart);
+
   const contact=document.createElement('a');
   contact.className='btn green';
   contact.href='https://wa.me/573229667868?text='+encodeURIComponent('Hola IMPERIA 360, quiero cotizar: '+(product.name||'producto'));
