@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26",
+  "generatedAt": "2026-09-28",
   "policy": {
     "requiredForActive": true,
     "noInventedImages": true,
@@ -46,6 +46,71 @@
       "publishable": true,
       "imageUrl": "https://www.hoyostools.com/web/image/product.template/18036/image_1920?unique=0699aac",
       "note": "Reemplaza la imagen anterior de Intrade Link: esa URL mostraba visualmente 1/4, no 3/8."
+    },
+    {
+      "productId": "aud-0017",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://importadorasuperior.com/wp-content/uploads/2026/08/ACS.png",
+      "sourcePage": "https://importadorasuperior.com/product/adaptador-copa-cr-van/",
+      "source": "Importadora Superior",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-28",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0018",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://importadorasuperior.com/wp-content/uploads/2026/08/ACS.png",
+      "sourcePage": "https://importadorasuperior.com/product/adaptador-copa-cr-van/",
+      "source": "Importadora Superior",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-28",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0023",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://importadorasuperior.com/wp-content/uploads/2026/08/cect1000.png",
+      "sourcePage": "https://importadorasuperior.com/product/plataforma-elevadora-tijera-1000kg/",
+      "source": "Importadora Superior",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-28",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0024",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://importadorasuperior.com/wp-content/uploads/2026/08/cect1000.png",
+      "sourcePage": "https://importadorasuperior.com/product/plataforma-elevadora-tijera-1000kg/",
+      "source": "Importadora Superior",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-28",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0025",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://importadorasuperior.com/wp-content/uploads/2026/08/APB-1.png",
+      "sourcePage": "https://importadorasuperior.com/product/amarre-plastico-blanco/",
+      "source": "Importadora Superior",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-28",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ]
-}
+}\n
