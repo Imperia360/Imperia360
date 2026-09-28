@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
-  "lastRun": "2026-09-27T02:47:38.609Z",
+  "lastRun": "2026-09-28T05:26:56.629Z",
   "summary": {
     "sourcesChecked": 43,
-    "offersRead": 487,
-    "matched": 0,
-    "newCandidates": 487,
-    "needsReview": 487,
+    "offersRead": 522,
+    "matched": 2,
+    "newCandidates": 520,
+    "needsReview": 520,
     "invalid": 0,
-    "masterProducts": 3,
+    "masterProducts": 1526,
     "automaticPublication": false
   },
   "rules": {
@@ -793,7 +793,8 @@
       "consultedAt": "2026-09-24",
       "originalProductName": "Polipasto eléctrico de 1000 kg, motor de 1500 W",
       "reference": "16848",
-      "status": "NEEDS_REVIEW",
+      "productId": "aud-0180",
+      "status": "MATCH_EXACT",
       "issues": []
     },
     {
@@ -802,7 +803,8 @@
       "consultedAt": "2026-09-24",
       "originalProductName": "Báscula electrónica de plataforma plegable 500 kg",
       "reference": "15733",
-      "status": "NEEDS_REVIEW",
+      "productId": "aud-0177",
+      "status": "MATCH_EXACT",
       "issues": []
     },
     {
@@ -4795,6 +4797,356 @@
       "sourceUrl": "https://tuercasypernos.co/products/arandela-soporte-3-8",
       "consultedAt": "2026-09-27T02:46:55.736Z",
       "originalProductName": "ARANDELA SOPORTE 3/8\n – Tuercas y Pernos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-roxvan",
+      "sourceUrl": "https://roxvan.com/producto/tornillo-m835-arandela-uth2130016-sp-7/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Tornillo M8*35/ Arandela (UTH2130016-SP-7) - Roxvan ¡Más por Menos!",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sofalca",
+      "sourceUrl": "https://sofalca.com/products/broca-hss-ambar-kangaroo",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Paquete brocas hss ambar kangaroo X10 UNDS\n\n          –\n          Sofalca",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sofalca",
+      "sourceUrl": "https://sofalca.com/products/cubo-magnetico-3-8",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Cubo / Dado magnético 3/8\n\n          –\n          Sofalca",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tyt",
+      "sourceUrl": "https://www.tornillosytuercas.co/products/arandela-de-presion-negra",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Arandela de Presión Negra – Tornillos y Tuercas Co.",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/almadana.html",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Almadana - Herramientas Manuales",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/alicates/alicate-universal-8.html",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "ALICATE SATA UNIVERSAL  8\" BULK X 6 - Alicates  - Herramientas Manuales - Herramientas - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/materiales-industriales/abrasivos/tela-lija.html",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Tela Lija - Abrasivos - Materiales Industriales - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/griferia/plomeria/acoples/pqte-griflex-55cm-sanitariox12.html",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Acople Sanitario 55cm Paquete X 12 Grival - Acoples - Plomería - Grifería - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-coval",
+      "sourceUrl": "https://coval.com.co/service/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Services",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-coval",
+      "sourceUrl": "https://coval.com.co/service/puntos-de-venta-y-mitiendacoval-com/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Puntos de Venta y mitiendacoval.com",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ferragro",
+      "sourceUrl": "https://www.ferragro.com/products/adapt-macho-rapido-25mm-o-3-4",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Adapt Macho Rapido 25Mm O 3/4\", Riego y pesajes — Ferragro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ferragro",
+      "sourceUrl": "https://www.ferragro.com/products/alicate-electricista-aislado-8-amarillo",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Alicate Electricista Aislado 8” Amarillo — Ferragro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/products/pistola-impacto-inalambrica-1-2-20v-400-nm-incluye-2-bat-1-cargador-1-lamp-copas",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "PISTOLA IMPACTO INALAMBRICA 1/2 20V 400 NM INCLUYE 2 BAT 1 CARGADOR 1  — Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/taladro-dewalt-1-2-dwd024/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Taladro Dewalt 1/2 DWD024",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/marca/lufkin/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "LUFKIN",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-torbandera",
+      "sourceUrl": "https://www.torbandera.co/shop/category/herramientas-manuales-22",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Herramientas manuales en Cali | Torbandera",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-torbandera",
+      "sourceUrl": "https://www.torbandera.co/shop/category/herramientas-manuales-de-presion-y-sujecion-59",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "De Presión y Sujeción | TORBANDERA",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sumivalle",
+      "sourceUrl": "https://www.sumivalle.com/producto/puntillas/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Puntillas – Ferretería Sumivalle",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sumivalle",
+      "sourceUrl": "https://www.sumivalle.com/categoria-producto/ferreteria-en-general/puntillas/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Puntillas – Ferretería Sumivalle",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/herramientas-profesionales-industriales/electrica/taladro-electrica/combo-rotomartillo-1-2-700-w-6-brocas-y-lentes-de-seguridad-truper-100292/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Rotomartillo 1/2\" 700 W, 6 brocas y lentes de seguridad",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/herramientas-profesionales-industriales/inalambrico/taladro/taladro-compacto-inalambrico-3-8-12-v-truper-18653/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Taladro inalámbrico",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/categoria-producto/corte/page/9/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Herramienta de Corte para Taladrado, roscado, avellanado",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-globaltools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/all",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Productos\n – Global Tools Compañía Ferretera",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-globaltools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/products/codo-45-para-red-contraincendios-enterrada-c900-copia",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "CODO 45° PARA RED CONTRAINCENDIOS ENTERRADA C900\n – Global Tools Compañía Ferretera",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-bombeo",
+      "sourceUrl": "https://bombeo.co/categoria/bombas/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Bombas de agua en Colombia · 3.219 modelos con precio",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-bombeo",
+      "sourceUrl": "https://bombeo.co/categoria/bombas/piscinas/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Bombas para piscina: 72 modelos con precio y caudal en ...",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-invercrisan",
+      "sourceUrl": "https://invercrisan.com/sobre-nosotros/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Sobre Nosotros",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tustechos",
+      "sourceUrl": "https://tustechos.com/product/tanque-botella-300-litros-i/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Tanque Botella 300 Litros – I – Tustechos.com",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tustechos",
+      "sourceUrl": "https://tustechos.com/product/tanque-ponyplast-2000-litros-rotoplast/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Tanque Ponyplast 2000 Litros – Rotoplast – Tustechos.com",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/categoria-producto/herramientas-manuales-ferreteria-luis-penagos/corte-y-desbaste-herramientas-manuales/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Herramientas manuales de corte y desbaste - Ferreteria Luis Penagos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/categoria-producto/herramientas-manuales-ferreteria-luis-penagos/alicates-herramientas-manuales/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Alicates y tijeras - Ferreteria Luis Penagos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/categoria-producto/herramientas-electricas/sierras-herramientas-electricas/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Sierras eléctricas - Ferreteria Luis Penagos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/categoria-producto/herramientas-manuales-ferreteria-luis-penagos/alicates-herramientas-manuales/cortafrio-alicates-herramientas-manuales/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Alicates cortafrío - Ferreteria Luis Penagos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/tienda/kit-de-herramientas-de-7-piezas-thkthp90076-total-tools/",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "Kit de herramientas de 7 piezas THKTHP90076 Total Tools - Ferreteria Luis Penagos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tuercasypernos",
+      "sourceUrl": "https://tuercasypernos.co/products/arandela-soporte-1-4",
+      "consultedAt": "2026-09-28T05:26:02.680Z",
+      "originalProductName": "ARANDELA SOPORTE 1/4\n – Tuercas y Pernos",
       "reference": null,
       "productId": null,
       "status": "NEEDS_REVIEW",

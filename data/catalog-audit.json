@@ -1,54 +1,1259 @@
 {
-  "version": "2.0.0",
-  "generatedAt": "2026-09-27T07:15:00-05:00",
+  "version": "1.0.0",
+  "generatedAt": "2026-09-28T05:26:56.556Z",
   "masterProducts": 1526,
-  "visibleAfterIdReconciliation": 1526,
-  "configuredCategories": 29,
-  "categoryCounts": {
-    "Tornillería y fijaciones": 122,
-    "Electricidad": 49,
-    "Iluminación": 49,
-    "Plomería y PVC": 69,
-    "Grifería y baños": 41,
-    "Herramienta manual": 54,
-    "Herramienta eléctrica": 38,
-    "Accesorios para herramientas": 45,
-    "Abrasivos y soldadura": 28,
-    "Construcción": 26,
-    "Drywall y sistemas livianos": 18,
-    "Pinturas y acabados": 38,
-    "Pegantes, adhesivos y selladores": 26,
-    "Seguridad industrial": 37,
-    "Cerrajería": 32,
-    "Herrajes": 18,
-    "Gas": 16,
-    "Jardín y agrícola": 27,
-    "Aseo y limpieza": 18,
-    "Organización y almacenamiento": 15,
-    "Automotriz": 25,
-    "Bombas y equipos hidráulicos": 16,
-    "Maquinaria y equipos": 13,
-    "Medición y trazado": 20,
-    "Repuestos y accesorios": 17,
-    "Ferretería general": 16,
-    "Línea para contratistas": 10,
-    "Línea mayorista para ferreterías": 17,
-    "Importación y productos especiales": 10
-  },
-  "uncategorizedOrPendingClassification": 596,
-  "imagesPresentInMaster": 11,
-  "activeRecords": 11,
-  "reviewRecords": 0,
-  "quoteOnlyRecords": 1526,
-  "publicPricedRecords": 0,
-  "missingIdentityFields": 1098,
-  "possibleDuplicateNameGroups": 177,
+  "configuredLoadedProducts": 1526,
+  "issuesCount": 178,
   "duplicateIds": 0,
-  "policyNotes": [
-    "No records were removed during ID reconciliation.",
-    "Duplicate IDs were renamed deterministically with -rNN and originalId retained in reconciliation.",
-    "Similar names are not merged automatically; variants by brand, reference, size, measurement, presentation or unit remain separate pending evidence.",
-    "quote_only reference prices are not IMPERIA acquisition costs or selling prices.",
-    "Image enrichment remains progressive and requires exact/evidenced source matching before publishable=true. All 1,526 master records are rendered by the catalog loader while enrichment continues."
+  "possibleDuplicates": 178,
+  "missingRequiredIdentity": 0,
+  "zeroPrices": 0,
+  "issues": [
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 440,
+      "id": "aud-0431",
+      "name": "ACEITERA CON BOMBA",
+      "previousIndex": 21
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 835,
+      "id": "hist-IMP-00337",
+      "name": "Disco desbaste",
+      "previousIndex": 800
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 836,
+      "id": "hist-IMP-00338",
+      "name": "Disco flap",
+      "previousIndex": 803
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 877,
+      "id": "hist-IMP-00379",
+      "name": "Chazo drywall",
+      "previousIndex": 532
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 937,
+      "id": "hist-IMP-00439",
+      "name": "Guante soldador",
+      "previousIndex": 830
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 990,
+      "id": "hist-IMP-00492",
+      "name": "Regulador gas",
+      "previousIndex": 827
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1016,
+      "id": "hist-IMP-00518",
+      "name": "Azadón",
+      "previousIndex": 761
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1072,
+      "id": "hist-IMP-00574",
+      "name": "Desengrasante",
+      "previousIndex": 1037
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1086,
+      "id": "hist-IMP-00588",
+      "name": "Válvula cheque",
+      "previousIndex": 690
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1092,
+      "id": "hist-IMP-00594",
+      "name": "Compresor",
+      "previousIndex": 785
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1094,
+      "id": "hist-IMP-00596",
+      "name": "Hidrolavadora",
+      "previousIndex": 783
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1107,
+      "id": "hist-IMP-00609",
+      "name": "Escuadra",
+      "previousIndex": 980
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1120,
+      "id": "hist-IMP-00622",
+      "name": "Manómetro",
+      "previousIndex": 1061
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1125,
+      "id": "hist-IMP-00627",
+      "name": "O-ring",
+      "previousIndex": 687
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1126,
+      "id": "hist-IMP-00628",
+      "name": "Empaque",
+      "previousIndex": 686
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1128,
+      "id": "hist-IMP-00630",
+      "name": "Portabrocas",
+      "previousIndex": 815
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1136,
+      "id": "hist-IMP-00638",
+      "name": "Repuesto bomba",
+      "previousIndex": 1091
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1142,
+      "id": "hist-IMP-00644",
+      "name": "Gancho",
+      "previousIndex": 984
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1144,
+      "id": "hist-IMP-00646",
+      "name": "Mosquetón",
+      "previousIndex": 946
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1145,
+      "id": "hist-IMP-00647",
+      "name": "Polea",
+      "previousIndex": 1133
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1242,
+      "id": "hist-IMP-00744",
+      "name": "Caja fuerte Yale electrónica pequeña 0035102",
+      "previousIndex": 156
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1333,
+      "id": "hist-IMP-00693-r01",
+      "name": "Tesa Silicona Líquida 30 ml",
+      "previousIndex": 1191
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1334,
+      "id": "hist-IMP-00694-r01",
+      "name": "Brocasierra Bimetálica 1-1/4\" Truper Expert",
+      "previousIndex": 1192
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1335,
+      "id": "hist-IMP-00695-r01",
+      "name": "Sellador de poliuretano 280 ml negro Truper",
+      "previousIndex": 1193
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1336,
+      "id": "hist-IMP-00696-r01",
+      "name": "Rollo manguera plana 3\" x 50 m para descarga",
+      "previousIndex": 1194
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1337,
+      "id": "hist-IMP-00697-r01",
+      "name": "Destapacaños manual cable 7,5 m industrial",
+      "previousIndex": 1195
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1338,
+      "id": "hist-IMP-00698-r01",
+      "name": "Destapacaños manual con manivela cable 7,5 m",
+      "previousIndex": 1196
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1339,
+      "id": "hist-IMP-00699-r01",
+      "name": "Taladro atornillador inalámbrico 20V 25Nm",
+      "previousIndex": 1197
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1340,
+      "id": "hist-IMP-00700-r01",
+      "name": "Pulidora angular 4-1/2\" 750W",
+      "previousIndex": 1198
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1341,
+      "id": "hist-IMP-00701-r01",
+      "name": "Sopladora eléctrica 650W",
+      "previousIndex": 1199
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1342,
+      "id": "hist-IMP-00702-r01",
+      "name": "Bisagra cuadrada 2-1/2\" satinada cabeza plana",
+      "previousIndex": 1200
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1343,
+      "id": "hist-IMP-00703-r01",
+      "name": "Adhesivo de montaje Adiós Clavos 420 g blanco",
+      "previousIndex": 1201
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1344,
+      "id": "hist-IMP-00704-r01",
+      "name": "Portacepillos con ventosa",
+      "previousIndex": 1202
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1345,
+      "id": "hist-IMP-00705-r01",
+      "name": "Juego de 9 tarrajas para tubo 1/2\" a 2\"",
+      "previousIndex": 1203
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1346,
+      "id": "hist-IMP-00706-r01",
+      "name": "Brocha uso general 2\" mango plástico",
+      "previousIndex": 1204
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1347,
+      "id": "hist-IMP-00707-r01",
+      "name": "Brocha uso general 6\" mango plástico",
+      "previousIndex": 1205
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1348,
+      "id": "hist-IMP-00708-r01",
+      "name": "Brocha uso general 4\" mango madera",
+      "previousIndex": 1206
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1349,
+      "id": "hist-IMP-00709-r01",
+      "name": "Brocha cerdas sintéticas 1\" corte recto",
+      "previousIndex": 1207
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1350,
+      "id": "hist-IMP-00710-r01",
+      "name": "Escoba metálica 22 dientes mango 48\"",
+      "previousIndex": 1208
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1351,
+      "id": "hist-IMP-00711-r01",
+      "name": "Escoba plástica flexible 30 dientes mango 48\"",
+      "previousIndex": 1209
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1352,
+      "id": "hist-IMP-00712-r01",
+      "name": "Casco de seguridad ajuste matraca azul",
+      "previousIndex": 1210
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1353,
+      "id": "hist-IMP-00713-r01",
+      "name": "Casco de seguridad ajuste intervalos amarillo",
+      "previousIndex": 1211
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1354,
+      "id": "hist-IMP-00714-r01",
+      "name": "Mezclador lavaplatos brazo Square",
+      "previousIndex": 1212
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1355,
+      "id": "hist-IMP-00715-r01",
+      "name": "Ducha eléctrica",
+      "previousIndex": 1213
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1356,
+      "id": "hist-IMP-00716-r01",
+      "name": "Lavaplatos de empotrar",
+      "previousIndex": 1214
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1357,
+      "id": "hist-IMP-00717-r01",
+      "name": "Capelote/capaceta para cubiertas 12-12",
+      "previousIndex": 1215
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1358,
+      "id": "hist-IMP-00718-r01",
+      "name": "Varilla roscada zincada 1 m UNC 1\"",
+      "previousIndex": 1216
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1359,
+      "id": "hist-IMP-00719-r01",
+      "name": "Broca lámina Irwin 5/8 con reducción a 1/2",
+      "previousIndex": 1217
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1360,
+      "id": "hist-IMP-00720-r01",
+      "name": "Tapa para sanitario Aquablue",
+      "previousIndex": 1218
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1361,
+      "id": "hist-IMP-00721-r01",
+      "name": "Tornillo lamina cabeza pan phills zincado 8 X 1",
+      "previousIndex": 1219
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1362,
+      "id": "hist-IMP-00722-r01",
+      "name": "Tornillo extraplano punta de broca 8 X 1/2",
+      "previousIndex": 1220
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1363,
+      "id": "hist-IMP-00723-r01",
+      "name": "Tornillo extraplano punta aguda 8 X 1/2",
+      "previousIndex": 1221
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1364,
+      "id": "hist-IMP-00724-r01",
+      "name": "Chazo plastico 1/4",
+      "previousIndex": 1222
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1365,
+      "id": "hist-IMP-00725-r01",
+      "name": "Chazo puntilla nylon 1/4 X 1.1/4",
+      "previousIndex": 1223
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1366,
+      "id": "hist-IMP-00726-r01",
+      "name": "Tornillo hexagonal zincado G2 de 5/16 X 1.1/2",
+      "previousIndex": 1224
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1367,
+      "id": "hist-IMP-00727-r01",
+      "name": "Arandela de Presión Acero Inoxidable 304",
+      "previousIndex": 1225
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1368,
+      "id": "hist-IMP-00728-r01",
+      "name": "Arandela de Presión Galvanizada en Caliente",
+      "previousIndex": 1226
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1369,
+      "id": "hist-IMP-00729-r01",
+      "name": "Arandela de Presión Negra",
+      "previousIndex": 1227
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1370,
+      "id": "hist-IMP-00730-r01",
+      "name": "Arandela de Presión Zincada",
+      "previousIndex": 1228
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1371,
+      "id": "hist-IMP-00731-r01",
+      "name": "Arandela Milimétrica Inoxidable",
+      "previousIndex": 1229
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1372,
+      "id": "hist-IMP-00732-r01",
+      "name": "Arandela Plana F-436 Galvanizada en Caliente",
+      "previousIndex": 1230
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1373,
+      "id": "hist-IMP-00733-r01",
+      "name": "Chazo Expansivo con Tuerca",
+      "previousIndex": 1231
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1374,
+      "id": "hist-IMP-00734-r01",
+      "name": "Chazo Plástico para Drywall",
+      "previousIndex": 1232
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1375,
+      "id": "hist-IMP-00735-r01",
+      "name": "Chazo Universal",
+      "previousIndex": 1233
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1376,
+      "id": "hist-IMP-00736-r01",
+      "name": "Tornillo ASTM A325 Galvanizado en Caliente",
+      "previousIndex": 1234
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1377,
+      "id": "hist-IMP-00737-r01",
+      "name": "Tornillo ASTM A325 Negro",
+      "previousIndex": 1235
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1378,
+      "id": "hist-IMP-00738-r01",
+      "name": "Tornillo ASTM A394 Tipo T-0 Galvanizado en Caliente",
+      "previousIndex": 1236
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1379,
+      "id": "hist-IMP-00739-r01",
+      "name": "Tornillo Bristol Acero Inoxidable 304",
+      "previousIndex": 1237
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1380,
+      "id": "hist-IMP-00740-r01",
+      "name": "Tornillo Bristol con cabeza GR2 HDG",
+      "previousIndex": 1238
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1381,
+      "id": "hist-IMP-00741-r01",
+      "name": "Tornillo Bristol con Cabeza GR8 en Pulgadas",
+      "previousIndex": 1239
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1382,
+      "id": "hist-IMP-00742-r01",
+      "name": "Tornillo Bristol Milimétrico DIN 912 Clase 8.8",
+      "previousIndex": 1240
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1383,
+      "id": "hist-IMP-00743-r01",
+      "name": "Disco diamantado segmentado Dewalt 4 pul DW47452HP",
+      "previousIndex": 1241
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1384,
+      "id": "hist-IMP-00744-r01",
+      "name": "Caja fuerte Yale electrónica pequeña 0035102",
+      "previousIndex": 156
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1385,
+      "id": "hist-IMP-00745-r01",
+      "name": "Lijadora de palma BS200 + Sierra caladora KS501",
+      "previousIndex": 1243
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1386,
+      "id": "hist-IMP-00746-r01",
+      "name": "Pinza masa Toolcraft 500 AMP TC0340",
+      "previousIndex": 1244
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1387,
+      "id": "hist-IMP-00747-r01",
+      "name": "Jgo destornilladores Uyustools 6 pza DEG604 golpe",
+      "previousIndex": 1245
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1388,
+      "id": "hist-IMP-00748-r01",
+      "name": "Pinza punta SATA larga 8 ST70102AST",
+      "previousIndex": 1246
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1389,
+      "id": "hist-IMP-00749-r01",
+      "name": "Medidor laser Lufkin 40M TL0040",
+      "previousIndex": 1247
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1390,
+      "id": "hist-IMP-00750-r01",
+      "name": "Portaelectrodo Makros T/Jackson 300AMP FIT 0018",
+      "previousIndex": 1248
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1391,
+      "id": "hist-IMP-00751-r01",
+      "name": "Torque SATA 1/4 1-5 NM ST96211SC",
+      "previousIndex": 1249
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1392,
+      "id": "hist-IMP-00752-r01",
+      "name": "Camilla mecánico Toolcraft acolchada 36 / 91.44 cm TC3354",
+      "previousIndex": 1250
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1393,
+      "id": "hist-IMP-00753-r01",
+      "name": "Llave expansiva SATA 4 ST47201SC",
+      "previousIndex": 1251
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1394,
+      "id": "hist-IMP-00754-r01",
+      "name": "Llave filtro Stanley 78-229",
+      "previousIndex": 1252
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1395,
+      "id": "hist-IMP-00755-r01",
+      "name": "Disco sierra circular Irwin 10 X 80 alum 15199",
+      "previousIndex": 1253
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1396,
+      "id": "hist-IMP-00756-r01",
+      "name": "Brocha Covo 1 mango azul A145-9PD2011-1",
+      "previousIndex": 1254
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1397,
+      "id": "hist-IMP-00757-r01",
+      "name": "Chapa cajón Vera 1550",
+      "previousIndex": 1255
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1398,
+      "id": "hist-IMP-00758-r01",
+      "name": "Chapa alcoba manija negra rayas",
+      "previousIndex": 1256
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1399,
+      "id": "hist-IMP-00759-r01",
+      "name": "Chapa seguridad llave mariposa ECO surtida DT863",
+      "previousIndex": 1257
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1400,
+      "id": "hist-IMP-00760-r01",
+      "name": "Chapa cajón 2 tornillos ECON 808",
+      "previousIndex": 1258
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1401,
+      "id": "hist-IMP-00761-r01",
+      "name": "Chapa cajón 2 tornillos Workey",
+      "previousIndex": 1259
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1402,
+      "id": "hist-IMP-00762-r01",
+      "name": "Lija Abracol negra",
+      "previousIndex": 1260
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1403,
+      "id": "hist-IMP-00763-r01",
+      "name": "Disco acero Eco/Saco/Fitools/Q7/Metalformes",
+      "previousIndex": 1261
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1404,
+      "id": "hist-IMP-00764-r01",
+      "name": "Carpincol",
+      "previousIndex": 1262
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1405,
+      "id": "hist-IMP-00765-r01",
+      "name": "Casco seguridad amarillo",
+      "previousIndex": 1263
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1406,
+      "id": "hist-IMP-00766-r01",
+      "name": "Guante ingeniero",
+      "previousIndex": 1264
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1407,
+      "id": "hist-IMP-00767-r01",
+      "name": "Tornillo cabeza redonda",
+      "previousIndex": 1265
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1408,
+      "id": "hist-IMP-00768-r01",
+      "name": "Tornillo cabeza cuadrada",
+      "previousIndex": 1266
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1409,
+      "id": "hist-IMP-00769-r01",
+      "name": "Disco tronzadora",
+      "previousIndex": 1267
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1410,
+      "id": "hist-IMP-00770-r01",
+      "name": "Pincel mango plástico",
+      "previousIndex": 1268
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1411,
+      "id": "hist-IMP-00771-r01",
+      "name": "Taladro 3/8",
+      "previousIndex": 1269
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1412,
+      "id": "hist-IMP-00772-r01",
+      "name": "Cinta métrica",
+      "previousIndex": 1270
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1413,
+      "id": "hist-IMP-00773-r01",
+      "name": "Demoledor",
+      "previousIndex": 1271
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1414,
+      "id": "hist-IMP-00774-r01",
+      "name": "Mototool",
+      "previousIndex": 1272
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1415,
+      "id": "hist-IMP-00775-r01",
+      "name": "Careta de soldar tipo pesado visor levantable United KCSA003",
+      "previousIndex": 1273
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1416,
+      "id": "hist-IMP-00776-r01",
+      "name": "Grata circular lisa acero inoxidable con espigo 75mm Kangaroo set x3 KANCECI75",
+      "previousIndex": 1274
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1417,
+      "id": "hist-IMP-00777-r01",
+      "name": "Disco para pulir centro deprimido 7 x 1/4 set x3 SUPDP7",
+      "previousIndex": 1275
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1418,
+      "id": "hist-IMP-00778-r01",
+      "name": "Chazo plástico 3/16 + tornillo lámina 6x1 x20",
+      "previousIndex": 1276
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1419,
+      "id": "hist-IMP-00779-r01",
+      "name": "Caja herramienta plástica cierre metálico 17",
+      "previousIndex": 1277
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1420,
+      "id": "hist-IMP-00780-r01",
+      "name": "Kit válvula sanitaria Arawak 17 cm",
+      "previousIndex": 1278
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1421,
+      "id": "hist-IMP-00781-r01",
+      "name": "Extensión naranja 10M",
+      "previousIndex": 1279
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1422,
+      "id": "hist-IMP-00782-r01",
+      "name": "Vástago ducha metal cerámico izquierdo azul",
+      "previousIndex": 1280
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1423,
+      "id": "hist-IMP-00783-r01",
+      "name": "Kit tornillos acople tanque negro 2 unidades",
+      "previousIndex": 1281
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1424,
+      "id": "hist-IMP-00784-r01",
+      "name": "Broca espada individual HT1005 7/8",
+      "previousIndex": 1282
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1425,
+      "id": "hist-IMP-00785-r01",
+      "name": "Juego de 25 Herramientas 1/4\" y 3/8\" para Mecánico",
+      "previousIndex": 1283
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1426,
+      "id": "hist-IMP-00786-r01",
+      "name": "Juego de 39 Herramientas 1/4\" y 3/8\" para Mecánico",
+      "previousIndex": 1284
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1427,
+      "id": "hist-IMP-00787-r01",
+      "name": "Juego de 22 Herramientas 1/4\" Estándar para Mecánico",
+      "previousIndex": 1285
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1428,
+      "id": "hist-IMP-00788-r01",
+      "name": "Juego de 130 herramientas 1/4\" para mecánico",
+      "previousIndex": 1286
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1429,
+      "id": "hist-IMP-00789-r01",
+      "name": "Juego De Herramientas 42 Piezas Comfort Grip Pretul",
+      "previousIndex": 1287
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1430,
+      "id": "hist-IMP-00790-r01",
+      "name": "Alicate Multifunción 9\", Industrial",
+      "previousIndex": 1288
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1431,
+      "id": "hist-IMP-00791-r01",
+      "name": "Engrapadora Tipo Pistola 1/4\", 5/16\", 3/8\" + 200 Grapas",
+      "previousIndex": 1289
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1432,
+      "id": "hist-IMP-00792-r01",
+      "name": "Serrucho de 20\"",
+      "previousIndex": 1290
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1433,
+      "id": "hist-IMP-00793-r01",
+      "name": "Serrucho de 16\"",
+      "previousIndex": 1291
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1434,
+      "id": "hist-IMP-00794-r01",
+      "name": "Cuchara Albañil 6\" tipo Colombia",
+      "previousIndex": 1292
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1435,
+      "id": "hist-IMP-00795-r01",
+      "name": "Taladro Percutor 1/2\" Profesional 650W",
+      "previousIndex": 1293
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1436,
+      "id": "hist-IMP-00796-r01",
+      "name": "Taladro Percutor 1/2\" Industrial 900W",
+      "previousIndex": 1294
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1437,
+      "id": "hist-IMP-00797-r01",
+      "name": "Taladro Percutor 1/2\" Industrial 1,200W",
+      "previousIndex": 1295
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1438,
+      "id": "hist-IMP-00798-r01",
+      "name": "Taladro 3/8\" Profesional",
+      "previousIndex": 1296
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1439,
+      "id": "hist-IMP-00799-r01",
+      "name": "Taladro Percutor 3/8\" Profesional 550W",
+      "previousIndex": 1297
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1440,
+      "id": "hist-IMP-00800-r01",
+      "name": "Taladro de Banco 1/2\"",
+      "previousIndex": 1298
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1441,
+      "id": "hist-IMP-00801-r01",
+      "name": "Taladro 1/2\" Industrial 18V",
+      "previousIndex": 1299
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1442,
+      "id": "hist-IMP-00802-r01",
+      "name": "Taladro Percutor Electroneumático 1/2\"",
+      "previousIndex": 1300
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1443,
+      "id": "hist-IMP-00803-r01",
+      "name": "Taladro tipo espada Industrial 1/2\" 1150W",
+      "previousIndex": 1301
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1444,
+      "id": "hist-IMP-00804-r01",
+      "name": "Taladro inalámbrico 3/8\" 20V",
+      "previousIndex": 1302
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1445,
+      "id": "hist-IMP-00805-r01",
+      "name": "Taladro de banco 8\" 250W",
+      "previousIndex": 1303
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1446,
+      "id": "hist-IMP-00806-r01",
+      "name": "Kit taladro percutor 1/2\" 20V + 32 accesorios",
+      "previousIndex": 1304
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1447,
+      "id": "hist-IMP-00807-r01",
+      "name": "Broca SDS MAX para concreto 3/4 x 21\"",
+      "previousIndex": 1305
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1448,
+      "id": "hist-IMP-00808-r01",
+      "name": "Broca con Punta Centradora para Madera 1/4\"",
+      "previousIndex": 1306
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1449,
+      "id": "hist-IMP-00809-r01",
+      "name": "Llave Mixta 3/4\"",
+      "previousIndex": 1307
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1450,
+      "id": "hist-IMP-00810-r01",
+      "name": "Llave ajustable 6\" pavonada",
+      "previousIndex": 1308
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1451,
+      "id": "hist-IMP-00811-r01",
+      "name": "Llave Mixta 8MM",
+      "previousIndex": 1309
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1452,
+      "id": "hist-IMP-00812-r01",
+      "name": "Llave Mixta 9/16\"",
+      "previousIndex": 1310
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1453,
+      "id": "hist-IMP-00813-r01",
+      "name": "Llave Mixta 13MM",
+      "previousIndex": 1311
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1454,
+      "id": "hist-IMP-00814-r01",
+      "name": "Llave Mixta 19MM",
+      "previousIndex": 1312
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1455,
+      "id": "hist-IMP-00815-r01",
+      "name": "Juego de 8 Llaves Bristol métricas tipo llavero",
+      "previousIndex": 1313
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1456,
+      "id": "hist-IMP-00816-r01",
+      "name": "Llave de tubo 8\"",
+      "previousIndex": 1314
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1457,
+      "id": "hist-IMP-00817-r01",
+      "name": "Llave ajustable 12\" cromada",
+      "previousIndex": 1315
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1458,
+      "id": "hist-IMP-00818-r01",
+      "name": "Llave ajustable 10\" cromada",
+      "previousIndex": 1316
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1459,
+      "id": "hist-IMP-00819-r01",
+      "name": "Juego de llaves combinadas 11 piezas métricas",
+      "previousIndex": 1317
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1460,
+      "id": "hist-IMP-00820-r01",
+      "name": "Llave terminal para jardín de latón 1/2\"",
+      "previousIndex": 1318
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1461,
+      "id": "hist-IMP-00821-r01",
+      "name": "Juego de 5 llaves de boca métricas",
+      "previousIndex": 1319
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1462,
+      "id": "hist-IMP-00822-r01",
+      "name": "Mandril con llave 3/8\"",
+      "previousIndex": 1320
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1463,
+      "id": "hist-IMP-00823-r01",
+      "name": "Mandril sin llave 1/2\"",
+      "previousIndex": 1321
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1464,
+      "id": "hist-IMP-00824-r01",
+      "name": "Martillo 16oz mango madera",
+      "previousIndex": 1322
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1465,
+      "id": "hist-IMP-00825-r01",
+      "name": "Martillo pulido uña curva 29mm fibra de vidrio",
+      "previousIndex": 1323
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1466,
+      "id": "hist-IMP-00826-r01",
+      "name": "Martillo tubular pulido uña curva 29mm",
+      "previousIndex": 1324
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1467,
+      "id": "hist-IMP-00827-r01",
+      "name": "Martillo fibra de vidrio 27mm 16oz",
+      "previousIndex": 1325
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1468,
+      "id": "hist-IMP-00828-r01",
+      "name": "Martillo latonero 11oz",
+      "previousIndex": 1326
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1469,
+      "id": "hist-IMP-00829-r01",
+      "name": "Martillo neumático",
+      "previousIndex": 1327
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1470,
+      "id": "hist-IMP-00830-r01",
+      "name": "Martillo fibra de vidrio 23mm 8oz",
+      "previousIndex": 1328
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1471,
+      "id": "hist-IMP-00831-r01",
+      "name": "Juego 7 piezas martillos y entibadores para hojalatero",
+      "previousIndex": 1329
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1472,
+      "id": "hist-IMP-00832-r01",
+      "name": "Rotomartillo/Destornillador 1/2\" 550W",
+      "previousIndex": 1330
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1473,
+      "id": "hist-IMP-00833-r01",
+      "name": "Alicate Diablo 11GP Comfort Grip",
+      "previousIndex": 1331
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1474,
+      "id": "hist-IMP-00834-r01",
+      "name": "Engrapadora tipo martillo uso rudo",
+      "previousIndex": 1332
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1475,
+      "id": "hist-IMP-00001-r01",
+      "name": "Drywall 6x1/2",
+      "previousIndex": 499
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1476,
+      "id": "hist-IMP-00002-r01",
+      "name": "Drywall 6x3/4",
+      "previousIndex": 500
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1477,
+      "id": "hist-IMP-00003-r01",
+      "name": "Drywall 6x1",
+      "previousIndex": 501
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1478,
+      "id": "hist-IMP-00004-r01",
+      "name": "Drywall 6x1 1/4",
+      "previousIndex": 502
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1479,
+      "id": "hist-IMP-00005-r01",
+      "name": "Drywall 6x1 1/2",
+      "previousIndex": 503
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1480,
+      "id": "hist-IMP-00006-r01",
+      "name": "Drywall 6x1 5/8",
+      "previousIndex": 504
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1481,
+      "id": "hist-IMP-00007-r01",
+      "name": "Drywall 6x2",
+      "previousIndex": 505
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1482,
+      "id": "hist-IMP-00008-r01",
+      "name": "Tornillo para madera",
+      "previousIndex": 506
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1483,
+      "id": "hist-IMP-00009-r01",
+      "name": "Tornillo goloso",
+      "previousIndex": 507
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1484,
+      "id": "hist-IMP-00010-r01",
+      "name": "Tornillo autorroscante",
+      "previousIndex": 508
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1485,
+      "id": "hist-IMP-00011-r01",
+      "name": "Tornillo autoperforante",
+      "previousIndex": 509
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1486,
+      "id": "hist-IMP-00012-r01",
+      "name": "Tornillo techo con arandela EPDM",
+      "previousIndex": 510
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1487,
+      "id": "hist-IMP-00013-r01",
+      "name": "Tuerca hexagonal métrica",
+      "previousIndex": 511
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1488,
+      "id": "hist-IMP-00014-r01",
+      "name": "Tuerca hexagonal SAE",
+      "previousIndex": 512
+    },
+    {
+      "type": "POSSIBLE_DUPLICATE",
+      "index": 1489,
+      "id": "hist-IMP-00015-r01",
+      "name": "Tuerca autofrenante",
+      "previousIndex": 513
+    }
   ]
 }
