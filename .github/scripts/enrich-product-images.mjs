@@ -123,3 +123,5 @@ imgData.status='staging';
 imgData.records=[...existing.values()];
 await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
 console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures},null,2));
+
+// Trigger automatic image enrichment after workflow hardening — 2026-09-29.
