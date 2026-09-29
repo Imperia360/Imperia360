@@ -12,10 +12,10 @@ async function api(path,options={}){
   if(!r.ok)throw new Error(data.message||("GitHub API "+r.status));
   return data;
 }
-async function verify(){\n  if(/[^\\x00-\\x7F]/.test(token)) throw new Error("El token contiene caracteres no válidos. Pega directamente el token github_pat_… generado por GitHub.");
-  const u=await api("/user");
-  await api("/repos/"+OWNER+"/"+REPO);
-  return u.login;
+async function verify(){
+  if(/[^\x00-\x7F]/.test(token)) throw new Error("El token contiene caracteres no válidos. Pega directamente el token github_pat_… generado por GitHub.");
+  const repo=await api("/repos/"+OWNER+"/"+REPO);
+  return repo.owner?.login || OWNER;
 }
 async function loadCatalog(){
   products=await (await fetch("../data/products.json?admin="+Date.now())).json();
