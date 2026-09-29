@@ -1,0 +1,494 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-09-29T16:55:00Z",
+  "status": "verified_public_price",
+  "policy": "Public prices verified from current manufacturer, distributor or retail listings. IMPERIA prices are calculated from the observed public reference using gross-margin targets of 20% wholesale, 25% contractor and 35% retail; they are not confirmed supplier costs.",
+  "marginPolicy": {
+    "wholesaleGrossMarginPct": 20,
+    "contractorGrossMarginPct": 25,
+    "retailGrossMarginPct": 35,
+    "roundToCOP": 100
+  },
+  "products": [
+    {
+      "id": "paint-pintuco-viniltex-advanced-5g",
+      "name": "Pintuco Viniltex Advanced — Cuñete 5 galones",
+      "brand": "Pintuco",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Cuñete 5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Mercado Libre / tienda oficial SOELCO",
+        "url": "https://www.mercadolibre.com.co/pintura-viniltex-advanced-caneca-5-galones-blanco-pintuco/up/MCOU3690978099",
+        "consultedAt": "2026-09-29",
+        "price": 411900,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 411900,
+        "manualWholesalePrice": 514900,
+        "manualContractorPrice": 549200,
+        "manualRetailPrice": 633700,
+        "manualSalePrice": 633700,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 411900,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-pintuco-viniltex-advanced-25g",
+      "name": "Pintuco Viniltex Advanced — Balde 2,5 galones",
+      "brand": "Pintuco",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Balde 2,5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Mercado Libre / Soelco",
+        "url": "https://www.mercadolibre.com.co/pintura-viniltex-advanced-balde-25-galones-blanco-pintuco/up/MCOU3690978169",
+        "consultedAt": "2026-09-29",
+        "price": 239900,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 239900,
+        "manualWholesalePrice": 299900,
+        "manualContractorPrice": 319900,
+        "manualRetailPrice": 369100,
+        "manualSalePrice": 369100,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 239900,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-pintuco-viniltex-ultralavable-5g",
+      "name": "Pintuco Viniltex Ultralavable — Cuñete 5 galones",
+      "brand": "Pintuco",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Cuñete 5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Mercado Libre / Soelco",
+        "url": "https://listado.mercadolibre.com.co/pintura-viniltex-5-galones",
+        "consultedAt": "2026-09-29",
+        "price": 459900,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 459900,
+        "manualWholesalePrice": 574900,
+        "manualContractorPrice": 613200,
+        "manualRetailPrice": 707600,
+        "manualSalePrice": 707600,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 459900,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-sapolin-obras-t2-5g",
+      "name": "Sapolin Pintura Obras Tipo 2 — Cuñete 5 galones",
+      "brand": "Sapolin",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Cuñete 5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Sapolin",
+        "url": "https://sapolin.com/products/vinilo-obras-tipo-2-cunete-5-gal",
+        "consultedAt": "2026-09-29",
+        "price": 256700,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 256700,
+        "manualWholesalePrice": 320900,
+        "manualContractorPrice": 342300,
+        "manualRetailPrice": 395000,
+        "manualSalePrice": 395000,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 256700,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-sapolin-capri-t2-25g",
+      "name": "Sapolin Capri Tipo 2 — Balde 2,5 galones",
+      "brand": "Sapolin",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Balde 2,5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Mercado Libre",
+        "url": "https://www.mercadolibre.com.co/pintura-tipo-2-capri-25-gal-l-color-blanco/p/MCO35740947",
+        "consultedAt": "2026-09-29",
+        "price": 190500,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 190500,
+        "manualWholesalePrice": 238200,
+        "manualContractorPrice": 254000,
+        "manualRetailPrice": 293100,
+        "manualSalePrice": 293100,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 190500,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-pintuland-t1-5g",
+      "name": "Pintuland Vinilo Tipo 1 — Cuñete 5 galones",
+      "brand": "Pintuland",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Cuñete 5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Mercado Libre",
+        "url": "https://listado.mercadolibre.com.co/pintuland-tipo-1",
+        "consultedAt": "2026-09-29",
+        "price": 520000,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 520000,
+        "manualWholesalePrice": 650000,
+        "manualContractorPrice": 693400,
+        "manualRetailPrice": 800000,
+        "manualSalePrice": 800000,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 520000,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-pintuland-t1-25g",
+      "name": "Pintuland Vinilo Tipo 1 — Balde 2,5 galones",
+      "brand": "Pintuland",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Balde 2,5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Mercado Libre",
+        "url": "https://www.mercadolibre.com.co/vinilo-pintura-tipo-1-pintuland-blanco-balde-x-25-galones/up/MCOU3813498612?picker=true",
+        "consultedAt": "2026-09-29",
+        "price": 280000,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 280000,
+        "manualWholesalePrice": 350000,
+        "manualContractorPrice": 373400,
+        "manualRetailPrice": 430800,
+        "manualSalePrice": 430800,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 280000,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-pintuland-t2-5g",
+      "name": "Pintuland Vinilo Tipo 2 — Cuñete 5 galones",
+      "brand": "Pintuland",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Cuñete 5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Mercado Libre",
+        "url": "https://listado.mercadolibre.com.co/galon-de-pintura-tipo-2",
+        "consultedAt": "2026-09-29",
+        "price": 390000,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 390000,
+        "manualWholesalePrice": 487500,
+        "manualContractorPrice": 520000,
+        "manualRetailPrice": 600000,
+        "manualSalePrice": 600000,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 390000,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-pintuland-t2-25g",
+      "name": "Pintuland Vinilo Tipo 2 — Balde 2,5 galones",
+      "brand": "Pintuland",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Balde 2,5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Mercado Libre",
+        "url": "https://listado.mercadolibre.com.co/pintura-pintuland-tipo-2",
+        "consultedAt": "2026-09-29",
+        "price": 176000,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 176000,
+        "manualWholesalePrice": 220000,
+        "manualContractorPrice": 234700,
+        "manualRetailPrice": 270800,
+        "manualSalePrice": 270800,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 176000,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-corona-lavable-5g",
+      "name": "Corona Lavable Blanco — Cuñete 5 galones",
+      "brand": "Corona",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Cuñete 5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Homecenter",
+        "url": "https://www.homecenter.com.co/homecenter-co/product/316412/pintura-corona-lavable-blanco-cunete-5-galones/316412/",
+        "consultedAt": "2026-09-29",
+        "price": 369200,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 369200,
+        "manualWholesalePrice": 461500,
+        "manualContractorPrice": 492300,
+        "manualRetailPrice": 568000,
+        "manualSalePrice": 568000,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 369200,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-corona-techos-5g",
+      "name": "Corona Techos Interiores Blanco — Cuñete 5 galones",
+      "brand": "Corona",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Cuñete 5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Homecenter",
+        "url": "https://www.homecenter.com.co/homecenter-co/product/316411/pintura-corona-techos-interiores-blanco-5-galones/316411/",
+        "consultedAt": "2026-09-29",
+        "price": 165300,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 165300,
+        "manualWholesalePrice": 206700,
+        "manualContractorPrice": 220400,
+        "manualRetailPrice": 254400,
+        "manualSalePrice": 254400,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 165300,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    },
+    {
+      "id": "paint-terinsa-t1-5g",
+      "name": "Terinsa Vinilo Tipo 1 — Cuñete 5 galones",
+      "brand": "Terinsa",
+      "category": {
+        "name": "Pintura",
+        "subcategory": "Vinilos"
+      },
+      "presentation": "Cuñete 5 gal",
+      "unitOfSale": "unidad",
+      "source": {
+        "name": "Mercado Libre",
+        "url": "https://listado.mercadolibre.com.co/pintura-pintuland-tipo-2",
+        "consultedAt": "2026-09-29",
+        "price": 608000,
+        "currency": "COP",
+        "priceStatus": "verified_public_price"
+      },
+      "pricing": {
+        "currency": "COP",
+        "observedPublicPrice": 608000,
+        "manualWholesalePrice": 760000,
+        "manualContractorPrice": 810700,
+        "manualRetailPrice": 935400,
+        "manualSalePrice": 935400,
+        "manualMarginPct": 35,
+        "pricingStatus": "provisional_published",
+        "costBasis": "market_reference_benchmark",
+        "calculationBase": 608000,
+        "calculationNote": "Precio IMPERIA calculado sobre precio público verificable; no es costo confirmado de proveedor."
+      },
+      "availability": {
+        "status": "source_available"
+      },
+      "images": {
+        "primary": null,
+        "verificationStatus": "pending_image_verification"
+      },
+      "evidenceNotes": "Referencia y presentación verificadas en la fuente consultada; precio sujeto a cambios del proveedor/retailer."
+    }
+  ]
+}
