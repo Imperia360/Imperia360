@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IMPERIA 360 | Administración</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+<header><div class="wrap top"><a href="../" class="brand">IMPERIA <b>360</b></a><span>Panel privado de administración</span></div></header>
+<main class="wrap">
+<section id="loginView" class="panel login">
+  <div class="eyebrow">ACCESO ADMINISTRADOR</div>
+  <h1>Administrar precios IMPERIA 360</h1>
+  <p>Usa un token personal de GitHub con acceso <strong>Contents: Read and write</strong> únicamente al repositorio IMPERIA 360. El token se usa solo durante esta sesión y no se guarda en el sitio.</p>
+  <label>Token de GitHub <input id="token" type="password" autocomplete="off" placeholder="ghp_… o github_pat_…"></label>
+  <button id="loginBtn" class="btn primary">Entrar como administrador</button>
+  <p id="loginStatus" class="status"></p>
+</section>
+<section id="appView" hidden>
+  <div class="toolbar panel">
+    <div><div class="eyebrow">CONTROL DE PRECIOS</div><h1>Catálogo y márgenes</h1></div>
+    <button id="logoutBtn" class="btn secondary">Cerrar sesión</button>
+  </div>
+  <div class="notice panel"><strong>Regla de seguridad:</strong> el costo del proveedor se usa para calcular en tu navegador y <strong>no se guarda</strong> en el catálogo público. La referencia de mercado permanece separada del precio IMPERIA.</div>
+  <div class="panel filters">
+    <input id="search" placeholder="Buscar producto, SKU, referencia, marca o categoría">
+    <select id="category"><option value="">Todas las categorías</option></select>
+    <span id="count" class="status"></span>
+  </div>
+  <div id="products" class="products"></div>
+</section>
+</main>
+<script type="module" src="./admin.js"></script>
+</body>
+</html>
