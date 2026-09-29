@@ -26,7 +26,7 @@ export function productCard(product={}) {
     const brandStrip=document.createElement('div');
     brandStrip.className='imperia-image-brand';
     brandStrip.setAttribute('aria-label','IMPERIA 360');
-    brandStrip.textContent='IMPERIA 360';
+    brandStrip.textContent='♛ IMPERIA 360 · TU MUNDO, EN UN SOLO LUGAR';
     imageWrap.append(brandStrip);
   } else {
     const p=document.createElement('div');
@@ -43,7 +43,7 @@ export function productCard(product={}) {
   if(product.category){
     const b=document.createElement('span');
     b.className='product-badge';
-    b.textContent=product.category;
+    b.textContent=typeof product.category==='object' ? (product.category.name||product.category.subcategory||'Producto') : product.category;
     badges.append(b);
   }
   if(badges.childElementCount) c.append(badges);
@@ -54,7 +54,7 @@ export function productCard(product={}) {
     c.append(h);
   }
 
-  [['brand.name','Marca'],['identification.manufacturerReference','Referencia'],['identification.sku','SKU'],['measurements.originalText','Medida']].forEach(([path,label])=>{
+  [['brand.name','Marca'],['brand','Marca'],['identification.manufacturerReference','Referencia'],['identification.sku','SKU'],['presentation','Presentación'],['measurements.originalText','Medida']].forEach(([path,label])=>{
     const v=path.split('.').reduce((x,k)=>x?.[k],product);
     if(v){ const p=document.createElement('p'); p.textContent=label+': '+v; c.append(p); }
   });
