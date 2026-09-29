@@ -27,8 +27,8 @@ export function productCard(product={}) {
     const p=document.createElement('div');
     p.className='product-image image-pending';
     p.setAttribute('role','img');
-    p.setAttribute('aria-label','Imagen pendiente de verificación');
-    p.textContent='Imagen pendiente';
+    p.setAttribute('aria-label','Imagen no disponible');
+    p.textContent='Imagen no disponible';
     imageWrap.append(p);
   }
   c.append(imageWrap);
@@ -41,12 +41,6 @@ export function productCard(product={}) {
     b.textContent=product.category;
     badges.append(b);
   }
-  if(product.publicationStatus==='review'){
-    const b=document.createElement('span');
-    b.className='product-badge review-badge';
-    b.textContent='En revisión';
-    badges.append(b);
-  }
   if(badges.childElementCount) c.append(badges);
 
   if(product.name){
@@ -55,7 +49,7 @@ export function productCard(product={}) {
     c.append(h);
   }
 
-  [['brand.name','Marca'],['identification.manufacturerReference','Referencia'],['identification.sku','SKU'],['measurements.originalText','Medida'],['availability.status','Disponibilidad']].forEach(([path,label])=>{
+  [['brand.name','Marca'],['identification.manufacturerReference','Referencia'],['identification.sku','SKU'],['measurements.originalText','Medida']].forEach(([path,label])=>{
     const v=path.split('.').reduce((x,k)=>x?.[k],product);
     if(v){ const p=document.createElement('p'); p.textContent=label+': '+v; c.append(p); }
   });
