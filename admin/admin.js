@@ -7,7 +7,7 @@ const b64decode=s=>decodeURIComponent(Array.prototype.map.call(atob(s.replace(/\
 const b64encode=s=>{const bytes=new TextEncoder().encode(s);let bin="";for(let i=0;i<bytes.length;i+=0x8000)bin+=String.fromCharCode(...bytes.subarray(i,i+0x8000));return btoa(bin)};
 
 async function api(path,options={}){
-  const r=await fetch("https://api.github.com"+path,{...options,headers:{"Accept":"application/vnd.github+json","Authorization":"Bearer "+token,"X-GitHub-Api-Version":"2026-03-10",...(options.headers||{})}});
+  const r=await fetch("https://api.github.com"+path,{...options,headers:{"Accept":"application/vnd.github+json","Authorization":"Bearer "+token,"X-GitHub-Api-Version":"2022-11-28",...(options.headers||{})}});
   const data=await r.json().catch(()=>({}));
   if(!r.ok)throw new Error(data.message||("GitHub API "+r.status));
   return data;
