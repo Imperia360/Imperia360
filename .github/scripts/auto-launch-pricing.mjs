@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import fs from "node:fs";
 const read=p=>JSON.parse(fs.readFileSync(p,"utf8"));
-const products=read("data/products.json");
+const products=[...read("data/products.json"),...(read("data/paint-catalog-batch-2026-09-29.json").products||[])];
 const exa=read("data/exa-discovery.json");
 const offers=read("data/market-offers.json");
 const WM=20, CM=25, RM=35;
