@@ -43,7 +43,7 @@ async function sitemapCandidates(base,p){
   for(const path of paths){
     try{
       const {html}=await get(new URL(path,base).href);
-      const urls=[...html.matchAll(/<loc>([^<]+)<\\/loc>/gi)].map(m=>m[1].trim());
+      const urls=[...html.matchAll(/<loc>([^<]+)<\/loc>/gi)].map(m=>m[1].trim());
       const scored=urls.map(u=>({u,score:needles.filter(n=>u.toLowerCase().includes(n.replace(/\\s+/g,'-'))||u.toLowerCase().includes(n.replace(/\\s+/g,''))).length})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score);
       if(scored.length)return scored.slice(0,5).map(x=>x.u);
     }catch{}
