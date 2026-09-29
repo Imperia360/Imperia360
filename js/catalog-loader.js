@@ -17,6 +17,23 @@ export async function loadProducts(source = './data/products.json') {
     throw new Error('El catálogo debe ser un arreglo de productos.');
   }
 
+  // Lote de pinturas con referencias y precios públicos verificados.
+  // Se mantiene separado del master histórico para permitir auditoría y enriquecimiento de imágenes.
+  try {
+    const pr = await fetch('./data/paint-catalog-batch-2026-09-29.json?' + Date.now());
+    if (pr.ok) {
+      const pd = await pr.json();
+      const paintProducts = Array.isArray(pd.products) ? pd.products : [];
+      const existing = new Set(products.map(p => String(p?.id)));
+      for (const pp of paintProducts) {
+        if (!existing.has(String(pp.id))) {
+          products.push(pp);
+          existing.add(String(pp.id));
+        }
+      }
+    }
+  } catch {}
+
   // Proveedor Roxvan: referencias públicas observadas, con precio IMPERIA
   // calculado según las reglas comerciales configuradas.
   try {
