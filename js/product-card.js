@@ -23,6 +23,11 @@ export function productCard(product={}) {
       imageWrap.append(p);
     };
     imageWrap.append(i);
+    const brandStrip=document.createElement('div');
+    brandStrip.className='imperia-image-brand';
+    brandStrip.setAttribute('aria-label','IMPERIA 360');
+    brandStrip.textContent='IMPERIA 360';
+    imageWrap.append(brandStrip);
   } else {
     const p=document.createElement('div');
     p.className='product-image image-pending';
@@ -58,14 +63,12 @@ export function productCard(product={}) {
     const p=document.createElement('strong');
     p.textContent='Precio IMPERIA: '+(product.pricing.currency??'COP')+' '+Number(product.pricing.manualSalePrice).toLocaleString('es-CO');
     c.append(p);
-
   } else {
     const p=document.createElement('small');
     p.className='price-pending';
     p.textContent='Precio: por verificar';
     c.append(p);
   }
-
 
   const actions=document.createElement('div');
   actions.className='product-actions';
