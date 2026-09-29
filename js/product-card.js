@@ -71,7 +71,10 @@ export function productCard(product={}) {
       rp.textContent='Referencia de mercado: COP '+shown; c.append(rp);
     }
     const n=document.createElement('small'); n.className='price-note';
-    n.textContent='Precio definido manualmente por IMPERIA; la referencia pública no es el precio de venta.'; c.append(n);
+    n.textContent=product.pricing?.pricingStatus==='calculated_from_market_reference'
+      ? 'Precio IMPERIA calculado con margen comercial; base: referencia pública de mercado. No es costo confirmado de proveedor.'
+      : 'Precio definido por IMPERIA; la referencia pública no es el precio de venta.';
+    c.append(n);
   } else if(product.pricing?.status==='validated' && product.pricing.publicPrice!=null){
     const p=document.createElement('strong');
     p.textContent=(product.pricing.currency??'COP')+' '+product.pricing.publicPrice.toLocaleString('es-CO');
