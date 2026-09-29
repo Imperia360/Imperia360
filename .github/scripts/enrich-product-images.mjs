@@ -21,7 +21,7 @@ function meta(html,key){
   const m=html.match(re); return m?.[1]||m?.[2]||null;
 }
 function visible(html){
-  return html.replace(/<script[\\s\\S]*?<\\/script>/gi,' ').replace(/<style[\\s\\S]*?<\\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&[^;]+;/g,' ').toLowerCase();
+  return html.replace(/<script[\\s\\S]*?<\/script>/gi,' ').replace(/<style[\\s\\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&[^;]+;/g,' ').toLowerCase();
 }
 function identityOk(p,html){
   const text=visible(html);
@@ -125,3 +125,5 @@ await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
 console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures},null,2));
 
 // Trigger automatic image enrichment after workflow hardening — 2026-09-29.
+
+// Paint priority: include verified supplier products in the next enrichment pass — 2026-09-29.
