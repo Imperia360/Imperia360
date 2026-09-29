@@ -183,6 +183,99 @@ async function prepareFulfillment(body) {
   };
 }
 
+async function createOrder(body) {
+  const products = await getCatalog();
+  const items = Array.isArray(body.items) ? body.items : [];
+  if (!items.length) throw new Error("El carrito está vacío");
+
+  const customer = body.customer || {};
+  const customerName = String(customer.name || "").trim();
+  const customerEmail = String(customer.email || "").trim();
+  const customerPhone = String(customer.phone || "").trim();
+  const customerAddress = String(customer.address || "").trim();
+  if (!customerName || !customerPhone) throw new Error("Nombre y teléfono del cliente son obligatorios.");
+
+  const supplierMap = {
+    "imp-0001": {
+      supplierId: "roxvan",
+      supplierName: "Roxvan",
+      supplierReference: "13604",
+      supplierProductUrl: "https://roxvan.com/producto/chazo-plastico-con-tornillo-1-4-x-50unds-ht1238-ref13604/",
+      observedCost: 2428,
+      costBasis: "precio público observado para 12+ unidades; verificar al comprar",
+      stockStatus: "VERIFY_AT_ORDER_TIME"
+    }
+  };
+
+  const lines = [];
+  const fulfillment = [];
+  let total = 0;
+  let supplierCost = 0;
+
+  for (const item of items) {
+    const wanted = String(item.id || item.sku || item.reference || item.name || "");
+    const product = products.find((p) => [
+      p.id, p.identification?.sku, p.identification?.manufacturerReference,
+      p.identification?.supplierReference, p.name
+    ].some((v) => norm(v) === norm(wanted)));
+    if (!product) throw new Error("Producto no encontrado: " + wanted);
+    const unit = price(product);
+    if (!unit) throw new Error("Producto sin precio confirmado: " + product.name);
+    const qty = Math.max(1, Math.min(999, Math.floor(Number(item.qty) || 1)));
+    const lineTotal = unit * qty;
+    total += lineTotal;
+    lines.push({ id: product.id, name: product.name, reference: product.identification?.manufacturerReference || product.identification?.supplierReference || "", qty, unitPrice: unit, lineTotal });
+
+    const route = supplierMap[product.id];
+    if (route) {
+      const cost = route.observedCost * qty;
+      supplierCost += cost;
+      fulfillment.push({
+        product: product.name, qty, supplier: route.supplierName,
+        supplierReference: route.supplierReference, observedUnitCost: route.observedCost,
+        observedSupplierCost: cost, supplierUrl: route.supplierProductUrl,
+        stockStatus: route.stockStatus, costBasis: route.costBasis
+      });
+    } else {
+      fulfillment.push({
+        product: product.name, qty, supplier: "POR DEFINIR / REVISIÓN MANUAL",
+        supplierReference: "", observedUnitCost: null, observedSupplierCost: null,
+        supplierUrl: "", stockStatus: "VERIFY_AT_ORDER_TIME",
+        costBasis: "Sin costo de proveedor verificado para este producto"
+      });
+    }
+  }
+
+  const orderNumber = "IMP-" + new Date().toISOString().replace(/[-:TZ.]/g, "").slice(0, 14) + "-" + Math.floor(Math.random() * 900 + 100);
+  return {
+    ok: true,
+    orderNumber,
+    status: "PENDING_PAYMENT_CONFIRMATION",
+    paymentStatus: "PENDING",
+    customer: { name: customerName, email: customerEmail, phone: customerPhone, address: customerAddress },
+    merchant: {
+      name: "IMPERIA 360",
+      nit: process.env.IMPERIA_NIT || "PENDIENTE_CONFIGURAR_NIT",
+      address: process.env.IMPERIA_ADDRESS || "PENDIENTE_CONFIGURAR_DIRECCION",
+      phone: process.env.IMPERIA_PHONE || "+57 322 966 7868"
+    },
+    lines,
+    total,
+    currency: "COP",
+    fulfillment,
+    observedSupplierCost: supplierCost || null,
+    grossMarginBeforeShipping: supplierCost ? total - supplierCost : null,
+    shippingStatus: "CALCULATE_AFTER_DESTINATION",
+    invoice: {
+      type: "FACTURA_ELECTRONICA_DRAFT",
+      issuer: "IMPERIA 360",
+      status: "DRAFT_NOT_TRANSMITTED_TO_DIAN",
+      note: "Este documento es un borrador/comprobante de pedido hasta conectar el servicio de facturación electrónica DIAN."
+    },
+    nextStep: "Confirmar pago; luego emitir factura electrónica válida y ejecutar abastecimiento con verificación de stock y flete."
+  };
+}
+
 async function createWompiLink(body) {
   const products = await getCatalog();
   const items = Array.isArray(body.items) ? body.items : [];
@@ -297,6 +390,10 @@ export default async function handler(req, res) {
 
       await sendWhatsApp(from, ai || fallback);
       return json(res, { received: true });
+    }
+
+    if (req.method === "POST" && req.query?.action === "create-order") {
+      return json(res, await createOrder(req.body || {}));
     }
 
     if (req.method === "POST" && req.query?.action === "payment") {
