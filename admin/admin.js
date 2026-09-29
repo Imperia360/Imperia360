@@ -31,7 +31,7 @@ function refPrice(p){
 }
 function saleFromMargin(cost,margin){if(!(cost>0)||!(margin>=0&&margin<100))return 0;return Math.ceil(cost/(1-margin/100)/100)*100}
 function renderFilters(){
-  const cats=[...new Set(products.map(p=>p.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"es"));
+  const cats=[...new Set(products.map(p=>typeof p.category==="string"?p.category:String(p.category??"")).filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),"es"));
   $("category").innerHTML='<option value="">Todas las categorías</option>'+cats.map(c=>'<option>'+escapeHtml(c)+'</option>').join("");
 }
 function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
