@@ -18,7 +18,8 @@ async function verify(){
   return repo.owner?.login || OWNER;
 }
 async function loadCatalog(){
-  products=await (await fetch("../data/products.json?admin="+Date.now())).json();
+  products=await (await fetch("https://raw.githubusercontent.com/"+OWNER+"/"+REPO+"/"+BRANCH+"/data/products.json?admin="+Date.now(),{cache:"no-store"})).json();
+  if(!Array.isArray(products)) throw new Error("El catálogo recibido no es un arreglo de productos.");
   const file=await api("/repos/"+OWNER+"/"+REPO+"/contents/"+OVERRIDE_PATH+"?ref="+BRANCH);
   const parsed=JSON.parse(b64decode(file.content));
   overrides=parsed.overrides||{};
