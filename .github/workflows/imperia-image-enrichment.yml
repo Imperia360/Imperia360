@@ -44,3 +44,5 @@ jobs:
           git add data/product-images.json
           git commit -m "chore: add verified product images batch"
           git push
+
+# Continuous completion trigger verified 2026-09-29.
