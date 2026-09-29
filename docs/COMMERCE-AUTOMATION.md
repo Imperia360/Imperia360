@@ -43,3 +43,24 @@ El sistema calcula:
 - necesidad de cotizar el envío según destino.
 
 El costo del proveedor nunca se muestra al cliente. El pedido al proveedor no se marca como automático hasta que exista una API/checkout de proveedor realmente conectado; mientras tanto queda como revisión de abastecimiento, evitando inventar stock, flete o una compra ya realizada.
+
+
+## Orden, abastecimiento y factura
+
+Al iniciar una compra, el sitio solicita nombre, teléfono, correo y dirección de entrega y genera un número de orden IMPERIA. El pedido queda en estado `PENDING_PAYMENT_CONFIRMATION` hasta confirmar el pago.
+
+La orden contiene:
+- detalle de lo comprado, cantidades y valor unitario;
+- total pagado/debido en COP;
+- datos del cliente para entrega y facturación;
+- ficha interna de abastecimiento: proveedor, referencia del proveedor, costo observado cuando existe y enlace de compra;
+- estado de stock y flete, que se verifican antes de comprar al proveedor;
+- comprobante imprimible para el cliente.
+
+Mientras Wompi termina de conectarse, el flujo manual puede usar el QR existente. La información interna de abastecimiento se prepara para IMPERIA y no se presenta como costo al cliente.
+
+### Facturación electrónica
+
+El sistema genera actualmente un **borrador/comprobante de pedido a nombre de IMPERIA 360**, pero no lo presenta como factura electrónica DIAN. Para que sea una factura electrónica válida debe conectarse un software/servicio de facturación habilitado y configurarse los datos fiscales de IMPERIA (RUT/NIT, resolución/rango de numeración, firma/instrumento y demás requisitos aplicables). La DIAN publica estos requisitos oficiales. 
+
+Cuando Wompi quede conectado, el estado de la orden debe pasar a pagado únicamente después de recibir/validar el estado `APPROVED`; Wompi recomienda usar su webhook `transaction.updated` y verificar el estado desde backend. 
