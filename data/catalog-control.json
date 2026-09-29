@@ -184,5 +184,29 @@
       "PresuCosto Colombia 2026"
     ],
     "note": "Only evidence suitable for exact product matching should be promoted to product pricing; generic or $1 placeholder catalog entries are not accepted as prices."
+  },
+  "searchPolicy": {
+    "status": "implemented",
+    "file": "js/catalog-search.js",
+    "behavior": [
+      "SKU/referencia exacta",
+      "nombre exacto",
+      "coincidencia de nombre",
+      "marca y tokens",
+      "categoría solo como coincidencia secundaria"
+    ],
+    "resultLimit": 24,
+    "rule": "Si existen productos coincidentes, mostrar primero producto(s); no enviar directamente a la categoría."
+  },
+  "supplierFulfillmentPolicy": {
+    "status": "defined",
+    "file": "data/supplier-fulfillment-policy-2026-09-29.json",
+    "rule": "API > checkout del proveedor > WhatsApp Business > email > cola manual; nunca asumir integración ni stock."
+  },
+  "enrichmentAutomation": {
+    "pricingWorkflow": ".github/workflows/auto-launch-pricing.yml",
+    "imageWorkflow": ".github/workflows/imperia-image-enrichment.yml",
+    "paintBatchIncluded": true,
+    "status": "automated_queue"
   }
 }
