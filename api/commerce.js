@@ -131,6 +131,58 @@ async function sendWhatsApp(to, text) {
   return r.ok;
 }
 
+async function prepareFulfillment(body) {
+  const products = await getCatalog();
+  const items = Array.isArray(body.items) ? body.items : [];
+  if (!items.length) throw new Error("El carrito está vacío");
+
+  const supplierMap = {
+    "imp-0001": {
+      supplierId: "roxvan",
+      supplierName: "Roxvan",
+      supplierReference: "13604",
+      supplierProductUrl: "https://roxvan.com/producto/chazo-plastico-con-tornillo-1-4-x-50unds-ht1238-ref13604/",
+      observedCost: 2428,
+      costBasis: "precio público observado para 12+ unidades; verificar nuevamente al comprar",
+      stockStatus: "VERIFY_AT_ORDER_TIME"
+    }
+  };
+
+  const lines = [];
+  let saleTotal = 0;
+  let supplierTotal = 0;
+  for (const item of items) {
+    const wanted = String(item.id || item.sku || item.reference || item.name || "");
+    const product = products.find((p) => [p.id,p.identification?.sku,p.identification?.manufacturerReference,p.identification?.supplierReference,p.name]
+      .some((v) => norm(v) === norm(wanted)));
+    if (!product) throw new Error("Producto no encontrado en catálogo: " + wanted);
+    const unitSale = price(product);
+    if (!unitSale) throw new Error("Producto sin precio confirmado: " + product.name);
+    const qty = Math.max(1, Math.min(999, Math.floor(Number(item.qty) || 1)));
+    const route = supplierMap[product.id];
+    if (!route) {
+      lines.push({productId:product.id,name:product.name,qty,unitSale,fulfillment:"MANUAL_SUPPLIER_REVIEW",supplierCost:null,margin:null});
+      saleTotal += unitSale * qty;
+      continue;
+    }
+    const supplierCost = route.observedCost;
+    const margin = (unitSale - supplierCost) * qty;
+    lines.push({productId:product.id,name:product.name,qty,unitSale,supplierId:route.supplierId,supplierName:route.supplierName,supplierReference:route.supplierReference,supplierCost,margin,stockStatus:route.stockStatus,supplierProductUrl:route.supplierProductUrl});
+    saleTotal += unitSale * qty;
+    supplierTotal += supplierCost * qty;
+  }
+  return {
+    ok:true,
+    status:"READY_FOR_PAYMENT_THEN_FULFILLMENT",
+    saleTotal,
+    observedSupplierCost:supplierTotal || null,
+    grossMarginBeforeShipping:(saleTotal - supplierTotal) || null,
+    shipping:"CALCULATE_AFTER_DESTINATION",
+    lines,
+    nextStep:"After Wompi reports APPROVED, create supplier order and obtain tracking number. No stock or freight is invented."
+  };
+}
+
 async function createWompiLink(body) {
   const products = await getCatalog();
   const items = Array.isArray(body.items) ? body.items : [];
@@ -254,6 +306,10 @@ export default async function handler(req, res) {
         provider: "wompi",
         paymentUrl,
       });
+    }
+
+    if (req.method === "POST" && req.query?.action === "prepare-fulfillment") {
+      return json(res, await prepareFulfillment(req.body || {}));
     }
 
     return json(res, { error: "Not found" }, 404);
