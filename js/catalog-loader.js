@@ -11,11 +11,49 @@ export async function loadProducts(source = './data/products.json') {
     throw new Error(`No fue posible cargar el catálogo: ${response.status}`);
   }
 
-  const products = await response.json();
+  let products = await response.json();
 
   if (!Array.isArray(products)) {
     throw new Error('El catálogo debe ser un arreglo de productos.');
   }
+
+  // Proveedor Roxvan: referencias públicas observadas, con precio IMPERIA
+  // calculado según las reglas comerciales configuradas.
+  try {
+    const rr = await fetch('./data/roxvan-products.json?' + Date.now());
+    if (rr.ok) {
+      const rd = await rr.json();
+      const roxvan = Array.isArray(rd.products) ? rd.products : [];
+      const existing = new Set(products.map(p => String(p?.id)));
+      for (const rp of roxvan) {
+        if (!existing.has(String(rp.id))) {
+          products.push({
+            id: rp.id,
+            name: rp.name,
+            identification: { sku: rp.sku, manufacturerReference: rp.sku },
+            category: { name: rp.category },
+            availability: { status: rp.stockStatus },
+            supplier: { name: 'Roxvan', source: rp.source, sourceUrl: rp.sourceUrl },
+            pricing: {
+              currency: 'COP',
+              manualSalePrice: rp.retailPrice,
+              manualRetailPrice: rp.retailPrice,
+              manualContractorPrice: rp.contractorPrice,
+              manualWholesalePrice: rp.wholesalePrice,
+              manualMarginPct: 35,
+              pricingStatus: 'provisional_published',
+              costBasis: 'roxvan_public_wholesale_observed',
+              calculationBase: rp.observedWholesaleCost,
+              source: rp.source,
+              sourceUrl: rp.sourceUrl,
+              calculationNote: 'Precio IMPERIA calculado sobre precio mayorista público observado; disponibilidad y costos logísticos se verifican al confirmar el pedido.'
+            }
+          });
+          existing.add(String(rp.id));
+        }
+      }
+    }
+  } catch {}
 
   let priceOverrides = {};
   try {
