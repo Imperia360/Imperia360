@@ -1,6 +1,6 @@
 {
   "version": 1,
   "whatsapp": {"businessNumber":"573229667868","automation":"cloud_api_webhook"},
-  "payments": {"provider":"wompi","currency":"COP","checkoutMode":"payment_link","qrFallback":"./assets/payments/imperia360-breb-qr.png","apiBaseUrl":""},
+  "payments": {"provider":"wompi","currency":"COP","checkoutMode":"payment_link","qrFallback":"./assets/payments/imperia360-breb-qr.png","apiBaseUrl":"/api/commerce"},
   "ai": {"provider":"gemini","model":"gemini-2.5-flash","catalogSource":"./data/products.json"}
 }
