@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "status": "organic_marketing_active_paid_ads_pending_budget",
+  "rules": {
+    "onlyAdvertisePricedProducts": true,
+    "onlyUseVerifiedImages": true,
+    "neverInventStock": true,
+    "neverInventSupplierCost": true,
+    "retailMarginPct": 35,
+    "contractorMarginPct": 25,
+    "wholesaleMarginPct": 20,
+    "noPaidSpendWithoutExplicitBudget": true,
+    "landingPage": "https://imperia360.github.io/Imperia360/"
+  },
+  "channels": [
+    "Instagram",
+    "Facebook",
+    "TikTok",
+    "WhatsApp",
+    "Google organic"
+  ],
+  "cadence": "1 daily product post + 3 short-form variations/week + WhatsApp status",
+  "eligibleProducts": [
+    {
+      "productId": "imp-0001",
+      "price": 5300,
+      "image": "https://supuntoferretero.odoo.com/web/image/product.template/4861/image_1920?unique=d45131f",
+      "source": "Su Punto Ferretero"
+    },
+    {
+      "productId": "imp-0002",
+      "price": 7200,
+      "image": "https://www.intradelink.us/web/image/product.template/12623/image_1920?unique=4e232ec",
+      "source": "Intrade Link"
+    },
+    {
+      "productId": "imp-0003",
+      "price": 11900,
+      "image": "https://www.hoyostools.com/web/image/product.template/18036/image_1920?unique=0699aac",
+      "source": "Distribuciones Hoyostools SAS"
+    },
+    {
+      "productId": "aud-0017",
+      "price": 9700,
+      "image": "https://importadorasuperior.com/wp-content/uploads/2026/08/ACS.png",
+      "source": "Importadora Superior"
+    },
+    {
+      "productId": "aud-0018",
+      "price": 2200,
+      "image": "https://importadorasuperior.com/wp-content/uploads/2026/08/ACS.png",
+      "source": "Importadora Superior"
+    },
+    {
+      "productId": "aud-0023",
+      "price": 114200,
+      "image": "https://importadorasuperior.com/wp-content/uploads/2026/08/cect1000.png",
+      "source": "Importadora Superior"
+    },
+    {
+      "productId": "aud-0024",
+      "price": 93800,
+      "image": "https://importadorasuperior.com/wp-content/uploads/2026/08/cect1000.png",
+      "source": "Importadora Superior"
+    },
+    {
+      "productId": "aud-0025",
+      "price": 79600,
+      "image": "https://importadorasuperior.com/wp-content/uploads/2026/08/APB-1.png",
+      "source": "Importadora Superior"
+    }
+  ],
+  "contentQueue": [
+    {
+      "productId": "imp-0001",
+      "format": "short_video",
+      "cta": "Añadir al carrito / Comprar por WhatsApp",
+      "price": 5300
+    },
+    {
+      "productId": "imp-0002",
+      "format": "product_post",
+      "cta": "Añadir al carrito / Comprar por WhatsApp",
+      "price": 7200
+    },
+    {
+      "productId": "imp-0003",
+      "format": "product_post",
+      "cta": "Añadir al carrito / Comprar por WhatsApp",
+      "price": 11900
+    },
+    {
+      "productId": "aud-0017",
+      "format": "short_video",
+      "cta": "Añadir al carrito / Comprar por WhatsApp",
+      "price": 9700
+    },
+    {
+      "productId": "aud-0018",
+      "format": "product_post",
+      "cta": "Añadir al carrito / Comprar por WhatsApp",
+      "price": 2200
+    },
+    {
+      "productId": "aud-0023",
+      "format": "product_post",
+      "cta": "Añadir al carrito / Comprar por WhatsApp",
+      "price": 114200
+    },
+    {
+      "productId": "aud-0024",
+      "format": "short_video",
+      "cta": "Añadir al carrito / Comprar por WhatsApp",
+      "price": 93800
+    },
+    {
+      "productId": "aud-0025",
+      "format": "product_post",
+      "cta": "Añadir al carrito / Comprar por WhatsApp",
+      "price": 79600
+    }
+  ]
+}
