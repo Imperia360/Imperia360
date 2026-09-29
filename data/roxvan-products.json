@@ -312,6 +312,21 @@
       "publicationStatus": "provisional_published",
       "stockStatus": "verificar_en_Roxvan_al_momento_del_pedido",
       "pricingVerifiedAt": "2026-09-29"
+    },
+    {
+      "id": "roxvan-b4b14558ak",
+      "name": "Pintura Vinilo Tipo 1 Interior Blanco Vharbor Galón",
+      "sku": "B4B14558AK",
+      "category": "Pinturas y acabados",
+      "source": "Roxvan",
+      "sourceUrl": "https://roxvan.com/producto/pintura-vinilo-tipo-1-interior-blanco-galon-vharbor/",
+      "observedWholesaleCost": 40250,
+      "wholesalePrice": 50300,
+      "contractorPrice": 53700,
+      "retailPrice": 62000,
+      "publicationStatus": "provisional_published",
+      "stockStatus": "verificar_en_Roxvan_al_momento_del_pedido",
+      "pricingVerifiedAt": "2026-09-29"
     }
   ],
   "publication": {
