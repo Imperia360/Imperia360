@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-09-29",
+  "status": "defined_for_implementation",
+  "rule": "IMPERIA vende; el proveedor abastece y despacha cuando el producto no está en inventario propio.",
+  "orderFlow": [
+    "customer_search",
+    "product_selection",
+    "availability_check",
+    "supplier_price_and_stock_check",
+    "imperial_order_confirmation",
+    "supplier_order_creation",
+    "supplier_dispatch",
+    "tracking_capture",
+    "customer_notification",
+    "delivery_confirmation",
+    "margin_reconciliation"
+  ],
+  "connectionPriority": [
+    {
+      "method": "api",
+      "when": "proveedor ofrece API/documentación y credenciales autorizadas",
+      "action": "consultar SKU/stock/precio y crear pedido"
+    },
+    {
+      "method": "supplier_checkout",
+      "when": "proveedor tiene comercio electrónico sin API",
+      "action": "usar checkout/enlace asistido; no almacenar credenciales del cliente"
+    },
+    {
+      "method": "whatsapp_business",
+      "when": "proveedor opera pedidos por WhatsApp",
+      "action": "generar orden estructurada para confirmación"
+    },
+    {
+      "method": "email",
+      "when": "proveedor acepta órdenes por correo",
+      "action": "enviar orden con SKU, cantidad, dirección y referencia IMPERIA"
+    },
+    {
+      "method": "manual_fallback",
+      "when": "no existe integración verificable",
+      "action": "cola operativa para confirmar antes del despacho"
+    }
+  ],
+  "safeguards": [
+    "Nunca inventar stock.",
+    "Nunca asumir precio proveedor a partir del precio público.",
+    "No efectuar pagos irreversibles sin integración y autorización.",
+    "Guardar SKU/referencia/presentación exactos.",
+    "Registrar costo proveedor, flete, impuestos, comisión y margen real.",
+    "Si proveedor rechaza o queda sin stock, informar al cliente antes de prometer despacho."
+  ],
+  "orderRecordFields": [
+    "imperiaOrderId",
+    "supplierId",
+    "supplierOrderId",
+    "productId",
+    "sku",
+    "presentation",
+    "quantity",
+    "supplierUnitCost",
+    "supplierShipping",
+    "customerSalePrice",
+    "paymentStatus",
+    "stockStatus",
+    "supplierStatus",
+    "trackingNumber",
+    "carrier",
+    "createdAt",
+    "confirmedAt",
+    "dispatchedAt"
+  ],
+  "nextIntegrationStep": "Registrar proveedores reales uno por uno con método de pedido, URL, SKU/ref, política de stock y contacto operativo; después habilitar el conector correspondiente."
+}
