@@ -121,8 +121,13 @@ export function productCard(product={}) {
   const cart=document.createElement('button');
   cart.type='button';
   cart.className='btn gold';
-  cart.textContent='Añadir al carrito';
+  cart.textContent='🛒 Añadir al carrito';
+  cart.disabled=false;
+  cart.removeAttribute('disabled');
+  cart.setAttribute('aria-disabled','false');
+  cart.style.pointerEvents='auto';
   cart.dataset.cartProduct=JSON.stringify({id:product.id??'',name:product.name??'',price:product.pricing?.manualSalePrice??(product.pricing?.status==='validated'?product.pricing.publicPrice:null),currency:product.pricing?.currency??'COP',status:product.pricing?.status??'quote_only',reference:product.identification?.manufacturerReference??product.identification?.sku??''});
+  cart.addEventListener('click',()=>{cart.textContent='✓ Añadido al carrito';setTimeout(()=>{cart.textContent='🛒 Añadir al carrito'},1200)});
   actions.append(cart);
 
   const contact=document.createElement('a');
