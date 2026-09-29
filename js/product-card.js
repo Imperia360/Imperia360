@@ -64,34 +64,9 @@ export function productCard(product={}) {
     const p=document.createElement('strong');
     p.textContent='Precio IMPERIA: '+(product.pricing.currency??'COP')+' '+Number(product.pricing.manualSalePrice).toLocaleString('es-CO');
     c.append(p);
-    const m=product.pricing?.sourceReferencePrice;
-    if(m?.min!=null && m.min>0){
-      const rp=document.createElement('small'); rp.className='market-reference-price';
-      const shown=m.min===m.max?m.min.toLocaleString('es-CO'):`${m.min.toLocaleString('es-CO')} – ${m.max.toLocaleString('es-CO')}`;
-      rp.textContent='Referencia de mercado: COP '+shown; c.append(rp);
-    }
     const n=document.createElement('small'); n.className='price-note';
-    n.textContent=product.pricing?.pricingStatus==='calculated_from_market_reference'
-      ? 'Precio IMPERIA calculado con margen comercial; base: referencia pública de mercado. No es costo confirmado de proveedor.'
-      : 'Precio definido por IMPERIA; la referencia pública no es el precio de venta.';
-    c.append(n);
-  } else if(product.pricing?.status==='validated' && product.pricing.publicPrice!=null){
-    const p=document.createElement('strong');
-    p.textContent=(product.pricing.currency??'COP')+' '+product.pricing.publicPrice.toLocaleString('es-CO');
-    c.append(p);
-  } else if(product.pricing?.status==='quote_only'){
-    const p=document.createElement('strong'); p.textContent='Precio: Cotizar'; c.append(p);
-    const ref=product.pricing?.sourceReferencePrice;
-    if(ref?.min!=null && ref.min>0){
-      const rp=document.createElement('small');
-      rp.className='market-reference-price';
-      const shown=ref.min===ref.max ? ref.min.toLocaleString('es-CO') : `${ref.min.toLocaleString('es-CO')} – ${ref.max.toLocaleString('es-CO')}`;
-      rp.textContent='Referencia de mercado: COP '+shown;
-      c.append(rp);
-    }
-    const n=document.createElement('small');
-    n.className='price-note';
-    n.textContent='Referencia pública; no es precio de venta IMPERIA.';
+    const margin = Number(product.pricing?.manualMarginPct ?? 35);
+    n.textContent = 'Precio final IMPERIA con margen comercial del '+margin+'%.';
     c.append(n);
   } else {
     const p=document.createElement('small');
