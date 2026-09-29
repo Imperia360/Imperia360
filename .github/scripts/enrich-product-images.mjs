@@ -135,3 +135,5 @@ console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-befo
 // Trigger automatic image enrichment after workflow hardening — 2026-09-29.
 
 // Paint priority: verified cuñete and medio cuñete references are included through the merged supplier/market catalog — 2026-09-29.
+
+// Manual execution trigger: 2026-09-29 — run verified image enrichment now.
