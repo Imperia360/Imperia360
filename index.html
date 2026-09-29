@@ -90,7 +90,7 @@ import{loadProducts}from'./js/catalog-loader.js';import{searchCatalog}from'./js/
 <button class="btn green" id="cart-checkout" type="button" style="width:100%">Continuar compra por WhatsApp</button>
 </aside><script>
 (function(){
-const KEY='imperia360_cart_v1';let cart=[];try{cart=JSON.parse(localStorage.getItem(KEY)||'[]')}catch{}
+const KEY='imperia360_cart_v1';let cart=[];try{cart=JSON.parse(localStorage.getItem(KEY)||'[]')}catch{};window.imperia360AddToCart=function(p){const found=cart.find(x=>x.id===p.id&&x.name===p.name);if(found)found.qty++;else cart.push({...p,qty:1});save();$('cart-panel').classList.add('open');};
 const $=id=>document.getElementById(id);
 function save(){localStorage.setItem(KEY,JSON.stringify(cart));render()}
 function render(){const items=$('cart-items');if(!items)return;items.replaceChildren();$('cart-count').textContent=cart.reduce((s,x)=>s+x.qty,0);let total=0;
