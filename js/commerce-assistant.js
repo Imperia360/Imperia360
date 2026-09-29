@@ -40,6 +40,7 @@
       const r=await fetch(base+'?action=create-order',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({items,customer})});
       const d=await r.json();if(!r.ok||!d.ok)throw new Error(d.error||'No fue posible crear el pedido.');
       localStorage.setItem('imperia360_last_order',JSON.stringify(d));
+      showOrderSummary(d);
       return d;
     }catch(e){
       const lines=c.map(x=>({id:x.id,name:x.name,reference:x.reference||'',qty:Number(x.qty)||1,unitPrice:Number(x.price)||0,lineTotal:(Number(x.price)||0)*(Number(x.qty)||1)}));
@@ -50,6 +51,19 @@
       localStorage.setItem('imperia360_last_order',JSON.stringify(d));
       return d;
     }
+  }
+
+  function showOrderSummary(o){
+    let old=document.getElementById('imperia-order-summary'); if(old) old.remove();
+    const box=document.createElement('div'); box.id='imperia-order-summary';
+    box.style.cssText='position:fixed;inset:auto 16px 16px 16px;z-index:10020;background:#fff;border:1px solid #dfe7ed;border-radius:18px;box-shadow:0 20px 60px #0004;padding:18px;max-height:75vh;overflow:auto';
+    const products=o.lines.map(x=>'<tr><td>'+escapeHtml(x.name)+'</td><td>'+x.qty+'</td><td>$ '+money(x.unitPrice)+'</td><td>$ '+money(x.lineTotal)+'</td></tr>').join('');
+    const suppliers=o.fulfillment.map(x=>'<li><b>'+escapeHtml(x.product)+'</b> × '+x.qty+' — '+escapeHtml(x.supplier||'Revisión manual')+(x.supplierReference?' | Ref. '+escapeHtml(x.supplierReference):'')+(x.supplierUrl?' <a target="_blank" rel="noopener" href="'+x.supplierUrl+'">Comprar al proveedor</a>':'')+'</li>').join('');
+    box.innerHTML='<div style="display:flex;justify-content:space-between;gap:10px"><h3 style="margin:0">Orden '+escapeHtml(o.orderNumber)+'</h3><button id="imp-order-close" class="btn light" type="button">Cerrar</button></div><p><b>Cliente:</b> '+escapeHtml(o.customer.name)+' · <b>Tel:</b> '+escapeHtml(o.customer.phone)+'</p><table style="width:100%;border-collapse:collapse"><thead><tr><th>Producto</th><th>Cant.</th><th>Unit.</th><th>Total</th></tr></thead><tbody>'+products+'</tbody></table><h3 style="text-align:right">TOTAL: COP '+money(o.total)+'</h3><h4>Abastecimiento IMPERIA</h4><ul>'+suppliers+'</ul><p><b>Estado:</b> '+escapeHtml(o.status)+' · <b>Pago:</b> '+escapeHtml(o.paymentStatus)+'</p><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><button id="imp-order-print" class="btn green" type="button">Imprimir comprobante</button><button id="imp-order-wa" class="btn light" type="button">Enviar orden a WhatsApp</button></div>';
+    document.body.append(box);
+    box.querySelector('#imp-order-close').onclick=()=>box.remove();
+    box.querySelector('#imp-order-print').onclick=()=>printInvoice(o);
+    box.querySelector('#imp-order-wa').onclick=()=>wa(orderForWhatsApp(o));
   }
 
   function orderForWhatsApp(o){
