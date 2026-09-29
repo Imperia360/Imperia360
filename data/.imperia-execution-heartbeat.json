@@ -1,0 +1,7 @@
+{
+  "purpose": "manual execution trigger",
+  "requestedBy": "user",
+  "cycle": "catalog-image-pricing-integrity-site",
+  "date": "2026-09-29",
+  "note": "No product data is changed by this heartbeat."
+}
