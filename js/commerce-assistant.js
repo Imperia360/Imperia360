@@ -41,7 +41,15 @@
       const d=await r.json();if(!r.ok||!d.ok)throw new Error(d.error||'No fue posible crear el pedido.');
       localStorage.setItem('imperia360_last_order',JSON.stringify(d));
       return d;
-    }catch(e){alert(e.message||'No fue posible crear el pedido.');return null;}
+    }catch(e){
+      const lines=c.map(x=>({id:x.id,name:x.name,reference:x.reference||'',qty:Number(x.qty)||1,unitPrice:Number(x.price)||0,lineTotal:(Number(x.price)||0)*(Number(x.qty)||1)}));
+      if(lines.some(x=>!x.unitPrice)){alert('No fue posible crear el pedido porque hay productos sin precio confirmado.');return null;}
+      const total=lines.reduce((s,x)=>s+x.lineTotal,0);
+      const orderNumber='IMP-LOCAL-'+Date.now();
+      const d={ok:true,orderNumber,status:'PENDING_PAYMENT_CONFIRMATION',paymentStatus:'PENDING',customer,merchant:{name:'IMPERIA 360',phone:'+57 322 966 7868'},lines,total,currency:'COP',fulfillment:lines.map(x=>({product:x.name,qty:x.qty,supplier:'REVISIÓN MANUAL',supplierReference:'',supplierUrl:'',stockStatus:'VERIFY_AT_ORDER_TIME'})),shippingStatus:'CALCULATE_AFTER_DESTINATION',invoice:{type:'FACTURA_ELECTRONICA_DRAFT',issuer:'IMPERIA 360',status:'DRAFT_NOT_TRANSMITTED_TO_DIAN',note:'Comprobante/borrador; requiere facturación electrónica validada por DIAN.'},backendUnavailable:true};
+      localStorage.setItem('imperia360_last_order',JSON.stringify(d));
+      return d;
+    }
   }
 
   function orderForWhatsApp(o){
