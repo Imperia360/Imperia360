@@ -67,19 +67,49 @@ export async function loadProducts(source = './data/products.json') {
       }
     } : product;
 
-    if (!override?.manualSalePrice && !provisional?.manualSalePrice) return withImages;
+    // If there is no explicit IMPERIA price yet, calculate one from the
+    // verified public market-reference range already attached to the product.
+    // This prevents "Cotizar" when a usable market benchmark exists.
+    let calculated = null;
+    if (!override?.manualSalePrice && !provisional?.manualSalePrice) {
+      const ref = withImages.pricing?.sourceReferencePrice;
+      const benchmark = Math.max(Number(ref?.max || 0), Number(ref?.min || 0));
+      if (benchmark > 0) {
+        const retailMarginPct = 35;
+        const contractorMarginPct = 25;
+        const wholesaleMarginPct = 20;
+        const price = (cost, margin) => Math.ceil((cost / (1 - margin / 100)) / 100) * 100;
+        calculated = {
+          manualSalePrice: price(benchmark, retailMarginPct),
+          manualRetailPrice: price(benchmark, retailMarginPct),
+          manualContractorPrice: price(benchmark, contractorMarginPct),
+          manualWholesalePrice: price(benchmark, wholesaleMarginPct),
+          manualMarginPct: retailMarginPct,
+          pricingStatus: "calculated_from_market_reference",
+          costBasis: "market_reference_benchmark",
+          calculationBase: benchmark,
+          calculationNote: "Precio IMPERIA calculado sobre la referencia pública máxima disponible; no es costo confirmado de proveedor."
+        };
+      }
+    }
 
+    if (!override?.manualSalePrice && !provisional?.manualSalePrice && !calculated) return withImages;
+
+    const p = provisional || {};
+    const v = calculated || {};
     return {
       ...withImages,
       pricing: {
         ...(withImages.pricing || {}),
-        manualSalePrice: Number(override?.manualSalePrice ?? provisional.manualSalePrice),
-        manualMarginPct: override?.manualMarginPct ?? provisional?.retailMarginPct ?? null,
-        manualWholesalePrice: Number(override?.manualWholesalePrice ?? provisional?.manualWholesalePrice ?? 0),
-        manualContractorPrice: Number(override?.manualContractorPrice ?? provisional?.manualContractorPrice ?? 0),
-        pricingStatus: override ? "manual" : "provisional_published",
-        manualUpdatedAt: override.updatedAt,
-        manualUpdatedBy: override.updatedBy
+        manualSalePrice: Number(override?.manualSalePrice ?? p.manualSalePrice ?? v.manualSalePrice),
+        manualMarginPct: override?.manualMarginPct ?? p.retailMarginPct ?? v.manualMarginPct ?? null,
+        manualWholesalePrice: Number(override?.manualWholesalePrice ?? p.manualWholesalePrice ?? v.manualWholesalePrice ?? 0),
+        manualContractorPrice: Number(override?.manualContractorPrice ?? p.manualContractorPrice ?? v.manualContractorPrice ?? 0),
+        pricingStatus: override ? "manual" : (p.manualSalePrice ? "provisional_published" : "calculated_from_market_reference"),
+        costBasis: override ? "manual" : (p.costBasis ?? v.costBasis),
+        calculationBase: p.observedWholesaleCost ?? v.calculationBase ?? null,
+        manualUpdatedAt: override?.updatedAt ?? p.updatedAt ?? new Date().toISOString(),
+        manualUpdatedBy: override?.updatedBy ?? p.updatedBy ?? "IMPERIA 360 automatic pricing"
       }
     };
 
