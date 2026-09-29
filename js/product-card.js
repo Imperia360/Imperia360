@@ -64,10 +64,7 @@ export function productCard(product={}) {
     const p=document.createElement('strong');
     p.textContent='Precio IMPERIA: '+(product.pricing.currency??'COP')+' '+Number(product.pricing.manualSalePrice).toLocaleString('es-CO');
     c.append(p);
-    const n=document.createElement('small'); n.className='price-note';
-    const margin = Number(product.pricing?.manualMarginPct ?? 35);
-    n.textContent = 'Precio final IMPERIA con margen comercial del '+margin+'%.';
-    c.append(n);
+
   } else {
     const p=document.createElement('small');
     p.className='price-pending';
@@ -75,24 +72,9 @@ export function productCard(product={}) {
     c.append(p);
   }
 
-  if(product.images?.verificationStatus==='verified_source_image'){
-    const s=document.createElement('small');
-    s.className='image-verified';
-    s.textContent='✓ Imagen verificada';
-    c.append(s);
-  }
 
   const actions=document.createElement('div');
   actions.className='product-actions';
-  if(product.images?.sourcePage){
-    const a=document.createElement('a');
-    a.className='btn light';
-    a.href=product.images.sourcePage;
-    a.target='_blank';
-    a.rel='noopener noreferrer';
-    a.textContent='Ver fuente de imagen';
-    actions.append(a);
-  }
   const cart=document.createElement('button');
   cart.type='button';
   cart.className='btn gold';
