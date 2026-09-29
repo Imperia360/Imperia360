@@ -30,16 +30,21 @@ function refPrice(p){
   return r.min===r.max?r.min:(r.min+r.max)/2;
 }
 function saleFromMargin(cost,margin){if(!(cost>0)||!(margin>=0&&margin<100))return 0;return Math.ceil(cost/(1-margin/100)/100)*100}
+function categoryLabel(v){
+  if(typeof v==="string") return v;
+  if(v && typeof v==="object") return String(v.name??v.label??v.title??v.value??"");
+  return String(v??"");
+}
 function renderFilters(){
-  const cats=[...new Set(products.map(p=>typeof p.category==="string"?p.category:String(p.category??"")).filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),"es"));
+  const cats=[...new Set(products.map(p=>categoryLabel(p.category)).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"es"));
   $("category").innerHTML='<option value="">Todas las categorías</option>'+cats.map(c=>'<option>'+escapeHtml(c)+'</option>').join("");
 }
 function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function render(){
   const q=$("search").value.trim().toLowerCase(),cat=$("category").value;
   const list=products.filter(p=>{
-    const hay=[p.name,p.category,p.brand?.name,p.identification?.sku,p.identification?.manufacturerReference].filter(Boolean).join(" ").toLowerCase();
-    return (!q||hay.includes(q))&&(!cat||p.category===cat);
+    const hay=[p.name,categoryLabel(p.category),p.brand?.name,p.identification?.sku,p.identification?.manufacturerReference].filter(Boolean).join(" ").toLowerCase();
+    return (!q||hay.includes(q))&&(!cat||categoryLabel(p.category)===cat);
   });
   $("count").textContent=list.length+" producto(s)";
   $("products").innerHTML=list.slice(0,300).map(card).join("");
