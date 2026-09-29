@@ -17,6 +17,17 @@ export async function loadProducts(source = './data/products.json') {
     throw new Error('El catálogo debe ser un arreglo de productos.');
   }
 
+  let priceOverrides = {};
+  try {
+    const priceResponse = await fetch('./data/price-overrides.json');
+    if (priceResponse.ok) {
+      const priceData = await priceResponse.json();
+      priceOverrides = priceData?.overrides || {};
+    }
+  } catch {
+    priceOverrides = {};
+  }
+
   let imageRecords = [];
   try {
     const imageResponse = await fetch('./data/product-images.json');
@@ -39,9 +50,8 @@ export async function loadProducts(source = './data/products.json') {
   // an already recovered product disappear from the public catalog.
   return products.map(product => {
     const evidence = verifiedImages.get(String(product?.id));
-    if (!evidence) return product;
-
-    return {
+    const override = priceOverrides[String(product?.id)];
+    const withImages = evidence ? {
       ...product,
       images: {
         ...(product.images || {}),
@@ -51,6 +61,20 @@ export async function loadProducts(source = './data/products.json') {
         verificationStatus: evidence.verificationStatus,
         verifiedAt: evidence.verifiedAt
       }
+    } : product;
+
+    if (!override?.manualSalePrice) return withImages;
+
+    return {
+      ...withImages,
+      pricing: {
+        ...(withImages.pricing || {}),
+        manualSalePrice: Number(override.manualSalePrice),
+        manualMarginPct: override.manualMarginPct ?? null,
+        manualUpdatedAt: override.updatedAt,
+        manualUpdatedBy: override.updatedBy
+      }
     };
+
   });
 }
