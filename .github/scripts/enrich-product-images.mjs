@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 
 const PRODUCTS='data/products.json';
 const ROXVAN='data/roxvan-products.json';
+const PAINTS='data/paint-catalog-batch-2026-09-29.json';
 const IMAGES='data/product-images.json';
 const OFFERS='data/market-offers.json';
 const EXA='data/exa-discovery.json';
@@ -53,8 +54,10 @@ async function sitemapCandidates(base,p){
 const baseProducts=JSON.parse(await fs.readFile(PRODUCTS,'utf8'));
 let roxvanProducts=[];
 try{const rp=JSON.parse(await fs.readFile(ROXVAN,'utf8')).products||[]; roxvanProducts=rp.map(p=>({...p,source:{name:p.source||'Roxvan',url:p.sourceUrl||null},identification:{sku:p.sku||null,supplierReference:p.sku||null}}));}catch{}
+let paintProducts=[];
+try{paintProducts=JSON.parse(await fs.readFile(PAINTS,'utf8')).products||[];}catch{}
 const seen=new Set(baseProducts.map(p=>String(p.id)));
-const products=[...baseProducts,...roxvanProducts.filter(p=>p?.id&&!seen.has(String(p.id)))];
+const products=[...baseProducts,...roxvanProducts.filter(p=>p?.id&&!seen.has(String(p.id))),...paintProducts.filter(p=>p?.id&&!seen.has(String(p.id)))];
 const imgData=JSON.parse(await fs.readFile(IMAGES,'utf8'));
 const offerData=JSON.parse(await fs.readFile(OFFERS,'utf8')).offers||[];
 let exa=[]; try{exa=JSON.parse(await fs.readFile(EXA,'utf8')).results||[]}catch{}
