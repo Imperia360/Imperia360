@@ -138,12 +138,30 @@ import{loadProducts}from'./js/catalog-loader.js';import{searchCatalog}from'./js/
   el('cart-close').addEventListener('click',closeCart);
   el('cart-backdrop').addEventListener('click',closeCart);
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeCart();});
-  el('cart-checkout').addEventListener('click',()=>{
+  function cartLines(){
+    return cart.map(x=>'- '+(x.name||'Producto')+' x'+(x.qty||1)+(x.reference?' (Ref. '+x.reference+')':''));
+  }
+  function continueWhatsApp(){
     if(!cart.length){openCart();return;}
-    const lines=cart.map(x=>'- '+(x.name||'Producto')+' x'+(x.qty||1)+(x.reference?' (Ref. '+x.reference+')':''));
-    const msg=['Hola IMPERIA 360. Quiero continuar la compra de mi carrito:',...lines,'','Por favor confirmar disponibilidad, precio final, entrega y condiciones antes del pago.'].join('\n');
+    const msg=['Hola IMPERIA 360. Quiero continuar la compra de mi carrito:',...cartLines(),'','Por favor confirmar disponibilidad, precio final, entrega y condiciones antes del pago.'].join('\n');
     window.open('https://wa.me/573229667868?text='+encodeURIComponent(msg),'_blank','noopener,noreferrer');
-  });
+  }
+  function showImperialQr(){
+    if(!cart.length){openCart();return;}
+    let modal=el('imperia-qr-modal');
+    if(!modal){
+      modal=document.createElement('div');modal.id='imperia-qr-modal';
+      modal.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:10030;display:flex;align-items:center;justify-content:center;padding:18px';
+      const card=document.createElement('div');card.style.cssText='background:#fff;border-radius:20px;padding:20px;max-width:420px;width:100%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.35)';
+      card.innerHTML='<h3 style="margin:0 0 8px">Pagar con QR</h3><p style="margin:0 0 14px;color:#647487">Escanea el QR de IMPERIA 360 con tu aplicación bancaria.</p><img src="./assets/payments/imperia360-breb-qr.png?v=1" alt="QR de pago IMPERIA 360" style="display:block;width:min(320px,90vw);height:auto;margin:0 auto 16px"><p style="font-size:12px;color:#647487">Después de pagar, conserva el comprobante y continúa por WhatsApp si necesitas confirmar el pedido.</p><button class="btn light" type="button" style="width:100%">Cerrar</button>';
+      modal.append(card);document.body.append(modal);
+      card.querySelector('button').addEventListener('click',()=>modal.remove());
+      modal.addEventListener('click',e=>{if(e.target===modal)modal.remove()});
+    }
+  }
+  el('cart-checkout').addEventListener('click',continueWhatsApp);
+  el('cart-pay-whatsapp').addEventListener('click',continueWhatsApp);
+  el('cart-pay-qr').addEventListener('click',showImperialQr);
   document.addEventListener('click',e=>{
     const b=e.target.closest('[data-cart-product]');if(!b)return;
     try{const p=JSON.parse(b.dataset.cartProduct||'{}');window.imperia360AddToCart(p);}catch(err){console.error('Carrito:',err);}
