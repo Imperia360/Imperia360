@@ -76,16 +76,5 @@ export async function loadProducts(source = './data/products.json') {
       }
     };
 
-    return {
-      ...product,
-      images: {
-        ...(product.images || {}),
-        primary: evidence.imageUrl,
-        source: evidence.source,
-        sourcePage: evidence.sourcePage,
-        verificationStatus: evidence.verificationStatus,
-        verifiedAt: evidence.verifiedAt
-      }
-    };
   });
 }
