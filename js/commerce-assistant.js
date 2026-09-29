@@ -26,7 +26,7 @@
     if(!cfg?.payments?.apiBaseUrl){alert('El pago automático está preparado. Falta conectar el backend seguro Wompi; el botón no realizará un cobro hasta esa conexión.');return;}
     const base=(cfg.payments.apiBaseUrl||'/api/commerce').replace(/\\/$/,'');
     const desc=cart.map(x=>(x.name||'Producto')+' x'+(x.qty||1)).join(', ');
-    try{const r=await fetch(base+'?action=payment',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({amount:total,name:'Compra IMPERIA 360',description:desc,method:method||'CHECKOUT'})});const d=await r.json();if(!r.ok||!d.paymentUrl)throw new Error(d.error||'No fue posible iniciar el pago');window.open(d.paymentUrl,'_blank','noopener,noreferrer');}catch(e){alert(e.message||'No fue posible iniciar el pago.');}
+    try{const r=await fetch(base+'?action=payment',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({items:cart.map(x=>({id:x.id,name:x.name,sku:x.sku,reference:x.reference,qty:x.qty})),name:'Compra IMPERIA 360',description:desc,method:method||'CHECKOUT'})});const d=await r.json();if(!r.ok||!d.paymentUrl)throw new Error(d.error||'No fue posible iniciar el pago');window.open(d.paymentUrl,'_blank','noopener,noreferrer');}catch(e){alert(e.message||'No fue posible iniciar el pago.');}
   }
   function assistant(){
     if(document.getElementById('imperia-ai-box'))return;
