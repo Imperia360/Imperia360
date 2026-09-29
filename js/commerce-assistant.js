@@ -11,22 +11,31 @@
     const cart=document.getElementById('cart-panel'), checkout=document.getElementById('cart-checkout'); if(!cart||!checkout)return;
     if(!document.getElementById('cart-pay-now')){
       const wrap=document.createElement('div');wrap.style.cssText='display:grid;gap:8px;margin:8px 0';
-      ['cart-pay-now','cart-pay-pse','cart-pay-qr'].forEach((id,i)=>{const b=document.createElement('button');b.id=id;b.type='button';b.className=i===0?'btn green':i===1?'btn light':'btn gold';b.style.width='100%';b.textContent=i===0?'💳 Pagar ahora':i===1?'🏦 Pagar con PSE':'▣ Pagar con QR';wrap.append(b);});
+      ['cart-pay-now','cart-pay-pse','cart-pay-qr','cart-pay-whatsapp'].forEach((id,i)=>{const b=document.createElement('button');b.id=id;b.type='button';b.className=i===0?'btn green':i===1?'btn light':i===2?'btn gold':'btn light';b.style.width='100%';b.textContent=i===0?'💳 Pagar ahora':i===1?'🏦 Pagar con PSE':i===2?'▣ Pagar con QR':'💬 Continuar compra por WhatsApp';wrap.append(b);});
       checkout.parentNode.insertBefore(wrap,checkout);
       document.getElementById('cart-pay-now').onclick=()=>pay();
       document.getElementById('cart-pay-pse').onclick=()=>pay('PSE');
-      document.getElementById('cart-pay-qr').onclick=()=>document.getElementById('pago')?.scrollIntoView({behavior:'smooth'});
+      document.getElementById('cart-pay-qr').onclick=()=>pay('QR');
+      document.getElementById('cart-pay-whatsapp').onclick=()=>cartWhatsApp();
     }
   }
   async function pay(method){
     const cart=JSON.parse(localStorage.getItem('imperia360_cart_v1')||'[]');
     const total=cart.reduce((s,x)=>s+(x.price!=null?Number(x.price)*(Number(x.qty)||1):0),0);
-    if(!total){alert('El carrito no tiene precio confirmado. Continúa por WhatsApp.');return;}
+    if(!total){alert('El carrito no tiene precio confirmado. No se puede iniciar un cobro automático con un precio no verificado. Puedes usar “Continuar compra por WhatsApp”.');return;}
     let cfg={};try{const r=await fetch(CONFIG);if(r.ok)cfg=await r.json();}catch(e){}
-    if(!cfg?.payments?.apiBaseUrl){alert('El pago automático está preparado. Falta conectar el backend seguro Wompi; el botón no realizará un cobro hasta esa conexión.');return;}
+    if(!cfg?.payments?.apiBaseUrl){alert('El pago automático todavía no está conectado al backend seguro Wompi. Puedes usar “Continuar compra por WhatsApp”.');return;}
     const base=(cfg.payments.apiBaseUrl||'/api/commerce').replace(/\\/$/,'');
     const desc=cart.map(x=>(x.name||'Producto')+' x'+(x.qty||1)).join(', ');
     try{const r=await fetch(base+'?action=payment',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({items:cart.map(x=>({id:x.id,name:x.name,sku:x.sku,reference:x.reference,qty:x.qty})),name:'Compra IMPERIA 360',description:desc,method:method||'CHECKOUT'})});const d=await r.json();if(!r.ok||!d.paymentUrl)throw new Error(d.error||'No fue posible iniciar el pago');window.open(d.paymentUrl,'_blank','noopener,noreferrer');}catch(e){alert(e.message||'No fue posible iniciar el pago.');}
+  }
+  function cartWhatsApp(){
+    const cart=JSON.parse(localStorage.getItem('imperia360_cart_v1')||'[]');
+    if(!cart.length){alert('El carrito está vacío.');return;}
+    const lines=cart.map(x=>'- '+(x.name||'Producto')+' x'+(x.qty||1)+(x.reference?' | Ref. '+x.reference:''));
+    const total=cart.reduce((s,x)=>s+(x.price!=null?Number(x.price)*(Number(x.qty)||1):0),0);
+    const msg='Hola IMPERIA 360. Quiero continuar mi compra por WhatsApp.\\n\\n'+lines.join('\\n')+'\\n\\nTotal mostrado: '+(total?'COP '+total.toLocaleString('es-CO'):'por confirmar')+'\\nPor favor confirmen disponibilidad y despacho.';
+    wa(msg);
   }
   function assistant(){
     if(document.getElementById('imperia-ai-box'))return;
