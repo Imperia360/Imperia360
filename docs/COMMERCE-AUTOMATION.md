@@ -26,3 +26,20 @@ SITE_URL = URL pública del sitio
 Cliente → WhatsApp → webhook → búsqueda de catálogo → Gemini → producto/precio → cantidad/zona → link Wompi → pago → confirmación del estado.
 
 GitHub Pages es estático y no puede recibir el webhook ni guardar claves privadas. El backend preparado está en workers/imperia-commerce-api.mjs.
+
+
+## Abastecimiento y utilidad
+
+El backend valida el carrito contra el catálogo antes de generar el pago. Después puede preparar una ficha de abastecimiento mediante `POST /api/commerce?action=prepare-fulfillment`.
+
+Para el producto `RO4396 / HT1238 / ref. 13604` se incorporó como evidencia de proveedor el precio público observado de Roxvan de **$2.428 COP por unidad para compras de 12+**, con verificación de stock y flete pendiente al momento de la orden. La fuente pública consultada muestra además precios de $3.398 para 1–2 unidades y $3.156 para 3–11. Esto es un costo observado, no una garantía de precio final. 
+
+El sistema calcula:
+- venta total al cliente;
+- costo de proveedor observado;
+- utilidad bruta antes del flete;
+- proveedor y referencia;
+- estado de stock pendiente de verificación;
+- necesidad de cotizar el envío según destino.
+
+El costo del proveedor nunca se muestra al cliente. El pedido al proveedor no se marca como automático hasta que exista una API/checkout de proveedor realmente conectado; mientras tanto queda como revisión de abastecimiento, evitando inventar stock, flete o una compra ya realizada.
