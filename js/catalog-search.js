@@ -94,7 +94,6 @@ export function searchCatalog(products = [], query = '') {
     .map(product => ({ product, score: scoreProduct(product, term) }))
     .filter(result => result.score > 0)
     .sort((a, b) => b.score - a.score)
-    .slice(0, 24)
     .map(result => result.product);
 }
 
