@@ -291,5 +291,25 @@
       "publicationStatus": "provisional_published",
       "stockStatus": "verificar_en_Roxvan_al_momento_del_pedido"
     }
-  ]
+  ],
+  "publication": {
+    "publishedAt": "2026-09-29",
+    "publicCatalog": true,
+    "publicFields": [
+      "name",
+      "sku",
+      "category",
+      "retailPrice",
+      "contractorPrice",
+      "wholesalePrice"
+    ],
+    "hideInternal": [
+      "observedWholesaleCost",
+      "source",
+      "sourceUrl",
+      "stockStatus",
+      "pricingPolicy",
+      "publicationStatus"
+    ]
+  }
 }
