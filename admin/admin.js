@@ -12,7 +12,7 @@ async function api(path,options={}){
   if(!r.ok)throw new Error(data.message||("GitHub API "+r.status));
   return data;
 }
-async function verify(){
+async function verify(){\n  if(/[^\\x00-\\x7F]/.test(token)) throw new Error("El token contiene caracteres no válidos. Pega directamente el token github_pat_… generado por GitHub.");
   const u=await api("/user");
   await api("/repos/"+OWNER+"/"+REPO);
   return u.login;
@@ -92,7 +92,7 @@ async function removeOverride(p){
   try{await writeOverrides(next,"admin: retirar precio manual de "+(p.name||id))}catch(e){alert("No se pudo guardar: "+e.message)}
 }
 $("loginBtn").onclick=async()=>{
-  token=$("token").value.trim();if(!token){$("loginStatus").textContent="Ingresa tu token de GitHub.";return}
+  token=$("token").value.replace(/[\u200B-\u200D\uFEFF\u00A0\r\n\t]/g,"").trim();if(!token){$("loginStatus").textContent="Ingresa tu token de GitHub.";return}
   $("loginBtn").disabled=true;$("loginStatus").textContent="Verificando acceso…";
   try{const login=await verify();await loadCatalog();renderFilters();$("loginView").hidden=true;$("appView").hidden=false;$("loginStatus").textContent="";console.info("Administrador autenticado:",login)}
   catch(e){token="";$("loginStatus").textContent="Acceso rechazado: "+e.message;$("loginBtn").disabled=false}
