@@ -78,7 +78,7 @@ export function productCard(product={}) {
   cart.setAttribute('aria-disabled','false');
   cart.style.pointerEvents='auto';
   cart.dataset.cartProduct=JSON.stringify({id:product.id??'',name:product.name??'',price:product.pricing?.manualSalePrice??(product.pricing?.status==='validated'?product.pricing.publicPrice:null),currency:product.pricing?.currency??'COP',status:product.pricing?.status??'quote_only',reference:product.identification?.manufacturerReference??product.identification?.sku??''});
-  cart.addEventListener('click',()=>{cart.textContent='✓ Añadido al carrito';setTimeout(()=>{cart.textContent='🛒 Añadir al carrito'},1200)});
+  cart.addEventListener('click',(event)=>{event.preventDefault();event.stopPropagation();const p=JSON.parse(cart.dataset.cartProduct||'{}');if(typeof window.imperia360AddToCart==='function'){window.imperia360AddToCart(p);}else{const key='imperia360_cart_v1';let items=[];try{items=JSON.parse(localStorage.getItem(key)||'[]')}catch{}const found=items.find(x=>x.id===p.id&&x.name===p.name);if(found)found.qty++;else items.push({...p,qty:1});localStorage.setItem(key,JSON.stringify(items));}cart.textContent='✓ Añadido al carrito';setTimeout(()=>{cart.textContent='🛒 Añadir al carrito'},1200);});
   actions.append(cart);
 
   const contact=document.createElement('a');
