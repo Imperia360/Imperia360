@@ -132,13 +132,32 @@ async function sendWhatsApp(to, text) {
 }
 
 async function createWompiLink(body) {
+  const products = await getCatalog();
+  const items = Array.isArray(body.items) ? body.items : [];
+  if (!items.length) throw new Error("El carrito está vacío");
+  let total = 0;
+  const lines = [];
+  for (const item of items) {
+    const wanted = String(item.id || item.sku || item.reference || item.name || "");
+    const matches = products.filter((p) => [
+      p.id,
+      p.identification?.sku,
+      p.identification?.manufacturerReference,
+      p.identification?.supplierReference,
+      p.name
+    ].some((v) => norm(v) === norm(wanted)));
+    const product = matches[0];
+    const unit = product ? price(product) : 0;
+    const qty = Math.max(1, Math.min(999, Math.floor(Number(item.qty) || 1)));
+    if (!product || !unit) throw new Error("Hay productos sin precio confirmado; continúa por WhatsApp.");
+    total += unit * qty;
+    lines.push(product.name + " x" + qty);
+  }
   const key = process.env.WOMPI_PRIVATE_KEY;
   if (!key) throw new Error("WOMPI_PRIVATE_KEY no configurada");
 
-  const amount = Math.round(Number(body.amount || 0));
-  if (!Number.isFinite(amount) || amount < 100) {
-    throw new Error("Monto inválido");
-  }
+  const amount = Math.round(total);
+  if (!Number.isFinite(amount) || amount < 100) throw new Error("Monto inválido");
 
   const r = await fetch("https://production.wompi.co/v1/payment_links", {
     method: "POST",
@@ -148,7 +167,7 @@ async function createWompiLink(body) {
     },
     body: JSON.stringify({
       name: String(body.name || "Compra IMPERIA 360").slice(0, 120),
-      description: String(body.description || "Pedido IMPERIA 360").slice(0, 255),
+      description: String(lines.join(", ") || body.description || "Pedido IMPERIA 360").slice(0, 255),
       single_use: true,
       collect_shipping: false,
       currency: "COP",
