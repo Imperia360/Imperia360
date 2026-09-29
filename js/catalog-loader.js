@@ -28,6 +28,9 @@ export async function loadProducts(source = './data/products.json') {
     priceOverrides = {};
   }
 
+  let autoPricing = {};
+  try { const r=await fetch("./data/auto-pricing.json?"+Date.now()); if(r.ok){const d=await r.json(); autoPricing=d?.records||{};} } catch {}
+
   let imageRecords = [];
   try {
     const imageResponse = await fetch('./data/product-images.json');
@@ -51,6 +54,7 @@ export async function loadProducts(source = './data/products.json') {
   return products.map(product => {
     const evidence = verifiedImages.get(String(product?.id));
     const override = priceOverrides[String(product?.id)];
+    const provisional = autoPricing[String(product?.id)];
     const withImages = evidence ? {
       ...product,
       images: {
@@ -63,14 +67,17 @@ export async function loadProducts(source = './data/products.json') {
       }
     } : product;
 
-    if (!override?.manualSalePrice) return withImages;
+    if (!override?.manualSalePrice && !provisional?.manualSalePrice) return withImages;
 
     return {
       ...withImages,
       pricing: {
         ...(withImages.pricing || {}),
-        manualSalePrice: Number(override.manualSalePrice),
-        manualMarginPct: override.manualMarginPct ?? null,
+        manualSalePrice: Number(override?.manualSalePrice ?? provisional.manualSalePrice),
+        manualMarginPct: override?.manualMarginPct ?? provisional?.retailMarginPct ?? null,
+        manualWholesalePrice: Number(override?.manualWholesalePrice ?? provisional?.manualWholesalePrice ?? 0),
+        manualContractorPrice: Number(override?.manualContractorPrice ?? provisional?.manualContractorPrice ?? 0),
+        pricingStatus: override ? "manual" : "provisional_published",
         manualUpdatedAt: override.updatedAt,
         manualUpdatedBy: override.updatedBy
       }
