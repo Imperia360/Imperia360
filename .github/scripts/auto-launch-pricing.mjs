@@ -45,11 +45,23 @@ for(const o of offers.offers||[]){
 }
 const chosen=new Map();
 for(const x of candidates){const id=String(x.product.id);const old=chosen.get(id);if(!old||x.matchScore>old.matchScore)chosen.set(id,x)}
+// Any product with a verified public market reference also receives a calculated
+// IMPERIA publication price instead of remaining "Cotizar".
+for(const p of products){
+ const id=String(p.id);
+ if(chosen.has(id)) continue;
+ const ref=p?.pricing?.sourceReferencePrice;
+ const benchmark=Math.max(Number(ref?.max||0),Number(ref?.min||0));
+ if(benchmark>0){
+   chosen.set(id,{product:p,observedWholesaleCost:benchmark,source:p?.pricing?.sourceUrl||p?.pricing?.source||"market-reference",sourceName:p?.pricing?.sourceName||"Referencia pública de mercado",matchScore:0,consultedAt:p?.pricing?.consultedAt||new Date().toISOString(),basis:"market_reference"});
+ }
+}
 const records={};
 for(const x of chosen.values()){
  const c=x.observedWholesaleCost;
- records[String(x.product.id)]={status:"provisional_published",costBasis:"observed_wholesale_market_price",observedWholesaleCost:c,source:x.source,sourceName:x.sourceName,matchScore:x.matchScore,wholesaleMarginPct:WM,contractorMarginPct:CM,retailMarginPct:RM,manualWholesalePrice:priceFromCost(c,WM),manualContractorPrice:priceFromCost(c,CM),manualRetailPrice:priceFromCost(c,RM),manualSalePrice:priceFromCost(c,RM),updatedAt:new Date().toISOString(),updatedBy:"IMPERIA 360 auto-launch pricing"};
+ const basis=x.basis==="market_reference"?"market_reference_benchmark":"observed_wholesale_market_price";
+ records[String(x.product.id)]={status:"provisional_published",costBasis:basis,observedWholesaleCost:c,source:x.source,sourceName:x.sourceName,matchScore:x.matchScore,wholesaleMarginPct:WM,contractorMarginPct:CM,retailMarginPct:RM,manualWholesalePrice:priceFromCost(c,WM),manualContractorPrice:priceFromCost(c,CM),manualRetailPrice:priceFromCost(c,RM),manualSalePrice:priceFromCost(c,RM),updatedAt:new Date().toISOString(),updatedBy:"IMPERIA 360 auto-launch pricing"};
 }
-const out={version:"1.0.0",updatedAt:new Date().toISOString(),policy:"PROVISIONAL: prices calculated from observed wholesale market offers; not a confirmed IMPERIA supplier cost.",defaults:{wholesaleMarginPct:WM,contractorMarginPct:CM,retailMarginPct:RM},records};
+const out={version:"1.1.0",updatedAt:new Date().toISOString(),policy:"PROVISIONAL: observed wholesale offers are preferred; otherwise the verified public market-reference benchmark is used as the calculation base. These are calculated IMPERIA publication prices, not confirmed supplier costs.",defaults:{wholesaleMarginPct:WM,contractorMarginPct:CM,retailMarginPct:RM},records};
 fs.writeFileSync("data/auto-pricing.json",JSON.stringify(out,null,2)+"\n");
 console.log(JSON.stringify({products:products.length,provisionalPriced:Object.keys(records).length,defaults:{WM,CM,RM}},null,2));
