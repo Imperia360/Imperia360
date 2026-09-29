@@ -15,6 +15,7 @@ async function verify(){if(/[^\x00-\x7F]/.test(token))throw new Error("El token 
 async function load(){
  const r=await fetch("https://raw.githubusercontent.com/"+OWNER+"/"+REPO+"/"+BRANCH+"/data/products.json?"+Date.now(),{cache:"no-store"});
  products=await r.json();if(!Array.isArray(products))throw new Error("El catálogo no es un arreglo.");
+ try{const rr=await fetch("https://raw.githubusercontent.com/"+OWNER+"/"+REPO+"/"+BRANCH+"/data/roxvan-products.json?"+Date.now(),{cache:"no-store"});const rp=await rr.json();if(Array.isArray(rp)){const seen=new Set(products.map(p=>idOf(p)||String(p.identification?.sku||p.identification?.manufacturerReference||p.name||"").toLowerCase()));for(const p of rp){const key=idOf(p)||String(p.identification?.sku||p.identification?.manufacturerReference||p.name||"").toLowerCase();if(!seen.has(key)){products.push(p);seen.add(key)}}}}catch(_){/* proveedor opcional */}
  const file=await api("/repos/"+OWNER+"/"+REPO+"/contents/"+OVERRIDE_PATH+"?ref="+BRANCH);
  const parsed=JSON.parse(decodeURIComponent(Array.prototype.map.call(atob(file.content.replace(/\s/g,"")),c=>"%"+c.charCodeAt(0).toString(16).padStart(2,"0")).join("")));
  overrides=parsed.overrides||{};window._sha=file.sha;
@@ -42,6 +43,31 @@ function applyMargins(){
  for(const p of scopeProducts()){const id=idOf(p),cost=Number(costs[id]||0);dirty[id]={...(dirty[id]||{}),wholesaleMarginPct:wm,contractorMarginPct:cm,retailMarginPct:rm,manualWholesalePrice:priceFromCost(cost,wm),manualContractorPrice:priceFromCost(cost,cm),manualRetailPrice:priceFromCost(cost,rm),manualSalePrice:priceFromCost(cost,rm)}}
  render();alert("Márgenes aplicados. Los productos sin costo quedan sin precio calculado; no se inventan costos.");
 }
+function parseImportText(text){
+ const t=text.trim();
+ if(!t)return [];
+ if(t.startsWith("[")||t.startsWith("{")){const j=JSON.parse(t);return Array.isArray(j)?j:(Array.isArray(j.products)?j.products:(Array.isArray(j.items)?j.items:[]));}
+ const lines=t.split(/\\r?\\n/).filter(Boolean),out=[];
+ for(const line of lines){const a=line.split(/[,;\\t]/).map(x=>x.trim().replace(/^"|"$/g,""));if(a.length<2)continue;const header=/^(id|sku|referencia|producto|nombre)/i.test(a[0]);if(header)continue;const cost=Number(String(a[a.length-1]).replace(/\\./g,"").replace(",", "."));if(!(cost>0))continue;out.push({id:a[0],sku:a[1],reference:a[2],name:a.length>3?a[3]:"",cost});}
+ return out;
+}
+function importSupplierRows(rows){
+ const wm=Number($("whMargin").value),cm=Number($("contractMargin").value),rm=Number($("retailMargin").value);let added=0,updated=0,skipped=0;
+ const keyFor=x=>[x.id,x.sku,x.reference,x.name].filter(Boolean).map(v=>String(v).trim().toLowerCase()).filter(Boolean);
+ for(const x of rows){
+   const keys=new Set(keyFor(x));
+   const p=products.find(p=>keyFor({id:idOf(p),sku:p.identification?.sku,reference:p.identification?.manufacturerReference,name:p.name}).some(k=>keys.has(k)));
+   if(!p){skipped++;continue;}
+   const id=idOf(p),cost=Number(x.cost||x.observedWholesaleCost||x.wholesaleCost||0);if(!(cost>0)){skipped++;continue;}
+   const already=Boolean(overrides[id]?.manualRetailPrice||dirty[id]?.manualRetailPrice);
+   costs[id]=cost;dirty[id]={...(dirty[id]||{}),wholesaleMarginPct:wm,contractorMarginPct:cm,retailMarginPct:rm,manualWholesalePrice:priceFromCost(cost,wm),manualContractorPrice:priceFromCost(cost,cm),manualRetailPrice:priceFromCost(cost,rm),manualSalePrice:priceFromCost(cost,rm)};
+   already?updated++:added++;
+ }
+ localStorage.setItem("imperia_admin_costs",JSON.stringify(costs));render();return {added,updated,skipped};
+}
+async function importQuoteFile(file){
+ const status=$("fileStatus");try{const text=await file.text();const rows=parseImportText(text);if(!rows.length)throw new Error("No se encontraron filas válidas.");const r=importSupplierRows(rows);status.textContent="Importado: "+r.added+" nuevos · "+r.updated+" ya existentes actualizados · "+r.skipped+" omitidos. Pulsa Guardar cambios para publicar."; }catch(e){status.textContent="Error: "+e.message;}
+}
 function processQuote(){
  const wm=Number($("whMargin").value),cm=Number($("contractMargin").value),rm=Number($("retailMargin").value),lines=$("quoteInput").value.trim().split(/\r?\n/).filter(Boolean);let ok=0,miss=0;
  for(const line of lines){if(/^\s*(id|sku|referencia)/i.test(line))continue;const a=line.split(/[,;\t]/).map(x=>x.trim().replace(/^"|"$/g,""));const cost=Number(String(a[a.length-1]).replace(/\./g,"").replace(",", "."));if(!(cost>0)){miss++;continue}const key=a.slice(0,-1).join(" ").toLowerCase();const p=products.find(x=>[idOf(x),x.identification?.sku,x.identification?.manufacturerReference,x.name].filter(Boolean).some(v=>String(v).toLowerCase()===key));if(!p){miss++;continue}const id=idOf(p);costs[id]=cost;dirty[id]={...(dirty[id]||{}),wholesaleMarginPct:wm,contractorMarginPct:cm,retailMarginPct:rm,manualWholesalePrice:priceFromCost(cost,wm),manualContractorPrice:priceFromCost(cost,cm),manualRetailPrice:priceFromCost(cost,rm),manualSalePrice:priceFromCost(cost,rm)};ok++}
@@ -56,4 +82,4 @@ async function saveAll(){
  overrides=next;dirty={};window._sha=result.content?.sha;render();$("summary").textContent=products.length.toLocaleString("es-CO")+" productos cargados · "+Object.keys(overrides).length+" con precios IMPERIA guardados.";alert("Cambios guardados correctamente.");
 }
 $("loginBtn").onclick=async()=>{token=$("token").value.replace(/[\u200B-\u200D\uFEFF\u00A0\r\n\t]/g,"").trim();$("loginBtn").disabled=true;$("loginStatus").textContent="Verificando…";try{await verify();await load();renderCats();render();$("loginView").hidden=true;$("appView").hidden=false}catch(e){token="";$("loginStatus").textContent="Acceso rechazado: "+e.message;$("loginBtn").disabled=false}};
-$("logoutBtn").onclick=()=>{location.reload()};$("search").oninput=()=>{page=1;render()};$("category").onchange=()=>{page=1;render()};$("prev").onclick=()=>{page--;render()};$("next").onclick=()=>{page++;render()};$("selectAll").onchange=e=>document.querySelectorAll(".pick").forEach(x=>x.checked=e.target.checked);$("applyMargins").onclick=applyMargins;$("saveAll").onclick=()=>saveAll().catch(e=>alert("No se pudo guardar: "+e.message));$("quoteBtn").onclick=()=>{$("quotePanel").hidden=!$("quotePanel").hidden};$("processQuote").onclick=processQuote;
+$("logoutBtn").onclick=()=>{location.reload()};$("search").oninput=()=>{page=1;render()};$("category").onchange=()=>{page=1;render()};$("prev").onclick=()=>{page--;render()};$("next").onclick=()=>{page++;render()};$("selectAll").onchange=e=>document.querySelectorAll(".pick").forEach(x=>x.checked=e.target.checked);$("applyMargins").onclick=applyMargins;$("saveAll").onclick=()=>saveAll().catch(e=>alert("No se pudo guardar: "+e.message));$("quoteFile").onchange=e=>{const f=e.target.files?.[0];if(f)importQuoteFile(f)};$("quoteBtn").onclick=()=>{$("quotePanel").hidden=!$("quotePanel").hidden};$("processQuote").onclick=processQuote;
