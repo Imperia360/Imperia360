@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "lastRun": "2026-09-28T05:26:56.629Z",
+  "lastRun": "2026-09-29T05:26:15.157Z",
   "summary": {
     "sourcesChecked": 43,
-    "offersRead": 522,
+    "offersRead": 593,
     "matched": 2,
-    "newCandidates": 520,
-    "needsReview": 520,
+    "newCandidates": 591,
+    "needsReview": 591,
     "invalid": 0,
     "masterProducts": 1526,
     "automaticPublication": false
@@ -5147,6 +5147,716 @@
       "sourceUrl": "https://tuercasypernos.co/products/arandela-soporte-1-4",
       "consultedAt": "2026-09-28T05:26:02.680Z",
       "originalProductName": "ARANDELA SOPORTE 1/4\n – Tuercas y Pernos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-roxvan",
+      "sourceUrl": "https://roxvan.com/producto/destornillador-1-4-x-6-estria-total-thtdc2266p/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Destornillador 1/4X6 Estria Total (THTDC2266P) - Roxvan ¡Más por Menos!",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-roxvan",
+      "sourceUrl": "https://roxvan.com/producto/pie-amigo-uduke-x-par-4x5-ht30006/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Pie Amigo Uduke x Par 4X5 (HT30006) - Roxvan",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sofalca",
+      "sourceUrl": "https://sofalca.com/products/tornillo-extraplano-punta-aguda-8-x-1-2",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Tornillo extraplano punta aguda 8 X 1/2\n\n          –\n          Sofalca",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sofalca",
+      "sourceUrl": "https://sofalca.com/products/tornillo-extraplano-punta-broca-8-x-3-4",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Tornillo extraplano punta broca 8 X 3/4\n\n          –\n          Sofalca",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://www.mundialdetornillos.com/producto/brocas-hss-larga",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "BROCAS HSS LARGA",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://www.mundialdetornillos.com/producto/broca-hss-titanio",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "BROCA HSS TITANIO",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tyt",
+      "sourceUrl": "https://www.tornillosytuercas.co/collections/arandelas-tuercas-y-tornillos",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Arandelas, Chazos, Tuercas y Tornillos – Tornillos y Tuercas Co.",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tyt",
+      "sourceUrl": "https://www.tornillosytuercas.co/collections/arandelas",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Arandelas – Tornillos y Tuercas Co.",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tyt",
+      "sourceUrl": "https://www.tornillosytuercas.co/collections/arandelas-milimetricas",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Arandelas Milimétricas – Tornillos y Tuercas Co.",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tyt",
+      "sourceUrl": "https://www.tornillosytuercas.co/products/tuerca-grado-2-rosca-ordinaria-zincada",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Tuerca Grado 2 Rosca Ordinaria Zincada – Tornillos y Tuercas Co.",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://qa.aws.corbeta.com.co/ferreteria/herramientas/manuales/palustres.html",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Palustres - Herramientas Manuales - Herramientas - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/manuales/alicates/alicate-corte-diagonal-7.html",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "ALICATE SATA CORTE DIAGONAL  7\" - Alicates  - Herramientas Manuales - Herramientas - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://qa.aws.corbeta.com.co/ferreteria/materiales-industriales/abrasivos/lijas.html",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Lijas  - Abrasivos - Materiales Industriales - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/materiales-industriales/abrasivos/discos/disco-24-7-x1-4-x7-8-metal.html",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Disco Esmerilar Metales 7\" x 1/4\" x 7/8\" Abracol - Discos - Abrasivos - Materiales Industriales - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/griferia/plomeria/acoples/pqte-griflex-sanitar-x12und.html",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Griflex Sanit 40Cm Pqte X 12  - Acoples - Plomería - Grifería - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://qa.aws.corbeta.com.co/ferreteria/griferia/plomeria/rejillas.html",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Rejillas - Plomería - Grifería - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-coval",
+      "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_galvanizado_accesorios.pdf",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "ACCESORIOS GALVANIZADOS MECH",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-coval",
+      "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_corlanc.pdf",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Lista de precios Corlan 2026",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-coval",
+      "sourceUrl": "https://coval.com.co/pdfs/listasprecios/ult_supermastick.pdf",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Precio Precio Sin IVA Con IVA",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ferragro",
+      "sourceUrl": "https://www.ferragro.com/products/llave-de-expansion-incolma-10",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Llave De Expansion Incolma 10\", Ferretería — Ferragro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ferragro",
+      "sourceUrl": "https://www.ferragro.com/products/pala-colima-cuadrada-no-5",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Pala Colima Cuadrada No. 4, Cercas eléctricas — Ferragro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/collections/accesorios-y-consumibles-para-herramientas-electricas",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "ACCESORIOS Y CONSUMIBLES PARA HERRAMIENTAS ELÉCTRICAS — Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/collections/albanileria",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Albañilería — Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/collections/cortafrios",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "CORTAFRIOS — Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/collections/herramientas-electricas?page=3",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "HERRAMIENTAS ELÉCTRICAS – Page 3",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/products/bateria-20v-40ah-industrial-ion-lithium-super-total",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "BATERIA 20V (4,0AH) INDUSTRIAL ION LITHIUM SUPER TOTAL — Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/products/demoledor-sds-hex-inalambrico-20v-16j-incluye-accesorios-bateria-y-cargador-se-venden-por-separado-industrial-super-total-tdbli20358",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "DEMOLEDOR SDS HEX INALAMBRICO 20V 16J INCLUYE ACCESORIOS BATERIA Y CAR — Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/products/taladro-rotomartillo-inalambrico-20v-sds-plus-2-0j-3-brocas-1-cincel-sin-bateria-ni-cargador-total",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "TALADRO ROTOMARTILLO INALAMBRICO 20V SDS PLUS 2.0J 3 BROCAS 1 CINCEL S — Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/categoria-producto/herramienta-electrica/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "HERRAMIENTA ELECTRICA | Ferretería Mauro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/taladro-p-cutor-1-2-furius-550w-fd52/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "TALADRO P/CUTOR 1/2 FURIUS 550W FD75 | Ferretería Mauro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/fresa-mp-grada-1-4-90-ref-72191/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Fresa MP Grada 1/4 90* Ref 72191 | Ferretería Mauro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/lijadora-rotorbital-total-320wutf2131256/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "LIJADORA ROTORBITAL TOTAL 320WUTF2131256 | Ferretería Mauro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/soldador-furius-fw121-multiproposito120a-2/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "SOLDADOR FURIUS FW121 MULTIPROPOSITO120A | Ferretería Mauro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/soldador-elite-arc160-110-220-resi7160xp/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "SOLDADOR ELITE ARC160 110/220 RESI7160XP | Ferretería Mauro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/producto/alicate-pela-cable-mptools-r15686-8/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "ALICATE PELA CABLE MPTOOLS R15686 8 | Ferretería Mauro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ferrefacil",
+      "sourceUrl": "https://ferrefacil.com.co/how-to-make-your-ios-13-compatible/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "How To Make Your iOS 13 Compatible? – Ferretería y material para construcción | Ferrefácil Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-torbandera",
+      "sourceUrl": "https://www.torbandera.co/shop/category/otras-fijaciones-mecanicas-otras-fijaciones-39",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Otras Fijaciones | TORBANDERA",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-torbandera",
+      "sourceUrl": "https://www.torbandera.co/shop/category/accesorios-herramientas-de-poder-puntas-y-adaptadores-taladro-71",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Puntas y Adaptadores Taladro | TORBANDERA",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-suministros-ardila",
+      "sourceUrl": "https://suministrosardila.com/catalogo/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Catálogo de Ferretería e Industrial | Suministros Ardila",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-suministros-ardila",
+      "sourceUrl": "https://suministrosardila.com/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Suministros Ferreteros en Barranquilla | Suministros Ardila",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-suministros-ardila",
+      "sourceUrl": "https://suministrosardila.com/producto/pcp-png/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Soldadura Liquida PVC – Suministros Ardila",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sumivalle",
+      "sourceUrl": "https://www.sumivalle.com/contacto/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Contacto – Ferretería Sumivalle",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/herramientas-profesionales-industriales/inalambrico/taladro/taladro-inalambrico-davinci-ti380bmc-20v-1-2-2-baterias/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Taladro Inalámbrico Percutor Davinci Ti380Bmc 20V",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/herramientas-profesionales-industriales/electrica/accesorios-electrica/mandril-con-llave-102476-truper-r1-2-1-2/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Mandril Con Llave 1/2\" Rosca R1/2 102476 | Jojac",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/corte/taladrado-corte/broca-acero-rapido-hss/broca-cilindrica-pulgadas-a154/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Broca Cilíndrica Pulgadas A154 Jojac | Corte Industrial",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/herramientas-profesionales-industriales/manual/llave-fija/llave-boca-fija-pulgadas-proto/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Llave B/Fija 3016 Proto 3/16 X 1/4 | Paloquemaoonline ToolMarket",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/corte/roscado/machuelo-hss-suelto-rosca-especial-mms/machuelos-toolmex-con-rosca-especial-en-milimetros/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Machuelos Toolmex con Rosca Especial - Acero Alta Velocidad M2",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/corte/taladrado-corte/broca-cono-morse/broca-cono-morse-en-mm-a130/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Broca Cono Morse A130 Mm Jojac | Corte Industrial",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Tienda - Ferretería Rhino",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-globaltools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/pages/preguntas-frecuentes-faqs",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Preguntas Frecuentes | Global Tools",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-globaltools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/products/restrictor-hd-serie-1100-para-tuberia-c900",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "RESTRICTOR HD SERIE 1100 PARA TUBERIA C900\n – Global Tools Compañía Ferretera",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-globaltools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/collections/pintura",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Pintura\n – Global Tools Compañía Ferretera",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sociedad-mg",
+      "sourceUrl": "https://sociedadferreteramg.com/product/dado-con-punta-hexagonal-cuadrante-de-1-2-3-8-surtek/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Dado con punta hexagonal cuadrante de 1/2\", 3/8\" Surtek - Sociedad Ferretera MG",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sociedad-mg",
+      "sourceUrl": "https://sociedadferreteramg.com/product/cortador-de-tubo-de-plastico-capacidad-corte-1-5-8/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Cortador de tubo de plástico, capacidad corte 1-5/8\" - Sociedad Ferretera MG",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sociedad-mg",
+      "sourceUrl": "https://sociedadferreteramg.com/product/caja-herramientas-plastica-con-broches-metalicos-y-charola-26x10x10-urrea/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Caja herramientas plástica con broches metálicos y charola 26\"x10\"x10\" Urrea - Sociedad Ferretera MG",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sociedad-mg",
+      "sourceUrl": "https://sociedadferreteramg.com/product/juego-de-herramientas-cuadrante-3-4-std-23-piezas/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Juego de herramientas cuadrante 3/4\" std, 23 piezas - Sociedad Ferretera MG",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-bombeo",
+      "sourceUrl": "https://bombeo.co/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "💦 Bomba autocebante Barnes 10 Hp · 180 GPM",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-bombeo",
+      "sourceUrl": "https://bombeo.co/producto/bomba-grundfos-multietapas-acero-inoxidable-220-440-vac-1-0-hp-sxd-1-1-trifasica-32-mca-95-gpm-97568261-cm-1-4-a/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Electrobomba Grundfos | Multietapas | Acero Inoxidable | 220/440 Vac | 1.0 Hp | SxD 1″-1″ | Trifásica | 32 MCA / 9,5 GPM | 97568261 | CM 1-4 / A | - Bombeo colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-invercrisan",
+      "sourceUrl": "https://invercrisan.com/productos/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Productos - Crisan ferreteria",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-invercrisan",
+      "sourceUrl": "https://invercrisan.com/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Ferretería industrial en Bogotá | Invercrisan",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-invercrisan",
+      "sourceUrl": "https://invercrisan.com/sobre-nosotros/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Sobre Nosotros - Crisan ferreteria",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tustechos",
+      "sourceUrl": "https://tustechos.com/product/teja-plastica-ruralita-perfil-3-tipo-zinc/?add-to-cart=7264",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Teja Plástica Ruralita – Perfil 3 – Tipo Zinc – Tustechos.com",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tustechos",
+      "sourceUrl": "https://tustechos.com/product/teja-plastica-platino-perfil-7/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Teja Plástica – Platino – Perfil 7 – Tipo Eternit – Tustechos.com",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tustechos",
+      "sourceUrl": "https://tustechos.com/product/tanque-cilindrico-vertical-10-000-litros-o-2-4-rotoplast/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Tanque Cilíndrico Vertical 10.000 Litros Ø 2.4 – Rotoplast – Tustechos.com",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tustechos",
+      "sourceUrl": "https://tustechos.com/product/teja-plastica-pet-perfil-3-tipo-zinc-tpet/?add-to-cart=7259",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Teja Plástica PET – Perfil 3 – Tipo Zinc – TPET – Tustechos.com",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/categoria-producto/herramientas-neumaticas/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "Herramientas neumáticas",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/tienda/page/189/",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "pagos en línea - addi",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tuercasypernos",
+      "sourceUrl": "https://tuercasypernos.co/collections/arandelas",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "ARANDELAS\n – Tuercas y Pernos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tuercasypernos",
+      "sourceUrl": "https://tuercasypernos.co/products/arandela-industrial-3-8-calibre-1-8-paquete-x-100-unidades",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "ARANDELA INDUSTRIAL 3/8 CALIBRE 1/8\n – Tuercas y Pernos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tuercasypernos",
+      "sourceUrl": "https://tuercasypernos.co/products/arandela-industrial-5-8-calibre-1-8-paquete-x-100-unidades",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "ARANDELA INDUSTRIAL 5/8 CALIBRE 1/8\n – Tuercas y Pernos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tuercasypernos",
+      "sourceUrl": "https://tuercasypernos.co/products/arandela-industrial-5-16-calibre-1-8-paquete-x-100-unidades",
+      "consultedAt": "2026-09-29T05:25:22.801Z",
+      "originalProductName": "ARANDELA INDUSTRIAL 5/16 CALIBRE 1/8\n – Tuercas y Pernos",
       "reference": null,
       "productId": null,
       "status": "NEEDS_REVIEW",
