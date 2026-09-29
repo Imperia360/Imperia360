@@ -60,7 +60,19 @@ export function productCard(product={}) {
     if(v){ const p=document.createElement('p'); p.textContent=label+': '+v; c.append(p); }
   });
 
-  if(product.pricing?.status==='validated' && product.pricing.publicPrice!=null){
+  if(product.pricing?.manualSalePrice!=null && Number(product.pricing.manualSalePrice)>0){
+    const p=document.createElement('strong');
+    p.textContent='Precio IMPERIA: '+(product.pricing.currency??'COP')+' '+Number(product.pricing.manualSalePrice).toLocaleString('es-CO');
+    c.append(p);
+    const m=product.pricing?.sourceReferencePrice;
+    if(m?.min!=null && m.min>0){
+      const rp=document.createElement('small'); rp.className='market-reference-price';
+      const shown=m.min===m.max?m.min.toLocaleString('es-CO'):`${m.min.toLocaleString('es-CO')} – ${m.max.toLocaleString('es-CO')}`;
+      rp.textContent='Referencia de mercado: COP '+shown; c.append(rp);
+    }
+    const n=document.createElement('small'); n.className='price-note';
+    n.textContent='Precio definido manualmente por IMPERIA; la referencia pública no es el precio de venta.'; c.append(n);
+  } else if(product.pricing?.status==='validated' && product.pricing.publicPrice!=null){
     const p=document.createElement('strong');
     p.textContent=(product.pricing.currency??'COP')+' '+product.pricing.publicPrice.toLocaleString('es-CO');
     c.append(p);
@@ -107,7 +119,7 @@ export function productCard(product={}) {
   cart.type='button';
   cart.className='btn gold';
   cart.textContent='Añadir al carrito';
-  cart.dataset.cartProduct=JSON.stringify({id:product.id??'',name:product.name??'',price:product.pricing?.status==='validated'?product.pricing.publicPrice:null,currency:product.pricing?.currency??'COP',status:product.pricing?.status??'quote_only',reference:product.identification?.manufacturerReference??product.identification?.sku??''});
+  cart.dataset.cartProduct=JSON.stringify({id:product.id??'',name:product.name??'',price:product.pricing?.manualSalePrice??(product.pricing?.status==='validated'?product.pricing.publicPrice:null),currency:product.pricing?.currency??'COP',status:product.pricing?.status??'quote_only',reference:product.identification?.manufacturerReference??product.identification?.sku??''});
   actions.append(cart);
 
   const contact=document.createElement('a');
