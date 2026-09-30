@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
+  "version": "1.8.0",
   "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
   "sourcePolicy": {
     "priority": [
@@ -456,6 +456,128 @@
       "searchQueries": [
         "site:tuercasypernos.co tornillos tuercas arandelas herramientas precio Colombia"
       ]
+    },
+    {
+      "id": "src-milenio",
+      "supplierId": "sup-milenio",
+      "name": "Milenio Suministros",
+      "url": "https://mileniosuministros.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:mileniosuministros.com pinturas herramientas griferia mayorista precio",
+        "site:mileniosuministros.com ferreteria producto precio"
+      ]
+    },
+    {
+      "id": "src-odin",
+      "supplierId": "sup-odin",
+      "name": "ODIN S.A.S.",
+      "url": "https://odinsas.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:odinsas.com herramientas pinturas electrico ferreteria precio"
+      ]
+    },
+    {
+      "id": "src-diman",
+      "supplierId": "sup-diman",
+      "name": "Grupo Diman / STD",
+      "url": "https://www.grupodiman.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:grupodiman.com pinturas electricos herramientas ferreteria precio"
+      ]
+    },
+    {
+      "id": "src-pintul",
+      "supplierId": "sup-pintul",
+      "name": "Pintul",
+      "url": "https://pintul.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:pintul.com Pintuco Terinsa Ico Goya Abracol Soco pinturas"
+      ]
+    },
+    {
+      "id": "src-conalpron",
+      "supplierId": "sup-conalpron",
+      "name": "Conalpron",
+      "url": "https://www.conalpron.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:conalpron.com pinturas acabados Pintuco Sika Algreco"
+      ]
+    },
+    {
+      "id": "src-supermezclas",
+      "supplierId": "sup-supermezclas",
+      "name": "Supermezclas de Colombia",
+      "url": "https://supermezclascol.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:supermezclascol.com pinturas herramientas Every Mapei Helios Bronco"
+      ]
+    },
+    {
+      "id": "src-andicomer",
+      "supplierId": "sup-andicomer",
+      "name": "Andina Comercial",
+      "url": "https://www.andicomer.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:andicomer.com PPG Pintuco Sherwin Williams Axalta 3M pintura"
+      ]
+    },
+    {
+      "id": "src-abacol",
+      "supplierId": "sup-abacol",
+      "name": "Abacol",
+      "url": "https://www.abacol.co/pintura.html",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:abacol.co pintura Pintuco Pro mayorista"
+      ]
+    },
+    {
+      "id": "src-shoppingpaint",
+      "supplierId": "sup-shoppingpaint",
+      "name": "Shopping Paint",
+      "url": "https://shoppingpaint.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:shoppingpaint.com pinturas automotriz industrial arquitectonica herramientas"
+      ]
+    },
+    {
+      "id": "src-autocoloresg",
+      "supplierId": "sup-autocoloresg",
+      "name": "Autocolores G",
+      "url": "https://www.autocoloresg.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:autocoloresg.com PPG pintura automotriz industrial 3M"
+      ]
     }
-  ]
+  ],
+  "lastUpdated": "2026-09-30"
 }
