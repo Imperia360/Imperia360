@@ -25,7 +25,7 @@ for (const item of selected) {
       encodeURIComponent(apiKey),
     {
       method: "POST",
-      headers: {"Content-Type": "application/json"},
+      headers: {"Content-Type": "application/json", "x-goog-api-key": apiKey},
       body: JSON.stringify({
         contents: [{parts: [{text: prompt}]}],
         tools: [{google_search: {}}],
@@ -40,11 +40,12 @@ for (const item of selected) {
   }
 
   const data = await response.json();
-  const text = data?.candidates?.[0]?.content?.parts?.map(p => p.text || "").join("").trim() || "";
-  const chunks = data?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
+  const outputs = (data?.steps || []).filter(s => s.type === "model_output").flatMap(s => s.content || []);
+  const text = outputs.filter(x => x.type === "text").map(x => x.text || "").join("").trim();
+  const chunks = (data?.steps || []).filter(s => s.type === "google_search_result").flatMap(s => s.result || []);
 
   for (const chunk of chunks) {
-    const web = chunk?.web;
+    const web = chunk?.web || chunk;
     const url = String(web?.uri || "").trim();
     if (!url || seen.has(url)) continue;
     seen.add(url);
