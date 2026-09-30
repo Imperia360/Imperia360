@@ -103,7 +103,8 @@ function canReuseImage(p,owner){
   if(!(pa&&pb))return false;
   return scoreName(a,b)>=0.65;
 }
-const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))\n  .sort((a,b)=>Number(electricalPriority(b))-Number(electricalPriority(a))).slice(0,BATCH);
+const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))
+  .sort((a,b)=>Number(electricalPriority(b))-Number(electricalPriority(a))).slice(0,BATCH);
 let failures=0, checked=0;
 
 async function processProduct(p){
