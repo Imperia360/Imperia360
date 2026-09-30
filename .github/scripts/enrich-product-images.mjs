@@ -11,14 +11,14 @@ const CONCURRENCY=12;
 const REJECT_IMAGE_PATTERNS=[/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
 function usableProductImage(url){return Boolean(url)&&!REJECT_IMAGE_PATTERNS.some(re=>re.test(String(url)));}
 const OFFICIAL_ELECTRICAL_SOURCES=[
-  {re:/\\b(centelsa|nexans)\\b/i,base:'https://www.nexans.co/es/'},
-  {re:/\\b(procables|prysmian)\\b/i,base:'https://www.prysmian.com/'},
-  {re:/\\b(cenco|cencoelectricos)\\b/i,base:'https://www.cencoelectricos.com/'},
-  {re:/\\b(total)\\b/i,base:'https://totalherramientas.com/'}
+  {re:/\b(centelsa|nexans )\b/i,base:'https://www.nexans.co/es/'},
+  {re:/\b(procables|prysmian )\b/i,base:'https://www.prysmian.com/'},
+  {re:/\b(cenco|cencoelectricos )\b/i,base:'https://www.cencoelectricos.com/'},
+  {re:/\b(total )\b/i,base:'https://totalherramientas.com/'}
 ];
 function electricalPriority(p){
   const n=String(p?.name||'');
-  return /\\b(cable|alambre|conductor|breaker|interruptor|tomacorriente|enchufe|electric|electrico|eléctrico|fusible|terminal|borna|tablero|contacto|contactor|aislador|puesta a tierra)\\b/i.test(n);
+  return /\b(cable|alambre|conductor|breaker|interruptor|tomacorriente|enchufe|electric|electrico|eléctrico|fusible|terminal|borna|tablero|contacto|contactor|aislador|puesta a tierra)\b/i.test(n);
 }
 const STOP=new Set('de del la el los las y en para por con sin una uno unidades unidad x mm ml cm pulgadas pulgada acero metal superior producto'.split(/\s+/));
 
