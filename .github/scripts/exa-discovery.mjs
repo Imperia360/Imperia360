@@ -52,11 +52,15 @@ async function searchExa(query) {
 
 const seen = new Set();
 const results = [];
+let successfulQueries = 0;
+let firstError = null;
 
 for (const source of active) {
   for (const query of source.searchQueries) {
-    const data = await searchExa(query);
-    for (const item of (data.results || [])) {
+    try {
+      const data = await searchExa(query);
+      successfulQueries++; 
+      for (const item of (data.results || [])) {
       const key = [source.id, item.url, item.title].join('|');
       if (seen.has(key)) continue;
       seen.add(key);
