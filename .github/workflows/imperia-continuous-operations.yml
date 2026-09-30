@@ -34,6 +34,10 @@ jobs:
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
         run: node .github/scripts/run-exa-discovery.mjs
+      - name: Descubrimiento Google Search con Gemini 3.8 Flash
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node .github/scripts/run-gemini-google-discovery.mjs
       - name: Publicar resultados de descubrimiento
         uses: actions/upload-artifact@v4
         with:
@@ -41,6 +45,7 @@ jobs:
           path: |
             data/discovery-queue.json
             data/exa-discovery.json
+            data/gemini-google-discovery.json
           retention-days: 14
 
   image-enrichment:
