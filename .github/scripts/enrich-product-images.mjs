@@ -18,7 +18,13 @@ const OFFICIAL_ELECTRICAL_SOURCES=[
 ];
 function electricalPriority(p){
   const n=String(p?.name||'');
-  return /\b(cable|alambre|conductor|breaker|interruptor|tomacorriente|enchufe|electric|electrico|eléctrico|fusible|terminal|borna|tablero|contacto|contactor|aislador|puesta a tierra)\b/i.test(n);
+  return /\b(cable|alambre|conductor|breaker|interruptor|tomacorriente|enchufe|electric|electrico|eléctrico|fusible|terminal|borna|tablero|contacto|contactor|aislador|puesta a tierra|panel|sensor|clavija|toma|smart|inteligente|macho|hembra)\b/i.test(n);
+}
+function priorityScore(p){
+  const n=String(p?.name||'');
+  if(/\b(panel|tomacorriente|interruptor|sensor|clavija|toma|smart|inteligente|macho|hembra)\b/i.test(n)) return 3;
+  if(electricalPriority(p)) return 2;
+  return 1;
 }
 const STOP=new Set('de del la el los las y en para por con sin una uno unidades unidad x mm ml cm pulgadas pulgada acero metal superior producto'.split(/\s+/));
 
@@ -104,7 +110,7 @@ function canReuseImage(p,owner){
   return scoreName(a,b)>=0.65;
 }
 const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))
-  .sort((a,b)=>Number(electricalPriority(b))-Number(electricalPriority(a))).slice(0,BATCH);
+  .sort((a,b)=>priorityScore(b)-priorityScore(a)).slice(0,BATCH);
 let failures=0, checked=0;
 
 async function processProduct(p){
