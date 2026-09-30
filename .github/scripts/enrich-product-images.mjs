@@ -69,7 +69,24 @@ const beforeCount=existing.size;
 const offerIndex=offerData.map(o=>({name:o.originalProductName||'',sku:o.sku||'',url:o.sourceUrl||'',source:o.source||''})).filter(x=>x.url);
 const exaIndex=exa.map(o=>({name:o.title||'',sku:'',url:o.url||'',source:o.source||''})).filter(x=>x.url);
 
-const queue=products.filter(p=>p?.id&&!p?.images?.primary&&!existing.has(String(p.id))&&p.id!=='aud-0002').slice(0,BATCH);
+// Una imagen no debe reutilizarse como ficha individual si ya identifica otro producto.
+const imageOwners=new Map();
+for(const r of existing.values()){
+  if(usableProductImage(r.imageUrl)){
+    const u=String(r.imageUrl);
+    if(!imageOwners.has(u)) imageOwners.set(u,String(r.productId));
+  }
+}
+const duplicateImageProductIds=new Set();
+const seenUrls=new Map();
+for(const r of existing.values()){
+  if(!usableProductImage(r.imageUrl)) continue;
+  const u=String(r.imageUrl);
+  seenUrls.set(u,(seenUrls.get(u)||0)+1);
+}
+for(const r of existing.values()) if(usableProductImage(r.imageUrl)&&seenUrls.get(String(r.imageUrl))>1) duplicateImageProductIds.add(String(r.productId));
+const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||duplicateImageProductIds.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl))).slice(0,BATCH);
+const claimedUrls=new Set([...imageOwners.keys()]);
 let failures=0, checked=0;
 
 async function processProduct(p){
@@ -97,7 +114,8 @@ async function processProduct(p){
       if(!identityOk(p,page.html))continue;
       const image=meta(page.html,'og:image')||meta(page.html,'twitter:image');
       const imageUrl=absUrl(image,page.url);
-      if(imageUrl && usableProductImage(imageUrl)){
+      if(imageUrl && usableProductImage(imageUrl) && !claimedUrls.has(imageUrl)){
+        claimedUrls.add(imageUrl);
         return {
           productId:String(p.id),
           sku:p?.identification?.sku||null,
