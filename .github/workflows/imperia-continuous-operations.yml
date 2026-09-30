@@ -48,24 +48,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - name: Buscar y validar imágenes de productos pendientes
-        run: node .github/scripts/enrich-product-images.mjs
-      - name: Publicar lote de imágenes si hubo coincidencias verificadas
+      - name: Verificar estado del mapa de imágenes
         run: |
-          if git diff --quiet -- data/product-images.json; then
-            echo "Sin nuevas imágenes verificadas en este lote."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/product-images.json
-          git commit -m "chore: add verified product images batch"
-          git push
+          node - <<'NODE'
+          const fs=require('fs');
+          const p=JSON.parse(fs.readFileSync('data/product-images.json','utf8'));
+          const records=Array.isArray(p.records)?p.records:[];
+          const publishable=records.filter(r=>r && r.publishable===true).length;
+          console.log(JSON.stringify({totalImageRecords:records.length,publishableRecords:publishable,generatedAt:p.generatedAt},null,2));
+          NODE
 
   integrity:
     name: 1. Integridad y JSON
