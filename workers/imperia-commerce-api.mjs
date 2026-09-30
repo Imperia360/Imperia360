@@ -30,7 +30,7 @@ async function askGemini(env,textIn,products){
  if(!env.GEMINI_API_KEY)return null;
  const rows=products.slice(0,30).map(p=>({id:p.id,name:p.name,sku:p.identification?.sku,ref:p.identification?.manufacturerReference,price:price(p)}));
  const prompt=["Eres el asistente de ventas de IMPERIA 360 Colombia.","Usa primero el catálogo proporcionado para productos y precios.","Puedes usar Google Search para información pública actual que ayude a responder la consulta, pero nunca inventes precio, stock, referencia o disponibilidad.","Si Google Search encuentra información externa, distingue claramente que es información externa y no la presentes como precio oficial de IMPERIA 360.","Si no hay precio en el catálogo, indica precio por confirmar.","Responde en español, breve y orientado a cerrar la compra.","CATALOGO:",JSON.stringify(rows),"CLIENTE:",textIn].join("\\n");
- const r=await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key="+encodeURIComponent(env.GEMINI_API_KEY),{
+ const r=await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key="+encodeURIComponent(env.GEMINI_API_KEY),{
   method:"POST",headers:{"content-type":"application/json"},
   body:JSON.stringify({
    contents:[{parts:[{text:prompt}]}],
