@@ -8470,6 +8470,71 @@
       "verifiedAt": "2026-09-30",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "aud-0161",
+      "sku": "09525SJ",
+      "manufacturerReference": "09525SJ",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/null",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0176",
+      "sku": "15-556",
+      "manufacturerReference": "15-556",
+      "supplierReference": null,
+      "imageUrl": "https://construcentro.com.co/null",
+      "sourcePage": "https://construcentro.com.co/",
+      "source": "Construcentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0209",
+      "sku": "26062",
+      "manufacturerReference": "26062",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/null",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0272",
+      "sku": "A-99714",
+      "manufacturerReference": "A-99714",
+      "supplierReference": null,
+      "imageUrl": "https://construcentro.com.co/null",
+      "sourcePage": "https://construcentro.com.co/",
+      "source": "Construcentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0336",
+      "sku": "FU1360",
+      "manufacturerReference": "FU1360",
+      "supplierReference": null,
+      "imageUrl": "https://construcentro.com.co/null",
+      "sourcePage": "https://construcentro.com.co/",
+      "source": "Construcentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ]
 }
