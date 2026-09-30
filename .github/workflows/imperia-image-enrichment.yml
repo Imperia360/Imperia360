@@ -65,7 +65,19 @@ jobs:
           fi
           git add data/product-images.json
           git commit -m "chore: add verified product images batch"
-          git push origin HEAD:main
+          # main recibe otros cambios automáticamente; rebasear y reintentar evita
+          # perder este lote cuando otro workflow publica al mismo tiempo.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Lote de imágenes publicado correctamente en main."
+              exit 0
+            fi
+            echo "Push concurrente; sincronizando main (intento $attempt/5)..."
+            git fetch origin main
+            git rebase origin/main
+          done
+          echo "No fue posible publicar el lote después de 5 intentos."
+          exit 1
 
 # Continuous completion trigger verified 2026-09-29.
 # Dispatch refresh requested 2026-09-29.
