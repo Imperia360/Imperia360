@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-30T02:33:22.375Z",
+  "policy": "Cola única IMPERIA 360: no duplicar tareas equivalentes; nuevas solicitudes se agregan como tareas nuevas o se actualiza una existente.",
+  "tasks": [
+    {
+      "id": "T001",
+      "title": "Carrusel dinámico de imágenes",
+      "status": "deploying",
+      "priority": "alta",
+      "dedupeKey": "hero-carousel-images",
+      "note": "Corregido para leer data/product-images.json.records; cambio automático cada 5 segundos."
+    },
+    {
+      "id": "T002",
+      "title": "Imágenes verificadas para todo el catálogo",
+      "status": "continuous",
+      "priority": "crítica",
+      "dedupeKey": "catalog-images-all",
+      "note": "Continuar por lotes y depurar duplicados/configuraciones."
+    },
+    {
+      "id": "T003",
+      "title": "Precios reales y cotización",
+      "status": "continuous",
+      "priority": "crítica",
+      "dedupeKey": "catalog-prices-verification",
+      "note": "Eliminar precios simbólicos; mantener COTIZAR mientras se verifica el precio real."
+    },
+    {
+      "id": "T004",
+      "title": "Pinturas cuñete y medio cuñete",
+      "status": "queued",
+      "priority": "alta",
+      "dedupeKey": "paint-cuñete-medio-cuñete",
+      "note": "Validar referencia, presentación, imagen y precio."
+    },
+    {
+      "id": "T005",
+      "title": "Cable rojo/blanco/verde",
+      "status": "queued",
+      "priority": "alta",
+      "dedupeKey": "cable-rbg-validation",
+      "note": "Validar referencia, calibre, presentación y significado del precio de 13.000 COP."
+    },
+    {
+      "id": "T006",
+      "title": "Búsqueda por producto/referencia/SKU",
+      "status": "continuous",
+      "priority": "alta",
+      "dedupeKey": "catalog-search",
+      "note": "La búsqueda debe mostrar productos, no enviar solamente a categorías."
+    },
+    {
+      "id": "T007",
+      "title": "WhatsApp + IA + carrito + pedido",
+      "status": "queued",
+      "priority": "alta",
+      "dedupeKey": "commerce-whatsapp-ai-order",
+      "note": "Continuar integración y pruebas."
+    },
+    {
+      "id": "T008",
+      "title": "Wompi/PSE/QR y verificación de pago",
+      "status": "queued",
+      "priority": "alta",
+      "dedupeKey": "payments-wompi-pse-qr",
+      "note": "Completar verificación server-side antes de considerar pago confirmado."
+    },
+    {
+      "id": "T009",
+      "title": "Prueba administrativa IMPERIA 360",
+      "status": "queued",
+      "priority": "media",
+      "dedupeKey": "admin-test-order",
+      "note": "Pedido de prueba, comprobante y factura borrador, sin pago real."
+    },
+    {
+      "id": "T010",
+      "title": "Logo IMPERIA 360",
+      "status": "deploying",
+      "priority": "alta",
+      "dedupeKey": "brand-logo",
+      "note": "Logo creado con concepto trabajado en Canva; integración en encabezado."
+    }
+  ]
+}
