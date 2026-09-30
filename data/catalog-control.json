@@ -124,10 +124,11 @@
     "noInventedImages": true,
     "currentMasterAudit": {
       "products": 1526,
-      "withImage": 444,
-      "withoutImage": 1082
+      "withImage": 445,
+      "withoutImage": 1081
     },
-    "auditFile": "data/product-images.json"
+    "auditFile": "data/product-images.json",
+    "note": "Reconciliado 2026-09-30: data/product-images.json contiene 445 registros publishable, 445 productId únicos y 445 imágenes verificadas."
   },
   "namingPolicy": {
     "photoPlaceholdersNotProducts": true,
