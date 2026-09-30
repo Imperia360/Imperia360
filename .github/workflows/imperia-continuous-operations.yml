@@ -99,7 +99,12 @@ jobs:
             exit 0
           fi
           git commit -m "chore: publish Gemini-verified catalog prices"
-          git push
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase origin/main
+          done
+          exit 1
 
   integrity:
     name: 1. Integridad y JSON
@@ -183,5 +188,5 @@ jobs:
       - name: Emitir estado
         run: |
           echo "IMPERIA 360 continuous operations cycle completed."
-          echo "Discovery queue -> Exa discovery -> evidence -> reconciliation -> quality gate -> site validation."
+          echo "Discovery queue -> Exa discovery -> Gemini Google Search -> evidence -> reconciliation -> quality gate -> site validation."
           echo "Automatic publication remains evidence-gated."
