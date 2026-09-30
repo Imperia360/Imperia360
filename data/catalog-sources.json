@@ -1,5 +1,5 @@
 {
-  "version": "1.8.0",
+  "version": "1.9.0",
   "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
   "sourcePolicy": {
     "priority": [
@@ -576,6 +576,84 @@
       "stockAccess": "partial",
       "searchQueries": [
         "site:autocoloresg.com PPG pintura automotriz industrial 3M"
+      ]
+    },
+    {
+      "id": "src-surtilight",
+      "supplierId": "sup-surtilight",
+      "name": "Surtilight — Iluminación LED mayorista",
+      "url": "https://surtilight.com/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:surtilight.com bombillos LED paneles LED reflectores LED",
+        "site:surtilight.com iluminación LED Colombia bombillo panel reflector"
+      ]
+    },
+    {
+      "id": "src-ilumax",
+      "supplierId": "sup-ilumax",
+      "name": "ILUMAX Colombia",
+      "url": "https://ilumax.com.co/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:ilumax.com.co bombillo LED reflector LED panel LED",
+        "site:ilumax.com.co luces LED luminaria LED Colombia"
+      ]
+    },
+    {
+      "id": "src-bioled",
+      "supplierId": "sup-bioled",
+      "name": "BIOLED Colombia",
+      "url": "https://bioled.com.co/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:bioled.com.co bombillo LED reflector LED iluminación",
+        "site:bioled.com.co productos iluminación LED Colombia"
+      ]
+    },
+    {
+      "id": "src-strom",
+      "supplierId": "sup-strom",
+      "name": "Grupo Strom Colombia",
+      "url": "https://www.grupostrom.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:grupostrom.com bombillos lámparas paneles LED reflectores",
+        "site:grupostrom.com iluminación LED Colombia"
+      ]
+    },
+    {
+      "id": "src-urbanlights",
+      "supplierId": "sup-urbanlights",
+      "name": "Urban Lights Colombia",
+      "url": "https://urbanlights.com.co/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:urbanlights.com.co bombillos LED panel LED reflectores tubos LED",
+        "site:urbanlights.com.co iluminación comercial LED Colombia"
+      ]
+    },
+    {
+      "id": "src-altino",
+      "supplierId": "sup-altino",
+      "name": "Altino Colombia",
+      "url": "https://www.altino.com.co/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:altino.com.co bombillos LED paneles LED Eterna Megalight",
+        "site:altino.com.co iluminación LED precios mayoristas"
       ]
     }
   ],
