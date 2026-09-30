@@ -34,6 +34,7 @@ function electricalPriority(p){
 }
 function priorityScore(p){
   const n=String(p?.name||'');
+  if(/\b(pintura|vinilo|viniltex|pintuland|sapolin|corona|terinsa|cuñete|balde)\b/i.test(n)) return 4;
   if(/\b(panel|tomacorriente|interruptor|sensor|clavija|toma|smart|inteligente|macho|hembra)\b/i.test(n)) return 3;
   if(electricalPriority(p)) return 2;
   return 1;
