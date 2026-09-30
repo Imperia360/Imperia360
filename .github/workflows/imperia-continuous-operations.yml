@@ -63,9 +63,34 @@ jobs:
           console.log(JSON.stringify({totalImageRecords:records.length,publishableRecords:publishable,generatedAt:p.generatedAt},null,2));
           NODE
 
+  product-verification:
+    name: 1A. Verificación automática de precios
+    needs: discovery-queue
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Verificar precios con Gemini 3.8 + Google Search
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node .github/scripts/verify-product-prices-gemini.mjs
+      - name: Publicar precios verificados
+        run: |
+          git config user.name "IMPERIA 360 Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/products.json
+          if git diff --cached --quiet; then
+            echo "Sin nuevos precios verificables en este lote."
+            exit 0
+          fi
+          git commit -m "chore: publish Gemini-verified catalog prices"
+          git push
+
   integrity:
     name: 1. Integridad y JSON
-    needs: discovery-queue
+    needs: product-verification
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
