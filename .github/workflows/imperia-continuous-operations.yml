@@ -50,18 +50,31 @@ jobs:
 
   image-enrichment:
     name: 1B. Imágenes verificadas por lote
+    needs: product-verification
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verificar estado del mapa de imágenes
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Ejecutar enriquecimiento real de imágenes
+        run: node .github/scripts/enrich-product-images.mjs
+      - name: Publicar mapa de imágenes
         run: |
-          node - <<'NODE'
-          const fs=require('fs');
-          const p=JSON.parse(fs.readFileSync('data/product-images.json','utf8'));
-          const records=Array.isArray(p.records)?p.records:[];
-          const publishable=records.filter(r=>r && r.publishable===true).length;
-          console.log(JSON.stringify({totalImageRecords:records.length,publishableRecords:publishable,generatedAt:p.generatedAt},null,2));
-          NODE
+          git config user.name "IMPERIA 360 Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/product-images.json
+          if git diff --cached --quiet; then
+            echo "Sin nuevas imágenes verificadas en este lote."
+            exit 0
+          fi
+          git commit -m "chore: publish verified product images"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase origin/main
+          done
+          exit 1
 
   product-verification:
     name: 1A. Verificación automática de precios
@@ -90,7 +103,7 @@ jobs:
 
   integrity:
     name: 1. Integridad y JSON
-    needs: product-verification
+    needs: image-enrichment
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
