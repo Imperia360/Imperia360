@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
+  "version": "2.0.0",
   "purpose": "Registro de fuentes que pueden alimentar el catálogo de IMPERIA 360.",
   "sourcePolicy": {
     "priority": [
@@ -654,6 +654,71 @@
       "searchQueries": [
         "site:altino.com.co bombillos LED paneles LED Eterna Megalight",
         "site:altino.com.co iluminación LED precios mayoristas"
+      ]
+    },
+    {
+      "id": "src-sylvania",
+      "supplierId": "sup-sylvania",
+      "name": "Sylvania Colombia — Iluminación LED",
+      "url": "https://sylvania-colombia.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:sylvania-colombia.com productos luminarias LED bombillos reflectores paneles",
+        "site:sylvania-colombia.com iluminación LED Colombia referencias"
+      ]
+    },
+    {
+      "id": "src-tecnolite",
+      "supplierId": "sup-tecnolite",
+      "name": "Tecnolite Colombia — Iluminación",
+      "url": "https://www.tecnolite.com.co/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:tecnolite.com.co iluminación LED bombillos paneles luminarias",
+        "site:tecnolite.com.co productos LED Colombia"
+      ]
+    },
+    {
+      "id": "src-philips-lighting",
+      "supplierId": "sup-philips-lighting",
+      "name": "Philips Lighting Colombia",
+      "url": "https://www.lighting.philips.com.co/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:lighting.philips.com.co lámparas LED tubos LED bombillos Colombia",
+        "site:lighting.philips.com.co productos LED iluminación Colombia"
+      ]
+    },
+    {
+      "id": "src-ecolite",
+      "supplierId": "sup-ecolite",
+      "name": "Ecolite Colombia — Iluminación LED",
+      "url": "https://www.ecolite.com.co/",
+      "status": "active",
+      "priceAccess": "public",
+      "stockAccess": "public",
+      "searchQueries": [
+        "site:ecolite.com.co bombillos LED paneles reflectores luminarias",
+        "site:ecolite.com.co productos LED Colombia precios"
+      ]
+    },
+    {
+      "id": "src-mercury-latam",
+      "supplierId": "sup-mercury-latam",
+      "name": "Mercury Latam — Iluminación LED",
+      "url": "https://mercurylatam.com/",
+      "status": "active",
+      "priceAccess": "partial",
+      "stockAccess": "partial",
+      "searchQueries": [
+        "site:mercurylatam.com bombillos LED paneles reflectores tubos luminarias",
+        "site:mercurylatam.com catálogo iluminación LED Colombia"
       ]
     }
   ],
