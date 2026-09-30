@@ -7,6 +7,7 @@ const IMAGES='data/product-images.json';
 const OFFERS='data/market-offers.json';
 const EXA='data/exa-discovery.json';
 const BATCH=1600;
+const DISCOVERY_SOURCES=['https://roxvan.com/','https://ferreco.com/','https://casaandina.com.co/','https://www.relec.com.co/','https://grupodefa.co/','https://ferreteriaya.com.co/'];
 const CONCURRENCY=12;
 const REJECT_IMAGE_PATTERNS=[/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
 function usableProductImage(url){return Boolean(url)&&!REJECT_IMAGE_PATTERNS.some(re=>re.test(String(url)));}
@@ -117,6 +118,7 @@ async function processProduct(p){
   let candidates=[];
   try{
     if(p.source?.url)candidates.push(p.source.url);
+    for(const src of DISCOVERY_SOURCES)candidates.push(src);
     for(const s of OFFICIAL_ELECTRICAL_SOURCES){ if(s.re.test(String(p?.name||''))) candidates.push(s.base); }
     if(p.source?.url)candidates.push(...await sitemapCandidates(new URL(p.source.url).origin,p));
   }catch{}
