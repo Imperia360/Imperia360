@@ -11,15 +11,12 @@
 <g transform="translate(10 7)">
   <circle cx="54" cy="56" r="49" fill="url(#black)" stroke="url(#gold)" stroke-width="3"/>
   <circle cx="54" cy="56" r="42" fill="none" stroke="#ffffff18" stroke-width="1"/>
-  <!-- corona imperial -->
   <path d="M20 42 L26 17 L42 31 L54 11 L66 31 L82 17 L88 42 Z" fill="url(#gold)" stroke="#fff0a0" stroke-width="1.2" filter="url(#goldGlow)">
     <animate attributeName="opacity" values=".86;1;.86" dur="3s" repeatCount="indefinite"/>
   </path>
   <path d="M22 42 Q54 53 86 42 L83 49 Q54 59 25 49 Z" fill="#8d5b06"/>
   <circle cx="26" cy="17" r="2.8" fill="#fff8c5"/><circle cx="54" cy="11" r="3.2" fill="#fff8c5"/><circle cx="82" cy="17" r="2.8" fill="#fff8c5"/>
-  <!-- I imperial -->
   <path d="M39 61 H69 M48 61 V96 M60 61 V96 M39 96 H69" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
-  <!-- golden 360 wheel -->
   <g fill="none" stroke="url(#gold)" stroke-width="2.8">
     <ellipse cx="54" cy="63" rx="55" ry="20" transform="rotate(-18 54 63)">
       <animateTransform attributeName="transform" type="rotate" from="-18 54 63" to="342 54 63" dur="5.5s" repeatCount="indefinite"/>
