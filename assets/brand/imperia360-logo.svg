@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img" aria-label="IMPERIA 360">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#18c88a"/><stop offset=".5" stop-color="#f5bd35"/><stop offset="1" stop-color="#39a7ff"/></linearGradient></defs>
+<g transform="translate(8 8)"><circle cx="40" cy="40" r="35" fill="#10243a" stroke="url(#g)" stroke-width="5"/><path d="M20 48c10-23 30-23 40 0" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/><path d="M40 16v48M18 40h44" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/><circle cx="40" cy="40" r="7" fill="#f5bd35"/></g>
+<text x="96" y="50" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="900" letter-spacing="1" fill="#fff">IMPERIA</text>
+<text x="292" y="50" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="900" fill="url(#g)">360</text>
+<text x="98" y="72" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#d9e8ec">FERRETERÍA · CONSTRUCCIÓN · ABASTECIMIENTO</text>
+</svg>
