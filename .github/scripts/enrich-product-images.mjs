@@ -69,24 +69,31 @@ const beforeCount=existing.size;
 const offerIndex=offerData.map(o=>({name:o.originalProductName||'',sku:o.sku||'',url:o.sourceUrl||'',source:o.source||''})).filter(x=>x.url);
 const exaIndex=exa.map(o=>({name:o.title||'',sku:'',url:o.url||'',source:o.source||''})).filter(x=>x.url);
 
-// Una imagen no debe reutilizarse como ficha individual si ya identifica otro producto.
+// Regla IMPERIA 360: una imagen grupal puede reutilizarse dentro de la misma familia
+// visual de tornillería/chazos cuando la diferencia es únicamente medida, calibre o rosca.
+// Si cambia la configuración física (cabeza, punta, tipo, arandela, etc.), debe buscarse otra imagen.
+const productById=new Map(products.map(p=>[String(p.id),p]));
 const imageOwners=new Map();
 for(const r of existing.values()){
-  if(usableProductImage(r.imageUrl)){
-    const u=String(r.imageUrl);
-    if(!imageOwners.has(u)) imageOwners.set(u,String(r.productId));
-  }
+  if(usableProductImage(r.imageUrl)&&!imageOwners.has(String(r.imageUrl))) imageOwners.set(String(r.imageUrl),String(r.productId));
 }
-const duplicateImageProductIds=new Set();
-const seenUrls=new Map();
-for(const r of existing.values()){
-  if(!usableProductImage(r.imageUrl)) continue;
-  const u=String(r.imageUrl);
-  seenUrls.set(u,(seenUrls.get(u)||0)+1);
+function visualFamily(p){
+  let n=norm(p?.name||'');
+  // Medidas, calibres y roscas no cambian la familia visual.
+  n=n.replace(/\b(?:#?\d+(?:[.,]\d+)?(?:\/\d+)?|\d+\s*x\s*\d+(?:\s*x\s*\d+)?|m\s*\d+(?:\.\d+)?|\d+\s*(?:mm|cm|pulg|pulgada|gal|g|kg|unds?|unidades?))\b/g,' ');
+  n=n.replace(/\b(?:unf|unc|uncf|rosca|paso|tpi)\b/g,' ');
+  return tokens(n).slice(0,14).join(' ');
 }
-for(const r of existing.values()) if(usableProductImage(r.imageUrl)&&seenUrls.get(String(r.imageUrl))>1) duplicateImageProductIds.add(String(r.productId));
-const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||duplicateImageProductIds.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl))).slice(0,BATCH);
-const claimedUrls=new Set([...imageOwners.keys()]);
+function canReuseImage(p,owner){
+  if(!owner)return false;
+  const a=visualFamily(p), b=visualFamily(owner);
+  if(!a||!b)return false;
+  const pa=/\b(tornillo|chazo|anclaje|tarugo|taquete)\b/i.test(String(p?.name||''));
+  const pb=/\b(tornillo|chazo|anclaje|tarugo|taquete)\b/i.test(String(owner?.name||''));
+  if(!(pa&&pb))return false;
+  return scoreName(a,b)>=0.65;
+}
+const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl))).slice(0,BATCH);
 let failures=0, checked=0;
 
 async function processProduct(p){
@@ -114,8 +121,11 @@ async function processProduct(p){
       if(!identityOk(p,page.html))continue;
       const image=meta(page.html,'og:image')||meta(page.html,'twitter:image');
       const imageUrl=absUrl(image,page.url);
-      if(imageUrl && usableProductImage(imageUrl) && !claimedUrls.has(imageUrl)){
-        claimedUrls.add(imageUrl);
+      if(imageUrl && usableProductImage(imageUrl)){
+        const ownerId=imageOwners.get(String(imageUrl));
+        const owner=ownerId?productById.get(String(ownerId)):null;
+        if(ownerId && !canReuseImage(p,owner)) continue;
+        if(!ownerId) imageOwners.set(String(imageUrl),String(p.id));
         return {
           productId:String(p.id),
           sku:p?.identification?.sku||null,
@@ -157,3 +167,5 @@ console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-befo
 // Paint priority: verified cuñete and medio cuñete references are included through the merged supplier/market catalog — 2026-09-29.
 
 // Manual execution trigger: 2026-09-29 — run verified image enrichment now.
+
+// Regla visual de tornillería/chazos aplicada: 2026-09-30.
