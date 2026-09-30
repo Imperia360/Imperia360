@@ -10,7 +10,18 @@ const BATCH=1600;
 const DISCOVERY_SOURCES=['https://roxvan.com/','https://comdulec.com/','https://mileniosuministros.com/','https://odinsas.com/','https://www.grupodiman.com/','https://ferreteriasorlandonino.com/','https://imsucol.com/','https://distribuidoralafrontera.com.co/','https://coval.com.co/','https://ferreteriatoolscenter.com.co/','https://www.industriascetelgroup.com.co/','https://reddi.com.co/','https://importadoraferremax.com/','https://cameleco.com/','https://comem.com.co/','https://importadoradftools.com/','https://www.provimer.co/','https://nergia.co/','https://ferreteriagerardobarrera.com/'];
 const CONCURRENCY=12;
 const REJECT_IMAGE_PATTERNS=[/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
-function usableProductImage(url){return Boolean(url)&&!REJECT_IMAGE_PATTERNS.some(re=>re.test(String(url)));}
+function usableProductImage(url){
+  if(!url)return false;
+  const s=String(url);
+  if(REJECT_IMAGE_PATTERNS.some(re=>re.test(s)))return false;
+  // No aceptar logos, portadas, banners, imágenes de marca o recursos genéricos.
+  if(/(?:logo|favicon|banner|portada|home|\bmarca\b|odin-god|distribuidora[_-]la[_-]frontera)/i.test(s))return false;
+  return true;
+}
+function isHomepageUrl(url){
+  try{const u=new URL(url); return u.pathname==='/' || u.pathname==='' || /^\/(?:index\.html?)?$/i.test(u.pathname);}
+  catch{return false;}
+}
 const OFFICIAL_ELECTRICAL_SOURCES=[
   {re:/\b(centelsa|nexans )\b/i,base:'https://www.nexans.co/es/'},
   {re:/\b(procables|prysmian )\b/i,base:'https://www.prysmian.com/'},
