@@ -109,7 +109,8 @@ jobs:
 
   integrity:
     name: 1. Integridad y JSON
-    needs: image-enrichment
+    # Se ejecuta en paralelo con el enriquecimiento de imágenes para reducir la espera.
+    needs: product-verification
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -122,7 +123,7 @@ jobs:
 
   catalog-gate:
     name: 2. Compuerta de catálogo
-    needs: integrity
+    needs: [integrity, image-enrichment]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
