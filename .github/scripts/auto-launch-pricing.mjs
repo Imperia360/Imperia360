@@ -8,7 +8,7 @@ const WM=20, CM=25, RM=35;
 const norm=s=>String(s??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
 const tokens=s=>new Set(norm(s).split(/\s+/).filter(x=>x.length>2));
 const fields=p=>[p.name,p.title,p.sku,p.reference,p.identification?.sku,p.identification?.manufacturerReference,p.brand?.name].filter(Boolean).map(String);
-function priceFromCost(c,m){return c>0&&m<100?Math.ceil((c/(1-m/100))/100)*100:0}
+function priceFromCost(c,m){if(!(c>0&&m<100)) return 0; const raw=c/(1-m/100); return raw<1000 ? Math.ceil(raw) : Math.ceil(raw/100)*100}
 function parseWholesale(text){
  const s=String(text||"");
  const patterns=[
