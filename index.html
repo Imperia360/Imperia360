@@ -173,9 +173,11 @@ import{loadProducts}from'./js/catalog-loader.js';import{searchCatalog}from'./js/
  const root=document.getElementById('imperia-carousel-track');if(!root)return;
  try{
   const [ir,pr]=await Promise.all([fetch('./data/product-images.json',{cache:'no-store'}),fetch('./data/products.json',{cache:'no-store'})]);
-  const images=ir.ok?await ir.json():[];const products=pr.ok?await pr.json():[];
+  const imagesRaw=ir.ok?await ir.json():[];const productsRaw=pr.ok?await pr.json():[];
+  const images=Array.isArray(imagesRaw)?imagesRaw:(Array.isArray(imagesRaw.records)?imagesRaw.records:[]);
+  const products=Array.isArray(productsRaw)?productsRaw:(Array.isArray(productsRaw.products)?productsRaw.products:[]);
   const pm=new Map(products.map(p=>[String(p.id),p]));
-  const rows=(Array.isArray(images)?images:[]).filter(x=>x&&x.imageUrl).filter((x,i,a)=>a.findIndex(y=>y.imageUrl===x.imageUrl)===i).slice(0,12);
+  const rows=images.filter(x=>x&&x.imageUrl).filter((x,i,a)=>a.findIndex(y=>y.imageUrl===x.imageUrl)===i).slice(0,12);
   if(!rows.length)return;
   root.innerHTML=rows.map(x=>{const p=pm.get(String(x.productId))||{};return '<article class="imperia-carousel-slide"><img src="'+String(x.imageUrl).replace(/"/g,'&quot;')+'" alt="'+String(p.name||'Producto IMPERIA 360').replace(/"/g,'&quot;')+'" loading="lazy"><div class="imperia-carousel-info"><span class="eyebrow">IMPERIA 360</span><strong>'+String(p.name||'Producto verificado')+'</strong><small>'+(p.brand||'Catálogo verificado')+(p.reference?' · Ref. '+p.reference:'')+'</small></div></article>';}).join('');
   const dots=document.getElementById('imperia-carousel-dots');dots.innerHTML=rows.map((_,i)=>'<i class="'+(i?'':'active')+'"></i>').join('');
