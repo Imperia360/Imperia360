@@ -8,6 +8,8 @@ const OFFERS='data/market-offers.json';
 const EXA='data/exa-discovery.json';
 const BATCH=1600;
 const CONCURRENCY=12;
+const REJECT_IMAGE_PATTERNS=[/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
+function usableProductImage(url){return Boolean(url)&&!REJECT_IMAGE_PATTERNS.some(re=>re.test(String(url)));}
 const STOP=new Set('de del la el los las y en para por con sin una uno unidades unidad x mm ml cm pulgadas pulgada acero metal superior producto'.split(/\s+/));
 
 function norm(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();}
@@ -95,7 +97,7 @@ async function processProduct(p){
       if(!identityOk(p,page.html))continue;
       const image=meta(page.html,'og:image')||meta(page.html,'twitter:image');
       const imageUrl=absUrl(image,page.url);
-      if(imageUrl){
+      if(imageUrl && usableProductImage(imageUrl)){
         return {
           productId:String(p.id),
           sku:p?.identification?.sku||null,
@@ -128,7 +130,7 @@ await Promise.all(Array.from({length:Math.min(CONCURRENCY,queue.length)},worker)
 
 imgData.generatedAt=new Date().toISOString().slice(0,10);
 imgData.status='staging';
-imgData.records=[...existing.values()];
+imgData.records=[...existing.values()].filter(r=>usableProductImage(r.imageUrl||r.imageUrl));
 await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
 console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures},null,2));
 
