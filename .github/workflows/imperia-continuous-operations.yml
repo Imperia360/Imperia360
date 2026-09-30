@@ -31,6 +31,7 @@ jobs:
       - name: Construir cola de fuentes
         run: node .github/scripts/build-discovery-queue.mjs
       - name: Descubrimiento web Exa
+        continue-on-error: true
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
         run: node .github/scripts/run-exa-discovery.mjs
