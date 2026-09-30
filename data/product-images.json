@@ -5779,6 +5779,19 @@
       "verifiedAt": "2026-09-30",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "paint-pintuland-t1-25g",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_977232-MCO106900761652_022026-O.jpg",
+      "sourcePage": "https://www.mercadolibre.com.co/vinilo-pintura-tipo-1-pintuland-blanco-balde-x-25-galones/up/MCOU3813498612?picker=true",
+      "source": "Mercado Libre",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ],
   "validation": {
