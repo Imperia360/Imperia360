@@ -6351,6 +6351,32 @@
       "verifiedAt": "2026-09-30",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "aud-0392",
+      "sku": "PRS36U",
+      "manufacturerReference": "PRS36U",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/admin/modulos/gestorArchivos/files/catalogo/30963.jpg",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/producto/125/prensa-en-cruz-6x53mmx152mm-uyustools-prc6125",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0439",
+      "sku": "TC5355",
+      "manufacturerReference": "TC5355",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/admin/modulos/gestorArchivos/files/catalogo/25437.jpg",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/producto/138/engrapadora-neumatica-toolcraft-tc5355",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ],
   "validation": {
