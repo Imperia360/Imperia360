@@ -10,6 +10,16 @@ const BATCH=1600;
 const CONCURRENCY=12;
 const REJECT_IMAGE_PATTERNS=[/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
 function usableProductImage(url){return Boolean(url)&&!REJECT_IMAGE_PATTERNS.some(re=>re.test(String(url)));}
+const OFFICIAL_ELECTRICAL_SOURCES=[
+  {re:/\\b(centelsa|nexans)\\b/i,base:'https://www.nexans.co/es/'},
+  {re:/\\b(procables|prysmian)\\b/i,base:'https://www.prysmian.com/'},
+  {re:/\\b(cenco|cencoelectricos)\\b/i,base:'https://www.cencoelectricos.com/'},
+  {re:/\\b(total)\\b/i,base:'https://totalherramientas.com/'}
+];
+function electricalPriority(p){
+  const n=String(p?.name||'');
+  return /\\b(cable|alambre|conductor|breaker|interruptor|tomacorriente|enchufe|electric|electrico|eléctrico|fusible|terminal|borna|tablero|contacto|contactor|aislador|puesta a tierra)\\b/i.test(n);
+}
 const STOP=new Set('de del la el los las y en para por con sin una uno unidades unidad x mm ml cm pulgadas pulgada acero metal superior producto'.split(/\s+/));
 
 function norm(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();}
@@ -93,13 +103,13 @@ function canReuseImage(p,owner){
   if(!(pa&&pb))return false;
   return scoreName(a,b)>=0.65;
 }
-const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl))).slice(0,BATCH);
+const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))\n  .sort((a,b)=>Number(electricalPriority(b))-Number(electricalPriority(a))).slice(0,BATCH);
 let failures=0, checked=0;
 
 async function processProduct(p){
   let candidates=[];
   try{
-    if(p.source?.url)candidates.push(p.source.url);
+    if(p.source?.url)candidates.push(p.source.url);\n    for(const s of OFFICIAL_ELECTRICAL_SOURCES){ if(s.re.test(String(p?.name||''))) candidates.push(s.base); }
     if(p.source?.url)candidates.push(...await sitemapCandidates(new URL(p.source.url).origin,p));
   }catch{}
   const refs=[p?.identification?.manufacturerReference,p?.identification?.sku,p?.identification?.supplierReference,p?.sku,p?.reference].filter(Boolean).map(norm);
@@ -168,4 +178,4 @@ console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-befo
 
 // Manual execution trigger: 2026-09-29 — run verified image enrichment now.
 
-// Regla visual de tornillería/chazos aplicada: 2026-09-30.
+// Regla visual de tornillería/chazos aplicada: 2026-09-30.\n// Prioridad eléctrica: cables, alambres, conductores y accesorios se validan primero contra fabricantes/importadores.\n// No se eliminan marcas de agua de terceros; solo se publican imágenes limpias/permitidas o composiciones propias.
