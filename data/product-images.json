@@ -6377,6 +6377,71 @@
       "verifiedAt": "2026-09-30",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "aud-0384",
+      "sku": "P24338-19",
+      "manufacturerReference": "P24338-19",
+      "supplierReference": null,
+      "imageUrl": "https://grupodefa.co/share_image.jpg",
+      "sourcePage": "https://grupodefa.co/",
+      "source": "Gamelec",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0220",
+      "sku": "30000/337",
+      "manufacturerReference": "30000/337",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/admin/modulos/gestorArchivos/files/catalogo/02209.jpg",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/producto/142/pistola-de-baja-presion-buen-pintor-327-rp8063--s-112107337",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0226",
+      "sku": "327-RP8063-S-112 / 107337",
+      "manufacturerReference": "327-RP8063-S-112 / 107337",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/admin/modulos/gestorArchivos/files/catalogo/31285.jpg",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/producto/147/pistola-para-pintar-baja-presion-4527-art-1000-ml-04011-527",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0430",
+      "sku": "T-00284",
+      "manufacturerReference": "T-00284",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/admin/modulos/gestorArchivos/files/catalogo/28555.jpg",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/producto/19/rotomartillo-sds-plus-26mm-800w-25j-1100rpm-110v60hz-total-tools-uth308268",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0445",
+      "sku": "TC6041",
+      "manufacturerReference": "TC6041",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/admin/modulos/gestorArchivos/files/catalogo/39000.jpg",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/producto/4/espumadora-para-hidrolavadora-1-lt-toolcraft-tc6041",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ],
   "validation": {
