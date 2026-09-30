@@ -8418,6 +8418,58 @@
       "verifiedAt": "2026-09-30",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "aud-0265",
+      "sku": "9017621R",
+      "manufacturerReference": "9017621R",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/null",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0350",
+      "sku": "IW14156",
+      "manufacturerReference": "IW14156",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/admin/modulos/gestorArchivos/files/catalogo/28555.jpg",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/producto/19/rotomartillo-sds-plus-26mm-800w-25j-1100rpm-110v60hz-total-tools-uth308268",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0356",
+      "sku": "IW14177",
+      "manufacturerReference": "IW14177",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/admin/modulos/gestorArchivos/files/catalogo/31435.jpg",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/producto/28/rotomartillo-sds-26mm-800rpm-3900gpm-te2600",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "aud-0383",
+      "sku": "ORG-64",
+      "manufacturerReference": "ORG-64",
+      "supplierReference": null,
+      "imageUrl": "https://www.ferreteriaferrecentro.com/admin/modulos/gestorArchivos/files/catalogo/30608.jpg",
+      "sourcePage": "https://www.ferreteriaferrecentro.com/producto/144/pistola-para-petrolizar-presion-50a-90-psi-truper-prowe-490",
+      "source": "Ferrecentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ]
 }
