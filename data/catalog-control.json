@@ -124,10 +124,10 @@
     "noInventedImages": true,
     "currentMasterAudit": {
       "products": 1526,
-      "withImage": 11,
-      "withoutImage": 1515
+      "withImage": 444,
+      "withoutImage": 1082
     },
-    "auditFile": "data/image-name-audit-2026-09-25.json"
+    "auditFile": "data/product-images.json"
   },
   "namingPolicy": {
     "photoPlaceholdersNotProducts": true,
@@ -172,7 +172,7 @@
     "status": "evidence_collected_margin_ceiling_calculated",
     "rule": "No fijar margen real ni costo IMPERIA hasta cruzar costo proveedor verificable."
   },
-  "lastExecution": "2026-09-27",
+  "lastExecution": "2026-09-30",
   "executionStatus": "executed",
   "lastExecutionEvidence": {
     "webSearch": "Fresh web evidence checked across construction, safety, waterproofing, wholesale and tools.",
@@ -183,7 +183,9 @@
       "Depósito Imperio",
       "PresuCosto Colombia 2026"
     ],
-    "note": "Only evidence suitable for exact product matching should be promoted to product pricing; generic or $1 placeholder catalog entries are not accepted as prices."
+    "note": "Only evidence suitable for exact product matching should be promoted to product pricing; generic or $1 placeholder catalog entries are not accepted as prices.",
+    "imageAudit": "2026-09-30: data/product-images.json contiene 444 registros publishable con verificationStatus=verified_source_image; 444 productId únicos; 0 IDs duplicados.",
+    "repositoryImprovement": "Se corrigió el control maestro para reflejar el lote real de imágenes verificadas en lugar del conteo histórico de 11."
   },
   "searchPolicy": {
     "status": "implemented",
