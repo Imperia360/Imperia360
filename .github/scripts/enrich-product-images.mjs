@@ -110,7 +110,8 @@ let failures=0, checked=0;
 async function processProduct(p){
   let candidates=[];
   try{
-    if(p.source?.url)candidates.push(p.source.url);\n    for(const s of OFFICIAL_ELECTRICAL_SOURCES){ if(s.re.test(String(p?.name||''))) candidates.push(s.base); }
+    if(p.source?.url)candidates.push(p.source.url);
+    for(const s of OFFICIAL_ELECTRICAL_SOURCES){ if(s.re.test(String(p?.name||''))) candidates.push(s.base); }
     if(p.source?.url)candidates.push(...await sitemapCandidates(new URL(p.source.url).origin,p));
   }catch{}
   const refs=[p?.identification?.manufacturerReference,p?.identification?.sku,p?.identification?.supplierReference,p?.sku,p?.reference].filter(Boolean).map(norm);
@@ -170,7 +171,8 @@ await Promise.all(Array.from({length:Math.min(CONCURRENCY,queue.length)},worker)
 imgData.generatedAt=new Date().toISOString().slice(0,10);
 imgData.status='staging';
 imgData.records=[...existing.values()].filter(r=>usableProductImage(r.imageUrl||r.imageUrl));
-await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
+await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'
+');
 console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures},null,2));
 
 // Trigger automatic image enrichment after workflow hardening — 2026-09-29.
@@ -179,4 +181,6 @@ console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-befo
 
 // Manual execution trigger: 2026-09-29 — run verified image enrichment now.
 
-// Regla visual de tornillería/chazos aplicada: 2026-09-30.\n// Prioridad eléctrica: cables, alambres, conductores y accesorios se validan primero contra fabricantes/importadores.\n// No se eliminan marcas de agua de terceros; solo se publican imágenes limpias/permitidas o composiciones propias.
+// Regla visual de tornillería/chazos aplicada: 2026-09-30.
+// Prioridad eléctrica: cables, alambres, conductores y accesorios se validan primero contra fabricantes/importadores.
+// No se eliminan marcas de agua de terceros; solo se publican imágenes limpias/permitidas o composiciones propias.
