@@ -41,9 +41,31 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Otro proceso puede haber actualizado main mientras verificábamos imágenes.
+          # Fusionamos el lote local con la versión remota para no perder coincidencias.
+          cp data/product-images.json /tmp/product-images-generated.json
+          git fetch origin main
+          git checkout origin/main -- data/product-images.json
+          node <<'NODE'
+          const fs = require("fs");
+          const remote = JSON.parse(fs.readFileSync("data/product-images.json", "utf8"));
+          const generated = JSON.parse(fs.readFileSync("/tmp/product-images-generated.json", "utf8"));
+          const byId = new Map((remote.records || []).map(r => [r.productId, r]));
+          for (const record of generated.records || []) byId.set(record.productId, record);
+          const merged = {
+            ...remote,
+            generatedAt: generated.generatedAt || remote.generatedAt,
+            records: [...byId.values()]
+          };
+          fs.writeFileSync("data/product-images.json", JSON.stringify(merged, null, 2) + "\n");
+          NODE
+          if git diff --quiet -- data/product-images.json; then
+            echo "Sin nuevas imágenes después de sincronizar con main."
+            exit 0
+          fi
           git add data/product-images.json
           git commit -m "chore: add verified product images batch"
-          git push
+          git push origin HEAD:main
 
 # Continuous completion trigger verified 2026-09-29.
 # Dispatch refresh requested 2026-09-29.
