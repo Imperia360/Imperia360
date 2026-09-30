@@ -21,15 +21,15 @@ for (const item of selected) {
   ].join("\n");
 
   const response = await fetch(
-    "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=" +
-      encodeURIComponent(apiKey),
+    "https://generativelanguage.googleapis.com/v1beta/interactions",
     {
       method: "POST",
       headers: {"Content-Type": "application/json", "x-goog-api-key": apiKey},
       body: JSON.stringify({
-        contents: [{parts: [{text: prompt}]}],
-        tools: [{google_search: {}}],
-        generationConfig: {temperature: 0.1, maxOutputTokens: 800}
+        model: "gemini-3.8-flash",
+        input: prompt,
+        tools: [{type: "google_search"}],
+        generation_config: {thinking_level: "low"}
       })
     }
   );
