@@ -179,8 +179,7 @@ await Promise.all(Array.from({length:Math.min(CONCURRENCY,queue.length)},worker)
 imgData.generatedAt=new Date().toISOString().slice(0,10);
 imgData.status='staging';
 imgData.records=[...existing.values()].filter(r=>usableProductImage(r.imageUrl||r.imageUrl));
-await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'
-');
+await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
 console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures},null,2));
 
 // Trigger automatic image enrichment after workflow hardening — 2026-09-29.
