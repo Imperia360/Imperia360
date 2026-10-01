@@ -5,6 +5,9 @@ on:
   push:
     paths:
       - '.github/scripts/enrich-product-images.mjs'
+      - '.github/workflows/imperia-image-enrichment.yml'
+      - '.github/AI_FLEET_TASKS.md'
+      - 'assets/images/products/README.md'
   schedule:
     - cron: "43 */3 * * *"
 
@@ -79,3 +82,5 @@ jobs:
 # Continuous completion trigger verified 2026-09-29.
 # Dispatch refresh requested 2026-09-29.
 # Continuous batch trigger 2026-09-30.
+
+# Execution trigger correction: policy/documentation changes also activate enrichment — 2026-09-30.
