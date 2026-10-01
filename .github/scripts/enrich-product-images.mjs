@@ -246,3 +246,5 @@ console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-befo
 // Regla visual de tornillería/chazos aplicada: 2026-09-30.
 // Prioridad eléctrica: cables, alambres, conductores y accesorios se validan primero contra fabricantes/importadores.
 // No se eliminan marcas de agua de terceros; solo se publican imágenes limpias/permitidas o composiciones propias.
+
+// Immediate family-image execution trigger 2026-09-30.
