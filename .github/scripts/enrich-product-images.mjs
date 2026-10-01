@@ -9,9 +9,10 @@ const EXA='data/exa-discovery.json';
 const BATCH=1600;
 const DISCOVERY_SOURCES=['https://roxvan.com/','https://comdulec.com/','https://mileniosuministros.com/','https://odinsas.com/','https://www.grupodiman.com/','https://ferreteriasorlandonino.com/','https://imsucol.com/','https://distribuidoralafrontera.com.co/','https://coval.com.co/','https://ferreteriatoolscenter.com.co/','https://www.industriascetelgroup.com.co/','https://reddi.com.co/','https://importadoraferremax.com/','https://cameleco.com/','https://comem.com.co/','https://importadoradftools.com/','https://www.provimer.co/','https://nergia.co/','https://ferreteriagerardobarrera.com/','https://mundial.com.co/','https://pintul.com/','https://conalpron.com/','https://supermezclascol.com/','https://www.andicomer.com/','https://www.abacol.co/','https://shoppingpaint.com/','https://www.autocoloresg.com/','https://nortemateriales.com.co/','https://www.supuntoferretero.com/','https://dilmarycia.com.co/'];
 const CONCURRENCY=12;
-const REJECT_IMAGE_PATTERNS=[/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
+const REJECT_IMAGE_PATTERNS=[/sofalca\\.com/i,/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
 function usableProductImage(url){
   if(!url)return false;
+  if(/sofalca\\.com/i.test(String(url)))return false;
   const s=String(url);
   if(REJECT_IMAGE_PATTERNS.some(re=>re.test(s)))return false;
   // No aceptar logos, portadas, banners, imágenes de marca o recursos genéricos.
@@ -93,7 +94,7 @@ const imgData=JSON.parse(await fs.readFile(IMAGES,'utf8'));
 const offerData=JSON.parse(await fs.readFile(OFFERS,'utf8')).offers||[];
 let exa=[]; try{exa=JSON.parse(await fs.readFile(EXA,'utf8')).results||[]}catch{}
 
-const existing=new Map((imgData.records||[]).map(r=>[String(r.productId),r]));
+const existing=new Map((imgData.records||[]).filter(r=>!(/sofalca\\.com/i.test(String(r?.imageUrl||''))||/sofalca\\.com/i.test(String(r?.sourcePage||''))||/^sofalca$/i.test(String(r?.source||'')))).map(r=>[String(r.productId),r]));
 const beforeCount=existing.size;
 const offerIndex=offerData.map(o=>({name:o.originalProductName||'',sku:o.sku||'',url:o.sourceUrl||'',source:o.source||''})).filter(x=>x.url);
 const exaIndex=exa.map(o=>({name:o.title||'',sku:'',url:o.url||'',source:o.source||''})).filter(x=>x.url);
@@ -229,6 +230,8 @@ await Promise.all(Array.from({length:Math.min(CONCURRENCY,queue.length)},worker)
 
 imgData.generatedAt=new Date().toISOString().slice(0,10);
 imgData.status='staging';
+imgData.policy.fastenerFamilyReuse=true;
+imgData.policy.blockedImageSources=['sofalca.com'];
 imgData.records=[...existing.values()].filter(r=>usableProductImage(r.imageUrl||r.imageUrl));
 await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
 const reusedFamily=imgData.records.filter(r=>r?.imageReuse==='family_measurement_variant').length;
