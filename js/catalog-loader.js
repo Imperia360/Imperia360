@@ -178,7 +178,7 @@ export async function loadProducts(source = './data/products.json') {
     // $15.300 COP/kg, presentación de 20 kg = $306.000 de costo base; se aplican
     // los márgenes IMPERIA y esta regla prevalece sobre precios automáticos anteriores.
     const productTextForKg = String(product?.name || '') + ' ' + String(product?.description || '');
-    const isKilogramReference = /\\b(?:kilo|kilos|kg|kgs)\\b/i.test(productTextForKg);
+    const isKilogramReference = /\b(?:kilo|kilos|kg|kgs)\b/i.test(productTextForKg);
     const kilogramPricing = isKilogramReference ? {
       manualSalePrice: 470800,
       manualRetailPrice: 470800,
@@ -191,7 +191,9 @@ export async function loadProducts(source = './data/products.json') {
       manualUpdatedAt: '2026-10-01T00:00:00.000Z',
       manualUpdatedBy: 'IMPERIA 360 kilogram rule: 15300 COP/kg x 20 kg'
     } : null;
-    const withImages = effectiveEvidence ? {
+    if (kilogramPricing) provisional = kilogramPricing;
+
+    const withImages = effectiveEvidence ?
       ...product,
       images: {
         ...(product.images || {}),
