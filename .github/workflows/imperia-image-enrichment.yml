@@ -65,7 +65,7 @@ jobs:
           const remote = JSON.parse(fs.readFileSync("data/product-images.json", "utf8"));
           const generated = JSON.parse(fs.readFileSync("/tmp/product-images-generated.json", "utf8"));
           const byId = new Map((remote.records || []).map(r => [r.productId, r]));
-          for (const record of generated.records || []) byId.set(record.productId, record);
+          for (const record of generated.records || []) {\n            // Nunca sobrescribir una imagen existente: solo incorporar IDs que aún no existen.\n            if (!byId.has(record.productId)) byId.set(record.productId, record);\n          }
           const merged = {
             ...remote,
             generatedAt: generated.generatedAt || remote.generatedAt,
