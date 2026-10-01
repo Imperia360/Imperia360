@@ -172,7 +172,7 @@ export async function loadProducts(source = './data/products.json') {
         && !exclude.some(token => productName.includes(String(token).toLowerCase()));
     });
     const effectiveEvidence = evidence || familyEvidence;
-    const override = priceOverrides[String(product?.id)];
+    const rawOverride = priceOverrides[String(product?.id)];
     let provisional = autoPricing[String(product?.id)];
     // Regla IMPERIA para referencias de la lista cuyo producto se expresa por kilo:
     // $15.300 COP/kg, presentación de 20 kg = $306.000 de costo base; se aplican
@@ -192,8 +192,9 @@ export async function loadProducts(source = './data/products.json') {
       manualUpdatedBy: 'IMPERIA 360 kilogram rule: 15300 COP/kg x 20 kg'
     } : null;
     if (kilogramPricing) provisional = kilogramPricing;
+    const override = kilogramPricing ? null : rawOverride;
 
-    const withImages = effectiveEvidence ?
+    const withImages = effectiveEvidence ? {
       ...product,
       images: {
         ...(product.images || {}),
