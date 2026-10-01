@@ -11,7 +11,7 @@ on:
       - "data/auto-pricing.json"
       - ".github/workflows/imperia-visual-auditor.yml"
   schedule:
-    - cron: "23 */6 * * *"
+    - cron: "23 * * * *"
 
 permissions:
   contents: read
