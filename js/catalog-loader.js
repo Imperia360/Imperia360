@@ -50,6 +50,25 @@ export async function loadProducts(source = './data/products.json') {
     }
   } catch {}
 
+  // Lista de precios de referencia entregada por IMPERIA 360.
+  // Esta fuente está autorizada para publicación directa con margen; no requiere
+  // verificación externa ni auditoría de precio. Los productos nuevos se incorporan
+  // al catálogo maestro desde esta fuente.
+  try {
+    const ir = await fetch('./data/imperia-reference-pricing.json?' + Date.now());
+    if (ir.ok) {
+      const id = await ir.json();
+      const referenceProducts = Array.isArray(id.newProducts) ? id.newProducts : [];
+      const existing = new Set(products.map(p => String(p?.id)));
+      for (const rp of referenceProducts) {
+        if (!existing.has(String(rp.id))) {
+          products.push(rp);
+          existing.add(String(rp.id));
+        }
+      }
+    }
+  } catch {}
+
   // Proveedor Roxvan: referencias públicas observadas, con precio IMPERIA
   // calculado según las reglas comerciales configuradas.
   try {
