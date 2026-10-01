@@ -102,6 +102,19 @@ export async function loadProducts(source = './data/products.json') {
   let autoPricing = {};
   try { const r=await fetch("./data/auto-pricing.json?"+Date.now()); if(r.ok){const d=await r.json(); autoPricing=d?.records||{};} } catch {}
 
+  // Imágenes verificadas por familia visual de tornillería. Una misma imagen
+  // representa las variantes que solo cambian en medida/presentación.
+  let fastenerFamilyRules = [];
+  try {
+    const familyResponse = await fetch('./data/fastener-family-images.json?' + Date.now());
+    if (familyResponse.ok) {
+      const familyData = await familyResponse.json();
+      fastenerFamilyRules = Array.isArray(familyData.families) ? familyData.families : [];
+    }
+  } catch {
+    fastenerFamilyRules = [];
+  }
+
   let imageRecords = [];
   try {
     const imageResponse = await fetch('./data/product-images.json');
@@ -124,17 +137,27 @@ export async function loadProducts(source = './data/products.json') {
   // an already recovered product disappear from the public catalog.
   return products.map(product => {
     const evidence = verifiedImages.get(String(product?.id));
+    const productName = String(product?.name || '').toLowerCase();
+    const familyEvidence = fastenerFamilyRules.find(rule => {
+      const include = rule?.match?.include || [];
+      const exclude = rule?.match?.exclude || [];
+      return rule?.publishable === true && rule?.verificationStatus === 'verified_source_image' && rule?.imageUrl
+        && include.every(token => productName.includes(String(token).toLowerCase()))
+        && !exclude.some(token => productName.includes(String(token).toLowerCase()));
+    });
+    const effectiveEvidence = evidence || familyEvidence;
     const override = priceOverrides[String(product?.id)];
     const provisional = autoPricing[String(product?.id)];
-    const withImages = evidence ? {
+    const withImages = effectiveEvidence ? {
       ...product,
       images: {
         ...(product.images || {}),
-        primary: evidence.imageUrl,
-        source: evidence.source,
-        sourcePage: evidence.sourcePage,
-        verificationStatus: evidence.verificationStatus,
-        verifiedAt: evidence.verifiedAt
+        primary: effectiveEvidence.imageUrl,
+        source: effectiveEvidence.source,
+        sourcePage: effectiveEvidence.sourcePage,
+        verificationStatus: effectiveEvidence.verificationStatus,
+        verifiedAt: effectiveEvidence.verifiedAt,
+        imageReuse: evidence ? undefined : 'visual_family_measurement_variant'
       }
     } : product;
 
