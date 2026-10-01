@@ -2,12 +2,17 @@
 
 Esta carpeta queda preparada para las imágenes reales del catálogo.
 
-Reglas iniciales:
+## Regla vigente de imágenes por familia
 
-- Cada referencia debe tener su propia imagen o conjunto de imágenes.
-- No mezclar imágenes de tornillos de diferentes medidas, tipos o referencias.
-- Usar nombres de archivo basados en la referencia real del producto.
-- No agregar imágenes hasta confirmar a qué producto pertenecen.
-- Las rutas de las imágenes se registrarán posteriormente en `data/products.json`.
+- Para tornillería y otros fijadores visualmente equivalentes, se permite y se recomienda **una imagen representativa por familia visual**.
+- La misma imagen puede reutilizarse en todas las medidas cuando la diferencia sea únicamente largo, diámetro, calibre o presentación.
+- La descripción y la referencia del producto deben conservar las medidas exactas.
+- No mezclar en una misma familia tipos visualmente distintos (por ejemplo, cabeza, huella, geometría o acabado diferente).
+- No usar imágenes de **Sofalca**.
+- Si no existe una imagen adecuada y verificable, generar una imagen propia de la familia antes de publicar.
+- No inventar referencias, medidas, precios ni stock.
+- Toda imagen publicada debe quedar asociada al producto/familia correcta y pasar las validaciones del catálogo.
 
-En esta etapa no se agregan imágenes.
+## Objetivo operativo
+
+No bloquear una referencia de tornillería por no tener una fotografía individual si ya existe una imagen representativa correcta de su familia.
