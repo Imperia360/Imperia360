@@ -14,6 +14,8 @@ on:
       - 'data/products.json'
       - 'data/imperia-reference-pricing.json'
       - 'data/gemini-google-discovery.json'
+      - '.github/scripts/prepare-image-google-queue.mjs'
+      - '.github/scripts/run-gemini-google-discovery.mjs'
   schedule:
     - cron: "43 */3 * * *"
 
@@ -35,6 +37,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Preparar cola de imágenes con Google
+        run: node .github/scripts/prepare-image-google-queue.mjs
+      - name: Buscar páginas de producto con Gemini + Google Search
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          IMAGE_DISCOVERY_BATCH: "100"
+        run: node .github/scripts/run-gemini-google-discovery.mjs
       - name: Procesar siguiente lote de productos sin imagen
         run: node .github/scripts/enrich-product-images.mjs
       - name: Guardar coincidencias verificadas
