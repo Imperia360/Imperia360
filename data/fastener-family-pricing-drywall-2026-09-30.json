@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-09-30",
+  "family": "tornillo-drywall-calibre-6-3-4-punta-aguda",
+  "references": [
+    {
+      "source": "Pressel",
+      "url": "https://pressel.com.co/es/categoria/fijaciones-y-tornilleria",
+      "product": "Tornillo Drywall Negro 6x3/4",
+      "presentation": "500 unidades",
+      "observedPriceCOP": 8350,
+      "unitEquivalentCOP": 16.7,
+      "verifiedAt": "2026-09-30"
+    },
+    {
+      "source": "Colombia Compra Eficiente",
+      "url": "https://operaciones.colombiacompra.gov.co/tienda-virtual-del-estado-colombiano/ordenes-compra/130757/node",
+      "product": "TORNILLO DRYWALL 6X3/4PG 100U",
+      "presentation": "100 unidades",
+      "observedPriceCOP": 2990,
+      "unitEquivalentCOP": 29.9,
+      "verifiedAt": "2026-09-30"
+    },
+    {
+      "source": "Dyna & Cia",
+      "url": "https://www.dyna.com.co/fijaciones/tornillos",
+      "product": "Tornillo Drywall para placa fosfatado calibre 6 longitud 3/4 punta aguda",
+      "presentation": "bolsa x 100",
+      "priceCOP": null,
+      "verifiedAt": "2026-09-30"
+    }
+  ],
+  "policy": "Use presentation-specific price evidence; do not invent or silently convert packaging."
+}
