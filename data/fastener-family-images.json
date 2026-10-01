@@ -4,7 +4,8 @@
     "familyReuse": true,
     "noSofalca": true,
     "sourceMustBePublic": true,
-    "measurementVariantsMayReuseFamilyImage": true
+    "measurementVariantsMayReuseFamilyImage": true,
+    "executionRefreshAt": "2026-10-01T01:30:00Z"
   },
   "families": [
     {
