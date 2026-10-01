@@ -107,26 +107,65 @@ for(const r of existing.values()){
   if(usableProductImage(r.imageUrl)&&!imageOwners.has(String(r.imageUrl))) imageOwners.set(String(r.imageUrl),String(r.productId));
 }
 function visualFamily(p){
+
   let n=norm(p?.name||'');
   // Medidas, calibres y roscas no cambian la familia visual.
   n=n.replace(/\b(?:#?\d+(?:[.,]\d+)?(?:\/\d+)?|\d+\s*x\s*\d+(?:\s*x\s*\d+)?|m\s*\d+(?:\.\d+)?|\d+\s*(?:mm|cm|pulg|pulgada|gal|g|kg|unds?|unidades?))\b/g,' ');
   n=n.replace(/\b(?:unf|unc|uncf|rosca|paso|tpi)\b/g,' ');
   return tokens(n).slice(0,14).join(' ');
 }
+function isFastenerFamily(p){
+  return /\b(tornillo|chazo|anclaje|tarugo|taquete)\b/i.test(String(p?.name||''));
+}
 function canReuseImage(p,owner){
   if(!owner)return false;
   const a=visualFamily(p), b=visualFamily(owner);
   if(!a||!b)return false;
-  const pa=/\b(tornillo|chazo|anclaje|tarugo|taquete)\b/i.test(String(p?.name||''));
-  const pb=/\b(tornillo|chazo|anclaje|tarugo|taquete)\b/i.test(String(owner?.name||''));
+  const pa=isFastenerFamily(p);
+  const pb=isFastenerFamily(owner);
   if(!(pa&&pb))return false;
   return scoreName(a,b)>=0.65;
+}
+// Regla confirmada por IMPERIA 360 (2026-09-30):
+// para tornillería/chazos, una imagen representativa de la familia visual se reutiliza
+// en todas las medidas que solo cambian diámetro, largo, calibre, rosca o presentación.
+// No se reutiliza si cambia la cabeza, punta, tipo constructivo o accesorio visible.
+function findFamilyImage(p){
+  if(!isFastenerFamily(p)) return null;
+  const ownerCandidates=[];
+  for(const r of existing.values()){
+    if(!usableProductImage(r?.imageUrl)) continue;
+    const owner=productById.get(String(r.productId));
+    if(owner && canReuseImage(p,owner)) ownerCandidates.push({r,owner,score:scoreName(visualFamily(p),visualFamily(owner))});
+  }
+  ownerCandidates.sort((a,b)=>b.score-a.score);
+  return ownerCandidates[0]||null;
 }
 const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))
   .sort((a,b)=>priorityScore(b)-priorityScore(a)).slice(0,BATCH);
 let failures=0, checked=0;
 
 async function processProduct(p){
+  // Herencia inmediata de imagen por familia: evita bloquear la publicación
+  // por una medida distinta cuando la configuración visual es la misma.
+  const familyImage=findFamilyImage(p);
+  if(familyImage){
+    const r=familyImage.r;
+    return {
+      productId:String(p.id),
+      sku:p?.identification?.sku||null,
+      manufacturerReference:p?.identification?.manufacturerReference||null,
+      supplierReference:p?.identification?.supplierReference||null,
+      imageUrl:r.imageUrl,
+      sourcePage:r.sourcePage,
+      source:r.source,
+      match:'family image reused: same fastener visual family; dimensions/measurements may differ',
+      verifiedAt:r.verifiedAt,
+      verificationStatus:'verified_source_image',
+      publishable:true,
+      imageReuse:'family_measurement_variant'
+    };
+  }
   let candidates=[];
   try{
     if(p.source?.url)candidates.push(p.source.url);
@@ -192,7 +231,8 @@ imgData.generatedAt=new Date().toISOString().slice(0,10);
 imgData.status='staging';
 imgData.records=[...existing.values()].filter(r=>usableProductImage(r.imageUrl||r.imageUrl));
 await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
-console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures},null,2));
+const reusedFamily=imgData.records.filter(r=>r?.imageReuse==='family_measurement_variant').length;
+console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures,reusedFamily},null,2));
 
 // Trigger automatic image enrichment after workflow hardening — 2026-09-29.
 
