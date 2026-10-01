@@ -28,7 +28,9 @@
       "matchNote": "Imagen representativa de la familia DRYWALL; la página identifica 6x3/4 y muestra variantes de la misma familia por medida.",
       "verifiedAt": "2026-09-30",
       "verificationStatus": "verified_source_image",
-      "publishable": true
+      "publishable": true,
+      "approved": true,
+      "approvalNote": "Incorporación autorizada por el usuario el 2026-09-30."
     }
   ]
 }
