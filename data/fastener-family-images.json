@@ -11,7 +11,6 @@
       "id": "drywall-negro-punta-aguda",
       "match": {
         "include": [
-          "torniller",
           "drywall"
         ],
         "exclude": [
@@ -20,7 +19,13 @@
           "framer",
           "estructura",
           "fibrocemento"
-        ]
+        ],
+        "requireAny": [
+          "tornillo",
+          "tornilleria",
+          "tornillería"
+        ],
+        "namePattern": "^drywall\\s+\\d"
       },
       "imageUrl": "https://flexoneh.com.co/wp-content/uploads/2022/07/4303A.jpg",
       "sourcePage": "https://flexoneh.com.co/producto/tornillo-drywall-6x3-4-pulgadas/",
