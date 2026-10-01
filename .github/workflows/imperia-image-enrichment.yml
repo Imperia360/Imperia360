@@ -8,6 +8,8 @@ on:
       - '.github/workflows/imperia-image-enrichment.yml'
       - '.github/AI_FLEET_TASKS.md'
       - 'assets/images/products/README.md'
+      - 'js/catalog-loader.js'
+      - 'data/fastener-family-images.json'
   schedule:
     - cron: "43 */3 * * *"
 
