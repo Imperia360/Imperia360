@@ -1,0 +1,65 @@
+name: IMPERIA 360 — Auditor visual y de búsqueda
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "index.html"
+      - "js/**"
+      - "data/products.json"
+      - "data/product-images.json"
+      - "data/auto-pricing.json"
+      - ".github/workflows/imperia-visual-auditor.yml"
+  schedule:
+    - cron: "23 */6 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  browser-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar Playwright
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Auditar sitio publicado
+        env:
+          IMPERIA_URL: https://imperia360.github.io/Imperia360/
+        run: |
+          node <<'NODE'
+          const { chromium } = require('playwright');
+          const url = process.env.IMPERIA_URL;
+          (async()=>{
+            const browser = await chromium.launch({headless:true});
+            const page = await browser.newPage();
+            const errors=[];
+            page.on('console',m=>{if(m.type()==='error') errors.push('console: '+m.text())});
+            page.on('pageerror',e=>errors.push('pageerror: '+e.message));
+            await page.goto(url,{waitUntil:'networkidle',timeout:60000});
+            await page.waitForTimeout(3000);
+
+            const title=await page.title();
+            const status=await page.locator('#catalog-status').innerText().catch(()=> '');
+            const input=page.locator('#hero-query');
+            if(!await input.count()) throw new Error('No existe el buscador principal #hero-query');
+
+            await input.fill('drywall');
+            await page.locator('[data-search-trigger="hero-query"]').click();
+            await page.waitForTimeout(1500);
+
+            const resultCount=await page.locator('#product-results .product-card, #product-results article').count().catch(()=>0);
+            const body=await page.locator('body').innerText();
+            if (!body.toLowerCase().includes('drywall')) throw new Error('La búsqueda drywall no produjo contenido relacionado.');
+            if (errors.length) throw new Error('Errores de consola: '+errors.join(' | '));
+
+            console.log(JSON.stringify({ok:true,title,status,resultCount,url}));
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          NODE
