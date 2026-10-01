@@ -36,6 +36,7 @@ function electricalPriority(p){
   return /\b(cable|alambre|conductor|breaker|interruptor|tomacorriente|enchufe|electric|electrico|eléctrico|fusible|terminal|borna|tablero|contacto|contactor|aislador|puesta a tierra|panel|sensor|clavija|toma|smart|inteligente|macho|hembra)\b/i.test(n);
 }
 function priorityScore(p){
+  if(String(p?.id||'').startsWith('ref-')) return 10;
   const n=String(p?.name||'');
   if(/\b(pintura|vinilo|viniltex|pintuland|sapolin|corona|terinsa|cuñete|balde)\b/i.test(n)) return 4;
   if(/\b(panel|tomacorriente|interruptor|sensor|clavija|toma|smart|inteligente|macho|hembra)\b/i.test(n)) return 3;
