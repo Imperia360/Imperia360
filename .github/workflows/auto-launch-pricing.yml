@@ -10,22 +10,46 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: imperia-auto-pricing
+  cancel-in-progress: false
+
 jobs:
   pricing:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Generate provisional prices
-        run: node .github/scripts/auto-launch-pricing.mjs
-      - name: Publish pricing data
+        with:
+          fetch-depth: 0
+      - name: Generate and publish provisional prices safely
         run: |
+          set -e
           git config user.name "IMPERIA 360 Automation"
           git config user.email "actions@users.noreply.github.com"
-          git add data/auto-pricing.json
-          if git diff --cached --quiet; then
-            echo "No pricing changes"
-          else
+
+          for attempt in 1 2 3 4 5; do
+            echo "Pricing publication attempt $attempt/5"
+            git fetch origin main
+            git reset --hard origin/main
+
+            node .github/scripts/auto-launch-pricing.mjs
+            git add data/auto-pricing.json
+
+            if git diff --cached --quiet; then
+              echo "No pricing changes"
+              exit 0
+            fi
+
             git commit -m "chore: publish provisional catalog pricing"
-            git push
-          fi
+
+            if git push origin HEAD:main; then
+              echo "Pricing published successfully."
+              exit 0
+            fi
+
+            echo "Concurrent main update detected; retrying from latest origin/main."
+          done
+
+          echo "Could not publish pricing after 5 synchronized attempts."
+          exit 1
