@@ -34,6 +34,22 @@ export async function loadProducts(source = './data/products.json') {
     }
   } catch {}
 
+  // Proveedor Tornirap: lista de precios recibida en PDF y tratada como fuente confiable del proveedor.
+  try {
+    const tr = await fetch('./data/tornirap-products.json?' + Date.now());
+    if (tr.ok) {
+      const td = await tr.json();
+      const tornirap = Array.isArray(td.products) ? td.products : [];
+      const existing = new Set(products.map(p => String(p?.id)));
+      for (const tp of tornirap) {
+        if (!existing.has(String(tp.id))) {
+          products.push(tp);
+          existing.add(String(tp.id));
+        }
+      }
+    }
+  } catch {}
+
   // Proveedor Roxvan: referencias públicas observadas, con precio IMPERIA
   // calculado según las reglas comerciales configuradas.
   try {
