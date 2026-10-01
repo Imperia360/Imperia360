@@ -133,7 +133,11 @@ export async function loadProducts(source = './data/products.json') {
         const retailMarginPct = 35;
         const contractorMarginPct = 25;
         const wholesaleMarginPct = 20;
-        const price = (cost, margin) => Math.ceil((cost / (1 - margin / 100)) / 100) * 100;
+        const price = (cost, margin) => {
+        if (!(cost > 0 && margin < 100)) return 0;
+        const raw = cost / (1 - margin / 100);
+        return raw < 1000 ? Math.ceil(raw) : Math.ceil(raw / 100) * 100;
+      };
         calculated = {
           manualSalePrice: price(benchmark, retailMarginPct),
           manualRetailPrice: price(benchmark, retailMarginPct),
