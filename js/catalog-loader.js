@@ -140,9 +140,16 @@ export async function loadProducts(source = './data/products.json') {
     const productName = String(product?.name || '').toLowerCase();
     const familyEvidence = fastenerFamilyRules.find(rule => {
       const include = rule?.match?.include || [];
+      const requireAny = rule?.match?.requireAny || [];
+      const namePattern = rule?.match?.namePattern ? new RegExp(rule.match.namePattern, 'i') : null;
       const exclude = rule?.match?.exclude || [];
+      const includesMatch = include.every(token => productName.includes(String(token).toLowerCase()));
+      const anyMatch = requireAny.length === 0 || requireAny.some(token => productName.includes(String(token).toLowerCase()));
+      const patternMatch = !namePattern || namePattern.test(productName);
+      const familyShapeMatch = requireAny.length === 0 ? patternMatch : (anyMatch || patternMatch);
       return rule?.publishable === true && rule?.verificationStatus === 'verified_source_image' && rule?.imageUrl
-        && include.every(token => productName.includes(String(token).toLowerCase()))
+        && includesMatch
+        && familyShapeMatch
         && !exclude.some(token => productName.includes(String(token).toLowerCase()));
     });
     const effectiveEvidence = evidence || familyEvidence;
