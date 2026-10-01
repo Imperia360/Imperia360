@@ -85,3 +85,12 @@ Solo pueden avanzar automáticamente los casos que cumplan las reglas de reconci
 6. CI: ejecutar y corregir cada fallo antes de declarar el lote terminado.
 7. Publicación: incorporar únicamente candidatos que superen las reglas; nunca sobreescribir el maestro de forma insegura.
 8. Reporte: entregar métricas del lote y dejar explícito todo lo que requiera revisión humana.
+
+
+### ORDEN OPERATIVA — 2026-09-30
+- Activar en paralelo todos los agentes disponibles para el lote de imágenes de tornillería.
+- Prioridad inmediata: imagen por familia visual de tornillo; reutilizarla en todas las medidas cuyo cambio sea únicamente largo/diámetro/calibre/presentación.
+- Rechazar cualquier imagen de Sofalca.
+- Si no existe imagen pública adecuada, generar una imagen propia de la familia y registrar el activo para publicación.
+- No bloquear una familia por falta de imagen individual por medida.
+- Al terminar cada lote, ejecutar auditoría, pruebas y publicación automática de los casos válidos.
