@@ -174,6 +174,23 @@ export async function loadProducts(source = './data/products.json') {
     const effectiveEvidence = evidence || familyEvidence;
     const override = priceOverrides[String(product?.id)];
     const provisional = autoPricing[String(product?.id)];
+    // Regla IMPERIA para referencias de la lista cuyo producto se expresa por kilo:
+    // $15.300 COP/kg, presentación de 20 kg = $306.000 de costo base; se aplican
+    // los márgenes IMPERIA y esta regla prevalece sobre precios automáticos anteriores.
+    const productTextForKg = String(product?.name || '') + ' ' + String(product?.description || '');
+    const isKilogramReference = /\\b(?:kilo|kilos|kg|kgs)\\b/i.test(productTextForKg);
+    const kilogramPricing = isKilogramReference ? {
+      manualSalePrice: 470800,
+      manualRetailPrice: 470800,
+      manualContractorPrice: 408000,
+      manualWholesalePrice: 382500,
+      manualMarginPct: 35,
+      pricingStatus: 'imperia_kilogram_rule',
+      costBasis: 'imperia_reference_kilogram_rule',
+      calculationBase: 306000,
+      manualUpdatedAt: '2026-10-01T00:00:00.000Z',
+      manualUpdatedBy: 'IMPERIA 360 kilogram rule: 15300 COP/kg x 20 kg'
+    } : null;
     const withImages = effectiveEvidence ? {
       ...product,
       images: {
