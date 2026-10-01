@@ -17,7 +17,7 @@ on:
       - '.github/scripts/prepare-image-google-queue.mjs'
       - '.github/scripts/run-gemini-google-discovery.mjs'
   schedule:
-    - cron: "43 */3 * * *"
+    - cron: "0 * * * *"
 
 permissions:
   contents: write
