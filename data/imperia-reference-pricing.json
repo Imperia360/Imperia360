@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-10-01T01:19:59.843Z",
+  "generatedAt": "2026-10-01T01:21:35.136Z",
   "source": "lista de precios IMPERIA 360 (1).pdf",
   "sourceType": "user_supplied_reference_list",
   "verificationPolicy": "No external price verification or audit required for this reference list.",
@@ -2255,295 +2255,295 @@
     {
       "code": "ARAKGIRI0002",
       "description": "ARANDELA PLANA MILIMETRICA DIN 125 IRIZADA X KILO 6 MM 16 KGS",
-      "sourcePrice": 15108.19,
-      "packageQty": 16,
-      "unitPrice": 15108.19,
-      "packagePrice": 241731.04,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "sourcePrice": 15300,
+      "packageQty": 20,
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 302200,
-        "contractor": 322400,
-        "retail": 371900
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGIRI0003",
       "description": "ARANDELA PLANA MILIMETRICA DIN 125 IRIZADA X KILO 8 MM 16 KGS",
-      "sourcePrice": 14128.96,
-      "packageQty": 16,
-      "unitPrice": 14128.96,
-      "packagePrice": 226063.36,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "sourcePrice": 15300,
+      "packageQty": 20,
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 282600,
-        "contractor": 301500,
-        "retail": 347800
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGIRI0004",
       "description": "ARANDELA PLANA MILIMETRICA DIN 125 IRIZADA X KILO 10 MM 16 KGS",
-      "sourcePrice": 0,
-      "packageQty": 16,
-      "unitPrice": 0,
-      "packagePrice": 0,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "sourcePrice": 15300,
+      "packageQty": 20,
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 0,
-        "contractor": 0,
-        "retail": 0
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGIRI0005",
       "description": "ARANDELA PLANA MILIMETRICA DIN 125 IRIZADA X KILO 12 MM 16 KGS",
-      "sourcePrice": 13121.98,
-      "packageQty": 16,
-      "unitPrice": 13121.98,
-      "packagePrice": 209951.68,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "sourcePrice": 15300,
+      "packageQty": 20,
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 262500,
-        "contractor": 280000,
-        "retail": 323100
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0001",
       "description": "ARANDELA PLANA ZINCADA X KG 1/8 20 KGS",
-      "sourcePrice": 11028.14,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 11028.14,
-      "packagePrice": 220562.8,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 275800,
-        "contractor": 294100,
-        "retail": 339400
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0002",
       "description": "ARANDELA PLANA ZINCADA X KG 5/32 20 KGS",
-      "sourcePrice": 13446.5,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 13446.5,
-      "packagePrice": 268930,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 336200,
-        "contractor": 358600,
-        "retail": 413800
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0003",
       "description": "ARANDELA PLANA ZINCADA X KG 3/16 20 KGS",
-      "sourcePrice": 11222.05,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 11222.05,
-      "packagePrice": 224441,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 280600,
-        "contractor": 299300,
-        "retail": 345300
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0004",
       "description": "ARANDELA PLANA ZINCADA X KG 1/4 20 KGS",
-      "sourcePrice": 9511.98,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9511.98,
-      "packagePrice": 190239.59999999998,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 237800,
-        "contractor": 253700,
-        "retail": 292700
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0005",
       "description": "ARANDELA PLANA ZINCADA X KG 5/16 20 KGS",
-      "sourcePrice": 9928.17,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9928.17,
-      "packagePrice": 198563.4,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 248300,
-        "contractor": 264800,
-        "retail": 305500
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0006",
       "description": "ARANDELA PLANA ZINCADA X KG 3/8 20 KGS",
-      "sourcePrice": 9295.77,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9295.77,
-      "packagePrice": 185915.40000000002,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 232400,
-        "contractor": 247900,
-        "retail": 286100
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0007",
       "description": "ARANDELA PLANA ZINCADA X KG 7/16 20 KGS",
-      "sourcePrice": 9394.95,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9394.95,
-      "packagePrice": 187899,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 234900,
-        "contractor": 250600,
-        "retail": 289100
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0008",
       "description": "ARANDELA PLANA ZINCADA X KG 1/2 20 KGS",
-      "sourcePrice": 9718.4,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9718.4,
-      "packagePrice": 194368,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 243000,
-        "contractor": 259200,
-        "retail": 299100
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0009",
       "description": "ARANDELA PLANA ZINCADA X KG 9/16 20 KGS",
-      "sourcePrice": 10030.44,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 10030.44,
-      "packagePrice": 200608.80000000002,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 250800,
-        "contractor": 267500,
-        "retail": 308700
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0010",
       "description": "ARANDELA PLANA ZINCADA X KG 5/8 20 KGS",
-      "sourcePrice": 9823.03,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9823.03,
-      "packagePrice": 196460.6,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 245600,
-        "contractor": 262000,
-        "retail": 302300
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0011",
       "description": "ARANDELA PLANA ZINCADA X KG 3/4 20 KGS",
-      "sourcePrice": 9789.97,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9789.97,
-      "packagePrice": 195799.4,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 244800,
-        "contractor": 261100,
-        "retail": 301300
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0012",
       "description": "ARANDELA PLANA ZINCADA X KG 7/8 20 KGS",
-      "sourcePrice": 9467.5,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9467.5,
-      "packagePrice": 189350,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 236700,
-        "contractor": 252500,
-        "retail": 291400
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0013",
       "description": "ARANDELA PLANA ZINCADA X KG 1'' 20 KGS",
-      "sourcePrice": 9302.27,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9302.27,
-      "packagePrice": 186045.40000000002,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 232600,
-        "contractor": 248100,
-        "retail": 286300
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0014",
       "description": "ARANDELA PLANA ZINCADA X KG 1 1/8 20 KGS",
-      "sourcePrice": 9941.65,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9941.65,
-      "packagePrice": 198833,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 248600,
-        "contractor": 265200,
-        "retail": 305900
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0015",
       "description": "ARANDELA PLANA ZINCADA X KG 1 1/4 20 KGS",
-      "sourcePrice": 9394.95,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9394.95,
-      "packagePrice": 187899,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 234900,
-        "contractor": 250600,
-        "retail": 289100
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0016",
       "description": "ARANDELA PLANA ZINCADA X KG 1 3/8 20 KGS",
-      "sourcePrice": 0,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 0,
-      "packagePrice": 0,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 0,
-        "contractor": 0,
-        "retail": 0
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
       "code": "ARAKGZ0017",
       "description": "ARANDELA PLANA ZINCADA X KG 1 1/2 20 KGS",
-      "sourcePrice": 9394.95,
+      "sourcePrice": 15300,
       "packageQty": 20,
-      "unitPrice": 9394.95,
-      "packagePrice": 187899,
-      "pricingBasis": "unit_price_x_package_quantity",
+      "unitPrice": 15300,
+      "packagePrice": 306000,
+      "pricingBasis": "kilogram_unit_price_15300_x_20kg_box",
       "prices": {
-        "wholesale": 234900,
-        "contractor": 250600,
-        "retail": 289100
+        "wholesale": 382500,
+        "contractor": 408000,
+        "retail": 470800
       }
     },
     {
@@ -95415,5 +95415,6 @@
       }
     }
   ],
-  "calculationRule": "Todos los precios de la lista se interpretan como V.UNITARIO. Cuando existe U.EMPAQUE, el precio base de publicación por empaque = V.UNITARIO × U.EMPAQUE. Ejemplo: $15.300/kg × 20 kg = $306.000/caja. Luego se aplica el margen IMPERIA."
+  "calculationRule": "Todos los precios de la lista se interpretan como V.UNITARIO. Cuando existe U.EMPAQUE, el precio base de publicación por empaque = V.UNITARIO × U.EMPAQUE. Ejemplo: $15.300/kg × 20 kg = $306.000/caja. Luego se aplica el margen IMPERIA.",
+  "kilogramRule": "Todos los productos cuya descripción indica KILO/KG/KGS se calculan a $15.300 COP por kilogramo y presentación de 20 kg: $306.000 COP de costo base por caja; después se aplica el margen IMPERIA."
 }
