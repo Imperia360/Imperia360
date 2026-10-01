@@ -8,6 +8,7 @@ const GEMINI='data/gemini-google-discovery.json';
 const IMAGES='data/product-images.json';
 const OFFERS='data/market-offers.json';
 const EXA='data/exa-discovery.json';
+const FASTENER_FAMILIES='data/fastener-family-images.json';
 const BATCH=100;
 const DISCOVERY_SOURCES=['https://roxvan.com/','https://comdulec.com/','https://mileniosuministros.com/','https://odinsas.com/','https://www.grupodiman.com/','https://ferreteriasorlandonino.com/','https://imsucol.com/','https://distribuidoralafrontera.com.co/','https://coval.com.co/','https://ferreteriatoolscenter.com.co/','https://www.industriascetelgroup.com.co/','https://reddi.com.co/','https://importadoraferremax.com/','https://cameleco.com/','https://comem.com.co/','https://importadoradftools.com/','https://www.provimer.co/','https://nergia.co/','https://ferreteriagerardobarrera.com/','https://mundial.com.co/','https://pintul.com/','https://conalpron.com/','https://supermezclascol.com/','https://www.andicomer.com/','https://www.abacol.co/','https://shoppingpaint.com/','https://www.autocoloresg.com/','https://nortemateriales.com.co/','https://www.supuntoferretero.com/','https://dilmarycia.com.co/'];
 const CONCURRENCY=12;
@@ -99,6 +100,7 @@ const imgData=JSON.parse(await fs.readFile(IMAGES,'utf8'));
 const offerData=JSON.parse(await fs.readFile(OFFERS,'utf8')).offers||[];
 let exa=[]; try{exa=JSON.parse(await fs.readFile(EXA,'utf8')).results||[]}catch{}
 let gemini=[]; try{gemini=JSON.parse(await fs.readFile(GEMINI,'utf8')).results||[]}catch{}
+let fastenerFamilies=[]; try{fastenerFamilies=JSON.parse(await fs.readFile(FASTENER_FAMILIES,'utf8')).families||[]}catch{}
 
 const existing=new Map((imgData.records||[]).filter(r=>!(/sofalca\\.com/i.test(String(r?.imageUrl||''))||/sofalca\\.com/i.test(String(r?.sourcePage||''))||/^sofalca$/i.test(String(r?.source||'')))).map(r=>[String(r.productId),r]));
 const beforeCount=existing.size;
@@ -138,6 +140,21 @@ function canReuseImage(p,owner){
 // para tornillería/chazos, una imagen representativa de la familia visual se reutiliza
 // en todas las medidas que solo cambian diámetro, largo, calibre, rosca o presentación.
 // No se reutiliza si cambia la cabeza, punta, tipo constructivo o accesorio visible.
+function approvedFamilyImage(p){
+  const name=norm(p?.name||'');
+  for(const family of fastenerFamilies){
+    const m=family?.match||{};
+    const includes=(m.include||[]).map(norm);
+    const excludes=(m.exclude||[]).map(norm);
+    const required=(m.requireAny||[]).map(norm);
+    if(includes.length && !includes.every(x=>name.includes(x))) continue;
+    if(excludes.some(x=>name.includes(x))) continue;
+    if(required.length && !required.some(x=>name.includes(x))) continue;
+    if(m.namePattern){ try{ if(!(new RegExp(m.namePattern,'i')).test(String(p?.name||''))) continue; }catch{} }
+    if(usableProductImage(family?.imageUrl) && family?.publishable===true && family?.verificationStatus==='verified_source_image') return family;
+  }
+  return null;
+}
 function findFamilyImage(p){
   if(!isFastenerFamily(p)) return null;
   const ownerCandidates=[];
@@ -154,7 +171,27 @@ const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p
 let failures=0, checked=0;
 
 async function processProduct(p){
-  // Herencia inmediata de imagen por familia: evita bloquear la publicación
+  // Herencia inmediata de imagen por familia aprobada: usa la fuente ya verificada
+  // por IMPERIA 360 antes de consultar servicios externos.
+  const approvedFamily=approvedFamilyImage(p);
+  if(approvedFamily){
+    return {
+      productId:String(p.id),
+      sku:p?.identification?.sku||null,
+      manufacturerReference:p?.identification?.manufacturerReference||null,
+      supplierReference:p?.identification?.supplierReference||null,
+      imageUrl:approvedFamily.imageUrl,
+      sourcePage:approvedFamily.sourcePage,
+      source:approvedFamily.source,
+      match:'approved fastener family image reused across measurement variants',
+      verifiedAt:approvedFamily.verifiedAt,
+      verificationStatus:'verified_source_image',
+      publishable:true,
+      imageReuse:'approved_family_measurement_variant',
+      familyId:approvedFamily.id
+    };
+  }
+  // Herencia inmediata de imagen por familia ya publicada: evita bloquear la publicación
   // por una medida distinta cuando la configuración visual es la misma.
   const familyImage=findFamilyImage(p);
   if(familyImage){
