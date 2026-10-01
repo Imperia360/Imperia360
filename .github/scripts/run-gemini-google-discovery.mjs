@@ -7,7 +7,7 @@ if (!apiKey) {
 }
 
 const queue = JSON.parse(fs.readFileSync("data/discovery-queue.json", "utf8"));
-const selected = (queue.queue || []).filter(x => x.status === "PENDING_DISCOVERY").slice(0, 20);
+const selected = (queue.queue || []).filter(x => x.status === "PENDING_DISCOVERY").slice(0, Number(process.env.IMAGE_DISCOVERY_BATCH || 20));
 const results = [];
 const seen = new Set();
 
