@@ -29,5 +29,8 @@
       "verifiedAt": "2026-09-30"
     }
   ],
-  "policy": "Use presentation-specific price evidence; do not invent or silently convert packaging."
+  "policy": "Use presentation-specific price evidence; do not invent or silently convert packaging.",
+  "approved": true,
+  "approvalNote": "Incorporación autorizada por el usuario el 2026-09-30.",
+  "status": "approved_for_catalog_reconciliation"
 }
