@@ -43,7 +43,7 @@ jobs:
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          IMAGE_DISCOVERY_BATCH: "100"
+          IMAGE_DISCOVERY_BATCH: "25"
         run: node .github/scripts/run-gemini-google-discovery.mjs
       - name: Procesar siguiente lote de productos sin imagen
         run: node .github/scripts/enrich-product-images.mjs
