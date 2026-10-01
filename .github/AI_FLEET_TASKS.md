@@ -94,3 +94,14 @@ Solo pueden avanzar automáticamente los casos que cumplan las reglas de reconci
 - Si no existe imagen pública adecuada, generar una imagen propia de la familia y registrar el activo para publicación.
 - No bloquear una familia por falta de imagen individual por medida.
 - Al terminar cada lote, ejecutar auditoría, pruebas y publicación automática de los casos válidos.
+
+
+### ORDEN OPERATIVA — 2026-09-30 — DRYWALL + PRECIOS
+- Continuar en paralelo con todas las familias de tornillería con imagen vacía.
+- Prioridad: Tornillo Drywall calibre 6 x 3/4, familia visual negro/fosfatado, cabeza avellanada, punta aguda.
+- Reutilizar una imagen verificada por familia cuando solo cambien diámetro, calibre o longitud.
+- Separar estrictamente Drywall de punta broca, fibrocemento, estructura y otras geometrías.
+- Investigar precios públicos actuales y conservar presentación, cantidad y unidad; nunca convertir una bolsa/caja a precio unitario sin dejar la conversión explícita.
+- Usar fuentes públicas verificables; no usar Sofalca.
+- Si una referencia no tiene evidencia suficiente, mantenerla en revisión en lugar de inventar precio.
+- Procesar imágenes y precios por lotes hasta agotar las referencias pendientes.
