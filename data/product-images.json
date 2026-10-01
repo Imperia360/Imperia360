@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30",
+  "generatedAt": "2026-10-01",
   "policy": {
     "requiredForActive": true,
     "noInventedImages": true,
@@ -5456,6 +5456,19 @@
       "source": "Mercado Libre",
       "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
       "verifiedAt": "2026-09-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00714",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "http://sofalca.com/cdn/shop/files/WWW.SOFALCA.COM_1.png?v=1766423697",
+      "sourcePage": "https://sofalca.com/",
+      "source": "sofalca.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-10-01",
       "verificationStatus": "verified_source_image",
       "publishable": true
     }
