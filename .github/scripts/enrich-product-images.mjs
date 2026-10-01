@@ -3,10 +3,12 @@ import fs from 'node:fs/promises';
 const PRODUCTS='data/products.json';
 const ROXVAN='data/roxvan-products.json';
 const PAINTS='data/paint-catalog-batch-2026-09-29.json';
+const REFERENCE='data/imperia-reference-pricing.json';
+const GEMINI='data/gemini-google-discovery.json';
 const IMAGES='data/product-images.json';
 const OFFERS='data/market-offers.json';
 const EXA='data/exa-discovery.json';
-const BATCH=1600;
+const BATCH=100;
 const DISCOVERY_SOURCES=['https://roxvan.com/','https://comdulec.com/','https://mileniosuministros.com/','https://odinsas.com/','https://www.grupodiman.com/','https://ferreteriasorlandonino.com/','https://imsucol.com/','https://distribuidoralafrontera.com.co/','https://coval.com.co/','https://ferreteriatoolscenter.com.co/','https://www.industriascetelgroup.com.co/','https://reddi.com.co/','https://importadoraferremax.com/','https://cameleco.com/','https://comem.com.co/','https://importadoradftools.com/','https://www.provimer.co/','https://nergia.co/','https://ferreteriagerardobarrera.com/','https://mundial.com.co/','https://pintul.com/','https://conalpron.com/','https://supermezclascol.com/','https://www.andicomer.com/','https://www.abacol.co/','https://shoppingpaint.com/','https://www.autocoloresg.com/','https://nortemateriales.com.co/','https://www.supuntoferretero.com/','https://dilmarycia.com.co/'];
 const CONCURRENCY=12;
 const REJECT_IMAGE_PATTERNS=[/sofalca\\.com/i,/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
@@ -88,16 +90,20 @@ let roxvanProducts=[];
 try{const rp=JSON.parse(await fs.readFile(ROXVAN,'utf8')).products||[]; roxvanProducts=rp.map(p=>({...p,source:{name:p.source||'Roxvan',url:p.sourceUrl||null},identification:{sku:p.sku||null,supplierReference:p.sku||null}}));}catch{}
 let paintProducts=[];
 try{paintProducts=JSON.parse(await fs.readFile(PAINTS,'utf8')).products||[];}catch{}
+let referenceProducts=[];
+try{referenceProducts=JSON.parse(await fs.readFile(REFERENCE,'utf8')).newProducts||[];}catch{}
 const seen=new Set(baseProducts.map(p=>String(p.id)));
-const products=[...baseProducts,...roxvanProducts.filter(p=>p?.id&&!seen.has(String(p.id))),...paintProducts.filter(p=>p?.id&&!seen.has(String(p.id)))];
+const products=[...baseProducts,...roxvanProducts.filter(p=>p?.id&&!seen.has(String(p.id))),...paintProducts.filter(p=>p?.id&&!seen.has(String(p.id))),...referenceProducts.filter(p=>p?.id&&!seen.has(String(p.id)))];
 const imgData=JSON.parse(await fs.readFile(IMAGES,'utf8'));
 const offerData=JSON.parse(await fs.readFile(OFFERS,'utf8')).offers||[];
 let exa=[]; try{exa=JSON.parse(await fs.readFile(EXA,'utf8')).results||[]}catch{}
+let gemini=[]; try{gemini=JSON.parse(await fs.readFile(GEMINI,'utf8')).results||[]}catch{}
 
 const existing=new Map((imgData.records||[]).filter(r=>!(/sofalca\\.com/i.test(String(r?.imageUrl||''))||/sofalca\\.com/i.test(String(r?.sourcePage||''))||/^sofalca$/i.test(String(r?.source||'')))).map(r=>[String(r.productId),r]));
 const beforeCount=existing.size;
 const offerIndex=offerData.map(o=>({name:o.originalProductName||'',sku:o.sku||'',url:o.sourceUrl||'',source:o.source||''})).filter(x=>x.url);
 const exaIndex=exa.map(o=>({name:o.title||'',sku:'',url:o.url||'',source:o.source||''})).filter(x=>x.url);
+const geminiIndex=gemini.map(o=>({name:o.resultTitle||'',sku:'',url:o.resultUrl||'',source:'Gemini + Google Search'})).filter(x=>x.url);
 
 // Regla IMPERIA 360: una imagen grupal puede reutilizarse dentro de la misma familia
 // visual de tornillería/chazos cuando la diferencia es únicamente medida, calibre o rosca.
@@ -184,6 +190,10 @@ async function processProduct(p){
   for(const o of exaIndex){
     const nameScore=scoreName(p.name,o.name);
     if(nameScore>=0.72)candidates.push(o.url);
+  }
+  for(const o of geminiIndex){
+    const nameScore=scoreName(p.name,o.name);
+    if(nameScore>=0.55)candidates.push(o.url);
   }
   const uniq=[...new Set(candidates)].slice(0,10);
   for(const u of uniq){
