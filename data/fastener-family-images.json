@@ -11,7 +11,7 @@
       "id": "drywall-negro-punta-aguda",
       "match": {
         "include": [
-          "tornillo",
+          "torniller",
           "drywall"
         ],
         "exclude": [
