@@ -3,6 +3,7 @@ name: IMPERIA 360 — Enriquecimiento de imágenes
 on:
   workflow_dispatch:
   push:
+    branches: ["main"]
     paths:
       - '.github/scripts/enrich-product-images.mjs'
       - '.github/workflows/imperia-image-enrichment.yml'
