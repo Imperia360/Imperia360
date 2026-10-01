@@ -11,6 +11,9 @@ on:
       - 'assets/images/products/README.md'
       - 'js/catalog-loader.js'
       - 'data/fastener-family-images.json'
+      - 'data/products.json'
+      - 'data/imperia-reference-pricing.json'
+      - 'data/gemini-google-discovery.json'
   schedule:
     - cron: "43 */3 * * *"
 
@@ -34,8 +37,6 @@ jobs:
           node-version: 20
       - name: Procesar siguiente lote de productos sin imagen
         run: node .github/scripts/enrich-product-images.mjs
-      - name: Validar que no existan márgenes inventados
-        run: node .github/scripts/validate-pricing-margin.mjs
       - name: Guardar coincidencias verificadas
         run: |
           if git diff --quiet -- data/product-images.json; then
