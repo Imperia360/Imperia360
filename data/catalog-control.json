@@ -128,7 +128,28 @@
       "withoutImage": 1081
     },
     "auditFile": "data/product-images.json",
-    "note": "Reconciliado 2026-09-30: data/product-images.json contiene 445 registros publishable, 445 productId únicos y 445 imágenes verificadas."
+    "note": "Reconciliado 2026-09-30: data/product-images.json contiene 445 registros publishable, 445 productId únicos y 445 imágenes verificadas.",
+    "fastenerFamilyReuse": {
+      "enabled": true,
+      "scope": [
+        "tornillo",
+        "chazo",
+        "anclaje",
+        "tarugo",
+        "taquete"
+      ],
+      "rule": "Una imagen representativa verificada por familia visual puede reutilizarse en todas las medidas cuando solo cambian diámetro, largo, calibre, rosca o presentación.",
+      "doNotReuseWhen": [
+        "cambia cabeza",
+        "cambia punta",
+        "cambia tipo constructivo",
+        "cambia accesorio visible"
+      ],
+      "examples": [
+        "tornillo goloso cabeza plana estrella: una imagen de la familia para todas sus medidas"
+      ],
+      "progressiveUpdate": true
+    }
   },
   "namingPolicy": {
     "photoPlaceholdersNotProducts": true,
@@ -173,8 +194,8 @@
     "status": "evidence_collected_margin_ceiling_calculated",
     "rule": "No fijar margen real ni costo IMPERIA hasta cruzar costo proveedor verificable."
   },
-  "lastExecution": "2026-09-30",
-  "executionStatus": "executed",
+  "lastExecution": "2026-10-01",
+  "executionStatus": "executed_rules_hardened",
   "lastExecutionEvidence": {
     "webSearch": "Fresh web evidence checked across construction, safety, waterproofing, wholesale and tools.",
     "sources": [
@@ -211,5 +232,10 @@
     "imageWorkflow": ".github/workflows/imperia-image-enrichment.yml",
     "paintBatchIncluded": true,
     "status": "automated_queue"
+  },
+  "pricingPolicy": {
+    "placeholderPricesForbidden": true,
+    "rule": "No usar 100 COP como precio de relleno. Si existe costo o referencia verificable se calcula el precio IMPERIA; si no existe, conservar quote_only/review hasta obtener evidencia.",
+    "rounding": "Precios menores a 1000 COP se redondean al peso; desde 1000 COP se redondea al centenar."
   }
 }
