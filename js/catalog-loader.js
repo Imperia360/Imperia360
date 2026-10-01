@@ -173,7 +173,7 @@ export async function loadProducts(source = './data/products.json') {
     });
     const effectiveEvidence = evidence || familyEvidence;
     const override = priceOverrides[String(product?.id)];
-    const provisional = autoPricing[String(product?.id)];
+    let provisional = autoPricing[String(product?.id)];
     // Regla IMPERIA para referencias de la lista cuyo producto se expresa por kilo:
     // $15.300 COP/kg, presentación de 20 kg = $306.000 de costo base; se aplican
     // los márgenes IMPERIA y esta regla prevalece sobre precios automáticos anteriores.
