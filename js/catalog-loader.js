@@ -5,7 +5,7 @@
  */
 
 export async function loadProducts(source = './data/products.json') {
-  const response = await fetch(source);
+  const response = await fetch(source + (source.includes('?') ? '&' : '?') + 'v=' + Date.now());
 
   if (!response.ok) {
     throw new Error(`No fue posible cargar el catálogo: ${response.status}`);
