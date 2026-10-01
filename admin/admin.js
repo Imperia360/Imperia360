@@ -65,8 +65,20 @@ function importSupplierRows(rows){
  }
  localStorage.setItem("imperia_admin_costs",JSON.stringify(costs));render();return {added,updated,skipped};
 }
+async function uploadSupplierPdf(file){
+ const status=$("fileStatus");
+ if(file.size>20*1024*1024)throw new Error("El PDF supera 20 MB.");
+ const bytes=new Uint8Array(await file.arrayBuffer());let binary="";const chunk=0x8000;for(let i=0;i<bytes.length;i+=chunk)binary+=String.fromCharCode(...bytes.subarray(i,i+chunk));
+ const b64=btoa(binary);const safe=file.name.normalize("NFKD").replace(/[^a-zA-Z0-9._-]+/g,"-").replace(/-+/g,"-").replace(/^-|-$/g,"")||"lista-precios.pdf";
+ const stamp=new Date().toISOString().replace(/[:.]/g,"-");const path="data/supplier-pdfs/"+stamp+"-"+safe;
+ await api("/repos/"+OWNER+"/"+REPO+"/contents/"+path,{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:"admin: subir lista de precios PDF - "+safe,content:b64,branch:BRANCH})});
+ status.textContent="PDF recibido y guardado: "+path+". Queda como fuente documental; sus precios no se publican automáticamente hasta ser identificados y validados.";
+}
 async function importQuoteFile(file){
- const status=$("fileStatus");try{const text=await file.text();const rows=parseImportText(text);if(!rows.length)throw new Error("No se encontraron filas válidas.");const r=importSupplierRows(rows);status.textContent="Importado: "+r.added+" nuevos · "+r.updated+" ya existentes actualizados · "+r.skipped+" omitidos. Pulsa Guardar cambios para publicar."; }catch(e){status.textContent="Error: "+e.message;}
+ const status=$("fileStatus");try{
+   if(file.type==="application/pdf"||/\\.pdf$/i.test(file.name)){await uploadSupplierPdf(file);return;}
+   const text=await file.text();const rows=parseImportText(text);if(!rows.length)throw new Error("No se encontraron filas válidas.");const r=importSupplierRows(rows);status.textContent="Importado: "+r.added+" nuevos · "+r.updated+" ya existentes actualizados · "+r.skipped+" omitidos. Pulsa Guardar cambios para publicar.";
+ }catch(e){status.textContent="Error: "+e.message;}
 }
 function processQuote(){
  const wm=Number($("whMargin").value),cm=Number($("contractMargin").value),rm=Number($("retailMargin").value),lines=$("quoteInput").value.trim().split(/\r?\n/).filter(Boolean);let ok=0,miss=0;
