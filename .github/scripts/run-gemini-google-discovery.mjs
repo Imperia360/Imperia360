@@ -7,9 +7,12 @@ if (!apiKey) {
 }
 
 const queue = JSON.parse(fs.readFileSync("data/discovery-queue.json", "utf8"));
-const selected = (queue.queue || []).filter(x => x.status === "PENDING_DISCOVERY").slice(0, Number(process.env.IMAGE_DISCOVERY_BATCH || 25));
+const batchSize = Number(process.env.IMAGE_DISCOVERY_BATCH || 5);
+const selected = (queue.queue || []).filter(x => x.status === "PENDING_DISCOVERY").slice(0, batchSize);
 const results = [];
 const seen = new Set();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 for (const item of selected) {
   const prompt = [
@@ -20,22 +23,31 @@ for (const item of selected) {
     "Consulta:", item.query
   ].join("\n");
 
-  const response = await fetch(
-    "https://generativelanguage.googleapis.com/v1beta/interactions",
-    {
-      method: "POST",
-      headers: {"Content-Type": "application/json", "x-goog-api-key": apiKey},
-      body: JSON.stringify({
-        model: "gemini-3.8-flash",
-        input: prompt,
-        tools: [{type: "google_search"}],
-        generation_config: {thinking_level: "low"}
-      })
-    }
-  );
+  let response;
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    response = await fetch(
+      "https://generativelanguage.googleapis.com/v1beta/interactions",
+      {
+        method: "POST",
+        headers: {"Content-Type": "application/json", "x-goog-api-key": apiKey},
+        body: JSON.stringify({
+          model: "gemini-3.8-flash",
+          input: prompt,
+          tools: [{type: "google_search"}],
+          generation_config: {thinking_level: "low"}
+        })
+      }
+    );
+    if (response.ok) break;
+    if (response.status !== 429) break;
+    const waitMs = 2500 * attempt;
+    console.log(`Gemini rate limit (429) for ${item.sourceId}; retry ${attempt}/4 after ${waitMs}ms`);
+    await sleep(waitMs);
+  }
 
-  if (!response.ok) {
-    console.log(`Gemini Google Search failed for ${item.sourceId}: ${response.status}`);
+  if (!response?.ok) {
+    console.log(`Gemini Google Search failed for ${item.sourceId}: ${response?.status || "unknown"}`);
+    await sleep(1200);
     continue;
   }
 
@@ -64,10 +76,12 @@ for (const item of selected) {
       publicationReady: false
     });
   }
+
+  await sleep(1500);
 }
 
 const output = {
-  version: "1.0.0",
+  version: "1.1.0",
   generatedAt: new Date().toISOString(),
   status: "DISCOVERY_ONLY",
   engine: "gemini-3.8-flash-google-search",
@@ -75,7 +89,8 @@ const output = {
     discoveryIsNotVerification: true,
     automaticPublication: false,
     neverInventPrice: true,
-    neverInventImage: true
+    neverInventImage: true,
+    rateLimitMitigation: "small_sequential_batch_with_429_backoff"
   },
   queueItemsProcessed: selected.length,
   resultsCount: results.length,
