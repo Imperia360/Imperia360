@@ -37,9 +37,11 @@ function electricalPriority(p){
   return /\b(cable|alambre|conductor|breaker|interruptor|tomacorriente|enchufe|electric|electrico|eléctrico|fusible|terminal|borna|tablero|contacto|contactor|aislador|puesta a tierra|panel|sensor|clavija|toma|smart|inteligente|macho|hembra)\b/i.test(n);
 }
 function priorityScore(p){
-  if(String(p?.id||'').startsWith('ref-')) return 10;
   const n=String(p?.name||'');
-  if(/\b(pintura|vinilo|viniltex|pintuland|sapolin|corona|terinsa|cuñete|balde)\b/i.test(n)) return 4;
+  // Desbloqueo IMPERIA 360: pinturas pendientes primero para que no queden
+  // fuera de los lotes por la competencia de referencias ref-*.
+  if(/^paint-/i.test(String(p?.id||'')) || /\b(pintura|vinilo|viniltex|pintuland|sapolin|corona|terinsa|cuñete|balde)\b/i.test(n)) return 20;
+  if(String(p?.id||'').startsWith('ref-')) return 10;
   if(/\b(panel|tomacorriente|interruptor|sensor|clavija|toma|smart|inteligente|macho|hembra)\b/i.test(n)) return 3;
   if(electricalPriority(p)) return 2;
   return 1;
