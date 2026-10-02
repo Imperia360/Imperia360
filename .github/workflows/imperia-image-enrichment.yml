@@ -43,7 +43,7 @@ jobs:
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          IMAGE_DISCOVERY_BATCH: "25"
+          IMAGE_DISCOVERY_BATCH: "5"
         run: node .github/scripts/run-gemini-google-discovery.mjs
       - name: Procesar siguiente lote de productos sin imagen
         run: node .github/scripts/enrich-product-images.mjs
@@ -55,8 +55,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Otro proceso puede haber actualizado main mientras verificábamos imágenes.
-          # Fusionamos el lote local con la versión remota para no perder coincidencias.
           cp data/product-images.json /tmp/product-images-generated.json
           git fetch origin main
           git checkout origin/main -- data/product-images.json
@@ -65,7 +63,9 @@ jobs:
           const remote = JSON.parse(fs.readFileSync("data/product-images.json", "utf8"));
           const generated = JSON.parse(fs.readFileSync("/tmp/product-images-generated.json", "utf8"));
           const byId = new Map((remote.records || []).map(r => [r.productId, r]));
-          for (const record of generated.records || []) {\n            // Nunca sobrescribir una imagen existente: solo incorporar IDs que aún no existen.\n            if (!byId.has(record.productId)) byId.set(record.productId, record);\n          }
+          for (const record of generated.records || []) {
+            if (!byId.has(record.productId)) byId.set(record.productId, record);
+          }
           const merged = {
             ...remote,
             generatedAt: generated.generatedAt || remote.generatedAt,
@@ -79,8 +79,6 @@ jobs:
           fi
           git add data/product-images.json
           git commit -m "chore: add verified product images batch"
-          # main recibe otros cambios automáticamente; rebasear y reintentar evita
-          # perder este lote cuando otro workflow publica al mismo tiempo.
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
               echo "Lote de imágenes publicado correctamente en main."
@@ -96,5 +94,4 @@ jobs:
 # Continuous completion trigger verified 2026-09-29.
 # Dispatch refresh requested 2026-09-29.
 # Continuous batch trigger 2026-09-30.
-
-# Execution trigger correction: policy/documentation changes also activate enrichment — 2026-09-30.
+# Rate-limit mitigation: small sequential Gemini batch with 429 backoff — 2026-10-02.
