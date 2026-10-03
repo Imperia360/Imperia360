@@ -5471,6 +5471,19 @@
       "verifiedAt": "2026-10-01",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "market-half-cunete-fixor-t1",
+      "sku": "FIXOR-MC-T1",
+      "manufacturerReference": null,
+      "supplierReference": "FIXOR-MC-T1",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_907465-MCO109510104554_042026-O.jpg",
+      "sourcePage": "https://www.mercadolibre.com.co/vinilo-tipo-1-blanco--balde--medio-cunete/up/MCOU3893281549",
+      "source": "Referencia pública de mercado",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-10-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ],
   "validation": {
