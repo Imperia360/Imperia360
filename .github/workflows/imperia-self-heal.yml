@@ -1,0 +1,50 @@
+name: IMPERIA 360 — Vigilante y auto-reparación
+
+on:
+  schedule:
+    - cron: "15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  self-heal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Revisar y reintentar imagenes si fallaron
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for workflow in imperia-image-enrichment.yml imperia-visual-auditor.yml imperia-continuous-operations.yml; do
+            echo "Revisando $workflow"
+            run_json="$(gh run list --repo "${{ github.repository }}" --workflow "$workflow" --limit 1 --json databaseId,status,conclusion)"
+            run_id="$(echo "$run_json" | jq -r '.[0].databaseId // empty')"
+            status="$(echo "$run_json" | jq -r '.[0].status // empty')"
+            conclusion="$(echo "$run_json" | jq -r '.[0].conclusion // empty')"
+            echo "run=$run_id status=$status conclusion=$conclusion"
+            if [ -n "$run_id" ] && [ "$status" = "completed" ] && [ "$conclusion" = "failure" ]; then
+              echo "Reintentando $workflow: $run_id"
+              gh run rerun "$run_id" --repo "${{ github.repository }}" --failed
+            fi
+          done
+
+      - name: Mantener cola viva
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          run_json="$(gh run list --repo "${{ github.repository }}" --workflow imperia-image-enrichment.yml --limit 1 --json databaseId,status,conclusion)"
+          run_id="$(echo "$run_json" | jq -r '.[0].databaseId // empty')"
+          status="$(echo "$run_json" | jq -r '.[0].status // empty')"
+          conclusion="$(echo "$run_json" | jq -r '.[0].conclusion // empty')"
+          echo "Imagenes: run=$run_id status=$status conclusion=$conclusion"
+          if [ -z "$run_id" ]; then
+            echo "No hay ejecución reciente; el cron horario será la siguiente compuerta."
+          elif [ "$status" = "completed" ] && [ "$conclusion" = "failure" ]; then
+            echo "La ejecución fallida ya fue marcada para reintento."
+          else
+            echo "La cola está activa o terminó correctamente."
+          fi
