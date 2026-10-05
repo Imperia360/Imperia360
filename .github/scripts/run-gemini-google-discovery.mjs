@@ -11,10 +11,12 @@ const batchSize = Number(process.env.IMAGE_DISCOVERY_BATCH || 5);
 const selected = (queue.queue || []).filter(x => x.status === "PENDING_DISCOVERY").slice(0, batchSize);
 const results = [];
 const seen = new Set();
-
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let rateLimited = false;
 
 for (const item of selected) {
+  if (rateLimited) break;
+
   const prompt = [
     "Actúa como investigador de abastecimiento para IMPERIA 360 Colombia.",
     "Usa Google Search para encontrar páginas públicas actuales de fabricantes, importadores, distribuidores o ferreterías que puedan tener el producto o la familia solicitada.",
@@ -23,31 +25,28 @@ for (const item of selected) {
     "Consulta:", item.query
   ].join("\n");
 
-  let response;
-  for (let attempt = 1; attempt <= 4; attempt++) {
-    response = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/interactions",
-      {
-        method: "POST",
-        headers: {"Content-Type": "application/json", "x-goog-api-key": apiKey},
-        body: JSON.stringify({
-          model: "gemini-3.8-flash",
-          input: prompt,
-          tools: [{type: "google_search"}],
-          generation_config: {thinking_level: "low"}
-        })
-      }
-    );
-    if (response.ok) break;
-    if (response.status !== 429) break;
-    const waitMs = 2500 * attempt;
-    console.log(`Gemini rate limit (429) for ${item.sourceId}; retry ${attempt}/4 after ${waitMs}ms`);
-    await sleep(waitMs);
+  const response = await fetch(
+    "https://generativelanguage.googleapis.com/v1beta/interactions",
+    {
+      method: "POST",
+      headers: {"Content-Type": "application/json", "x-goog-api-key": apiKey},
+      body: JSON.stringify({
+        model: "gemini-3.8-flash",
+        input: prompt,
+        tools: [{type: "google_search"}],
+        generation_config: {thinking_level: "low"}
+      })
+    }
+  );
+
+  if (response.status === 429) {
+    console.log("Gemini Google Search returned 429; stopping Gemini for this run so direct supplier discovery can continue.");
+    rateLimited = true;
+    break;
   }
 
-  if (!response?.ok) {
-    console.log(`Gemini Google Search failed for ${item.sourceId}: ${response?.status || "unknown"}`);
-    await sleep(1200);
+  if (!response.ok) {
+    console.log(`Gemini Google Search failed for ${item.sourceId}: ${response.status}`);
     continue;
   }
 
@@ -81,7 +80,7 @@ for (const item of selected) {
 }
 
 const output = {
-  version: "1.1.0",
+  version: "1.2.0",
   generatedAt: new Date().toISOString(),
   status: "DISCOVERY_ONLY",
   engine: "gemini-3.8-flash-google-search",
@@ -90,12 +89,13 @@ const output = {
     automaticPublication: false,
     neverInventPrice: true,
     neverInventImage: true,
-    rateLimitMitigation: "small_sequential_batch_with_429_backoff"
+    rateLimitMitigation: "abort_gemini_on_429_then_continue_direct_supplier_discovery"
   },
   queueItemsProcessed: selected.length,
   resultsCount: results.length,
+  rateLimited,
   results
 };
 
 fs.writeFileSync("data/gemini-google-discovery.json", JSON.stringify(output, null, 2) + "\n");
-console.log(JSON.stringify({queueItemsProcessed: selected.length, resultsCount: results.length}, null, 2));
+console.log(JSON.stringify({queueItemsProcessed: selected.length, resultsCount: results.length, rateLimited}, null, 2));
