@@ -5497,6 +5497,19 @@
       "verifiedAt": "2026-10-07",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "paint-sapolin-capri-t2-25g",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_725986-MLU75756427831_042024-O.jpg",
+      "sourcePage": "https://www.mercadolibre.com.co/pintura-tipo-2-capri-25-gal-l-color-blanco/p/MCO35740947",
+      "source": "Mercado Libre",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-10-07",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ],
   "validation": {
