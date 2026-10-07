@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-10-07",
   "policy": {
     "requiredForActive": true,
     "noInventedImages": true,
@@ -5482,6 +5482,19 @@
       "source": "Referencia pública de mercado",
       "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
       "verifiedAt": "2026-10-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "paint-pintuco-viniltex-advanced-25g",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_915807-MCO102431356151_122025-O.jpg",
+      "sourcePage": "https://www.mercadolibre.com.co/pintura-viniltex-advanced-balde-25-galones-blanco-pintuco/up/MCOU3690978169",
+      "source": "Mercado Libre / Soelco",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-10-07",
       "verificationStatus": "verified_source_image",
       "publishable": true
     }
