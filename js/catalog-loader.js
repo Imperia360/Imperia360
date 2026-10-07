@@ -136,7 +136,7 @@ export async function loadProducts(source = './data/products.json') {
 
   let imageRecords = [];
   try {
-    const imageResponse = await fetch('./data/product-images.json');
+    const imageResponse = await fetch('./data/product-images.json?' + Date.now());
     if (imageResponse.ok) {
       const imageData = await imageResponse.json();
       imageRecords = Array.isArray(imageData.records) ? imageData.records : [];
@@ -155,6 +155,21 @@ export async function loadProducts(source = './data/products.json') {
   // rendered too: missing images/prices are enriched progressively and must not make
   // an already recovered product disappear from the public catalog.
   return products.map(product => {
+    // La capa pública nunca debe exponer datos de proveedor, costos internos,
+    // fuentes de abastecimiento ni referencias administrativas. Esos datos
+    // pueden permanecer en el catálogo/auditoría interna, pero se eliminan
+    // del objeto que llega a las fichas públicas.
+    const publicProduct = { ...product };
+    delete publicProduct.supplier;
+    delete publicProduct.supplierReference;
+    if (publicProduct.pricing) {
+      const { source, sourceUrl, costBasis, calculationBase, observedWholesaleCost, ...publicPricing } = publicProduct.pricing;
+      publicProduct.pricing = publicPricing;
+    }
+    delete publicProduct.source;
+    delete publicProduct.sourceUrl;
+    delete publicProduct.sourcePage;
+
     const evidence = verifiedImages.get(String(product?.id));
     const productName = String(product?.name || '').toLowerCase();
     const familyEvidence = fastenerFamilyRules.find(rule => {
@@ -195,7 +210,7 @@ export async function loadProducts(source = './data/products.json') {
     const override = kilogramPricing ? null : rawOverride;
 
     const withImages = effectiveEvidence ? {
-      ...product,
+      ...publicProduct,
       images: {
         ...(product.images || {}),
         primary: effectiveEvidence.imageUrl,
@@ -205,7 +220,7 @@ export async function loadProducts(source = './data/products.json') {
         verifiedAt: effectiveEvidence.verifiedAt,
         imageReuse: evidence ? undefined : 'visual_family_measurement_variant'
       }
-    } : product;
+    } : publicProduct;
 
     // If there is no explicit IMPERIA price yet, calculate one from the
     // verified public market-reference range already attached to the product.
