@@ -5469,8 +5469,10 @@
       "source": "sofalca.com",
       "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
       "verifiedAt": "2026-10-01",
-      "verificationStatus": "verified_source_image",
-      "publishable": true
+      "verificationStatus": "blocked_source",
+      "publishable": false,
+      "blockReason": "Fuente bloqueada por política: sofalca.com",
+      "blockedAt": "2026-10-08"
     },
     {
       "productId": "market-half-cunete-fixor-t1",
