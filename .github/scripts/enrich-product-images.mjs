@@ -104,7 +104,7 @@ let exa=[]; try{exa=JSON.parse(await fs.readFile(EXA,'utf8')).results||[]}catch{
 let gemini=[]; try{gemini=JSON.parse(await fs.readFile(GEMINI,'utf8')).results||[]}catch{}
 let fastenerFamilies=[]; try{fastenerFamilies=JSON.parse(await fs.readFile(FASTENER_FAMILIES,'utf8')).families||[]}catch{}
 
-const existing=new Map((imgData.records||[]).filter(r=>!(/sofalca\\.com/i.test(String(r?.imageUrl||''))||/sofalca\\.com/i.test(String(r?.sourcePage||''))||/^sofalca$/i.test(String(r?.source||'')))).map(r=>[String(r.productId),r]));
+const blockedExisting=(imgData.records||[]).filter(r=>/sofalca\\.com/i.test(String(r?.imageUrl||''))||/sofalca\\.com/i.test(String(r?.sourcePage||''))||/^sofalca$/i.test(String(r?.source||'')));\nconst blockedExistingIds=new Set(blockedExisting.map(r=>String(r.productId)));\nconst existing=new Map((imgData.records||[]).filter(r=>!blockedExistingIds.has(String(r.productId))).map(r=>[String(r.productId),r]));
 const beforeCount=existing.size;
 const offerIndex=offerData.map(o=>({name:o.originalProductName||'',sku:o.sku||'',url:o.sourceUrl||'',source:o.source||''})).filter(x=>x.url);
 const exaIndex=exa.map(o=>({name:o.title||'',sku:'',url:o.url||'',source:o.source||''})).filter(x=>x.url);
@@ -168,7 +168,7 @@ function findFamilyImage(p){
   ownerCandidates.sort((a,b)=>b.score-a.score);
   return ownerCandidates[0]||null;
 }
-const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))
+const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&!blockedExistingIds.has(String(p.id))&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))
   .sort((a,b)=>priorityScore(b)-priorityScore(a)).slice(0,BATCH);
 let failures=0, checked=0;
 
@@ -282,7 +282,7 @@ imgData.generatedAt=new Date().toISOString().slice(0,10);
 imgData.status='staging';
 imgData.policy.fastenerFamilyReuse=true;
 imgData.policy.blockedImageSources=['sofalca.com'];
-imgData.records=[...existing.values()].filter(r=>usableProductImage(r.imageUrl||r.imageUrl));
+imgData.records=[...existing.values(),...blockedExisting].filter(r=>r?.imageUrl);
 await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
 const reusedFamily=imgData.records.filter(r=>r?.imageReuse==='family_measurement_variant').length;
 console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures,reusedFamily},null,2));
