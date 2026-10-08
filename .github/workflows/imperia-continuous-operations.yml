@@ -126,6 +126,24 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Reconciliar control maestro contra archivos reales
+        run: node .github/scripts/reconcile-catalog-control.mjs
+      - name: Publicar control maestro reconciliado
+        run: |
+          git config user.name "IMPERIA 360 Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/catalog-control.json
+          if git diff --cached --quiet; then
+            echo "Control maestro ya estaba reconciliado."
+          else
+            git commit -m "chore: reconcile master catalog control"
+            for attempt in 1 2 3 4 5; do
+              if git push origin HEAD:main; then exit 0; fi
+              git fetch origin main
+              git rebase origin/main
+            done
+            exit 1
+          fi
       - name: Auditoría de duplicados
         run: node .github/scripts/catalog-audit.mjs
       - name: Validación de mercado
