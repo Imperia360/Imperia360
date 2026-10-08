@@ -124,8 +124,14 @@
     "noInventedImages": true,
     "currentMasterAudit": {
       "products": 1526,
-      "withImage": 445,
-      "withoutImage": 1081
+      "withImage": 423,
+      "withoutImage": 1103,
+      "uniqueProductIds": 423,
+      "duplicateProductIds": 0,
+      "publishableImages": 422,
+      "verifiedSourceImages": 422,
+      "blockedSourceImages": 1,
+      "blockedSourceImagePolicy": "sofalca.com"
     },
     "auditFile": "data/product-images.json",
     "note": "Reconciliado 2026-09-30: data/product-images.json contiene 445 registros publishable, 445 productId únicos y 445 imágenes verificadas.",
@@ -149,7 +155,9 @@
         "tornillo goloso cabeza plana estrella: una imagen de la familia para todas sus medidas"
       ],
       "progressiveUpdate": true
-    }
+    },
+    "lastReconciledAt": "2026-10-08",
+    "reconciliationSource": "data/products.json + data/product-images.json"
   },
   "namingPolicy": {
     "photoPlaceholdersNotProducts": true,
@@ -194,7 +202,7 @@
     "status": "evidence_collected_margin_ceiling_calculated",
     "rule": "No fijar margen real ni costo IMPERIA hasta cruzar costo proveedor verificable."
   },
-  "lastExecution": "2026-10-01",
+  "lastExecution": "2026-10-08",
   "executionStatus": "executed_rules_hardened",
   "lastExecutionEvidence": {
     "webSearch": "Fresh web evidence checked across construction, safety, waterproofing, wholesale and tools.",
@@ -206,8 +214,8 @@
       "PresuCosto Colombia 2026"
     ],
     "note": "Only evidence suitable for exact product matching should be promoted to product pricing; generic or $1 placeholder catalog entries are not accepted as prices.",
-    "imageAudit": "2026-09-30: data/product-images.json contiene 444 registros publishable con verificationStatus=verified_source_image; 444 productId únicos; 0 IDs duplicados.",
-    "repositoryImprovement": "Se corrigió el control maestro para reflejar el lote real de imágenes verificadas en lugar del conteo histórico de 11."
+    "imageAudit": "423 registros de imagen; 423 productId únicos; 422 publicables; 422 verificados; 1 bloqueado por fuente.",
+    "repositoryImprovement": "Se bloqueó para publicación la imagen de hist-IMP-00714 por fuente sofalca.com, conservando el registro para trazabilidad. El control maestro quedó reconciliado con los archivos actuales."
   },
   "searchPolicy": {
     "status": "implemented",
