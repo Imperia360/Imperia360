@@ -12,10 +12,10 @@ const FASTENER_FAMILIES='data/fastener-family-images.json';
 const BATCH=100;
 const DISCOVERY_SOURCES=['https://roxvan.com/','https://comdulec.com/','https://mileniosuministros.com/','https://odinsas.com/','https://www.grupodiman.com/','https://ferreteriasorlandonino.com/','https://imsucol.com/','https://distribuidoralafrontera.com.co/','https://coval.com.co/','https://ferreteriatoolscenter.com.co/','https://www.industriascetelgroup.com.co/','https://reddi.com.co/','https://importadoraferremax.com/','https://cameleco.com/','https://comem.com.co/','https://importadoradftools.com/','https://www.provimer.co/','https://nergia.co/','https://ferreteriagerardobarrera.com/','https://mundial.com.co/','https://pintul.com/','https://conalpron.com/','https://supermezclascol.com/','https://www.andicomer.com/','https://www.abacol.co/','https://shoppingpaint.com/','https://www.autocoloresg.com/','https://nortemateriales.com.co/','https://www.supuntoferretero.com/','https://dilmarycia.com.co/'];
 const CONCURRENCY=12;
-const REJECT_IMAGE_PATTERNS=[/sofalca\\.com/i,/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
+const REJECT_IMAGE_PATTERNS=[/sofalca\.com/i,/\/null(?:$|[?#])/i,/\/undefined(?:$|[?#])/i,/\/collections\/all(?:[/?#]|$)/i,/\/collections\/null(?:[/?#]|$)/i,/logo[-_]?horizontal/i,/\/marca\//i,/solonombre\.(?:png|jpe?g|webp)$/i];
 function usableProductImage(url){
   if(!url)return false;
-  if(/sofalca\\.com/i.test(String(url)))return false;
+  if(/sofalca\.com/i.test(String(url)))return false;
   const s=String(url);
   if(REJECT_IMAGE_PATTERNS.some(re=>re.test(s)))return false;
   // No aceptar logos, portadas, banners, imágenes de marca o recursos genéricos.
@@ -104,7 +104,7 @@ let exa=[]; try{exa=JSON.parse(await fs.readFile(EXA,'utf8')).results||[]}catch{
 let gemini=[]; try{gemini=JSON.parse(await fs.readFile(GEMINI,'utf8')).results||[]}catch{}
 let fastenerFamilies=[]; try{fastenerFamilies=JSON.parse(await fs.readFile(FASTENER_FAMILIES,'utf8')).families||[]}catch{}
 
-const blockedExisting=(imgData.records||[]).filter(r=>/sofalca\\.com/i.test(String(r?.imageUrl||''))||/sofalca\\.com/i.test(String(r?.sourcePage||''))||/^sofalca$/i.test(String(r?.source||'')));\nconst blockedExistingIds=new Set(blockedExisting.map(r=>String(r.productId)));\nconst existing=new Map((imgData.records||[]).filter(r=>!blockedExistingIds.has(String(r.productId))).map(r=>[String(r.productId),r]));
+const blockedExisting=(imgData.records||[]).filter(r=>/sofalca\.com/i.test(String(r?.imageUrl||''))||/sofalca\.com/i.test(String(r?.sourcePage||''))||/^sofalca$/i.test(String(r?.source||'')));\nconst blockedExistingIds=new Set(blockedExisting.map(r=>String(r.productId)));\nconst existing=new Map((imgData.records||[]).filter(r=>!blockedExistingIds.has(String(r.productId))).map(r=>[String(r.productId),r]));
 const beforeCount=existing.size;
 const offerIndex=offerData.map(o=>({name:o.originalProductName||'',sku:o.sku||'',url:o.sourceUrl||'',source:o.source||''})).filter(x=>x.url);
 const exaIndex=exa.map(o=>({name:o.title||'',sku:'',url:o.url||'',source:o.source||''})).filter(x=>x.url);
