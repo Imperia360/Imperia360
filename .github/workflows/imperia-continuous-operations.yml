@@ -53,6 +53,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Validar sintaxis del enriquecedor
+        run: node --check .github/scripts/enrich-product-images.mjs
       - name: Ejecutar enriquecimiento real de imágenes
         run: node .github/scripts/enrich-product-images.mjs
       - name: Publicar mapa de imágenes
@@ -113,6 +115,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Validar sintaxis de scripts críticos
+        run: |
+          node --check .github/scripts/enrich-product-images.mjs
+          node --check .github/scripts/reconcile-catalog-control.mjs
       - name: Validar archivos críticos
         run: |
           node -e "const fs=require('fs'); const files=['data/products.json','data/catalog-control.json','data/catalog-audit.json','data/inventory-base.json','data/reconciliation-review.json','data/catalog-sources.json']; for(const f of files){JSON.parse(fs.readFileSync(f,'utf8')); console.log('OK',f)}"
