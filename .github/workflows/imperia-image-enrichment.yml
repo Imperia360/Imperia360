@@ -79,7 +79,7 @@ jobs:
             const blocked = /sofalca\\.com/i.test(String(r.imageUrl || '') + ' ' + String(r.sourcePage || '')) ||
               /^sofalca$/i.test(String(r.source || ''));
             if (blocked && r.publishable === true) errors.push('fuente bloqueada marcada publicable: ' + id);
-            if (r.publishable === true && (!r.imageUrl || !/^https?:\\/\\//i.test(r.imageUrl))) errors.push('imagen publicable sin URL válida: ' + id);
+            if (r.publishable === true && (!r.imageUrl || !(String(r.imageUrl).startsWith('https://') || String(r.imageUrl).startsWith('http://')))) errors.push('imagen publicable sin URL válida: ' + id);
           }
           const verified = records.filter(r => r.publishable === true && r.verificationStatus === 'verified_source_image').length;
           console.log(JSON.stringify({records: records.length, verifiedPublishable: verified, uniqueProductIds: seen.size, errors: errors.length}, null, 2));
