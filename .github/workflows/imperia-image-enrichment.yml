@@ -76,8 +76,8 @@ jobs:
             if (!id) errors.push('registro sin productId');
             if (seen.has(id)) errors.push('productId duplicado: ' + id);
             seen.add(id);
-            const blocked = /sofalca\\.com/i.test(String(r.imageUrl || '') + ' ' + String(r.sourcePage || '')) ||
-              /^sofalca$/i.test(String(r.source || ''));
+          const blocked = (String(r.imageUrl || '') + ' ' + String(r.sourcePage || '')).toLowerCase().includes('sofalca.com') ||
+              String(r.source || '').toLowerCase() === 'sofalca';
             if (blocked && r.publishable === true) errors.push('fuente bloqueada marcada publicable: ' + id);
             if (r.publishable === true && (!r.imageUrl || !(String(r.imageUrl).startsWith('https://') || String(r.imageUrl).startsWith('http://')))) errors.push('imagen publicable sin URL válida: ' + id);
           }
