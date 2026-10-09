@@ -104,7 +104,8 @@ let exa=[]; try{exa=JSON.parse(await fs.readFile(EXA,'utf8')).results||[]}catch{
 let gemini=[]; try{gemini=JSON.parse(await fs.readFile(GEMINI,'utf8')).results||[]}catch{}
 let fastenerFamilies=[]; try{fastenerFamilies=JSON.parse(await fs.readFile(FASTENER_FAMILIES,'utf8')).families||[]}catch{}
 
-const blockedExisting=(imgData.records||[]).filter(r=>/sofalca\.com/i.test(String(r?.imageUrl||''))||/sofalca\.com/i.test(String(r?.sourcePage||''))||/^sofalca$/i.test(String(r?.source||'')));\nconst blockedExistingIds=new Set(blockedExisting.map(r=>String(r.productId)));\nconst existing=new Map((imgData.records||[]).filter(r=>!blockedExistingIds.has(String(r.productId))).map(r=>[String(r.productId),r]));
+const blockedExisting=(imgData.records||[]).filter(r=>/sofalca\.com/i.test(String(r?.imageUrl||''))||/sofalca\.com/i.test(String(r?.sourcePage||''))||/^sofalca$/i.test(String(r?.source||'')));
+const blockedExistingIds=new Set(blockedExisting.map(r=>String(r.productId)));\nconst existing=new Map((imgData.records||[]).filter(r=>!blockedExistingIds.has(String(r.productId))).map(r=>[String(r.productId),r]));
 const beforeCount=existing.size;
 const offerIndex=offerData.map(o=>({name:o.originalProductName||'',sku:o.sku||'',url:o.sourceUrl||'',source:o.source||''})).filter(x=>x.url);
 const exaIndex=exa.map(o=>({name:o.title||'',sku:'',url:o.url||'',source:o.source||''})).filter(x=>x.url);
