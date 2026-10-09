@@ -5460,21 +5460,6 @@
       "publishable": true
     },
     {
-      "productId": "hist-IMP-00714",
-      "sku": null,
-      "manufacturerReference": null,
-      "supplierReference": null,
-      "imageUrl": "http://sofalca.com/cdn/shop/files/WWW.SOFALCA.COM_1.png?v=1766423697",
-      "sourcePage": "https://sofalca.com/",
-      "source": "sofalca.com",
-      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
-      "verifiedAt": "2026-10-01",
-      "verificationStatus": "blocked_source",
-      "publishable": false,
-      "blockReason": "Fuente bloqueada por política: sofalca.com",
-      "blockedAt": "2026-10-08"
-    },
-    {
       "productId": "market-half-cunete-fixor-t1",
       "sku": "FIXOR-MC-T1",
       "manufacturerReference": null,
@@ -5512,6 +5497,21 @@
       "verifiedAt": "2026-10-07",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00714",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "http://sofalca.com/cdn/shop/files/WWW.SOFALCA.COM_1.png?v=1766423697",
+      "sourcePage": "https://sofalca.com/",
+      "source": "sofalca.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-10-01",
+      "verificationStatus": "blocked_source",
+      "publishable": false,
+      "blockReason": "Fuente bloqueada por política: sofalca.com",
+      "blockedAt": "2026-10-08"
     }
   ],
   "validation": {
