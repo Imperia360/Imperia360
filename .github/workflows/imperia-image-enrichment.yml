@@ -37,6 +37,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Validación previa de sintaxis y datos
+        run: |
+          set -euo pipefail
+          node --check .github/scripts/enrich-product-images.mjs
+          node --check .github/scripts/prepare-image-google-queue.mjs
+          node --check .github/scripts/run-gemini-google-discovery.mjs
+          node - <<'NODE'
+          const fs = require('fs');
+          for (const file of ['data/products.json', 'data/product-images.json', 'data/fastener-family-images.json']) {
+            const parsed = JSON.parse(fs.readFileSync(file, 'utf8'));
+            if (file === 'data/products.json' && !Array.isArray(parsed)) throw new Error('products.json debe ser un arreglo');
+            if (file === 'data/product-images.json' && !Array.isArray(parsed.records)) throw new Error('product-images.json debe contener records[]');
+            console.log('JSON OK:', file);
+          }
+          NODE
       - name: Preparar cola de imágenes con Google
         run: node .github/scripts/prepare-image-google-queue.mjs
       - name: Buscar páginas de producto con Gemini + Google Search
@@ -47,6 +62,32 @@ jobs:
         run: node .github/scripts/run-gemini-google-discovery.mjs
       - name: Procesar siguiente lote de productos sin imagen
         run: node .github/scripts/enrich-product-images.mjs
+      - name: Auditar resultados antes de publicar
+        run: |
+          set -euo pipefail
+          node - <<'NODE'
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('data/product-images.json', 'utf8'));
+          const records = data.records || [];
+          const seen = new Set();
+          const errors = [];
+          for (const r of records) {
+            const id = String(r.productId || '').trim();
+            if (!id) errors.push('registro sin productId');
+            if (seen.has(id)) errors.push('productId duplicado: ' + id);
+            seen.add(id);
+            const blocked = /sofalca\\.com/i.test(String(r.imageUrl || '') + ' ' + String(r.sourcePage || '')) ||
+              /^sofalca$/i.test(String(r.source || ''));
+            if (blocked && r.publishable === true) errors.push('fuente bloqueada marcada publicable: ' + id);
+            if (r.publishable === true && (!r.imageUrl || !/^https?:\\/\\//i.test(r.imageUrl))) errors.push('imagen publicable sin URL válida: ' + id);
+          }
+          const verified = records.filter(r => r.publishable === true && r.verificationStatus === 'verified_source_image').length;
+          console.log(JSON.stringify({records: records.length, verifiedPublishable: verified, uniqueProductIds: seen.size, errors: errors.length}, null, 2));
+          if (errors.length) {
+            console.error(errors.slice(0, 50).join('\\n'));
+            process.exit(1);
+          }
+          NODE
       - name: Guardar coincidencias verificadas
         run: |
           if git diff --quiet -- data/product-images.json; then
