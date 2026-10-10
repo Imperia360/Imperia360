@@ -156,7 +156,7 @@
       ],
       "progressiveUpdate": true
     },
-    "lastReconciledAt": "2026-10-09",
+    "lastReconciledAt": "2026-10-10",
     "reconciliationSource": "data/products.json + data/product-images.json"
   },
   "namingPolicy": {
@@ -202,7 +202,7 @@
     "status": "evidence_collected_margin_ceiling_calculated",
     "rule": "No fijar margen real ni costo IMPERIA hasta cruzar costo proveedor verificable."
   },
-  "lastExecution": "2026-10-09",
+  "lastExecution": "2026-10-10",
   "executionStatus": "executed_rules_hardened",
   "lastExecutionEvidence": {
     "webSearch": "Fresh web evidence checked across construction, safety, waterproofing, wholesale and tools.",
