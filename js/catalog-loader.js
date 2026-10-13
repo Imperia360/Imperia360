@@ -16,6 +16,9 @@ export async function loadProducts(source = './data/products.json') {
   if (!Array.isArray(products)) {
     throw new Error('El catálogo debe ser un arreglo de productos.');
   }
+  if (products.length === 0) {
+    throw new Error('El catálogo maestro está vacío; se detiene la publicación para evitar un catálogo parcial.');
+  }
 
   // Lote de pinturas con referencias y precios públicos verificados.
   // Se mantiene separado del master histórico para permitir auditoría y enriquecimiento de imágenes.
@@ -118,8 +121,8 @@ export async function loadProducts(source = './data/products.json') {
     priceOverrides = {};
   }
 
-  let autoPricing = {};
-  try { const r=await fetch("./data/auto-pricing.json?"+Date.now()); if(r.ok){const d=await r.json(); autoPricing=d?.records||{};} } catch {}
+  // Los precios automáticos provisionales no se publican. Solo se admiten
+  // overrides explícitos o precios con estado comercial validado.
 
   // Imágenes verificadas por familia visual de tornillería. Una misma imagen
   // representa las variantes que solo cambian en medida/presentación.
@@ -135,142 +138,178 @@ export async function loadProducts(source = './data/products.json') {
   }
 
   let imageRecords = [];
+  let blockedImageSources = ['sofalca.com'];
   try {
-    const imageResponse = await fetch('./data/product-images.json?' + Date.now());
+    const imageResponse = await fetch('./data/product-images.json?' + Date.now(), { cache: 'no-store' });
     if (imageResponse.ok) {
       const imageData = await imageResponse.json();
       imageRecords = Array.isArray(imageData.records) ? imageData.records : [];
+      if (Array.isArray(imageData.policy?.blockedImageSources)) {
+        blockedImageSources = imageData.policy.blockedImageSources;
+      }
+    } else {
+      console.warn('[IMPERIA 360] No se pudo cargar el registro de imágenes:', imageResponse.status);
     }
-  } catch {
+  } catch (error) {
+    console.warn('[IMPERIA 360] Falló la carga del registro de imágenes:', error);
     imageRecords = [];
   }
 
+  const blockedDomains = blockedImageSources
+    .map(value => String(value || '').trim().toLowerCase())
+    .filter(Boolean);
+
+  function urlHost(value) {
+    try { return new URL(value).hostname.toLowerCase(); } catch { return ''; }
+  }
+
+  function isBlockedEvidence(record) {
+    const hostValues = [
+      urlHost(record?.imageUrl),
+      urlHost(record?.sourcePage),
+      String(record?.source || '').toLowerCase()
+    ];
+    return blockedDomains.some(domain =>
+      hostValues.some(host => host === domain || host.endsWith('.' + domain) || host.includes(domain))
+    );
+  }
+
+  function isSafeEvidence(record) {
+    if (!record || record.publishable !== true || record.verificationStatus !== 'verified_source_image') return false;
+    if (!/^https:\/\//i.test(String(record.imageUrl || ''))) return false;
+    return !isBlockedEvidence(record);
+  }
+
   const verifiedImages = new Map(
-    imageRecords
-      .filter(record => record?.publishable === true && record?.verificationStatus === 'verified_source_image' && record?.imageUrl)
-      .map(record => [String(record.productId), record])
+    imageRecords.filter(isSafeEvidence).map(record => [String(record.productId), record])
   );
 
-  // The master catalog is the publication source. Review records are intentionally
-  // rendered too: missing images/prices are enriched progressively and must not make
-  // an already recovered product disappear from the public catalog.
-  return products.map(product => {
-    // La capa pública nunca debe exponer datos de proveedor, costos internos,
-    // fuentes de abastecimiento ni referencias administrativas. Esos datos
-    // pueden permanecer en el catálogo/auditoría interna, pero se eliminan
-    // del objeto que llega a las fichas públicas.
-    const publicProduct = { ...product };
-    delete publicProduct.supplier;
-    delete publicProduct.supplierReference;
-    if (publicProduct.pricing) {
-      const { source, sourceUrl, costBasis, calculationBase, observedWholesaleCost, ...publicPricing } = publicProduct.pricing;
-      publicProduct.pricing = publicPricing;
+  const approvedPriceStates = new Set([
+    'validated', 'verified', 'approved', 'manual_verified', 'supplier_quote_verified'
+  ]);
+  const internalKeys = new Set([
+    'supplier', 'supplierreference', 'suppliername', 'supplierurl',
+    'source', 'sourceurl', 'sourcepage', 'sourcepagename',
+    'costbasis', 'calculationbase', 'observedwholesalecost',
+    'suppliercost', 'suppliercostcop', 'purchasecost', 'wholesalecost',
+    'wholesalecostcop', 'calculationnote', 'sourcereferenceprice'
+  ]);
+
+  function stripInternal(value) {
+    if (Array.isArray(value)) return value.map(stripInternal);
+    if (!value || typeof value !== 'object') return value;
+    const cleaned = {};
+    for (const [key, child] of Object.entries(value)) {
+      if (internalKeys.has(key.toLowerCase())) continue;
+      cleaned[key] = stripInternal(child);
     }
-    delete publicProduct.source;
-    delete publicProduct.sourceUrl;
-    delete publicProduct.sourcePage;
+    return cleaned;
+  }
+
+  function safeExistingImage(images) {
+    if (!images || images.verificationStatus !== 'verified_source_image') return null;
+    const url = String(images.primary || '');
+    if (!/^https:\/\//i.test(url)) return null;
+    const evidenceLike = { imageUrl: url, sourcePage: images.sourcePage, source: images.source };
+    if (isBlockedEvidence(evidenceLike)) return null;
+    return { primary: url, alt: String(images.alt || ''), verificationStatus: images.verificationStatus, verifiedAt: images.verifiedAt };
+  }
+
+  const result = products.map(product => {
+    const publicProduct = stripInternal(product);
+    if (publicProduct.identification && typeof publicProduct.identification === 'object') {
+      delete publicProduct.identification.supplierReference;
+    }
 
     const evidence = verifiedImages.get(String(product?.id));
     const productName = String(product?.name || '').toLowerCase();
     const familyEvidence = fastenerFamilyRules.find(rule => {
       const include = rule?.match?.include || [];
       const requireAny = rule?.match?.requireAny || [];
-      const namePattern = rule?.match?.namePattern ? new RegExp(rule.match.namePattern, 'i') : null;
+      let namePattern = null;
+      try { namePattern = rule?.match?.namePattern ? new RegExp(rule.match.namePattern, 'i') : null; } catch {}
       const exclude = rule?.match?.exclude || [];
       const includesMatch = include.every(token => productName.includes(String(token).toLowerCase()));
       const anyMatch = requireAny.length === 0 || requireAny.some(token => productName.includes(String(token).toLowerCase()));
       const patternMatch = !namePattern || namePattern.test(productName);
       const familyShapeMatch = requireAny.length === 0 ? patternMatch : (anyMatch || patternMatch);
-      return rule?.publishable === true && rule?.verificationStatus === 'verified_source_image' && rule?.imageUrl
+      return rule?.publishable === true
+        && rule?.verificationStatus === 'verified_source_image'
+        && /^https:\/\//i.test(String(rule?.imageUrl || ''))
+        && !isBlockedEvidence(rule)
         && includesMatch
         && familyShapeMatch
         && !exclude.some(token => productName.includes(String(token).toLowerCase()));
     });
-    const effectiveEvidence = evidence || familyEvidence;
-    const rawOverride = priceOverrides[String(product?.id)];
-    let provisional = autoPricing[String(product?.id)];
-    // Regla IMPERIA para referencias de la lista cuyo producto se expresa por kilo:
-    // $15.300 COP/kg, presentación de 20 kg = $306.000 de costo base; se aplican
-    // los márgenes IMPERIA y esta regla prevalece sobre precios automáticos anteriores.
-    const productTextForKg = String(product?.name || '') + ' ' + String(product?.description || '');
-    const isKilogramReference = /\b(?:kilo|kilos|kg|kgs)\b/i.test(productTextForKg);
-    const kilogramPricing = isKilogramReference ? {
-      manualSalePrice: 470800,
-      manualRetailPrice: 470800,
-      manualContractorPrice: 408000,
-      manualWholesalePrice: 382500,
-      manualMarginPct: 35,
-      pricingStatus: 'imperia_kilogram_rule',
-      costBasis: 'imperia_reference_kilogram_rule',
-      calculationBase: 306000,
-      manualUpdatedAt: '2026-10-01T00:00:00.000Z',
-      manualUpdatedBy: 'IMPERIA 360 kilogram rule: 15300 COP/kg x 20 kg'
-    } : null;
-    if (kilogramPricing) provisional = kilogramPricing;
-    const override = kilogramPricing ? null : rawOverride;
 
-    const withImages = effectiveEvidence ? {
-      ...publicProduct,
-      images: {
-        ...(product.images || {}),
-        primary: effectiveEvidence.imageUrl,
-        source: effectiveEvidence.source,
-        sourcePage: effectiveEvidence.sourcePage,
-        verificationStatus: effectiveEvidence.verificationStatus,
-        verifiedAt: effectiveEvidence.verifiedAt,
-        imageReuse: evidence ? undefined : 'visual_family_measurement_variant'
-      }
-    } : publicProduct;
-
-    // If there is no explicit IMPERIA price yet, calculate one from the
-    // verified public market-reference range already attached to the product.
-    // This prevents "Cotizar" when a usable market benchmark exists.
-    let calculated = null;
-    if (!override?.manualSalePrice && !provisional?.manualSalePrice) {
-      const ref = withImages.pricing?.sourceReferencePrice;
-      const benchmark = Math.max(Number(ref?.max || 0), Number(ref?.min || 0));
-      if (benchmark > 0) {
-        const retailMarginPct = 35;
-        const contractorMarginPct = 25;
-        const wholesaleMarginPct = 20;
-        const price = (cost, margin) => {
-        if (!(cost > 0 && margin < 100)) return 0;
-        const raw = cost / (1 - margin / 100);
-        return raw < 1000 ? Math.ceil(raw) : Math.ceil(raw / 100) * 100;
+    const selectedImage = evidence || familyEvidence;
+    const existingImage = safeExistingImage(product.images);
+    if (selectedImage) {
+      publicProduct.images = {
+        primary: selectedImage.imageUrl,
+        alt: String(product?.name || ''),
+        verificationStatus: selectedImage.verificationStatus,
+        verifiedAt: selectedImage.verifiedAt,
+        ...(evidence ? {} : { imageReuse: 'visual_family_measurement_variant' })
       };
-        calculated = {
-          manualSalePrice: price(benchmark, retailMarginPct),
-          manualRetailPrice: price(benchmark, retailMarginPct),
-          manualContractorPrice: price(benchmark, contractorMarginPct),
-          manualWholesalePrice: price(benchmark, wholesaleMarginPct),
-          manualMarginPct: retailMarginPct,
-          pricingStatus: "calculated_from_market_reference",
-          costBasis: "market_reference_benchmark",
-          calculationBase: benchmark,
-          calculationNote: "Precio IMPERIA calculado sobre la referencia pública máxima disponible; no es costo confirmado de proveedor."
-        };
+    } else if (existingImage) {
+      publicProduct.images = existingImage;
+    } else {
+      delete publicProduct.images;
+    }
+
+    const override = priceOverrides[String(product?.id)];
+    const overrideSale = Number(override?.manualSalePrice);
+    const originalPricing = product?.pricing && typeof product.pricing === 'object' ? product.pricing : {};
+    const originalStatus = String(originalPricing.status || originalPricing.pricingStatus || '').toLowerCase();
+    const originalSale = originalStatus === 'validated' && Number(originalPricing.publicPrice) > 0
+      ? Number(originalPricing.publicPrice)
+      : (approvedPriceStates.has(originalStatus) ? Number(originalPricing.manualSalePrice) : 0);
+    const hasManualOverride = Number.isFinite(overrideSale) && overrideSale > 0;
+    const hasValidatedPrice = Number.isFinite(originalSale) && originalSale > 0;
+
+    const publicPricing = {
+      currency: String(originalPricing.currency || 'COP'),
+      status: hasManualOverride ? 'manual' : (hasValidatedPrice ? 'validated' : 'quote_only'),
+      pricingStatus: hasManualOverride ? 'manual_verified' : (hasValidatedPrice ? 'validated' : 'quote_only'),
+      quoteOnly: !(hasManualOverride || hasValidatedPrice)
+    };
+
+    if (hasManualOverride) {
+      publicPricing.manualSalePrice = overrideSale;
+      for (const field of ['manualRetailPrice', 'manualContractorPrice', 'manualWholesalePrice']) {
+        const value = Number(override?.[field]);
+        if (Number.isFinite(value) && value > 0) publicPricing[field] = value;
+      }
+    } else if (hasValidatedPrice) {
+      publicPricing.manualSalePrice = originalSale;
+      for (const field of ['manualContractorPrice', 'manualWholesalePrice']) {
+        const value = Number(originalPricing[field]);
+        if (Number.isFinite(value) && value > 0) publicPricing[field] = value;
       }
     }
 
-    if (!override?.manualSalePrice && !provisional?.manualSalePrice && !calculated) return withImages;
-
-    const p = provisional || {};
-    const v = calculated || {};
-    return {
-      ...withImages,
-      pricing: {
-        ...(withImages.pricing || {}),
-        manualSalePrice: Number(override?.manualSalePrice ?? p.manualSalePrice ?? v.manualSalePrice),
-        manualMarginPct: override?.manualMarginPct ?? p.retailMarginPct ?? v.manualMarginPct ?? null,
-        manualWholesalePrice: Number(override?.manualWholesalePrice ?? p.manualWholesalePrice ?? v.manualWholesalePrice ?? 0),
-        manualContractorPrice: Number(override?.manualContractorPrice ?? p.manualContractorPrice ?? v.manualContractorPrice ?? 0),
-        pricingStatus: override ? "manual" : (p.manualSalePrice ? "provisional_published" : "calculated_from_market_reference"),
-        costBasis: override ? "manual" : (p.costBasis ?? v.costBasis),
-        calculationBase: p.observedWholesaleCost ?? v.calculationBase ?? null,
-        manualUpdatedAt: override?.updatedAt ?? p.updatedAt ?? new Date().toISOString(),
-        manualUpdatedBy: override?.updatedBy ?? p.updatedBy ?? "IMPERIA 360 automatic pricing"
-      }
-    };
-
+    publicProduct.pricing = publicPricing;
+    return publicProduct;
   });
+
+  const categoryNames = new Set();
+  const productCategory = product => {
+    const category = product?.category;
+    return String(typeof category === 'object' ? category?.name || '' : category || '').trim();
+  };
+  for (const product of result) {
+    const category = productCategory(product);
+    if (category) categoryNames.add(category);
+  }
+  console.info('[IMPERIA 360] Auditoría de carga:', {
+    masterProducts: products.length,
+    publicProducts: result.length,
+    imageEvidenceAccepted: verifiedImages.size,
+    categoriesObserved: categoryNames.size,
+    productsWithoutVerifiedImage: result.filter(p => !p.images?.primary).length,
+    productsQuoteOnly: result.filter(p => p.pricing?.quoteOnly).length
+  });
+
+  return result;
 }
