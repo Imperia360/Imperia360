@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-10-15",
+  "policy": {
+    "noInventedImages": true,
+    "httpsOnly": true,
+    "blockedImageSources": [
+      "sofalca.com"
+    ],
+    "sourceMetadataExcluded": true
+  },
+  "records": []
+}
