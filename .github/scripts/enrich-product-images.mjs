@@ -171,7 +171,9 @@ function findFamilyImage(p){
   return ownerCandidates[0]||null;
 }
 const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&!blockedExistingIds.has(String(p.id))&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))
-  .sort((a,b)=>priorityScore(b)-priorityScore(a)).slice(0,BATCH);
+  // Desbloquear primero las familias con imagen ya verificada: si no, las 100 pinturas
+  // sin coincidencia desplazan siempre los tornillos y la cola repite el mismo lote cada hora.
+  .sort((a,b)=>Number(Boolean(approvedFamilyImage(b)))-Number(Boolean(approvedFamilyImage(a))) || priorityScore(b)-priorityScore(a)).slice(0,BATCH);
 let failures=0, checked=0;
 
 async function processProduct(p){
