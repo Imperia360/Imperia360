@@ -9,6 +9,7 @@ const IMAGES='data/product-images.json';
 const OFFERS='data/market-offers.json';
 const EXA='data/exa-discovery.json';
 const FASTENER_FAMILIES='data/fastener-family-images.json';
+const RETRIES='data/image-enrichment-retries.json';
 const BATCH=100;
 const DISCOVERY_SOURCES=['https://roxvan.com/','https://comdulec.com/','https://mileniosuministros.com/','https://odinsas.com/','https://www.grupodiman.com/','https://ferreteriasorlandonino.com/','https://imsucol.com/','https://distribuidoralafrontera.com.co/','https://coval.com.co/','https://ferreteriatoolscenter.com.co/','https://www.industriascetelgroup.com.co/','https://reddi.com.co/','https://importadoraferremax.com/','https://cameleco.com/','https://comem.com.co/','https://importadoradftools.com/','https://www.provimer.co/','https://nergia.co/','https://ferreteriagerardobarrera.com/','https://mundial.com.co/','https://pintul.com/','https://conalpron.com/','https://supermezclascol.com/','https://www.andicomer.com/','https://www.abacol.co/','https://shoppingpaint.com/','https://www.autocoloresg.com/','https://nortemateriales.com.co/','https://www.supuntoferretero.com/','https://dilmarycia.com.co/'];
 const CONCURRENCY=12;
@@ -170,10 +171,14 @@ function findFamilyImage(p){
   ownerCandidates.sort((a,b)=>b.score-a.score);
   return ownerCandidates[0]||null;
 }
+let retryData={updatedAt:null,products:{}};
+try { retryData=JSON.parse(await fs.readFile(RETRIES,'utf8')); } catch {}
+if(!retryData.products || typeof retryData.products!=='object') retryData.products={};
+const retryCount=id=>Number(retryData.products[String(id)]?.attempts||0);
 const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&!blockedExistingIds.has(String(p.id))&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))
-  // Desbloquear primero las familias con imagen ya verificada: si no, las 100 pinturas
-  // sin coincidencia desplazan siempre los tornillos y la cola repite el mismo lote cada hora.
-  .sort((a,b)=>Number(Boolean(approvedFamilyImage(b)))-Number(Boolean(approvedFamilyImage(a))) || priorityScore(b)-priorityScore(a)).slice(0,BATCH);
+  // Primero familias verificadas; productos con fallos repetidos quedan al final.
+  .sort((a,b)=>Number(Boolean(approvedFamilyImage(b)))-Number(Boolean(approvedFamilyImage(a))) || retryCount(a.id)-retryCount(b.id) || priorityScore(b)-priorityScore(a)).slice(0,BATCH);
+const foundIds=new Set();
 let failures=0, checked=0;
 
 async function processProduct(p){
@@ -277,7 +282,7 @@ async function worker(){
     const i=cursor++;
     if(i>=queue.length)return;
     const found=await processProduct(queue[i]);
-    if(found)existing.set(String(queue[i].id),found);
+    if(found){existing.set(String(queue[i].id),found);foundIds.add(String(queue[i].id));}
   }
 }
 await Promise.all(Array.from({length:Math.min(CONCURRENCY,queue.length)},worker));
@@ -288,8 +293,11 @@ imgData.policy.fastenerFamilyReuse=true;
 imgData.policy.blockedImageSources=['sofalca.com'];
 imgData.records=[...existing.values(),...blockedExisting].filter(r=>r?.imageUrl);
 await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
-const reusedFamily=imgData.records.filter(r=>r?.imageReuse==='family_measurement_variant').length;
-console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures,reusedFamily},null,2));
+for(const p of queue){const id=String(p.id);if(foundIds.has(id)){delete retryData.products[id];continue;}const old=retryData.products[id]||{attempts:0};retryData.products[id]={attempts:Number(old.attempts||0)+1,lastAttemptAt:new Date().toISOString(),reason:'no_verified_image_found'};}
+retryData.updatedAt=new Date().toISOString();
+await fs.writeFile(RETRIES,JSON.stringify(retryData,null,2)+'\n');
+const reusedFamily=imgData.records.filter(r=>String(r?.imageReuse||'').includes('family_measurement_variant')).length;
+console.log(JSON.stringify({queue:queue.length,added:imgData.records.length-beforeCount,totalImageRecords:imgData.records.length,checked,failures,reusedFamily,verifiedFamilyFirst:queue.filter(p=>approvedFamilyImage(p)).length,failedMovedToEnd:queue.filter(p=>retryCount(p.id)>0).length},null,2));
 
 // Trigger automatic image enrichment after workflow hardening — 2026-09-29.
 
