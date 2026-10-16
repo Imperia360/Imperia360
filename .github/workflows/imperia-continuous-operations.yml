@@ -53,6 +53,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Recuperar resultados de descubrimiento del mismo ciclo
+        uses: actions/download-artifact@v4
+        with:
+          name: imperia-discovery
+          path: data
       - name: Validar sintaxis del enriquecedor
         run: node --check .github/scripts/enrich-product-images.mjs
       - name: Ejecutar enriquecimiento real de imágenes
