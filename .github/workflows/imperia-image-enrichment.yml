@@ -90,15 +90,16 @@ jobs:
           NODE
       - name: Guardar coincidencias verificadas
         run: |
-          if git diff --quiet -- data/product-images.json; then
+          if git diff --quiet -- data/product-images.json data/image-enrichment-retries.json; then
             echo "Sin nuevas imágenes verificadas en este lote."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp data/product-images.json /tmp/product-images-generated.json
+          cp data/image-enrichment-retries.json /tmp/image-enrichment-retries-generated.json
           git fetch origin main
-          git checkout origin/main -- data/product-images.json
+          git checkout origin/main -- data/product-images.json data/image-enrichment-retries.json
           node <<'NODE'
           const fs = require("fs");
           const remote = JSON.parse(fs.readFileSync("data/product-images.json", "utf8"));
@@ -113,12 +114,17 @@ jobs:
             records: [...byId.values()]
           };
           fs.writeFileSync("data/product-images.json", JSON.stringify(merged, null, 2) + "\n");
+          const remoteRetries = JSON.parse(fs.readFileSync("data/image-enrichment-retries.json", "utf8"));
+          const generatedRetries = JSON.parse(fs.readFileSync("/tmp/image-enrichment-retries-generated.json", "utf8"));
+          remoteRetries.products = { ...(remoteRetries.products || {}), ...(generatedRetries.products || {}) };
+          remoteRetries.updatedAt = generatedRetries.updatedAt || remoteRetries.updatedAt;
+          fs.writeFileSync("data/image-enrichment-retries.json", JSON.stringify(remoteRetries, null, 2) + "\n");
           NODE
-          if git diff --quiet -- data/product-images.json; then
+          if git diff --quiet -- data/product-images.json data/image-enrichment-retries.json; then
             echo "Sin nuevas imágenes después de sincronizar con main."
             exit 0
           fi
-          git add data/product-images.json
+          git add data/product-images.json data/image-enrichment-retries.json
           git commit -m "chore: add verified product images batch"
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
