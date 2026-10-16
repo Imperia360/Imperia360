@@ -26,7 +26,7 @@
           "tornilleria",
           "tornillería"
         ],
-        "namePattern": "^drywall\\s+\\d"
+        "namePattern": "^(?:tornillos?\\s+)?drywall\\s+\\d|\\bdrywall\\s+\\d"
       },
       "imageUrl": "https://flexoneh.com.co/wp-content/uploads/2022/07/4303A.jpg",
       "sourcePage": "https://flexoneh.com.co/producto/tornillo-drywall-6x3-4-pulgadas/",
