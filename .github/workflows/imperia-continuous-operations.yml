@@ -60,15 +60,30 @@ jobs:
           path: data
       - name: Validar sintaxis del enriquecedor
         run: node --check .github/scripts/enrich-product-images.mjs
-      - name: Ejecutar enriquecimiento real de imágenes
-        run: node .github/scripts/enrich-product-images.mjs
-      - name: Publicar mapa de imágenes
+      - name: Ejecutar lotes adaptativos de imágenes
+        shell: bash
+        run: |
+          set -euo pipefail
+          for pass in 1 2 3; do
+            before=$(node -e "const d=require('./data/product-images.json'); console.log((d.records||[]).filter(r=>r.publishable===true && r.verificationStatus==='verified_source_image').length)")
+            echo "Lote de imágenes $pass/3; imágenes verificadas antes: $before"
+            node .github/scripts/enrich-product-images.mjs
+            after=$(node -e "const d=require('./data/product-images.json'); console.log((d.records||[]).filter(r=>r.publishable===true && r.verificationStatus==='verified_source_image').length)")
+            added=$((after-before))
+            echo "Lote $pass: imágenes verificadas nuevas = $added"
+            if [ "$added" -gt 0 ]; then
+              echo "Se obtuvieron imágenes verificadas; continúa el control de publicación."
+            else
+              echo "Sin imágenes en este lote; el siguiente intento toma otros productos y deja los fallidos al final."
+            fi
+          done
+      - name: Publicar mapa y cola de reintentos
         run: |
           git config user.name "IMPERIA 360 Automation"
           git config user.email "actions@users.noreply.github.com"
-          git add data/product-images.json
+          git add data/product-images.json data/image-enrichment-retries.json
           if git diff --cached --quiet; then
-            echo "Sin nuevas imágenes verificadas en este lote."
+            echo "Sin cambios en imágenes ni en la cola de reintentos."
             exit 0
           fi
           git commit -m "chore: publish verified product images"
