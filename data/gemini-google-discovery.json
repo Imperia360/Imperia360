@@ -1,0 +1,17 @@
+{
+  "version": "1.2.0",
+  "generatedAt": "2026-10-29T12:19:14.510Z",
+  "status": "DISCOVERY_ONLY",
+  "engine": "gemini-3.8-flash-google-search",
+  "policy": {
+    "discoveryIsNotVerification": true,
+    "automaticPublication": false,
+    "neverInventPrice": true,
+    "neverInventImage": true,
+    "rateLimitMitigation": "abort_gemini_on_429_then_continue_direct_supplier_discovery"
+  },
+  "queueItemsProcessed": 20,
+  "resultsCount": 0,
+  "rateLimited": true,
+  "results": []
+}

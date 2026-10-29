@@ -1,8 +1,262 @@
 {
   "version": "1.0.0",
-  "consultedAt": "2026-09-29T05:25:22.801Z",
-  "status": "OK",
-  "sourcesQueried": 30,
+  "consultedAt": "2026-10-29T12:19:07.765Z",
+  "status": "FAILED",
+  "sourcesQueried": 51,
+  "successfulQueries": 0,
+  "failedQueries": 69,
+  "errors": [
+    {
+      "sourceId": "src-roxvan",
+      "query": "site:roxvan.com ferreteria productos herramientas tornillos precio Colombia",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-sofalca",
+      "query": "site:sofalca.com ferreteria herramientas productos precio Colombia",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-mundial",
+      "query": "site:mundialdetornillos.com producto tornillo herramienta precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-mundial",
+      "query": "site:mundialdetornillos.com catalogo herramienta manual tornilleria",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-777",
+      "query": "site:tornillos777.com productos tornillos herramientas precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-tyt",
+      "query": "site:tornillosytuercas.co tornillos tuercas arandelas precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-fercar",
+      "query": "site:tornillosfercar.com tornillos herramientas precio Colombia",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-corbeta",
+      "query": "site:corbeta.com.co/ferreteria herramientas manuales herramientas electricas",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-corbeta",
+      "query": "site:corbeta.com.co/ferreteria materiales industriales adhesivos abrasivos pinturas",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-corbeta",
+      "query": "site:corbeta.com.co/ferreteria griferia plomeria tuberia",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-coval",
+      "query": "site:coval.com.co ferreteria herramientas productos precio Colombia",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-ferragro",
+      "query": "site:ferragro.com ferreteria herramientas fijaciones tuberia",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-ferragro",
+      "query": "site:ferragro.com herramientas electricas manuales ferreteria",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-total",
+      "query": "site:totalherramientas.com herramientas ferreteria accesorios consumibles",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-total",
+      "query": "site:totalherramientas.com herramientas 20V Colombia",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-vimalum",
+      "query": "site:accesoriosvimalum.com catalogo ferretero herramientas herrajes",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-mauro",
+      "query": "site:ferreteriamauro.com herramientas ferreteria electrico construccion",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-proveedora",
+      "query": "site:comercializadoramayorista.com.co herramientas ferreteria fijaciones construccion",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-elenst",
+      "query": "site:elenst.com/uyustools-colombia herramientas manuales electricas abrasivos maquinaria",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-somher",
+      "query": "site:somher.com.co catalogo productos ferreteria herrajes electricidad griferia",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-ferrefacil",
+      "query": "site:ferrefacil.com.co ferreteria herramientas materiales construccion",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-torbandera",
+      "query": "site:torbandera.co/shop ferreteria fijaciones herrajes herramientas precios",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-suministros-ardila",
+      "query": "site:suministrosardila.com catalogo ferretero soldaduras abrasivos alambre",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-sumivalle",
+      "query": "site:sumivalle.com abrasivos discos lijas ferreteria",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-proim",
+      "query": "site:proim.com.co abrasivos discos lijas ferreteria",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-cencoelectricos",
+      "query": "site:cencoelectricos.com portafolio material electrico ferreteria cables breakers",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-paloquemao-online",
+      "query": "site:paloquemaoonline.com/tienda ferreteria herramientas precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-paloquemao-online",
+      "query": "site:paloquemaoonline.com producto precio herramienta",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-rhino",
+      "query": "site:rhino.com.co/tienda ferreteria herramientas precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-globaltools",
+      "query": "site:globaltoolscompaniaferretera.com productos precio PVC ferreteria",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-sociedad-mg",
+      "query": "site:sociedadferreteramg.com productos ferreteria precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-bombeo",
+      "query": "site:bombeo.co productos bombas accesorios precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-invercrisan",
+      "query": "site:invercrisan.com productos ferreteria precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-tustechos",
+      "query": "site:tustechos.com productos tejas tanques precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-luis-penagos",
+      "query": "site:ferreterialuispenagos.com herramientas precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-tuercasypernos",
+      "query": "site:tuercasypernos.co tornillos tuercas arandelas herramientas precio Colombia",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-milenio",
+      "query": "site:mileniosuministros.com pinturas herramientas griferia mayorista precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-milenio",
+      "query": "site:mileniosuministros.com ferreteria producto precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-odin",
+      "query": "site:odinsas.com herramientas pinturas electrico ferreteria precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-diman",
+      "query": "site:grupodiman.com pinturas electricos herramientas ferreteria precio",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-pintul",
+      "query": "site:pintul.com Pintuco Terinsa Ico Goya Abracol Soco pinturas",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-conalpron",
+      "query": "site:conalpron.com pinturas acabados Pintuco Sika Algreco",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-supermezclas",
+      "query": "site:supermezclascol.com pinturas herramientas Every Mapei Helios Bronco",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-andicomer",
+      "query": "site:andicomer.com PPG Pintuco Sherwin Williams Axalta 3M pintura",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-abacol",
+      "query": "site:abacol.co pintura Pintuco Pro mayorista",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-shoppingpaint",
+      "query": "site:shoppingpaint.com pinturas automotriz industrial arquitectonica herramientas",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-autocoloresg",
+      "query": "site:autocoloresg.com PPG pintura automotriz industrial 3M",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-surtilight",
+      "query": "site:surtilight.com bombillos LED paneles LED reflectores LED",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-surtilight",
+      "query": "site:surtilight.com iluminación LED Colombia bombillo panel reflector",
+      "error": "Exa request failed with HTTP 402"
+    },
+    {
+      "sourceId": "src-ilumax",
+      "query": "site:ilumax.com.co bombillo LED reflector LED panel LED",
+      "error": "Exa request failed with HTTP 402"
+    }
+  ],
   "results": [
     {
       "sourceId": "src-roxvan",
@@ -4060,5 +4314,7 @@
       ],
       "consultedAt": "2026-09-29T05:25:22.801Z"
     }
-  ]
+  ],
+  "fallbackResultsAdded": 0,
+  "lastMergedAt": "2026-10-29T12:19:14.592Z"
 }
