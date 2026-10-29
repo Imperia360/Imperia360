@@ -8,6 +8,7 @@ on:
       - ".github/scripts/exa-discovery.mjs"
       - ".github/scripts/build-evidence-from-discovery.mjs"
       - ".github/scripts/market-validation.mjs"
+      - ".github/scripts/run-gemini-google-discovery.mjs"
       - "js/semantic-reconciler.js"
       - "data/catalog-sources.json"
       - "data/market-validation-config.json"
@@ -17,7 +18,6 @@ on:
 permissions:
   contents: write
 
-# Manual audit trigger 2026-09-26: ejecutar nueva validación tras separar catálogo activo/histórico.
 concurrency:
   group: imperia-market-validation
   cancel-in-progress: false
@@ -35,10 +35,57 @@ jobs:
         with:
           node-version: 20
 
-      - name: Descubrimiento de fuentes con Exa
+      - name: Preparar cola de descubrimiento
+        run: node .github/scripts/build-discovery-queue.mjs
+
+      - name: Descubrimiento de fuentes con Exa (opcional; conservar resultados previos si falla)
+        continue-on-error: true
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
         run: node .github/scripts/exa-discovery.mjs
+
+      - name: Descubrimiento alternativo con Gemini y Google Search
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          IMAGE_DISCOVERY_BATCH: "20"
+        run: node .github/scripts/run-gemini-google-discovery.mjs
+
+      - name: Integrar hallazgos de Google como candidatos no verificados
+        if: always()
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const read = (p, fallback) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return fallback; } };
+          const exa = read('data/exa-discovery.json', {version:'1.0.0',results:[]});
+          const gemini = read('data/gemini-google-discovery.json', {results:[]});
+          const seen = new Set((exa.results || []).map(x => String(x.url || '').trim()).filter(Boolean));
+          let added = 0;
+          for (const r of (gemini.results || [])) {
+            const url = String(r.resultUrl || '').trim();
+            const title = String(r.resultTitle || '').trim();
+            if (!url || !title || seen.has(url)) continue;
+            seen.add(url);
+            exa.results.push({
+              sourceId: r.sourceId || 'gemini-google-search',
+              source: r.sourceName || 'Gemini + Google Search',
+              query: r.query || '',
+              url,
+              title,
+              highlights: r.groundedSummary ? [r.groundedSummary] : [],
+              consultedAt: gemini.generatedAt || new Date().toISOString(),
+              evidenceType: 'discovery_only',
+              verified: false,
+              publicationReady: false
+            });
+            added++;
+          }
+          exa.status = added ? 'PARTIAL_GEMINI_FALLBACK' : (exa.status || 'NO_NEW_DISCOVERY');
+          exa.fallbackResultsAdded = added;
+          exa.lastMergedAt = new Date().toISOString();
+          fs.writeFileSync('data/exa-discovery.json', JSON.stringify(exa, null, 2) + '\n');
+          console.log(JSON.stringify({exaStatus:exa.status, geminiCandidates:(gemini.results||[]).length, fallbackResultsAdded:added}, null, 2));
+          NODE
 
       - name: Construir evidencia de mercado
         run: node .github/scripts/build-evidence-from-discovery.mjs
@@ -56,7 +103,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/exa-discovery.json data/market-offers.json data/product-matches.json data/reconciliation-review.json data/catalog-audit.json data/validation-results.json
-          git diff --cached --quiet || git commit -m "chore: actualizar evidencia y reconciliacion de mercado"
+          git add data/exa-discovery.json data/gemini-google-discovery.json data/market-offers.json data/product-matches.json data/reconciliation-review.json data/catalog-audit.json data/validation-results.json
+          git diff --cached --quiet || git commit -m "chore: actualizar evidencia de mercado con fallback IA"
           git pull --rebase origin main
           git push
