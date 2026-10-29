@@ -95,7 +95,9 @@ jobs:
           }
           NODE
       - name: Guardar coincidencias verificadas
+        shell: bash
         run: |
+          set -euo pipefail
           if git diff --quiet -- data/product-images.json data/image-enrichment-retries.json; then
             echo "Sin nuevas imágenes verificadas en este lote."
             exit 0
@@ -104,42 +106,49 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp data/product-images.json /tmp/product-images-generated.json
           cp data/image-enrichment-retries.json /tmp/image-enrichment-retries-generated.json
-          git fetch origin main
-          git checkout origin/main -- data/product-images.json data/image-enrichment-retries.json
-          node <<'NODE'
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            node <<'NODE'
           const fs = require("fs");
           const remote = JSON.parse(fs.readFileSync("data/product-images.json", "utf8"));
           const generated = JSON.parse(fs.readFileSync("/tmp/product-images-generated.json", "utf8"));
-          const byId = new Map((remote.records || []).map(r => [r.productId, r]));
+          const byId = new Map((remote.records || []).map(r => [String(r.productId), r]));
+          let replaced = 0;
           for (const record of generated.records || []) {
-            if (!byId.has(record.productId)) byId.set(record.productId, record);
+            const id = String(record.productId || "");
+            if (!id) continue;
+            const old = byId.get(id);
+            const valid = record.publishable === true && record.verificationStatus === "verified_source_image" &&
+              record.imageUrl && !/sofalca\\.com/i.test(String(record.imageUrl)) &&
+              !/sofalca\\.com/i.test(String(record.sourcePage || ""));
+            if (!old || (valid && (old.publishable !== true || old.verificationStatus !== "verified_source_image" ||
+                /sofalca\\.com/i.test(String(old.imageUrl || "") + " " + String(old.sourcePage || ""))))) {
+              byId.set(id, record);
+              if (old) replaced++;
+            }
           }
-          const merged = {
-            ...remote,
-            generatedAt: generated.generatedAt || remote.generatedAt,
-            records: [...byId.values()]
-          };
-          fs.writeFileSync("data/product-images.json", JSON.stringify(merged, null, 2) + "\n");
+          fs.writeFileSync("data/product-images.json", JSON.stringify({
+            ...remote, generatedAt: generated.generatedAt || remote.generatedAt, records: [...byId.values()]
+          }, null, 2) + "\\n");
           const remoteRetries = JSON.parse(fs.readFileSync("data/image-enrichment-retries.json", "utf8"));
           const generatedRetries = JSON.parse(fs.readFileSync("/tmp/image-enrichment-retries-generated.json", "utf8"));
           remoteRetries.products = { ...(remoteRetries.products || {}), ...(generatedRetries.products || {}) };
           remoteRetries.updatedAt = generatedRetries.updatedAt || remoteRetries.updatedAt;
-          fs.writeFileSync("data/image-enrichment-retries.json", JSON.stringify(remoteRetries, null, 2) + "\n");
+          fs.writeFileSync("data/image-enrichment-retries.json", JSON.stringify(remoteRetries, null, 2) + "\\n");
+          console.log(JSON.stringify({mergedRecords:byId.size, replacedBlockedRecords:replaced}));
           NODE
-          if git diff --quiet -- data/product-images.json data/image-enrichment-retries.json; then
-            echo "Sin nuevas imágenes después de sincronizar con main."
-            exit 0
-          fi
-          git add data/product-images.json data/image-enrichment-retries.json
-          git commit -m "chore: add verified product images batch"
-          for attempt in 1 2 3 4 5; do
+            if git diff --quiet -- data/product-images.json data/image-enrichment-retries.json; then
+              echo "Sin nuevas imágenes verificadas después de sincronizar."
+              exit 0
+            fi
+            git add data/product-images.json data/image-enrichment-retries.json
+            git commit -m "chore: publish verified product images batch"
             if git push origin HEAD:main; then
               echo "Lote de imágenes publicado correctamente en main."
               exit 0
             fi
-            echo "Push concurrente; sincronizando main (intento $attempt/5)..."
-            git fetch origin main
-            git rebase origin/main
+            echo "Push concurrente; se reconstruirá el lote sobre main (intento $attempt/5)."
           done
           echo "No fue posible publicar el lote después de 5 intentos."
           exit 1
