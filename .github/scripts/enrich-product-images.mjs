@@ -175,7 +175,7 @@ let retryData={updatedAt:null,products:{}};
 try { retryData=JSON.parse(await fs.readFile(RETRIES,'utf8')); } catch {}
 if(!retryData.products || typeof retryData.products!=='object') retryData.products={};
 const retryCount=id=>Number(retryData.products[String(id)]?.attempts||0);
-const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&!blockedExistingIds.has(String(p.id))&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))
+const queue=products.filter(p=>p?.id&&p.id!=='aud-0002'&&(!existing.has(String(p.id))||!usableProductImage(existing.get(String(p.id))?.imageUrl)))
   // Primero familias verificadas; productos con fallos repetidos quedan al final.
   .sort((a,b)=>Number(Boolean(approvedFamilyImage(b)))-Number(Boolean(approvedFamilyImage(a))) || retryCount(a.id)-retryCount(b.id) || priorityScore(b)-priorityScore(a)).slice(0,BATCH);
 const foundIds=new Set();
@@ -291,7 +291,7 @@ imgData.generatedAt=new Date().toISOString().slice(0,10);
 imgData.status='staging';
 imgData.policy.fastenerFamilyReuse=true;
 imgData.policy.blockedImageSources=['sofalca.com'];
-imgData.records=[...existing.values(),...blockedExisting].filter(r=>r?.imageUrl);
+imgData.records=[...existing.values(),...blockedExisting.filter(r=>!existing.has(String(r.productId)))].filter(r=>r?.imageUrl);
 await fs.writeFile(IMAGES,JSON.stringify(imgData,null,2)+'\n');
 for(const p of queue){const id=String(p.id);if(foundIds.has(id)){delete retryData.products[id];continue;}const old=retryData.products[id]||{attempts:0};retryData.products[id]={attempts:Number(old.attempts||0)+1,lastAttemptAt:new Date().toISOString(),reason:'no_verified_image_found'};}
 retryData.updatedAt=new Date().toISOString();
