@@ -222,14 +222,12 @@ async function processProduct(p){
       imageReuse:'family_measurement_variant'
     };
   }
+  // Consultar primero las páginas de producto con evidencia concreta. Antes,
+  // los 30 homepages genéricos ocupaban los primeros 10 lugares y ocultaban
+  // las coincidencias de Exa/mercado/Gemini que sí podían ser páginas de producto.
   let candidates=[];
-  try{
-    if(p.source?.url)candidates.push(p.source.url);
-    for(const src of DISCOVERY_SOURCES)candidates.push(src);
-    for(const s of OFFICIAL_ELECTRICAL_SOURCES){ if(s.re.test(String(p?.name||''))) candidates.push(s.base); }
-    if(p.source?.url)candidates.push(...await sitemapCandidates(new URL(p.source.url).origin,p));
-  }catch{}
   const refs=[p?.identification?.manufacturerReference,p?.identification?.sku,p?.identification?.supplierReference,p?.sku,p?.reference].filter(Boolean).map(norm);
+  if(p.source?.url)candidates.push(p.source.url);
   for(const o of offerIndex){
     const sku=o.sku?norm(o.sku):'';
     const exactSku=sku&&refs.includes(sku);
@@ -244,7 +242,15 @@ async function processProduct(p){
     const nameScore=scoreName(p.name,o.name);
     if(nameScore>=0.55)candidates.push(o.url);
   }
-  const uniq=[...new Set(candidates)].slice(0,10);
+  try{
+    if(p.source?.url)candidates.push(...await sitemapCandidates(new URL(p.source.url).origin,p));
+  }catch{}
+  for(const s of OFFICIAL_ELECTRICAL_SOURCES){ if(s.re.test(String(p?.name||''))) candidates.push(s.base); }
+  // Rotar los dominios generales por producto/reintento para que todos los
+  // proveedores se exploren con el tiempo, sin martillar 30 sitios por producto.
+  const offset=(Math.abs(Number(retryCount(p.id)||0))+Math.abs(String(p.id).split('').reduce((n,c)=>n+c.charCodeAt(0),0)))%DISCOVERY_SOURCES.length;
+  for(let i=0;i<DISCOVERY_SOURCES.length;i++) candidates.push(DISCOVERY_SOURCES[(i+offset)%DISCOVERY_SOURCES.length]);
+  const uniq=[...new Set(candidates.filter(Boolean))].slice(0,14);
   for(const u of uniq){
     try{
       checked++;
