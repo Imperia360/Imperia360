@@ -66,8 +66,16 @@ jobs:
         run: |
           set -euo pipefail
           for pass in 1 2 3; do
-            echo "Procesamiento de imágenes $pass/3"
+            before=$(node -e "const d=require('./data/product-images.json'); console.log((d.records||[]).filter(r=>r.publishable===true && r.verificationStatus==='verified_source_image').length)")
+            echo "Procesamiento de imágenes $pass/3; verificadas antes: $before"
             node .github/scripts/enrich-product-images.mjs
+            after=$(node -e "const d=require('./data/product-images.json'); console.log((d.records||[]).filter(r=>r.publishable===true && r.verificationStatus==='verified_source_image').length)")
+            added=$((after-before))
+            echo "Imágenes verificadas netas en lote $pass: $added"
+            if [ "$added" -le 0 ]; then
+              echo "Sin progreso verificable; se detienen los lotes redundantes y se guardan los reintentos."
+              break
+            fi
           done
       - name: Auditar resultados antes de publicar
         run: |
@@ -121,10 +129,10 @@ jobs:
             if (!id) continue;
             const old = byId.get(id);
             const valid = record.publishable === true && record.verificationStatus === "verified_source_image" &&
-              record.imageUrl && !/sofalca\\.com/i.test(String(record.imageUrl)) &&
-              !/sofalca\\.com/i.test(String(record.sourcePage || ""));
+              record.imageUrl && !/sofalca\.com/i.test(String(record.imageUrl)) &&
+              !/sofalca\.com/i.test(String(record.sourcePage || ""));
             if (!old || (valid && (old.publishable !== true || old.verificationStatus !== "verified_source_image" ||
-                /sofalca\\.com/i.test(String(old.imageUrl || "") + " " + String(old.sourcePage || ""))))) {
+                /sofalca\.com/i.test(String(old.imageUrl || "") + " " + String(old.sourcePage || ""))))) {
               byId.set(id, record);
               if (old) replaced++;
             }
