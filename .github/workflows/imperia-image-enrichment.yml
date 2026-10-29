@@ -58,10 +58,16 @@ jobs:
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          IMAGE_DISCOVERY_BATCH: "5"
+          IMAGE_DISCOVERY_BATCH: "20"
         run: node .github/scripts/run-gemini-google-discovery.mjs
-      - name: Procesar siguiente lote de productos sin imagen
-        run: node .github/scripts/enrich-product-images.mjs
+      - name: Procesar hasta tres lotes de imágenes priorizando verificadas
+        shell: bash
+        run: |
+          set -euo pipefail
+          for pass in 1 2 3; do
+            echo "Procesamiento de imágenes $pass/3"
+            node .github/scripts/enrich-product-images.mjs
+          done
       - name: Auditar resultados antes de publicar
         run: |
           set -euo pipefail
