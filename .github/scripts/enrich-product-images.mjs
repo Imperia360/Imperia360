@@ -64,6 +64,34 @@ function meta(html,key){
 function visible(html){
   return html.replace(/<script[\\s\\S]*?<\/script>/gi,' ').replace(/<style[\\s\\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&[^;]+;/g,' ').toLowerCase();
 }
+
+async function publicSearchCandidates(p){
+  const name=String(p?.name||'').trim();
+  if(!name) return [];
+  const ref=String(p?.identification?.manufacturerReference||p?.identification?.sku||p?.identification?.supplierReference||'').trim();
+  const query=[name,ref,'Colombia ferretería producto'].filter(Boolean).join(' ');
+  const url='https://html.duckduckgo.com/html/?'+new URLSearchParams({q:query}).toString();
+  const {html}=await get(url);
+  const links=[];
+  const anchors=html.match(/<a\b[^>]*class=["'][^"']*result__a[^"']*["'][^>]*>[\s\S]*?<\/a>/gi)||[];
+  for(const tag of anchors){
+    const hm=tag.match(/href=["']([^"']+)["']/i);
+    if(!hm) continue;
+    let href=hm[1].replace(/&amp;/g,'&');
+    try{
+      const parsed=new URL(href,'https://html.duckduckgo.com');
+      if(parsed.searchParams.has('uddg')) href=decodeURIComponent(parsed.searchParams.get('uddg'));
+    }catch{}
+    try{
+      const parsed=new URL(href);
+      if(!/^https?:$/.test(parsed.protocol)) continue;
+      if(/(?:duckduckgo\.com|google\.com|bing\.com|facebook\.com|instagram\.com|pinterest\.com|youtube\.com|tiktok\.com)$/i.test(parsed.hostname)) continue;
+      if(!links.includes(parsed.href)) links.push(parsed.href);
+    }catch{}
+    if(links.length>=6) break;
+  }
+  return links;
+}
 function identityOk(p,html){
   const text=visible(html);
   const refs=[p?.identification?.manufacturerReference,p?.identification?.sku,p?.identification?.supplierReference,p?.sku,p?.reference].filter(Boolean).map(norm);
@@ -246,6 +274,9 @@ async function processProduct(p){
     if(p.source?.url)candidates.push(...await sitemapCandidates(new URL(p.source.url).origin,p));
   }catch{}
   for(const s of OFFICIAL_ELECTRICAL_SOURCES){ if(s.re.test(String(p?.name||''))) candidates.push(s.base); }
+  // Búsqueda web pública de respaldo cuando Exa/Gemini no entregan resultados.
+  // Solo descubre URLs; la imagen se publica después de verificar identidad y metadatos.
+  try{ candidates.push(...await publicSearchCandidates(p)); }catch{}
   // Rotar los dominios generales por producto/reintento para que todos los
   // proveedores se exploren con el tiempo, sin martillar 30 sitios por producto.
   const offset=(Math.abs(Number(retryCount(p.id)||0))+Math.abs(String(p.id).split('').reduce((n,c)=>n+c.charCodeAt(0),0)))%DISCOVERY_SOURCES.length;
