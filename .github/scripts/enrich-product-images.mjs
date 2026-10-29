@@ -80,7 +80,7 @@ async function publicSearchCandidates(p){
     let href=hm[1].replace(/&amp;/g,'&');
     try{
       const parsed=new URL(href,'https://html.duckduckgo.com');
-      if(parsed.searchParams.has('uddg')) href=decodeURIComponent(parsed.searchParams.get('uddg'));
+      if(parsed.searchParams.has('uddg')) href=parsed.searchParams.get('uddg');
     }catch{}
     try{
       const parsed=new URL(href);
