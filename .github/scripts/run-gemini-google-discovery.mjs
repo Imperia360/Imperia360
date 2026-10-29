@@ -1,6 +1,11 @@
 import fs from "node:fs";
 
 const apiKey = process.env.GEMINI_API_KEY;
+const searchGroundingEnabled = String(process.env.GEMINI_SEARCH_GROUNDING_ENABLED || '').toLowerCase() === 'true';
+if (!searchGroundingEnabled) {
+  console.log('Gemini Google Search grounding skipped: enable GEMINI_SEARCH_GROUNDING_ENABLED=true only if this Google project has grounding quota/billing. Direct supplier-site discovery remains active.');
+  process.exit(0);
+}
 if (!apiKey) {
   console.log("GEMINI_API_KEY not configured; Google Search discovery skipped safely.");
   process.exit(0);
