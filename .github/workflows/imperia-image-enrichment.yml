@@ -90,7 +90,7 @@ jobs:
           const verified = records.filter(r => r.publishable === true && r.verificationStatus === 'verified_source_image').length;
           console.log(JSON.stringify({records: records.length, verifiedPublishable: verified, uniqueProductIds: seen.size, errors: errors.length}, null, 2));
           if (errors.length) {
-            console.error(errors.slice(0, 50).join('\\n'));
+            console.error(errors.slice(0, 50).join('\n'));
             process.exit(1);
           }
           NODE
@@ -130,12 +130,12 @@ jobs:
           }
           fs.writeFileSync("data/product-images.json", JSON.stringify({
             ...remote, generatedAt: generated.generatedAt || remote.generatedAt, records: [...byId.values()]
-          }, null, 2) + "\\n");
+          }, null, 2) + "\n");
           const remoteRetries = JSON.parse(fs.readFileSync("data/image-enrichment-retries.json", "utf8"));
           const generatedRetries = JSON.parse(fs.readFileSync("/tmp/image-enrichment-retries-generated.json", "utf8"));
           remoteRetries.products = { ...(remoteRetries.products || {}), ...(generatedRetries.products || {}) };
           remoteRetries.updatedAt = generatedRetries.updatedAt || remoteRetries.updatedAt;
-          fs.writeFileSync("data/image-enrichment-retries.json", JSON.stringify(remoteRetries, null, 2) + "\\n");
+          fs.writeFileSync("data/image-enrichment-retries.json", JSON.stringify(remoteRetries, null, 2) + "\n");
           console.log(JSON.stringify({mergedRecords:byId.size, replacedBlockedRecords:replaced}));
           NODE
             if git diff --quiet -- data/product-images.json data/image-enrichment-retries.json; then
