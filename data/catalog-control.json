@@ -124,12 +124,12 @@
     "noInventedImages": true,
     "currentMasterAudit": {
       "products": 1526,
-      "withImage": 423,
-      "withoutImage": 1103,
-      "uniqueProductIds": 423,
+      "withImage": 495,
+      "withoutImage": 1031,
+      "uniqueProductIds": 495,
       "duplicateProductIds": 0,
-      "publishableImages": 422,
-      "verifiedSourceImages": 422,
+      "publishableImages": 494,
+      "verifiedSourceImages": 494,
       "blockedSourceImages": 1,
       "blockedSourceImagePolicy": "sofalca.com"
     },
@@ -214,7 +214,7 @@
       "PresuCosto Colombia 2026"
     ],
     "note": "Only evidence suitable for exact product matching should be promoted to product pricing; generic or $1 placeholder catalog entries are not accepted as prices.",
-    "imageAudit": "423 registros de imagen; 423 productId únicos; 422 publicables; 422 verificados; 1 bloqueados por fuente.",
+    "imageAudit": "495 registros de imagen; 495 productId únicos; 494 publicables; 494 verificados; 1 bloqueados por fuente.",
     "repositoryImprovement": "Control maestro reconciliado automáticamente contra los archivos reales; las fuentes bloqueadas se conservan para trazabilidad y no se publican."
   },
   "searchPolicy": {
