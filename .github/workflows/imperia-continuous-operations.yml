@@ -48,6 +48,9 @@ jobs:
     name: 1B. Imágenes verificadas por lote
     needs: product-verification
     runs-on: ubuntu-latest
+    concurrency:
+      group: imperia-product-images-write
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
