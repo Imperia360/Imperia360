@@ -78,7 +78,8 @@ jobs:
             if [ "$added" -gt 0 ]; then
               echo "Se obtuvieron imágenes verificadas; continúa el control de publicación."
             else
-              echo "Sin imágenes en este lote; el siguiente intento toma otros productos y deja los fallidos al final."
+              echo "Sin aumento neto de imágenes verificadas; se detienen los lotes redundantes y los fallidos quedan para futuros ciclos."
+              break
             fi
           done
       - name: Publicar mapa y cola de reintentos
