@@ -7,6 +7,7 @@ on:
       - ".github/workflows/*.md"
       - ".github/workflows/compile-agentic-workflows.yml"
 
+# The GitHub App installation must also grant Workflows: Read and write.
 permissions:
   contents: write
   workflows: write
