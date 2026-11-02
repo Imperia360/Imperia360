@@ -12,6 +12,8 @@ on:
       - 'js/catalog-loader.js'
       - 'data/fastener-family-images.json'
       - 'data/products.json'
+      - 'data/product-images.json'
+      - 'data/image-enrichment-retries.json'
       - 'data/imperia-reference-pricing.json'
       - 'data/gemini-google-discovery.json'
       - '.github/scripts/prepare-image-google-queue.mjs'
