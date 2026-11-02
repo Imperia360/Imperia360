@@ -14,7 +14,18 @@ for (const p of [...(Array.isArray(catalog) ? catalog : []), ...(ref.newProducts
   if (!p?.id || hasVerifiedImage.has(String(p.id))) continue;
   if (!candidates.has(String(p.id))) candidates.set(String(p.id), p);
 }
-const products = [...candidates.values()].slice(0, 100);
+const retries = JSON.parse(fs.readFileSync("data/image-enrichment-retries.json", "utf8"));
+const attempts = id => Number(retries.products?.[String(id)]?.attempts || 0);
+function priority(p) {
+  const n = String(p?.name || "").toLowerCase();
+  if (/drywall|tornillo|chazo|anclaje|tarugo|taquete|arandela|perno|varilla roscada/.test(n)) return 50;
+  if (/pintura|vinilo|viniltex|sapolin|cuñete|balde/.test(n)) return 40;
+  if (/cable|alambre|breaker|interruptor|tomacorriente|sensor|clavija|panel|luminaria|led/.test(n)) return 30;
+  return 10;
+}
+const products = [...candidates.values()]
+  .sort((a,b) => priority(b)-priority(a) || attempts(a.id)-attempts(b.id) || String(a.id).localeCompare(String(b.id)))
+  .slice(0, 200);
 const queue = products.map((p, i) => ({
   sourceId: "product-image-" + p.id,
   supplierId: p?.source?.supplierId || "catalog",
