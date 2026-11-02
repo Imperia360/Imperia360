@@ -10583,6 +10583,32 @@
       "publishable": false,
       "blockReason": "Fuente bloqueada por política: sofalca.com",
       "blockedAt": "2026-10-08"
+    },
+    {
+      "productId": "ref-dryzin03458",
+      "sku": "DRYZIN03458",
+      "manufacturerReference": "DRYZIN03458",
+      "supplierReference": "DRYZIN03458",
+      "imageUrl": "https://roxvan.com/wp-content/uploads/rx-marketing/og/p351901-268bcad539.jpg",
+      "sourcePage": "https://roxvan.com/producto/tllo-drywall-aw-ro-10-x-2-0519038/",
+      "source": "roxvan.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-02",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-dryzin03471",
+      "sku": "DRYZIN03471",
+      "manufacturerReference": "DRYZIN03471",
+      "supplierReference": "DRYZIN03471",
+      "imageUrl": "https://www.torbandera.co/web/image/product.template/60017/image_1024?unique=2231652",
+      "sourcePage": "https://www.torbandera.co/shop/141440d-tornillo-drywall-14-x-4-fosfatado-60017",
+      "source": "www.torbandera.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-02",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ],
   "validation": {
