@@ -1,8 +1,6 @@
 ---
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 3 * * 1-5"
 permissions:
   contents: read
   issues: read
