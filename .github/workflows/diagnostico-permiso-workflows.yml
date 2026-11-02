@@ -1,0 +1,9 @@
+name: Diagnóstico permiso Workflows
+on:
+  workflow_dispatch:
+jobs:
+  permission-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirmar autorización de escritura
+        run: echo "GitHub aceptó la creación de un archivo en .github/workflows."
