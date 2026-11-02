@@ -47,7 +47,7 @@ jobs:
 
   image-enrichment:
     name: 1B. Imágenes verificadas por lote
-    needs: product-verification
+    needs: discovery-queue
     runs-on: ubuntu-latest
     concurrency:
       group: imperia-product-images-write
@@ -99,7 +99,8 @@ jobs:
           exit 1
 
   product-verification:
-    name: 1A. Verificación automática de precios
+    name: 1A. Verificación de precios (solo ejecución manual)
+    if: github.event_name == 'workflow_dispatch'
     needs: discovery-queue
     runs-on: ubuntu-latest
     steps:
@@ -132,8 +133,8 @@ jobs:
 
   integrity:
     name: 1. Integridad y JSON
-    # Se ejecuta en paralelo con el enriquecimiento de imágenes para reducir la espera.
-    needs: product-verification
+    # La integridad se valida junto al ciclo de imágenes, sin depender de precios.
+    needs: discovery-queue
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
