@@ -39,8 +39,9 @@ function electricalPriority(p){
 }
 function priorityScore(p){
   const n=String(p?.name||'');
-  // Desbloqueo IMPERIA 360: pinturas pendientes primero para que no queden
-  // fuera de los lotes por la competencia de referencias ref-*.
+  // Prioridad solicitada: iluminación LED primero, antes de pinturas y demás familias.
+  if (/\b(led|bombillo|reflector|panel|tubo|luminaria|lampara|lámpara|downlight|plafon|cinta|tira)\b/i.test(n) && /\bled\b/i.test(n)) return 40;
+  // Pinturas pendientes conservan prioridad alta después de iluminación LED.
   if(/^paint-/i.test(String(p?.id||'')) || /\b(pintura|vinilo|viniltex|pintuland|sapolin|corona|terinsa|cuñete|balde)\b/i.test(n)) return 20;
   if(String(p?.id||'').startsWith('ref-')) return 10;
   if(/\b(panel|tomacorriente|interruptor|sensor|clavija|toma|smart|inteligente|macho|hembra)\b/i.test(n)) return 3;
