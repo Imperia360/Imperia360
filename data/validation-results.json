@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "lastRun": "2026-11-02T13:28:56.165Z",
+  "lastRun": "2026-11-03T12:47:00.609Z",
   "summary": {
     "sourcesChecked": 66,
-    "offersRead": 1053,
+    "offersRead": 1143,
     "matched": 2,
-    "newCandidates": 1051,
-    "needsReview": 1051,
+    "newCandidates": 1141,
+    "needsReview": 1141,
     "invalid": 0,
     "masterProducts": 1526,
     "automaticPublication": false
@@ -10457,6 +10457,906 @@
       "sourceUrl": "https://mercurylatam.com/mercury-iluminacion-ahorro-y-eficiencia-con-led/",
       "consultedAt": "2026-11-02T13:27:18.973Z",
       "originalProductName": "Mercury Iluminación: Eficiencia y ahorro con LED",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-roxvan",
+      "sourceUrl": "https://roxvan.com/producto/tornillo-st4-2-x-18-uth220502-sp-89/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tornillo ST4.2 x 18 (UTH220502-SP-89) - Roxvan ¡Más por Menos!",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-roxvan",
+      "sourceUrl": "https://roxvan.com/producto/tornillo-allen-uth220502-sp-12/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tornillo Allen (UTH220502-SP-12) - Roxvan ¡Más por Menos!",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://mundialdetornillos.com/producto/tornillo-bristol-con-cabeza-mm-clase-8-8-3-x-30-cod-0820010/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tornillo Bristol CC mm Clase 8.8 3 X 30 cód 0820010",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://mundialdetornillos.com/producto/tornillo-autoperforante-hexagonal-para-lamina-10-x-1/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tornillo autoperforante hexagonal para lámina 10 X 1",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://mundialdetornillos.com/producto/tornillo-bristol-con-cabeza-unf-1-4-x-2-cod-0840023/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tornillo Bristol Con Cabeza UNF 1/4 X 2 cód 0840023",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://mundialdetornillos.com/categoria-producto/herramienta-abrasiva/puntas-montadas/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Puntas montadas  - MUNDIAL DE TORNILLOS®️",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://mundialdetornillos.com/producto/punta-tornillo-torx-3-8-supertornillo-tools-4/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Punta Tornillo Torx 3/8, SUPERTornillo ToOLS",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://mundialdetornillos.com/categoria-producto/herramienta-de-corte/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Herramienta De Corte",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://www.mundialdetornillos.com/producto/pala-p",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "PALA",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mundial",
+      "sourceUrl": "https://www.mundialdetornillos.com/noticias/tenga-un-kit-de-herramienta-de-expertos",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Mantenga su kit de herramienta completo | Mundial de Tornillos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-777",
+      "sourceUrl": "https://www.sodimac.com.pe/sodimac-pe/lista/CATG35038/Tornillos",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tornillos Precio ðŸ’¥Precios en OFERTAâš¡ï¸  | Sodimac PerÃº",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-777",
+      "sourceUrl": "https://lostornillos.mx/products/tornillo-hexagonal-metrico-cl-8-8-m7-1-00-x-55",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "TORNILLO Hexagonal Métrico CL 8.8 -M7-1.00 X 55",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tyt",
+      "sourceUrl": "https://www.tornillosytuercas.co/collections/arandelas-planas",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Arandelas Planas – Tornillos y Tuercas Co.",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tyt",
+      "sourceUrl": "https://www.tornillosytuercas.co/collections/arandelas-tuercas-y-tornillos?page=3",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Arandelas, Chazos, Tuercas y Tornillos – Página 3 – Tornillos y Tuercas Co.",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-fercar",
+      "sourceUrl": "https://www.tiendaferco.co/products/tornillo-estufa-cabeza-redonda-316x12-paq5und",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "tornillo estufa cabeza redonda 3/16x1/2 paq5und",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-fercar",
+      "sourceUrl": "https://ferreteria-ferrenicol.tiendana.com/producto/tornillo-autoperforante-8-x-12-punta-broca-x-100-uds",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "TORNILLO AUTOPERFORANTE 8 X 1/2 (PUNTA BROCA) X 100 UDS | Ferreteria Ferrenicol Bucaramanga",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-fercar",
+      "sourceUrl": "https://www.gnhcolombia.com/product-category/bessey/herramientas-de-sujecion/tornillos-de-apriete/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tornillos de apriete – GNH Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://qa.aws.corbeta.com.co/ferreteria/herramientas/manuales/alicates.html",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Alicates  - Herramientas Manuales - Herramientas - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://www.corbeta.com.co/ferreteria/herramientas/herramientas-de-medicion.html",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Herramientas de Medición - Herramientas - Ferretería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-corbeta",
+      "sourceUrl": "https://qa.aws.corbeta.com.co/ferreteria/griferia/plomeria/valvula-bola-pvc-soldar-3-4p.html",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Grival Válvula bola mariposa PVC para soldar 3/4\" - Plomería",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-coval",
+      "sourceUrl": "https://coval.com.co/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Inicio - Coval Comercial S.A.S",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-coval",
+      "sourceUrl": "https://coval.com.co/adhesivos-impermeabilizantes-y-cementos/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Adhesivos, Impermeabilizantes y Cementos - Coval Comercial S.A.S",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ferragro",
+      "sourceUrl": "https://www.ferragro.com/collections/limas",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Limas — Ferragro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/collections/toda-la-tienda",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Toda la tienda\n – Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/products/kit-de-herramienta-a-20v-total-utckli2019",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "KIT DE HERRAMIENTA A 20V TOTAL (UTCKLI2019)",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/collections/cortasetos",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "CORTASETOS\n – Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-total",
+      "sourceUrl": "https://totalherramientas.com/collections/hidrolavadoras",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "HIDROLAVADORAS\n – Herramientas Total Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mauro",
+      "sourceUrl": "https://ferreteriamauro.com/marca/black-decker/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "BLACK & DECKER | Ferretería Mauro",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-torbandera",
+      "sourceUrl": "https://www.torbandera.co/shop/category/herrajes-de-carpinteria-y-afines-otros-soportes-y-accesorios-46",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Soportes y Herrajes de Carpintería | Torbandera",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-suministros-ardila",
+      "sourceUrl": "https://suministrosardila.com/marca/poliescol/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Poliescol - Suministros Ardila",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-suministros-ardila",
+      "sourceUrl": "https://suministrosardila.com/producto/tiza-industrial/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tiza Industrial - Suministros Ardila",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-proim",
+      "sourceUrl": "http://proim.com.co/web/modules/mod_flipbook_7/tmpl/files/basic-html/page40.html",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Page 40 - Catálogo Carborundum 2017",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-proim",
+      "sourceUrl": "http://proim.com.co/web/modules/mod_flipbook_7/tmpl/files/basic-html/page6.html",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Page 6 - Catálogo Carborundum 2017",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-cencoelectricos",
+      "sourceUrl": "https://www.cencoelectricos.com/categoria-producto/material-electrico/baja-tension/cables-baja-tension/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Cables Category | Cencoelectricos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/herramientas-agricolas-agro/paladragas-y-palas/pala/pala-jardinera-truper-17193-redonda/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Pala Jardinera Truper 17193 Redonda | Agro Industrial",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/marca/toolmex/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Herramientas de Corte Toolmex | Paloquemao Online",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-paloquemao-online",
+      "sourceUrl": "https://paloquemaoonline.com/tienda/corte/fresado/fresado-lima-rotativa/lima-rotativa-tugsteno-sh/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Lima Rotativa",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-rhino",
+      "sourceUrl": "https://rhino.com.co/tienda/page/316/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tienda - Página 316 de 356",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-globaltools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/products/tuberia-c900-para-redes-contraincedios-enterradas",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tubería C900 para Redes Contraincendios",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-globaltools",
+      "sourceUrl": "https://globaltoolscompaniaferretera.com/products/tuberia-pvc-presion-rde-26-160-psi",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tubería RDE 26 PVC presión 160 PSI, 2 a 4 - Global Tools",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-bombeo",
+      "sourceUrl": "https://bombeo.co/categoria/tableros-para-bombas/hydrosmart/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tableros HydroSmart L931, L932 y L922 · Precio Colombia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-invercrisan",
+      "sourceUrl": "https://invercrisan.com/producto/juego-llaves-bristol-bola-mm-extralargas-7pz-truper-15548/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Llaves Bristol bola Truper 15548",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-invercrisan",
+      "sourceUrl": "https://invercrisan.com/producto/juego-llaves-mx-1-4-3-4-9pz-sata-09019/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Juego de llaves combinadas SATA 09019",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tustechos",
+      "sourceUrl": "https://tustechos.com/product-category/tejas/metalicas/tejas-metalicas-super-1000/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tejas Metálicas Super 1000 – Tustechos.com",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/categoria-producto/herramientas-manuales-ferreteria-luis-penagos/llaves-herramientas-manuales/llaves-combinadas-juegos-herramientas-manuales/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Juegos de llaves combinadas - Ferreteria Luis Penagos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/categoria-producto/herramientas-manuales-ferreteria-luis-penagos/herramientas-de-corte/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "CORTE - Ferreteria Luis Penagos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-luis-penagos",
+      "sourceUrl": "https://ferreterialuispenagos.com/categoria-producto/herramientas-electricas/sierras-herramientas-electricas/acolilladoras-ingleteadoras-electricas/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Acolilladoras ingleteadoras eléctricas - Ferreteria Luis Penagos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tuercasypernos",
+      "sourceUrl": "https://tuercasypernos.co/products/arandela-industrial-3-8-calibre-1-8-paquete-x-100-unidades",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "ARANDELA INDUSTRIAL 3/8 CALIBRE 1/8",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-tuercasypernos",
+      "sourceUrl": "https://tuercasypernos.co/products/tuerca-hexagonal-g2-6-32-r-o",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "TUERCA HEXAGONAL G2 6/32 R.O",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-supermezclas",
+      "sourceUrl": "https://www.mapei.com/co/es-co/noticias-y-eventos/detalles-del-evento/2025/12/29/mapei-consolida-liderazgo-colombia-crecimiento-volumen-30",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "MAPEI consolida su liderazgo en Colombia con un crecimiento del 30% en volumen pese a la coyuntura del sector | Mapei",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-supermezclas",
+      "sourceUrl": "https://soelco.co/categorias-de-producto/pinturas/herramientas-para-pintar/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Herramientas para Pintar: Brochas, Rodillos y Pistolas",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-abacol",
+      "sourceUrl": "http://www.abacol.co/duradrywall_techos.html",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Abacol Tejas y Drywall - Calidad Ante Todo - Duradrywall Techos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-abacol",
+      "sourceUrl": "http://www.abacol.co/supermastick.html",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Masilla y Estuco Supermastick - Abacol Tejas y Drywall",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-shoppingpaint",
+      "sourceUrl": "https://shoppingpaint.com/product/ggb-w-77-400cc-pistola-boq-2-0/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "GGB | W-77 (400CC) PISTOLA BOQ 2.0 | Asesor 310 555 5176",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-shoppingpaint",
+      "sourceUrl": "https://shoppingpaint.com/product-category/madera/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Madera | SHOPPINGPAINT.COM",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-autocoloresg",
+      "sourceUrl": "https://www.autocoloresg.com/herramientas-accesorios-automotrices-3m/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Herramientas y accesorios automotrices 3M | Lijado y reparación",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-surtilight",
+      "sourceUrl": "https://surtilight.com/collections/paneles-led-techo",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Paneles LED para Techo | Iluminación Uniforme | Surtilight",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-surtilight",
+      "sourceUrl": "https://surtilight.com/blogs/tips/paneles-led-para-techo-tipos-y-como-elegir",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Paneles LED para Techo: Tipos y Cómo Elegir | Surtilight",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-surtilight",
+      "sourceUrl": "https://surtilight.com/products/bombillo-led-gu10-tipo-cob",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Bombillo LED GU10 COB 6W 120V Haz 40° Multitemperatura",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-surtilight",
+      "sourceUrl": "https://surtilight.com/collections/iluminacion-especializada",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Iluminación Especializada | Soluciones Específicas | Surtlight",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ilumax",
+      "sourceUrl": "https://ilumax.com.co/producto/reflector-led-30w-smart-cct-rgb/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Reflector LED 30W Smart CCT RGB - ILUMAX",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ilumax",
+      "sourceUrl": "https://ilumax.com.co/producto/reflector-led-200w-lb-20000h-ilm-eco/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Reflector Led 200W Lb 20000H ILM ECO - ILUMAX",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ilumax",
+      "sourceUrl": "https://ilumax.com.co/categoria/iluminacion-interior/panel-led/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Panel LED - ILUMAX iluminación residencial, industrial y ...",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ilumax",
+      "sourceUrl": "https://ilumax.com.co/categoria/oficinas/paneles-led-oficinas/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Paneles LED - ILUMAX Iluminación Residencial y Exterior",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-bioled",
+      "sourceUrl": "https://bioled.com.co/producto/bombillo-globo-e27",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Bombillo LED globo E27",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-bioled",
+      "sourceUrl": "https://bioled.com.co/bioled-iluminacion-led-en-bogota/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Iluminación LED en Bogotá - BIOLED",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-bioled",
+      "sourceUrl": "https://bioled.com.co/categoria-producto/luminarias-lineales/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Luminarias lineales - Bogotá - BIOLED",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-bioled",
+      "sourceUrl": "https://bioled.com.co/producto/panel-led-cudrado-ajustable-frameless",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Panel LED cuadrado ajustable frameless",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-strom",
+      "sourceUrl": "https://www.grupostrom.com/categoria-producto/paneles-led/panel-solar/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Panel Solar - Strom",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-strom",
+      "sourceUrl": "https://www.grupostrom.com/producto/lampara-de-techo-strom-anillos-42w-4500k/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "LAMPARA DE TECHO STROM ANILLOS 42W 4500K – Strom",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-strom",
+      "sourceUrl": "https://www.grupostrom.com/producto/bombillo-strom-toledo-40w-3500k-e27/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "BOMBILLO STROM TOLEDO 40W 3500K E27 – Strom",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-urbanlights",
+      "sourceUrl": "https://urbanlights.com.co/producto/bombillos-led-a60-a75-a95-y-a110/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Bombillos LED A60, A75, A95 y A110",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-urbanlights",
+      "sourceUrl": "https://urbanlights.com.co/producto/tubo-led-t5-y-t8-philips-instantfit-led/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "UrbanLights Colombia |   Tubo LED T5 y T8 PHILIPS Instant Fit LED",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-urbanlights",
+      "sourceUrl": "https://urbanlights.com.co/aliados/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "UrbanLights Colombia |   Nuestras Marcas Aliadas",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-altino",
+      "sourceUrl": "https://www.altino.com.co/tienda/sex-power-eterna-megalight-onlybaby-protedent-bestway/megalight/megalight-bombillo-led-luz-calida-4-watts-15000-horas/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Megalight Bombillo led luz cálida 4 watts 15000 horas Megatoys",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sylvania",
+      "sourceUrl": "https://sylvania-colombia.com/productos/solar-plus/solar-lighting/led-jeta-solar-con-sensor/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Led Jeta Solar con Sensor | Reflector Solar LED Exterior | Sylvania",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sylvania",
+      "sourceUrl": "https://sylvania-colombia.com/en/productos/sylvania-start/led-panel-deco-rd-sp-st/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Sylvania Colombia | LED Lighting for Projects",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sylvania",
+      "sourceUrl": "https://sylvania-colombia.com/productos/luminarias-led/comercial-y-residencial/led-syl-lighter-cct/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Sylvania Colombia | Iluminación LED para Proyectos",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sylvania",
+      "sourceUrl": "https://sylvania-colombia.com/productos/luminarias-led/alumbrado-publico/led-street-light-epsilon/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "LED Street Light Epsilon | Iluminación Urbana Decorativa de Alta Eficiencia",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-sylvania",
+      "sourceUrl": "https://sylvania-colombia.com/productos/luminarias-led/alumbrado-publico/led-syl-street-g2/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "LED SYL-STREET G2 | Alumbrado Público LED para Calles y Vías",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-philips-lighting",
+      "sourceUrl": "https://www.lighting.philips.com.co/prof/lamparas-y-tubos-led/tubos-led/tubos-led-ecofit-t8/929003561411_EU/product",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "ECOFIT E LEDtube 1200mm 16W 740 T8 WV",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-philips-lighting",
+      "sourceUrl": "https://www.lighting.philips.com.co/prof/highlighted-products/tiras-led",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Tiras Philips MASTER y CorePro LED | Philips lighting",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ecolite",
+      "sourceUrl": "https://www.ecolite.com.co/ahorro-de-energia-use-bombillos-led/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Ahorro de Energía: Use Bombillos LED",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ecolite",
+      "sourceUrl": "https://www.ecolite.com.co/reflector-led-ecolite/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Reflector LED Ecolite | 2026",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ecolite",
+      "sourceUrl": "https://www.ecolite.com.co/precio/lamparas-exteriores/alumbrado-publico-220v/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Alumbrado Publico 220v | 2026 | Ecolite",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-ecolite",
+      "sourceUrl": "https://www.ecolite.com.co/etiqueta-producto/cinta-de-led/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "cinta de led | 2026 | Ecolite",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mercury-latam",
+      "sourceUrl": "https://mercurylatam.com/mercury-iluminacion-led-que-combina-tecnologia-ahorro-y-diseno/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Mercury iluminación LED – tecnología, ahorro y diseño",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mercury-latam",
+      "sourceUrl": "https://mercurylatam.com/soluciones-electricas-y-paneles-led-de-vanguardia-para-mercury/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Paneles LED, bombillos y eléctricos | Mercury",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mercury-latam",
+      "sourceUrl": "https://mercurylatam.com/product/panel-led-12w-6-blanco/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "PANEL LED 12W 6\" BLANCO - Mercury Latam",
+      "reference": null,
+      "productId": null,
+      "status": "NEEDS_REVIEW",
+      "issues": []
+    },
+    {
+      "source": "src-mercury-latam",
+      "sourceUrl": "https://mercurylatam.com/iluminacion-inteligente-con-cinta-led-smart-mercury-y-ambientes-a-tu-medida/",
+      "consultedAt": "2026-11-03T12:45:08.731Z",
+      "originalProductName": "Iluminación smart LED Mercury en Bogotá",
       "reference": null,
       "productId": null,
       "status": "NEEDS_REVIEW",
