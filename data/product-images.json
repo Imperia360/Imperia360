@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-03",
   "policy": {
     "requiredForActive": true,
     "noInventedImages": true,
@@ -11038,6 +11038,87 @@
       "publishable": false,
       "blockReason": "Fuente bloqueada por política: sofalca.com",
       "blockedAt": "2026-10-08"
+    },
+    {
+      "productId": "hist-IMP-00469",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://yaxa.co/_img/xLEy4ZflO2YZvrGy0A6FaBa-UIpQIE997cpsqKe5ygU/rs:fit:500:500:0/q:82/aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNTFoa0kxYmQzK0wuX0FDX1NMMTUwMF8uanBn.webp",
+      "sourcePage": "https://yaxa.co/product-category/ferreteria/ferreteria-y-cerraduras-para-puertas/pomos",
+      "source": "yaxa.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00464",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "http://tiendaonline.yalecolombia.com/cdn/shop/collections/Candado-YP90_1.jpg?v=1787586686",
+      "sourcePage": "https://tiendaonline.yalecolombia.com/collections/candados-de-seguridad",
+      "source": "tiendaonline.yalecolombia.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00725",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://www.sumatec.co/media/catalog/product/i/m/imagen_170542840_95457227.png?optimize=low&amp;fit=bounds&amp;height=265&amp;width=265&amp;format=jpeg",
+      "sourcePage": "https://www.sumatec.co/chazo-puntilla-nylon-1-4x1-1-4-170542840",
+      "source": "Sumatec",
+      "match": "family image reused: same fastener visual family; dimensions/measurements may differ",
+      "verifiedAt": "2026-10-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true,
+      "imageReuse": "family_measurement_variant"
+    },
+    {
+      "productId": "hist-IMP-00726",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://www.sumatec.co/media/catalog/product/i/m/imagen_041100116_67897195.png?optimize=low&amp;fit=bounds&amp;height=265&amp;width=265&amp;format=jpeg",
+      "sourcePage": "https://www.sumatec.co/tornillo-hexagonal-grado-2-rosca-ordinaria-zincado-5-16x1-1-2-041100116",
+      "source": "Sumatec",
+      "match": "family image reused: same fastener visual family; dimensions/measurements may differ",
+      "verifiedAt": "2026-10-30",
+      "verificationStatus": "verified_source_image",
+      "publishable": true,
+      "imageReuse": "family_measurement_variant"
+    },
+    {
+      "productId": "hist-IMP-00008-r01",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://yaxa.co/_img/MbMPD3P7afqZOT7doOPGT556hPdxQo2EBtws-svgYHI/rs:fit:500:500:0/q:82/aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFRVjZpUVI5SEwuX0FDX1NMMTUwMF8uanBn.webp",
+      "sourcePage": "https://yaxa.co/product-category/tornillos-para-madera",
+      "source": "yaxa.co",
+      "match": "family image reused: same fastener visual family; dimensions/measurements may differ",
+      "verifiedAt": "2026-11-02",
+      "verificationStatus": "verified_source_image",
+      "publishable": true,
+      "imageReuse": "family_measurement_variant"
+    },
+    {
+      "productId": "roxvan-ro5895",
+      "sku": "RO5895",
+      "manufacturerReference": null,
+      "supplierReference": "RO5895",
+      "imageUrl": "https://roxvan.com/wp-content/uploads/rx-marketing/og/p159341-2e2d9a1f09.jpg",
+      "sourcePage": "https://roxvan.com/producto/cafetera-12-litros-negra-onoff-psrp1365/",
+      "source": "Roxvan",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ],
   "validation": {
