@@ -18,9 +18,10 @@ const retries = JSON.parse(fs.readFileSync("data/image-enrichment-retries.json",
 const attempts = id => Number(retries.products?.[String(id)]?.attempts || 0);
 function priority(p) {
   const n = String(p?.name || "").toLowerCase();
+  if (/\b(led|bombillo led|reflector led|panel led|tubo led|luminaria led|lampara led|lámpara led|downlight|plafon led|cinta led|tira led)\b/.test(n)) return 70;
   if (/drywall|tornillo|chazo|anclaje|tarugo|taquete|arandela|perno|varilla roscada/.test(n)) return 50;
   if (/pintura|vinilo|viniltex|sapolin|cuñete|balde/.test(n)) return 40;
-  if (/cable|alambre|breaker|interruptor|tomacorriente|sensor|clavija|panel|luminaria|led/.test(n)) return 30;
+  if (/cable|alambre|breaker|interruptor|tomacorriente|sensor|clavija|panel|luminaria/.test(n)) return 30;
   return 10;
 }
 const products = [...candidates.values()]
