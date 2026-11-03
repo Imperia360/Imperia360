@@ -12569,6 +12569,71 @@
       "publishable": false,
       "blockReason": "Fuente bloqueada por política: sofalca.com",
       "blockedAt": "2026-10-08"
+    },
+    {
+      "productId": "ref-hex30402976",
+      "sku": "HEX30402976",
+      "manufacturerReference": "HEX30402976",
+      "supplierReference": "HEX30402976",
+      "imageUrl": "http://www.toolferreterias.com/cdn/shop/files/tornillo-hexagonal-de-acero-inoxidable-de-34-x-2-12-productos-ferreteros-tool-ferreterias-ferretodo-4272373.jpg?v=1763038748",
+      "sourcePage": "https://www.toolferreterias.com/products/tornillo-hexagonal-de-acero-inoxidable-de-3-4-x-2-1-2",
+      "source": "www.toolferreterias.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-hex30402972",
+      "sku": "HEX30402972",
+      "manufacturerReference": "HEX30402972",
+      "supplierReference": "HEX30402972",
+      "imageUrl": "http://ferreteradial.com/cdn/shop/files/TORNILLOHEXAGONALCUERDACORRIDAINOX304.jpg?v=1749047063",
+      "sourcePage": "https://ferreteradial.com/products/tornillo-hexag-unc-inox-304-3-4-10-x-1",
+      "source": "ferreteradial.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-hex30402966",
+      "sku": "HEX30402966",
+      "manufacturerReference": "HEX30402966",
+      "supplierReference": "HEX30402966",
+      "imageUrl": "https://rgafasteners.com/images/largeFit/01ra/3-4-unc-x-2-1-2-hex-bolts-ansi-b18-2-1-a2-304-stainless-steel.jpg",
+      "sourcePage": "https://rgafasteners.com/products/3-4-unc-x-2-1-2-hex-bolts-ansi-b18.2.1-a2-304-stainless-steel-00ow",
+      "source": "rgafasteners.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-hex30403016",
+      "sku": "HEX30403016",
+      "manufacturerReference": "HEX30403016",
+      "supplierReference": "HEX30403016",
+      "imageUrl": "http://www.toolferreterias.com/cdn/shop/files/tornillo-hexagonal-de-acero-inoxidable-de-716-x-1-productos-ferreteros-tool-ferreterias-ferretodo-2380055.jpg?v=1763038750",
+      "sourcePage": "https://www.toolferreterias.com/products/tornillo-hexagonal-de-acero-inoxidable-de-7-16-x-1",
+      "source": "www.toolferreterias.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-hexinox01906",
+      "sku": "HEXINOX01906",
+      "manufacturerReference": "HEXINOX01906",
+      "supplierReference": "HEXINOX01906",
+      "imageUrl": "http://ferreteradial.com/cdn/shop/files/TORNILLOHEXAGONALINOX.jpg?v=1749046972",
+      "sourcePage": "https://ferreteradial.com/products/tornillo-hexag-met-inox-a2-3-x-10-mm",
+      "source": "ferreteradial.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-03",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
     }
   ],
   "validation": {
