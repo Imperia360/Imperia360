@@ -19335,21 +19335,6 @@
       "publishable": true
     },
     {
-      "productId": "hist-IMP-00714",
-      "sku": null,
-      "manufacturerReference": null,
-      "supplierReference": null,
-      "imageUrl": "http://sofalca.com/cdn/shop/files/WWW.SOFALCA.COM_1.png?v=1766423697",
-      "sourcePage": "https://sofalca.com/",
-      "source": "sofalca.com",
-      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
-      "verifiedAt": "2026-10-01",
-      "verificationStatus": "blocked_source",
-      "publishable": false,
-      "blockReason": "Fuente bloqueada por política: sofalca.com",
-      "blockedAt": "2026-10-08"
-    },
-    {
       "productId": "ref-hexmm02458",
       "sku": "HEXMM02458",
       "manufacturerReference": "HEXMM02458",
@@ -19465,6 +19450,86 @@
       "verifiedAt": "2026-11-04",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "ref-tca2h08508",
+      "sku": "TCA2H08508",
+      "manufacturerReference": "TCA2H08508",
+      "supplierReference": "TCA2H08508",
+      "imageUrl": "https://tornirap.com.co/wp-content/uploads/2025/10/TUERCA-2H-GALVANIZADA-1.jpg",
+      "sourcePage": "https://tornirap.com.co/productos/tuercas/tuerca-hexagonal-astm-a194-grado-2h/",
+      "source": "tornirap.com.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-04",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-tcaao2zi08408",
+      "sku": "TCAAO2ZI08408",
+      "manufacturerReference": "TCAAO2ZI08408",
+      "supplierReference": "TCAAO2ZI08408",
+      "imageUrl": "https://www.ferragro.com/cdn/shop/files/Tuerca_Hexag_G2_Zincada_5_16_Unidad_1200x1200.webp?v=1726765695",
+      "sourcePage": "https://www.ferragro.com/products/tuerca-hexag-g2-zincada-5-32-unidad",
+      "source": "www.ferragro.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-04",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-tca2hi08520",
+      "sku": "TCA2HI08520",
+      "manufacturerReference": "TCA2HI08520",
+      "supplierReference": "TCA2HI08520",
+      "imageUrl": "http://www.tornillosytuercas.co/cdn/shop/products/0703_Tuerca_2H_Rosca_Ordinaria_HDG_1_grande.png?v=1752099984",
+      "sourcePage": "https://www.tornillosytuercas.co/products/tuerca-grado-2h-astm-a194-galvanizada-en-caliente",
+      "source": "www.tornillosytuercas.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-04",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-tcaao8z08546",
+      "sku": "TCAAO8Z08546",
+      "manufacturerReference": "TCAAO8Z08546",
+      "supplierReference": "TCAAO8Z08546",
+      "imageUrl": "http://store.glaretum.com/cdn/shop/files/CHTCAH9.jpg?v=1783620537",
+      "sourcePage": "https://store.glaretum.com/products/tuerca-hexagonal-de-1-4-con-acabado-electro-zinc",
+      "source": "store.glaretum.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-04",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-tcaao808542",
+      "sku": "TCAAO808542",
+      "manufacturerReference": "TCAAO808542",
+      "supplierReference": "TCAAO808542",
+      "imageUrl": "https://media.falabella.com/sodimacCO/593402_001/public",
+      "sourcePage": "https://homecenter.falabella.com.co/homecenter-co/product/122451098",
+      "source": "homecenter.falabella.com.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-04",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00714",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "http://sofalca.com/cdn/shop/files/WWW.SOFALCA.COM_1.png?v=1766423697",
+      "sourcePage": "https://sofalca.com/",
+      "source": "sofalca.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-10-01",
+      "verificationStatus": "blocked_source",
+      "publishable": false,
+      "blockReason": "Fuente bloqueada por política: sofalca.com",
+      "blockedAt": "2026-10-08"
     }
   ],
   "validation": {
