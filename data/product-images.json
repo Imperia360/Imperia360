@@ -18926,21 +18926,6 @@
       "publishable": true
     },
     {
-      "productId": "hist-IMP-00714",
-      "sku": null,
-      "manufacturerReference": null,
-      "supplierReference": null,
-      "imageUrl": "http://sofalca.com/cdn/shop/files/WWW.SOFALCA.COM_1.png?v=1766423697",
-      "sourcePage": "https://sofalca.com/",
-      "source": "sofalca.com",
-      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
-      "verifiedAt": "2026-10-01",
-      "verificationStatus": "blocked_source",
-      "publishable": false,
-      "blockReason": "Fuente bloqueada por política: sofalca.com",
-      "blockedAt": "2026-10-08"
-    },
-    {
       "productId": "hist-IMP-00280",
       "sku": null,
       "manufacturerReference": null,
@@ -19296,6 +19281,73 @@
       "verifiedAt": "2026-11-04",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "ref-dryneg03404",
+      "sku": "DRYNEG03404",
+      "manufacturerReference": "DRYNEG03404",
+      "supplierReference": "DRYNEG03404",
+      "imageUrl": "https://roxvan.com/wp-content/uploads/rx-marketing/og/p351901-761d031403.jpg",
+      "sourcePage": "https://roxvan.com/producto/tllo-drywall-aw-ro-10-x-2-0519038/",
+      "source": "roxvan.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-04",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-dryzin03438",
+      "sku": "DRYZIN03438",
+      "manufacturerReference": "DRYZIN03438",
+      "supplierReference": "DRYZIN03438",
+      "imageUrl": "https://flexoneh.com.co/wp-content/uploads/2022/07/4315A.jpg",
+      "sourcePage": "https://flexoneh.com.co/producto/tornillo-drywall-8x1-pulgadas/",
+      "source": "flexoneh.com.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-04",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-dryzin03446",
+      "sku": "DRYZIN03446",
+      "manufacturerReference": "DRYZIN03446",
+      "supplierReference": "DRYZIN03446",
+      "imageUrl": "https://cdn11.bigcommerce.com/s-4kgsw20zr0/products/10598/images/18605/SW_Zinc__00560.1537560581.386.513.jpg?c=2",
+      "sourcePage": "https://whiteheadindustrial.com/8-x-1-1-4-drywall-anchor-self-drilling-zinc-no-swz08l-r100/",
+      "source": "whiteheadindustrial.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-04",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-dryzin03448",
+      "sku": "DRYZIN03448",
+      "manufacturerReference": "DRYZIN03448",
+      "supplierReference": "DRYZIN03448",
+      "imageUrl": "http://matletourneau.com/cdn/shop/files/d68c21185cb8528393f38d1f0242a2070a945f78_73020047_001_600x.jpg?v=1781120677",
+      "sourcePage": "https://matletourneau.com/en/products/wallgripper-self-drilling-gypsum-expander-plug-of-8-x-2-14-8-units-73020047",
+      "source": "matletourneau.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-04",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00714",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "http://sofalca.com/cdn/shop/files/WWW.SOFALCA.COM_1.png?v=1766423697",
+      "sourcePage": "https://sofalca.com/",
+      "source": "sofalca.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-10-01",
+      "verificationStatus": "blocked_source",
+      "publishable": false,
+      "blockReason": "Fuente bloqueada por política: sofalca.com",
+      "blockedAt": "2026-10-08"
     }
   ],
   "validation": {
