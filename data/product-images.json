@@ -20882,21 +20882,6 @@
       "publishable": true
     },
     {
-      "productId": "hist-IMP-00714",
-      "sku": null,
-      "manufacturerReference": null,
-      "supplierReference": null,
-      "imageUrl": "http://sofalca.com/cdn/shop/files/WWW.SOFALCA.COM_1.png?v=1766423697",
-      "sourcePage": "https://sofalca.com/",
-      "source": "sofalca.com",
-      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
-      "verifiedAt": "2026-10-01",
-      "verificationStatus": "blocked_source",
-      "publishable": false,
-      "blockReason": "Fuente bloqueada por política: sofalca.com",
-      "blockedAt": "2026-10-08"
-    },
-    {
       "productId": "ref-dryzin03456",
       "sku": "DRYZIN03456",
       "manufacturerReference": "DRYZIN03456",
@@ -22286,6 +22271,86 @@
       "verifiedAt": "2026-11-06",
       "verificationStatus": "verified_source_image",
       "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00294",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "http://electrocromos.com.co/cdn/shop/files/ProductosconformatoparaShopify_82_edfcf34e-855f-45d8-a0ae-4d2290910e74.png?v=1769538916",
+      "sourcePage": "https://electrocromos.com.co/products/broca-madera-corta-mp-tools",
+      "source": "electrocromos.com.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-06",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00297",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://media.falabella.com/sodimacCO/593330_01/public",
+      "sourcePage": "https://homecenter.falabella.com.co/homecenter-co/product/128186913/Punta-Torx-Larga-T30X2-1-Unidad/128187011",
+      "source": "homecenter.falabella.com.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-06",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00296",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://ww3.ferreteriayherramientas.com/wp-content/uploads/DEWALT-Punta-Phillips-2-X-2-P.jpg",
+      "sourcePage": "https://ww3.ferreteriayherramientas.com/ferreteria/varios/punta-phillips/",
+      "source": "ww3.ferreteriayherramientas.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-06",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00295",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://rhino.com.co/wp-content/uploads/rsux-og/24676-0aaa98bb15.jpg",
+      "sourcePage": "https://rhino.com.co/producto/broca-escalonada-4-20mm-vorel/",
+      "source": "rhino.com.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-06",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00305",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://rhino.com.co/wp-content/uploads/rsux-og/17456-f2128f2ebe.jpg",
+      "sourcePage": "https://rhino.com.co/producto/disco-flap-makita-7-zirconio-grano-60-d-63834/",
+      "source": "rhino.com.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-06",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00714",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "http://sofalca.com/cdn/shop/files/WWW.SOFALCA.COM_1.png?v=1766423697",
+      "sourcePage": "https://sofalca.com/",
+      "source": "sofalca.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-10-01",
+      "verificationStatus": "blocked_source",
+      "publishable": false,
+      "blockReason": "Fuente bloqueada por política: sofalca.com",
+      "blockedAt": "2026-10-08"
     }
   ],
   "validation": {
