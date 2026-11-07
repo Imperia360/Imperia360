@@ -23055,6 +23055,32 @@
       "publishable": true
     },
     {
+      "productId": "hist-IMP-00681",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://yaxa.co/_img/IVyedlrAK13TNVCuH719poefUprPzH3B1cxZO5_m_Q0/rs:fit:1200:1200:0/q:82/aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzErNUJCMzNBNUwuX0FDX1NMMTUwMF8uanBn.webp",
+      "sourcePage": "https://yaxa.co/products/foreman-caja-para-plantar-jardin-fabricado-en-los-estados-unidos-con-una-garantia-de-20-anos-para-interiores-y-exteriores-amaretto/",
+      "source": "yaxa.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-07",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00686",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "http://ferreteriacali.com/cdn/shop/collections/dame-una-imagen-que-represente-la-coleccion-convertidores-y-accesorios-especiales-aqui-vamos-a-poner-todos-los-accesorios-especiales-apra-herramientas-electricas-tambien-novedades-la.png?v=1766093701",
+      "sourcePage": "https://ferreteriacali.com/collections/convertidores-accesorios-especiales",
+      "source": "ferreteriacali.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-07",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
       "productId": "hist-IMP-00722",
       "sku": null,
       "manufacturerReference": null,
