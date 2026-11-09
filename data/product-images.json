@@ -23861,6 +23861,19 @@
       "publishable": true
     },
     {
+      "productId": "ref-ao2zin00570",
+      "sku": "AO2ZIN00570",
+      "manufacturerReference": "AO2ZIN00570",
+      "supplierReference": "AO2ZIN00570",
+      "imageUrl": "https://coseimpa.com/wp-content/uploads/2026/01/1581147212053.webp",
+      "sourcePage": "https://coseimpa.com/producto/tuerca-hexagonal-g2-unc-zinc-1-4-20-6pzas-053-distorblister/",
+      "source": "coseimpa.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-09",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
       "productId": "hist-IMP-00722",
       "sku": null,
       "manufacturerReference": null,
