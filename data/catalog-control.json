@@ -124,12 +124,12 @@
     "noInventedImages": true,
     "currentMasterAudit": {
       "products": 1526,
-      "withImage": 1828,
+      "withImage": 1829,
       "withoutImage": 0,
-      "uniqueProductIds": 1828,
+      "uniqueProductIds": 1829,
       "duplicateProductIds": 0,
-      "publishableImages": 1824,
-      "verifiedSourceImages": 1824,
+      "publishableImages": 1825,
+      "verifiedSourceImages": 1825,
       "blockedSourceImages": 4,
       "blockedSourceImagePolicy": "sofalca.com"
     },
@@ -156,7 +156,7 @@
       ],
       "progressiveUpdate": true
     },
-    "lastReconciledAt": "2026-11-09",
+    "lastReconciledAt": "2026-11-10",
     "reconciliationSource": "data/products.json + data/product-images.json"
   },
   "namingPolicy": {
@@ -202,7 +202,7 @@
     "status": "evidence_collected_margin_ceiling_calculated",
     "rule": "No fijar margen real ni costo IMPERIA hasta cruzar costo proveedor verificable."
   },
-  "lastExecution": "2026-11-09",
+  "lastExecution": "2026-11-10",
   "executionStatus": "executed_rules_hardened",
   "lastExecutionEvidence": {
     "webSearch": "Fresh web evidence checked across construction, safety, waterproofing, wholesale and tools.",
@@ -214,7 +214,7 @@
       "PresuCosto Colombia 2026"
     ],
     "note": "Only evidence suitable for exact product matching should be promoted to product pricing; generic or $1 placeholder catalog entries are not accepted as prices.",
-    "imageAudit": "1828 registros de imagen; 1828 productId únicos; 1824 publicables; 1824 verificados; 4 bloqueados por fuente.",
+    "imageAudit": "1829 registros de imagen; 1829 productId únicos; 1825 publicables; 1825 verificados; 4 bloqueados por fuente.",
     "repositoryImprovement": "Control maestro reconciliado automáticamente contra los archivos reales; las fuentes bloqueadas se conservan para trazabilidad y no se publican."
   },
   "searchPolicy": {
