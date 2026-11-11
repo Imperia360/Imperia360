@@ -25083,6 +25083,58 @@
       "publishable": true
     },
     {
+      "productId": "hist-IMP-00657",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://helbertycia.com/uploads/categorias/tzuPQJOv7J.jpeg",
+      "sourcePage": "https://helbertycia.com/categoria/kits-plomero-helbert",
+      "source": "helbertycia.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-11",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00662",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://www.greenforest.com.co/wp-content/uploads/2020/05/JJ-4E1.jpg",
+      "sourcePage": "https://greenforest.com.co/producto/juego-herramientas-jardineria-truper/",
+      "source": "greenforest.com.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-11",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00670",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://cdnx.jumpseller.com/universaldetornillosyherr/image/32239383/resize/1200/1200?1742660542",
+      "sourcePage": "https://www.unitorni.co/abrasivos/discos",
+      "source": "www.unitorni.co",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-11",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "hist-IMP-00676",
+      "sku": null,
+      "manufacturerReference": null,
+      "supplierReference": null,
+      "imageUrl": "https://ferreteriaelingenio.com/wp-content/uploads/2021/05/VENTILACION.png",
+      "sourcePage": "https://ferreteriaelingenio.com/productos/tuberias-y-accesorios-pvc/",
+      "source": "ferreteriaelingenio.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-11",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
       "productId": "hist-IMP-00723",
       "sku": null,
       "manufacturerReference": null,
