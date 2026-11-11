@@ -25057,6 +25057,32 @@
       "publishable": true
     },
     {
+      "productId": "ref-tcaao2zi08415",
+      "sku": "TCAAO2ZI08415",
+      "manufacturerReference": "TCAAO2ZI08415",
+      "supplierReference": "TCAAO2ZI08415",
+      "imageUrl": "https://jeyzaguirre.cl/wp-content/uploads/2023/05/Asset-3@4x.png",
+      "sourcePage": "https://jeyzaguirre.cl/producto/tuerca-hex-unc-g2-3-4-10-hilos/",
+      "source": "jeyzaguirre.cl",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-11",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-tcaao2zi08416",
+      "sku": "TCAAO2ZI08416",
+      "manufacturerReference": "TCAAO2ZI08416",
+      "supplierReference": "TCAAO2ZI08416",
+      "imageUrl": "https://tornifast.com/media/catalog/product/cache/bb639c9429b00fc963495c9a486624c3/0/2/02002.jpg",
+      "sourcePage": "https://tornifast.com/tuerca-hexagonal-liviana-g2-nc-8h-galvanizada-1.html",
+      "source": "tornifast.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-11",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
       "productId": "hist-IMP-00723",
       "sku": null,
       "manufacturerReference": null,
