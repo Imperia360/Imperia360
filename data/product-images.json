@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-11",
   "policy": {
     "requiredForActive": true,
     "noInventedImages": true,
@@ -25027,6 +25027,32 @@
       "source": "www.sumatec.co",
       "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
       "verifiedAt": "2026-11-10",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-hexinox01957",
+      "sku": "HEXINOX01957",
+      "manufacturerReference": "HEXINOX01957",
+      "supplierReference": "HEXINOX01957",
+      "imageUrl": "https://www.chavesbao.com/wp-content/uploads/2024/02/chavesbao-meta.png",
+      "sourcePage": "https://www.chavesbao.com/tornilleria/tornillos/tornillos-hexagonales/din-933-a2/",
+      "source": "www.chavesbao.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-11",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
+      "productId": "ref-hexinox01958",
+      "sku": "HEXINOX01958",
+      "manufacturerReference": "HEXINOX01958",
+      "supplierReference": "HEXINOX01958",
+      "imageUrl": "https://entaban.es/9732-large_default/tornillo-hexagonal-din-933-inoxidable-a2.jpg",
+      "sourcePage": "https://entaban.es/hexagonales/138-tornillo-hexagonal-din-933-inoxidable-a2.html",
+      "source": "entaban.es",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-11",
       "verificationStatus": "verified_source_image",
       "publishable": true
     },
