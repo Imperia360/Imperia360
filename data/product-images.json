@@ -25200,6 +25200,19 @@
       "publishable": true
     },
     {
+      "productId": "ref-hextira09099",
+      "sku": "HEXTIRA09099",
+      "manufacturerReference": "HEXTIRA09099",
+      "supplierReference": "HEXTIRA09099",
+      "imageUrl": "https://www.andicomer.com/og-image.png",
+      "sourcePage": "https://www.andicomer.com/",
+      "source": "www.andicomer.com",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-14",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
       "productId": "hist-IMP-00723",
       "sku": null,
       "manufacturerReference": null,
