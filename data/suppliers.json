@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "purpose": "Registro maestro de proveedores y fuentes comerciales verificables para IMPERIA 360.",
+  "version": "1.1.0",
+  "purpose": "Registro de fuentes comerciales y proveedores potenciales. La presencia en esta lista NO significa que exista contrato, conexión operativa, beneficiario verificado ni autorización de pagos.",
   "rules": [
     "No se crean productos a partir de un proveedor sin fuente verificable.",
     "Una fuente sin precio público se conserva como fuente de referencia y se marca quote_only.",
@@ -13,64 +13,120 @@
       "name": "Roxvan",
       "type": "mayorista",
       "country": "Colombia",
-      "status": "active",
-      "notes": "Catálogo B2B con escalas 1-2, 3-11 y 12+ en productos publicados."
+      "status": "source_only",
+      "notes": "Catálogo B2B con escalas 1-2, 3-11 y 12+ en productos publicados.",
+      "sourceStatus": "active",
+      "integrationStatus": "not_connected",
+      "beneficiaryVerificationStatus": "not_verified",
+      "orderChannel": null,
+      "payoutMethod": null,
+      "coverageVerified": false
     },
     {
       "id": "sup-sofalca",
       "name": "Sofalca",
       "type": "ferreteria_distribuidor",
       "country": "Colombia",
-      "status": "active",
-      "notes": "Catálogo online con productos y precios publicados."
+      "status": "source_only",
+      "notes": "Catálogo online con productos y precios publicados.",
+      "sourceStatus": "active",
+      "integrationStatus": "not_connected",
+      "beneficiaryVerificationStatus": "not_verified",
+      "orderChannel": null,
+      "payoutMethod": null,
+      "coverageVerified": false
     },
     {
       "id": "sup-mundial",
       "name": "Mundial de Tornillos",
       "type": "distribuidor",
       "country": "Colombia",
-      "status": "active",
-      "notes": "Fuente prioritaria para tornillería y fijaciones; precio debe verificarse cuando el sitio no lo publique."
+      "status": "source_only",
+      "notes": "Fuente prioritaria para tornillería y fijaciones; precio debe verificarse cuando el sitio no lo publique.",
+      "sourceStatus": "active",
+      "integrationStatus": "not_connected",
+      "beneficiaryVerificationStatus": "not_verified",
+      "orderChannel": null,
+      "payoutMethod": null,
+      "coverageVerified": false
     },
     {
       "id": "sup-777",
       "name": "Tornillos y Herramientas 777",
       "type": "distribuidor",
       "country": "Colombia",
-      "status": "active",
-      "notes": "Fuente prioritaria para tornillería y herramientas."
+      "status": "source_only",
+      "notes": "Fuente prioritaria para tornillería y herramientas.",
+      "sourceStatus": "active",
+      "integrationStatus": "not_connected",
+      "beneficiaryVerificationStatus": "not_verified",
+      "orderChannel": null,
+      "payoutMethod": null,
+      "coverageVerified": false
     },
     {
       "id": "sup-tyt",
       "name": "Tornillos y Tuercas Co.",
       "type": "tienda_especializada",
       "country": "Colombia",
-      "status": "active",
-      "notes": "Publica precios unitarios y disponibilidad para referencias listadas."
+      "status": "source_only",
+      "notes": "Publica precios unitarios y disponibilidad para referencias listadas.",
+      "sourceStatus": "active",
+      "integrationStatus": "not_connected",
+      "beneficiaryVerificationStatus": "not_verified",
+      "orderChannel": null,
+      "payoutMethod": null,
+      "coverageVerified": false
     },
     {
       "id": "sup-fercar",
       "name": "Tornillos Fercar",
       "type": "fabricante_distribuidor",
       "country": "Colombia",
-      "status": "active",
-      "notes": "Fuente de referencias de tornillería industrial y estructural; precios por cotización cuando no estén publicados."
+      "status": "source_only",
+      "notes": "Fuente de referencias de tornillería industrial y estructural; precios por cotización cuando no estén publicados.",
+      "sourceStatus": "active",
+      "integrationStatus": "not_connected",
+      "beneficiaryVerificationStatus": "not_verified",
+      "orderChannel": null,
+      "payoutMethod": null,
+      "coverageVerified": false
     },
     {
       "id": "sup-corbeta",
       "name": "Corbeta",
       "type": "mayorista",
       "country": "Colombia",
-      "status": "active",
-      "notes": "Fuente amplia para ferretería, herramientas, plomería, grifería y construcción."
+      "status": "source_only",
+      "notes": "Fuente amplia para ferretería, herramientas, plomería, grifería y construcción.",
+      "sourceStatus": "active",
+      "integrationStatus": "not_connected",
+      "beneficiaryVerificationStatus": "not_verified",
+      "orderChannel": null,
+      "payoutMethod": null,
+      "coverageVerified": false
     },
     {
       "id": "sup-coval",
       "name": "Coval",
       "type": "distribuidor",
       "country": "Colombia",
-      "status": "active",
-      "notes": "Fuente para construcción, PVC, sanitario, gas, soldadura y categorías relacionadas."
+      "status": "source_only",
+      "notes": "Fuente para construcción, PVC, sanitario, gas, soldadura y categorías relacionadas.",
+      "sourceStatus": "active",
+      "integrationStatus": "not_connected",
+      "beneficiaryVerificationStatus": "not_verified",
+      "orderChannel": null,
+      "payoutMethod": null,
+      "coverageVerified": false
     }
-  ]
+  ],
+  "model": "IMPERIA_COLLECTS_AND_SETTLES_SUPPLIER",
+  "activationPolicy": [
+    "status=source_only hasta verificar identidad legal, contacto autorizado, condiciones comerciales y beneficiario de pago.",
+    "No activar pedidos ni pagos por el solo hecho de tener una URL o un precio público.",
+    "Cada proveedor debe tener integrationStatus y beneficiaryVerificationStatus verificados antes de habilitarlo.",
+    "Las claves y tokens de integración viven solo en secretos del backend, nunca en este archivo."
+  ],
+  "updatedAt": "2026-11-17"
 }
