@@ -25707,6 +25707,19 @@
       "publishable": true
     },
     {
+      "productId": "aud-0162",
+      "sku": "10013987",
+      "manufacturerReference": "10013987",
+      "supplierReference": null,
+      "imageUrl": "https://construcentro.com.co/storage/products/Uk1MjIslnFPbYyQf2hjjZpLWxbciNAOERa86S9Oo.png",
+      "sourcePage": "https://construcentro.com.co/Producto-Construcentro-Fonseca/PINTURA%20VINIL%20LATEX%20BLANCO%20TIPO%202%2065232%20%281GL%29%20%2810013987%29%20TERINSA",
+      "source": "Construcentro",
+      "match": "source page identity matched by SKU/reference or product-name evidence; og:image extracted",
+      "verifiedAt": "2026-11-22",
+      "verificationStatus": "verified_source_image",
+      "publishable": true
+    },
+    {
       "productId": "hist-IMP-00723",
       "sku": null,
       "manufacturerReference": null,
