@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "consultedAt": "2026-11-24T15:48:56.658Z",
+  "consultedAt": "2026-11-25T15:32:50.723Z",
   "status": "FAILED",
   "sourcesQueried": 51,
   "successfulQueries": 0,
@@ -7371,5 +7371,5 @@
     }
   ],
   "fallbackResultsAdded": 0,
-  "lastMergedAt": "2026-11-24T15:49:02.883Z"
+  "lastMergedAt": "2026-11-25T15:32:53.233Z"
 }
